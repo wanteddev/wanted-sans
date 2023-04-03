@@ -3,7 +3,11 @@ glyphname = seven;
 layers = (
 {
 layerId = m01;
-width = 1229;
+width = 1200;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+width = 1200;
 }
 );
 unicode = 55;
