@@ -187,6 +187,10 @@ over = -16;
 }
 );
 name = Black;
+userData = {
+GSOffsetHorizontal = 106;
+GSOffsetVertical = 0;
+};
 }
 );
 instances = (
@@ -375,8 +379,8 @@ HV = "400";
 OH = "384";
 OV = "408";
 nV = "384";
-oH = "376";
-oV = "392";
+oH = "360";
+oV = "376";
 tH = "328";
 };
 m01 = {

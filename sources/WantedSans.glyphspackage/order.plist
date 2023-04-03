@@ -34,6 +34,7 @@ f,
 g,
 h,
 i,
+idotless,
 j,
 k,
 l,
@@ -64,5 +65,6 @@ nine,
 space,
 period,
 comma,
-hyphen
+hyphen,
+_part.shoulder
 )
