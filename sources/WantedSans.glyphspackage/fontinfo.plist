@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3184";
 .formatVersion = 3;
 customParameters = (
 {
@@ -72,19 +72,18 @@ metricValues = (
 pos = 1950;
 },
 {
-over = 24;
+over = 28;
 pos = 1448;
 },
 {
-over = 24;
-pos = 1080;
+over = 28;
+pos = 1032;
 },
 {
-over = -24;
+over = -28;
 },
 {
-over = -24;
-pos = -416;
+pos = -494;
 },
 {
 over = -16;
@@ -138,6 +137,10 @@ type = descender;
 type = "italic angle";
 }
 );
+note = "Metric:
+- x-height: 0.7125
+- Cap overshoot: Cap height * (0.0375 / 2) + 1 = 28
+- Low overshoot: x-height * ((0.0375 + 0.0125) / 2) + 1 = 28";
 properties = (
 {
 key = designers;
