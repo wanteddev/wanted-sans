@@ -2,6 +2,12 @@
 glyphname = l;
 layers = (
 {
+anchors = (
+{
+name = "#exit";
+pos = (292,0);
+}
+);
 layerId = m01;
 metricRight = "=|l";
 shapes = (
@@ -18,19 +24,26 @@ nodes = (
 width = 412;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (480,0);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|l";
 shapes = (
 {
 closed = 1;
 nodes = (
-(496,0,l),
-(496,1448,l),
-(112,1448,l),
-(112,0,l)
+(480,0,l),
+(480,1448,l),
+(96,1448,l),
+(96,0,l)
 );
 }
 );
-width = 608;
+width = 576;
 }
 );
 metricLeft = n;

@@ -3,12 +3,36 @@ glyphname = I;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(300,1448,l),
+(120,1448,l),
+(120,0,l)
+);
+}
+);
+width = 420;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,0,l),
+(496,1448,l),
+(96,1448,l),
+(96,0,l)
+);
 }
 );
+width = 592;
+}
+);
+metricLeft = H;
+metricRight = H;
 unicode = 73;
 }

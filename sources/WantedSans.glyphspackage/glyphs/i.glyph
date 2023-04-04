@@ -3,11 +3,27 @@ glyphname = i;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+ref = idotless;
+},
+{
+ref = dotaccentcomb;
+}
+);
+width = 412;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+ref = idotless;
+},
+{
+ref = dotaccentcomb;
+}
+);
+width = 576;
 }
 );
 unicode = 105;
