@@ -3,12 +3,37 @@ glyphname = l;
 layers = (
 {
 layerId = m01;
-width = 1200;
+metricRight = "=|l";
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,0,l),
+(292,1446,l),
+(120,1446,l),
+(120,0,l)
+);
+}
+);
+width = 412;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,0,l),
+(496,1448,l),
+(112,1448,l),
+(112,0,l)
+);
 }
 );
+width = 608;
+}
+);
+metricLeft = n;
+metricRight = idotless;
 unicode = 108;
 }

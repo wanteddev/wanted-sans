@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-03 02:58:10 +0000";
+date = "2023-04-04 06:49:58 +0000";
 familyName = "Wanted Sans";
 fontMaster = (
 {
@@ -298,7 +298,10 @@ type = descender;
 type = "italic angle";
 }
 );
-note = "Metric:
+note = "About:
+- Geometric with a heart, Humanist with a soul
+
+Metric:
 - x-height: 0.7125
 - Cap overshoot: Cap height * (0.0375 / 2) + 1 = 28
 - Low overshoot: x-height * ((0.0375 + 0.0125) / 2) + 1 = 28
@@ -310,14 +313,31 @@ Thickness:
 
 Essential Glyph:
 - H: 0.8:1
-- O: 0.95:1";
+- O: 0.95:1
+
+Family tree:
+- Circular + Twentieth Century + Avenir
+
+Insight:
+- Erbar Grotesk(1926)는 특징이 없고 읽기 쉬우며, 순수한 타이포그래피를 지향했다.
+- Futura(1928)은 기하학적 조형 원리를 바탕으로 견고하면서도 읽기 쉬운 타이포그래피를 지향했다.
+- Twentieth Century(1959)는 Futura를 견제하고자 Futura 대체 글꼴을 제작했다.
+- Avenir(1988)은 20세기 초 건조한 지오메트릭 산세리프 형태에서 휴머니스트 스타일을 결합한 자연스러운 타이포그래피를 지향했다.
+- Circular(2013)는 그동안의 지오메트릭 산세리프 형태를 바탕으로 자연스럽고 노련한 타이포그래피를 지향했다.
+- Volte(2016)은 건조한 지오메트릭 산세리프 형태에서 모양을 열어 트렌디한 타이포그래피를 지향했다.
+
+Reference:
+- Twentieth Century
+- Circular
+- Avenir
+- Volte";
 properties = (
 {
 key = designers;
 values = (
 {
 language = dflt;
-value = "Kang Hanbin, Kil Hyung-jin";
+value = "Kil Hyung-jin, Kang Hanbin";
 }
 );
 },
@@ -381,7 +401,7 @@ OV = "408";
 nV = "384";
 oH = "360";
 oV = "376";
-tH = "328";
+tH = "304";
 };
 m01 = {
 HH = "168";

@@ -3,11 +3,25 @@ glyphname = d;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+pos = (1186,0);
+ref = b;
+scale = (-1,1);
+}
+);
+width = 1186;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+pos = (1238,0);
+ref = b;
+scale = (-1,1);
+}
+);
+width = 1238;
 }
 );
 unicode = 100;
