@@ -4,32 +4,65 @@ layers = (
 {
 annotations = (
 {
-pos = (478,1254);
-text = "q랑 함께 decender 조정 필요";
+pos = (653.555,-272.504);
+text = "decender 결정 필요";
 type = Text;
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (0,1032);
-ref = b;
+closed = 1;
+nodes = (
+(120,-414,l),
+(292,-414,l),
+(292,208,l),
+(246,516,l),
+(292,790,l),
+(292,1032,l),
+(120,1032,l)
+);
+},
+{
+pos = (292,1032);
+ref = _part.bowl;
 scale = (1,-1);
 }
 );
 width = 1184;
 },
 {
+annotations = (
+{
+pos = (653.555,-272.504);
+text = "decender 결정 필요";
+type = Text;
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (0,1032);
-ref = b;
+closed = 1;
+nodes = (
+(96,-414,l),
+(480,-414,l),
+(480,208,l),
+(434,516,l),
+(480,790,l),
+(480,1032,l),
+(96,1032,l)
+);
+},
+{
+pos = (480,1032);
+ref = _part.bowl;
 scale = (1,-1);
 }
 );
 width = 1224;
 }
 );
+metricLeft = n;
+metricRight = b;
 unicode = 112;
 }

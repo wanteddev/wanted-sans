@@ -67,5 +67,7 @@ period,
 comma,
 hyphen,
 dotaccentcomb,
-_part.shoulder
+_part.bowl,
+_part.shoulder,
+_smart.terminal
 )

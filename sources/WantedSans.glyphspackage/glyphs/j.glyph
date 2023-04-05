@@ -2,13 +2,58 @@
 glyphname = j;
 layers = (
 {
-layerId = m01;
-width = 1200;
-},
+annotations = (
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+pos = (10,-494);
+text = "decender 결정 필요";
+type = Text;
 }
 );
+layerId = m01;
+shapes = (
+{
+piece = {
+Bottom = 99.28247;
+};
+pos = (460,0);
+ref = _smart.terminal;
+scale = (-1,1);
+},
+{
+alignment = 1;
+pos = (72,0);
+ref = dotaccentcomb;
+}
+);
+width = 460;
+},
+{
+annotations = (
+{
+pos = (122,-478);
+text = "decender 결정 필요";
+type = Text;
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Bottom = 99.38706;
+};
+pos = (612,0);
+ref = _smart.terminal;
+scale = (-1,1);
+},
+{
+alignment = 1;
+pos = (60,0);
+ref = dotaccentcomb;
+}
+);
+width = 612;
+}
+);
+metricRight = i;
 unicode = 106;
 }
