@@ -35,7 +35,7 @@ pos = (292,0);
 ref = _part.bowl;
 }
 );
-width = 1186;
+width = 1200;
 },
 {
 background = {
@@ -65,7 +65,7 @@ pos = (480,0);
 ref = _part.bowl;
 }
 );
-width = 1224;
+width = 1276;
 },
 {
 associatedMasterId = m01;
