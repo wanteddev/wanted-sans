@@ -2,12 +2,118 @@
 glyphname = v;
 layers = (
 {
+annotations = (
+{
+pos = (672,1196);
+text = "w single*1.1625";
+type = Text;
+}
+);
 layerId = m01;
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(600,0,l),
+(202,1032,l),
+(24,1032,l),
+(436,0,l)
+);
 },
 {
+closed = 1;
+nodes = (
+(1072,1032,l),
+(894,1032,l),
+(496,0,l),
+(660,0,l)
+);
+}
+);
+width = 1096;
+},
+{
+annotations = (
+{
+pos = (672,1196);
+text = "w single*1.1625";
+type = Text;
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(808,0,l),
+(434,1032,l),
+(32,1032,l),
+(460,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1292,1032,l),
+(890,1032,l),
+(516,0,l),
+(864,0,l)
+);
+}
+);
+width = 1324;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "69472AD0-5E32-4CEA-8196-BE3E9FCB16F4";
+name = "Apr 5, 23 16:59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(722,0,l),
+(434,1032,l),
+(32,1032,l),
+(378,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1116,1032,l),
+(714,1032,l),
+(426,0,l),
+(770,0,l)
+);
+}
+);
+width = 1148;
+},
+{
+associatedMasterId = m01;
+layerId = "F846EDF4-11E4-4731-AB82-C9761C8A4B1F";
+name = "Apr 5, 23 16:59";
+shapes = (
+{
+closed = 1;
+nodes = (
+(530,0,l),
+(202,1032,l),
+(24,1032,l),
+(370,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(926,1032,l),
+(748,1032,l),
+(420,0,l),
+(580,0,l)
+);
+}
+);
+width = 950;
 }
 );
 unicode = 118;
