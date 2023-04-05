@@ -16,6 +16,44 @@ value = (
 );
 date = "2023-04-05 04:54:24 +0000";
 familyName = "Wanted Sans";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature cv01;
+feature cv02;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [dotaccentcomb];
+	sub [i]' @CombiningTopAccents by [idotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "sub j by j.cv01;
+";
+tag = cv01;
+},
+{
+automatic = 1;
+code = "sub t by t.cv02;
+";
+tag = cv02;
+}
+);
 fontMaster = (
 {
 axesValues = (
