@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _part.shoulder;
+glyphname = _smart.shoulder;
 layers = (
 {
 anchors = (

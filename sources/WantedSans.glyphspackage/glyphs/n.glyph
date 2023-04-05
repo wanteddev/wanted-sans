@@ -9,7 +9,7 @@ ref = idotless;
 },
 {
 pos = (292,0);
-ref = _part.shoulder;
+ref = _smart.shoulder;
 }
 );
 width = 1070;
@@ -22,7 +22,7 @@ ref = idotless;
 },
 {
 pos = (480,0);
-ref = _part.shoulder;
+ref = _smart.shoulder;
 }
 );
 width = 1264;
