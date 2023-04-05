@@ -1,22 +1,14 @@
 {
-color = 0;
 glyphname = p;
 layers = (
 {
-annotations = (
-{
-pos = (653.555,-272.504);
-text = "decender 결정 필요";
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(120,-414,l),
-(292,-414,l),
+(120,-434,l),
+(292,-434,l),
 (292,208,l),
 (246,516,l),
 (292,790,l),
@@ -33,20 +25,13 @@ scale = (1,-1);
 width = 1200;
 },
 {
-annotations = (
-{
-pos = (653.555,-272.504);
-text = "decender 결정 필요";
-type = Text;
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 closed = 1;
 nodes = (
-(96,-414,l),
-(480,-414,l),
+(96,-434,l),
+(480,-434,l),
 (480,208,l),
 (434,516,l),
 (480,790,l),

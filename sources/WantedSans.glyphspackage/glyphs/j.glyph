@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = j;
 layers = (
 {
@@ -14,7 +13,7 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Bottom = 99.28247;
+Bottom = 104.4;
 };
 pos = (484,0);
 ref = _smart.terminal;
@@ -41,7 +40,7 @@ name = Black;
 shapes = (
 {
 piece = {
-Bottom = 99.38706;
+Bottom = 104.4;
 };
 pos = (636,0);
 ref = _smart.terminal;
