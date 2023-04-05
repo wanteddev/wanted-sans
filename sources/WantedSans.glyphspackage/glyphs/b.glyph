@@ -32,7 +32,7 @@ nodes = (
 },
 {
 pos = (292,0);
-ref = _part.bowl;
+ref = _smart.bowl;
 }
 );
 width = 1200;
@@ -62,7 +62,7 @@ nodes = (
 },
 {
 pos = (480,0);
-ref = _part.bowl;
+ref = _smart.bowl;
 }
 );
 width = 1276;

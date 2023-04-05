@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _part.bowl;
+glyphname = _smart.bowl;
 layers = (
 {
 annotations = (

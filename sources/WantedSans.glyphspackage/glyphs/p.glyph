@@ -18,7 +18,7 @@ nodes = (
 },
 {
 pos = (292,1032);
-ref = _part.bowl;
+ref = _smart.bowl;
 scale = (1,-1);
 }
 );
@@ -41,7 +41,7 @@ nodes = (
 },
 {
 pos = (480,1032);
-ref = _part.bowl;
+ref = _smart.bowl;
 scale = (1,-1);
 }
 );
