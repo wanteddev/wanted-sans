@@ -18,7 +18,7 @@ piece = {
 Terminal = 0;
 Top = 53.8028;
 };
-pos = (146,0);
+pos = (122,0);
 ref = _smart.terminal;
 }
 );
@@ -40,7 +40,7 @@ nodes = (
 piece = {
 Top = 58.88313;
 };
-pos = (132,0);
+pos = (108,0);
 ref = _smart.terminal;
 }
 );

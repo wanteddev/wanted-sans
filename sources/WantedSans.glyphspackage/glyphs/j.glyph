@@ -15,7 +15,7 @@ shapes = (
 piece = {
 Bottom = 99.28247;
 };
-pos = (460,0);
+pos = (484,0);
 ref = _smart.terminal;
 scale = (-1,1);
 },
@@ -25,7 +25,7 @@ pos = (72,0);
 ref = dotaccentcomb;
 }
 );
-width = 460;
+width = 484;
 },
 {
 annotations = (
@@ -41,7 +41,7 @@ shapes = (
 piece = {
 Bottom = 99.38706;
 };
-pos = (612,0);
+pos = (636,0);
 ref = _smart.terminal;
 scale = (-1,1);
 },
@@ -51,7 +51,7 @@ pos = (60,0);
 ref = dotaccentcomb;
 }
 );
-width = 612;
+width = 636;
 }
 );
 metricRight = i;
