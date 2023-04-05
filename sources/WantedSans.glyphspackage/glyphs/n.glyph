@@ -25,7 +25,7 @@ pos = (480,0);
 ref = _smart.shoulder;
 }
 );
-width = 1264;
+width = 1230;
 }
 );
 unicode = 110;
