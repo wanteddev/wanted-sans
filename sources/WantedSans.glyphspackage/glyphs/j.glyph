@@ -2,13 +2,6 @@
 glyphname = j;
 layers = (
 {
-annotations = (
-{
-pos = (10,-494);
-text = "decender 결정 필요";
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -28,13 +21,6 @@ ref = dotaccentcomb;
 width = 484;
 },
 {
-annotations = (
-{
-pos = (122,-478);
-text = "decender 결정 필요";
-type = Text;
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 name = Black;
 shapes = (

@@ -2,13 +2,6 @@
 glyphname = v;
 layers = (
 {
-annotations = (
-{
-pos = (672,1196);
-text = "w single*1.1625";
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -33,13 +26,6 @@ nodes = (
 width = 1096;
 },
 {
-annotations = (
-{
-pos = (672,1196);
-text = "w single*1.1625";
-type = Text;
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
@@ -114,6 +100,58 @@ nodes = (
 }
 );
 width = 950;
+},
+{
+associatedMasterId = m01;
+layerId = "00A0A078-9F6C-44DC-892C-03C486607584";
+name = "w single 116.25%";
+shapes = (
+{
+closed = 1;
+nodes = (
+(600,0,l),
+(202,1032,l),
+(24,1032,l),
+(436,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1072,1032,l),
+(894,1032,l),
+(496,0,l),
+(660,0,l)
+);
+}
+);
+width = 1096;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "E6074C35-97E8-48A2-97C4-14B14DB85C80";
+name = "w single 116.25%";
+shapes = (
+{
+closed = 1;
+nodes = (
+(808,0,l),
+(434,1032,l),
+(32,1032,l),
+(460,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1292,1032,l),
+(890,1032,l),
+(516,0,l),
+(864,0,l)
+);
+}
+);
+width = 1324;
 }
 );
 unicode = 118;
