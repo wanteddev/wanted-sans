@@ -35,7 +35,7 @@ pos = (292,0);
 ref = _part.bowl;
 }
 );
-width = 1184;
+width = 1186;
 },
 {
 background = {

@@ -3,6 +3,13 @@ export = 0;
 glyphname = _part.bowl;
 layers = (
 {
+annotations = (
+{
+pos = (308,1330);
+text = "o랑 같이 중간 폭을 맞춰보자, 지금은 o와 너비 차이가 도드라져보임";
+type = Text;
+}
+);
 background = {
 shapes = (
 {
@@ -78,9 +85,16 @@ nodes = (
 );
 }
 );
-width = 892;
+width = 894;
 },
 {
+annotations = (
+{
+pos = (374,1334);
+text = "안쪽 사이 폭은 꼭 o랑 안 맞춰도 되니 원형 폭을 늘려보자";
+type = Text;
+}
+);
 background = {
 shapes = (
 {
