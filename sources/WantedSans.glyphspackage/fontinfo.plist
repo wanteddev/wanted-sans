@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-05 14:00:03 +0000";
+date = "2023-04-05 14:53:27 +0000";
 familyName = "Wanted Sans";
 featurePrefixes = (
 {
@@ -29,6 +29,8 @@ features = (
 automatic = 1;
 code = "feature cv01;
 feature cv02;
+feature cv03;
+feature cv04;
 ";
 tag = aalt;
 },
@@ -52,6 +54,18 @@ automatic = 1;
 code = "sub t by t.cv02;
 ";
 tag = cv02;
+},
+{
+automatic = 1;
+code = "sub a by a.cv03;
+";
+tag = cv03;
+},
+{
+automatic = 1;
+code = "sub u by u.cv04;
+";
+tag = cv04;
 }
 );
 fontMaster = (
@@ -316,6 +330,34 @@ m01 = 0.4;
 isBold = 1;
 name = Bold;
 weightClass = 700;
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;
+};
+isBold = 1;
+name = Black;
+weightClass = 900;
 }
 );
 metrics = (

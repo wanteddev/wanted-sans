@@ -1,0 +1,27 @@
+{
+glyphname = u.cv04;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1070,1032);
+ref = n;
+}
+);
+width = 1070;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+angle = 180;
+pos = (1230,1032);
+ref = n;
+}
+);
+width = 1230;
+}
+);
+}

@@ -3,12 +3,52 @@ glyphname = a;
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1080,1032,l),
+(908,1032,l),
+(908,824,l),
+(954,516,l),
+(908,242,l),
+(908,0,l),
+(1080,0,l)
+);
+},
+{
+pos = (908,0);
+ref = _smart.bowl;
+scale = (-1,1);
+}
+);
 width = 1200;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1180,1032,l),
+(796,1032,l),
+(796,824,l),
+(842,516,l),
+(796,242,l),
+(796,0,l),
+(1180,0,l)
+);
+},
+{
+pos = (796,0);
+ref = _smart.bowl;
+scale = (-1,1);
 }
 );
+width = 1276;
+}
+);
+metricLeft = o;
+metricRight = l;
 unicode = 97;
 }
