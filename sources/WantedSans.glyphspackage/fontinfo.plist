@@ -333,6 +333,35 @@ weightClass = 700;
 },
 {
 axesValues = (
+800
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;
+m01 = 0.2;
+};
+isBold = 1;
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
 900
 );
 customParameters = (
