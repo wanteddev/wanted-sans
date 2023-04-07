@@ -14,8 +14,8 @@ value = (
 );
 }
 );
-date = "2023-04-07 08:02:47 +0000";
-familyName = "Wanted Sans";
+date = "2023-04-07 09:37:19 +0000";
+familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
 automatic = 1;
@@ -304,6 +304,34 @@ weightClass = 500;
 },
 {
 axesValues = (
+600
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4;
+m01 = 0.6;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
 700
 );
 customParameters = (
@@ -356,7 +384,6 @@ instanceInterpolations = {
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;
 m01 = 0.2;
 };
-isBold = 1;
 name = ExtraBold;
 weightClass = 800;
 },
@@ -384,9 +411,33 @@ value = (
 instanceInterpolations = {
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;
 };
-isBold = 1;
 name = Black;
 weightClass = 900;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+0,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = "Variable Font Origin";
+value = m01;
+}
+);
+name = Regular;
+type = variable;
 }
 );
 metrics = (
