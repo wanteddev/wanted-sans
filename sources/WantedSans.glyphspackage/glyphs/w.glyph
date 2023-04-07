@@ -248,5 +248,7 @@ nodes = (
 width = 1770;
 }
 );
+metricLeft = v;
+metricRight = v;
 unicode = 119;
 }
