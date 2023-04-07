@@ -1,5 +1,7 @@
 {
 glyphname = b;
+kernLeft = l;
+kernRight = o;
 layers = (
 {
 annotations = (

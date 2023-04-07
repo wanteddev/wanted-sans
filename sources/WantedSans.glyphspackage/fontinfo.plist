@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-07 09:37:19 +0000";
+date = "2023-04-07 14:04:04 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -440,6 +440,123 @@ name = Regular;
 type = variable;
 }
 );
+kerningLTR = {
+m01 = {
+"@MMK_L_a" = {
+"@MMK_R_j" = -48;
+};
+"@MMK_L_f" = {
+"@MMK_R_g" = -40;
+"@MMK_R_j" = -56;
+"@MMK_R_o" = -56;
+"@MMK_R_s" = -32;
+};
+"@MMK_L_n" = {
+"@MMK_R_f" = -24;
+"@MMK_R_s" = -24;
+"@MMK_R_v" = -40;
+};
+"@MMK_L_o" = {
+"@MMK_R_f" = -24;
+"@MMK_R_j" = -40;
+"@MMK_R_s" = -8;
+"@MMK_R_v" = -32;
+"@MMK_R_x" = -48;
+"@MMK_R_z" = -16;
+};
+"@MMK_L_r" = {
+"@MMK_R_f" = 16;
+"@MMK_R_g" = -32;
+"@MMK_R_o" = -56;
+"@MMK_R_s" = -32;
+"@MMK_R_v" = 24;
+};
+"@MMK_L_s" = {
+"@MMK_R_f" = -40;
+"@MMK_R_v" = -32;
+};
+"@MMK_L_t" = {
+"@MMK_R_o" = -24;
+};
+"@MMK_L_t.cv02" = {
+"@MMK_R_g" = -48;
+"@MMK_R_o" = -48;
+"@MMK_R_s" = -40;
+};
+"@MMK_L_u" = {
+"@MMK_R_j" = -24;
+};
+"@MMK_L_v" = {
+"@MMK_R_g" = -24;
+"@MMK_R_j" = -24;
+"@MMK_R_o" = -32;
+"@MMK_R_s" = -8;
+};
+"@MMK_L_x" = {
+"@MMK_R_f" = 0;
+"@MMK_R_g" = -24;
+"@MMK_R_o" = -56;
+};
+"@MMK_L_z" = {
+"@MMK_R_o" = -24;
+};
+};
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = {
+"@MMK_L_a" = {
+"@MMK_R_j" = -24;
+};
+"@MMK_L_f" = {
+"@MMK_R_g" = -24;
+"@MMK_R_j" = -56;
+"@MMK_R_o" = -24;
+};
+"@MMK_L_j" = {
+"@MMK_R_s" = 24;
+};
+"@MMK_L_n" = {
+"@MMK_R_f" = -12;
+"@MMK_R_v" = -56;
+};
+"@MMK_L_o" = {
+"@MMK_R_f" = -24;
+"@MMK_R_j" = -40;
+"@MMK_R_v" = -72;
+"@MMK_R_x" = -48;
+};
+"@MMK_L_r" = {
+"@MMK_R_f" = 48;
+"@MMK_R_o" = -12;
+"@MMK_R_v" = 32;
+};
+"@MMK_L_s" = {
+"@MMK_R_s" = 24;
+"@MMK_R_v" = -24;
+};
+"@MMK_L_t" = {
+"@MMK_R_s" = 24;
+};
+"@MMK_L_t.cv02" = {
+"@MMK_R_g" = -48;
+"@MMK_R_o" = -48;
+"@MMK_R_s" = -24;
+};
+"@MMK_L_u" = {
+"@MMK_R_j" = -48;
+};
+"@MMK_L_v" = {
+"@MMK_R_g" = -48;
+"@MMK_R_j" = -48;
+"@MMK_R_o" = -48;
+"@MMK_R_s" = -40;
+};
+"@MMK_L_x" = {
+"@MMK_R_f" = 24;
+"@MMK_R_g" = -48;
+"@MMK_R_o" = -48;
+"@MMK_R_s" = 12;
+};
+};
+};
 metrics = (
 {
 type = ascender;

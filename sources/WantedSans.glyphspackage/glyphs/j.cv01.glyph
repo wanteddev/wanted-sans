@@ -1,5 +1,7 @@
 {
 glyphname = j.cv01;
+kernLeft = l;
+kernRight = l;
 layers = (
 {
 layerId = m01;

@@ -1,5 +1,7 @@
 {
 glyphname = n;
+kernLeft = n;
+kernRight = n;
 layers = (
 {
 layerId = m01;
@@ -12,7 +14,7 @@ pos = (292,0);
 ref = _smart.shoulder;
 }
 );
-width = 1070;
+width = 1084;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -25,7 +27,7 @@ pos = (480,0);
 ref = _smart.shoulder;
 }
 );
-width = 1230;
+width = 1278;
 },
 {
 associatedMasterId = m01;
