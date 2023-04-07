@@ -12,7 +12,6 @@ ref = n;
 );
 };
 layerId = m01;
-metricRight = "=f/1.25";
 shapes = (
 {
 closed = 1;
@@ -36,7 +35,7 @@ nodes = (
 );
 }
 );
-width = 748;
+width = 766;
 },
 {
 background = {
@@ -56,7 +55,6 @@ nodes = (
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=f/1.5";
 shapes = (
 {
 closed = 1;
@@ -80,7 +78,7 @@ nodes = (
 );
 }
 );
-width = 896;
+width = 920;
 },
 {
 associatedMasterId = m01;
@@ -294,5 +292,6 @@ width = 694;
 }
 );
 metricLeft = n;
+metricRight = f;
 unicode = 114;
 }

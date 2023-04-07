@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-07 14:04:04 +0000";
+date = "2023-04-07 14:13:27 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -457,7 +457,7 @@ m01 = {
 "@MMK_R_v" = -40;
 };
 "@MMK_L_o" = {
-"@MMK_R_f" = -24;
+"@MMK_R_f" = -56;
 "@MMK_R_j" = -40;
 "@MMK_R_s" = -8;
 "@MMK_R_v" = -32;
@@ -524,7 +524,7 @@ m01 = {
 "@MMK_R_x" = -48;
 };
 "@MMK_L_r" = {
-"@MMK_R_f" = 48;
+"@MMK_R_f" = 32;
 "@MMK_R_o" = -12;
 "@MMK_R_v" = 32;
 };
