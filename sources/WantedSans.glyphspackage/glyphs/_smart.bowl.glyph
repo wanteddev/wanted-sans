@@ -88,7 +88,7 @@ nodes = (
 );
 }
 );
-width = 908;
+width = 920;
 },
 {
 associatedMasterId = m01;
@@ -178,7 +178,7 @@ nodes = (
 );
 }
 );
-width = 908;
+width = 920;
 },
 {
 associatedMasterId = m01;
@@ -339,7 +339,7 @@ nodes = (
 );
 }
 );
-width = 796;
+width = 808;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -422,7 +422,7 @@ nodes = (
 );
 }
 );
-width = 796;
+width = 808;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

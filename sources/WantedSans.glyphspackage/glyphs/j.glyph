@@ -10,27 +10,7 @@ shapes = (
 piece = {
 Bottom = 104.4;
 };
-pos = (484,0);
-ref = _smart.terminal;
-scale = (-1,1);
-},
-{
-alignment = 1;
-pos = (72,0);
-ref = dotaccentcomb;
-}
-);
-width = 484;
-},
-{
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-name = Black;
-shapes = (
-{
-piece = {
-Bottom = 104.4;
-};
-pos = (636,0);
+pos = (496,0);
 ref = _smart.terminal;
 scale = (-1,1);
 },
@@ -40,7 +20,27 @@ pos = (60,0);
 ref = dotaccentcomb;
 }
 );
-width = 636;
+width = 496;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
+shapes = (
+{
+piece = {
+Bottom = 104.4;
+};
+pos = (648,0);
+ref = _smart.terminal;
+scale = (-1,1);
+},
+{
+alignment = 1;
+pos = (48,0);
+ref = dotaccentcomb;
+}
+);
+width = 648;
 }
 );
 metricLeft = i;

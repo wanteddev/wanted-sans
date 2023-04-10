@@ -7,23 +7,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (1200,0);
+pos = (1224,0);
 ref = b;
 scale = (-1,1);
 }
 );
-width = 1200;
+width = 1224;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (1276,0);
+pos = (1300,0);
 ref = b;
 scale = (-1,1);
 }
 );
-width = 1276;
+width = 1300;
 },
 {
 associatedMasterId = m01;

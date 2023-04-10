@@ -10,11 +10,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (292,0);
+pos = (304,0);
 ref = _smart.shoulder;
 }
 );
-width = 1084;
+width = 1108;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -23,11 +23,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (480,0);
+pos = (492,0);
 ref = _smart.shoulder;
 }
 );
-width = 1278;
+width = 1302;
 },
 {
 associatedMasterId = m01;

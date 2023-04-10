@@ -9,18 +9,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(292,-434,l),
-(292,1032,l),
-(120,1032,l),
-(120,-434,l)
+(304,-434,l),
+(304,1032,l),
+(132,1032,l),
+(132,-434,l)
 );
 },
 {
 alignment = 1;
+pos = (12,0);
 ref = dotaccentcomb;
 }
 );
-width = 412;
+width = 436;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -28,18 +29,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(480,-434,l),
-(480,1032,l),
-(96,1032,l),
-(96,-434,l)
+(492,-434,l),
+(492,1032,l),
+(108,1032,l),
+(108,-434,l)
 );
 },
 {
 alignment = 1;
+pos = (12,0);
 ref = dotaccentcomb;
 }
 );
-width = 576;
+width = 600;
 }
 );
 metricLeft = i;

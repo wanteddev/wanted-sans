@@ -23,17 +23,17 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (60,0);
+pos = (72,0);
 ref = _part.x_base;
 },
 {
 alignment = -1;
-pos = (958,0);
+pos = (970,0);
 ref = _part.x_base;
 scale = (-1,1);
 }
 );
-width = 1018;
+width = 1042;
 },
 {
 background = {
@@ -55,17 +55,17 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 alignment = -1;
-pos = (32,0);
+pos = (44,0);
 ref = _part.x_base;
 },
 {
 alignment = -1;
-pos = (1220,0);
+pos = (1232,0);
 ref = _part.x_base;
 scale = (-1,1);
 }
 );
-width = 1252;
+width = 1276;
 },
 {
 associatedMasterId = m01;
