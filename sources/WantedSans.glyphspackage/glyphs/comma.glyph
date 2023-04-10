@@ -14,7 +14,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (424,1168);
+pos = (420,1126);
 ref = quoteleft;
 }
 );
