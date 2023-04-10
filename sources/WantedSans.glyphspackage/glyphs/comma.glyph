@@ -2,13 +2,53 @@
 glyphname = comma;
 layers = (
 {
-layerId = m01;
-width = 1200;
-},
+background = {
+shapes = (
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+ref = period;
 }
 );
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (424,1168);
+ref = quoteleft;
+}
+);
+width = 512;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(154,136,l),
+(36,-280,l),
+(184,-280,l),
+(330,136,l)
+);
+},
+{
+ref = period;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (608,1168);
+ref = quoteleft;
+}
+);
+width = 660;
+}
+);
+metricWidth = period;
 unicode = 44;
 }

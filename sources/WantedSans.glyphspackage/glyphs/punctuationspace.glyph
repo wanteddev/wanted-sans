@@ -1,5 +1,5 @@
 {
-glyphname = space;
+glyphname = punctuationspace;
 layers = (
 {
 layerId = m01;
@@ -7,8 +7,9 @@ width = 512;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 480;
+width = 660;
 }
 );
-unicode = 32;
+metricWidth = period;
+unicode = 8200;
 }

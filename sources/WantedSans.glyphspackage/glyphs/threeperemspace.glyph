@@ -1,0 +1,16 @@
+{
+glyphname = threeperemspace;
+layers = (
+{
+layerId = m01;
+metricWidth = "=emquad/3.003";
+width = 682;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=emquad/3.003";
+width = 682;
+}
+);
+unicode = 8196;
+}
