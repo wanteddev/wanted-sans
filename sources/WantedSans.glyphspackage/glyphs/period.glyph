@@ -3,12 +3,123 @@ glyphname = period;
 layers = (
 {
 layerId = m01;
-width = 1200;
+metricRight = "=|period";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,0,o),
+(356,52,o),
+(356,126,cs),
+(356,200,o),
+(304,252,o),
+(230,252,cs),
+(156,252,o),
+(104,200,o),
+(104,126,cs),
+(104,52,o),
+(156,0,o),
+(230,0,cs)
+);
+}
+);
+width = 460;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+metricRight = "=|period";
+shapes = (
+{
+closed = 1;
+nodes = (
+(448,-2,o),
+(550,96,o),
+(550,228,cs),
+(550,360,o),
+(448,458,o),
+(312,458,cs),
+(174,458,o),
+(74,360,o),
+(74,228,cs),
+(74,96,o),
+(174,-2,o),
+(312,-2,cs)
+);
 }
 );
+width = 624;
+},
+{
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+pos = (-10,-1374);
+ref = dotaccentcomb;
+scale = (1.1,1.1);
+}
+);
+};
+layerId = "FF7488F5-BAE8-4F45-9E5E-8BB68F215C2A";
+metricRight = "=|period";
+name = "dotaccent 110%";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,0,o),
+(356,52,o),
+(356,126,cs),
+(356,200,o),
+(304,252,o),
+(230,252,cs),
+(156,252,o),
+(104,200,o),
+(104,126,cs),
+(104,52,o),
+(156,0,o),
+(230,0,cs)
+);
+}
+);
+width = 460;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+pos = (-4,-1194);
+ref = dotaccentcomb;
+scale = (1.05,1.05);
+}
+);
+};
+layerId = "23CB8E4F-10C4-4B1D-8492-3982A6A0AB04";
+metricRight = "=|period";
+name = "dotaccent 105%";
+shapes = (
+{
+closed = 1;
+nodes = (
+(448,-2,o),
+(550,96,o),
+(550,228,cs),
+(550,360,o),
+(448,458,o),
+(312,458,cs),
+(174,458,o),
+(74,360,o),
+(74,228,cs),
+(74,96,o),
+(174,-2,o),
+(312,-2,cs)
+);
+}
+);
+width = 624;
+}
+);
+metricLeft = dotaccentcomb;
 unicode = 46;
 }
