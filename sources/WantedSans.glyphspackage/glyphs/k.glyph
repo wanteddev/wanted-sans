@@ -42,7 +42,7 @@ nodes = (
 );
 }
 );
-width = 978;
+width = 970;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -72,7 +72,7 @@ nodes = (
 );
 }
 );
-width = 1222;
+width = 1230;
 },
 {
 associatedMasterId = m01;
