@@ -467,6 +467,7 @@ nodes = (
 width = 684;
 }
 );
+metricLeft = idotless;
 partsSettings = (
 {
 bottomValue = 0;
