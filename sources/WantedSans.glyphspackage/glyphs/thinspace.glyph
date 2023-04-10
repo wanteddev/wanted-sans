@@ -12,5 +12,5 @@ metricWidth = "=emquad/5";
 width = 410;
 }
 );
-unicode = 8201;
+unicode = (8201,8239);
 }
