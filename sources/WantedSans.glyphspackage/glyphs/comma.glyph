@@ -14,7 +14,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (420,1126);
+pos = (428,1160);
 ref = quoteleft;
 }
 );
@@ -24,16 +24,16 @@ width = 512;
 background = {
 shapes = (
 {
-closed = 1;
-nodes = (
-(154,136,l),
-(36,-280,l),
-(184,-280,l),
-(330,136,l)
-);
+ref = period;
 },
 {
-ref = period;
+closed = 1;
+nodes = (
+(188,208,l),
+(56,-288,l),
+(218,-288,l),
+(368,208,l)
+);
 }
 );
 };
@@ -42,7 +42,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (608,1168);
+pos = (612,1160);
 ref = quoteleft;
 }
 );

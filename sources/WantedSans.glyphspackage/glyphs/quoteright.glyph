@@ -6,22 +6,22 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (420,2440);
+pos = (432,2400);
 ref = quoteleft;
 }
 );
-width = 420;
+width = 432;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 angle = 180;
-pos = (660,2376);
+pos = (656,2336);
 ref = quoteleft;
 }
 );
-width = 660;
+width = 656;
 }
 );
 metricLeft = quoteleft;

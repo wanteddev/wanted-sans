@@ -9,11 +9,11 @@ alignment = 1;
 ref = quoteright;
 },
 {
-pos = (308,0);
+pos = (360,0);
 ref = quoteright;
 }
 );
-width = 728;
+width = 792;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -23,11 +23,11 @@ alignment = 1;
 ref = quoteright;
 },
 {
-pos = (504,0);
+pos = (500,0);
 ref = quoteright;
 }
 );
-width = 1164;
+width = 1156;
 }
 );
 unicode = 8221;
