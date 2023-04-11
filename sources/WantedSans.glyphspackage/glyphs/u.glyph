@@ -4,6 +4,13 @@ kernLeft = u;
 kernRight = u;
 layers = (
 {
+annotations = (
+{
+pos = (918,1184);
+text = "오른쪽 커닝 조정 필요";
+type = Text;
+}
+);
 layerId = m01;
 shapes = (
 {
