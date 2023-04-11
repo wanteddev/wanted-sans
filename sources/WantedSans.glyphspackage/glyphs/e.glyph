@@ -4,6 +4,18 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
+annotations = (
+{
+pos = (472.544,1320.503);
+text = "e가 살짝 작게 느껴진다";
+type = Text;
+},
+{
+pos = (778,254);
+text = "위와 아래의 편차가 심해보인다";
+type = Text;
+}
+);
 background = {
 shapes = (
 {
@@ -334,6 +346,13 @@ nodes = (
 width = 1160;
 },
 {
+annotations = (
+{
+pos = (911.465,361.601);
+text = "black에서는 아예 닫아둘까?";
+type = Text;
+}
+);
 background = {
 shapes = (
 {

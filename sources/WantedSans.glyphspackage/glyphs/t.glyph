@@ -4,6 +4,13 @@ kernLeft = f;
 kernRight = t;
 layers = (
 {
+annotations = (
+{
+pos = (596,268);
+text = "위에 폭을 더 좁고 위로 올려보자";
+type = Text;
+}
+);
 layerId = m01;
 shapes = (
 {

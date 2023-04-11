@@ -4,6 +4,13 @@ kernLeft = s;
 kernRight = s;
 layers = (
 {
+annotations = (
+{
+pos = (458,246);
+text = "조금 더 완만하면 어떨지?";
+type = Text;
+}
+);
 background = {
 shapes = (
 {

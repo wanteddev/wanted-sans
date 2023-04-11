@@ -4,6 +4,13 @@ kernLeft = g;
 kernRight = j;
 layers = (
 {
+annotations = (
+{
+pos = (304.754,-39.713);
+text = "조금 더 들어와도 괜찮겠다";
+type = Text;
+}
+);
 layerId = m01;
 shapes = (
 {
