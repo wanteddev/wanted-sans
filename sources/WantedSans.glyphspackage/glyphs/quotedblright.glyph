@@ -9,6 +9,7 @@ alignment = 1;
 ref = quoteright;
 },
 {
+alignment = 1;
 pos = (360,0);
 ref = quoteright;
 }
@@ -23,11 +24,12 @@ alignment = 1;
 ref = quoteright;
 },
 {
-pos = (500,0);
+alignment = 1;
+pos = (524,0);
 ref = quoteright;
 }
 );
-width = 1156;
+width = 1180;
 }
 );
 unicode = 8221;
