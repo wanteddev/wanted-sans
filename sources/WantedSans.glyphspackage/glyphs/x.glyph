@@ -39,14 +39,14 @@ width = 1042;
 background = {
 shapes = (
 {
-pos = (28,0);
+pos = (16,0);
 ref = e;
 },
 {
 closed = 0;
 nodes = (
-(-148,512,l),
-(1252,512,l)
+(-160,512,l),
+(1240,512,l)
 );
 }
 );
@@ -55,17 +55,17 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 alignment = -1;
-pos = (44,0);
+pos = (32,0);
 ref = _part.x_base;
 },
 {
 alignment = -1;
-pos = (1232,0);
+pos = (1220,0);
 ref = _part.x_base;
 scale = (-1,1);
 }
 );
-width = 1276;
+width = 1252;
 },
 {
 associatedMasterId = m01;
