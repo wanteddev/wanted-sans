@@ -3,12 +3,54 @@ glyphname = V;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(846,0,l),
+(1424,1448,l),
+(1228,1448,l),
+(658,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(810,0,l),
+(240,1448,l),
+(44,1448,l),
+(622,0,l)
+);
+}
+);
+width = 1468;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1014,0,l),
+(1588,1448,l),
+(1148,1448,l),
+(642,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(982,0,l),
+(476,1448,l),
+(36,1448,l),
+(610,0,l)
+);
 }
 );
+width = 1624;
+}
+);
+metricLeft = A;
+metricRight = A;
 unicode = 86;
 }
