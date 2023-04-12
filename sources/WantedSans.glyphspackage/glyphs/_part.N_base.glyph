@@ -13,6 +13,7 @@ pos = (866,0);
 }
 );
 layerId = m01;
+metricRight = "=|_part.Nbase";
 shapes = (
 {
 closed = 1;
@@ -39,6 +40,7 @@ pos = (592,0);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|_part.Nbase";
 shapes = (
 {
 closed = 1;
