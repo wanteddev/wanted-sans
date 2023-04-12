@@ -33,11 +33,11 @@ Cross = 1;
 ref = _smart.lowerstem;
 },
 {
-pos = (500,0);
+pos = (508,0);
 ref = _smart.bowl;
 }
 );
-width = 1308;
+width = 1316;
 }
 );
 metricLeft = n;

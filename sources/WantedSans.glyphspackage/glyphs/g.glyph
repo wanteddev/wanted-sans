@@ -42,7 +42,7 @@ scale = (-1,1);
 ref = _part.gbase;
 }
 );
-width = 1308;
+width = 1316;
 },
 {
 associatedMasterId = m01;

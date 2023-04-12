@@ -30,17 +30,17 @@ shapes = (
 piece = {
 Bottom = 104.4;
 };
-pos = (656,0);
+pos = (664,0);
 ref = _smart.terminal;
 scale = (-1,1);
 },
 {
 alignment = 1;
-pos = (52,0);
+pos = (56,0);
 ref = dotaccentcomb;
 }
 );
-width = 656;
+width = 664;
 }
 );
 metricLeft = i;

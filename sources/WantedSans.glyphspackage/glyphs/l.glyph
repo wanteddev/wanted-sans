@@ -28,7 +28,7 @@ Cap = 100;
 ref = _smart.lowerstem;
 }
 );
-width = 608;
+width = 616;
 }
 );
 metricLeft = n;

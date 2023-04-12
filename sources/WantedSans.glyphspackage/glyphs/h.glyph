@@ -29,11 +29,11 @@ Cap = 100;
 ref = _smart.lowerstem;
 },
 {
-pos = (500,0);
+pos = (508,0);
 ref = _smart.shoulder;
 }
 );
-width = 1326;
+width = 1334;
 }
 );
 unicode = 104;

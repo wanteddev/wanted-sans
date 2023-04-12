@@ -39,7 +39,7 @@ pos = (124,0);
 ref = _smart.lowerstem;
 }
 );
-width = 920;
+width = 928;
 }
 );
 metricLeft = t;
