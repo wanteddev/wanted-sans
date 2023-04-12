@@ -499,7 +499,7 @@ nodes = (
 width = 696;
 }
 );
-metricLeft = idotless;
+metricLeft = _smart.lowerstem;
 partsSettings = (
 {
 bottomValue = 0;
