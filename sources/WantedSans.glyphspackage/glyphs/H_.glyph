@@ -53,15 +53,15 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (516,0);
+pos = (524,0);
 ref = _part.Hbase;
 },
 {
-pos = (936,0);
+pos = (944,0);
 ref = _smart.upperstem;
 }
 );
-width = 1568;
+width = 1584;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

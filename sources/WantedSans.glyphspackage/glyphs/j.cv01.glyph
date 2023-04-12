@@ -38,10 +38,11 @@ ref = _smart.lowerstem;
 },
 {
 alignment = 1;
+pos = (4,0);
 ref = dotaccentcomb;
 }
 );
-width = 600;
+width = 608;
 }
 );
 metricLeft = i;

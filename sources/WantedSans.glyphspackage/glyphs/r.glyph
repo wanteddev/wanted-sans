@@ -34,15 +34,16 @@ width = 790;
 background = {
 shapes = (
 {
+pos = (8,0);
 ref = n;
 },
 {
 closed = 1;
 nodes = (
-(758,1048,l),
-(850,1048,l),
-(850,1060,l),
-(758,1060,l)
+(766,1048,l),
+(858,1048,l),
+(858,1060,l),
+(766,1060,l)
 );
 }
 );
@@ -53,11 +54,11 @@ shapes = (
 ref = _smart.lowerstem;
 },
 {
-pos = (492,0);
+pos = (500,0);
 ref = _part.rbase;
 }
 );
-width = 944;
+width = 960;
 },
 {
 associatedMasterId = m01;

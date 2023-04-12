@@ -55,11 +55,11 @@ Cross = 1;
 ref = _smart.lowerstem;
 },
 {
-pos = (492,0);
+pos = (500,0);
 ref = _smart.bowl;
 }
 );
-width = 1300;
+width = 1308;
 },
 {
 associatedMasterId = m01;

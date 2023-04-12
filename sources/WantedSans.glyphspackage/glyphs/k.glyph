@@ -40,11 +40,11 @@ Cap = 100;
 ref = _smart.lowerstem;
 },
 {
-pos = (492,0);
+pos = (500,0);
 ref = _part.kbase;
 }
 );
-width = 1242;
+width = 1250;
 },
 {
 associatedMasterId = m01;

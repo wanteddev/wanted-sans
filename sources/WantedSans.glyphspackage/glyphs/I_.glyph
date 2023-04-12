@@ -24,7 +24,7 @@ shapes = (
 ref = _smart.upperstem;
 }
 );
-width = 632;
+width = 640;
 }
 );
 metricLeft = H;

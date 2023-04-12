@@ -23,11 +23,11 @@ shapes = (
 ref = _smart.lowerstem;
 },
 {
-pos = (492,0);
+pos = (500,0);
 ref = _smart.shoulder;
 }
 );
-width = 1302;
+width = 1326;
 },
 {
 associatedMasterId = m01;

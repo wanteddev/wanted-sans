@@ -45,15 +45,15 @@ shapes = (
 ref = I;
 },
 {
-pos = (516,0);
+pos = (524,0);
 ref = _part.Nbase;
 },
 {
-pos = (992,0);
+pos = (1000,0);
 ref = I;
 }
 );
-width = 1624;
+width = 1640;
 },
 {
 associatedMasterId = m01;

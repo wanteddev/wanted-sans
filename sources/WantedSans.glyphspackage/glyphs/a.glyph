@@ -34,12 +34,12 @@ scale = (-1,1);
 piece = {
 Cross = 1;
 };
-pos = (1300,0);
+pos = (1308,0);
 ref = _smart.lowerstem;
 scale = (-1,1);
 }
 );
-width = 1300;
+width = 1308;
 },
 {
 associatedMasterId = m01;

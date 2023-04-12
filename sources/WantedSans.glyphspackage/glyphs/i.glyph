@@ -22,10 +22,11 @@ shapes = (
 ref = idotless;
 },
 {
+pos = (4,0);
 ref = dotaccentcomb;
 }
 );
-width = 600;
+width = 608;
 }
 );
 unicode = 105;
