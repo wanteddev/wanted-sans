@@ -7,13 +7,10 @@ layers = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(304,-434,l),
-(304,1032,l),
-(132,1032,l),
-(132,-434,l)
-);
+piece = {
+Ascender = 100;
+};
+ref = _smart.lowerstem;
 },
 {
 alignment = 1;
@@ -34,13 +31,10 @@ ref = j;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-closed = 1;
-nodes = (
-(492,-434,l),
-(492,1032,l),
-(108,1032,l),
-(108,-434,l)
-);
+piece = {
+Ascender = 100;
+};
+ref = _smart.lowerstem;
 },
 {
 alignment = 1;

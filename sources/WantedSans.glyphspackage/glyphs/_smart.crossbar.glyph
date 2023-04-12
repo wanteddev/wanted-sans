@@ -1,0 +1,152 @@
+{
+export = 0;
+glyphname = _smart.crossbar;
+layers = (
+{
+anchors = (
+{
+name = crossbar;
+pos = (278,1032);
+}
+);
+background = {
+shapes = (
+{
+pos = (146,0);
+ref = _part.fbase;
+}
+);
+};
+layerId = m01;
+partSelection = {
+Condensed = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(714,888,l),
+(714,1032,l),
+(76,1032,l),
+(76,888,l)
+);
+}
+);
+width = 814;
+},
+{
+anchors = (
+{
+name = crossbar;
+pos = (232,1032);
+}
+);
+background = {
+shapes = (
+{
+pos = (124,0);
+ref = _part.fbase;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+partSelection = {
+Condensed = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(852,728,l),
+(852,1032,l),
+(60,1032,l),
+(60,728,l)
+);
+}
+);
+width = 936;
+},
+{
+anchors = (
+{
+name = crossbar;
+pos = (278,1032);
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+piece = {
+Terminal = 0;
+Top = 53.8028;
+};
+pos = (146,0);
+ref = _smart.terminal;
+}
+);
+};
+layerId = "401A0A87-295C-4EC3-A2DD-0541649D919C";
+name = Condensed;
+partSelection = {
+Condensed = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(666,888,l),
+(666,1032,l),
+(76,1032,l),
+(76,888,l)
+);
+}
+);
+width = 766;
+},
+{
+anchors = (
+{
+name = crossbar;
+pos = (232,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+piece = {
+Top = 58.88313;
+};
+pos = (124,0);
+ref = _smart.terminal;
+}
+);
+};
+layerId = "F953D8DB-BB90-449C-9603-7109BCD634FD";
+name = Condensed;
+partSelection = {
+Condensed = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(828,728,l),
+(828,1032,l),
+(60,1032,l),
+(60,728,l)
+);
+}
+);
+width = 912;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Condensed;
+topValue = 100;
+}
+);
+}

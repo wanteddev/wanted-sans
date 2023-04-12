@@ -4,51 +4,25 @@ kernLeft = n;
 kernRight = a;
 layers = (
 {
-anchors = (
-{
-name = "#exit";
-pos = (304,0);
-},
-{
-name = top;
-pos = (218,1032);
-}
-);
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(304,0,l),
-(304,1032,l),
-(132,1032,l),
-(132,0,l)
-);
+piece = {
+Cap = 0;
+};
+ref = _smart.lowerstem;
 }
 );
 width = 436;
 },
 {
-anchors = (
-{
-name = "#exit";
-pos = (492,0);
-},
-{
-name = top;
-pos = (300,1032);
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-closed = 1;
-nodes = (
-(492,0,l),
-(492,1032,l),
-(108,1032,l),
-(108,0,l)
-);
+piece = {
+Cap = 0;
+};
+ref = _smart.lowerstem;
 }
 );
 width = 600;

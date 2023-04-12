@@ -21,16 +21,12 @@ ref = n;
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(304,0,l),
-(304,242,l),
-(258,516,l),
-(304,824,l),
-(304,1446,l),
-(132,1446,l),
-(132,0,l)
-);
+piece = {
+Ascender = 0;
+Cap = 100;
+Cross = 1;
+};
+ref = _smart.lowerstem;
 },
 {
 pos = (304,0);
@@ -51,16 +47,12 @@ ref = n;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-closed = 1;
-nodes = (
-(492,0,l),
-(492,242,l),
-(446,516,l),
-(492,824,l),
-(492,1446,l),
-(108,1446,l),
-(108,0,l)
-);
+piece = {
+Ascender = 0;
+Cap = 100;
+Cross = 1;
+};
+ref = _smart.lowerstem;
 },
 {
 pos = (492,0);

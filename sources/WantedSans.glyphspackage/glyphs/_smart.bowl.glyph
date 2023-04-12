@@ -3,6 +3,14 @@ export = 0;
 glyphname = _smart.bowl;
 layers = (
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+}
+);
 background = {
 annotations = (
 {
@@ -91,6 +99,14 @@ nodes = (
 width = 920;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+}
+);
 associatedMasterId = m01;
 background = {
 annotations = (
@@ -261,6 +277,14 @@ nodes = (
 width = 896;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+}
+);
 background = {
 shapes = (
 {
@@ -342,6 +366,14 @@ nodes = (
 width = 808;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "EF2338B7-2E04-4C30-BBA3-34471D303972";
 name = "Narrow Height";

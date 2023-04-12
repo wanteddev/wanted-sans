@@ -1,0 +1,53 @@
+{
+export = 0;
+glyphname = _part.rbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,838,o),
+(186,930,o),
+(386,868,c),
+(386,1038,l),
+(164,1132,o),
+(-124,916,o),
+(0,516,c)
+);
+}
+);
+width = 486;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,690,o),
+(182,722,o),
+(368,674,c),
+(368,1048,l),
+(-6,1142,o),
+(-130,652,o),
+(0,416,c)
+);
+}
+);
+width = 452;
+}
+);
+metricRight = f;
+}
