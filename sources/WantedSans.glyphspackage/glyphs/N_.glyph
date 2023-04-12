@@ -25,48 +25,30 @@ nodes = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1338,0,l),
-(1338,54,l),
-(352,1448,l),
-(172,1448,l),
-(172,1394,l),
-(1158,0,l)
-);
-},
-{
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (1050,0);
+pos = (320,0);
+ref = _part.Nbase;
+},
+{
+pos = (1046,0);
 ref = I;
 }
 );
-width = 1510;
+width = 1506;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-closed = 1;
-nodes = (
-(1452,0,l),
-(1452,110,l),
-(564,1448,l),
-(172,1448,l),
-(172,1338,l),
-(1060,0,l)
-);
-},
-{
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
+pos = (516,0);
+ref = _part.Nbase;
+},
+{
 pos = (992,0);
 ref = I;
 }

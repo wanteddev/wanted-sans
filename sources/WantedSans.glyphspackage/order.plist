@@ -87,6 +87,8 @@ quotedblright,
 quoteleft,
 quoteright,
 dotaccentcomb,
+_part.Hbase,
+_part.Nbase,
 _part.fbase,
 _part.gbase,
 _part.kbase,
@@ -96,5 +98,6 @@ _smart.bowl,
 _smart.crossbar,
 _smart.lowerstem,
 _smart.shoulder,
-_smart.terminal
+_smart.terminal,
+_smart.upperstem
 )

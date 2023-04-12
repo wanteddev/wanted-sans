@@ -1,0 +1,58 @@
+{
+export = 0;
+glyphname = _part.Nbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (866,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1016,0,l),
+(1016,54,l),
+(30,1448,l),
+(-150,1448,l),
+(-150,1394,l),
+(836,0,l)
+);
+}
+);
+width = 866;
+},
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (592,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(936,0,l),
+(936,110,l),
+(48,1448,l),
+(-344,1448,l),
+(-344,1338,l),
+(544,0,l)
+);
+}
+);
+width = 592;
+}
+);
+}

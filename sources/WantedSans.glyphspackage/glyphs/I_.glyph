@@ -5,13 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(320,0,l),
-(320,1448,l),
-(140,1448,l),
-(140,0,l)
-);
+ref = _smart.upperstem;
 }
 );
 width = 460;
@@ -27,13 +21,7 @@ type = Text;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-closed = 1;
-nodes = (
-(516,0,l),
-(516,1448,l),
-(116,1448,l),
-(116,0,l)
-);
+ref = _smart.upperstem;
 }
 );
 width = 632;

@@ -1,0 +1,54 @@
+{
+export = 0;
+glyphname = _part.Hbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (798,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(838,688,l),
+(838,856,l),
+(-40,856,l),
+(-40,688,l)
+);
+}
+);
+width = 798;
+},
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (536,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(576,584,l),
+(576,960,l),
+(-40,960,l),
+(-40,584,l)
+);
+}
+);
+width = 536;
+}
+);
+}
