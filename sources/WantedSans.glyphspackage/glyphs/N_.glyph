@@ -25,7 +25,7 @@ nodes = (
 layerId = m01;
 shapes = (
 {
-ref = I;
+ref = _smart.upperstem;
 },
 {
 pos = (320,0);
@@ -33,7 +33,7 @@ ref = _part.Nbase;
 },
 {
 pos = (1046,0);
-ref = I;
+ref = _smart.upperstem;
 }
 );
 width = 1506;
@@ -42,7 +42,7 @@ width = 1506;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = I;
+ref = _smart.upperstem;
 },
 {
 pos = (524,0);
@@ -50,7 +50,7 @@ ref = _part.Nbase;
 },
 {
 pos = (1000,0);
-ref = I;
+ref = _smart.upperstem;
 }
 );
 width = 1640;

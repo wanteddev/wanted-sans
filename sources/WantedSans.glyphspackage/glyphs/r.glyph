@@ -58,7 +58,7 @@ pos = (508,0);
 ref = _part.rbase;
 }
 );
-width = 968;
+width = 960;
 },
 {
 associatedMasterId = m01;

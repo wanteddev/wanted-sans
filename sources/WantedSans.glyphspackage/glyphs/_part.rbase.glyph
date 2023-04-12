@@ -46,7 +46,7 @@ nodes = (
 );
 }
 );
-width = 460;
+width = 452;
 }
 );
 metricRight = f;
