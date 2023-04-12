@@ -7,7 +7,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = idotless;
+ref = _smart.lowerstem;
 },
 {
 pos = (304,0);
@@ -20,7 +20,7 @@ width = 1108;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = idotless;
+ref = _smart.lowerstem;
 },
 {
 pos = (492,0);
