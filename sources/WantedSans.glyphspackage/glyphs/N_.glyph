@@ -39,23 +39,6 @@ ref = _smart.upperstem;
 width = 1506;
 },
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-shapes = (
-{
-ref = _smart.upperstem;
-},
-{
-pos = (524,0);
-ref = _part.Nbase;
-},
-{
-pos = (1000,0);
-ref = _smart.upperstem;
-}
-);
-width = 1640;
-},
-{
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -141,6 +124,24 @@ nodes = (
 }
 );
 width = 1510;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+pos = (524,0);
+ref = _part.Nbase;
+},
+{
+pos = (1000,0);
+ref = _smart.upperstem;
+}
+);
+width = 1640;
 }
 );
 metricLeft = I;

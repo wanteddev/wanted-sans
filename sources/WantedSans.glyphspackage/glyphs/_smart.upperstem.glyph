@@ -15,6 +15,9 @@ pos = (320,0);
 );
 layerId = m01;
 metricRight = "=|_smart.upperstem";
+partSelection = {
+Condensed = 1;
+};
 shapes = (
 {
 closed = 1;
@@ -41,6 +44,9 @@ pos = (524,0);
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|_smart.upperstem";
+partSelection = {
+Condensed = 1;
+};
 shapes = (
 {
 closed = 1;
@@ -53,6 +59,44 @@ nodes = (
 }
 );
 width = 640;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (116,0);
+},
+{
+name = "#exit";
+pos = (460,0);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "9EF5BBCF-F0B5-42B3-8BA1-E667768E0281";
+metricRight = "=|_smart.upperstem";
+name = Condensed;
+partSelection = {
+Condensed = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,0,l),
+(460,1448,l),
+(116,1448,l),
+(116,0,l)
+);
+}
+);
+width = 576;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Condensed;
+topValue = 100;
 }
 );
 }

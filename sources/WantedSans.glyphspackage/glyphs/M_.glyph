@@ -3,11 +3,57 @@ glyphname = M;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+piece = {
+Condensed = 20;
+};
+ref = _smart.upperstem;
 },
 {
+pos = (320,0);
+ref = _part.Mbase;
+},
+{
+piece = {
+Condensed = 20;
+};
+pos = (1220,0);
+ref = _smart.upperstem;
+}
+);
+width = 1680;
+},
+{
+background = {
+shapes = (
+{
+pos = (-142,0);
+ref = N;
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+piece = {
+Condensed = 0;
+};
+ref = _smart.upperstem;
+},
+{
+pos = (524,0);
+ref = _part.Mbase;
+},
+{
+piece = {
+Condensed = 0;
+};
+pos = (1308,0);
+ref = _smart.upperstem;
+}
+);
+width = 1948;
 }
 );
 unicode = 77;

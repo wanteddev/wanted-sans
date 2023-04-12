@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _part.Nbase;
+glyphname = _part.Mbase;
 layers = (
 {
 anchors = (
@@ -9,25 +9,34 @@ name = "#entry";
 },
 {
 name = "#exit";
-pos = (866,0);
+pos = (1040,0);
 }
 );
+background = {
+shapes = (
+{
+pos = (-704,0);
+ref = N;
+}
+);
+};
 layerId = m01;
 metricRight = "=|_part.Nbase";
 shapes = (
 {
 closed = 1;
 nodes = (
-(1016,0,l),
-(1016,54,l),
-(30,1448,l),
-(-150,1448,l),
-(-150,1394,l),
-(836,0,l)
+(606,0,l),
+(1190,1448,l),
+(998,1448,l),
+(522,266,l),
+(46,1448,l),
+(-146,1448,l),
+(438,0,l)
 );
 }
 );
-width = 866;
+width = 1040;
 },
 {
 anchors = (
@@ -36,7 +45,7 @@ name = "#entry";
 },
 {
 name = "#exit";
-pos = (592,0);
+pos = (900,0);
 }
 );
 background = {
@@ -48,21 +57,22 @@ ref = _smart.upperstem;
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=|_part.Nbase";
+metricRight = "=|_part.Mbase";
 shapes = (
 {
 closed = 1;
 nodes = (
-(936,0,l),
-(936,108,l),
-(48,1448,l),
-(-344,1448,l),
-(-344,1340,l),
-(544,0,l)
+(616,0,l),
+(1174,1448,l),
+(782,1448,l),
+(450,626,l),
+(118,1448,l),
+(-274,1448,l),
+(284,0,l)
 );
 }
 );
-width = 592;
+width = 900;
 }
 );
 }
