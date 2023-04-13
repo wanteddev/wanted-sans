@@ -32,11 +32,11 @@ pos = (320,0);
 ref = _part.Nbase;
 },
 {
-pos = (1046,0);
+pos = (1014,0);
 ref = _smart.upperstem;
 }
 );
-width = 1506;
+width = 1474;
 },
 {
 associatedMasterId = m01;
@@ -137,11 +137,11 @@ pos = (540,0);
 ref = _part.Nbase;
 },
 {
-pos = (1016,0);
+pos = (952,0);
 ref = _smart.upperstem;
 }
 );
-width = 1672;
+width = 1608;
 }
 );
 metricLeft = I;

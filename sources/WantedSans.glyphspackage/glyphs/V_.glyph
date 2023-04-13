@@ -2,6 +2,15 @@
 glyphname = V;
 layers = (
 {
+background = {
+shapes = (
+{
+pos = (16,1448);
+ref = A;
+scale = (1,-1);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -26,7 +35,42 @@ nodes = (
 width = 1468;
 },
 {
+background = {
+shapes = (
+{
+pos = (12,1448);
+ref = A;
+scale = (1,-1);
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1014,0,l),
+(1588,1448,l),
+(1104,1448,l),
+(618,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1006,0,l),
+(520,1448,l),
+(36,1448,l),
+(610,0,l)
+);
+}
+);
+width = 1624;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "B26F495A-A44A-4284-966D-03BC57E86293";
+name = "Apr 13, 23 11:50";
 shapes = (
 {
 closed = 1;

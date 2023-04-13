@@ -26,11 +26,11 @@ pos = (320,0);
 ref = _part.Hbase;
 },
 {
-pos = (978,0);
+pos = (946,0);
 ref = _smart.upperstem;
 }
 );
-width = 1438;
+width = 1406;
 },
 {
 background = {

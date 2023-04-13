@@ -21,16 +21,18 @@ ref = N;
 );
 };
 layerId = m01;
+metricLeft = "=-4";
+metricRight = "=|_part.Mbase";
 shapes = (
 {
 closed = 1;
 nodes = (
-(438,0,l),
-(0,1086,l),
-(0,1448,l),
+(526,0,l),
+(526,256,l),
 (46,1448,l),
-(522,266,l),
-(522,0,l)
+(-4,1448,l),
+(-4,1096,l),
+(438,0,l)
 );
 }
 );
@@ -49,22 +51,23 @@ pos = (450,0);
 background = {
 shapes = (
 {
-pos = (-524,0);
-ref = _smart.upperstem;
+ref = _part.Nbase;
 }
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=-4";
+metricRight = "=|_part.Mbase";
 shapes = (
 {
 closed = 1;
 nodes = (
-(284,0,l),
-(0,738,l),
-(0,1448,l),
+(454,0,l),
+(454,618,l),
 (118,1448,l),
-(450,628,l),
-(450,0,l)
+(-4,1448,l),
+(-4,748,l),
+(284,0,l)
 );
 }
 );

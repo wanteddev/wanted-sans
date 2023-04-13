@@ -11,13 +11,6 @@ ref = _smart.upperstem;
 width = 460;
 },
 {
-annotations = (
-{
-pos = (420,1618);
-text = "전체적으로 Dimensions를 더 굵게 해야할 듯";
-type = Text;
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
