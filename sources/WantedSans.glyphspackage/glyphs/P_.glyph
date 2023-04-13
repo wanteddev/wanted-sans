@@ -3,11 +3,29 @@ glyphname = P;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+pos = (320,0);
+ref = _part.Pbase;
+}
+);
+width = 1196;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+pos = (540,0);
+ref = _part.Pbase;
+}
+);
+width = 1304;
 }
 );
 unicode = 80;

@@ -96,7 +96,7 @@ partsSettings = (
 {
 bottomValue = 0;
 name = Condensed;
-topValue = 100;
+topValue = 64;
 }
 );
 }
