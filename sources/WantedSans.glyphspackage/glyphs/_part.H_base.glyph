@@ -91,12 +91,13 @@ metricLeft = "=-40";
 metricRight = "=|_part.Hbase";
 shapes = (
 {
-closed = 1;
+attr = {
+strokeWidth = 168;
+};
+closed = 0;
 nodes = (
-(806,676,l),
-(806,844,l),
-(-40,844,l),
-(-40,676,l)
+(-40,760,l),
+(806,760,l)
 );
 }
 );
@@ -149,12 +150,13 @@ metricLeft = "=-40";
 metricRight = "=|_part.Hbase";
 shapes = (
 {
-closed = 1;
+attr = {
+strokeWidth = 400;
+};
+closed = 0;
 nodes = (
-(576,560,l),
-(576,960,l),
-(-40,960,l),
-(-40,560,l)
+(-40,760,l),
+(576,760,l)
 );
 }
 );

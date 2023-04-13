@@ -1,0 +1,51 @@
+{
+export = 0;
+glyphname = _part.Lbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = m01;
+shapes = (
+{
+attr = {
+strokePos = 1;
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(-4,0,l),
+(688,0,l)
+);
+}
+);
+width = 828;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+strokePos = "1";
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(-4,0,l),
+(540,0,l)
+);
+}
+);
+width = 656;
+}
+);
+metricRight = I;
+}

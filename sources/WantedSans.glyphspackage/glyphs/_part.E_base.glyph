@@ -1,0 +1,93 @@
+{
+export = 0;
+glyphname = _part.Ebase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = m01;
+shapes = (
+{
+attr = {
+strokePos = "1";
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(-4,0,l),
+(736,0,l)
+);
+},
+{
+attr = {
+strokePos = 0;
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(-4,1448,l),
+(720,1448,l)
+);
+},
+{
+attr = {
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(-4,760,l),
+(664,760,l)
+);
+}
+);
+width = 876;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+strokePos = "1";
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(-4,0,l),
+(572,0,l)
+);
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(-4,1448,l),
+(556,1448,l)
+);
+},
+{
+attr = {
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(-4,724,l),
+(500,724,l)
+);
+}
+);
+width = 688;
+}
+);
+metricRight = I;
+}

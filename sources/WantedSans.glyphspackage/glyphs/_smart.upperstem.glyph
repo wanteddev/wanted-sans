@@ -11,9 +11,14 @@ pos = (140,0);
 {
 name = "#exit";
 pos = (320,0);
+},
+{
+name = _top;
+pos = (230,1448);
 }
 );
 layerId = m01;
+metricLeft = "=140";
 metricRight = "=|_smart.upperstem";
 partSelection = {
 Condensed = 1;
@@ -40,9 +45,14 @@ pos = (116,0);
 {
 name = "#exit";
 pos = (540,0);
+},
+{
+name = _top;
+pos = (328,1448);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=116";
 metricRight = "=|_smart.upperstem";
 partSelection = {
 Condensed = 1;
@@ -69,10 +79,15 @@ pos = (116,0);
 {
 name = "#exit";
 pos = (476,0);
+},
+{
+name = _top;
+pos = (296,1448);
 }
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "9EF5BBCF-F0B5-42B3-8BA1-E667768E0281";
+metricLeft = "=116";
 metricRight = "=|_smart.upperstem";
 name = Condensed;
 partSelection = {

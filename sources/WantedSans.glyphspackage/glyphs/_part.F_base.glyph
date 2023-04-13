@@ -1,0 +1,71 @@
+{
+export = 0;
+glyphname = _part.Fbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = m01;
+shapes = (
+{
+attr = {
+strokePos = "0";
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(-4,1448,l),
+(704,1448,l)
+);
+},
+{
+attr = {
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(-4,728,l),
+(640,728,l)
+);
+}
+);
+width = 844;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+strokePos = "0";
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(-4,1448,l),
+(548,1448,l)
+);
+},
+{
+attr = {
+strokeWidth = 368;
+};
+closed = 0;
+nodes = (
+(-4,688,l),
+(484,688,l)
+);
+}
+);
+width = 664;
+}
+);
+metricRight = I;
+}
