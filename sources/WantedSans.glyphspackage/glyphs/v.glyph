@@ -45,6 +45,8 @@ ref = w;
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=32";
+metricRight = "=32";
 shapes = (
 {
 closed = 1;

@@ -46,7 +46,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 680;
+width = 688;
 }
 );
 metricLeft = _smart.terminal;
