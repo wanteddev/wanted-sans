@@ -2,6 +2,13 @@
 glyphname = R;
 layers = (
 {
+annotations = (
+{
+pos = (694,1610);
+text = "P를 올리자";
+type = Text;
+}
+);
 layerId = m01;
 shapes = (
 {
