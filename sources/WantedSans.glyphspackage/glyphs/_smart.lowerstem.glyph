@@ -23,6 +23,7 @@ partSelection = {
 Cap = 1;
 Ascender = 1;
 Cross = 1;
+Extended = 1;
 };
 shapes = (
 {
@@ -61,6 +62,7 @@ partSelection = {
 Cap = 1;
 Ascender = 1;
 Cross = 1;
+Extended = 1;
 };
 shapes = (
 {
@@ -101,6 +103,7 @@ partSelection = {
 Cap = 2;
 Ascender = 1;
 Cross = 1;
+Extended = 1;
 };
 shapes = (
 {
@@ -141,6 +144,7 @@ partSelection = {
 Cap = 2;
 Ascender = 1;
 Cross = 1;
+Extended = 1;
 };
 shapes = (
 {
@@ -181,6 +185,7 @@ partSelection = {
 Cap = 1;
 Ascender = 2;
 Cross = 1;
+Extended = 1;
 };
 shapes = (
 {
@@ -221,6 +226,7 @@ partSelection = {
 Cap = 1;
 Ascender = 2;
 Cross = 1;
+Extended = 1;
 };
 shapes = (
 {
@@ -261,6 +267,7 @@ partSelection = {
 Cap = 1;
 Ascender = 1;
 Cross = 2;
+Extended = 1;
 };
 shapes = (
 {
@@ -301,6 +308,7 @@ partSelection = {
 Cap = 1;
 Ascender = 1;
 Cross = 2;
+Extended = 1;
 };
 shapes = (
 {
@@ -317,6 +325,47 @@ nodes = (
 }
 );
 width = 616;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (524,0);
+},
+{
+name = _crossbar;
+pos = (108,1032);
+},
+{
+name = top;
+pos = (316,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "F4D91345-5198-4D53-867D-A934BE840DA6";
+metricRight = "=|_smart.lowerstem";
+name = Extended;
+partSelection = {
+Cap = 1;
+Ascender = 1;
+Cross = 1;
+Extended = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(524,0,l),
+(524,208,l),
+(524,516,l),
+(524,790,l),
+(524,1032,l),
+(108,1032,l),
+(108,0,l)
+);
+}
+);
+width = 632;
 }
 );
 partsSettings = (
@@ -333,6 +382,11 @@ topValue = 100;
 {
 bottomValue = 0;
 name = Cross;
+topValue = 1;
+},
+{
+bottomValue = 0;
+name = Extended;
 topValue = 1;
 }
 );

@@ -15,14 +15,19 @@ pos = (320,0);
 ref = _part.Mbase;
 },
 {
+pos = (1364,0);
+ref = _part.Mbase;
+scale = (-1,1);
+},
+{
 piece = {
 Condensed = 20;
 };
-pos = (1220,0);
+pos = (1224,0);
 ref = _smart.upperstem;
 }
 );
-width = 1680;
+width = 1684;
 },
 {
 background = {
@@ -37,23 +42,28 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Condensed = 0;
+Condensed = 12;
 };
 ref = _smart.upperstem;
 },
 {
-pos = (524,0);
+pos = (532,0);
 ref = _part.Mbase;
 },
 {
+pos = (1432,0);
+ref = _part.Mbase;
+scale = (-1,1);
+},
+{
 piece = {
-Condensed = 0;
+Condensed = 12;
 };
-pos = (1308,0);
+pos = (1316,0);
 ref = _smart.upperstem;
 }
 );
-width = 1948;
+width = 1964;
 }
 );
 unicode = 77;

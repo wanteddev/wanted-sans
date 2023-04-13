@@ -39,7 +39,7 @@ pos = (116,0);
 },
 {
 name = "#exit";
-pos = (524,0);
+pos = (540,0);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -51,14 +51,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(524,0,l),
-(524,1448,l),
+(540,0,l),
+(540,1448,l),
 (116,1448,l),
 (116,0,l)
 );
 }
 );
-width = 640;
+width = 656;
 },
 {
 anchors = (
@@ -68,7 +68,7 @@ pos = (116,0);
 },
 {
 name = "#exit";
-pos = (460,0);
+pos = (476,0);
 }
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -82,14 +82,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(460,0,l),
-(460,1448,l),
+(476,0,l),
+(476,1448,l),
 (116,1448,l),
 (116,0,l)
 );
 }
 );
-width = 576;
+width = 592;
 }
 );
 partsSettings = (
