@@ -9,7 +9,7 @@ ref = _smart.upperstem;
 },
 {
 pos = (320,0);
-ref = _part.Pbase;
+ref = _smart.Pbase;
 }
 );
 width = 1196;
@@ -22,7 +22,7 @@ ref = _smart.upperstem;
 },
 {
 pos = (540,0);
-ref = _part.Pbase;
+ref = _smart.Pbase;
 }
 );
 width = 1320;
