@@ -25,7 +25,7 @@ pos = (540,0);
 ref = _part.Pbase;
 }
 );
-width = 1304;
+width = 1320;
 }
 );
 unicode = 80;
