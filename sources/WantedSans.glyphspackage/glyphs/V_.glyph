@@ -38,34 +38,36 @@ width = 1468;
 background = {
 shapes = (
 {
-pos = (12,1448);
+pos = (4,1448);
 ref = A;
 scale = (1,-1);
 }
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=A-8";
+metricRight = "=|V";
 shapes = (
 {
 closed = 1;
 nodes = (
-(1014,0,l),
-(1588,1448,l),
-(1104,1448,l),
-(618,0,l)
+(1006,0,l),
+(1580,1448,l),
+(1096,1448,l),
+(610,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(1006,0,l),
-(520,1448,l),
-(36,1448,l),
-(610,0,l)
+(998,0,l),
+(512,1448,l),
+(28,1448,l),
+(602,0,l)
 );
 }
 );
-width = 1624;
+width = 1608;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
