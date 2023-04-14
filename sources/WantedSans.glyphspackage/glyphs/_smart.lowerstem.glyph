@@ -21,7 +21,7 @@ layerId = m01;
 metricRight = "=|_smart.lowerstem";
 partSelection = {
 Cap = 1;
-Ascender = 1;
+Descender = 1;
 Cross = 1;
 Extended = 1;
 };
@@ -60,7 +60,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|_smart.lowerstem";
 partSelection = {
 Cap = 1;
-Ascender = 1;
+Descender = 1;
 Cross = 1;
 Extended = 1;
 };
@@ -101,7 +101,7 @@ metricRight = "=|_smart.lowerstem";
 name = Cap;
 partSelection = {
 Cap = 2;
-Ascender = 1;
+Descender = 1;
 Cross = 1;
 Extended = 1;
 };
@@ -142,7 +142,7 @@ metricRight = "=|_smart.lowerstem";
 name = Cap;
 partSelection = {
 Cap = 2;
-Ascender = 1;
+Descender = 1;
 Cross = 1;
 Extended = 1;
 };
@@ -180,10 +180,10 @@ pos = (218,1032);
 associatedMasterId = m01;
 layerId = "C1A1B17D-C3C8-4C28-B76D-31C5E7F8062A";
 metricRight = "=|_smart.lowerstem";
-name = Ascender;
+name = Descender;
 partSelection = {
 Cap = 1;
-Ascender = 2;
+Descender = 2;
 Cross = 1;
 Extended = 1;
 };
@@ -221,10 +221,10 @@ pos = (312,1032);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "8419E07D-F264-487D-91FC-94EF07D70FEB";
 metricRight = "=|_smart.lowerstem";
-name = Ascender;
+name = Descender;
 partSelection = {
 Cap = 1;
-Ascender = 2;
+Descender = 2;
 Cross = 1;
 Extended = 1;
 };
@@ -265,7 +265,7 @@ metricRight = "=|_smart.lowerstem";
 name = Cross;
 partSelection = {
 Cap = 1;
-Ascender = 1;
+Descender = 1;
 Cross = 2;
 Extended = 1;
 };
@@ -306,7 +306,7 @@ metricRight = "=|_smart.lowerstem";
 name = Cross;
 partSelection = {
 Cap = 1;
-Ascender = 1;
+Descender = 1;
 Cross = 2;
 Extended = 1;
 };
@@ -347,7 +347,7 @@ metricRight = "=|_smart.lowerstem";
 name = Extended;
 partSelection = {
 Cap = 1;
-Ascender = 1;
+Descender = 1;
 Cross = 1;
 Extended = 2;
 };
@@ -376,7 +376,7 @@ topValue = 100;
 },
 {
 bottomValue = 0;
-name = Ascender;
+name = Descender;
 topValue = 100;
 },
 {

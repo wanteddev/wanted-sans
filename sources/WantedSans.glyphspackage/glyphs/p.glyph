@@ -8,9 +8,9 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Ascender = 100;
 Cap = 0;
 Cross = 1;
+Descender = 100;
 };
 ref = _smart.lowerstem;
 },
@@ -26,9 +26,9 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Ascender = 100;
 Cap = 0;
 Cross = 1;
+Descender = 100;
 };
 ref = _smart.lowerstem;
 },

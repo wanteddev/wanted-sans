@@ -22,9 +22,9 @@ metricRight = "=|l";
 shapes = (
 {
 piece = {
-Ascender = 0;
 Cap = 100;
 Cross = 0;
+Descender = 0;
 Extended = 1;
 };
 ref = _smart.lowerstem;
