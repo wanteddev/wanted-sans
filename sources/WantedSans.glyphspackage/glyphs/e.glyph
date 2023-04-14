@@ -446,13 +446,6 @@ nodes = (
 width = 1184;
 },
 {
-annotations = (
-{
-pos = (911.465,361.601);
-text = "black에서는 아예 닫아둘까?";
-type = Text;
-}
-);
 background = {
 shapes = (
 {
