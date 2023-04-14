@@ -11,13 +11,6 @@ ref = _smart.upperstem;
 width = 460;
 },
 {
-annotations = (
-{
-pos = (460,1634);
-text = "432로 맞추자";
-type = Text;
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
