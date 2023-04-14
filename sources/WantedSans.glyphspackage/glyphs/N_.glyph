@@ -133,15 +133,15 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (540,0);
+pos = (548,0);
 ref = _part.Nbase;
 },
 {
-pos = (952,0);
+pos = (960,0);
 ref = _smart.upperstem;
 }
 );
-width = 1608;
+width = 1624;
 }
 );
 metricLeft = I;

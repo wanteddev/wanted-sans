@@ -47,11 +47,11 @@ Condensed = 12;
 ref = _smart.upperstem;
 },
 {
-pos = (528,0);
+pos = (536,0);
 ref = _part.Mbase;
 },
 {
-pos = (1428,0);
+pos = (1436,0);
 ref = _part.Mbase;
 scale = (-1,1);
 },
@@ -59,11 +59,11 @@ scale = (-1,1);
 piece = {
 Condensed = 12;
 };
-pos = (1312,0);
+pos = (1320,0);
 ref = _smart.upperstem;
 }
 );
-width = 1956;
+width = 1972;
 }
 );
 unicode = 77;

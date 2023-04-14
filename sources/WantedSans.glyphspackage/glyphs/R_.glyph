@@ -31,15 +31,15 @@ ref = _smart.upperstem;
 piece = {
 Short = 1;
 };
-pos = (540,0);
+pos = (548,0);
 ref = _smart.Pbase;
 },
 {
-pos = (664,0);
+pos = (672,0);
 ref = _part.Rbase;
 }
 );
-width = 1352;
+width = 1360;
 }
 );
 unicode = 82;

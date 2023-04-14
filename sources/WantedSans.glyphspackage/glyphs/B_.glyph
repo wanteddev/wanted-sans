@@ -143,11 +143,11 @@ Condensed = 24;
 ref = _smart.upperstem;
 },
 {
-pos = (516,0);
+pos = (524,0);
 ref = _part.Bbase;
 }
 );
-width = 1312;
+width = 1320;
 }
 );
 unicode = 66;

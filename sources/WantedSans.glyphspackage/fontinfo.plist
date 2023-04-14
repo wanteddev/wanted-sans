@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-10 08:37:41 +0000";
+date = "2023-04-14 12:46:01 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -674,7 +674,7 @@ userData = {
 GSDimensionPlugin.Dimensions = {
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = {
 HH = "400";
-HV = "424";
+HV = "432";
 OH = "408";
 OV = "432";
 nV = "400";
@@ -695,5 +695,5 @@ tH = "144";
 };
 };
 versionMajor = 0;
-versionMinor = 201;
+versionMinor = 202;
 }

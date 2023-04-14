@@ -65,7 +65,7 @@ ref = _part.Ybase;
 piece = {
 Y = 1;
 };
-pos = (490,0);
+pos = (486,0);
 ref = _smart.upperstem;
 }
 );
