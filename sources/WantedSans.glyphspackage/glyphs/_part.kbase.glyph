@@ -8,7 +8,140 @@ anchors = (
 name = "#entry";
 }
 );
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(716,540,l),
+(0,540,l)
+);
+}
+);
+};
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(658,0,l),
+(176,540,l),
+(640,1032,l),
+(414,1032,l),
+(-40,540,l),
+(-40,536,l),
+(436,0,l)
+);
+}
+);
+width = 694;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(718,0,l),
+(368,536,l),
+(714,1032,l),
+(266,1032,l),
+(-56,544,l),
+(-56,536,l),
+(282,0,l)
+);
+}
+);
+width = 750;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(716,540,l),
+(0,540,l)
+);
+}
+);
+};
+layerId = "7D6AF7C2-66FB-4400-8FA8-C6B721B0B48C";
+name = Base;
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeWidth = 162;
+};
+closed = 0;
+nodes = (
+(546,0,l),
+(64,540,l),
+(526,1032,l)
+);
+}
+);
+width = 690;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(716,540,l),
+(0,540,l)
+);
+}
+);
+};
+layerId = "9EA91894-0980-4BDE-85B7-F9834BC4767E";
+name = Base;
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 360;
+};
+closed = 0;
+nodes = (
+(504,0,l),
+(152,540,l),
+(494,1032,l)
+);
+}
+);
+width = 750;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+associatedMasterId = m01;
+layerId = "7B91DC28-8BB6-46D2-A9AF-93A1F207D996";
+name = "Apr 14, 23 17:03";
 shapes = (
 {
 closed = 1;
@@ -39,26 +172,28 @@ anchors = (
 name = "#entry";
 }
 );
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "B1C82DE7-D12E-4958-BA9B-A958790FAD9A";
+name = "Apr 14, 23 17:03";
 shapes = (
 {
 closed = 1;
 nodes = (
-(718,0,l),
-(368,540,l),
-(-64,540,l),
-(-64,528,l),
-(280,0,l)
+(720,0,l),
+(370,540,l),
+(-62,540,l),
+(-62,528,l),
+(282,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(368,540,l),
-(712,1032,l),
-(262,1032,l),
-(-64,548,l),
-(-64,540,l)
+(370,540,l),
+(714,1032,l),
+(264,1032,l),
+(-62,548,l),
+(-62,540,l)
 );
 }
 );

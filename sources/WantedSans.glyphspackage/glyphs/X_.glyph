@@ -1,15 +1,168 @@
 {
-color = 3;
 glyphname = X;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(674,594,l),
+(1092,0,l),
+(1304,0,l),
+(788,724,l),
+(1304,1448,l),
+(1092,1448,l),
+(674,856,l),
+(256,1448,l),
+(44,1448,l),
+(560,724,l),
+(44,0,l)
+);
+}
+);
+width = 1348;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(538,0,l),
+(798,398,l),
+(1060,0,l),
+(1570,0,l),
+(1070,724,l),
+(1570,1448,l),
+(1060,1448,l),
+(798,1050,l),
+(538,1448,l),
+(28,1448,l),
+(528,724,l),
+(28,0,l)
+);
 }
 );
+width = 1598;
+},
+{
+associatedMasterId = m01;
+layerId = "B6CF3748-8BDB-45D5-B657-49AE5D1C413B";
+name = Base;
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 172;
+};
+closed = 0;
+nodes = (
+(150,1448,l),
+(1198,0,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 172;
+};
+closed = 0;
+nodes = (
+(1198,1448,l),
+(150,0,l)
+);
+}
+);
+width = 1348;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "145A19B4-352C-4B93-9554-9405564ED893";
+name = Base;
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 416;
+};
+closed = 0;
+nodes = (
+(282,1448,l),
+(1314,0,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 416;
+};
+closed = 0;
+nodes = (
+(1314,1448,l),
+(282,0,l)
+);
+}
+);
+width = 1598;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "43F533A6-3C3A-4A89-B8D5-4C6BE4BC0301";
+name = "Apr 14, 23 15:10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1054,724,l),
+(1570,1448,l),
+(1060,1448,l),
+(798,1050,l),
+(538,1448,l),
+(28,1448,l),
+(544,724,l),
+(28,0,l),
+(538,0,l),
+(798,398,l),
+(1060,0,l),
+(1570,0,l)
+);
+}
+);
+width = 1598;
+},
+{
+associatedMasterId = m01;
+layerId = "73F441CF-B750-4FE3-B4E2-AF1252E6AC49";
+name = "Apr 14, 23 15:11";
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(674,594,l),
+(1092,0,l),
+(1304,0,l),
+(780,724,l),
+(1304,1448,l),
+(1092,1448,l),
+(674,856,l),
+(256,1448,l),
+(44,1448,l),
+(568,724,l),
+(44,0,l)
+);
+}
+);
+width = 1348;
+}
+);
+metricLeft = V;
+metricRight = V;
 unicode = 88;
 }

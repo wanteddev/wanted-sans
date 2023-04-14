@@ -1,8 +1,5 @@
 {
 displayStrings = (
-"/_part.Lbase/_part.Fbase/_part.Ebase/_part.Tbase 
-LFET
-Tppon",
-ABEFHILMNOPRTVW
+ABDEFHIKLMNOPQRTUVWXYZ
 );
 }

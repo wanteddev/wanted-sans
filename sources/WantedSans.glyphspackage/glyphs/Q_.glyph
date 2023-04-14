@@ -1,14 +1,38 @@
 {
-color = 3;
 glyphname = Q;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+ref = O;
 },
 {
+pos = (844,0);
+ref = _part.Qbase;
+}
+);
+width = 1688;
+},
+{
+annotations = (
+{
+pos = (1072,1670);
+text = "방법이 없나?";
+type = Text;
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (824,0);
+ref = _part.Qbase;
+}
+);
+width = 1648;
 }
 );
 unicode = 81;

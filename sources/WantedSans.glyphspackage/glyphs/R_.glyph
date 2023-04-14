@@ -2,13 +2,6 @@
 glyphname = R;
 layers = (
 {
-annotations = (
-{
-pos = (694,1610);
-text = "P를 올리자";
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -46,7 +39,7 @@ pos = (664,0);
 ref = _part.Rbase;
 }
 );
-width = 1318;
+width = 1352;
 }
 );
 unicode = 82;

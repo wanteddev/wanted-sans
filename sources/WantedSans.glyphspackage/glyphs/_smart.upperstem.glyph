@@ -22,6 +22,7 @@ metricLeft = "=140";
 metricRight = "=|_smart.upperstem";
 partSelection = {
 Condensed = 1;
+Y = 1;
 };
 shapes = (
 {
@@ -30,6 +31,43 @@ nodes = (
 (320,0,l),
 (320,1448,l),
 (140,1448,l),
+(140,0,l)
+);
+}
+);
+width = 460;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (140,0);
+},
+{
+name = "#exit";
+pos = (320,0);
+},
+{
+name = _top;
+pos = (230,1448);
+}
+);
+associatedMasterId = m01;
+layerId = "6242508C-E80D-4861-AACA-F948742BBAEA";
+metricLeft = "=140";
+metricRight = "=|_smart.upperstem";
+name = Y;
+partSelection = {
+Condensed = 1;
+Y = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,0,l),
+(320,724,l),
+(140,724,l),
 (140,0,l)
 );
 }
@@ -56,6 +94,7 @@ metricLeft = "=116";
 metricRight = "=|_smart.upperstem";
 partSelection = {
 Condensed = 1;
+Y = 1;
 };
 shapes = (
 {
@@ -64,6 +103,43 @@ nodes = (
 (540,0,l),
 (540,1448,l),
 (116,1448,l),
+(116,0,l)
+);
+}
+);
+width = 656;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (116,0);
+},
+{
+name = "#exit";
+pos = (540,0);
+},
+{
+name = _top;
+pos = (328,1448);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "33B77C51-E068-4B33-8D67-3B10FF8C5578";
+metricLeft = "=116";
+metricRight = "=|_smart.upperstem";
+name = Y;
+partSelection = {
+Condensed = 1;
+Y = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(540,0,l),
+(540,724,l),
+(116,724,l),
 (116,0,l)
 );
 }
@@ -92,6 +168,7 @@ metricRight = "=|_smart.upperstem";
 name = Condensed;
 partSelection = {
 Condensed = 2;
+Y = 1;
 };
 shapes = (
 {
@@ -112,6 +189,11 @@ partsSettings = (
 bottomValue = 0;
 name = Condensed;
 topValue = 64;
+},
+{
+bottomValue = 0;
+name = Y;
+topValue = 1;
 }
 );
 }

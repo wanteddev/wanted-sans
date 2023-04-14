@@ -1,15 +1,78 @@
 {
-color = 0;
 glyphname = Y;
 layers = (
 {
-layerId = m01;
-width = 1200;
-},
+background = {
+shapes = (
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+closed = 1;
+nodes = (
+(1308,1448,l),
+(1074,1448,l),
+(670,794,l),
+(270,1448,l),
+(20,1448,l),
+(562,626,l),
+(562,0,l),
+(766,0,l),
+(766,626,l),
+(766,626,l)
+);
 }
 );
+};
+layerId = m01;
+shapes = (
+{
+ref = _part.Ybase;
+},
+{
+piece = {
+Y = 1;
+};
+pos = (434,0);
+ref = _smart.upperstem;
+}
+);
+width = 1328;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1644,1448,l),
+(1072,1448,l),
+(854,1024,l),
+(624,1448,l),
+(38,1448,l),
+(584,594,l),
+(584,0,l),
+(1070,0,l),
+(1070,594,l),
+(1070,594,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.Ybase;
+},
+{
+piece = {
+Y = 1;
+};
+pos = (490,0);
+ref = _smart.upperstem;
+}
+);
+width = 1636;
+}
+);
+metricLeft = X;
+metricRight = X;
 unicode = 89;
 }
