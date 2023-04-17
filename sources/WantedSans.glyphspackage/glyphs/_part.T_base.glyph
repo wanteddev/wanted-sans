@@ -6,10 +6,12 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (700,1448);
+pos = (644,1448);
 }
 );
 layerId = m01;
+metricLeft = "=I*.6";
+metricRight = "=|_part.Tbase";
 shapes = (
 {
 attr = {
@@ -18,21 +20,23 @@ strokeWidth = 168;
 };
 closed = 0;
 nodes = (
-(140,1448,l),
-(1260,1448,l)
+(84,1448,l),
+(1204,1448,l)
 );
 }
 );
-width = 1400;
+width = 1288;
 },
 {
 anchors = (
 {
 name = top;
-pos = (716,1448);
+pos = (694,1448);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=I*.81";
+metricRight = "=|_part.Tbase";
 shapes = (
 {
 attr = {
@@ -41,12 +45,12 @@ strokeWidth = 400;
 };
 closed = 0;
 nodes = (
-(116,1448,l),
-(1316,1448,l)
+(94,1448,l),
+(1294,1448,l)
 );
 }
 );
-width = 1432;
+width = 1388;
 }
 );
 metricLeft = I;

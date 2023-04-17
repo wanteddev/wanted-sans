@@ -1,5 +1,7 @@
 {
 glyphname = N;
+kernLeft = H;
+kernRight = H;
 layers = (
 {
 background = {

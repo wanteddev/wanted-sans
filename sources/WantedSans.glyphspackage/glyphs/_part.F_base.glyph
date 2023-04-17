@@ -9,6 +9,7 @@ name = "#entry";
 }
 );
 layerId = m01;
+metricRight = "=I*.725";
 shapes = (
 {
 attr = {
@@ -32,7 +33,7 @@ nodes = (
 );
 }
 );
-width = 844;
+width = 806;
 },
 {
 anchors = (
@@ -41,6 +42,7 @@ name = "#entry";
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=I*.825";
 shapes = (
 {
 attr = {
@@ -64,8 +66,8 @@ nodes = (
 );
 }
 );
-width = 664;
+width = 644;
 }
 );
-metricRight = I;
+metricRight = E;
 }

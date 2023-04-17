@@ -1,5 +1,7 @@
 {
 glyphname = E;
+kernLeft = H;
+kernRight = E;
 layers = (
 {
 layerId = m01;
@@ -12,7 +14,7 @@ pos = (320,0);
 ref = _part.Ebase;
 }
 );
-width = 1196;
+width = 1162;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -25,7 +27,7 @@ pos = (548,0);
 ref = _part.Ebase;
 }
 );
-width = 1236;
+width = 1220;
 }
 );
 unicode = 69;

@@ -1,5 +1,7 @@
 {
 glyphname = T;
+kernLeft = T;
+kernRight = T;
 layers = (
 {
 layerId = m01;
@@ -8,11 +10,11 @@ shapes = (
 ref = _part.Tbase;
 },
 {
-pos = (470,0);
+pos = (414,0);
 ref = _smart.upperstem;
 }
 );
-width = 1400;
+width = 1288;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -21,11 +23,11 @@ shapes = (
 ref = _part.Tbase;
 },
 {
-pos = (384,0);
+pos = (362,0);
 ref = _smart.upperstem;
 }
 );
-width = 1432;
+width = 1388;
 }
 );
 unicode = 84;

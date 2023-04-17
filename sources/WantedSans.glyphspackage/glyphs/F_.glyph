@@ -1,5 +1,7 @@
 {
 glyphname = F;
+kernLeft = H;
+kernRight = F;
 layers = (
 {
 layerId = m01;
@@ -12,7 +14,7 @@ pos = (320,0);
 ref = _part.Fbase;
 }
 );
-width = 1164;
+width = 1126;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -25,7 +27,7 @@ pos = (548,0);
 ref = _part.Fbase;
 }
 );
-width = 1212;
+width = 1192;
 }
 );
 unicode = 70;
