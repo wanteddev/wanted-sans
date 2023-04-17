@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Condensed = 20;
+Condensed = 0;
 };
 ref = _smart.upperstem;
 },
@@ -21,7 +21,7 @@ scale = (-1,1);
 },
 {
 piece = {
-Condensed = 20;
+Condensed = 0;
 };
 pos = (1224,0);
 ref = _smart.upperstem;

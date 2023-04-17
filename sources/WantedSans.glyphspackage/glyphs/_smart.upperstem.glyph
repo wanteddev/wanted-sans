@@ -182,6 +182,43 @@ nodes = (
 }
 );
 width = 600;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (140,0);
+},
+{
+name = "#exit";
+pos = (256,0);
+},
+{
+name = _top;
+pos = (198,1448);
+}
+);
+associatedMasterId = m01;
+layerId = "A6BE341F-1988-4BF8-86F2-3BCFEAC06294";
+metricLeft = "=140";
+metricRight = "=|_smart.upperstem";
+name = Condensed;
+partSelection = {
+Condensed = 2;
+Y = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(256,1448,l),
+(140,1448,l),
+(140,0,l)
+);
+}
+);
+width = 396;
 }
 );
 partsSettings = (

@@ -8,47 +8,32 @@ anchors = (
 name = _tail;
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(621.236,-120,l),
+(230,456,l),
+(18,456,l),
+(410.764,-120,l)
+);
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeWidth = 360;
-};
-closed = 0;
+closed = 1;
 nodes = (
-(12,592,l),
-(516,-112,l)
+(730,-96,l),
+(212,576,l),
+(-196,576,l),
+(290,-96,l)
 );
 }
 );
-width = 774;
-},
-{
-anchors = (
-{
-name = _tail;
-}
-);
-associatedMasterId = m01;
-layerId = "AB926224-CC23-4CAE-AC1E-60A583469E55";
-name = "Apr 14, 23 11:35";
-shapes = (
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeWidth = 174;
-};
-closed = 0;
-nodes = (
-(66,424,l),
-(550,-216,l)
-);
-}
-);
-width = 704;
+width = 766;
 },
 {
 anchors = (
@@ -60,6 +45,28 @@ layerId = m01;
 name = Regular;
 shapes = (
 {
+closed = 1;
+nodes = (
+(621.236,-120,l),
+(230,456,l),
+(18,456,l),
+(410.764,-120,l)
+);
+}
+);
+width = 666;
+},
+{
+anchors = (
+{
+name = _tail;
+}
+);
+associatedMasterId = m01;
+layerId = "9929D53E-E868-4DAA-B826-E347A86101E2";
+name = "Apr 17, 23 10:44";
+shapes = (
+{
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
@@ -67,12 +74,12 @@ strokeWidth = 174;
 };
 closed = 0;
 nodes = (
-(66,424,l),
-(502,-216,l)
+(130,424,l),
+(500,-120,l)
 );
 }
 );
-width = 652;
+width = 650;
 },
 {
 anchors = (
@@ -81,23 +88,64 @@ name = _tail;
 }
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-layerId = "B1CB237F-9F80-493E-A60D-5E0C0211B41B";
-name = "Apr 14, 23 11:47";
+background = {
 shapes = (
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 368;
+strokeWidth = 174;
 };
 closed = 0;
 nodes = (
-(96,628,l),
-(614,-132,l)
+(130,424,l),
+(500,-120,l)
 );
 }
 );
-width = 874;
+};
+layerId = "D3210178-00CE-412B-BE00-041A998BC9AA";
+name = "Apr 17, 23 10:45";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(8,576,l),
+(510,-96,l)
+);
+}
+);
+width = 766;
+},
+{
+anchors = (
+{
+name = _tail;
+}
+);
+associatedMasterId = m01;
+layerId = "2D2C8382-A797-426D-9703-B99371A69559";
+name = "Apr 17, 23 10:52";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 174;
+};
+closed = 0;
+nodes = (
+(124,456,l),
+(516,-120,l)
+);
+}
+);
+width = 666;
 }
 );
 metricRight = A;
