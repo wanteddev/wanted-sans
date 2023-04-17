@@ -6,8 +6,8 @@ layers = (
 {
 annotations = (
 {
-pos = (458,246);
-text = "조금 더 완만하면 어떨지?";
+pos = (642,1260);
+text = "조금 더 오른쪽으로?";
 type = Text;
 }
 );

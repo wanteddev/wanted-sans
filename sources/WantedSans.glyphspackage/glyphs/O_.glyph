@@ -10,6 +10,13 @@ name = tail;
 pos = (844,0);
 }
 );
+annotations = (
+{
+pos = (1056,1670);
+text = "폭을 줄여보자";
+type = Text;
+}
+);
 background = {
 shapes = (
 {
