@@ -1,5 +1,5 @@
 {
-.appVersion = "3185";
+.appVersion = "3187";
 .formatVersion = 3;
 axes = (
 {
@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-14 12:46:01 +0000";
+date = "2023-04-17 01:21:20 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
