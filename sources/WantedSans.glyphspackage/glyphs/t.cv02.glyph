@@ -4,6 +4,13 @@ kernLeft = f;
 kernRight = t.cv02;
 layers = (
 {
+annotations = (
+{
+pos = (572,1310);
+text = "커닝 맞춰야 함";
+type = Text;
+}
+);
 layerId = m01;
 shapes = (
 {
