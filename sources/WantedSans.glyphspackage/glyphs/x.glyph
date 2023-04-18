@@ -80,6 +80,13 @@ nodes = (
 width = 1266;
 },
 {
+annotations = (
+{
+pos = (584.322,1193.76);
+text = "e 중심 다시 맞춰야 함";
+type = Text;
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
