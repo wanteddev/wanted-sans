@@ -149,6 +149,12 @@ pos = -434;
 },
 {
 over = -16;
+},
+{
+pos = 760;
+},
+{
+pos = 540;
 }
 );
 name = Regular;
@@ -238,6 +244,12 @@ pos = -434;
 },
 {
 over = -16;
+},
+{
+pos = 760;
+},
+{
+pos = 540;
 }
 );
 name = Black;
@@ -957,6 +969,12 @@ type = descender;
 },
 {
 type = "italic angle";
+},
+{
+name = "Cap Center";
+},
+{
+name = "Low Center";
 }
 );
 note = "About:
