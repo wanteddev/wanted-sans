@@ -3,11 +3,43 @@ glyphname = hyphen;
 layers = (
 {
 layerId = m01;
-width = 1200;
+shapes = (
+{
+piece = {
+Case = 0;
+Tight = 0;
+Width = 640;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 880;
 },
 {
+background = {
+shapes = (
+{
+attr = {
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(136,540,l),
+(792,540,l)
+);
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-width = 1200;
+shapes = (
+{
+piece = {
+Width = 656;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 928;
 }
 );
 unicode = 45;

@@ -1,0 +1,66 @@
+{
+glyphname = endash;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Case = 0;
+Tight = 1;
+Width = 1024;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1024;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Case = 0;
+Tight = 1;
+Width = 1024;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1024;
+},
+{
+associatedMasterId = m01;
+layerId = "1CDE01BA-C03B-42F9-93B2-6E298BB8AAC1";
+name = "Apr 21, 23 0:01";
+shapes = (
+{
+piece = {
+Case = 0;
+Tight = 1;
+Width = 1024;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1024;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "1A01910E-65E2-4D25-BE26-80DEB7A829D1";
+name = "Apr 21, 23 0:01";
+shapes = (
+{
+piece = {
+Case = 0;
+Tight = 1;
+Width = 1024;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1024;
+}
+);
+unicode = 8211;
+}
