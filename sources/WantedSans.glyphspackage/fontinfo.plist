@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-17 08:34:37 +0000";
+date = "2023-04-20 17:02:29 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -1152,5 +1152,5 @@ tH = "144";
 };
 };
 versionMajor = 0;
-versionMinor = 202;
+versionMinor = 203;
 }
