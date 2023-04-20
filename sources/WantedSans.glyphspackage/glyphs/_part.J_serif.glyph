@@ -1,0 +1,97 @@
+{
+export = 0;
+glyphname = _part.Jserif;
+layers = (
+{
+anchors = (
+{
+name = _serif;
+pos = (370,1448);
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "3";
+lineCapStart = "3";
+strokeHeight = 172;
+strokePos = "0";
+strokeWidth = 184;
+};
+closed = 0;
+nodes = (
+(86,1448,l),
+(370,1448,l)
+);
+},
+{
+pos = (-446,0);
+ref = J;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(456,1276,l),
+(456,1448,l),
+(0,1448,l),
+(0,1276,l)
+);
+}
+);
+width = 370;
+},
+{
+anchors = (
+{
+name = _serif;
+pos = (312,1448);
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "3";
+lineCapStart = "3";
+strokePos = "0";
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(200,1448,l),
+(312,1448,l)
+);
+},
+{
+pos = (-392,0);
+ref = J;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(512,1048,l),
+(512,1448,l),
+(0,1448,l),
+(0,1048,l)
+);
+}
+);
+width = 312;
+}
+);
+}

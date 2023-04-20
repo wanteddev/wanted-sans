@@ -31,6 +31,14 @@ code = "feature cv01;
 feature cv02;
 feature cv03;
 feature cv04;
+feature cv05;
+feature cv06;
+feature cv07;
+feature cv08;
+feature cv09;
+feature cv10;
+feature cv11;
+feature cv12;
 ";
 tag = aalt;
 },
@@ -66,6 +74,55 @@ automatic = 1;
 code = "sub u by u.cv04;
 ";
 tag = cv04;
+},
+{
+automatic = 1;
+code = "sub J by J.cv05;
+";
+tag = cv05;
+},
+{
+automatic = 1;
+code = "sub Q by Q.cv06;
+";
+tag = cv06;
+},
+{
+automatic = 1;
+code = "sub one by one.cv07;
+";
+tag = cv07;
+},
+{
+automatic = 1;
+code = "sub two by two.cv08;
+";
+tag = cv08;
+},
+{
+automatic = 1;
+code = "sub three by three.cv09;
+";
+tag = cv09;
+},
+{
+automatic = 1;
+code = "sub four by four.cv10;
+";
+tag = cv10;
+},
+{
+automatic = 1;
+code = "sub six by six.cv11;
+sub nine by nine.cv11;
+";
+tag = cv11;
+},
+{
+automatic = 1;
+code = "sub seven by seven.cv12;
+";
+tag = cv12;
 }
 );
 fontMaster = (

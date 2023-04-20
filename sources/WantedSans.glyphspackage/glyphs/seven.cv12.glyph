@@ -1,0 +1,115 @@
+{
+glyphname = seven.cv12;
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeHeight = 168;
+strokeWidth = 176;
+};
+closed = 0;
+nodes = (
+(326,0,l),
+(974,1280,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+strokeHeight = 168;
+strokeWidth = 176;
+};
+closed = 0;
+nodes = (
+(1072,1364,l),
+(120,1364,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(424,0,l),
+(1072,1280,l),
+(876,1280,l),
+(228,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(876,1280,l),
+(1072,1280,l),
+(1072,1448,l),
+(120,1448,l),
+(120,1280,l)
+);
+}
+);
+width = 1160;
+},
+{
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeHeight = 384;
+strokeWidth = 416;
+};
+closed = 0;
+nodes = (
+(450,0,l),
+(978,1064,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+strokeHeight = 384;
+strokeWidth = 416;
+};
+closed = 0;
+nodes = (
+(1208,1256,l),
+(100,1256,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(656,0,l),
+(1208,1096,l),
+(720,1064,l),
+(192,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(720,1064,l),
+(1208,1096,l),
+(1208,1448,l),
+(100,1448,l),
+(100,1064,l)
+);
+}
+);
+width = 1280;
+}
+);
+metricLeft = seven;
+metricRight = seven;
+}
