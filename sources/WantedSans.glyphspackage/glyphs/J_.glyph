@@ -4,6 +4,12 @@ kernLeft = J;
 kernRight = H;
 layers = (
 {
+anchors = (
+{
+name = serif;
+pos = (816,1448);
+}
+);
 background = {
 shapes = (
 {
@@ -157,6 +163,12 @@ nodes = (
 width = 1002;
 },
 {
+anchors = (
+{
+name = serif;
+pos = (704,1448);
+}
+);
 background = {
 shapes = (
 {

@@ -34,7 +34,6 @@ nodes = (
 );
 };
 layerId = m01;
-metricRight = "=A*2";
 shapes = (
 {
 closed = 1;
@@ -97,7 +96,7 @@ nodes = (
 };
 layerId = "372E77B4-B2B7-4BA0-835D-476020C14527";
 metricRight = "=A*2";
-name = "Apr 20, 23 1:30";
+name = Curved;
 shapes = (
 {
 closed = 1;
@@ -158,7 +157,7 @@ nodes = (
 };
 layerId = "F6894430-E2D5-4007-9553-70167F2EAB6B";
 metricRight = "=A*2";
-name = "Apr 20, 23 1:34";
+name = Straight;
 shapes = (
 {
 closed = 1;
@@ -242,7 +241,6 @@ nodes = (
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=A*2";
 shapes = (
 {
 closed = 1;
@@ -374,7 +372,7 @@ nodes = (
 };
 layerId = "62568BF9-4A36-448F-88E5-80751A2BB4BA";
 metricRight = "=A*2";
-name = "Apr 20, 23 1:29";
+name = Curved;
 shapes = (
 {
 closed = 1;
@@ -435,7 +433,7 @@ nodes = (
 };
 layerId = "B1C8421A-1110-43B9-A5CE-B7C1467DC58F";
 metricRight = "=A*2";
-name = "Apr 20, 23 1:30";
+name = Straight;
 shapes = (
 {
 closed = 1;
@@ -535,7 +533,5 @@ nodes = (
 width = 1168;
 }
 );
-metricLeft = one;
-metricRight = A;
 unicode = 55;
 }
