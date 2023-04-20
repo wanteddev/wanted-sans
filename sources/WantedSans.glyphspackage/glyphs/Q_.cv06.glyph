@@ -1,6 +1,7 @@
 {
 glyphname = Q.cv06;
 kernLeft = O;
+kernRight = Q.cv06;
 layers = (
 {
 background = {

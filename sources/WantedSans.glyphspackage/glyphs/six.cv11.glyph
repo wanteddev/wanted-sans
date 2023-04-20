@@ -1,5 +1,7 @@
 {
 glyphname = six.cv11;
+kernLeft = O;
+kernRight = five;
 layers = (
 {
 background = {

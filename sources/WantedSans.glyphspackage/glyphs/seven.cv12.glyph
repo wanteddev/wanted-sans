@@ -1,5 +1,7 @@
 {
 glyphname = seven.cv12;
+kernLeft = seven;
+kernRight = seven;
 layers = (
 {
 background = {

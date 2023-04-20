@@ -1,5 +1,7 @@
 {
 glyphname = comma;
+kernLeft = period;
+kernRight = period;
 layers = (
 {
 background = {

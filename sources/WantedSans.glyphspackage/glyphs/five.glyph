@@ -1,5 +1,7 @@
 {
 glyphname = five;
+kernLeft = five;
+kernRight = five;
 layers = (
 {
 background = {

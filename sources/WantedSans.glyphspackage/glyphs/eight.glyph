@@ -1,5 +1,7 @@
 {
 glyphname = eight;
+kernLeft = eight;
+kernRight = eight;
 layers = (
 {
 background = {

@@ -1,5 +1,7 @@
 {
 glyphname = quotedblright;
+kernLeft = qouteright;
+kernRight = qouteright;
 layers = (
 {
 layerId = m01;

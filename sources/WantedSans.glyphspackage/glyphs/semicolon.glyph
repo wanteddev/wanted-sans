@@ -1,5 +1,7 @@
 {
 glyphname = semicolon;
+kernLeft = colon;
+kernRight = colon;
 layers = (
 {
 background = {

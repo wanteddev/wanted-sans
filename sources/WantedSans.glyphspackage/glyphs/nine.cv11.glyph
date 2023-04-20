@@ -1,5 +1,7 @@
 {
 glyphname = nine.cv11;
+kernLeft = nine;
+kernRight = O;
 layers = (
 {
 layerId = m01;

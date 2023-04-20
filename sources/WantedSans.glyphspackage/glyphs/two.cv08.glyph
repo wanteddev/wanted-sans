@@ -1,5 +1,7 @@
 {
 glyphname = two.cv08;
+kernLeft = two;
+kernRight = two;
 layers = (
 {
 background = {

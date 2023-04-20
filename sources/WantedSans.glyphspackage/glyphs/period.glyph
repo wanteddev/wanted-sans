@@ -1,5 +1,7 @@
 {
 glyphname = period;
+kernLeft = period;
+kernRight = period;
 layers = (
 {
 layerId = m01;

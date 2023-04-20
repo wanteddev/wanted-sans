@@ -1,5 +1,7 @@
 {
 glyphname = three.cv09;
+kernLeft = three;
+kernRight = eight;
 layers = (
 {
 background = {
