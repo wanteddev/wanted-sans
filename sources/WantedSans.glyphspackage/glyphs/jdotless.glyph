@@ -1,6 +1,6 @@
 {
 glyphname = jdotless;
-kernLeft = n;
+kernLeft = jdotless;
 kernRight = g;
 layers = (
 {

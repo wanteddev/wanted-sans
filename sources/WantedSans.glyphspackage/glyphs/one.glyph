@@ -1,7 +1,7 @@
 {
 glyphname = one;
 kernLeft = one;
-kernRight = H;
+kernRight = one;
 layers = (
 {
 associatedMasterId = m01;
