@@ -28,7 +28,7 @@ pos = (304,0);
 ref = _part.rbase;
 }
 );
-width = 790;
+width = 770;
 },
 {
 background = {

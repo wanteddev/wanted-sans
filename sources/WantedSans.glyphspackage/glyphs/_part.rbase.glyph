@@ -9,6 +9,7 @@ name = "#entry";
 }
 );
 layerId = m01;
+metricRight = "=f*.8";
 shapes = (
 {
 closed = 1;
@@ -23,7 +24,7 @@ nodes = (
 );
 }
 );
-width = 486;
+width = 466;
 },
 {
 anchors = (
