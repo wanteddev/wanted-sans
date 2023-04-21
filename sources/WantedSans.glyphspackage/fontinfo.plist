@@ -46,7 +46,7 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [dotaccentcomb];
-	sub [i]' @CombiningTopAccents by [idotless];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
 ";
 tag = ccmp;
@@ -54,6 +54,7 @@ tag = ccmp;
 {
 automatic = 1;
 code = "sub j by j.cv01;
+sub jdotless by jdotless.cv01;
 ";
 tag = cv01;
 },

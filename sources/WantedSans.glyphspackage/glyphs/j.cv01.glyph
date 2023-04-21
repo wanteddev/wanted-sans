@@ -7,10 +7,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-piece = {
-Descender = 100;
-};
-ref = _smart.lowerstem;
+ref = jdotless.cv01;
 },
 {
 alignment = 1;
@@ -31,10 +28,7 @@ ref = j;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-piece = {
-Descender = 100;
-};
-ref = _smart.lowerstem;
+ref = jdotless.cv01;
 },
 {
 alignment = 1;
