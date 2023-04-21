@@ -23,7 +23,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 544;
+width = 528;
 },
 {
 anchors = (
@@ -46,7 +46,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 688;
+width = 672;
 }
 );
 metricLeft = _smart.terminal;

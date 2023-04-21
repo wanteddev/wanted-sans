@@ -71,7 +71,7 @@ nodes = (
 );
 }
 );
-width = 496;
+width = 480;
 },
 {
 anchors = (
@@ -123,7 +123,7 @@ nodes = (
 );
 }
 );
-width = 496;
+width = 480;
 },
 {
 anchors = (
@@ -175,7 +175,7 @@ nodes = (
 );
 }
 );
-width = 496;
+width = 480;
 },
 {
 anchors = (
@@ -248,7 +248,7 @@ nodes = (
 );
 }
 );
-width = 544;
+width = 528;
 },
 {
 anchors = (
@@ -291,7 +291,7 @@ nodes = (
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=-56";
+metricRight = "=-72";
 partSelection = {
 Top = 1;
 Terminal = 1;
@@ -320,7 +320,7 @@ nodes = (
 );
 }
 );
-width = 664;
+width = 648;
 },
 {
 anchors = (
@@ -343,7 +343,7 @@ pos = (308,1448);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "F161ECCB-D5F7-4A17-A29D-CB0F158EFFDD";
-metricRight = "=-56";
+metricRight = "=-72";
 name = "Long Top";
 partSelection = {
 Top = 2;
@@ -373,7 +373,7 @@ nodes = (
 );
 }
 );
-width = 664;
+width = 648;
 },
 {
 anchors = (
@@ -396,7 +396,7 @@ pos = (308,1032);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "A0B8E9CF-DEBD-499D-BFBB-781D78C6D719";
-metricRight = "=-56";
+metricRight = "=-72";
 name = "Long Bottom";
 partSelection = {
 Top = 1;
@@ -426,7 +426,7 @@ nodes = (
 );
 }
 );
-width = 664;
+width = 648;
 },
 {
 anchors = (
@@ -470,7 +470,7 @@ nodes = (
 );
 };
 layerId = "6BC3E2AA-2F7C-4BE7-8D24-DD0D63224473";
-metricRight = "=-56";
+metricRight = "=-72";
 name = "Long Terminal";
 partSelection = {
 Top = 1;
@@ -500,7 +500,7 @@ nodes = (
 );
 }
 );
-width = 712;
+width = 696;
 }
 );
 metricLeft = _smart.lowerstem;

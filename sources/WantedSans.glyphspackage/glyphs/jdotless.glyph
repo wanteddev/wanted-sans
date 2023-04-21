@@ -10,12 +10,12 @@ shapes = (
 piece = {
 Bottom = 104.4;
 };
-pos = (496,0);
+pos = (480,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 496;
+width = 480;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -24,12 +24,12 @@ shapes = (
 piece = {
 Bottom = 104.4;
 };
-pos = (664,0);
+pos = (648,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 664;
+width = 648;
 }
 );
 unicode = 567;
