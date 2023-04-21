@@ -1,0 +1,36 @@
+{
+glyphname = jdotless;
+kernLeft = n;
+kernRight = g;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Bottom = 104.4;
+};
+pos = (496,0);
+ref = _smart.terminal;
+scale = (-1,1);
+}
+);
+width = 496;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Bottom = 104.4;
+};
+pos = (664,0);
+ref = _smart.terminal;
+scale = (-1,1);
+}
+);
+width = 664;
+}
+);
+unicode = 567;
+}
