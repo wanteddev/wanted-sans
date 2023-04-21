@@ -29,6 +29,7 @@ metricLeft = "=76";
 metricRight = "=100";
 partSelection = {
 Condensed = 1;
+Reflect = 1;
 };
 shapes = (
 {
@@ -70,6 +71,7 @@ metricLeft = "=60";
 metricRight = "=84";
 partSelection = {
 Condensed = 1;
+Reflect = 1;
 };
 shapes = (
 {
@@ -117,6 +119,7 @@ metricRight = "=100";
 name = Condensed;
 partSelection = {
 Condensed = 2;
+Reflect = 1;
 };
 shapes = (
 {
@@ -163,6 +166,7 @@ metricRight = "=84";
 name = Condensed;
 partSelection = {
 Condensed = 2;
+Reflect = 1;
 };
 shapes = (
 {
@@ -176,6 +180,64 @@ nodes = (
 }
 );
 width = 928;
+},
+{
+anchors = (
+{
+name = crossbar;
+pos = (278,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "090ADBC1-D98E-4758-BBAD-BF7B807AD9D9";
+metricLeft = "=76";
+metricRight = "=76";
+name = Reflect;
+partSelection = {
+Condensed = 1;
+Reflect = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(714,888,l),
+(714,1032,l),
+(76,1032,l),
+(76,888,l)
+);
+}
+);
+width = 790;
+},
+{
+anchors = (
+{
+name = crossbar;
+pos = (232,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "5C638331-E81C-482B-A021-9A43D4E203B3";
+metricLeft = "=60";
+metricRight = "=60";
+name = Reflect;
+partSelection = {
+Condensed = 1;
+Reflect = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(868,728,l),
+(868,1032,l),
+(60,1032,l),
+(60,728,l)
+);
+}
+);
+width = 928;
 }
 );
 partsSettings = (
@@ -183,6 +245,11 @@ partsSettings = (
 bottomValue = 0;
 name = Condensed;
 topValue = 100;
+},
+{
+bottomValue = 0;
+name = Reflect;
+topValue = 1;
 }
 );
 }
