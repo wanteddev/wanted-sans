@@ -1,34 +1,27 @@
 {
-glyphname = i;
-kernLeft = l;
-kernRight = l;
+glyphname = dotaccent;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = idotless;
-},
-{
-pos = (218,0);
+pos = (512,0);
 ref = dotaccentcomb;
 }
 );
-width = 436;
+width = 1024;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = idotless;
-},
-{
-pos = (8,0);
+pos = (512,0);
 ref = dotaccentcomb;
 }
 );
-width = 616;
+width = 1024;
 }
 );
-unicode = 105;
+metricWidth = enquad;
+unicode = 729;
 }
