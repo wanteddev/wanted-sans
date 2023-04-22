@@ -22,7 +22,7 @@ ref = N;
 };
 layerId = m01;
 metricLeft = "=-4";
-metricRight = "=|_part.Mbase";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -57,7 +57,7 @@ ref = _part.Nbase;
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=-4";
-metricRight = "=|_part.Mbase";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;

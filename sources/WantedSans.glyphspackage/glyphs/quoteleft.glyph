@@ -28,7 +28,7 @@ ref = idotless;
 };
 layerId = m01;
 metricLeft = "=idotless-72";
-metricRight = "=|quoteleft";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -67,7 +67,7 @@ ref = y;
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=idotless-48";
-metricRight = "=|quoteleft";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;

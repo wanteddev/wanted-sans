@@ -14,7 +14,7 @@ ref = n;
 );
 };
 layerId = m01;
-metricRight = "=|u.cv04";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -53,7 +53,7 @@ ref = n;
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=|u.cv04";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;

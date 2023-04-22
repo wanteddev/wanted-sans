@@ -14,6 +14,7 @@ scale = (1,-1);
 );
 };
 layerId = m01;
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -48,7 +49,7 @@ scale = (1,-1);
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=A-8";
-metricRight = "=|V";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;

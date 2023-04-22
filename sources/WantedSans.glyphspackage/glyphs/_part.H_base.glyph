@@ -88,7 +88,7 @@ nodes = (
 };
 layerId = m01;
 metricLeft = "=-40";
-metricRight = "=|_part.Hbase";
+metricRight = "=|";
 shapes = (
 {
 attr = {
@@ -147,7 +147,7 @@ nodes = (
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=-40";
-metricRight = "=|_part.Hbase";
+metricRight = "=|";
 shapes = (
 {
 attr = {

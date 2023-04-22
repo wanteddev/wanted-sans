@@ -13,7 +13,7 @@ pos = (834,0);
 }
 );
 layerId = m01;
-metricRight = "=|_part.Nbase";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -49,7 +49,7 @@ ref = _smart.upperstem;
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=-4";
-metricRight = "=|_part.Nbase";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;

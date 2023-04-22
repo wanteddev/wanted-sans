@@ -18,7 +18,7 @@ pos = (218,1032);
 }
 );
 layerId = m01;
-metricRight = "=|_smart.lowerstem";
+metricRight = "=|";
 partSelection = {
 Cap = 1;
 Descender = 1;
@@ -57,7 +57,7 @@ pos = (308,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=|_smart.lowerstem";
+metricRight = "=|";
 partSelection = {
 Cap = 1;
 Descender = 1;

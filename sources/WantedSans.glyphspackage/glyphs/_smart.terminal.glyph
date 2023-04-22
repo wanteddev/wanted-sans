@@ -43,6 +43,7 @@ nodes = (
 );
 };
 layerId = m01;
+metricRight = "=-40";
 partSelection = {
 Top = 1;
 Terminal = 1;

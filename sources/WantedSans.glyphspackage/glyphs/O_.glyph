@@ -40,7 +40,7 @@ nodes = (
 };
 layerId = m01;
 metricLeft = "=92";
-metricRight = "=|O";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -109,7 +109,7 @@ nodes = (
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=60";
-metricRight = "=|O";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;

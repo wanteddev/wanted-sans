@@ -6,7 +6,7 @@ layers = (
 {
 layerId = m01;
 metricLeft = "=I";
-metricRight = "=|U";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
@@ -37,7 +37,7 @@ width = 1384;
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=I*.9";
-metricRight = "=|U";
+metricRight = "=|";
 shapes = (
 {
 closed = 1;
