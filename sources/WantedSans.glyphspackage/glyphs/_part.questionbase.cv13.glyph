@@ -1,0 +1,169 @@
+{
+export = 0;
+glyphname = _part.questionbase.cv13;
+layers = (
+{
+associatedMasterId = m01;
+layerId = "E48643D0-5943-4B21-8AE3-2640B383228A";
+name = Question;
+shapes = (
+{
+alignment = 1;
+ref = question;
+}
+);
+width = 1056;
+},
+{
+anchors = (
+{
+name = baseline;
+pos = (596,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (596,0);
+ref = _smart.dot;
+},
+{
+attr = {
+strokeHeight = 344;
+strokeWidth = 432;
+};
+closed = 0;
+nodes = (
+(276,1008,l),
+(276,1186,o),
+(418,1304,o),
+(628,1304,cs),
+(834,1304,o),
+(980,1192,o),
+(980,1032,cs),
+(980,868,o),
+(826,758,o),
+(596,758,c),
+(596,500,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(812,500,l),
+(812,612,l),
+(1054,674,o),
+(1196,828,o),
+(1196,1032,cs),
+(1196,1294,o),
+(962,1476,o),
+(628,1476,cs),
+(290,1476,o),
+(60,1286,o),
+(60,1008,c),
+(460,1008,l),
+(460,1080,o),
+(514,1132,o),
+(612,1132,cs),
+(702,1132,o),
+(764,1090,o),
+(764,1024,cs),
+(764,942,o),
+(670,876,o),
+(380,900,c),
+(380,500,l)
+);
+}
+);
+width = 1256;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "E000C281-A8F8-4082-AB04-792822BD0C78";
+name = Question;
+shapes = (
+{
+alignment = 1;
+ref = question;
+}
+);
+width = 1224;
+},
+{
+anchors = (
+{
+name = baseline;
+pos = (504,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (504,0);
+ref = _smart.dot;
+},
+{
+attr = {
+strokeHeight = 172;
+strokeWidth = 184;
+};
+closed = 0;
+nodes = (
+(184,1048,l),
+(184,1252,o),
+(326,1390,o),
+(536,1390,cs),
+(742,1390,o),
+(888,1256,o),
+(888,1064,cs),
+(888,868,o),
+(734,734,o),
+(504,734,c),
+(504,424,l)
+);
+}
+);
+};
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(596,424,l),
+(596,654,l),
+(832,688,o),
+(980,848,o),
+(980,1064,cs),
+(980,1306,o),
+(796,1476,o),
+(536,1476,cs),
+(272,1476,o),
+(92,1302,o),
+(92,1048,c),
+(276,1048,l),
+(276,1200,o),
+(380,1304,o),
+(536,1304,cs),
+(688,1304,o),
+(796,1204,o),
+(796,1064,cs),
+(796,898,o),
+(647,791,o),
+(412,827,c),
+(412,424,l)
+);
+}
+);
+width = 1072;
+}
+);
+metricLeft = O;
+metricRight = O;
+}

@@ -39,6 +39,7 @@ feature cv09;
 feature cv10;
 feature cv11;
 feature cv12;
+feature cv13;
 ";
 tag = aalt;
 },
@@ -124,6 +125,12 @@ automatic = 1;
 code = "sub seven by seven.cv12;
 ";
 tag = cv12;
+},
+{
+automatic = 1;
+code = "sub question by question.cv13;
+";
+tag = cv13;
 }
 );
 fontMaster = (

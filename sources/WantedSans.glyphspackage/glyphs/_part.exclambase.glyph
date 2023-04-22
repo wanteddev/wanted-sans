@@ -1,0 +1,56 @@
+{
+export = 0;
+glyphname = _part.exclambase;
+layers = (
+{
+anchors = (
+{
+name = baseline;
+pos = (246,0);
+}
+);
+layerId = m01;
+metricLeft = "=i*1.5";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+strokeHeight = 168;
+strokeWidth = 180;
+};
+closed = 0;
+nodes = (
+(246,1448,l),
+(246,464,l)
+);
+}
+);
+width = 492;
+},
+{
+anchors = (
+{
+name = baseline;
+pos = (342,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=i*1.54";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+strokeHeight = 400;
+strokeWidth = 432;
+};
+closed = 0;
+nodes = (
+(342,1448,l),
+(342,508,l)
+);
+}
+);
+width = 684;
+}
+);
+}

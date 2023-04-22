@@ -1,0 +1,46 @@
+{
+glyphname = slash;
+layers = (
+{
+layerId = m01;
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeWidth = 172;
+};
+closed = 0;
+nodes = (
+(522,1448,l),
+(88,-434,l)
+);
+}
+);
+width = 610;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 384;
+};
+closed = 0;
+nodes = (
+(586,1448,l),
+(196,-434,l)
+);
+}
+);
+width = 782;
+}
+);
+unicode = 47;
+}
