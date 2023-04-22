@@ -1,0 +1,173 @@
+{
+glyphname = parenleft;
+kernRight = parenleft;
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeHeight = 172;
+strokeWidth = 184;
+};
+closed = 0;
+nodes = (
+(488,1448,l),
+(320,1174,o),
+(224,852,o),
+(224,508,cs),
+(224,164,o),
+(320,-158,o),
+(488,-432,c)
+);
+}
+);
+};
+layerId = m01;
+metricWidth = "=640";
+shapes = (
+{
+closed = 1;
+nodes = (
+(596,-432,l),
+(420,-164,o),
+(316,160,o),
+(316,508,cs),
+(316,856,o),
+(420,1180,o),
+(596,1448,c),
+(384,1448,l),
+(222,1170,o),
+(132,850,o),
+(132,508,cs),
+(132,168,o),
+(222,-152,o),
+(384,-432,c)
+);
+}
+);
+width = 640;
+},
+{
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeHeight = 384;
+strokeWidth = 404;
+};
+closed = 0;
+nodes = (
+(604,1448,l),
+(436,1174,o),
+(340,852,o),
+(340,508,cs),
+(340,164,o),
+(436,-158,o),
+(604,-432,c)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=880";
+shapes = (
+{
+closed = 1;
+nodes = (
+(843,-432,l),
+(662,-184,o),
+(542,143,o),
+(542,508,cs),
+(542,873,o),
+(662,1200,o),
+(843,1448,c),
+(374,1448,l),
+(222,1165,o),
+(138,846,o),
+(138,508,cs),
+(138,170,o),
+(222,-149,o),
+(374,-432,c)
+);
+}
+);
+width = 880;
+},
+{
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 172;
+strokeWidth = 184;
+};
+closed = 1;
+nodes = (
+(3018,-1292,o),
+(3824,-486,o),
+(3824,508,cs),
+(3824,1502,o),
+(3018,2308,o),
+(2024,2308,cs),
+(1030,2308,o),
+(224,1502,o),
+(224,508,cs),
+(224,-486,o),
+(1030,-1292,o),
+(2024,-1292,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(166,1448,l),
+(914,1448,l),
+(914,1654,l),
+(166,1654,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(166,-638,l),
+(914,-638,l),
+(914,-432,l),
+(166,-432,l)
+);
+}
+);
+};
+layerId = "C92D59F2-20A3-4497-94E5-CB9B75286DA3";
+name = Base;
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeHeight = 172;
+strokeWidth = 184;
+};
+closed = 0;
+nodes = (
+(488,1448,l),
+(320,1174,o),
+(224,852,o),
+(224,508,cs),
+(224,164,o),
+(320,-158,o),
+(488,-432,c)
+);
+}
+);
+width = 640;
+}
+);
+metricRight = A;
+unicode = 40;
+}

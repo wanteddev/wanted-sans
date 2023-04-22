@@ -1,0 +1,36 @@
+{
+glyphname = braceleft;
+kernRight = parenleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.braceleftbase;
+},
+{
+pos = (0,1016);
+ref = _part.braceleftbase;
+scale = (1,-1);
+}
+);
+width = 640;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.braceleftbase;
+},
+{
+pos = (0,1016);
+ref = _part.braceleftbase;
+scale = (1,-1);
+}
+);
+width = 880;
+}
+);
+metricWidth = parenleft;
+unicode = 123;
+}

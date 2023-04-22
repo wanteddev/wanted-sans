@@ -1,0 +1,46 @@
+{
+glyphname = bar;
+kernLeft = I;
+kernRight = I;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 172;
+};
+closed = 0;
+nodes = (
+(226,1448,l),
+(226,-432,l)
+);
+}
+);
+width = 452;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 384;
+};
+closed = 0;
+nodes = (
+(308,1448,l),
+(308,-432,l)
+);
+}
+);
+width = 616;
+}
+);
+metricLeft = I;
+metricRight = I;
+unicode = 124;
+}
