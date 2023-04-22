@@ -9,7 +9,7 @@ shapes = (
 {
 piece = {
 Case = 0;
-Tight = 1;
+Space = 0;
 Width = 1024;
 };
 ref = _smart.horizontalbar;
@@ -23,7 +23,7 @@ shapes = (
 {
 piece = {
 Case = 0;
-Tight = 1;
+Space = 0;
 Width = 1024;
 };
 ref = _smart.horizontalbar;
@@ -39,13 +39,13 @@ shapes = (
 {
 piece = {
 Case = 0;
-Tight = 1;
+Space = 1;
 Width = 1024;
 };
 ref = _smart.horizontalbar;
 }
 );
-width = 1024;
+width = 1026;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -55,13 +55,13 @@ shapes = (
 {
 piece = {
 Case = 0;
-Tight = 1;
+Space = 1;
 Width = 1024;
 };
 ref = _smart.horizontalbar;
 }
 );
-width = 1024;
+width = 1026;
 }
 );
 unicode = 8211;

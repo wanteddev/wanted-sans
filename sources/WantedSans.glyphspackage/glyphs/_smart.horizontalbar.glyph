@@ -20,7 +20,7 @@ nodes = (
 layerId = m01;
 partSelection = {
 Width = 1;
-Tight = 1;
+Space = 2;
 Case = 1;
 };
 shapes = (
@@ -45,8 +45,8 @@ strokeWidth = 352;
 };
 closed = 0;
 nodes = (
-(136,540,l),
-(648,540,l)
+(120,540,l),
+(632,540,l)
 );
 }
 );
@@ -54,21 +54,21 @@ nodes = (
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 partSelection = {
 Width = 1;
-Tight = 1;
+Space = 2;
 Case = 1;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
-(648,364,l),
-(648,716,l),
-(136,716,l),
-(136,364,l)
+(632,364,l),
+(632,716,l),
+(120,716,l),
+(120,364,l)
 );
 }
 );
-width = 784;
+width = 752;
 },
 {
 associatedMasterId = m01;
@@ -90,7 +90,7 @@ layerId = "734EA129-5B58-4DE7-92CA-CB0BB2779A01";
 name = Tight;
 partSelection = {
 Width = 1;
-Tight = 2;
+Space = 1;
 Case = 1;
 };
 shapes = (
@@ -126,7 +126,7 @@ layerId = "69A6A906-9DDA-4DCD-9ECA-0F36FCCC61E2";
 name = Tight;
 partSelection = {
 Width = 1;
-Tight = 2;
+Space = 1;
 Case = 1;
 };
 shapes = (
@@ -162,7 +162,7 @@ layerId = "4A7C90BA-2A10-4970-9169-A450819E645A";
 name = Case;
 partSelection = {
 Width = 1;
-Tight = 1;
+Space = 2;
 Case = 2;
 };
 shapes = (
@@ -188,8 +188,8 @@ strokeWidth = 352;
 };
 closed = 0;
 nodes = (
-(136,724,l),
-(648,724,l)
+(120,724,l),
+(632,724,l)
 );
 }
 );
@@ -198,21 +198,21 @@ layerId = "71EB1278-6A70-4578-9D49-AED2A902C92A";
 name = Case;
 partSelection = {
 Width = 1;
-Tight = 1;
+Space = 2;
 Case = 2;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
-(648,548,l),
-(648,900,l),
-(136,900,l),
-(136,548,l)
+(632,548,l),
+(632,900,l),
+(120,900,l),
+(120,548,l)
 );
 }
 );
-width = 784;
+width = 752;
 },
 {
 associatedMasterId = m01;
@@ -234,7 +234,7 @@ layerId = "BBCECD71-BFFD-4844-85F9-B3A18A706637";
 name = Width;
 partSelection = {
 Width = 2;
-Tight = 1;
+Space = 2;
 Case = 1;
 };
 shapes = (
@@ -260,8 +260,8 @@ strokeWidth = 352;
 };
 closed = 0;
 nodes = (
-(136,540,l),
-(1160,540,l)
+(120,540,l),
+(1144,540,l)
 );
 }
 );
@@ -270,21 +270,21 @@ layerId = "E17198A9-7E2F-4116-9BFE-52924C1F0EF3";
 name = Width;
 partSelection = {
 Width = 2;
-Tight = 1;
+Space = 2;
 Case = 1;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
-(1160,364,l),
-(1160,716,l),
-(136,716,l),
-(136,364,l)
+(1144,364,l),
+(1144,716,l),
+(120,716,l),
+(120,364,l)
 );
 }
 );
-width = 1296;
+width = 1264;
 }
 );
 partsSettings = (
@@ -295,8 +295,8 @@ topValue = 1024;
 },
 {
 bottomValue = 0;
-name = Tight;
-topValue = 1;
+name = Space;
+topValue = 120;
 },
 {
 bottomValue = 0;

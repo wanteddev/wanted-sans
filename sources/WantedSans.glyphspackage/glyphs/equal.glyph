@@ -1,0 +1,78 @@
+{
+glyphname = equal;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+background = {
+annotations = (
+{
+pos = (550,770);
+text = "minus*1.75";
+type = Text;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(1160,394,l),
+(1160,688,l),
+(120,688,l),
+(120,394,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,232);
+ref = minus;
+},
+{
+pos = (0,-230);
+ref = minus;
+}
+);
+width = 1280;
+},
+{
+background = {
+annotations = (
+{
+pos = (676,820);
+text = "minus*.75";
+type = Text;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(1296,452,l),
+(1296,628,l),
+(144,628,l),
+(144,452,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,264);
+ref = minus;
+},
+{
+pos = (0,-264);
+ref = minus;
+}
+);
+width = 1440;
+}
+);
+metricLeft = minus;
+metricRight = minus;
+unicode = 61;
+}

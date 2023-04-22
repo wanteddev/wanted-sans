@@ -1,35 +1,49 @@
 {
-glyphname = hyphen;
+glyphname = minus;
 kernLeft = hyphen;
 kernRight = hyphen;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (640,540);
+}
+);
 layerId = m01;
 shapes = (
 {
 piece = {
 Case = 0;
 Space = 120;
-Width = 640;
+Width = 1040;
 };
 ref = _smart.horizontalbar;
 }
 );
-width = 880;
+width = 1280;
 },
 {
+anchors = (
+{
+name = center;
+pos = (720,540);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Space = 144;
-Width = 632;
+Case = 0;
+Space = 160;
+Width = 1120;
 };
 ref = _smart.horizontalbar;
 }
 );
-width = 920;
+width = 1440;
 }
 );
-unicode = 45;
+metricWidth = zero;
+unicode = 8722;
 }

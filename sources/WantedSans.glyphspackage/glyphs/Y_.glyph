@@ -30,7 +30,7 @@ ref = _part.Ybase;
 },
 {
 piece = {
-Y = 1;
+Height = 724;
 };
 pos = (434,0);
 ref = _smart.upperstem;
@@ -65,7 +65,7 @@ ref = _part.Ybase;
 },
 {
 piece = {
-Y = 1;
+Height = 724;
 };
 pos = (486,0);
 ref = _smart.upperstem;

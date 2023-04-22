@@ -13,6 +13,10 @@ name = "#exit";
 pos = (320,0);
 },
 {
+name = _center;
+pos = (230,760);
+},
+{
 name = _top;
 pos = (230,1448);
 }
@@ -22,7 +26,7 @@ metricLeft = "=140";
 metricRight = "=|_smart.upperstem";
 partSelection = {
 Condensed = 1;
-Y = 1;
+Height = 2;
 };
 shapes = (
 {
@@ -48,6 +52,10 @@ name = "#exit";
 pos = (320,0);
 },
 {
+name = _center;
+pos = (230,516);
+},
+{
 name = _top;
 pos = (230,1448);
 }
@@ -56,18 +64,18 @@ associatedMasterId = m01;
 layerId = "6242508C-E80D-4861-AACA-F948742BBAEA";
 metricLeft = "=140";
 metricRight = "=|_smart.upperstem";
-name = Y;
+name = Height;
 partSelection = {
 Condensed = 1;
-Y = 2;
+Height = 1;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
 (320,0,l),
-(320,724,l),
-(140,724,l),
+(320,1032,l),
+(140,1032,l),
 (140,0,l)
 );
 }
@@ -85,6 +93,10 @@ name = "#exit";
 pos = (548,0);
 },
 {
+name = _center;
+pos = (332,760);
+},
+{
 name = _top;
 pos = (332,1448);
 }
@@ -94,7 +106,7 @@ metricLeft = "=116";
 metricRight = "=|_smart.upperstem";
 partSelection = {
 Condensed = 1;
-Y = 1;
+Height = 2;
 };
 shapes = (
 {
@@ -120,6 +132,10 @@ name = "#exit";
 pos = (548,0);
 },
 {
+name = _center;
+pos = (332,516);
+},
+{
 name = _top;
 pos = (332,1448);
 }
@@ -128,18 +144,18 @@ associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "33B77C51-E068-4B33-8D67-3B10FF8C5578";
 metricLeft = "=116";
 metricRight = "=|_smart.upperstem";
-name = Y;
+name = Height;
 partSelection = {
 Condensed = 1;
-Y = 2;
+Height = 1;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
 (548,0,l),
-(548,724,l),
-(116,724,l),
+(548,1032,l),
+(116,1032,l),
 (116,0,l)
 );
 }
@@ -157,6 +173,10 @@ name = "#exit";
 pos = (484,0);
 },
 {
+name = _center;
+pos = (300,760);
+},
+{
 name = _top;
 pos = (300,1448);
 }
@@ -168,7 +188,7 @@ metricRight = "=|_smart.upperstem";
 name = Condensed;
 partSelection = {
 Condensed = 2;
-Y = 1;
+Height = 2;
 };
 shapes = (
 {
@@ -194,6 +214,10 @@ name = "#exit";
 pos = (256,0);
 },
 {
+name = _center;
+pos = (198,760);
+},
+{
 name = _top;
 pos = (198,1448);
 }
@@ -205,7 +229,7 @@ metricRight = "=|_smart.upperstem";
 name = Condensed;
 partSelection = {
 Condensed = 2;
-Y = 1;
+Height = 2;
 };
 shapes = (
 {
@@ -228,9 +252,9 @@ name = Condensed;
 topValue = 64;
 },
 {
-bottomValue = 0;
-name = Y;
-topValue = 1;
+bottomValue = 1032;
+name = Height;
+topValue = 1448;
 }
 );
 }
