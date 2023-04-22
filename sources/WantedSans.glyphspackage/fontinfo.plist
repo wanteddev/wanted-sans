@@ -1811,6 +1811,7 @@ value = WNTD;
 settings = {
 gridLength = 8;
 gridSubDivision = 4;
+keyboardIncrementBig = 4;
 };
 unitsPerEm = 2048;
 userData = {
