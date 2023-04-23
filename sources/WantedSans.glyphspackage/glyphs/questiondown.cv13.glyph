@@ -1,0 +1,31 @@
+{
+glyphname = questiondown.cv13;
+kernLeft = questiondown;
+kernRight = questiondown;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,1032);
+ref = question.cv13;
+scale = (1,-1);
+}
+);
+width = 1072;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,1032);
+ref = question.cv13;
+scale = (1,-1);
+}
+);
+width = 1256;
+}
+);
+metricLeft = questiondown;
+metricRight = questiondown;
+}
