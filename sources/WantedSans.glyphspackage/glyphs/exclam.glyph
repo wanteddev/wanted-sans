@@ -12,11 +12,11 @@ shapes = (
 ref = _part.exclambase;
 },
 {
-pos = (246,0);
+pos = (300,0);
 ref = _smart.dot;
 }
 );
-width = 492;
+width = 600;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -30,11 +30,11 @@ ref = _part.exclambase;
 piece = {
 Pressed = 1;
 };
-pos = (342,0);
+pos = (390,0);
 ref = _smart.dot;
 }
 );
-width = 684;
+width = 780;
 },
 {
 associatedMasterId = m01;
