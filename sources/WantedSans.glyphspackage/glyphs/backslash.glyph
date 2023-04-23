@@ -1,5 +1,7 @@
 {
 glyphname = backslash;
+kernLeft = backslash;
+kernRight = backslash;
 layers = (
 {
 layerId = m01;

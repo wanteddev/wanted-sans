@@ -4,6 +4,13 @@ kernLeft = nine;
 kernRight = nine.cv11;
 layers = (
 {
+annotations = (
+{
+pos = (222,1576);
+text = "왼쪽 커닝 분리";
+type = Text;
+}
+);
 layerId = m01;
 shapes = (
 {

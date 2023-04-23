@@ -1,5 +1,7 @@
 {
 glyphname = question.cv13;
+kernLeft = question;
+kernRight = question;
 layers = (
 {
 layerId = m01;

@@ -13,6 +13,13 @@ name = "#exit";
 pos = (480,0);
 }
 );
+annotations = (
+{
+pos = (272,1012);
+text = "quote와 kerning";
+type = Text;
+}
+);
 layerId = m01;
 metricWidth = "=space";
 shapes = (
