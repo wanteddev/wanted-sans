@@ -533,6 +533,7 @@ m01 = {
 "@MMK_R_o" = -48;
 "@MMK_R_one" = -96;
 "@MMK_R_parenright" = -64;
+"@MMK_R_qouteright" = -160;
 "@MMK_R_question" = -128;
 "@MMK_R_quoteleft" = -160;
 "@MMK_R_quotesingle" = -128;
