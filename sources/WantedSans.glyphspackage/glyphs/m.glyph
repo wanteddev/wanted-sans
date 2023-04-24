@@ -4,14 +4,55 @@ kernLeft = n;
 kernRight = n;
 layers = (
 {
-annotations = (
+layerId = m01;
+shapes = (
 {
-pos = (1386,1146);
-text = "조금 더 좁혀보자";
-type = Text;
+ref = _smart.lowerstem;
+},
+{
+piece = {
+Narrow = 70;
+};
+pos = (304,0);
+ref = _smart.shoulder;
+},
+{
+piece = {
+Narrow = 70;
+};
+pos = (930,0);
+ref = _smart.shoulder;
 }
 );
-layerId = m01;
+width = 1688;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _smart.lowerstem;
+},
+{
+piece = {
+Narrow = 70;
+};
+pos = (508,0);
+ref = _smart.shoulder;
+},
+{
+piece = {
+Narrow = 70;
+};
+pos = (1178,0);
+ref = _smart.shoulder;
+}
+);
+width = 1956;
+},
+{
+associatedMasterId = m01;
+layerId = "12C1CDA1-A92B-4169-8DC7-1D51AFAB8E81";
+name = "Apr 24, 23 17:51";
 shapes = (
 {
 ref = _smart.lowerstem;
@@ -34,27 +75,29 @@ ref = _smart.shoulder;
 width = 1714;
 },
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "166B7A1D-895D-4B38-AFEC-E7C3C0905A42";
+name = "Apr 24, 23 17:51";
 shapes = (
 {
 ref = _smart.lowerstem;
 },
 {
 piece = {
-Narrow = 50;
+Narrow = 70;
 };
 pos = (508,0);
 ref = _smart.shoulder;
 },
 {
 piece = {
-Narrow = 50;
+Narrow = 70;
 };
-pos = (1192,0);
+pos = (1178,0);
 ref = _smart.shoulder;
 }
 );
-width = 1984;
+width = 1956;
 }
 );
 unicode = 109;

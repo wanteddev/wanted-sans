@@ -90,7 +90,7 @@ width = 952;
 anchors = (
 {
 name = crossbar;
-pos = (278,1032);
+pos = (254,1032);
 }
 );
 associatedMasterId = m01;
@@ -98,23 +98,23 @@ background = {
 shapes = (
 {
 piece = {
-Terminal = 0;
-Top = 53.8028;
+Terminal = 34;
+Top = 54;
 };
-pos = (146,0);
+pos = (122,0);
 ref = _smart.terminal;
 },
 {
 closed = 0;
 nodes = (
-(666,1176,l),
-(666,78,l)
+(658,1176,l),
+(658,78,l)
 );
 }
 );
 };
 layerId = "401A0A87-295C-4EC3-A2DD-0541649D919C";
-metricLeft = "=76";
+metricLeft = "=52";
 metricRight = "=100";
 name = Condensed;
 partSelection = {
@@ -125,20 +125,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(666,888,l),
-(666,1032,l),
-(76,1032,l),
-(76,888,l)
+(658,888,l),
+(658,1032,l),
+(52,1032,l),
+(52,888,l)
 );
 }
 );
-width = 766;
+width = 758;
 },
 {
 anchors = (
 {
 name = crossbar;
-pos = (232,1032);
+pos = (216,1032);
 }
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -148,20 +148,20 @@ shapes = (
 piece = {
 Top = 58.88313;
 };
-pos = (124,0);
+pos = (108,0);
 ref = _smart.terminal;
 },
 {
 closed = 0;
 nodes = (
-(844,1096,l),
-(844,358,l)
+(828,1096,l),
+(828,358,l)
 );
 }
 );
 };
 layerId = "F953D8DB-BB90-449C-9603-7109BCD634FD";
-metricLeft = "=60";
+metricLeft = "=44";
 metricRight = "=84";
 name = Condensed;
 partSelection = {
@@ -172,14 +172,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(844,728,l),
-(844,1032,l),
-(60,1032,l),
-(60,728,l)
+(828,728,l),
+(828,1032,l),
+(44,1032,l),
+(44,728,l)
 );
 }
 );
-width = 928;
+width = 912;
 },
 {
 anchors = (

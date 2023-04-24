@@ -4,13 +4,6 @@ kernLeft = f;
 kernRight = t.cv02;
 layers = (
 {
-annotations = (
-{
-pos = (572,1310);
-text = "커닝 맞춰야 함";
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -22,13 +15,13 @@ ref = _smart.crossbar;
 },
 {
 piece = {
-Cap = 54;
+Cap = 56;
 };
-pos = (146,0);
+pos = (122,0);
 ref = _smart.lowerstem;
 }
 );
-width = 742;
+width = 734;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -44,11 +37,11 @@ ref = _smart.crossbar;
 piece = {
 Cap = 58.5;
 };
-pos = (124,0);
+pos = (108,0);
 ref = _smart.lowerstem;
 }
 );
-width = 904;
+width = 888;
 }
 );
 metricLeft = t;

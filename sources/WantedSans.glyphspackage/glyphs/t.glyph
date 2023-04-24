@@ -4,13 +4,6 @@ kernLeft = f;
 kernRight = t;
 layers = (
 {
-annotations = (
-{
-pos = (596,268);
-text = "위에 폭을 더 좁고 위로 올려보자";
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -21,14 +14,14 @@ ref = _smart.crossbar;
 },
 {
 piece = {
-Terminal = 0;
-Top = 54;
+Terminal = 34;
+Top = 56;
 };
-pos = (146,0);
+pos = (122,0);
 ref = _smart.terminal;
 }
 );
-width = 766;
+width = 758;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -43,11 +36,11 @@ ref = _smart.crossbar;
 piece = {
 Top = 58.5;
 };
-pos = (124,0);
+pos = (108,0);
 ref = _smart.terminal;
 }
 );
-width = 928;
+width = 912;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -271,6 +264,35 @@ nodes = (
 }
 );
 width = 718;
+},
+{
+annotations = (
+{
+pos = (596,268);
+text = "위에 폭을 더 좁고 위로 올려보자";
+type = Text;
+}
+);
+associatedMasterId = m01;
+layerId = "BD1AE770-BC05-4FDA-A90B-888A4D44F4F5";
+name = "Apr 24, 23 14:48";
+shapes = (
+{
+piece = {
+Condensed = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Terminal = 34;
+Top = 54;
+};
+pos = (122,0);
+ref = _smart.terminal;
+}
+);
+width = 758;
 }
 );
 metricLeft = f;

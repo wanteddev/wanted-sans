@@ -4,13 +4,6 @@ kernLeft = qouteright;
 kernRight = qouteright;
 layers = (
 {
-annotations = (
-{
-pos = (212,1702);
-text = kerning;
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
