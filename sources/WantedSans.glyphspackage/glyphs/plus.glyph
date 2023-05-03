@@ -36,7 +36,7 @@ ref = minus;
 {
 piece = {
 Condensed = 64;
-Height = 1072;
+Height = 1080;
 };
 pos = (420,0);
 ref = _smart.upperstem;
