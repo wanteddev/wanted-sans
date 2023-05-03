@@ -1,0 +1,25 @@
+{
+glyphname = at.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,112);
+ref = at;
+}
+);
+width = 1816;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,112);
+ref = at;
+}
+);
+width = 1816;
+}
+);
+}
