@@ -1,5 +1,6 @@
 {
 glyphname = bracketleft.case;
+kernRight = parenleft.case;
 layers = (
 {
 layerId = m01;
