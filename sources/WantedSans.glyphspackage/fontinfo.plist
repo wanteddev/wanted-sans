@@ -14,7 +14,7 @@ value = (
 );
 }
 );
-date = "2023-04-24 09:05:49 +0000";
+date = "2023-05-03 08:56:38 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -40,6 +40,7 @@ feature cv10;
 feature cv11;
 feature cv12;
 feature cv13;
+feature case;
 ";
 tag = aalt;
 },
@@ -51,6 +52,25 @@ code = "lookup ccmp_Other_1 {
 } ccmp_Other_1;
 ";
 tag = ccmp;
+},
+{
+automatic = 1;
+code = "sub colon by colon.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub at by at.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub equal by equal.case;
+";
+tag = case;
 },
 {
 automatic = 1;
@@ -129,6 +149,7 @@ tag = cv12;
 {
 automatic = 1;
 code = "sub question by question.cv13;
+sub questiondown by questiondown.cv13;
 ";
 tag = cv13;
 }
