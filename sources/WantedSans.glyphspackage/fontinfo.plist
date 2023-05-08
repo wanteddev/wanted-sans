@@ -7,6 +7,35 @@ name = Weight;
 tag = wght;
 }
 );
+classes = (
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z J.cv05 Q.cv06";
+name = Uppercase;
+},
+{
+automatic = 1;
+code = "a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z j.cv01 jdotless.cv01 t.cv02 a.cv03 u.cv04";
+name = Lowercase;
+},
+{
+code = "$[category like \"Number\"]";
+name = Numeral;
+},
+{
+code = "@Uppercase
+@Numeral";
+name = Case;
+},
+{
+code = "$[colorIndex == 0]";
+name = CASE_L;
+},
+{
+code = "$[colorIndex == 1]";
+name = CASE_R;
+}
+);
 customParameters = (
 {
 name = fsType;
@@ -27,7 +56,9 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature cv01;
+code = "feature case;
+feature calt;
+feature cv01;
 feature cv02;
 feature cv03;
 feature cv04;
@@ -40,7 +71,6 @@ feature cv10;
 feature cv11;
 feature cv12;
 feature cv13;
-feature case;
 ";
 tag = aalt;
 },
@@ -71,6 +101,19 @@ sub minus by minus.case;
 sub equal by equal.case;
 ";
 tag = case;
+},
+{
+code = "# for l_l
+ignore sub @CASE_L' @Lowercase;
+ignore sub @Lowercase @CASE_L';
+
+# for U-U
+sub @Case @CASE_L' by @CASE_R;
+sub @CASE_L' @Case by @CASE_R;
+sub @CASE_R @CASE_L' by @CASE_R;
+sub @CASE_L' @CASE_R by @CASE_R;
+";
+tag = calt;
 },
 {
 automatic = 1;
