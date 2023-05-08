@@ -25,4 +25,5 @@ ref = minus;
 width = 1440;
 }
 );
+note = $CASE;
 }

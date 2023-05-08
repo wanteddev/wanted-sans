@@ -25,4 +25,5 @@ ref = hyphen;
 width = 920;
 }
 );
+note = $CASE;
 }

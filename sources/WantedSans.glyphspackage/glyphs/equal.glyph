@@ -75,5 +75,6 @@ width = 1440;
 );
 metricLeft = minus;
 metricRight = minus;
+note = $CASE;
 unicode = 61;
 }

@@ -69,5 +69,6 @@ ref = period;
 width = 660;
 }
 );
+note = $CASE;
 unicode = 58;
 }

@@ -25,4 +25,5 @@ ref = colon;
 width = 660;
 }
 );
+note = $CASE;
 }

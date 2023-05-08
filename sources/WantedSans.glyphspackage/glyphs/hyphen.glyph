@@ -32,5 +32,6 @@ ref = _smart.horizontalbar;
 width = 920;
 }
 );
+note = $CASE;
 unicode = 45;
 }

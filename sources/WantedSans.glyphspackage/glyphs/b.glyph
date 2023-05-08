@@ -1,16 +1,10 @@
 {
+color = 0;
 glyphname = b;
 kernLeft = l;
 kernRight = o;
 layers = (
 {
-annotations = (
-{
-pos = (264,1618);
-text = "X와 다르게 높이를 높여야 할지?";
-type = Text;
-}
-);
 background = {
 shapes = (
 {
@@ -531,5 +525,6 @@ width = 1224;
 );
 metricLeft = n;
 metricRight = o;
+note = $EXTRA_STEM_LOWERCASE;
 unicode = 98;
 }

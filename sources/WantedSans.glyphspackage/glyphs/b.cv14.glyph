@@ -1,42 +1,47 @@
 {
-color = 0;
-glyphname = h;
+color = 1;
+glyphname = b.cv14;
 kernLeft = l;
-kernRight = n;
+kernRight = o;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 piece = {
-Cap = 100;
+Cap = 113.5;
+Cross = 1;
+Descender = 0;
 };
 ref = _smart.lowerstem;
 },
 {
 pos = (304,0);
-ref = _smart.shoulder;
+ref = _smart.bowl;
 }
 );
-width = 1108;
+width = 1224;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Cap = 100;
+Cap = 113.5;
+Cross = 1;
+Descender = 0;
 };
 ref = _smart.lowerstem;
 },
 {
 pos = (508,0);
-ref = _smart.shoulder;
+ref = _smart.bowl;
 }
 );
-width = 1334;
+width = 1316;
 }
 );
+metricLeft = n;
+metricRight = o;
 note = $EXTRA_STEM_LOWERCASE;
-unicode = 104;
 }

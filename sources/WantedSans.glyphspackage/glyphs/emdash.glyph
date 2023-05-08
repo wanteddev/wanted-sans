@@ -65,5 +65,6 @@ ref = _smart.horizontalbar;
 width = 2050;
 }
 );
+note = $CASE;
 unicode = 8212;
 }

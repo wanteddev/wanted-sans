@@ -924,5 +924,6 @@ width = 1752;
 );
 metricLeft = O;
 metricRight = O;
+note = $CASE;
 unicode = 64;
 }

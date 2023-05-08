@@ -46,5 +46,6 @@ ref = _smart.upperstem;
 width = 1440;
 }
 );
+note = $CASE;
 unicode = 43;
 }

@@ -19,7 +19,8 @@ code = "a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z j.
 name = Lowercase;
 },
 {
-code = "$[category like \"Number\"]";
+code = "$[category like \"Number\"]
+";
 name = Numeral;
 },
 {
@@ -28,12 +29,24 @@ code = "@Uppercase
 name = Case;
 },
 {
-code = "$[colorIndex == 0]";
+code = "$[colorIndex == 0 and note contains \"$CASE\"] 
+";
 name = CASE_L;
 },
 {
-code = "$[colorIndex == 1]";
+code = "$[colorIndex == 1 and note contains \"$CASE\"] 
+";
 name = CASE_R;
+},
+{
+code = "$[colorIndex == 0 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
+";
+name = EXTRA_STEM_LOWERCASE_L;
+},
+{
+code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
+";
+name = EXTRA_STEM_LOWERCASE_R;
 }
 );
 customParameters = (
@@ -43,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-05-03 08:56:38 +0000";
+date = "2023-05-08 08:05:40 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -51,13 +64,33 @@ automatic = 1;
 code = "languagesystem DFLT dflt;
 ";
 name = Languagesystems;
+},
+{
+code = "lookup LOOKUP_CALT_1 {
+# Ignore aligning lowercase-based glyphs: l_l
+ignore sub @CASE_L' @Lowercase;
+ignore sub @Lowercase @CASE_L';
+
+# Align lowercase-based glyphs with uppercase: U-U
+sub @Case @CASE_L' by @CASE_R;
+sub @CASE_L' @Case by @CASE_R;
+sub @CASE_R @CASE_L' by @CASE_R;
+sub @CASE_L' @CASE_R by @CASE_R;
+} LOOKUP_CALT_1;
+
+lookup LOOKUP_CALT_2 {
+# Separate I and l
+sub I @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_R @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+} LOOKUP_CALT_2;
+";
+name = LOOKUP_CALT;
 }
 );
 features = (
 {
 automatic = 1;
 code = "feature case;
-feature calt;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -71,6 +104,7 @@ feature cv10;
 feature cv11;
 feature cv12;
 feature cv13;
+feature cv14;
 ";
 tag = aalt;
 },
@@ -103,15 +137,8 @@ sub equal by equal.case;
 tag = case;
 },
 {
-code = "# for l_l
-ignore sub @CASE_L' @Lowercase;
-ignore sub @Lowercase @CASE_L';
-
-# for U-U
-sub @Case @CASE_L' by @CASE_R;
-sub @CASE_L' @Case by @CASE_R;
-sub @CASE_R @CASE_L' by @CASE_R;
-sub @CASE_L' @CASE_R by @CASE_R;
+code = "lookup LOOKUP_CALT_1;
+lookup LOOKUP_CALT_2;
 ";
 tag = calt;
 },
@@ -148,7 +175,7 @@ tag = cv05;
 },
 {
 automatic = 1;
-code = "sub Q by Q;
+code = "sub Q by Q.cv06;
 ";
 tag = cv06;
 },
@@ -195,6 +222,16 @@ code = "sub question by question.cv13;
 sub questiondown by questiondown.cv13;
 ";
 tag = cv13;
+},
+{
+automatic = 1;
+code = "sub b by b.cv14;
+sub d by d.cv14;
+sub h by h.cv14;
+sub k by k.cv14;
+sub l by l.cv14;
+";
+tag = cv14;
 }
 );
 fontMaster = (
@@ -2589,5 +2626,5 @@ tH = "144";
 };
 };
 versionMajor = 0;
-versionMinor = 204;
+versionMinor = 205;
 }

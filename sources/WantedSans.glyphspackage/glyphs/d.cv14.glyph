@@ -1,0 +1,31 @@
+{
+color = 1;
+glyphname = d.cv14;
+kernLeft = o;
+kernRight = l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1224,0);
+ref = b.cv14;
+scale = (-1,1);
+}
+);
+width = 1224;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (1316,0);
+ref = b.cv14;
+scale = (-1,1);
+}
+);
+width = 1316;
+}
+);
+note = $EXTRA_STEM_LOWERCASE;
+}

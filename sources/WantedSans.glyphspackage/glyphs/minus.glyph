@@ -46,5 +46,6 @@ width = 1440;
 }
 );
 metricWidth = zero;
+note = $CASE;
 unicode = 8722;
 }

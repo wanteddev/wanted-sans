@@ -1,6 +1,6 @@
 {
-color = 0;
-glyphname = h;
+color = 1;
+glyphname = h.cv14;
 kernLeft = l;
 kernRight = n;
 layers = (
@@ -9,7 +9,7 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Cap = 100;
+Cap = 113.5;
 };
 ref = _smart.lowerstem;
 },
@@ -25,7 +25,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Cap = 100;
+Cap = 113.5;
 };
 ref = _smart.lowerstem;
 },
@@ -38,5 +38,4 @@ width = 1334;
 }
 );
 note = $EXTRA_STEM_LOWERCASE;
-unicode = 104;
 }
