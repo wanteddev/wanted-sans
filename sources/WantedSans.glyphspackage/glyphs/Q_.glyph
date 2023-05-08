@@ -1,7 +1,7 @@
 {
-glyphname = Q.cv06;
+glyphname = Q;
 kernLeft = O;
-kernRight = Q.cv06;
+kernRight = Q;
 layers = (
 {
 background = {
@@ -665,4 +665,5 @@ width = 1706;
 );
 metricLeft = O;
 metricRight = L;
+unicode = 81;
 }
