@@ -1,0 +1,94 @@
+{
+glyphname = brevecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = macroncomb;
+},
+{
+ref = ringcomb;
+},
+{
+ref = gravecomb;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+attr = {
+strokeHeight = 144;
+strokePos = "0";
+strokeWidth = 152;
+};
+closed = 0;
+nodes = (
+(-128,1496,l),
+(-128,1420,o),
+(-76,1368,o),
+(0,1368,cs),
+(76,1368,o),
+(128,1420,o),
+(128,1496,c)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = macroncomb;
+},
+{
+ref = ringcomb;
+},
+{
+ref = gravecomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+attr = {
+strokeHeight = 240;
+strokePos = "0";
+strokeWidth = 256;
+};
+closed = 0;
+nodes = (
+(-128,1520,l),
+(-128,1450,o),
+(-74,1392,o),
+(0,1392,cs),
+(74,1392,o),
+(128,1450,o),
+(128,1520,c)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 774;
+}

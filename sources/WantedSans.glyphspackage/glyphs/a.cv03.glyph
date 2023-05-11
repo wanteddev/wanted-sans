@@ -354,6 +354,16 @@ nodes = (
 width = 1052;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (550,0);
+},
+{
+name = top;
+pos = (550,1032);
+}
+);
 background = {
 shapes = (
 {
@@ -547,6 +557,16 @@ nodes = (
 width = 1188;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (582,0);
+},
+{
+name = top;
+pos = (582,1032);
+}
+);
 background = {
 shapes = (
 {

@@ -113,8 +113,10 @@ tag = aalt;
 {
 automatic = 1;
 code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [dotaccentcomb];
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [ogonekcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
 ";
 tag = ccmp;
@@ -135,6 +137,7 @@ sub at by at.case;
 sub plus by plus.case;
 sub minus by minus.case;
 sub equal by equal.case;
+sub asciitilde by asciitilde.case;
 ";
 tag = case;
 },
@@ -160,6 +163,18 @@ tag = cv02;
 {
 automatic = 1;
 code = "sub a by a.cv03;
+sub aacute by aacute.cv03;
+sub abreve by abreve.cv03;
+sub acaron by acaron.cv03;
+sub acircumflex by acircumflex.cv03;
+sub adblgrave by adblgrave.cv03;
+sub adieresis by adieresis.cv03;
+sub adotaccent by adotaccent.cv03;
+sub agrave by agrave.cv03;
+sub amacron by amacron.cv03;
+sub aogonek by aogonek.cv03;
+sub aring by aring.cv03;
+sub atilde by atilde.cv03;
 ";
 tag = cv03;
 },

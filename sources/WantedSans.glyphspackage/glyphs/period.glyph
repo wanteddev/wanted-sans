@@ -14,6 +14,7 @@ pos = (480,0);
 }
 );
 layerId = m01;
+metricRight = "=|";
 metricWidth = "=space";
 shapes = (
 {
@@ -35,6 +36,7 @@ pos = (628,0);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
 metricWidth = "=space*1.375";
 shapes = (
 {

@@ -13,7 +13,7 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Mark = 1;
+Mark = 100;
 };
 pos = (0,1264);
 ref = _smart.dot;
@@ -33,7 +33,7 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Mark = 1;
+Mark = 100;
 };
 pos = (0,1164);
 ref = _smart.dot;

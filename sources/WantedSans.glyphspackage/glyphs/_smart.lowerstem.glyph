@@ -13,6 +13,14 @@ name = _crossbar;
 pos = (132,1032);
 },
 {
+name = bottom;
+pos = (218,0);
+},
+{
+name = ogonek;
+pos = (304,0);
+},
+{
 name = top;
 pos = (218,1032);
 }
@@ -52,6 +60,14 @@ name = _crossbar;
 pos = (108,1032);
 },
 {
+name = bottom;
+pos = (308,0);
+},
+{
+name = ogonek;
+pos = (508,0);
+},
+{
 name = top;
 pos = (308,1032);
 }
@@ -89,6 +105,14 @@ pos = (304,0);
 {
 name = _crossbar;
 pos = (132,1032);
+},
+{
+name = bottom;
+pos = (218,0);
+},
+{
+name = ogonek;
+pos = (304,0);
 },
 {
 name = top;
@@ -132,6 +156,14 @@ name = _crossbar;
 pos = (108,1032);
 },
 {
+name = bottom;
+pos = (308,0);
+},
+{
+name = ogonek;
+pos = (508,0);
+},
+{
 name = top;
 pos = (308,1448);
 }
@@ -171,6 +203,14 @@ pos = (304,0);
 {
 name = _crossbar;
 pos = (132,1032);
+},
+{
+name = bottom;
+pos = (218,-432);
+},
+{
+name = ogonek;
+pos = (304,-432);
 },
 {
 name = top;
@@ -214,6 +254,14 @@ name = _crossbar;
 pos = (108,1032);
 },
 {
+name = bottom;
+pos = (308,-432);
+},
+{
+name = ogonek;
+pos = (508,-432);
+},
+{
 name = top;
 pos = (312,1032);
 }
@@ -253,6 +301,14 @@ pos = (304,0);
 {
 name = _crossbar;
 pos = (132,1032);
+},
+{
+name = bottom;
+pos = (218,0);
+},
+{
+name = ogonek;
+pos = (304,0);
 },
 {
 name = top;
@@ -296,6 +352,14 @@ name = _crossbar;
 pos = (108,1032);
 },
 {
+name = bottom;
+pos = (308,0);
+},
+{
+name = ogonek;
+pos = (508,0);
+},
+{
 name = top;
 pos = (308,1032);
 }
@@ -335,6 +399,14 @@ pos = (524,0);
 {
 name = _crossbar;
 pos = (108,1032);
+},
+{
+name = bottom;
+pos = (316,0);
+},
+{
+name = ogonek;
+pos = (524,0);
 },
 {
 name = top;

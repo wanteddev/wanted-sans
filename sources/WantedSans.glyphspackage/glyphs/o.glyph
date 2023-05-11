@@ -4,6 +4,16 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (614,0);
+},
+{
+name = top;
+pos = (614,1032);
+}
+);
 layerId = m01;
 metricLeft = "=84";
 metricRight = "=|";
@@ -173,6 +183,16 @@ nodes = (
 width = 1204;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (610,0);
+},
+{
+name = top;
+pos = (610,1032);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=52";
 metricRight = "=|";

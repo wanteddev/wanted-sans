@@ -1,0 +1,117 @@
+{
+export = 0;
+glyphname = _smart.grave;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+layerId = m01;
+metricWidth = "=0";
+partSelection = {
+Double = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,1192,l),
+(-84,1496,l),
+(-276,1496,l),
+(-64,1192,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+partSelection = {
+Double = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,1168,l),
+(0,1520,l),
+(-408,1520,l),
+(-128,1168,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "BA6650CF-9C29-4232-B46B-35D61A63551A";
+metricWidth = "=0";
+name = Double;
+partSelection = {
+Double = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,1192,l),
+(-68,1496,l),
+(-260,1496,l),
+(-64,1192,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "F5F8F57D-AFB0-471B-9995-43054B5B9E41";
+metricWidth = "=0";
+name = Double;
+partSelection = {
+Double = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(184,1168,l),
+(0,1520,l),
+(-360,1520,l),
+(-104,1168,l)
+);
+}
+);
+width = 0;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Double;
+topValue = 100;
+}
+);
+}
