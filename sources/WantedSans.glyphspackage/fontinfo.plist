@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-05-09 04:40:09 +0000";
+date = "2023-05-11 12:37:34 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -2594,7 +2594,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "Wantedlab supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Wanted product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
@@ -2610,6 +2610,10 @@ value = "Wanted Sans is a trademark of Wantedlab, Inc.";
 {
 key = vendorID;
 value = WNTD;
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {
@@ -2643,5 +2647,5 @@ tH = "144";
 };
 };
 versionMajor = 0;
-versionMinor = 205;
+versionMinor = 206;
 }
