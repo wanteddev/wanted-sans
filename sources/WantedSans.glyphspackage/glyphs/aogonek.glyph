@@ -1,5 +1,5 @@
 {
-glyphname = agrave;
+glyphname = aogonek;
 kernLeft = o;
 kernRight = a;
 layers = (
@@ -10,8 +10,8 @@ shapes = (
 ref = a;
 },
 {
-pos = (636,0);
-ref = gravecomb;
+pos = (920,0);
+ref = ogonekcomb;
 }
 );
 width = 1224;
@@ -23,12 +23,12 @@ shapes = (
 ref = a;
 },
 {
-pos = (678,0);
-ref = gravecomb;
+pos = (808,0);
+ref = ogonekcomb;
 }
 );
 width = 1316;
 }
 );
-unicode = 224;
+unicode = 261;
 }

@@ -1,5 +1,5 @@
 {
-glyphname = agrave;
+glyphname = acircumflex;
 kernLeft = o;
 kernRight = a;
 layers = (
@@ -11,7 +11,7 @@ ref = a;
 },
 {
 pos = (636,0);
-ref = gravecomb;
+ref = circumflexcomb;
 }
 );
 width = 1224;
@@ -24,11 +24,11 @@ ref = a;
 },
 {
 pos = (678,0);
-ref = gravecomb;
+ref = circumflexcomb;
 }
 );
 width = 1316;
 }
 );
-unicode = 224;
+unicode = 226;
 }

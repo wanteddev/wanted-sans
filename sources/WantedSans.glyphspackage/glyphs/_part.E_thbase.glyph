@@ -1,0 +1,49 @@
+{
+export = 0;
+glyphname = _part.Ethbase;
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (322,0);
+}
+);
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 788;
+};
+pos = (0,184);
+ref = _smart.horizontalbar;
+}
+);
+width = 1028;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (316,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 802;
+};
+pos = (24,184);
+ref = _smart.horizontalbar;
+}
+);
+width = 1090;
+}
+);
+metricLeft = hyphen;
+}

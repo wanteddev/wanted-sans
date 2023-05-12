@@ -1,5 +1,5 @@
 {
-glyphname = adieresis.cv03;
+glyphname = aogonek.cv03;
 kernLeft = g;
 kernRight = n;
 layers = (
@@ -10,8 +10,11 @@ shapes = (
 ref = a.cv03;
 },
 {
-pos = (550,0);
-ref = dieresiscomb;
+piece = {
+a.cv03 = 1;
+};
+pos = (760,0);
+ref = _smart.ogonek;
 }
 );
 width = 1068;
@@ -23,8 +26,11 @@ shapes = (
 ref = a.cv03;
 },
 {
-pos = (582,0);
-ref = dieresiscomb;
+piece = {
+a.cv03 = 1;
+};
+pos = (704,0);
+ref = _smart.ogonek;
 }
 );
 width = 1188;

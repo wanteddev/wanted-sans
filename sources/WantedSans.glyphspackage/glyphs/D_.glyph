@@ -4,6 +4,12 @@ kernLeft = H;
 kernRight = O;
 layers = (
 {
+anchors = (
+{
+name = "#entry";
+pos = (140,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +23,12 @@ ref = _part.Dbase;
 width = 1402;
 },
 {
+anchors = (
+{
+name = "#entry";
+pos = (116,0);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

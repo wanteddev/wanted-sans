@@ -1,5 +1,7 @@
 {
 glyphname = amacron;
+kernLeft = o;
+kernRight = a;
 layers = (
 {
 layerId = m01;
