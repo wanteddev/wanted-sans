@@ -1,0 +1,63 @@
+{
+glyphname = acutecomb.loclPLK;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = gravecomb;
+scale = (-1,1);
+},
+{
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+piece = {
+Kreska = 1;
+};
+ref = _smart.grave;
+scale = (-1,1);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Kreska = 1;
+};
+ref = _smart.grave;
+scale = (-1,1);
+}
+);
+width = 0;
+}
+);
+}

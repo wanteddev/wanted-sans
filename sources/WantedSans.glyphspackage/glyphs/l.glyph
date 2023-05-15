@@ -5,6 +5,12 @@ kernLeft = l;
 kernRight = l;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (218,760);
+}
+);
 layerId = m01;
 metricRight = "=|l";
 shapes = (
@@ -18,6 +24,12 @@ ref = _smart.lowerstem;
 width = 436;
 },
 {
+anchors = (
+{
+name = center;
+pos = (316,760);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|l";
 shapes = (

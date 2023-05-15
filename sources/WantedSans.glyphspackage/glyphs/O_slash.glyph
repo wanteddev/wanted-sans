@@ -1,0 +1,40 @@
+{
+glyphname = Oslash;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+piece = {
+Uppercase = 1;
+};
+pos = (844,184);
+ref = _smart.diacriticslashlarge;
+}
+);
+width = 1688;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = O;
+},
+{
+piece = {
+Uppercase = 1;
+};
+pos = (824,184);
+ref = _smart.diacriticslashlarge;
+}
+);
+width = 1648;
+}
+);
+unicode = 216;
+}

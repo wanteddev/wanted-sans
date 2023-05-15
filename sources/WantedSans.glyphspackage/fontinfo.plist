@@ -62,6 +62,9 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn PLK;
 ";
 name = Languagesystems;
 },
@@ -92,7 +95,8 @@ name = LOOKUP_CALT;
 features = (
 {
 automatic = 1;
-code = "feature case;
+code = "feature locl;
+feature case;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -120,6 +124,18 @@ code = "lookup ccmp_Other_1 {
 } ccmp_Other_1;
 ";
 tag = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language PLK;
+lookup locl_latn_0 {
+	sub aacute by aacute.loclPLK;
+	sub acutecomb by acutecomb.loclPLK;
+	sub acute by acute.loclPLK;
+} locl_latn_0;
+";
+tag = locl;
 },
 {
 automatic = 1;
@@ -175,6 +191,7 @@ sub amacron by amacron.cv03;
 sub aogonek by aogonek.cv03;
 sub aring by aring.cv03;
 sub atilde by atilde.cv03;
+sub aacute.loclPLK by aacute.loclPLK.cv03;
 ";
 tag = cv03;
 },
