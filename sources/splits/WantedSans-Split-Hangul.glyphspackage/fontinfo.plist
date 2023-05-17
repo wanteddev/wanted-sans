@@ -1,0 +1,512 @@
+{
+.appVersion = "3192";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252",
+"949"
+);
+}
+);
+date = "2023-05-17 08:55:14 +0000";
+familyName = "Wanted Sans Split Hangul";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+fontMaster = (
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = R;
+},
+{
+name = typoAscender;
+value = 1950;
+},
+{
+name = hheaAscender;
+value = 1950;
+},
+{
+name = winAscent;
+value = 1950;
+},
+{
+name = typoDescender;
+value = -494;
+},
+{
+name = hheaDescender;
+value = -494;
+},
+{
+name = winDescent;
+value = 494;
+},
+{
+name = strikeoutPosition;
+value = 604;
+},
+{
+name = underlineThickness;
+value = 164;
+},
+{
+name = strikeoutSize;
+value = 164;
+},
+{
+name = underlinePosition;
+value = -399;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 1950;
+},
+{
+over = 28;
+pos = 1448;
+},
+{
+over = 28;
+pos = 1032;
+},
+{
+over = -28;
+},
+{
+over = -28;
+pos = -432;
+},
+{
+over = -16;
+},
+{
+pos = 760;
+},
+{
+pos = 540;
+}
+);
+name = Regular;
+userData = {
+GSOffsetHorizontal = -20.5;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = -20.5;
+};
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = B;
+},
+{
+name = typoAscender;
+value = 1950;
+},
+{
+name = hheaAscender;
+value = 1950;
+},
+{
+name = winAscent;
+value = 1950;
+},
+{
+name = typoDescender;
+value = -494;
+},
+{
+name = hheaDescender;
+value = -494;
+},
+{
+name = winDescent;
+value = 494;
+},
+{
+name = strikeoutPosition;
+value = 604;
+},
+{
+name = underlineThickness;
+value = 164;
+},
+{
+name = strikeoutSize;
+value = 164;
+},
+{
+name = underlinePosition;
+value = -399;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+id = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricValues = (
+{
+pos = 1950;
+},
+{
+over = 28;
+pos = 1448;
+},
+{
+over = 28;
+pos = 1032;
+},
+{
+over = -28;
+},
+{
+over = -28;
+pos = -432;
+},
+{
+over = -16;
+},
+{
+pos = 760;
+},
+{
+pos = 540;
+}
+);
+name = Black;
+userData = {
+GSOffsetHorizontal = 106;
+GSOffsetVertical = 0;
+};
+}
+);
+instances = (
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+480
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16;
+m01 = 0.84;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+560
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.32;
+m01 = 0.68;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+640
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.48;
+m01 = 0.52;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+720
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.64;
+m01 = 0.36;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+800
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;
+m01 = 0.2;
+};
+name = Black;
+weightClass = 900;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+0,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = "Variable Font Origin";
+value = m01;
+}
+);
+name = Regular;
+type = variable;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "Cap Center";
+},
+{
+name = "Low Center";
+}
+);
+properties = (
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Kil Hyung-jin; Hangul glyphs from Noto Sans CJK(Source Han Sans) by Jang Soo-young and Kang Joo-yeon, Sandoll Communications;";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Wantedlab, Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://wantedlab.com";
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2023 Wantedlab, Inc.";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Wanted Sans is a trademark of Wantedlab, Inc.";
+}
+);
+},
+{
+key = vendorID;
+value = WNTD;
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+}
+);
+settings = {
+gridLength = 8;
+gridSubDivision = 4;
+keyboardIncrementBig = 4;
+};
+unitsPerEm = 2048;
+versionMajor = 0;
+versionMinor = 206;
+}
