@@ -1,6 +1,6 @@
 import re
 
-file_path = '../sources/WantedSans.glyphspackage/fontinfo.plist'
+file_path = '../WantedSans.glyphspackage/fontinfo.plist'
 
 # Read and update font name
 with open(file_path, 'r') as f:
