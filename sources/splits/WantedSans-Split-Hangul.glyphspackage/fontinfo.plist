@@ -129,7 +129,7 @@ GSOffsetVertical = -20.5;
 },
 {
 axesValues = (
-900
+1012.5
 );
 customParameters = (
 {
@@ -251,7 +251,7 @@ name = Regular;
 },
 {
 axesValues = (
-480
+500
 );
 customParameters = (
 {
@@ -271,15 +271,15 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16;
-m01 = 0.84;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16327;
+m01 = 0.83673;
 };
 name = Medium;
 weightClass = 500;
 },
 {
 axesValues = (
-560
+600
 );
 customParameters = (
 {
@@ -299,15 +299,15 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.32;
-m01 = 0.68;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.32653;
+m01 = 0.67347;
 };
 name = SemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
-640
+700
 );
 customParameters = (
 {
@@ -327,8 +327,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.48;
-m01 = 0.52;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4898;
+m01 = 0.5102;
 };
 isBold = 1;
 name = Bold;
@@ -336,7 +336,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-720
+800
 );
 customParameters = (
 {
@@ -356,15 +356,15 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.64;
-m01 = 0.36;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.65306;
+m01 = 0.34694;
 };
 name = ExtraBold;
 weightClass = 800;
 },
 {
 axesValues = (
-800
+900
 );
 customParameters = (
 {
@@ -384,8 +384,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;
-m01 = 0.2;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.81633;
+m01 = 0.18367;
 };
 name = Black;
 weightClass = 900;
