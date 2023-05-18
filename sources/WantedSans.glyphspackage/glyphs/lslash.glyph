@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = lslash;
 kernLeft = t;
 kernRight = four;
@@ -10,7 +9,10 @@ metricRight = "=|";
 shapes = (
 {
 alignment = -1;
-pos = (70,0);
+piece = {
+Group = 1;
+};
+pos = (72,0);
 ref = l;
 },
 {

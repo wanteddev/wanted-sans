@@ -37,7 +37,7 @@ pos = (300,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1184;
+width = 1180;
 },
 {
 background = {

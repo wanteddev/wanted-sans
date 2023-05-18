@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Kbase;
 layers = (
@@ -25,17 +24,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(867,0,l),
-(192,760,l),
-(842,1448,l),
-(602,1448,l),
+(862,0,l),
+(188,760,l),
+(838,1448,l),
+(606,1448,l),
 (-32,760,l),
 (-32,752,l),
-(632,0,l)
+(622,0,l)
 );
 }
 );
-width = 912;
+width = 906;
 },
 {
 anchors = (
@@ -59,13 +58,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(939.62,0,l),
+(940,0,l),
 (448,760,l),
-(931.374,1448,l),
-(396,1448,l),
+(932,1448,l),
+(404,1448,l),
 (-64,760,l),
 (-64,744,l),
-(416,0,l)
+(412,0,l)
 );
 }
 );
@@ -96,7 +95,7 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 172;
+strokeWidth = 168;
 };
 closed = 0;
 nodes = (
@@ -146,4 +145,5 @@ nodes = (
 width = 968;
 }
 );
+metricRight = X;
 }

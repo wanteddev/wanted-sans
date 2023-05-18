@@ -17,7 +17,7 @@ ref = _smart.crossbar;
 piece = {
 Cap = 56;
 };
-pos = (122,0);
+pos = (124,0);
 ref = _smart.lowerstem;
 }
 );

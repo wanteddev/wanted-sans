@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = Z;
 kernLeft = Z;
 kernRight = Z;
@@ -12,10 +11,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(322,168,l),
-(1170,1280,l),
-(954,1280,l),
-(105,168,l)
+(318,164,l),
+(1170,1284,l),
+(958,1284,l),
+(106,164,l)
 );
 },
 {
@@ -25,9 +24,9 @@ strokePos = "1";
 closed = 1;
 nodes = (
 (1186,0,l),
-(1186,168,l),
-(322,168,l),
-(106,168,l),
+(1186,164,l),
+(318,164,l),
+(106,164,l),
 (106,0,l)
 );
 },
@@ -37,11 +36,11 @@ strokePos = "0";
 };
 closed = 1;
 nodes = (
-(954,1280,l),
-(1170,1280,l),
+(958,1284,l),
+(1170,1284,l),
 (1170,1448,l),
 (114,1448,l),
-(114,1280,l)
+(114,1284,l)
 );
 }
 );
@@ -99,7 +98,7 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -110,7 +109,7 @@ nodes = (
 {
 attr = {
 strokePos = 1;
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -122,12 +121,12 @@ nodes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 172;
+strokeWidth = 168;
 };
 closed = 0;
 nodes = (
-(1138,1280,l),
-(218,168,l)
+(1140,1284,l),
+(214,164,l)
 );
 }
 );
@@ -227,7 +226,7 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -238,7 +237,7 @@ nodes = (
 {
 attr = {
 strokePos = "1";
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -250,12 +249,12 @@ nodes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 172;
+strokeWidth = 168;
 };
 closed = 0;
 nodes = (
-(1062,1280,l),
-(214,168,l)
+(1064,1284,l),
+(212,164,l)
 );
 }
 );

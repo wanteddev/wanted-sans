@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = bracketleft;
 kernRight = parenleft;
 layers = (
@@ -10,9 +9,9 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 172;
+strokeHeight = 168;
 strokePos = "1";
-strokeWidth = 184;
+strokeWidth = 180;
 };
 closed = 0;
 nodes = (
@@ -24,9 +23,9 @@ nodes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 172;
+strokeHeight = 168;
 strokePos = "1";
-strokeWidth = 184;
+strokeWidth = 180;
 };
 closed = 0;
 nodes = (

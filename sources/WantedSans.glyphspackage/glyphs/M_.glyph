@@ -13,11 +13,11 @@ Condensed = 0;
 ref = _smart.upperstem;
 },
 {
-pos = (320,0);
+pos = (316,0);
 ref = _part.Mbase;
 },
 {
-pos = (1364,0);
+pos = (1360,0);
 ref = _part.Mbase;
 scale = (-1,1);
 },
@@ -25,11 +25,11 @@ scale = (-1,1);
 piece = {
 Condensed = 0;
 };
-pos = (1224,0);
+pos = (1220,0);
 ref = _smart.upperstem;
 }
 );
-width = 1684;
+width = 1676;
 },
 {
 background = {

@@ -10,7 +10,7 @@ shapes = (
 ref = J;
 },
 {
-pos = (446,0);
+pos = (448,0);
 ref = _part.Jserif;
 }
 );

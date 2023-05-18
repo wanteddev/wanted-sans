@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = dblgravecomb;
 layers = (
 {
@@ -17,7 +16,7 @@ alignment = -1;
 piece = {
 Double = 100;
 };
-pos = (-184,0);
+pos = (-180,0);
 ref = _smart.grave;
 },
 {
@@ -25,7 +24,7 @@ alignment = -1;
 piece = {
 Double = 100;
 };
-pos = (156,0);
+pos = (154,0);
 ref = _smart.grave;
 }
 );

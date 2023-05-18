@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Hbase;
 layers = (
@@ -93,7 +92,7 @@ metricRight = "=|";
 shapes = (
 {
 attr = {
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (

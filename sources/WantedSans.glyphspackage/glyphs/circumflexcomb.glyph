@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = circumflexcomb;
 layers = (
 {
@@ -15,24 +14,24 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 144;
+strokeWidth = 140;
 };
 closed = 0;
 nodes = (
-(-216,1226,l),
-(-28,1496,l)
+(-220,1226,l),
+(-32,1496,l)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 144;
+strokeWidth = 140;
 };
 closed = 0;
 nodes = (
-(28,1496,l),
-(216,1226,l)
+(30,1496,l),
+(218,1226,l)
 );
 }
 );
@@ -44,8 +43,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-128,1226,l),
-(60,1496,l),
+(-134,1226,l),
+(54,1496,l),
 (-116,1496,l),
 (-304,1226,l)
 );
@@ -55,8 +54,8 @@ closed = 1;
 nodes = (
 (304,1226,l),
 (116,1496,l),
-(-60,1496,l),
-(128,1226,l)
+(-54,1496,l),
+(134,1226,l)
 );
 }
 );

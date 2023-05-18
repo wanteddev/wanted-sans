@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (218,760);
+pos = (216,760);
 }
 );
 layerId = m01;
@@ -21,7 +21,7 @@ Cap = 100;
 ref = _smart.lowerstem;
 }
 );
-width = 436;
+width = 432;
 },
 {
 anchors = (

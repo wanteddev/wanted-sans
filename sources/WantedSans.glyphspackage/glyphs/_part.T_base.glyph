@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Tbase;
 layers = (
@@ -17,7 +16,7 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (

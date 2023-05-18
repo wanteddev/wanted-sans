@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = seven.cv12;
 kernLeft = seven;
 kernRight = seven;
@@ -11,25 +10,26 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(326,0,l),
-(974,1280,l)
+(324,0,l),
+(976,1284,l)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokePos = "0";
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(1072,1364,l),
-(120,1364,l)
+(120,1448,l),
+(1072,1448,l)
 );
 }
 );
@@ -39,20 +39,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(424,0,l),
-(1072,1280,l),
-(876,1280,l),
+(420,0,l),
+(1072,1284,l),
+(880,1284,l),
 (228,0,l)
 );
 },
 {
+attr = {
+strokePos = "0";
+};
 closed = 1;
 nodes = (
-(876,1280,l),
-(1072,1280,l),
+(880,1284,l),
+(1072,1284,l),
 (1072,1448,l),
 (120,1448,l),
-(120,1280,l)
+(120,1284,l)
 );
 }
 );
@@ -78,12 +81,13 @@ nodes = (
 attr = {
 lineCapEnd = "4";
 strokeHeight = 384;
+strokePos = "0";
 strokeWidth = 416;
 };
 closed = 0;
 nodes = (
-(1208,1256,l),
-(100,1256,l)
+(100,1448,l),
+(1208,1448,l)
 );
 }
 );

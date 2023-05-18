@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = one.cv07;
 kernLeft = one;
 kernRight = H;
@@ -9,26 +8,26 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(552,0,l),
-(552,1448,l)
+(554,0,l),
+(554,1448,l)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(464,1344,l),
-(120,1104,l)
+(468,1346,l),
+(120,1098,l)
 );
 }
 );
@@ -40,17 +39,17 @@ closed = 1;
 nodes = (
 (640,0,l),
 (640,1448,l),
-(464,1448,l),
-(464,0,l)
+(468,1448,l),
+(468,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(464,1240,l),
-(464,1448,l),
-(120,1208,l),
-(120,1000,l)
+(468,1244,l),
+(468,1448,l),
+(120,1200,l),
+(120,996,l)
 );
 }
 );

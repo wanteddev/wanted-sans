@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _smart.lowerstem;
 layers = (
@@ -7,15 +6,15 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (304,0);
+pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (130,1032);
 },
 {
 name = bottom;
-pos = (218,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -23,10 +22,11 @@ pos = (132,0);
 },
 {
 name = top;
-pos = (218,1032);
+pos = (216,1032);
 }
 );
 layerId = m01;
+metricLeft = "=132";
 metricRight = "=|";
 partSelection = {
 Cap = 1;
@@ -38,17 +38,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(304,0,l),
-(304,208,l),
-(304,516,l),
-(304,790,l),
-(304,1032,l),
+(300,0,l),
+(300,208,l),
+(300,516,l),
+(300,790,l),
+(300,1032,l),
 (132,1032,l),
 (132,0,l)
 );
 }
 );
-width = 436;
+width = 432;
 },
 {
 anchors = (
@@ -74,6 +74,7 @@ pos = (308,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=108";
 metricRight = "=|";
 partSelection = {
 Cap = 1;
@@ -101,15 +102,15 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (304,0);
+pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (130,1032);
 },
 {
 name = bottom;
-pos = (218,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -117,12 +118,13 @@ pos = (132,0);
 },
 {
 name = top;
-pos = (218,1448);
+pos = (216,1448);
 }
 );
 associatedMasterId = m01;
 layerId = "CB21D970-D491-409F-B895-463B441D1567";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=132";
+metricRight = "=|";
 name = Cap;
 partSelection = {
 Cap = 2;
@@ -134,17 +136,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(304,0,l),
-(304,208,l),
-(304,516,l),
-(304,790,l),
-(304,1448,l),
+(300,0,l),
+(300,208,l),
+(300,516,l),
+(300,790,l),
+(300,1448,l),
 (132,1448,l),
 (132,0,l)
 );
 }
 );
-width = 436;
+width = 432;
 },
 {
 anchors = (
@@ -171,7 +173,8 @@ pos = (308,1448);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "555B77F8-3ED4-4D0D-980E-63A5018FD526";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=108";
+metricRight = "=|";
 name = Cap;
 partSelection = {
 Cap = 2;
@@ -199,15 +202,15 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (304,0);
+pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (130,1032);
 },
 {
 name = bottom;
-pos = (218,-432);
+pos = (216,-432);
 },
 {
 name = ogonek;
@@ -215,12 +218,13 @@ pos = (132,-432);
 },
 {
 name = top;
-pos = (218,1032);
+pos = (216,1032);
 }
 );
 associatedMasterId = m01;
 layerId = "C1A1B17D-C3C8-4C28-B76D-31C5E7F8062A";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=132";
+metricRight = "=|";
 name = Descender;
 partSelection = {
 Cap = 1;
@@ -232,17 +236,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(304,-432,l),
-(304,208,l),
-(304,516,l),
-(304,790,l),
-(304,1032,l),
+(300,-432,l),
+(300,208,l),
+(300,516,l),
+(300,790,l),
+(300,1032,l),
 (132,1032,l),
 (132,-432,l)
 );
 }
 );
-width = 436;
+width = 432;
 },
 {
 anchors = (
@@ -269,7 +273,8 @@ pos = (312,1032);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "8419E07D-F264-487D-91FC-94EF07D70FEB";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=108";
+metricRight = "=|";
 name = Descender;
 partSelection = {
 Cap = 1;
@@ -297,15 +302,15 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (304,0);
+pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (130,1032);
 },
 {
 name = bottom;
-pos = (218,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -313,12 +318,13 @@ pos = (132,0);
 },
 {
 name = top;
-pos = (218,1032);
+pos = (216,1032);
 }
 );
 associatedMasterId = m01;
 layerId = "89039904-891F-48B9-BBE6-3208CB39C3CF";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=132";
+metricRight = "=|";
 name = Cross;
 partSelection = {
 Cap = 1;
@@ -330,17 +336,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(304,0,l),
-(304,208,l),
-(258,516,l),
-(304,790,l),
-(304,1032,l),
+(300,0,l),
+(300,208,l),
+(256,516,l),
+(300,790,l),
+(300,1032,l),
 (132,1032,l),
 (132,0,l)
 );
 }
 );
-width = 436;
+width = 432;
 },
 {
 anchors = (
@@ -367,7 +373,8 @@ pos = (308,1032);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "C8003AC4-3DFA-4D35-84CB-83AEEA904EA0";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=108";
+metricRight = "=|";
 name = Cross;
 partSelection = {
 Cap = 1;
@@ -416,7 +423,8 @@ pos = (316,1032);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "F4D91345-5198-4D53-867D-A934BE840DA6";
-metricRight = "=|_smart.lowerstem";
+metricLeft = "=108";
+metricRight = "=|";
 name = Extended;
 partSelection = {
 Cap = 1;

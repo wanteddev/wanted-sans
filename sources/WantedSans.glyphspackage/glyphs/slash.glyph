@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = slash;
 kernLeft = slash;
 kernRight = slash;
@@ -13,16 +12,16 @@ shapes = (
 attr = {
 lineCapEnd = 4;
 lineCapStart = 4;
-strokeWidth = 172;
+strokeWidth = 168;
 };
 closed = 0;
 nodes = (
-(522,1448,l),
-(88,-432,l)
+(520,1448,l),
+(86,-432,l)
 );
 }
 );
-width = 610;
+width = 606;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

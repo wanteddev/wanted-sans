@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Rbase;
 layers = (
@@ -25,10 +24,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(563.186,0,l),
-(105.186,674,l),
-(-105.186,674,l),
-(352.814,0,l)
+(564,0,l),
+(106,674,l),
+(-102,674,l),
+(356,0,l)
 );
 }
 );
@@ -79,12 +78,12 @@ shapes = (
 attr = {
 lineCapEnd = 4;
 lineCapStart = 4;
-strokeWidth = 174;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(0,674,l),
-(458,0,l)
+(2,674,l),
+(460,0,l)
 );
 }
 );
@@ -141,8 +140,8 @@ closed = 1;
 nodes = (
 (545.161,0,l),
 (105.161,648,l),
-(-105.161,648,l),
-(334.839,0,l)
+(-102,648,l),
+(338,0,l)
 );
 }
 );
@@ -171,4 +170,5 @@ nodes = (
 width = 718;
 }
 );
+metricRight = A;
 }

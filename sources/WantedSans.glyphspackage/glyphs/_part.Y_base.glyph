@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Ybase;
 layers = (
@@ -7,7 +6,7 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (664,1448);
+pos = (660,1448);
 }
 );
 background = {
@@ -15,71 +14,71 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(1096,1448,l),
-(250,1448,l)
+(1092,1448,l),
+(246,1448,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,688,l),
-(250,688,l)
+(1092,688,l),
+(246,688,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(1096,0,l),
-(250,0,l)
+(1092,0,l),
+(246,0,l)
 );
 }
 );
@@ -89,16 +88,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1284,1448,l),
+(1278,1448,l),
 (1080,1448,l),
-(664,770,l),
-(248,1448,l),
+(660,766,l),
+(242,1448,l),
 (44,1448,l),
-(664,462,l)
+(660,466,l)
 );
 }
 );
-width = 1328;
+width = 1322;
 },
 {
 anchors = (
@@ -183,7 +182,7 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 172;
+strokeWidth = 168;
 };
 closed = 0;
 nodes = (
@@ -284,7 +283,7 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 172;
+strokeWidth = 168;
 };
 closed = 0;
 nodes = (
@@ -342,4 +341,6 @@ nodes = (
 width = 1636;
 }
 );
+metricLeft = V;
+metricRight = V;
 }

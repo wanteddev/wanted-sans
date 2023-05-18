@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = underscore;
 kernLeft = underscore;
 kernRight = underscore;
@@ -25,7 +24,7 @@ Case = 0;
 Space = 0;
 Width = 1024;
 };
-pos = (0,-720);
+pos = (0,-718);
 ref = _smart.horizontalbar;
 }
 );
