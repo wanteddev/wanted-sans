@@ -27,9 +27,9 @@ metricWidth = "=0";
 shapes = (
 {
 attr = {
-strokeHeight = 144;
+strokeHeight = 140;
 strokePos = "0";
-strokeWidth = 152;
+strokeWidth = 148;
 };
 closed = 0;
 nodes = (

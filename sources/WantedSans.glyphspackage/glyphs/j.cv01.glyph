@@ -11,11 +11,11 @@ ref = jdotless.cv01;
 },
 {
 alignment = 1;
-pos = (218,0);
+pos = (216,0);
 ref = dotaccentcomb;
 }
 );
-width = 436;
+width = 432;
 },
 {
 background = {

@@ -24,15 +24,15 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (320,0);
+pos = (316,0);
 ref = _part.Hbase;
 },
 {
-pos = (946,0);
+pos = (942,0);
 ref = _smart.upperstem;
 }
 );
-width = 1406;
+width = 1398;
 },
 {
 background = {

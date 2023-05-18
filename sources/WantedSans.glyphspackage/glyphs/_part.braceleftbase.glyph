@@ -17,9 +17,9 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 168;
+strokeHeight = 164;
 strokePos = "1";
-strokeWidth = 176;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
@@ -29,9 +29,9 @@ nodes = (
 },
 {
 attr = {
-strokeHeight = 168;
+strokeHeight = 164;
 strokePos = "1";
-strokeWidth = 176;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
@@ -57,14 +57,14 @@ strokePos = "1";
 closed = 1;
 nodes = (
 (212,524,ls),
-(330,524,o),
-(404,632,o),
-(404,822,cs),
-(404,1100,ls),
-(404,1228,o),
-(452,1292,o),
-(548,1292,cs),
-(604,1292,l),
+(328,524,o),
+(400,632,o),
+(400,822,cs),
+(400,1100,ls),
+(400,1230,o),
+(448,1296,o),
+(546,1296,cs),
+(604,1296,l),
 (604,1448,l),
 (548,1448,ls),
 (326,1448,o),
@@ -445,7 +445,6 @@ nodes = (
 );
 }
 );
-visible = 1;
 width = 880;
 }
 );

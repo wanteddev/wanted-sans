@@ -16,11 +16,11 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (320,0);
+pos = (316,0);
 ref = _part.Dbase;
 }
 );
-width = 1402;
+width = 1398;
 },
 {
 anchors = (

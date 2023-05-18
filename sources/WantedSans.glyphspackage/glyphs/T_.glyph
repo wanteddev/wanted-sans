@@ -10,7 +10,7 @@ shapes = (
 ref = _part.Tbase;
 },
 {
-pos = (414,0);
+pos = (416,0);
 ref = _smart.upperstem;
 }
 );

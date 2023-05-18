@@ -9,12 +9,12 @@ name = "#entry";
 }
 );
 layerId = m01;
-metricRight = "=I*.754";
+metricRight = "=I*.76";
 shapes = (
 {
 attr = {
 strokePos = "1";
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -25,7 +25,7 @@ nodes = (
 {
 attr = {
 strokePos = 0;
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -35,7 +35,7 @@ nodes = (
 },
 {
 attr = {
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -91,5 +91,4 @@ nodes = (
 width = 672;
 }
 );
-metricRight = I;
 }

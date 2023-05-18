@@ -92,7 +92,7 @@ metricRight = "=|";
 shapes = (
 {
 attr = {
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (

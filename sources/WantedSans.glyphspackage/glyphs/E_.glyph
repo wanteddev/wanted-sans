@@ -10,11 +10,11 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (320,0);
+pos = (316,0);
 ref = _part.Ebase;
 }
 );
-width = 1162;
+width = 1158;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

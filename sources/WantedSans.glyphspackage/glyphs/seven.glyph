@@ -10,27 +10,28 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(468,0,l),
-(506,480,o),
-(666,902,o),
-(960,1280,c)
+(472,0,l),
+(510,482,o),
+(668,904,o),
+(964,1284,c)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokePos = 0;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(1072,1364,l),
-(120,1364,l)
+(120,1448,l),
+(1072,1448,l)
 );
 }
 );
@@ -41,143 +42,23 @@ shapes = (
 closed = 1;
 nodes = (
 (556,0,l),
-(596,484,o),
-(764,906,o),
-(1072,1280,c),
-(860,1280,l),
-(578,900,o),
-(424,476,o),
-(388,0,c)
+(596,486,o),
+(764,908,o),
+(1072,1284,c),
+(864,1284,l),
+(582,902,o),
+(428,478,o),
+(392,0,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(860,1280,l),
-(1072,1280,l),
+(864,1284,l),
+(1072,1284,l),
 (1072,1448,l),
 (120,1448,l),
-(120,1280,l)
-);
-}
-);
-width = 1160;
-},
-{
-associatedMasterId = m01;
-background = {
-shapes = (
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
-};
-closed = 0;
-nodes = (
-(468,0,l),
-(506,480,o),
-(666,902,o),
-(960,1280,c)
-);
-},
-{
-attr = {
-lineCapEnd = "4";
-strokeHeight = 168;
-strokeWidth = 176;
-};
-closed = 0;
-nodes = (
-(1072,1364,l),
-(120,1364,l)
-);
-}
-);
-};
-layerId = "372E77B4-B2B7-4BA0-835D-476020C14527";
-metricRight = "=A*2";
-name = Curved;
-shapes = (
-{
-closed = 1;
-nodes = (
-(556,0,l),
-(596,484,o),
-(764,906,o),
-(1072,1280,c),
-(852,1280,l),
-(570,900,o),
-(416,476,o),
-(380,0,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(860,1280,l),
-(1072,1280,l),
-(1072,1448,l),
-(120,1448,l),
-(120,1280,l)
-);
-}
-);
-width = 1160;
-},
-{
-associatedMasterId = m01;
-background = {
-shapes = (
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
-};
-closed = 0;
-nodes = (
-(326,0,l),
-(974,1280,l)
-);
-},
-{
-attr = {
-lineCapEnd = "4";
-strokeHeight = 168;
-strokeWidth = 176;
-};
-closed = 0;
-nodes = (
-(1072,1364,l),
-(120,1364,l)
-);
-}
-);
-};
-layerId = "F6894430-E2D5-4007-9553-70167F2EAB6B";
-metricRight = "=A*2";
-name = Straight;
-shapes = (
-{
-closed = 1;
-nodes = (
-(876,1280,l),
-(1072,1280,l),
-(1072,1448,l),
-(120,1448,l),
-(120,1280,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(228,0,l),
-(424,0,l),
-(1072,1280,l),
-(876,1280,l)
+(120,1284,l)
 );
 }
 );
@@ -232,12 +113,13 @@ nodes = (
 attr = {
 lineCapEnd = "4";
 strokeHeight = 384;
+strokePos = "0";
 strokeWidth = 416;
 };
 closed = 0;
 nodes = (
-(1208,1256,l),
-(100,1256,l)
+(100,1448,l),
+(1208,1448,l)
 );
 }
 );
@@ -362,132 +244,13 @@ nodes = (
 attr = {
 lineCapEnd = "4";
 strokeHeight = 384;
+strokePos = 0;
 strokeWidth = 416;
 };
 closed = 0;
 nodes = (
-(1208,1256,l),
-(100,1256,l)
-);
-}
-);
-};
-layerId = "62568BF9-4A36-448F-88E5-80751A2BB4BA";
-metricRight = "=A*2";
-name = Curved;
-shapes = (
-{
-closed = 1;
-nodes = (
-(776,450,o),
-(922,706,o),
-(1208,1096,c),
-(708,1064,l),
-(484,736,o),
-(354,444,o),
-(324,0,c),
-(742,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(708,1064,l),
-(1208,1096,l),
-(1208,1448,l),
 (100,1448,l),
-(100,1064,l)
-);
-}
-);
-width = 1280;
-},
-{
-associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-background = {
-shapes = (
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeHeight = 384;
-strokeWidth = 416;
-};
-closed = 0;
-nodes = (
-(450,0,l),
-(978,1064,l)
-);
-},
-{
-attr = {
-lineCapEnd = "4";
-strokeHeight = 384;
-strokeWidth = 416;
-};
-closed = 0;
-nodes = (
-(1208,1256,l),
-(100,1256,l)
-);
-}
-);
-};
-layerId = "B1C8421A-1110-43B9-A5CE-B7C1467DC58F";
-metricRight = "=A*2";
-name = Straight;
-shapes = (
-{
-closed = 1;
-nodes = (
-(656,0,l),
-(1208,1096,l),
-(720,1064,l),
-(192,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(720,1064,l),
-(1208,1096,l),
-(1208,1448,l),
-(100,1448,l),
-(100,1064,l)
-);
-}
-);
-width = 1280;
-},
-{
-associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-background = {
-shapes = (
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeHeight = 384;
-strokeWidth = 416;
-};
-closed = 0;
-nodes = (
-(532,0,l),
-(564,442,o),
-(704,716,o),
-(956,1064,c)
-);
-},
-{
-attr = {
-lineCapEnd = "4";
-strokeHeight = 384;
-strokeWidth = 416;
-};
-closed = 0;
-nodes = (
-(1208,1256,l),
-(100,1256,l)
+(1208,1448,l)
 );
 }
 );

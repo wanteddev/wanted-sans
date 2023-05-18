@@ -32,11 +32,11 @@ ref = _part.Ybase;
 piece = {
 Height = 724;
 };
-pos = (434,0);
+pos = (432,0);
 ref = _smart.upperstem;
 }
 );
-width = 1328;
+width = 1322;
 },
 {
 background = {

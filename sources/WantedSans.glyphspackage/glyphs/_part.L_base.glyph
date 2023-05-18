@@ -9,12 +9,11 @@ name = "#entry";
 }
 );
 layerId = m01;
-metricRight = "=I*.754";
 shapes = (
 {
 attr = {
 strokePos = 1;
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
@@ -49,5 +48,5 @@ nodes = (
 width = 628;
 }
 );
-metricRight = I;
+metricRight = _part.Ebase;
 }

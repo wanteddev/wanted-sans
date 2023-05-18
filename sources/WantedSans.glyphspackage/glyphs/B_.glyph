@@ -66,11 +66,11 @@ Condensed = 48;
 ref = _smart.upperstem;
 },
 {
-pos = (320,0);
+pos = (316,0);
 ref = _part.Bbase;
 }
 );
-width = 1208;
+width = 1204;
 },
 {
 background = {

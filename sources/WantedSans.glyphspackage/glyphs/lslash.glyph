@@ -9,7 +9,10 @@ metricRight = "=|";
 shapes = (
 {
 alignment = -1;
-pos = (70,0);
+piece = {
+Group = 1;
+};
+pos = (72,0);
 ref = l;
 },
 {

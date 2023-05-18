@@ -9,25 +9,25 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(616,0,l),
-(616,1448,l)
+(612,0,l),
+(612,1448,l)
 );
 },
 {
 attr = {
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(528,1340,l),
-(174,1068,l)
+(526,1342,l),
+(174,1060,l)
 );
 }
 );
@@ -40,23 +40,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(704,0,l),
-(704,1448,l),
-(528,1448,l),
-(528,0,l)
+(698,0,l),
+(698,1448,l),
+(526,1448,l),
+(526,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(528,1232,l),
-(528,1448,l),
-(120,1136,l),
-(228,1002,l)
+(526,1235,l),
+(526,1449,l),
+(120,1124,l),
+(228,996,l)
 );
 }
 );
-width = 914;
+width = 908;
 },
 {
 associatedMasterId = m01;
@@ -64,26 +64,26 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(552,0,l),
-(552,1448,l)
+(554,0,l),
+(554,1448,l)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(464,1344,l),
-(120,1104,l)
+(468,1346,l),
+(120,1098,l)
 );
 }
 );
@@ -98,17 +98,17 @@ closed = 1;
 nodes = (
 (640,0,l),
 (640,1448,l),
-(464,1448,l),
-(464,0,l)
+(468,1448,l),
+(468,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(464,1240,l),
-(464,1448,l),
-(120,1208,l),
-(120,1000,l)
+(468,1244,l),
+(468,1448,l),
+(120,1200,l),
+(120,996,l)
 );
 }
 );
@@ -229,27 +229,27 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(552,0,l),
-(552,1448,l)
+(554,0,l),
+(554,1448,l)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(464,1334,l),
-(350,1238,o),
-(234,1158,o),
+(468,1336,l),
+(352,1240,o),
+(236,1158,o),
 (120,1094,c)
 );
 }
@@ -265,21 +265,21 @@ closed = 1;
 nodes = (
 (640,0,l),
 (640,1448,l),
-(464,1448,l),
-(464,0,l)
+(468,1448,l),
+(468,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(234,1058,o),
-(352,1134,o),
-(464,1224,c),
-(464,1448,l),
-(348,1344,o),
-(234,1260,o),
-(120,1192,c),
-(120,998,l)
+(236,1060,o),
+(354,1139,o),
+(468,1229,c),
+(468,1446,l),
+(347,1341,o),
+(234,1257,o),
+(120,1190,c),
+(120,1000,l)
 );
 }
 );
@@ -409,27 +409,27 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(552,0,l),
-(552,1448,l)
+(554,0,l),
+(554,1448,l)
 );
 },
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeHeight = 168;
-strokeWidth = 176;
+strokeHeight = 164;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(464,1334,l),
-(350,1238,o),
-(234,1158,o),
+(468,1336,l),
+(352,1240,o),
+(236,1158,o),
 (120,1094,c)
 );
 }
@@ -443,21 +443,21 @@ closed = 1;
 nodes = (
 (640,0,l),
 (640,1448,l),
-(464,1448,l),
-(464,0,l)
+(468,1448,l),
+(468,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(232,1058,o),
-(350,1134,o),
-(464,1224,c),
-(464,1448,l),
-(346,1344,o),
-(232,1260,o),
-(120,1192,c),
-(120,998,l)
+(236,1060,o),
+(354,1139,o),
+(468,1229,c),
+(468,1446,l),
+(347,1341,o),
+(234,1257,o),
+(120,1190,c),
+(120,1000,l)
 );
 }
 );

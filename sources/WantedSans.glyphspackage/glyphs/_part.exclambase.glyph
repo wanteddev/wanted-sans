@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = baseline;
-pos = (300,0);
+pos = (298,0);
 }
 );
 layerId = m01;
@@ -15,17 +15,17 @@ metricRight = "=|";
 shapes = (
 {
 attr = {
-strokeHeight = 168;
-strokeWidth = 180;
+strokeHeight = 164;
+strokeWidth = 176;
 };
 closed = 0;
 nodes = (
-(300,1448,l),
-(300,464,l)
+(298,1448,l),
+(298,464,l)
 );
 }
 );
-width = 600;
+width = 596;
 },
 {
 anchors = (

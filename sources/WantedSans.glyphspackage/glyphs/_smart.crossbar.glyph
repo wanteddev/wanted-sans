@@ -33,12 +33,14 @@ Reflect = 1;
 };
 shapes = (
 {
-closed = 1;
+attr = {
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
 nodes = (
-(714,888,l),
-(714,1032,l),
 (76,1032,l),
-(76,888,l)
+(714,1032,l)
 );
 }
 );
@@ -75,12 +77,14 @@ Reflect = 1;
 };
 shapes = (
 {
-closed = 1;
+attr = {
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
 nodes = (
-(868,728,l),
-(868,1032,l),
 (60,1032,l),
-(60,728,l)
+(868,1032,l)
 );
 }
 );
@@ -123,12 +127,14 @@ Reflect = 1;
 };
 shapes = (
 {
-closed = 1;
+attr = {
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
 nodes = (
-(658,888,l),
-(658,1032,l),
 (52,1032,l),
-(52,888,l)
+(658,1032,l)
 );
 }
 );
@@ -170,12 +176,14 @@ Reflect = 1;
 };
 shapes = (
 {
-closed = 1;
+attr = {
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
 nodes = (
-(828,728,l),
-(828,1032,l),
 (44,1032,l),
-(44,728,l)
+(828,1032,l)
 );
 }
 );
@@ -199,12 +207,14 @@ Reflect = 2;
 };
 shapes = (
 {
-closed = 1;
+attr = {
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
 nodes = (
-(714,888,l),
-(714,1032,l),
 (76,1032,l),
-(76,888,l)
+(714,1032,l)
 );
 }
 );
@@ -228,12 +238,14 @@ Reflect = 2;
 };
 shapes = (
 {
-closed = 1;
+attr = {
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
 nodes = (
-(868,728,l),
-(868,1032,l),
 (60,1032,l),
-(60,728,l)
+(868,1032,l)
 );
 }
 );
