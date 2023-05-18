@@ -1,4 +1,5 @@
 {
+color = 11;
 export = 0;
 glyphname = _part.Rbase;
 layers = (
@@ -170,5 +171,4 @@ nodes = (
 width = 718;
 }
 );
-metricRight = A;
 }

@@ -1,4 +1,5 @@
 {
+color = 11;
 glyphname = comma;
 kernLeft = period;
 kernRight = period;

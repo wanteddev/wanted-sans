@@ -1,4 +1,5 @@
 {
+color = 11;
 export = 0;
 glyphname = _part.questionbase;
 layers = (
@@ -537,6 +538,4 @@ nodes = (
 width = 1224;
 }
 );
-metricLeft = O;
-metricRight = O;
 }

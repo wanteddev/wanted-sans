@@ -1,4 +1,5 @@
 {
+color = 11;
 export = 0;
 glyphname = _part.Fbase;
 layers = (
@@ -69,5 +70,4 @@ nodes = (
 width = 644;
 }
 );
-metricRight = E;
 }

@@ -1,4 +1,5 @@
 {
+color = 11;
 export = 0;
 glyphname = _part.questionbase.cv13;
 layers = (
@@ -164,6 +165,4 @@ nodes = (
 width = 1072;
 }
 );
-metricLeft = O;
-metricRight = O;
 }

@@ -1,4 +1,5 @@
 {
+color = 11;
 export = 0;
 glyphname = _smart.terminal;
 layers = (
@@ -786,7 +787,6 @@ nodes = (
 width = 528;
 }
 );
-metricLeft = _smart.lowerstem;
 partsSettings = (
 {
 bottomValue = 0;
