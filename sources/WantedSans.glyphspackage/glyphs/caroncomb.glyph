@@ -27,12 +27,19 @@ name = _top;
 pos = (0,1032);
 }
 );
+background = {
+shapes = (
+{
+ref = circumflexcomb;
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|";
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,2664);
+pos = (0,2632);
 ref = circumflexcomb;
 scale = (1,-1);
 }

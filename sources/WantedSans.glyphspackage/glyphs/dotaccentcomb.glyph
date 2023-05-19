@@ -35,7 +35,7 @@ alignment = -1;
 piece = {
 Mark = 100;
 };
-pos = (0,1164);
+pos = (0,1148);
 ref = _smart.dot;
 }
 );

@@ -45,7 +45,7 @@ alignment = -1;
 piece = {
 Mark = 300;
 };
-pos = (-250,1184);
+pos = (-250,1168);
 ref = _smart.dot;
 },
 {
@@ -53,7 +53,7 @@ alignment = -1;
 piece = {
 Mark = 300;
 };
-pos = (250,1184);
+pos = (250,1168);
 ref = _smart.dot;
 }
 );
