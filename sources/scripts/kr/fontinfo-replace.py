@@ -1,30 +1,32 @@
 import re
 
-file_path = '../WantedSans.glyphspackage/fontinfo.plist'
+file_path = '../../WantedSansKR.glyphspackage/fontinfo.plist'
 
-# Read and update font name
 with open(file_path, 'r') as f:
     contents = f.read()
 
+# Update font name
 contents = re.sub(r'(Wanted Sans).*?([^\w]|$)', r'\1 KR\2', contents)
 
-# Update Weight for KR
-contents = contents.replace('axesValues = (\n500', 'axesValues = (\n480')
-contents = contents.replace('axesValues = (\n600', 'axesValues = (\n560')
-contents = contents.replace('axesValues = (\n700', 'axesValues = (\n640')
-contents = contents.replace('axesValues = (\n800', 'axesValues = (\n720')
-contents = contents.replace('weightClass = 800;\n},\n{\naxesValues = (\n900', 'weightClass = 800;\n},\n{\naxesValues = (\n800')
-contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.2;\nm01 = 0.8;', '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16;\nm01 = 0.84;')
-contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4;\nm01 = 0.6;', '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.32;\nm01 = 0.68;')
-contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.6;\nm01 = 0.4;', '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.48;\nm01 = 0.52;')
-contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;\nm01 = 0.2;', '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.64;\nm01 = 0.36;')
-contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;', '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;\nm01 = 0.2;')
+# Update master and instances
+contents = contents.replace('axesValues = (\n900\n);\ncustomParameters = (\n{\nname = "Master Icon Glyph Name";\nvalue = B;',
+                            'axesValues = (\n1012.5\n);\ncustomParameters = (\n{\nname = "Master Icon Glyph Name";\nvalue = B;')
+contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.2;\nm01 = 0.8;',
+                            '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16327;\nm01 = 0.83673;')
+contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4;\nm01 = 0.6;',
+                            '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.32653;\nm01 = 0.67347;')
+contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.6;\nm01 = 0.4;',
+                            '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4898;\nm01 = 0.5102;')
+contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;\nm01 = 0.2;',
+                            '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.65306;\nm01 = 0.34694;')
+contents = contents.replace('"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;',
+                            '"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.81633;\nm01 = 0.18367;')
 
-# Write
+# Write changes
 with open(file_path, 'w') as f:
     f.write(contents)
 
-# Update default script
+# Add codePageRanges
 insert_code = '''},
 {
 name = codePageRanges;
@@ -34,6 +36,7 @@ value = (
 );
 '''
 
+# Find the code for adding codePageRanges
 with open(file_path, 'r+') as f:
     lines = f.readlines()
     add_code = False
