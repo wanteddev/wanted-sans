@@ -1,6 +1,8 @@
+import os
 import re
 
-file_path = '../../WantedSansKR.glyphspackage/fontinfo.plist'
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, '../../WantedSansKR.glyphspackage/fontinfo.plist')
 
 with open(file_path, 'r') as f:
     contents = f.read()

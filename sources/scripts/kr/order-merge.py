@@ -1,5 +1,8 @@
-target_path = '../../WantedSansKR.glyphspackage/order.plist'
-original_path = '../../splits/WantedSans-Split-Hangul.glyphspackage/order.plist'
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+target_path = os.path.join(script_dir, '../../WantedSansKR.glyphspackage/order.plist')
+original_path = os.path.join(script_dir, '../../splits/WantedSans-Split-Hangul.glyphspackage/order.plist')
 target_line = 'zero,'
 
 
