@@ -17,11 +17,11 @@ piece = {
 Terminal = 64.77393;
 Top = 56;
 };
-pos = (124,0);
+pos = (116,0);
 ref = _smart.terminal;
 }
 );
-width = 776;
+width = 770;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -37,11 +37,11 @@ piece = {
 Terminal = -20;
 Top = 58.5;
 };
-pos = (124,0);
+pos = (112,0);
 ref = _smart.terminal;
 }
 );
-width = 948;
+width = 934;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -310,11 +310,11 @@ ref = _smart.crossbar;
 piece = {
 Top = 58.5;
 };
-pos = (124,0);
+pos = (112,0);
 ref = _smart.terminal;
 }
 );
-width = 946;
+width = 934;
 }
 );
 metricLeft = f;
