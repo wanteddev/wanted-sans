@@ -14,7 +14,7 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Bottom = 100;
+Bottom = 99.60531;
 Terminal = 100;
 Top = 0;
 };
@@ -37,8 +37,8 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Bottom = 120.75;
-Terminal = 50;
+Bottom = 118;
+Terminal = -60;
 Top = 0;
 };
 pos = (0,1032);
@@ -46,7 +46,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 672;
+width = 638;
 }
 );
 metricLeft = _smart.terminal;

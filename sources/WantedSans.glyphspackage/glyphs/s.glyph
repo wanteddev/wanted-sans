@@ -58,6 +58,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (-784,864);
+}
+);
 layerId = m01;
 shapes = (
 {

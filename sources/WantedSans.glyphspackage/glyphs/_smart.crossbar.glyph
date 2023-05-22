@@ -6,20 +6,20 @@ layers = (
 anchors = (
 {
 name = crossbar;
-pos = (278,1032);
+pos = (258,1032);
 }
 );
 background = {
 shapes = (
 {
-pos = (146,0);
+pos = (126,0);
 ref = _part.fbase;
 },
 {
 closed = 0;
 nodes = (
-(714,1350,l),
-(714,612,l)
+(694,1350,l),
+(694,612,l)
 );
 }
 );
@@ -40,30 +40,30 @@ strokeWidth = 140;
 closed = 0;
 nodes = (
 (76,1032,l),
-(714,1032,l)
+(694,1032,l)
 );
 }
 );
-width = 814;
+width = 794;
 },
 {
 anchors = (
 {
 name = crossbar;
-pos = (232,1032);
+pos = (236,1032);
 }
 );
 background = {
 shapes = (
 {
-pos = (124,0);
+pos = (128,0);
 ref = _part.fbase;
 },
 {
 closed = 0;
 nodes = (
-(868,1196,l),
-(868,458,l)
+(872,1196,l),
+(872,458,l)
 );
 }
 );
@@ -84,11 +84,11 @@ strokeWidth = 304;
 closed = 0;
 nodes = (
 (60,1032,l),
-(868,1032,l)
+(872,1032,l)
 );
 }
 );
-width = 952;
+width = 956;
 },
 {
 anchors = (

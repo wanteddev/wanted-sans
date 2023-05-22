@@ -8,39 +8,40 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Condensed = 100;
+Condensed = 47.62817;
 };
 ref = _smart.crossbar;
 },
 {
 piece = {
-Terminal = 34;
+Terminal = 64.77393;
 Top = 56;
 };
-pos = (122,0);
+pos = (124,0);
 ref = _smart.terminal;
 }
 );
-width = 758;
+width = 776;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Condensed = 100;
+Condensed = 20.16195;
 };
 ref = _smart.crossbar;
 },
 {
 piece = {
+Terminal = -20;
 Top = 58.5;
 };
-pos = (108,0);
+pos = (124,0);
 ref = _smart.terminal;
 }
 );
-width = 912;
+width = 948;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -293,6 +294,27 @@ ref = _smart.terminal;
 }
 );
 width = 758;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "804D1B6C-3730-4F5B-8EE9-C187F7877F50";
+name = Hanbin;
+shapes = (
+{
+piece = {
+Condensed = 24.7172;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Top = 58.5;
+};
+pos = (124,0);
+ref = _smart.terminal;
+}
+);
+width = 946;
 }
 );
 metricLeft = f;
