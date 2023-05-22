@@ -35,11 +35,11 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (548,0);
+pos = (532,0);
 ref = _part.Dbase;
 }
 );
-width = 1500;
+width = 1484;
 }
 );
 unicode = 68;

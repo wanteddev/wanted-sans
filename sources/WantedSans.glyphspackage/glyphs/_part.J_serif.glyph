@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Jserif;
 layers = (
@@ -42,13 +41,13 @@ width = 368;
 anchors = (
 {
 name = _serif;
-pos = (312,1448);
+pos = (308,1448);
 }
 );
 background = {
 shapes = (
 {
-pos = (-392,0);
+pos = (-396,0);
 ref = J;
 }
 );
@@ -61,16 +60,16 @@ attr = {
 lineCapEnd = "3";
 lineCapStart = "3";
 strokePos = "0";
-strokeWidth = 400;
+strokeWidth = 392;
 };
 closed = 0;
 nodes = (
-(200,1448,l),
-(312,1448,l)
+(196,1448,l),
+(308,1448,l)
 );
 }
 );
-width = 312;
+width = 308;
 }
 );
 }

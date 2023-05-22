@@ -67,7 +67,7 @@ ref = _part.Ybase;
 piece = {
 Height = 724;
 };
-pos = (486,0);
+pos = (494,0);
 ref = _smart.upperstem;
 }
 );

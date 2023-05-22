@@ -19,7 +19,7 @@ shapes = (
 ref = _smart.upperstem;
 }
 );
-width = 664;
+width = 648;
 }
 );
 metricLeft = H;

@@ -35,11 +35,11 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (548,0);
+pos = (532,0);
 ref = _part.Lbase;
 }
 );
-width = 1176;
+width = 1160;
 }
 );
 unicode = 76;

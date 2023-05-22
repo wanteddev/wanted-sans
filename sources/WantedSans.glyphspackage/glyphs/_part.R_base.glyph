@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Rbase;
 layers = (
@@ -12,10 +11,15 @@ name = "#entry";
 background = {
 shapes = (
 {
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 172;
+};
 closed = 0;
 nodes = (
-(-4,732,l),
-(-4,564,l)
+(2,674,l),
+(460,0,l)
 );
 }
 );
@@ -40,135 +44,35 @@ anchors = (
 name = "#entry";
 }
 );
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-shapes = (
-{
-closed = 1;
-nodes = (
-(652,0,l),
-(252,628,l),
-(-200,628,l),
-(184,0,l)
-);
-}
-);
-width = 688;
-},
-{
-anchors = (
-{
-name = "#entry";
-}
-);
-associatedMasterId = m01;
 background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-4,732,l),
-(-4,564,l)
-);
-}
-);
-};
-layerId = "6A27ABF1-C810-44C1-AA13-D0D22C476274";
-name = "Apr 13, 23 15:48";
-shapes = (
-{
-attr = {
-lineCapEnd = 4;
-lineCapStart = 4;
-strokeWidth = 172;
-};
-closed = 0;
-nodes = (
-(2,674,l),
-(460,0,l)
-);
-}
-);
-width = 608;
-},
-{
-anchors = (
-{
-name = "#entry";
-}
-);
-associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-layerId = "7AAC1A4E-55AA-4D2E-93A4-1B20D8F78ACF";
-name = "Apr 13, 23 15:48";
 shapes = (
 {
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 400;
+strokeWidth = 384;
 };
 closed = 0;
 nodes = (
-(0,628,l),
-(384,0,l)
-);
-}
-);
-width = 654;
-},
-{
-anchors = (
-{
-name = "#entry";
-}
-);
-associatedMasterId = m01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-4,732,l),
-(-4,564,l)
+(16,628,l),
+(416,0,l)
 );
 }
 );
 };
-layerId = "222E94CF-A163-4841-8AD7-064EFA2F45FD";
-name = "Apr 14, 23 0:26";
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 closed = 1;
 nodes = (
-(545.161,0,l),
-(105.161,648,l),
-(-102,648,l),
-(338,0,l)
+(648,0,l),
+(248,628,l),
+(-200,628,l),
+(184,0,l)
 );
 }
 );
-width = 590;
-},
-{
-anchors = (
-{
-name = "#entry";
-}
-);
-associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-layerId = "5C94C9AB-25B4-4008-B5D3-7C7B8C041ACB";
-name = "Apr 14, 23 0:27";
-shapes = (
-{
-closed = 1;
-nodes = (
-(681.748,0,l),
-(212,648,l),
-(-256,648,l),
-(198.252,0,l)
-);
-}
-);
-width = 718;
+width = 684;
 }
 );
 metricRight = A;

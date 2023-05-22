@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = Lslash;
 kernLeft = H;
 kernRight = L;
@@ -50,10 +49,10 @@ ref = lslash;
 {
 closed = 1;
 nodes = (
-(624,166,l),
-(894,166,l),
-(894,896,l),
-(624,896,l)
+(608,348,l),
+(878,348,l),
+(878,952,l),
+(608,952,l)
 );
 }
 );
@@ -74,7 +73,7 @@ pos = (408,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1252;
+width = 1236;
 }
 );
 metricRight = L;

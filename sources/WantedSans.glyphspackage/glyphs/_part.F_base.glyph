@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.Fbase;
 layers = (
@@ -47,7 +46,7 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 400;
+strokeWidth = 392;
 };
 closed = 0;
 nodes = (
@@ -57,7 +56,7 @@ nodes = (
 },
 {
 attr = {
-strokeWidth = 368;
+strokeWidth = 360;
 };
 closed = 0;
 nodes = (
