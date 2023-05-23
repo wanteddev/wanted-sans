@@ -56,10 +56,10 @@ shapes = (
 closed = 1;
 nodes = (
 (532,0,l),
-(532,656,l),
+(532,640,l),
 (48,1448,l),
 (-4,1448,l),
-(-4,792,l),
+(-4,808,l),
 (480,0,l)
 );
 }
@@ -131,6 +131,44 @@ nodes = (
 }
 );
 width = 866;
+},
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (528,0);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+pos = (-524,0);
+ref = _smart.upperstem;
+}
+);
+};
+layerId = "A842AF60-E3D3-4572-BB5E-DCEDB630A35D";
+metricLeft = "=-4";
+metricRight = "=|";
+name = "May 22, 23 17:27";
+shapes = (
+{
+closed = 1;
+nodes = (
+(532,0,l),
+(532,656,l),
+(48,1448,l),
+(-4,1448,l),
+(-4,792,l),
+(480,0,l)
+);
+}
+);
+width = 528;
 }
 );
 }

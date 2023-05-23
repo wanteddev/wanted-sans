@@ -23,11 +23,11 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (548,0);
+pos = (532,0);
 ref = _part.Ebase;
 }
 );
-width = 1220;
+width = 1204;
 }
 );
 unicode = 69;

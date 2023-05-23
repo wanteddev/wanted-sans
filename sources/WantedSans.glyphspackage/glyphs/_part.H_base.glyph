@@ -110,7 +110,7 @@ name = "#entry";
 },
 {
 name = "#exit";
-pos = (536,0);
+pos = (520,0);
 }
 );
 background = {
@@ -151,16 +151,16 @@ metricRight = "=|";
 shapes = (
 {
 attr = {
-strokeWidth = 400;
+strokeWidth = 392;
 };
 closed = 0;
 nodes = (
 (-40,760,l),
-(576,760,l)
+(560,760,l)
 );
 }
 );
-width = 536;
+width = 520;
 }
 );
 }

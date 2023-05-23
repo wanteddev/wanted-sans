@@ -24,12 +24,12 @@ piece = {
 Cap = 113.5;
 Cross = 0;
 Descender = 0;
-Extended = 1;
+Extended = 0;
 };
 ref = _smart.lowerstem;
 }
 );
-width = 632;
+width = 616;
 }
 );
 metricLeft = n;

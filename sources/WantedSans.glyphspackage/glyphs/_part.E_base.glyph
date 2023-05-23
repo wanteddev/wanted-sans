@@ -58,7 +58,7 @@ shapes = (
 {
 attr = {
 strokePos = "1";
-strokeWidth = 400;
+strokeWidth = 392;
 };
 closed = 0;
 nodes = (
@@ -69,7 +69,7 @@ nodes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 400;
+strokeWidth = 392;
 };
 closed = 0;
 nodes = (
@@ -79,7 +79,7 @@ nodes = (
 },
 {
 attr = {
-strokeWidth = 352;
+strokeWidth = 344;
 };
 closed = 0;
 nodes = (
