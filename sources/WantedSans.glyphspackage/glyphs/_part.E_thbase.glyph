@@ -32,7 +32,7 @@ width = 880;
 anchors = (
 {
 name = "#exit";
-pos = (184,0);
+pos = (196,0);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -47,12 +47,12 @@ strokeWidth = 240;
 };
 closed = 0;
 nodes = (
-(52,724,l),
-(846,724,l)
+(64,724,l),
+(858,724,l)
 );
 }
 );
-width = 898;
+width = 922;
 }
 );
 metricLeft = hyphen;
