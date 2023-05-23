@@ -15,7 +15,7 @@ ref = _smart.bowl;
 scale = (-1,1);
 },
 {
-pos = (-4,0);
+pos = (2,0);
 ref = _part.gbase;
 }
 );
@@ -33,6 +33,7 @@ ref = _smart.bowl;
 scale = (-1,1);
 },
 {
+pos = (2,0);
 ref = _part.gbase;
 }
 );
