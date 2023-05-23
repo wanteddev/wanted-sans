@@ -57,7 +57,7 @@ value = (
 }
 );
 date = "2023-05-19 02:45:21 +0000";
-familyName = "Wanted Sans Beta";
+familyName = "Wanted Sans Beta 2205231101";
 featurePrefixes = (
 {
 automatic = 1;
@@ -111,6 +111,7 @@ feature cv11;
 feature cv12;
 feature cv13;
 feature cv14;
+feature cv15;
 ";
 tag = aalt;
 },
@@ -266,6 +267,12 @@ sub k by k.cv14;
 sub l by l.cv14;
 ";
 tag = cv14;
+},
+{
+automatic = 1;
+code = "sub two by two.cv15;
+";
+tag = cv15;
 }
 );
 fontMaster = (
