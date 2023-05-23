@@ -21,11 +21,11 @@ shapes = (
 ref = _part.Ethbase;
 },
 {
-pos = (70,0);
+pos = (82,0);
 ref = D;
 }
 );
-width = 1468;
+width = 1480;
 },
 {
 background = {
