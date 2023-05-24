@@ -1,4 +1,5 @@
 {
+color = 11;
 export = 0;
 glyphname = _part.rbase;
 layers = (
@@ -48,6 +49,38 @@ nodes = (
 }
 );
 width = 452;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+associatedMasterId = m01;
+layerId = "2033DC6A-3DCA-4CE3-BEA6-A7DC9DD27F64";
+metricRight = "=f*.6";
+name = Hanbin;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,774,o),
+(106,890,o),
+(262,890,cs),
+(306,890,o),
+(322,884,o),
+(354,872,c),
+(354,1042,l),
+(334,1050,o),
+(298,1058,o),
+(254,1058,cs),
+(18,1056,o),
+(-64,798,o),
+(0,508,c)
+);
+}
+);
+width = 414;
 }
 );
 metricRight = f;
