@@ -8,16 +8,16 @@ layers = (
 background = {
 shapes = (
 {
-pos = (20,0);
+pos = (8,0);
 ref = lslash;
 },
 {
 closed = 1;
 nodes = (
-(402,166,l),
-(746,166,l),
-(746,896,l),
-(402,896,l)
+(390,166,l),
+(734,166,l),
+(734,896,l),
+(390,896,l)
 );
 }
 );
@@ -27,33 +27,33 @@ metricLeft = "=lslash+8";
 shapes = (
 {
 alignment = -1;
-pos = (82,0);
+pos = (70,0);
 ref = L;
 },
 {
 piece = {
 L = 1;
 };
-pos = (312,220);
+pos = (300,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1192;
+width = 1180;
 },
 {
 background = {
 shapes = (
 {
-pos = (20,0);
+pos = (8,0);
 ref = lslash;
 },
 {
 closed = 1;
 nodes = (
-(636,166,l),
-(906,166,l),
-(906,896,l),
-(636,896,l)
+(608,348,l),
+(878,348,l),
+(878,952,l),
+(608,952,l)
 );
 }
 );
@@ -63,18 +63,18 @@ metricLeft = "=lslash+8";
 shapes = (
 {
 alignment = -1;
-pos = (88,0);
+pos = (76,0);
 ref = L;
 },
 {
 piece = {
 L = 1;
 };
-pos = (420,220);
+pos = (408,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1264;
+width = 1236;
 }
 );
 metricRight = L;

@@ -22,11 +22,11 @@ shapes = (
 ref = _part.Ethbase;
 },
 {
-pos = (82,0);
+pos = (70,0);
 ref = D;
 }
 );
-width = 1480;
+width = 1468;
 },
 {
 background = {
@@ -46,11 +46,11 @@ shapes = (
 ref = _part.Ethbase;
 },
 {
-pos = (80,0);
+pos = (68,0);
 ref = D;
 }
 );
-width = 1580;
+width = 1552;
 }
 );
 unicode = 208;

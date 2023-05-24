@@ -13,15 +13,15 @@ alignment = -1;
 piece = {
 Group = 1;
 };
-pos = (84,0);
+pos = (72,0);
 ref = l;
 },
 {
-pos = (300,220);
+pos = (288,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 600;
+width = 576;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -29,15 +29,15 @@ metricRight = "=|";
 shapes = (
 {
 alignment = -1;
-pos = (88,0);
+pos = (76,0);
 ref = l;
 },
 {
-pos = (404,220);
+pos = (392,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 808;
+width = 784;
 }
 );
 metricLeft = t;

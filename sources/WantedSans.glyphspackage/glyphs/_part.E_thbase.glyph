@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (222,0);
+pos = (210,0);
 }
 );
 layerId = m01;
@@ -22,18 +22,18 @@ strokeWidth = 116;
 };
 closed = 0;
 nodes = (
-(72,724,l),
-(808,724,l)
+(60,724,l),
+(796,724,l)
 );
 }
 );
-width = 880;
+width = 856;
 },
 {
 anchors = (
 {
 name = "#exit";
-pos = (196,0);
+pos = (184,0);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -48,12 +48,12 @@ strokeWidth = 240;
 };
 closed = 0;
 nodes = (
-(64,724,l),
-(858,724,l)
+(52,724,l),
+(846,724,l)
 );
 }
 );
-width = 922;
+width = 898;
 }
 );
 metricLeft = hyphen;

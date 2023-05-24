@@ -12,11 +12,11 @@ ref = jdotless;
 },
 {
 alignment = 1;
-pos = (322,0);
+pos = (264,0);
 ref = dotaccentcomb;
 }
 );
-width = 538;
+width = 480;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,11 +27,11 @@ ref = jdotless;
 },
 {
 alignment = 1;
-pos = (336,0);
+pos = (340,0);
 ref = dotaccentcomb;
 }
 );
-width = 644;
+width = 648;
 }
 );
 metricLeft = i;

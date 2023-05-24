@@ -22,7 +22,7 @@ pos = (300,0);
 ref = _part.rbase;
 }
 );
-width = 714;
+width = 766;
 },
 {
 background = {
