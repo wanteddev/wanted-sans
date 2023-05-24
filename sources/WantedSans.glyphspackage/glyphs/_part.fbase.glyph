@@ -15,7 +15,7 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Bottom = 99.60531;
+Bottom = 100;
 Terminal = 100;
 Top = 0;
 };
@@ -38,7 +38,33 @@ shapes = (
 {
 alignment = -1;
 piece = {
+Bottom = 120.75;
+Terminal = 50;
+Top = 0;
+};
+pos = (0,1032);
+ref = _smart.terminal;
+scale = (1,-1);
+}
+);
+width = 672;
+},
+{
+anchors = (
+{
+name = _crossbar;
+pos = (108,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "77BD9157-47FD-4D1F-9F61-FAC531606C75";
+name = Hanbin;
+shapes = (
+{
+alignment = -1;
+piece = {
 Bottom = 118;
+Hanbin = 42;
 Terminal = -60;
 Top = 0;
 };
@@ -48,6 +74,31 @@ scale = (1,-1);
 }
 );
 width = 638;
+},
+{
+anchors = (
+{
+name = _crossbar;
+pos = (132,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "4D04A068-9B52-432F-98EA-AE153F01DFEC";
+name = Hanbin;
+shapes = (
+{
+alignment = -1;
+piece = {
+Bottom = 99.6;
+Terminal = 100;
+Top = 0;
+};
+pos = (0,1034);
+ref = _smart.terminal;
+scale = (1,-1);
+}
+);
+width = 528;
 }
 );
 metricLeft = _smart.terminal;

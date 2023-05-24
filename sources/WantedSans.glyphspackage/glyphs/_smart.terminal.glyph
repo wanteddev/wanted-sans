@@ -49,6 +49,7 @@ partSelection = {
 Top = 1;
 Terminal = 1;
 Bottom = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -102,6 +103,7 @@ partSelection = {
 Top = 2;
 Terminal = 1;
 Bottom = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -155,6 +157,7 @@ partSelection = {
 Top = 1;
 Terminal = 1;
 Bottom = 2;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -229,6 +232,7 @@ partSelection = {
 Top = 1;
 Terminal = 2;
 Bottom = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -301,31 +305,32 @@ partSelection = {
 Top = 1;
 Terminal = 1;
 Bottom = 1;
+Hanbin = 1;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
-(622,-28,o),
-(714,-8,o),
-(764,30,c),
-(764,382,l),
-(706,354,o),
-(664,344,o),
-(620,344,cs),
-(540,344,o),
-(508,386,o),
-(508,494,cs),
+(632,-28,o),
+(676,-22,o),
+(720,-10,c),
+(720,364,l),
+(674,358,o),
+(640,356,o),
+(616,356,cs),
+(532,356,o),
+(508,380,o),
+(508,434,cs),
 (508,1032,l),
 (108,1032,l),
-(108,426,ls),
-(108,120,o),
-(250,-28,o),
-(552,-28,cs)
+(108,434,ls),
+(108,112,o),
+(248,-28,o),
+(568,-28,cs)
 );
 }
 );
-width = 692;
+width = 648;
 },
 {
 anchors = (
@@ -354,6 +359,7 @@ partSelection = {
 Top = 2;
 Terminal = 1;
 Bottom = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -407,6 +413,7 @@ partSelection = {
 Top = 1;
 Terminal = 1;
 Bottom = 2;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -481,6 +488,7 @@ partSelection = {
 Top = 1;
 Terminal = 2;
 Bottom = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -790,50 +798,70 @@ nodes = (
 width = 528;
 },
 {
+anchors = (
+{
+name = Bottom;
+pos = (308,434);
+},
+{
+name = Top;
+pos = (308,1032);
+},
+{
+name = _crossbar;
+pos = (108,1032);
+},
+{
+name = top;
+pos = (308,1032);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
 {
 attr = {
 lineCapEnd = "4";
+strokeHeight = 372;
 strokeWidth = 400;
 };
 closed = 0;
 nodes = (
 (308,1032,l),
-(308,436,ls),
+(308,432,ls),
 (308,268,o),
-(422,164,o),
-(584,164,cs),
-(614,164,o),
-(664,168,o),
-(712,174,c)
+(406,158,o),
+(584,158,cs),
+(648,158,o),
+(712,172,o),
+(764,194,c)
 );
 }
 );
 };
-layerId = "1AC2263F-CB9B-4395-84A7-CCDA3298A110";
+layerId = "20722C8C-CD9C-4E38-B14A-3D72FC64B87B";
 metricRight = "=-72";
 name = Hanbin;
 partSelection = {
 Top = 1;
 Terminal = 1;
 Bottom = 1;
+Hanbin = 2;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
 (622,-28,o),
-(698,-14,o),
-(748,18,c),
-(748,388,l),
-(710,354,o),
-(640,344,o),
-(616,344,cs),
-(532,344,o),
-(508,396,o),
-(508,526,cs),
+(714,-8,o),
+(764,30,c),
+(764,382,l),
+(706,354,o),
+(664,344,o),
+(620,344,cs),
+(540,344,o),
+(508,386,o),
+(508,494,cs),
 (508,1032,l),
 (108,1032,l),
 (108,426,ls),
@@ -843,7 +871,7 @@ nodes = (
 );
 }
 );
-width = 676;
+width = 692;
 }
 );
 metricLeft = _smart.lowerstem;
@@ -861,6 +889,11 @@ topValue = 100;
 {
 bottomValue = 0;
 name = Bottom;
+topValue = 100;
+},
+{
+bottomValue = 0;
+name = Hanbin;
 topValue = 100;
 }
 );

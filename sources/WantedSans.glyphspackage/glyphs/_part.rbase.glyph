@@ -10,7 +10,56 @@ name = "#entry";
 }
 );
 layerId = m01;
+metricRight = "=f*.8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,842,o),
+(186,934,o),
+(386,872,c),
+(386,1038,l),
+(164,1132,o),
+(-124,916,o),
+(0,516,c)
+);
+}
+);
+width = 466;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,690,o),
+(182,722,o),
+(368,674,c),
+(368,1048,l),
+(-6,1142,o),
+(-130,652,o),
+(0,416,c)
+);
+}
+);
+width = 452;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+associatedMasterId = m01;
+layerId = "2033DC6A-3DCA-4CE3-BEA6-A7DC9DD27F64";
 metricRight = "=f*.6";
+name = Hanbin;
 shapes = (
 {
 closed = 1;
@@ -32,35 +81,6 @@ nodes = (
 }
 );
 width = 414;
-},
-{
-anchors = (
-{
-name = "#entry";
-}
-);
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,622,o),
-(103,691,o),
-(232,692,cs),
-(276,693,o),
-(322,686,o),
-(368,674,c),
-(368,1048,l),
-(334,1056,o),
-(302,1060,o),
-(273,1060,cs),
-(-26,1056,o),
-(-118,631,o),
-(0,416,c)
-);
-}
-);
-width = 452;
 }
 );
 metricRight = f;
