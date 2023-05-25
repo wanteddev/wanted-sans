@@ -281,7 +281,6 @@ code = "sub f by f.cv16;
 sub j by j.cv16;
 sub jdotless by jdotless.cv16;
 sub t by t.cv16;
-sub t.cv02 by t.cv02.cv16;
 ";
 tag = cv16;
 }
