@@ -112,6 +112,7 @@ feature cv12;
 feature cv13;
 feature cv14;
 feature cv15;
+feature cv16;
 ";
 tag = aalt;
 },
@@ -273,6 +274,16 @@ automatic = 1;
 code = "sub two by two.cv15;
 ";
 tag = cv15;
+},
+{
+automatic = 1;
+code = "sub f by f.cv16;
+sub j by j.cv16;
+sub jdotless by jdotless.cv16;
+sub t by t.cv16;
+sub t.cv02 by t.cv02.cv16;
+";
+tag = cv16;
 }
 );
 fontMaster = (

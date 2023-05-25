@@ -1,37 +1,41 @@
 {
 color = 11;
-glyphname = jdotless;
+glyphname = jdotless.cv16;
 kernLeft = jdotless;
 kernRight = g;
 layers = (
 {
 layerId = m01;
+name = Regular;
 shapes = (
 {
 piece = {
-Bottom = 104;
+Bottom = 104.4;
+Terminal = 120;
 };
-pos = (480,0);
+pos = (552,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 552;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
 shapes = (
 {
 piece = {
 Bottom = 104;
+Hanbin = 45;
+Terminal = -50;
 };
-pos = (652,0);
+pos = (650,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 652;
+width = 650;
 }
 );
-unicode = 567;
 }

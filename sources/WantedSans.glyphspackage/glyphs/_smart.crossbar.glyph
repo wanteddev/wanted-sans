@@ -30,6 +30,7 @@ metricRight = "=100";
 partSelection = {
 Condensed = 1;
 Reflect = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -73,6 +74,7 @@ metricRight = "=84";
 partSelection = {
 Condensed = 1;
 Reflect = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -118,6 +120,7 @@ name = Condensed;
 partSelection = {
 Condensed = 2;
 Reflect = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -163,6 +166,7 @@ name = Condensed;
 partSelection = {
 Condensed = 2;
 Reflect = 1;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -194,6 +198,7 @@ name = Reflect;
 partSelection = {
 Condensed = 1;
 Reflect = 2;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -225,6 +230,7 @@ name = Reflect;
 partSelection = {
 Condensed = 1;
 Reflect = 2;
+Hanbin = 1;
 };
 shapes = (
 {
@@ -245,14 +251,14 @@ width = 928;
 anchors = (
 {
 name = crossbar;
-pos = (244,1032);
+pos = (232,1032);
 }
 );
 associatedMasterId = m01;
 background = {
 shapes = (
 {
-pos = (112,0);
+pos = (100,0);
 ref = _part.fbase;
 },
 {
@@ -269,6 +275,9 @@ metricLeft = "=76";
 metricRight = "=100";
 name = Hanbin;
 partSelection = {
+Condensed = 1;
+Reflect = 1;
+Hanbin = 2;
 };
 shapes = (
 {
@@ -289,15 +298,15 @@ width = 780;
 anchors = (
 {
 name = crossbar;
-pos = (220,1032);
+pos = (248,1032);
 }
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
 {
-pos = (112,0);
-ref = _part.fbase;
+pos = (140,0);
+ref = _part.fbase.cv16;
 },
 {
 closed = 0;
@@ -313,6 +322,9 @@ metricLeft = "=60";
 metricRight = "=84";
 name = Hanbin;
 partSelection = {
+Condensed = 1;
+Reflect = 1;
+Hanbin = 2;
 };
 shapes = (
 {
@@ -340,6 +352,11 @@ topValue = 100;
 bottomValue = 0;
 name = Reflect;
 topValue = 1;
+},
+{
+bottomValue = 0;
+name = Hanbin;
+topValue = 100;
 }
 );
 }

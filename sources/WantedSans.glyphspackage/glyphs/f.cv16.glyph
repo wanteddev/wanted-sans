@@ -1,0 +1,57 @@
+{
+color = 11;
+glyphname = f.cv16;
+kernLeft = f;
+kernRight = f;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Hanbin = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (100,0);
+ref = _part.fbase.cv16;
+}
+);
+width = 780;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(952,1560,l),
+(0,1560,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Hanbin = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (140,0);
+ref = _part.fbase.cv16;
+}
+);
+width = 940;
+}
+);
+}
