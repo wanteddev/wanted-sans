@@ -33,6 +33,31 @@ name = _crossbar;
 pos = (108,1032);
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,1548,o),
+(108,1410,o),
+(108,1104,cs),
+(108,0,l),
+(508,0,l),
+(508,1074,ls),
+(508,1138,o),
+(532,1170,o),
+(616,1170,cs),
+(640,1170,o),
+(662,1166,o),
+(710,1154,c),
+(710,1520,l),
+(672,1540,o),
+(622,1548,o),
+(566,1548,cs)
+);
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 name = Black;
 shapes = (
@@ -40,7 +65,7 @@ shapes = (
 alignment = -1;
 piece = {
 Bottom = 118;
-Hanbin = 42;
+Hanbin = 40;
 Terminal = -60;
 Top = 0;
 };
@@ -49,7 +74,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 644;
+width = 638;
 }
 );
 metricLeft = _smart.terminal;

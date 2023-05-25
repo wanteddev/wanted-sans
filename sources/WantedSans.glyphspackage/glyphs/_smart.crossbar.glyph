@@ -298,27 +298,27 @@ width = 780;
 anchors = (
 {
 name = crossbar;
-pos = (248,1032);
+pos = (216,1032);
 }
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
 {
-pos = (140,0);
+pos = (136,0);
 ref = _part.fbase.cv16;
 },
 {
 closed = 0;
 nodes = (
-(856,1196,l),
-(856,458,l)
+(852,1196,l),
+(852,458,l)
 );
 }
 );
 };
 layerId = "579B9B85-4ACE-46C7-A18F-BE92D62AB9F2";
-metricLeft = "=60";
+metricLeft = "=40";
 metricRight = "=84";
 name = Hanbin;
 partSelection = {
@@ -334,12 +334,12 @@ strokeWidth = 304;
 };
 closed = 0;
 nodes = (
-(60,1032,l),
-(856,1032,l)
+(40,1032,l),
+(824,1032,l)
 );
 }
 );
-width = 940;
+width = 908;
 }
 );
 partsSettings = (
