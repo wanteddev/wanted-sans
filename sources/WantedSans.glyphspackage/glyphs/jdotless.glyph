@@ -9,7 +9,7 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Bottom = 104.4;
+Bottom = 104;
 };
 pos = (480,0);
 ref = _smart.terminal;
@@ -23,14 +23,14 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Bottom = 104.4;
+Bottom = 104;
 };
-pos = (648,0);
+pos = (652,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 648;
+width = 652;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -39,16 +39,16 @@ name = Hanbin;
 shapes = (
 {
 piece = {
-Bottom = 104.4;
+Bottom = 104;
 Hanbin = 45;
 Terminal = -50;
 };
-pos = (644,0);
+pos = (650,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 644;
+width = 650;
 },
 {
 associatedMasterId = m01;
@@ -60,12 +60,12 @@ piece = {
 Bottom = 104.4;
 Terminal = 120;
 };
-pos = (538,0);
+pos = (542,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 538;
+width = 542;
 }
 );
 unicode = 567;

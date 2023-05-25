@@ -14,11 +14,11 @@ ref = _smart.crossbar;
 piece = {
 Group = 1;
 };
-pos = (146,0);
+pos = (144,0);
 ref = _part.fbase;
 }
 );
-width = 814;
+width = 824;
 },
 {
 background = {
@@ -26,10 +26,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(594,1448,l),
-(646,1448,l),
-(646,1560,l),
-(594,1560,l)
+(952,1560,l),
+(0,1560,l)
 );
 }
 );
@@ -43,7 +41,7 @@ ref = _smart.crossbar;
 piece = {
 Group = 1;
 };
-pos = (124,0);
+pos = (120,0);
 ref = _part.fbase;
 }
 );

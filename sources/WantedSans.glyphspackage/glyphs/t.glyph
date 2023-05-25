@@ -15,33 +15,14 @@ ref = _smart.crossbar;
 },
 {
 piece = {
-Terminal = 34;
+Terminal = 60;
 Top = 56;
 };
-pos = (122,0);
+pos = (120,0);
 ref = _smart.terminal;
 }
 );
-width = 758;
-},
-{
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-shapes = (
-{
-piece = {
-Condensed = 100;
-};
-ref = _smart.crossbar;
-},
-{
-piece = {
-Top = 58.5;
-};
-pos = (108,0);
-ref = _smart.terminal;
-}
-);
-width = 912;
+width = 776;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -289,11 +270,54 @@ piece = {
 Terminal = 34;
 Top = 54;
 };
-pos = (122,0);
+pos = (120,0);
 ref = _smart.terminal;
 }
 );
-width = 758;
+width = 774;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "8C5863FD-6F71-4909-AF74-BC240DF33D7A";
+name = "May 25, 23 16:16";
+shapes = (
+{
+piece = {
+Condensed = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Terminal = 100;
+Top = 59.5;
+};
+pos = (104,0);
+ref = _smart.terminal;
+}
+);
+width = 952;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
+shapes = (
+{
+piece = {
+Condensed = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Terminal = 20;
+Top = 59.5;
+};
+pos = (104,0);
+ref = _smart.terminal;
+}
+);
+width = 920;
 }
 );
 metricLeft = f;

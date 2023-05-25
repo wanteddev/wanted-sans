@@ -10,7 +10,7 @@ pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (130,1032);
+pos = (132,1032);
 },
 {
 name = bottom;
@@ -106,7 +106,7 @@ pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (130,1032);
+pos = (132,1032);
 },
 {
 name = bottom;
@@ -206,7 +206,7 @@ pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (130,1032);
+pos = (132,1032);
 },
 {
 name = bottom;
@@ -306,7 +306,7 @@ pos = (300,0);
 },
 {
 name = _crossbar;
-pos = (130,1032);
+pos = (132,1032);
 },
 {
 name = bottom;
