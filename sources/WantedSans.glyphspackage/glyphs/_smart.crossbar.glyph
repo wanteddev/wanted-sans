@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = crossbar;
-pos = (276,1032);
+pos = (252,1032);
 }
 );
 background = {
@@ -15,8 +15,8 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(724,1448,l),
-(724,0,l)
+(700,1448,l),
+(700,0,l)
 );
 },
 {
@@ -41,11 +41,11 @@ strokeWidth = 140;
 closed = 0;
 nodes = (
 (76,1032,l),
-(724,1032,l)
+(700,1032,l)
 );
 }
 );
-width = 824;
+width = 800;
 },
 {
 anchors = (
@@ -95,7 +95,7 @@ width = 952;
 anchors = (
 {
 name = crossbar;
-pos = (252,1032);
+pos = (228,1032);
 }
 );
 associatedMasterId = m01;
@@ -104,8 +104,8 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(676,1448,l),
-(676,0,l)
+(652,1448,l),
+(652,0,l)
 );
 },
 {
@@ -131,11 +131,11 @@ strokeWidth = 140;
 closed = 0;
 nodes = (
 (52,1032,l),
-(676,1032,l)
+(652,1032,l)
 );
 }
 );
-width = 776;
+width = 752;
 },
 {
 anchors = (
@@ -187,7 +187,7 @@ width = 920;
 anchors = (
 {
 name = crossbar;
-pos = (276,1032);
+pos = (252,1032);
 }
 );
 associatedMasterId = m01;
@@ -209,11 +209,11 @@ strokeWidth = 140;
 closed = 0;
 nodes = (
 (76,1032,l),
-(724,1032,l)
+(700,1032,l)
 );
 }
 );
-width = 800;
+width = 776;
 },
 {
 anchors = (

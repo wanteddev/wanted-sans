@@ -18,11 +18,11 @@ ref = _smart.crossbar;
 piece = {
 Cap = 56;
 };
-pos = (120,0);
+pos = (96,0);
 ref = _smart.lowerstem;
 }
 );
-width = 752;
+width = 728;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

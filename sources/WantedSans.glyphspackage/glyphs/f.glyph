@@ -14,11 +14,11 @@ ref = _smart.crossbar;
 piece = {
 Group = 1;
 };
-pos = (144,0);
+pos = (120,0);
 ref = _part.fbase;
 }
 );
-width = 824;
+width = 800;
 },
 {
 background = {
@@ -46,6 +46,99 @@ ref = _part.fbase;
 }
 );
 width = 952;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(972,1560,l),
+(20,1560,l)
+);
+}
+);
+};
+layerId = "DE667776-992D-46E4-8FDE-DAC077C0FCF7";
+name = Hanbin;
+shapes = (
+{
+attr = {
+identifier = ID0x14d243510;
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(60,1032,l),
+(842,1032,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(378,1548,o),
+(236,1410,o),
+(236,1104,cs),
+(236,0,l),
+(636,0,l),
+(636,1074,ls),
+(636,1138,o),
+(660,1170,o),
+(744,1170,cs),
+(768,1170,o),
+(790,1166,o),
+(838,1154,c),
+(838,1520,l),
+(800,1540,o),
+(750,1548,o),
+(694,1548,cs)
+);
+}
+);
+width = 926;
+},
+{
+associatedMasterId = m01;
+layerId = "ADF062CC-CA3F-4A87-9151-F753EB0BB7A0";
+name = Hanbin;
+shapes = (
+{
+attr = {
+identifier = ID0x14d21b830;
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
+nodes = (
+(76,1032,l),
+(680,1032,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(360,1476,o),
+(244,1354,o),
+(244,1154,cs),
+(244,2,l),
+(412,2,l),
+(412,1148,ls),
+(412,1262,o),
+(458,1312,o),
+(564,1312,cs),
+(600,1312,o),
+(640,1306,o),
+(680,1294,c),
+(680,1452,l),
+(646,1464,o),
+(600,1476,o),
+(542,1476,cs)
+);
+}
+);
+width = 780;
 }
 );
 unicode = 102;

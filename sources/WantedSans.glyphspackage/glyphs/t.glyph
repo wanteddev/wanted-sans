@@ -15,14 +15,101 @@ ref = _smart.crossbar;
 },
 {
 piece = {
-Terminal = 60;
+Terminal = 64;
 Top = 56;
 };
-pos = (120,0);
+pos = (96,0);
 ref = _smart.terminal;
 }
 );
-width = 776;
+width = 752;
+},
+{
+associatedMasterId = m01;
+layerId = "648F66E8-0C7F-475F-902E-1D9D122029B3";
+name = "Wanted Logotype";
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,306,ls),
+(222,96,o),
+(330,-28,o),
+(516,-28,cs),
+(580,-28,o),
+(644,-16,o),
+(686,4,c),
+(686,190,l),
+(636,166,o),
+(592,156,o),
+(564,156,cs),
+(480,156,o),
+(438,204,o),
+(438,306,cs),
+(438,860,l),
+(652,860,l),
+(652,1032,l),
+(438,1032,l),
+(438,1240,l),
+(222,1240,l),
+(222,1032,l),
+(54,1032,l),
+(54,860,l),
+(222,860,l)
+);
+}
+);
+width = 718;
+},
+{
+annotations = (
+{
+pos = (596,268);
+text = "위에 폭을 더 좁고 위로 올려보자";
+type = Text;
+}
+);
+associatedMasterId = m01;
+layerId = "BD1AE770-BC05-4FDA-A90B-888A4D44F4F5";
+name = "Apr 24, 23 14:48";
+shapes = (
+{
+piece = {
+Condensed = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Terminal = 34;
+Top = 54;
+};
+pos = (96,0);
+ref = _smart.terminal;
+}
+);
+width = 752;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
+shapes = (
+{
+piece = {
+Condensed = 100;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Terminal = 20;
+Top = 59.5;
+};
+pos = (104,0);
+ref = _smart.terminal;
+}
+);
+width = 920;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -211,70 +298,46 @@ nodes = (
 width = 844;
 },
 {
-associatedMasterId = m01;
-layerId = "648F66E8-0C7F-475F-902E-1D9D122029B3";
-name = "Wanted Logotype";
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "0CA4AE04-5113-4CD4-9F17-D5A004D6725C";
+metricLeft = "=44";
+name = Hanbin;
 shapes = (
+{
+attr = {
+identifier = ID0x16ef31970;
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(44,1032,l),
+(838,1032,l)
+);
+},
 {
 closed = 1;
 nodes = (
-(222,306,ls),
-(222,96,o),
-(330,-28,o),
-(516,-28,cs),
-(580,-28,o),
-(644,-16,o),
-(686,4,c),
-(686,190,l),
-(636,166,o),
-(592,156,o),
-(564,156,cs),
-(480,156,o),
-(438,204,o),
-(438,306,cs),
-(438,860,l),
-(652,860,l),
-(652,1032,l),
-(438,1032,l),
-(438,1240,l),
-(222,1240,l),
-(222,1032,l),
-(54,1032,l),
-(54,860,l),
-(222,860,l)
+(724,-28,o),
+(792,-14,o),
+(838,12,c),
+(838,374,l),
+(786,354,o),
+(752,348,o),
+(718,348,cs),
+(636,348,o),
+(608,384,o),
+(608,466,cs),
+(608,1276,l),
+(208,1276,l),
+(208,424,ls),
+(208,116,o),
+(350,-28,o),
+(660,-28,cs)
 );
 }
 );
-width = 718;
-},
-{
-annotations = (
-{
-pos = (596,268);
-text = "위에 폭을 더 좁고 위로 올려보자";
-type = Text;
-}
-);
-associatedMasterId = m01;
-layerId = "BD1AE770-BC05-4FDA-A90B-888A4D44F4F5";
-name = "Apr 24, 23 14:48";
-shapes = (
-{
-piece = {
-Condensed = 100;
-};
-ref = _smart.crossbar;
-},
-{
-piece = {
-Terminal = 34;
-Top = 54;
-};
-pos = (120,0);
-ref = _smart.terminal;
-}
-);
-width = 776;
+width = 922;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -299,25 +362,46 @@ ref = _smart.terminal;
 width = 920;
 },
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-name = Black;
+associatedMasterId = m01;
+layerId = "03665621-C246-454D-BA9E-D2D3E36EBFA3";
+metricLeft = "=52";
+name = Hanbin;
 shapes = (
 {
-piece = {
-Condensed = 100;
+attr = {
+identifier = ID0x16ef31530;
+strokePos = "0";
+strokeWidth = 140;
 };
-ref = _smart.crossbar;
+closed = 0;
+nodes = (
+(52,1032,l),
+(658,1032,l)
+);
 },
 {
-piece = {
-Terminal = 20;
-Top = 59.5;
-};
-pos = (104,0);
-ref = _smart.terminal;
+closed = 1;
+nodes = (
+(582,-28,o),
+(624,-18,o),
+(656,-6,c),
+(656,152,l),
+(620,142,o),
+(584,136,o),
+(552,136,cs),
+(450,136,o),
+(404,182,o),
+(404,300,cs),
+(404,1264,l),
+(236,1264,l),
+(236,294,ls),
+(236,94,o),
+(350,-28,o),
+(528,-28,cs)
+);
 }
 );
-width = 920;
+width = 758;
 }
 );
 metricLeft = f;
