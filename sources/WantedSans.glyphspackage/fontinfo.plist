@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-05-23 09:10:56 +0000";
+date = "2023-05-26 07:09:29 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -87,6 +87,8 @@ lookup LOOKUP_CALT_2 {
 # Separate I and l
 sub I @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_R @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L by @EXTRA_STEM_LOWERCASE_R;
 } LOOKUP_CALT_2;
 ";
 name = LOOKUP_CALT;
@@ -265,6 +267,7 @@ sub d by d.cv14;
 sub h by h.cv14;
 sub k by k.cv14;
 sub l by l.cv14;
+sub lslash by lslash.cv14;
 ";
 tag = cv14;
 },

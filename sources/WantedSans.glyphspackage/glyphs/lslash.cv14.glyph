@@ -1,0 +1,43 @@
+{
+glyphname = lslash.cv14;
+kernLeft = t;
+kernRight = four;
+layers = (
+{
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (72,0);
+ref = l.cv14;
+},
+{
+pos = (288,220);
+ref = _smart.diacriticslashsmall;
+}
+);
+width = 576;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+pos = (76,0);
+ref = l.cv14;
+},
+{
+pos = (392,220);
+ref = _smart.diacriticslashsmall;
+}
+);
+width = 784;
+}
+);
+metricLeft = t;
+}
