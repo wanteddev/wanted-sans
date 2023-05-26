@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _part.fbase;
 layers = (
@@ -24,7 +23,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 540;
+width = 464;
 },
 {
 anchors = (
@@ -47,7 +46,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 676;
+width = 648;
 },
 {
 anchors = (

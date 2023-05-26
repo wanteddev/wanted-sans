@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = Eth;
 kernLeft = H;
 kernRight = O;
@@ -22,11 +21,11 @@ shapes = (
 ref = _part.Ethbase;
 },
 {
-pos = (70,0);
+pos = (72,0);
 ref = D;
 }
 );
-width = 1468;
+width = 1470;
 },
 {
 background = {
@@ -34,8 +33,8 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(846,964,l),
-(846,488,l)
+(844,964,l),
+(844,488,l)
 );
 }
 );
@@ -46,11 +45,11 @@ shapes = (
 ref = _part.Ethbase;
 },
 {
-pos = (68,0);
+pos = (76,0);
 ref = D;
 }
 );
-width = 1552;
+width = 1560;
 }
 );
 unicode = 208;

@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = j;
 kernLeft = j;
 kernRight = j;
@@ -12,11 +11,11 @@ ref = jdotless;
 },
 {
 alignment = 1;
-pos = (324,0);
+pos = (248,0);
 ref = dotaccentcomb;
 }
 );
-width = 540;
+width = 464;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,11 +26,11 @@ ref = jdotless;
 },
 {
 alignment = 1;
-pos = (368,0);
+pos = (340,0);
 ref = dotaccentcomb;
 }
 );
-width = 676;
+width = 648;
 }
 );
 metricLeft = i;

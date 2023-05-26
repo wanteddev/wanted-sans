@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = jdotless;
 kernLeft = jdotless;
 kernRight = g;
@@ -12,12 +11,12 @@ piece = {
 Bottom = 103.9;
 Terminal = 100;
 };
-pos = (540,0);
+pos = (464,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 540;
+width = 464;
 },
 {
 associatedMasterId = m01;
@@ -57,12 +56,12 @@ shapes = (
 piece = {
 Bottom = 104;
 };
-pos = (476,0);
+pos = (416,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 476;
+width = 416;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -72,12 +71,12 @@ piece = {
 Bottom = 103.9;
 Terminal = 60;
 };
-pos = (676,0);
+pos = (648,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 676;
+width = 648;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -117,12 +116,12 @@ shapes = (
 piece = {
 Bottom = 103.9;
 };
-pos = (652,0);
+pos = (636,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 652;
+width = 636;
 }
 );
 unicode = 567;

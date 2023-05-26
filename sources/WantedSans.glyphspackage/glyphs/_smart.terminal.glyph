@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = _smart.terminal;
 layers = (
@@ -44,7 +43,7 @@ nodes = (
 );
 };
 layerId = m01;
-metricRight = "=-40";
+metricRight = "=-116";
 partSelection = {
 Top = 1;
 Terminal = 1;
@@ -74,7 +73,7 @@ nodes = (
 );
 }
 );
-width = 476;
+width = 400;
 },
 {
 anchors = (
@@ -97,7 +96,7 @@ pos = (216,1448);
 );
 associatedMasterId = m01;
 layerId = "3EF25734-D43E-47BC-8811-FCEA1EE2F8E5";
-metricRight = "=-40";
+metricRight = "=-116";
 name = "Long Top";
 partSelection = {
 Top = 2;
@@ -128,7 +127,7 @@ nodes = (
 );
 }
 );
-width = 476;
+width = 400;
 },
 {
 anchors = (
@@ -151,7 +150,7 @@ pos = (216,1032);
 );
 associatedMasterId = m01;
 layerId = "00BAF5C8-7BBE-4314-B5F4-0BBE143813E0";
-metricRight = "=-40";
+metricRight = "=-116";
 name = "Long Bottom";
 partSelection = {
 Top = 1;
@@ -182,7 +181,7 @@ nodes = (
 );
 }
 );
-width = 476;
+width = 400;
 },
 {
 anchors = (
@@ -226,7 +225,7 @@ nodes = (
 );
 };
 layerId = "4DC437B3-2A53-497F-877B-686F87122587";
-metricRight = "=-40";
+metricRight = "=-116";
 name = "Long Terminal";
 partSelection = {
 Top = 1;
@@ -257,7 +256,7 @@ nodes = (
 );
 }
 );
-width = 540;
+width = 464;
 },
 {
 anchors = (
@@ -301,7 +300,7 @@ nodes = (
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=-72";
+metricRight = "=-100";
 partSelection = {
 Top = 1;
 Terminal = 1;
@@ -331,7 +330,7 @@ nodes = (
 );
 }
 );
-width = 652;
+width = 624;
 },
 {
 anchors = (
@@ -354,7 +353,7 @@ pos = (308,1448);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "F161ECCB-D5F7-4A17-A29D-CB0F158EFFDD";
-metricRight = "=-72";
+metricRight = "=-100";
 name = "Long Top";
 partSelection = {
 Top = 2;
@@ -385,7 +384,7 @@ nodes = (
 );
 }
 );
-width = 652;
+width = 624;
 },
 {
 anchors = (
@@ -408,7 +407,7 @@ pos = (308,1032);
 );
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "A0B8E9CF-DEBD-499D-BFBB-781D78C6D719";
-metricRight = "=-72";
+metricRight = "=-100";
 name = "Long Bottom";
 partSelection = {
 Top = 1;
@@ -439,7 +438,7 @@ nodes = (
 );
 }
 );
-width = 652;
+width = 624;
 },
 {
 anchors = (
@@ -484,7 +483,7 @@ nodes = (
 );
 };
 layerId = "6BC3E2AA-2F7C-4BE7-8D24-DD0D63224473";
-metricRight = "=-72";
+metricRight = "=-100";
 name = "Long Terminal";
 partSelection = {
 Top = 1;
@@ -515,7 +514,7 @@ nodes = (
 );
 }
 );
-width = 692;
+width = 664;
 },
 {
 anchors = (
@@ -560,7 +559,7 @@ nodes = (
 );
 };
 layerId = "20722C8C-CD9C-4E38-B14A-3D72FC64B87B";
-metricRight = "=-72";
+metricRight = "=-100";
 name = Hanbin;
 partSelection = {
 Top = 1;
@@ -591,7 +590,7 @@ nodes = (
 );
 }
 );
-width = 692;
+width = 664;
 }
 );
 metricLeft = _smart.lowerstem;
