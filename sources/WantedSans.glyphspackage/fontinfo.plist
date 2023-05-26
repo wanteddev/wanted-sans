@@ -2605,7 +2605,7 @@ Essential Glyph:
 - O: 0.95:1
 
 Family tree:
-- Circular + Twentieth Century + Avenir
+- Circular + Avenir
 
 Insight:
 - Erbar Grotesk(1926)는 특징이 없고 읽기 쉬우며, 순수한 타이포그래피를 지향했다.
@@ -2616,9 +2616,10 @@ Insight:
 - Volte(2016)은 건조한 지오메트릭 산세리프 형태에서 모양을 열어 트렌디한 타이포그래피를 지향했다.
 
 Reference:
-- Twentieth Century
-- Circular
 - Avenir
+- San Francisco
+- Circular
+- Twentieth Century
 - Volte";
 properties = (
 {
