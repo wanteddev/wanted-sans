@@ -4,13 +4,6 @@ kernLeft = s;
 kernRight = s;
 layers = (
 {
-annotations = (
-{
-pos = (642,1260);
-text = "조금 더 오른쪽으로?";
-type = Text;
-}
-);
 background = {
 shapes = (
 {

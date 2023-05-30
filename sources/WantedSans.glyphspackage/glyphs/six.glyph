@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = six;
 kernLeft = O;
 kernRight = six;
@@ -1317,13 +1316,6 @@ nodes = (
 width = 1240;
 },
 {
-annotations = (
-{
-pos = (1034,856);
-text = "91.25%";
-type = Text;
-}
-);
 background = {
 annotations = (
 {
