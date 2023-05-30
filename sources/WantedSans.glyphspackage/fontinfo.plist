@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-05-26 07:09:29 +0000";
+date = "2023-05-30 09:21:53 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -115,6 +115,7 @@ feature cv13;
 feature cv14;
 feature cv15;
 feature cv16;
+feature ss01;
 ";
 tag = aalt;
 },
@@ -166,6 +167,22 @@ code = "lookup LOOKUP_CALT_1;
 lookup LOOKUP_CALT_2;
 ";
 tag = calt;
+},
+{
+automatic = 1;
+code = "sub c by c.ss01;
+sub e by e.ss01;
+sub g by g.ss01;
+sub s by s.ss01;
+sub a.cv03 by a.cv03.ss01;
+sub two by two.ss01;
+sub three by three.ss01;
+sub six by six.ss01;
+sub nine by nine.ss01;
+sub two.cv08 by two.cv08.ss01;
+sub two.cv15 by two.cv15.ss01;
+";
+tag = ss01;
 },
 {
 automatic = 1;
