@@ -8,7 +8,7 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Condensed = 100;
+t = 1;
 };
 ref = _smart.crossbar;
 },
@@ -74,7 +74,7 @@ name = "Apr 24, 23 14:48";
 shapes = (
 {
 piece = {
-Condensed = 100;
+t = 1;
 };
 ref = _smart.crossbar;
 },
@@ -95,7 +95,7 @@ name = Black;
 shapes = (
 {
 piece = {
-Condensed = 100;
+t = 1;
 };
 ref = _smart.crossbar;
 },
@@ -345,7 +345,7 @@ name = "May 25, 23 16:16";
 shapes = (
 {
 piece = {
-Condensed = 100;
+t = 1;
 };
 ref = _smart.crossbar;
 },

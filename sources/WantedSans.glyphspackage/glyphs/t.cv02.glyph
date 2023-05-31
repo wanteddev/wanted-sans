@@ -8,8 +8,8 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Condensed = 100;
-Reflect = 1;
+t = 0;
+"tailless t" = 1;
 };
 ref = _smart.crossbar;
 },
@@ -21,15 +21,15 @@ pos = (96,0);
 ref = _smart.lowerstem;
 }
 );
-width = 728;
+width = 688;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Condensed = 100;
-Reflect = 1;
+t = 0;
+"tailless t" = 1;
 };
 ref = _smart.crossbar;
 },
@@ -41,7 +41,7 @@ pos = (104,0);
 ref = _smart.lowerstem;
 }
 );
-width = 896;
+width = 856;
 }
 );
 metricLeft = t;
