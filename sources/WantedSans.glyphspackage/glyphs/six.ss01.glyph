@@ -104,13 +104,6 @@ nodes = (
 width = 1360;
 },
 {
-annotations = (
-{
-pos = (1034,856);
-text = "91.25%";
-type = Text;
-}
-);
 background = {
 annotations = (
 {
