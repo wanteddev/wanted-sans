@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-05-31 01:29:13 +0000";
+date = "2023-05-31 04:51:03 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -175,12 +175,16 @@ sub g by g.ss01;
 sub s by s.ss01;
 sub a.cv03 by a.cv03.ss01;
 sub two by two.ss01;
+sub three by three.ss01;
 sub six by six.ss01;
 sub nine by nine.ss01;
-sub two.cv08 by two.cv08.ss01;
-sub three.cv09 by three.cv09.ss01;
-sub two.cv15 by two.cv15.ss01;
 ";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss01;
 },
 {
@@ -242,12 +246,14 @@ tag = cv07;
 {
 automatic = 1;
 code = "sub two by two.cv08;
+sub two.ss01 by two.ss01.cv08;
 ";
 tag = cv08;
 },
 {
 automatic = 1;
 code = "sub three by three.cv09;
+sub three.ss01 by three.ss01.cv09;
 ";
 tag = cv09;
 },
@@ -261,6 +267,8 @@ tag = cv10;
 automatic = 1;
 code = "sub six by six.cv11;
 sub nine by nine.cv11;
+sub six.ss01 by six.ss01.cv11;
+sub nine.ss01 by nine.ss01.cv11;
 ";
 tag = cv11;
 },
@@ -291,6 +299,9 @@ tag = cv14;
 {
 automatic = 1;
 code = "sub two by two.cv15;
+sub two.cv08 by two.cv08.cv15;
+sub two.ss01 by two.ss01.cv15;
+sub two.ss01.cv08 by two.ss01.cv08.cv15;
 ";
 tag = cv15;
 }

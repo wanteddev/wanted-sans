@@ -1,5 +1,6 @@
 {
-glyphname = three.cv09.ss01;
+color = 11;
+glyphname = three.ss01.cv09;
 kernLeft = three;
 kernRight = eight;
 layers = (

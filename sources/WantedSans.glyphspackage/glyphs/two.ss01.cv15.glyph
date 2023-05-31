@@ -1,6 +1,6 @@
 {
 color = 11;
-glyphname = two.cv15.ss01;
+glyphname = two.ss01.cv15;
 kernLeft = two;
 kernRight = two;
 layers = (

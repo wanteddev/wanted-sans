@@ -1,0 +1,30 @@
+{
+color = 9;
+glyphname = nine.ss01.cv11;
+kernLeft = nine.cv11;
+kernRight = nine.cv11;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1200,1420);
+ref = six.cv11;
+}
+);
+width = 1200;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+angle = 180;
+pos = (1320,1420);
+ref = six.cv11;
+}
+);
+width = 1320;
+}
+);
+}
