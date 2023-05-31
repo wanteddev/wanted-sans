@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-05-31 04:51:03 +0000";
+date = "2023-05-31 05:14:25 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -100,6 +100,7 @@ automatic = 1;
 code = "feature locl;
 feature case;
 feature ss01;
+feature ss02;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -182,10 +183,30 @@ sub nine by nine.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Closed forms";
 }
 );
 tag = ss01;
+},
+{
+code = "sub one by one.cv07;
+sub two by two.cv08;
+sub two.ss01 by two.ss01.cv08;
+sub three by three.cv09;
+sub three.ss01 by three.ss01.cv09;
+sub four by four.cv10;
+sub six by six.cv11;
+sub nine by nine.cv11;
+sub six.ss01 by six.ss01.cv11;
+sub nine.ss01 by nine.ss01.cv11;
+sub seven by seven.cv12;";
+labels = (
+{
+language = dflt;
+value = "Common numerics";
+}
+);
+tag = ss02;
 },
 {
 automatic = 1;
