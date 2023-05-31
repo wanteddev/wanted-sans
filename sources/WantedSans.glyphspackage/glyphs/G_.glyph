@@ -4,13 +4,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-annotations = (
-{
-pos = (1054.202,1627.152);
-text = "좁혀야 할 듯";
-type = Text;
-}
-);
 background = {
 shapes = (
 {
