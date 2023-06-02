@@ -170,13 +170,7 @@ tag = calt;
 },
 {
 automatic = 1;
-code = "sub c by c.ss01;
-sub e by e.ss01;
-sub g by g.ss01;
-sub s by s.ss01;
-sub a.cv03 by a.cv03.ss01;
-sub two by two.ss01;
-sub three by three.ss01;
+code = "sub three by three.ss01;
 sub six by six.ss01;
 sub nine by nine.ss01;
 ";
@@ -191,7 +185,6 @@ tag = ss01;
 {
 code = "sub one by one.cv07;
 sub two by two.cv08;
-sub two.ss01 by two.ss01.cv08;
 sub three by three.cv09;
 sub three.ss01 by three.ss01.cv09;
 sub four by four.cv10;
@@ -199,7 +192,8 @@ sub six by six.cv11;
 sub nine by nine.cv11;
 sub six.ss01 by six.ss01.cv11;
 sub nine.ss01 by nine.ss01.cv11;
-sub seven by seven.cv12;";
+sub seven by seven.cv12;
+";
 labels = (
 {
 language = dflt;
@@ -267,7 +261,6 @@ tag = cv07;
 {
 automatic = 1;
 code = "sub two by two.cv08;
-sub two.ss01 by two.ss01.cv08;
 ";
 tag = cv08;
 },
@@ -321,8 +314,6 @@ tag = cv14;
 automatic = 1;
 code = "sub two by two.cv15;
 sub two.cv08 by two.cv08.cv15;
-sub two.ss01 by two.ss01.cv15;
-sub two.ss01.cv08 by two.ss01.cv08.cv15;
 ";
 tag = cv15;
 }
