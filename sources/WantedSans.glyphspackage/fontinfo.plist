@@ -171,8 +171,6 @@ tag = calt;
 {
 automatic = 1;
 code = "sub three by three.ss01;
-sub six by six.ss01;
-sub nine by nine.ss01;
 ";
 labels = (
 {
@@ -190,8 +188,6 @@ sub three.ss01 by three.ss01.cv09;
 sub four by four.cv10;
 sub six by six.cv11;
 sub nine by nine.cv11;
-sub six.ss01 by six.ss01.cv11;
-sub nine.ss01 by nine.ss01.cv11;
 sub seven by seven.cv12;
 ";
 labels = (
@@ -281,8 +277,6 @@ tag = cv10;
 automatic = 1;
 code = "sub six by six.cv11;
 sub nine by nine.cv11;
-sub six.ss01 by six.ss01.cv11;
-sub nine.ss01 by nine.ss01.cv11;
 ";
 tag = cv11;
 },
