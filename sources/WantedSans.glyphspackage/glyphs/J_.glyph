@@ -1,7 +1,7 @@
 {
 glyphname = J;
 kernLeft = J;
-kernRight = H;
+kernRight = J;
 layers = (
 {
 anchors = (
