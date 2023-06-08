@@ -1,81 +1,80 @@
 {
 glyphname = Lslash;
-kernLeft = H;
+kernLeft = Islash;
 kernRight = L;
 layers = (
 {
 background = {
 shapes = (
 {
-pos = (8,0);
+pos = (-28,0);
 ref = lslash;
 },
 {
 closed = 1;
 nodes = (
-(390,166,l),
-(734,166,l),
-(734,896,l),
-(390,896,l)
+(354,166,l),
+(698,166,l),
+(698,896,l),
+(354,896,l)
 );
 }
 );
 };
 layerId = m01;
-metricLeft = "=lslash+8";
 shapes = (
 {
 alignment = -1;
-pos = (70,0);
+pos = (34,0);
 ref = L;
 },
 {
 piece = {
 L = 1;
 };
-pos = (300,220);
+pos = (264,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1180;
+width = 1144;
 },
 {
 background = {
 shapes = (
 {
-pos = (8,0);
+pos = (-36,0);
 ref = lslash;
 },
 {
 closed = 1;
 nodes = (
-(608,348,l),
-(878,348,l),
-(878,952,l),
-(608,952,l)
+(564,348,l),
+(834,348,l),
+(834,952,l),
+(564,952,l)
 );
 }
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricLeft = "=lslash+8";
 shapes = (
 {
 alignment = -1;
-pos = (76,0);
+pos = (32,0);
 ref = L;
 },
 {
 piece = {
 L = 1;
 };
-pos = (408,220);
+pos = (364,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1236;
+width = 1192;
 }
 );
+metricLeft = lslash;
 metricRight = L;
 unicode = 321;
 }

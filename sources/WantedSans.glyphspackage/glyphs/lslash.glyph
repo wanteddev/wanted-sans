@@ -1,10 +1,11 @@
 {
 glyphname = lslash;
-kernLeft = t;
-kernRight = four;
+kernLeft = lslash;
+kernRight = lslash;
 layers = (
 {
 layerId = m01;
+metricLeft = "=I-116";
 metricRight = "=|";
 shapes = (
 {
@@ -12,33 +13,33 @@ alignment = -1;
 piece = {
 Group = 1;
 };
-pos = (72,0);
+pos = (44,0);
 ref = l;
 },
 {
-pos = (288,220);
+pos = (260,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 576;
+width = 520;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=I-108";
 metricRight = "=|";
 shapes = (
 {
 alignment = -1;
-pos = (76,0);
+pos = (40,0);
 ref = l;
 },
 {
-pos = (392,220);
+pos = (356,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 784;
+width = 712;
 }
 );
-metricLeft = t;
 unicode = 322;
 }
