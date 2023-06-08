@@ -1,5 +1,5 @@
 {
-glyphname = three;
+glyphname = three.cv09;
 kernLeft = three;
 kernRight = three;
 layers = (
@@ -1276,5 +1276,4 @@ width = 1360;
 }
 );
 metricRight = eight;
-unicode = 51;
 }
