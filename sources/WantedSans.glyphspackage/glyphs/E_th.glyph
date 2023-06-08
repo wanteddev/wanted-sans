@@ -1,6 +1,6 @@
 {
 glyphname = Eth;
-kernLeft = H;
+kernLeft = Islash;
 kernRight = O;
 layers = (
 {
@@ -21,11 +21,11 @@ shapes = (
 ref = _part.Ethbase;
 },
 {
-pos = (72,0);
+pos = (44,0);
 ref = D;
 }
 );
-width = 1470;
+width = 1442;
 },
 {
 background = {
