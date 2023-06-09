@@ -1,5 +1,5 @@
 {
-glyphname = Q.cv06;
+glyphname = Q;
 kernLeft = O;
 kernRight = O;
 layers = (
@@ -170,4 +170,5 @@ nodes = (
 width = 1648;
 }
 );
+unicode = 81;
 }
