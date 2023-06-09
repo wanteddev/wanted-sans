@@ -4,13 +4,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-annotations = (
-{
-pos = (1120.996,544.947);
-text = "올리자";
-type = Text;
-}
-);
 background = {
 annotations = (
 {
