@@ -1,5 +1,6 @@
 {
 glyphname = bracketleft;
+kernLeft = parenleft;
 kernRight = parenleft;
 layers = (
 {
