@@ -9,7 +9,7 @@ layerId = m01;
 shapes = (
 {
 piece = {
-Cap = 113.5;
+Cap = 115.5;
 Cross = 1;
 Descender = 0;
 };
@@ -27,7 +27,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 piece = {
-Cap = 113.5;
+Cap = 115.5;
 Cross = 1;
 Descender = 0;
 };
