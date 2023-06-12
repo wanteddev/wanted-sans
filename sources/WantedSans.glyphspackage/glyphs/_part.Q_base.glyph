@@ -50,7 +50,7 @@ attr = {
 axisRules = (
 {
 max = 900;
-min = 550;
+min = 601;
 }
 );
 };
@@ -219,7 +219,7 @@ associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 attr = {
 axisRules = (
 {
-max = 550;
+max = 600;
 min = 400;
 }
 );

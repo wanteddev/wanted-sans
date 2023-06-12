@@ -14,6 +14,51 @@ strokeWidth = 168;
 };
 closed = 0;
 nodes = (
+(224,1664,l),
+(224,-216,l)
+);
+}
+);
+width = 448;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 384;
+};
+closed = 0;
+nodes = (
+(308,1664,l),
+(308,-216,l)
+);
+}
+);
+width = 616;
+},
+{
+annotations = (
+{
+pos = (188,1706);
+text = "case 추가";
+type = Text;
+}
+);
+associatedMasterId = m01;
+layerId = "8112BE5F-2960-48AE-AD35-53ADE2E5F499";
+name = "Jun 12, 23 13:59";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
 (224,1448,l),
 (224,-432,l)
 );
@@ -22,7 +67,9 @@ nodes = (
 width = 448;
 },
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "103780CF-1253-4D3C-B9BA-FCF1FBB28B46";
+name = "Jun 12, 23 13:59";
 shapes = (
 {
 attr = {
