@@ -198,8 +198,13 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-automatic = 1;
-code = "sub j by j.cv01;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Alternative j\";
+}; };
+
+# Copy and Paste automatically generated feature from here
+
+sub j by j.cv01;
 sub jdotless by jdotless.cv01;
 ";
 tag = cv01;
