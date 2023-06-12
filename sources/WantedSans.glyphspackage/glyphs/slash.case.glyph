@@ -1,17 +1,15 @@
 {
-color = 0;
-glyphname = backslash;
-kernLeft = backslash;
-kernRight = backslash;
+color = 1;
+glyphname = slash.case;
+kernLeft = slash.case;
+kernRight = slash.case;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-alignment = 1;
-pos = (606,0);
+pos = (0,216);
 ref = slash;
-scale = (-1,1);
 }
 );
 width = 606;
@@ -20,15 +18,12 @@ width = 606;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-alignment = 1;
-pos = (782,0);
+pos = (0,216);
 ref = slash;
-scale = (-1,1);
 }
 );
 width = 782;
 }
 );
 note = $CASE;
-unicode = 92;
 }
