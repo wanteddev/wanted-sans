@@ -1,6 +1,8 @@
 {
 color = 11;
 glyphname = asciicircum;
+kernLeft = asciicircum;
+kernRight = asciicircum;
 layers = (
 {
 background = {
