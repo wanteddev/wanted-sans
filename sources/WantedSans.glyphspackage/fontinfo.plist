@@ -75,6 +75,15 @@ code = "lookup LOOKUP_CALT_1 {
 ignore sub @CASE_L' @Lowercase;
 ignore sub @Lowercase @CASE_L';
 
+# Ignore specific glyphs
+@Slash = [
+slash
+backslash
+];
+
+ignore sub @Slash' @Case;
+ignore sub @Case @Slash';
+
 # Cut two more uppercase based glyphs
 ignore sub @CASE_L' @CASE_L;
 ignore sub @CASE_L @CASE_L';
