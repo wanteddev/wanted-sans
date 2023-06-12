@@ -305,6 +305,38 @@ automatic = 1;
 code = "sub two by two.cv15;
 ";
 tag = cv15;
+},
+{
+automatic = 1;
+code = "sub r by r.cv16;
+";
+tag = cv16;
+},
+{
+code = "# Automatic Code
+
+@L = [
+$[name beginswith 'L' and rightKerningGroup == 'L']
+];
+
+@Quote = [
+quotedblleft
+quotedblright
+quoteleft
+quoteright
+];
+
+@A = [
+$[name beginswith 'A' and leftKerningGroup == 'A']
+];
+
+@J = [
+$[name beginswith 'J' and leftKerningGroup == 'J']
+];
+
+pos @L @Quote' 144 (wght:900) 40 @A;
+pos @L @Quote' 96 (wght:900) 40 @J;";
+tag = kern;
 }
 );
 fontMaster = (
