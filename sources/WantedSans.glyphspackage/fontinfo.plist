@@ -343,7 +343,7 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 604;
+value = 600;
 },
 {
 name = underlineThickness;
@@ -355,7 +355,7 @@ value = 164;
 },
 {
 name = underlinePosition;
-value = -399;
+value = -400;
 },
 {
 name = typoLineGap;
@@ -438,15 +438,15 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 604;
+value = 600;
 },
 {
 name = underlineThickness;
-value = 164;
+value = 248;
 },
 {
 name = strikeoutSize;
-value = 164;
+value = 248;
 },
 {
 name = underlinePosition;
