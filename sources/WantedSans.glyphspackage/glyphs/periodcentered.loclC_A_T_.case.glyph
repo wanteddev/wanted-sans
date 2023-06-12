@@ -1,6 +1,6 @@
 {
-color = 0;
-glyphname = periodcentered;
+color = 1;
+glyphname = periodcentered.loclCAT.case;
 kernLeft = periodcentered;
 kernRight = periodcentered;
 layers = (
@@ -8,8 +8,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,430);
-ref = period;
+ref = periodcentered.case;
 }
 );
 width = 512;
@@ -18,15 +17,12 @@ width = 512;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (0,338);
-ref = period;
+pos = (0,192);
+ref = periodcentered.case;
 }
 );
 width = 660;
 }
 );
-metricLeft = period;
-metricRight = period;
 note = $CASE;
-unicode = 183;
 }

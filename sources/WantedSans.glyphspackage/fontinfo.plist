@@ -65,6 +65,7 @@ code = "languagesystem DFLT dflt;
 
 languagesystem latn dflt;
 languagesystem latn PLK;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 },
@@ -115,6 +116,7 @@ feature cv12;
 feature cv13;
 feature cv14;
 feature cv15;
+feature cv16;
 ";
 tag = aalt;
 },
@@ -138,12 +140,21 @@ lookup locl_latn_0 {
 	sub acutecomb by acutecomb.loclPLK;
 	sub acute by acute.loclPLK;
 } locl_latn_0;
+
+script latn;
+language CAT;
+lookup locl_latn_1 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_1;
 ";
 tag = locl;
 },
 {
 automatic = 1;
 code = "sub colon by colon.case;
+sub periodcentered by periodcentered.case;
+sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 sub hyphen by hyphen.case;
 sub endash by endash.case;
 sub emdash by emdash.case;
