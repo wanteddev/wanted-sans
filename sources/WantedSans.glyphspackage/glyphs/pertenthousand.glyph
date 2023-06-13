@@ -1,0 +1,56 @@
+{
+glyphname = pertenthousand;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (708,0);
+ref = fraction;
+},
+{
+pos = (964,0);
+ref = zero.dnom;
+},
+{
+pos = (1672,0);
+ref = zero.dnom;
+},
+{
+pos = (2380,0);
+ref = zero.dnom;
+}
+);
+width = 3088;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (830,0);
+ref = fraction;
+},
+{
+pos = (1142,0);
+ref = zero.dnom;
+},
+{
+pos = (1972,0);
+ref = zero.dnom;
+},
+{
+pos = (2802,0);
+ref = zero.dnom;
+}
+);
+width = 3632;
+}
+);
+unicode = 8241;
+}

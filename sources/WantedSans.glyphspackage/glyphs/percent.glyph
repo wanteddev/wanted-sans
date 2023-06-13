@@ -1,0 +1,40 @@
+{
+glyphname = percent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (708,0);
+ref = fraction;
+},
+{
+pos = (964,0);
+ref = zero.dnom;
+}
+);
+width = 1672;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (830,0);
+ref = fraction;
+},
+{
+pos = (1142,0);
+ref = zero.dnom;
+}
+);
+width = 1972;
+}
+);
+unicode = 37;
+}
