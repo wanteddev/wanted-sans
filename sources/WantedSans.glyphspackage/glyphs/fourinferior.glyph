@@ -1,5 +1,5 @@
 {
-glyphname = zeroinferior;
+glyphname = fourinferior;
 kernLeft = zero.subs;
 kernRight = zero.subs;
 layers = (
@@ -8,7 +8,7 @@ layerId = m01;
 shapes = (
 {
 pos = (0,-208);
-ref = zero.dnom;
+ref = four.dnom;
 }
 );
 width = 678;
@@ -18,11 +18,11 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,-208);
-ref = zero.dnom;
+ref = four.dnom;
 }
 );
-width = 802;
+width = 804;
 }
 );
-unicode = 8320;
+unicode = 8324;
 }

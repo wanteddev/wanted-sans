@@ -1,0 +1,77 @@
+{
+glyphname = one.dnom.cv07;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(374,0,l),
+(374,720,l),
+(230,720,l),
+(230,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,562,l),
+(230,720,l),
+(56,598,l),
+(56,440,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 50;
+verticalShift = -2;
+weight = -80;
+width = 50;
+};
+};
+width = 484;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,0,l),
+(490,792,l),
+(240,792,l),
+(240,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(240,530,l),
+(240,792,l),
+(52,662,l),
+(52,400,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 54.7;
+weight = -360;
+width = 54.7;
+};
+};
+width = 596;
+}
+);
+metricLeft = one.dnom;
+metricRight = one.dnom;
+userData = {
+RMXScaler = {
+source = one.cv07;
+};
+};
+}

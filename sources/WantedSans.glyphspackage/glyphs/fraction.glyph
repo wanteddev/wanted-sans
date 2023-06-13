@@ -28,7 +28,7 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 280;
+strokeWidth = 256;
 };
 closed = 0;
 nodes = (

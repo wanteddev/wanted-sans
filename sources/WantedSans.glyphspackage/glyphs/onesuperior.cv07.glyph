@@ -1,5 +1,5 @@
 {
-glyphname = zerosuperior;
+glyphname = onesuperior.cv07;
 kernLeft = zero.sups;
 kernRight = zero.sups;
 layers = (
@@ -8,21 +8,20 @@ layerId = m01;
 shapes = (
 {
 pos = (0,936);
-ref = zero.dnom;
+ref = one.dnom.cv07;
 }
 );
-width = 678;
+width = 484;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,864);
-ref = zero.dnom;
+ref = one.dnom.cv07;
 }
 );
-width = 802;
+width = 596;
 }
 );
-unicode = 8304;
 }

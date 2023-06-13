@@ -1,7 +1,7 @@
 {
 glyphname = lslash.cv14;
-kernLeft = Islash;
-kernRight = Islash;
+kernLeft = lslash;
+kernRight = lslash;
 layers = (
 {
 layerId = m01;

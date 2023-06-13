@@ -8,19 +8,19 @@ shapes = (
 ref = zero.numr;
 },
 {
-pos = (708,0);
+pos = (678,0);
 ref = fraction;
 },
 {
-pos = (964,0);
+pos = (934,0);
 ref = zero.dnom;
 },
 {
-pos = (1672,0);
+pos = (1612,0);
 ref = zero.dnom;
 }
 );
-width = 2380;
+width = 2290;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -29,19 +29,19 @@ shapes = (
 ref = zero.numr;
 },
 {
-pos = (830,0);
+pos = (802,0);
 ref = fraction;
 },
 {
-pos = (1142,0);
+pos = (1114,0);
 ref = zero.dnom;
 },
 {
-pos = (1972,0);
+pos = (1916,0);
 ref = zero.dnom;
 }
 );
-width = 2802;
+width = 2718;
 }
 );
 unicode = 8240;

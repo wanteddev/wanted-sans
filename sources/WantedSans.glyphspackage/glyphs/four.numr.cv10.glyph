@@ -1,5 +1,5 @@
 {
-glyphname = zero.numr;
+glyphname = four.numr.cv10;
 kernLeft = zero.numr;
 kernRight = zero.numr;
 layers = (
@@ -8,7 +8,7 @@ layerId = m01;
 shapes = (
 {
 pos = (0,728);
-ref = zero.dnom;
+ref = four.dnom.cv10;
 }
 );
 width = 678;
@@ -18,10 +18,10 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,656);
-ref = zero.dnom;
+ref = four.dnom.cv10;
 }
 );
-width = 802;
+width = 804;
 }
 );
 }
