@@ -2199,6 +2199,7 @@ bracketright.case = {
 };
 fraction = {
 "@MMK_R_zero.numr" = 424;
+"@MMK_R_zero.sups" = 496;
 };
 j.cv01 = {
 "@MMK_R_V" = 0;
@@ -3384,9 +3385,11 @@ j.cv01 = 0;
 "@MMK_R_T" = -240;
 "@MMK_R_V" = -240;
 "@MMK_R_f" = -64;
+"@MMK_R_nine" = -40;
 "@MMK_R_seven" = -160;
 "@MMK_R_v" = -128;
 "@MMK_R_x" = -80;
+fraction = 392;
 };
 "@MMK_L_zero.numr" = {
 "@MMK_R_A" = -280;
@@ -3410,6 +3413,7 @@ j.cv01 = 0;
 "@MMK_R_seven" = -160;
 "@MMK_R_u" = -32;
 "@MMK_R_v" = -184;
+fraction = 504;
 };
 "@MMK_L_zero.sups" = {
 "@MMK_R_A" = -264;
@@ -3440,7 +3444,8 @@ bracketright.case = {
 "@MMK_R_jdotless" = 56;
 };
 fraction = {
-"@MMK_R_zero.sups" = 528;
+"@MMK_R_zero.numr" = 416;
+"@MMK_R_zero.sups" = 512;
 };
 j.cv01 = {
 "@MMK_R_V" = 0;
