@@ -1,0 +1,51 @@
+{
+glyphname = _part.percentdnom;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (46,0);
+},
+{
+name = "#exit";
+pos = (720,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (46,0);
+ref = zero.dnom;
+}
+);
+width = 766;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (40,0);
+},
+{
+name = "#exit";
+pos = (842,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = zero.dnom;
+}
+);
+width = 882;
+}
+);
+metricLeft = _part.percentnumr;
+metricRight = _part.percentnumr;
+}

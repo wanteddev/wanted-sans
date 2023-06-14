@@ -2,6 +2,15 @@
 glyphname = fraction;
 layers = (
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (256,0);
+}
+);
 layerId = m01;
 metricRight = "=|";
 shapes = (
@@ -9,7 +18,7 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 152;
+strokeWidth = 140;
 };
 closed = 0;
 nodes = (
@@ -21,6 +30,15 @@ nodes = (
 width = 256;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (312,0);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|";
 shapes = (

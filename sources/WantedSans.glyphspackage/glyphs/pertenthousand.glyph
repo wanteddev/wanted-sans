@@ -7,51 +7,51 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = zero.numr;
+ref = _part.percentnumr;
 },
 {
-pos = (674,0);
+pos = (720,0);
 ref = fraction;
 },
 {
 pos = (930,0);
-ref = zero.dnom;
+ref = _part.percentdnom;
 },
 {
 pos = (1604,0);
-ref = zero.dnom;
+ref = _part.percentdnom;
 },
 {
 pos = (2278,0);
-ref = zero.dnom;
+ref = _part.percentdnom;
 }
 );
-width = 2952;
+width = 3044;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = zero.numr;
+ref = _part.percentnumr;
 },
 {
-pos = (802,0);
+pos = (842,0);
 ref = fraction;
 },
 {
 pos = (1114,0);
-ref = zero.dnom;
+ref = _part.percentdnom;
 },
 {
 pos = (1916,0);
-ref = zero.dnom;
+ref = _part.percentdnom;
 },
 {
 pos = (2718,0);
-ref = zero.dnom;
+ref = _part.percentdnom;
 }
 );
-width = 3520;
+width = 3600;
 }
 );
 unicode = 8241;
