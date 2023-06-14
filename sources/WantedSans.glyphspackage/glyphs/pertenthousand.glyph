@@ -10,23 +10,23 @@ shapes = (
 ref = zero.numr;
 },
 {
-pos = (678,0);
+pos = (674,0);
 ref = fraction;
 },
 {
-pos = (934,0);
+pos = (930,0);
 ref = zero.dnom;
 },
 {
-pos = (1612,0);
+pos = (1604,0);
 ref = zero.dnom;
 },
 {
-pos = (2290,0);
+pos = (2278,0);
 ref = zero.dnom;
 }
 );
-width = 2968;
+width = 2952;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

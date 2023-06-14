@@ -9,8 +9,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(374,0,l),
-(374,720,l),
+(366,0,l),
+(366,720,l),
 (230,720,l),
 (230,0,l)
 );
@@ -18,10 +18,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(230,562,l),
+(230,570,l),
 (230,720,l),
 (56,598,l),
-(56,440,l)
+(56,446,l)
 );
 }
 );
@@ -29,11 +29,11 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -80;
+weight = -96;
 width = 50;
 };
 };
-width = 484;
+width = 478;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
