@@ -7,22 +7,22 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (46,0);
+pos = (48,0);
 },
 {
 name = "#exit";
-pos = (720,0);
+pos = (722,0);
 }
 );
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (46,0);
+pos = (48,0);
 ref = zero.dnom;
 }
 );
-width = 766;
+width = 770;
 },
 {
 anchors = (

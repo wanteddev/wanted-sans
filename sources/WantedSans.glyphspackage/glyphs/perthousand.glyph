@@ -10,7 +10,7 @@ shapes = (
 ref = _part.percentnumr;
 },
 {
-pos = (720,0);
+pos = (722,0);
 ref = fraction;
 },
 {
@@ -22,7 +22,7 @@ pos = (1604,0);
 ref = _part.percentdnom;
 }
 );
-width = 2370;
+width = 2374;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
