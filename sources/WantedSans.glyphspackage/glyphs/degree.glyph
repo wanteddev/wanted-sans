@@ -1,7 +1,7 @@
 {
 glyphname = degree;
-kernLeft = asciicircum;
-kernRight = asciicircum;
+kernLeft = asterisk;
+kernRight = asterisk;
 layers = (
 {
 background = {

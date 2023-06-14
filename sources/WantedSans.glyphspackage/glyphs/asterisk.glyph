@@ -1,7 +1,7 @@
 {
 glyphname = asterisk;
-kernLeft = asciicircum;
-kernRight = asciicircum;
+kernLeft = asterisk;
+kernRight = asterisk;
 layers = (
 {
 background = {
