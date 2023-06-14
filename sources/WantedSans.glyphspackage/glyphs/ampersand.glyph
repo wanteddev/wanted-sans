@@ -1,7 +1,7 @@
 {
 glyphname = ampersand;
-kernLeft = eight;
-kernRight = four;
+kernLeft = ampersand;
+kernRight = ampersand;
 layers = (
 {
 background = {
@@ -43,6 +43,7 @@ nodes = (
 );
 };
 layerId = m01;
+metricRight = "=O-32";
 shapes = (
 {
 closed = 1;
@@ -96,7 +97,7 @@ nodes = (
 );
 }
 );
-width = 1460;
+width = 1428;
 },
 {
 associatedMasterId = m01;
@@ -592,6 +593,7 @@ nodes = (
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=O-32";
 name = Black;
 shapes = (
 {
@@ -646,7 +648,7 @@ nodes = (
 );
 }
 );
-width = 1600;
+width = 1568;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
