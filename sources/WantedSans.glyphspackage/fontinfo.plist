@@ -73,7 +73,7 @@ value = (
 );
 }
 );
-date = "2023-06-15 04:57:58 +0000";
+date = "2023-06-15 06:57:22 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -3994,5 +3994,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 304;
+versionMinor = 305;
 }
