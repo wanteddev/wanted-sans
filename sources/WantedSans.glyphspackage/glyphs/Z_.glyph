@@ -4,6 +4,20 @@ kernLeft = Z;
 kernRight = Z;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (646,0);
+},
+{
+name = center;
+pos = (646,724);
+},
+{
+name = top;
+pos = (646,1448);
+}
+);
 background = {
 shapes = (
 {
@@ -85,6 +99,20 @@ nodes = (
 width = 1292;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (696,0);
+},
+{
+name = center;
+pos = (696,724);
+},
+{
+name = top;
+pos = (696,1448);
+}
+);
 background = {
 shapes = (
 {

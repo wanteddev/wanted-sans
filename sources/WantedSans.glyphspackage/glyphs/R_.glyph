@@ -4,6 +4,16 @@ kernLeft = H;
 kernRight = R;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (594,0);
+},
+{
+name = top;
+pos = (594,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -24,6 +34,16 @@ ref = _part.Rbase;
 width = 1188;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (670,0);
+},
+{
+name = top;
+pos = (670,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

@@ -4,6 +4,24 @@ kernLeft = f;
 kernRight = t.cv02;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (344,0);
+},
+{
+name = center;
+pos = (344,516);
+},
+{
+name = top;
+pos = (344,1032);
+},
+{
+name = topright;
+pos = (668,1950);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -24,6 +42,24 @@ ref = _smart.lowerstem;
 width = 688;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (428,0);
+},
+{
+name = center;
+pos = (428,516);
+},
+{
+name = top;
+pos = (428,1032);
+},
+{
+name = topright;
+pos = (836,1950);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

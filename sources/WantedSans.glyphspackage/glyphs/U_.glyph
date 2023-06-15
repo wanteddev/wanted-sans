@@ -4,6 +4,24 @@ kernLeft = U;
 kernRight = U;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (692,0);
+},
+{
+name = ogonek;
+pos = (1246,10);
+},
+{
+name = top;
+pos = (692,1448);
+},
+{
+name = topright;
+pos = (1364,1448);
+}
+);
 layerId = m01;
 metricLeft = "=I";
 metricRight = "=|";
@@ -87,6 +105,24 @@ nodes = (
 width = 1384;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (754,0);
+},
+{
+name = ogonek;
+pos = (1358,10);
+},
+{
+name = top;
+pos = (754,1448);
+},
+{
+name = topright;
+pos = (1488,1448);
+}
+);
 background = {
 shapes = (
 {

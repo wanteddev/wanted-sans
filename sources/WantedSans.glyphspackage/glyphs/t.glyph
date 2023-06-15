@@ -4,6 +4,24 @@ kernLeft = f;
 kernRight = t;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (376,0);
+},
+{
+name = center;
+pos = (376,516);
+},
+{
+name = top;
+pos = (376,1032);
+},
+{
+name = topright;
+pos = (732,1950);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -90,6 +108,24 @@ ref = _smart.terminal;
 width = 752;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (460,0);
+},
+{
+name = center;
+pos = (460,516);
+},
+{
+name = top;
+pos = (460,1032);
+},
+{
+name = topright;
+pos = (900,1950);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 name = Black;
 shapes = (

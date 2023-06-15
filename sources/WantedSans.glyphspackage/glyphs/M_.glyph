@@ -4,6 +4,16 @@ kernLeft = H;
 kernRight = H;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (838,0);
+},
+{
+name = top;
+pos = (838,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -32,6 +42,16 @@ ref = _smart.upperstem;
 width = 1676;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (970,0);
+},
+{
+name = top;
+pos = (970,1448);
+}
+);
 background = {
 shapes = (
 {

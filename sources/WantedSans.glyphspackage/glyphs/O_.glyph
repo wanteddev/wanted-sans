@@ -6,12 +6,32 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (844,0);
+},
+{
 name = center;
 pos = (844,724);
 },
 {
+name = ogonek;
+pos = (1520,10);
+},
+{
 name = tail;
 pos = (844,0);
+},
+{
+name = top;
+pos = (844,1448);
+},
+{
+name = topleft;
+pos = (20,1448);
+},
+{
+name = topright;
+pos = (1668,1448);
 }
 );
 background = {
@@ -83,12 +103,32 @@ width = 1688;
 {
 anchors = (
 {
+name = bottom;
+pos = (824,0);
+},
+{
 name = center;
 pos = (824,724);
 },
 {
+name = ogonek;
+pos = (1484,10);
+},
+{
 name = tail;
 pos = (824,0);
+},
+{
+name = top;
+pos = (824,1448);
+},
+{
+name = topleft;
+pos = (20,1448);
+},
+{
+name = topright;
+pos = (1628,1448);
 }
 );
 background = {

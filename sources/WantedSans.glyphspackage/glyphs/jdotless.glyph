@@ -4,6 +4,16 @@ kernLeft = jdotless;
 kernRight = g;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (248,-432);
+},
+{
+name = top;
+pos = (248,1032);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -64,6 +74,16 @@ scale = (-1,1);
 width = 400;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (340,-432);
+},
+{
+name = top;
+pos = (340,1032);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

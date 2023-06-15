@@ -5,6 +5,20 @@ kernLeft = l;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (610,0);
+},
+{
+name = center;
+pos = (610,516);
+},
+{
+name = top;
+pos = (610,1032);
+}
+);
 background = {
 shapes = (
 {
@@ -30,6 +44,20 @@ ref = _smart.bowl;
 width = 1220;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (658,0);
+},
+{
+name = center;
+pos = (658,516);
+},
+{
+name = top;
+pos = (658,1032);
+}
+);
 background = {
 shapes = (
 {

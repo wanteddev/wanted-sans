@@ -4,6 +4,24 @@ kernLeft = H;
 kernRight = E;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (580,0);
+},
+{
+name = ogonek;
+pos = (1042,10);
+},
+{
+name = top;
+pos = (580,1448);
+},
+{
+name = topleft;
+pos = (20,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +35,24 @@ ref = _part.Ebase;
 width = 1158;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (602,0);
+},
+{
+name = ogonek;
+pos = (1084,10);
+},
+{
+name = top;
+pos = (602,1448);
+},
+{
+name = topleft;
+pos = (20,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

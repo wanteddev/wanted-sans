@@ -5,6 +5,20 @@ kernLeft = l;
 kernRight = n;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (552,0);
+},
+{
+name = center;
+pos = (552,976);
+},
+{
+name = top;
+pos = (552,1950);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -21,6 +35,20 @@ ref = _smart.shoulder;
 width = 1104;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (668,0);
+},
+{
+name = center;
+pos = (668,976);
+},
+{
+name = top;
+pos = (668,1950);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

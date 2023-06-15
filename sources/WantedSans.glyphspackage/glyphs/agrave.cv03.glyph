@@ -10,7 +10,7 @@ shapes = (
 ref = a.cv03;
 },
 {
-pos = (528,0);
+pos = (534,0);
 ref = gravecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = a.cv03;
 },
 {
-pos = (580,0);
+pos = (594,0);
 ref = gravecomb;
 }
 );

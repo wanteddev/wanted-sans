@@ -28,7 +28,7 @@ metricRight = "=|";
 shapes = (
 {
 alignment = -1;
-pos = (76,0);
+pos = (84,0);
 ref = l.cv14;
 },
 {

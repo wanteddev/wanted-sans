@@ -4,6 +4,20 @@ kernLeft = z;
 kernRight = z;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (512,0);
+},
+{
+name = center;
+pos = (512,516);
+},
+{
+name = top;
+pos = (512,1032);
+}
+);
 layerId = m01;
 metricLeft = "=n*.754";
 metricRight = "=|";
@@ -152,6 +166,20 @@ nodes = (
 width = 1160;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (580,0);
+},
+{
+name = center;
+pos = (580,516);
+},
+{
+name = top;
+pos = (580,1032);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|";
 name = Black;

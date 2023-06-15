@@ -6,8 +6,20 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (556,0);
+},
+{
 name = center;
-pos = (230,760);
+pos = (228,760);
+},
+{
+name = top;
+pos = (556,1448);
+},
+{
+name = topright;
+pos = (1090,1448);
 }
 );
 layerId = m01;
@@ -25,8 +37,20 @@ width = 1110;
 {
 anchors = (
 {
+name = bottom;
+pos = (580,0);
+},
+{
 name = center;
-pos = (332,760);
+pos = (324,760);
+},
+{
+name = top;
+pos = (580,1448);
+},
+{
+name = topright;
+pos = (1140,1448);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

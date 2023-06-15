@@ -4,6 +4,16 @@ kernLeft = v;
 kernRight = v;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (808,0);
+},
+{
+name = top;
+pos = (808,1032);
+}
+);
 background = {
 shapes = (
 {
@@ -162,6 +172,16 @@ nodes = (
 width = 1614;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (894,0);
+},
+{
+name = top;
+pos = (894,1032);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

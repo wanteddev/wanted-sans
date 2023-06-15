@@ -4,6 +4,16 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (844,0);
+},
+{
+name = top;
+pos = (844,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -20,6 +30,16 @@ ref = _smart.diacriticslashlarge;
 width = 1688;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (824,0);
+},
+{
+name = top;
+pos = (824,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

@@ -5,6 +5,16 @@ kernLeft = l;
 kernRight = x;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (496,0);
+},
+{
+name = top;
+pos = (496,1950);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -21,6 +31,16 @@ ref = _part.kbase;
 width = 990;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (630,0);
+},
+{
+name = top;
+pos = (630,1950);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

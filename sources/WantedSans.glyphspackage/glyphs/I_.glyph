@@ -4,6 +4,24 @@ kernLeft = H;
 kernRight = H;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (228,0);
+},
+{
+name = ogonek;
+pos = (410,10);
+},
+{
+name = top;
+pos = (228,1448);
+},
+{
+name = topleft;
+pos = (20,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -13,6 +31,24 @@ ref = _smart.upperstem;
 width = 456;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = ogonek;
+pos = (584,10);
+},
+{
+name = top;
+pos = (324,1448);
+},
+{
+name = topleft;
+pos = (20,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

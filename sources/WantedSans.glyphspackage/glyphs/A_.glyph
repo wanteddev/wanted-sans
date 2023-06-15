@@ -4,6 +4,20 @@ kernLeft = A;
 kernRight = A;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (708,0);
+},
+{
+name = ogonek;
+pos = (1274,10);
+},
+{
+name = top;
+pos = (708,1448);
+}
+);
 background = {
 shapes = (
 {
@@ -151,6 +165,20 @@ nodes = (
 width = 1468;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (800,0);
+},
+{
+name = ogonek;
+pos = (1440,10);
+},
+{
+name = top;
+pos = (800,1448);
+}
+);
 background = {
 shapes = (
 {
@@ -232,6 +260,20 @@ nodes = (
 width = 1600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (764,0);
+},
+{
+name = ogonek;
+pos = (1376,10);
+},
+{
+name = top;
+pos = (764,1448);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 attr = {
 coordinates = (

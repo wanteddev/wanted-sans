@@ -14,8 +14,16 @@ name = center;
 pos = (614,516);
 },
 {
+name = ogonek;
+pos = (1106,10);
+},
+{
 name = top;
 pos = (614,1032);
+},
+{
+name = topright;
+pos = (1208,1032);
 }
 );
 background = {
@@ -186,8 +194,16 @@ name = center;
 pos = (610,516);
 },
 {
+name = ogonek;
+pos = (1098,10);
+},
+{
 name = top;
 pos = (610,1032);
+},
+{
+name = topright;
+pos = (1200,1032);
 }
 );
 background = {

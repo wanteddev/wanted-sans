@@ -4,6 +4,16 @@ kernLeft = n;
 kernRight = r;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (384,0);
+},
+{
+name = top;
+pos = (384,1032);
+}
+);
 background = {
 shapes = (
 {
@@ -24,6 +34,16 @@ ref = _part.rbase;
 width = 766;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (480,0);
+},
+{
+name = top;
+pos = (480,1032);
+}
+);
 background = {
 shapes = (
 {

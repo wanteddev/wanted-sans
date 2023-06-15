@@ -4,6 +4,14 @@ kernLeft = p;
 kernRight = q;
 layers = (
 {
+background = {
+shapes = (
+{
+pos = (-32,0);
+ref = j;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -21,7 +29,7 @@ width = 432;
 background = {
 shapes = (
 {
-pos = (-48,0);
+pos = (-32,0);
 ref = j;
 }
 );
@@ -33,7 +41,7 @@ ref = jdotless.cv01;
 },
 {
 alignment = 1;
-pos = (312,0);
+pos = (308,0);
 ref = dotaccentcomb;
 }
 );

@@ -4,6 +4,12 @@ kernLeft = l;
 kernRight = l;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (216,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +23,12 @@ ref = dotaccentcomb;
 width = 432;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (308,0);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

@@ -4,6 +4,16 @@ kernLeft = f;
 kernRight = f;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (400,0);
+},
+{
+name = top;
+pos = (400,1950);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -20,6 +30,16 @@ ref = _part.fbase;
 width = 800;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (476,0);
+},
+{
+name = top;
+pos = (476,1950);
+}
+);
 background = {
 shapes = (
 {

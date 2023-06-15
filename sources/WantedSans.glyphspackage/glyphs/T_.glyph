@@ -4,6 +4,20 @@ kernLeft = T;
 kernRight = T;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (644,0);
+},
+{
+name = center;
+pos = (644,724);
+},
+{
+name = top;
+pos = (644,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +31,20 @@ ref = _smart.upperstem;
 width = 1288;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (694,0);
+},
+{
+name = center;
+pos = (694,724);
+},
+{
+name = top;
+pos = (694,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

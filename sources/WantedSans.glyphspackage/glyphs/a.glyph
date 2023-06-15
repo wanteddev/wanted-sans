@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (636,0);
+pos = (632,0);
 },
 {
 name = ogonek;
@@ -15,7 +15,7 @@ pos = (920,0);
 },
 {
 name = top;
-pos = (636,1032);
+pos = (632,1032);
 }
 );
 layerId = m01;
@@ -40,7 +40,7 @@ width = 1220;
 anchors = (
 {
 name = bottom;
-pos = (678,0);
+pos = (672,0);
 },
 {
 name = ogonek;
@@ -48,7 +48,7 @@ pos = (808,0);
 },
 {
 name = top;
-pos = (678,1032);
+pos = (672,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

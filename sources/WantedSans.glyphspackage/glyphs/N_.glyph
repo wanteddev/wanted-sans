@@ -4,6 +4,16 @@ kernLeft = H;
 kernRight = H;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (734,0);
+},
+{
+name = top;
+pos = (734,1448);
+}
+);
 background = {
 shapes = (
 {
@@ -128,6 +138,16 @@ nodes = (
 width = 1510;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (796,0);
+},
+{
+name = top;
+pos = (796,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 name = Black;
 shapes = (

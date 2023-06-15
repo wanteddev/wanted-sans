@@ -4,6 +4,24 @@ kernLeft = u;
 kernRight = u.cv04;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (554,0);
+},
+{
+name = ogonek;
+pos = (998,10);
+},
+{
+name = top;
+pos = (554,1032);
+},
+{
+name = topright;
+pos = (1088,1032);
+}
+);
 background = {
 shapes = (
 {
@@ -43,6 +61,24 @@ nodes = (
 width = 1108;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (652,0);
+},
+{
+name = ogonek;
+pos = (1172,10);
+},
+{
+name = top;
+pos = (652,1032);
+},
+{
+name = topright;
+pos = (1282,1032);
+}
+);
 background = {
 shapes = (
 {

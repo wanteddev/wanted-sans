@@ -4,6 +4,16 @@ kernLeft = s;
 kernRight = s;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (488,0);
+},
+{
+name = top;
+pos = (488,1032);
+}
+);
 background = {
 shapes = (
 {
@@ -698,6 +708,16 @@ nodes = (
 width = 976;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (486,0);
+},
+{
+name = top;
+pos = (486,1032);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 attr = {
 coordinates = (
@@ -2282,6 +2302,16 @@ nodes = (
 width = 972;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (486,0);
+},
+{
+name = top;
+pos = (486,1032);
+}
+);
 background = {
 shapes = (
 {

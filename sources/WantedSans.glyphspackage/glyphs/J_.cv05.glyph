@@ -4,19 +4,39 @@ kernLeft = J;
 kernRight = J;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (570,0);
+},
+{
+name = top;
+pos = (570,1448);
+}
+);
 layerId = m01;
 shapes = (
 {
 ref = J;
 },
 {
-pos = (336,0);
+pos = (340,0);
 ref = _part.Jserif;
 }
 );
 width = 1140;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (626,0);
+},
+{
+name = top;
+pos = (626,1448);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
