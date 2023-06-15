@@ -1,5 +1,7 @@
 {
 glyphname = fraction;
+kernLeft = fraction;
+kernRight = fraction;
 layers = (
 {
 anchors = (
