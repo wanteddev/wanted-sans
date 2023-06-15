@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-04-12 16:29:22 +0000";
+date = "2023-06-15 04:57:58 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -2317,11 +2317,11 @@ zero.dnom = 0;
 "@MMK_R_T" = -304;
 "@MMK_R_V" = -192;
 "@MMK_R_f" = -72;
+"@MMK_R_fraction" = 408;
 "@MMK_R_one" = -192;
 "@MMK_R_seven" = -208;
 "@MMK_R_v" = -128;
 "@MMK_R_x" = -24;
-"@MMK_R_fraction" = 408;
 };
 "@MMK_L_zero.numr" = {
 "@MMK_R_A" = -256;
@@ -2341,12 +2341,12 @@ zero.dnom = 0;
 "@MMK_R_U" = -64;
 "@MMK_R_V" = -280;
 "@MMK_R_f" = -96;
+"@MMK_R_fraction" = 488;
 "@MMK_R_lslash" = -32;
 "@MMK_R_one" = -192;
 "@MMK_R_seven" = -160;
 "@MMK_R_u" = -16;
 "@MMK_R_v" = -128;
-"@MMK_R_fraction" = 488;
 };
 "@MMK_L_zero.sups" = {
 "@MMK_R_A" = -224;
@@ -3742,11 +3742,11 @@ less.case = -72;
 "@MMK_R_T" = -240;
 "@MMK_R_V" = -240;
 "@MMK_R_f" = -64;
+"@MMK_R_fraction" = 392;
 "@MMK_R_nine" = -40;
 "@MMK_R_seven" = -160;
 "@MMK_R_v" = -128;
 "@MMK_R_x" = -80;
-"@MMK_R_fraction" = 392;
 };
 "@MMK_L_zero.numr" = {
 "@MMK_R_A" = -280;
@@ -3765,12 +3765,12 @@ less.case = -72;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -312;
 "@MMK_R_f" = -72;
+"@MMK_R_fraction" = 504;
 "@MMK_R_lslash" = -32;
 "@MMK_R_one" = -184;
 "@MMK_R_seven" = -160;
 "@MMK_R_u" = -32;
 "@MMK_R_v" = -184;
-"@MMK_R_fraction" = 504;
 };
 "@MMK_L_zero.sups" = {
 "@MMK_R_A" = -264;
