@@ -1,0 +1,220 @@
+{
+export = 0;
+glyphname = _smart.currencystem;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+layerId = m01;
+partSelection = {
+Open = 1;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,1616,l),
+(0,724,l)
+);
+},
+{
+attr = {
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,724,l),
+(0,-168,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+associatedMasterId = m01;
+layerId = "904EE491-434A-4BD4-8E26-99BCD1790E99";
+name = Open;
+partSelection = {
+Open = 2;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,1616,l),
+(0,1376,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,72,l),
+(0,-168,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+partSelection = {
+Thin = 1;
+Open = 1;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(0,1616,l),
+(0,724,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(0,724,l),
+(0,-168,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "A309EDFE-41A5-4C60-93B6-6EB828F3721E";
+name = Open;
+partSelection = {
+Thin = 1;
+Open = 2;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(0,1616,l),
+(0,1376,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(0,72,l),
+(0,-168,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "EA130C78-82AD-42A6-8B92-3996331DDD6E";
+name = Thin;
+partSelection = {
+Thin = 2;
+Open = 1;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,1616,l),
+(0,724,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,724,l),
+(0,-168,l)
+);
+}
+);
+width = 0;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Thin;
+topValue = 1;
+},
+{
+bottomValue = 0;
+name = Open;
+topValue = 100;
+}
+);
+}

@@ -1,0 +1,41 @@
+{
+glyphname = won;
+kernLeft = W;
+kernRight = W;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.wonbase;
+},
+{
+piece = {
+Width = 1738;
+};
+pos = (-26,0);
+ref = _smart.currencybar;
+}
+);
+width = 1810;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.wonbase;
+},
+{
+piece = {
+Open = 0;
+Width = 1890;
+};
+pos = (-26,0);
+ref = _smart.currencybar;
+}
+);
+width = 1962;
+}
+);
+unicode = 8361;
+}

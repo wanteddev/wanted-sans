@@ -317,6 +317,12 @@ nodes = (
 width = 1196;
 },
 {
+anchors = (
+{
+name = center;
+pos = (654,724);
+}
+);
 background = {
 annotations = (
 {
@@ -812,6 +818,12 @@ nodes = (
 width = 1194;
 },
 {
+anchors = (
+{
+name = center;
+pos = (614,724);
+}
+);
 background = {
 annotations = (
 {
