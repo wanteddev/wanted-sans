@@ -2,32 +2,15 @@
 glyphname = _part.dollarbase;
 layers = (
 {
-associatedMasterId = m01;
-layerId = "03F6059A-2EF2-4981-91A1-25A467FCE5ED";
-name = "Jun 15, 23 14:08";
-shapes = (
-{
-ref = S;
-}
-);
-userData = {
-RMXScaler = {
-height = 94.2;
-verticalShift = 42;
-width = 94.2;
-};
-};
-width = 1196;
-},
-{
 anchors = (
 {
 name = center;
 pos = (582,724);
 }
 );
-layerId = m01;
-name = Regular;
+associatedMasterId = m01;
+layerId = "0B20000F-AA03-43B3-9AE2-B461A83C05F9";
+name = "Jun 15, 23 14:10";
 shapes = (
 {
 closed = 1;
@@ -85,9 +68,8 @@ width = 94.2;
 width = 1132;
 },
 {
-associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-layerId = "1E6FB7F5-0021-43DB-BE99-C67739A36C58";
-name = "Jun 15, 23 14:08";
+layerId = m01;
+name = Regular;
 shapes = (
 {
 ref = S;
@@ -100,7 +82,7 @@ verticalShift = 42;
 width = 94.2;
 };
 };
-width = 1276;
+width = 1196;
 },
 {
 anchors = (
@@ -109,8 +91,9 @@ name = center;
 pos = (622,724);
 }
 );
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-name = Black;
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "AED54FD9-B712-4322-BF20-1F0BBA136952";
+name = "Jun 15, 23 14:10";
 shapes = (
 {
 closed = 1;
@@ -166,9 +149,25 @@ width = 94.2;
 };
 };
 width = 1212;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
+shapes = (
+{
+ref = S;
 }
 );
-note = "{\012  \"width\" : [\012    94.2,\012    94.2\012  ],\012  \"height\" : [\012    94.2,\012    94.2\012  ],\012  \"verticalShift\" : [\012    42,\012    42\012  ]\012}";
+userData = {
+RMXScaler = {
+height = 94.2;
+verticalShift = 42;
+width = 94.2;
+};
+};
+width = 1276;
+}
+);
 userData = {
 RMXScaler = {
 source = S;
