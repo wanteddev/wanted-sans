@@ -28,11 +28,11 @@ nodes = (
 layerId = m01;
 shapes = (
 {
-pos = (0,232);
+pos = (0,230);
 ref = minus;
 },
 {
-pos = (0,-232);
+pos = (0,-230);
 ref = minus;
 }
 );
