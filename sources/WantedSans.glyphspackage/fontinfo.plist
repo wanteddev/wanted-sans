@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2023-06-14 08:57:56 +0000";
+date = "2023-04-12 16:29:22 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -275,6 +275,8 @@ sub at by at.case;
 sub plus by plus.case;
 sub minus by minus.case;
 sub equal by equal.case;
+sub greater by greater.case;
+sub less by less.case;
 sub asciitilde by asciitilde.case;
 ";
 tag = case;
@@ -886,6 +888,7 @@ m01 = {
 "@MMK_R_five" = -16;
 "@MMK_R_hyphen" = -72;
 "@MMK_R_hyphen.case" = -104;
+"@MMK_R_less" = -48;
 "@MMK_R_lslash" = -32;
 "@MMK_R_nine" = -24;
 "@MMK_R_nine.cv11" = -96;
@@ -993,6 +996,7 @@ m01 = {
 "@MMK_R_g" = -48;
 "@MMK_R_hyphen" = -80;
 "@MMK_R_hyphen.case" = -80;
+"@MMK_R_less" = -144;
 "@MMK_R_lslash" = -32;
 "@MMK_R_nine" = -120;
 "@MMK_R_nine.cv11" = -152;
@@ -1065,6 +1069,7 @@ t.cv02 = -80;
 "@MMK_R_three" = -80;
 "@MMK_R_u" = -16;
 "@MMK_R_zero.subs" = -264;
+less = -48;
 };
 "@MMK_L_Q" = {
 "@MMK_R_J" = -32;
@@ -1127,6 +1132,7 @@ t.cv02 = -80;
 "@MMK_R_seven" = -48;
 "@MMK_R_six.cv11" = -24;
 "@MMK_R_three" = -40;
+less = -32;
 };
 "@MMK_L_S" = {
 "@MMK_R_T" = -32;
@@ -1177,6 +1183,7 @@ t.cv02 = -80;
 "@MMK_R_z" = -144;
 "@MMK_R_zero.dnom" = -304;
 "@MMK_R_zero.subs" = -304;
+less = -128;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -56;
@@ -1228,6 +1235,7 @@ t.cv02 = -80;
 "@MMK_R_zero.dnom" = -192;
 "@MMK_R_zero.subs" = -280;
 j.cv01 = 0;
+less = -88;
 };
 "@MMK_L_X" = {
 "@MMK_R_J" = -32;
@@ -1259,6 +1267,7 @@ j.cv01 = 0;
 "@MMK_R_u" = -32;
 "@MMK_R_v" = -48;
 "@MMK_R_zero.numr" = -48;
+less = -96;
 };
 "@MMK_L_Z" = {
 "@MMK_R_J" = -24;
@@ -1275,6 +1284,7 @@ j.cv01 = 0;
 "@MMK_R_slash" = -72;
 "@MMK_R_u" = -24;
 "@MMK_R_v" = -16;
+less = -32;
 };
 "@MMK_L_a" = {
 "@MMK_R_T" = -200;
@@ -1528,6 +1538,7 @@ asterisk = 0;
 "@MMK_R_slash.case" = -48;
 "@MMK_R_underscore" = -160;
 "@MMK_R_zero.subs" = -216;
+less = -24;
 };
 "@MMK_L_five" = {
 "@MMK_R_A" = -32;
@@ -1988,6 +1999,7 @@ j.cv01 = 0;
 "@MMK_R_v" = 24;
 "@MMK_R_zero.dnom" = -128;
 "@MMK_R_zero.subs" = -192;
+less = -32;
 };
 "@MMK_L_s" = {
 "@MMK_R_S" = -16;
@@ -2032,6 +2044,7 @@ j.cv01 = 0;
 "@MMK_R_z" = -32;
 "@MMK_R_zero.dnom" = -256;
 "@MMK_R_zero.subs" = -288;
+less = -88;
 six = 0;
 zero = 0;
 };
@@ -2346,6 +2359,15 @@ fraction = {
 "@MMK_R_zero.numr" = 424;
 "@MMK_R_zero.sups" = 496;
 };
+greater = {
+"@MMK_R_A" = -48;
+"@MMK_R_T" = -128;
+"@MMK_R_V" = -88;
+"@MMK_R_X" = -96;
+"@MMK_R_Z" = -32;
+"@MMK_R_f" = -24;
+"@MMK_R_seven" = -88;
+};
 j.cv01 = {
 "@MMK_R_V" = 0;
 };
@@ -2385,6 +2407,7 @@ zero.dnom = {
 "@MMK_R_five" = -32;
 "@MMK_R_hyphen" = -80;
 "@MMK_R_hyphen.case" = -128;
+"@MMK_R_less" = -112;
 "@MMK_R_lslash" = -32;
 "@MMK_R_nine" = -32;
 "@MMK_R_nine.cv11" = -128;
@@ -2621,6 +2644,7 @@ t.cv02 = -80;
 "@MMK_R_S" = -16;
 "@MMK_R_ampersand" = -40;
 "@MMK_R_asciicircum" = -96;
+"@MMK_R_asterisk" = 0;
 "@MMK_R_colon" = -64;
 "@MMK_R_eight" = -16;
 "@MMK_R_f" = -32;
@@ -2647,6 +2671,7 @@ t.cv02 = -80;
 "@MMK_R_z" = -72;
 "@MMK_R_zero.dnom" = -240;
 "@MMK_R_zero.subs" = -240;
+less = -104;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -88;
@@ -2698,6 +2723,7 @@ t.cv02 = -80;
 "@MMK_R_zero.dnom" = -240;
 "@MMK_R_zero.subs" = -312;
 j.cv01 = 0;
+less = -80;
 };
 "@MMK_L_X" = {
 "@MMK_R_J" = -40;
@@ -2730,6 +2756,7 @@ j.cv01 = 0;
 "@MMK_R_u" = -56;
 "@MMK_R_v" = -72;
 "@MMK_R_zero.numr" = -64;
+less = -104;
 };
 "@MMK_L_Z" = {
 "@MMK_R_J" = -24;
@@ -2743,6 +2770,7 @@ j.cv01 = 0;
 "@MMK_R_six.cv11" = -16;
 "@MMK_R_u" = -16;
 "@MMK_R_v" = -24;
+less = -24;
 };
 "@MMK_L_a" = {
 "@MMK_R_T" = -128;
@@ -2977,6 +3005,7 @@ j.cv01 = 0;
 "@MMK_R_slash.case" = -48;
 "@MMK_R_underscore" = -192;
 "@MMK_R_zero.subs" = -184;
+less = -24;
 };
 "@MMK_L_five" = {
 "@MMK_R_A" = -40;
@@ -3016,6 +3045,9 @@ j.cv01 = 0;
 "@MMK_R_j" = 56;
 "@MMK_R_jdotless" = 56;
 "@MMK_R_seven" = -40;
+};
+"@MMK_L_greater" = {
+"@MMK_R_A" = -112;
 };
 "@MMK_L_hyphen" = {
 "@MMK_R_A" = -80;
@@ -3404,6 +3436,7 @@ j.cv01 = 0;
 "@MMK_R_two" = -48;
 "@MMK_R_v" = 32;
 "@MMK_R_zero.subs" = -176;
+less = -16;
 };
 "@MMK_L_s" = {
 "@MMK_R_A" = -16;
@@ -3442,6 +3475,7 @@ j.cv01 = 0;
 "@MMK_R_z" = -32;
 "@MMK_R_zero.dnom" = -200;
 "@MMK_R_zero.subs" = -304;
+less = -72;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -72;
@@ -3733,6 +3767,14 @@ bracketright.case = {
 fraction = {
 "@MMK_R_zero.numr" = 416;
 "@MMK_R_zero.sups" = 512;
+};
+greater = {
+"@MMK_R_T" = -104;
+"@MMK_R_V" = -80;
+"@MMK_R_X" = -104;
+"@MMK_R_Z" = -24;
+"@MMK_R_f" = -24;
+"@MMK_R_seven" = -72;
 };
 j.cv01 = {
 "@MMK_R_V" = 0;
