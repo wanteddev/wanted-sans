@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = slash;
 kernLeft = slash;
 kernRight = slash;
@@ -45,6 +44,5 @@ nodes = (
 width = 782;
 }
 );
-note = $CASE;
 unicode = 47;
 }

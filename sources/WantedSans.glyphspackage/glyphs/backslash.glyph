@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = backslash;
 kernLeft = backslash;
 kernRight = backslash;
@@ -29,6 +28,5 @@ scale = (-1,1);
 width = 782;
 }
 );
-note = $CASE;
 unicode = 92;
 }

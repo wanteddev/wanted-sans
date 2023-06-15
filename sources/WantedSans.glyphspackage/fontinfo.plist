@@ -19,14 +19,31 @@ code = "a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z j.
 name = Lowercase;
 },
 {
-code = "$[category like \"Number\"]
+code = "$[subCategory like \"Currency\"]
+at
+ampersand
+question
+percent
+perthousand
+pertenthousand
+";
+name = Uniquecase;
+},
+{
+code = "$[subCategory like \"Decimal Digit\"]
 ";
 name = Numeral;
 },
 {
 code = "@Uppercase
-@Numeral";
+@Numeral
+@Uniquecase";
 name = Case;
+},
+{
+code = "$[category == \"Separator\"]
+";
+name = Separator;
 },
 {
 code = "$[colorIndex == 0 and note contains \"$CASE\"] 
@@ -75,22 +92,17 @@ code = "lookup LOOKUP_CALT_1 {
 ignore sub @CASE_L' @Lowercase;
 ignore sub @Lowercase @CASE_L';
 
-# Ignore specific glyphs
-@Slash = [
-slash
-backslash
-];
-
-ignore sub @Slash' @Case;
-ignore sub @Case @Slash';
-
 # Cut two more uppercase based glyphs
 ignore sub @CASE_L' @CASE_L;
 ignore sub @CASE_L @CASE_L';
+ignore sub @CASE_L' @Separator @CASE_L;
+ignore sub @CASE_L @Separator @CASE_L';
 
 # Align lowercase-based glyphs with uppercase: U-U
 sub @Case @CASE_L' by @CASE_R;
 sub @CASE_L' @Case by @CASE_R;
+sub @Case @Separator @CASE_L' by @CASE_R;
+sub @CASE_L' @Separator @Case by @CASE_R;
 } LOOKUP_CALT_1;
 
 lookup LOOKUP_CALT_2 {

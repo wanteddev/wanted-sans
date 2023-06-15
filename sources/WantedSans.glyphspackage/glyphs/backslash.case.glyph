@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = backslash.case;
 kernLeft = backslash.case;
 kernRight = backslash.case;
@@ -25,5 +24,4 @@ ref = backslash;
 width = 782;
 }
 );
-note = $CASE;
 }
