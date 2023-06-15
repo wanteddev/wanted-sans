@@ -2647,7 +2647,6 @@ t.cv02 = -80;
 "@MMK_R_z" = -72;
 "@MMK_R_zero.dnom" = -240;
 "@MMK_R_zero.subs" = -240;
-degree = 0;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -88;
@@ -2698,7 +2697,6 @@ degree = 0;
 "@MMK_R_z" = -80;
 "@MMK_R_zero.dnom" = -240;
 "@MMK_R_zero.subs" = -312;
-degree = 0;
 j.cv01 = 0;
 };
 "@MMK_L_X" = {
@@ -2732,7 +2730,6 @@ j.cv01 = 0;
 "@MMK_R_u" = -56;
 "@MMK_R_v" = -72;
 "@MMK_R_zero.numr" = -64;
-degree = -40;
 };
 "@MMK_L_Z" = {
 "@MMK_R_J" = -24;
@@ -3366,7 +3363,6 @@ A = 0;
 "@MMK_R_x" = -64;
 "@MMK_R_z" = -64;
 bracketleft = 0;
-degree = 0;
 j.cv01 = 0;
 };
 "@MMK_L_quotesingle" = {
@@ -3446,7 +3442,6 @@ j.cv01 = 0;
 "@MMK_R_z" = -32;
 "@MMK_R_zero.dnom" = -200;
 "@MMK_R_zero.subs" = -304;
-degree = 0;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -72;
@@ -3734,12 +3729,6 @@ bracketright = {
 bracketright.case = {
 "@MMK_R_j" = 56;
 "@MMK_R_jdotless" = 56;
-};
-degree = {
-"@MMK_R_T" = 0;
-"@MMK_R_V" = 0;
-"@MMK_R_X" = -40;
-"@MMK_R_seven" = 0;
 };
 fraction = {
 "@MMK_R_zero.numr" = 416;
