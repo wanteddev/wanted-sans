@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = uring;
+kernLeft = u;
+kernRight = a;
 layers = (
 {
 layerId = m01;

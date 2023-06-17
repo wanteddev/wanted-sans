@@ -1,6 +1,8 @@
 {
 color = 1;
 glyphname = hbrevebelow.cv14;
+kernLeft = l;
+kernRight = n;
 layers = (
 {
 layerId = m01;

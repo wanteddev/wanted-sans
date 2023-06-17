@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = adotbelow.cv03;
+kernLeft = g;
+kernRight = n;
 layers = (
 {
 layerId = m01;

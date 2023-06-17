@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Gmacron;
+kernLeft = O;
+kernRight = O;
 layers = (
 {
 layerId = m01;

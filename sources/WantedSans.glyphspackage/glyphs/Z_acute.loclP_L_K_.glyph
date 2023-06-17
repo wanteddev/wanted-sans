@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Zacute.loclPLK;
+kernLeft = Z;
+kernRight = Z;
 layers = (
 {
 layerId = m01;

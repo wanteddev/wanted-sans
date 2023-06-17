@@ -1,5 +1,8 @@
 {
+color = 3;
 glyphname = Ydotaccent;
+kernLeft = V;
+kernRight = V;
 layers = (
 {
 layerId = m01;

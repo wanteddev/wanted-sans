@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Cacute.loclPLK;
+kernLeft = O;
+kernRight = C;
 layers = (
 {
 layerId = m01;

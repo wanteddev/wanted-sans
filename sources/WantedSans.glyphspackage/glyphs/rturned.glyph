@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = rturned;
+kernLeft = j;
+kernRight = a;
 layers = (
 {
 layerId = m01;

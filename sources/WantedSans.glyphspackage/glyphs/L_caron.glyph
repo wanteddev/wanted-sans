@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Lcaron;
+kernLeft = H;
+kernRight = L;
 layers = (
 {
 background = {

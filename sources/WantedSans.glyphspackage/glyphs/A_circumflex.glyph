@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Acircumflex;
+kernLeft = A;
+kernRight = A;
 layers = (
 {
 layerId = m01;

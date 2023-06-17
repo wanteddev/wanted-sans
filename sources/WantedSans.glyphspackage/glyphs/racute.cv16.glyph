@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = racute.cv16;
+kernLeft = n;
+kernRight = r;
 layers = (
 {
 layerId = m01;

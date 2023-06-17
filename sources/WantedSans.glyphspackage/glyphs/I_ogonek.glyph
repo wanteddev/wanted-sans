@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Iogonek;
+kernLeft = H;
+kernRight = H;
 layers = (
 {
 layerId = m01;

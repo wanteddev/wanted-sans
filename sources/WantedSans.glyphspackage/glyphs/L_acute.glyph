@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Lacute;
+kernLeft = H;
+kernRight = L;
 layers = (
 {
 layerId = m01;

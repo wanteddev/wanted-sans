@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = mdotaccent;
+kernLeft = n;
+kernRight = n;
 layers = (
 {
 layerId = m01;

@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = rdotbelowmacron;
+kernLeft = n;
+kernRight = r;
 layers = (
 {
 layerId = m01;

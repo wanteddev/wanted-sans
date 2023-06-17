@@ -1,6 +1,8 @@
 {
 color = 1;
 glyphname = kcaron.cv14;
+kernLeft = l;
+kernRight = x;
 layers = (
 {
 layerId = m01;

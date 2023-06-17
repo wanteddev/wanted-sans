@@ -1,6 +1,8 @@
 {
 color = 1;
 glyphname = bdotbelow.cv14;
+kernLeft = l;
+kernRight = o;
 layers = (
 {
 layerId = m01;

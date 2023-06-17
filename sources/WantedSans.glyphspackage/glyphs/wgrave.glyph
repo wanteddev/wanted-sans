@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = wgrave;
+kernLeft = v;
+kernRight = v;
 layers = (
 {
 layerId = m01;

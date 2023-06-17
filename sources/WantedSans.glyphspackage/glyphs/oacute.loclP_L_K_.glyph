@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = oacute.loclPLK;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 layerId = m01;

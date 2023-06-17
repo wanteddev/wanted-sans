@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Tcommaaccent;
+kernLeft = T;
+kernRight = T;
 layers = (
 {
 layerId = m01;

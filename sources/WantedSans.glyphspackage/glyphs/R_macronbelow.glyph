@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Rmacronbelow;
+kernLeft = H;
+kernRight = R;
 layers = (
 {
 layerId = m01;

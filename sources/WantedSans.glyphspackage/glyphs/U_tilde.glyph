@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Utilde;
+kernLeft = U;
+kernRight = U;
 layers = (
 {
 layerId = m01;

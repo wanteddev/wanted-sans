@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = jacute;
+kernLeft = j;
+kernRight = j;
 layers = (
 {
 layerId = m01;

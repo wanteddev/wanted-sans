@@ -1,6 +1,8 @@
 {
 color = 1;
 glyphname = ddotbelow.cv14;
+kernLeft = o;
+kernRight = l;
 layers = (
 {
 layerId = m01;

@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = ecedilla;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 layerId = m01;

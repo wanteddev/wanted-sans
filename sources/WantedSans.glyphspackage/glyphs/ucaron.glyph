@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = ucaron;
+kernLeft = u;
+kernRight = a;
 layers = (
 {
 layerId = m01;

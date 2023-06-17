@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = "alphaturned-latin";
+kernLeft = o;
+kernRight = a;
 layers = (
 {
 layerId = m01;

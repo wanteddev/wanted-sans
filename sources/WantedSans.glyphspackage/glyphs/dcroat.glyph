@@ -1,6 +1,8 @@
 {
 color = 0;
 glyphname = dcroat;
+kernLeft = o;
+kernRight = lslash;
 layers = (
 {
 layerId = m01;

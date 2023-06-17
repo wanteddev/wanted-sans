@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = zmacronbelow;
+kernLeft = z;
+kernRight = z;
 layers = (
 {
 layerId = m01;

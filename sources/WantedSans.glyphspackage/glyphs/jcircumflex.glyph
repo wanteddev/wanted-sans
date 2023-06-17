@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = jcircumflex;
+kernLeft = j;
+kernRight = j;
 layers = (
 {
 layerId = m01;

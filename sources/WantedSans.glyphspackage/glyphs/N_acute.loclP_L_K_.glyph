@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Nacute.loclPLK;
+kernLeft = H;
+kernRight = H;
 layers = (
 {
 layerId = m01;

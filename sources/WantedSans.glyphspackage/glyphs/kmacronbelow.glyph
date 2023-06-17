@@ -1,6 +1,8 @@
 {
 color = 0;
 glyphname = kmacronbelow;
+kernLeft = l;
+kernRight = x;
 layers = (
 {
 layerId = m01;

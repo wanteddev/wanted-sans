@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Edotbelow;
+kernLeft = H;
+kernRight = E;
 layers = (
 {
 layerId = m01;

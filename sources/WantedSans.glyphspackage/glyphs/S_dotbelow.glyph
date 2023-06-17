@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Sdotbelow;
+kernLeft = S;
+kernRight = S;
 layers = (
 {
 layerId = m01;

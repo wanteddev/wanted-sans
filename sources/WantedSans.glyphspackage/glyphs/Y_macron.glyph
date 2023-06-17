@@ -1,6 +1,8 @@
 {
 color = 3;
 glyphname = Ymacron;
+kernLeft = V;
+kernRight = V;
 layers = (
 {
 layerId = m01;

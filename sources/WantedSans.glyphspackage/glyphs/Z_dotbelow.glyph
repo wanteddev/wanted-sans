@@ -1,5 +1,8 @@
 {
+color = 3;
 glyphname = Zdotbelow;
+kernLeft = Z;
+kernRight = Z;
 layers = (
 {
 layerId = m01;
