@@ -45,7 +45,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x104e69400;
+identifier = ID0x2828b08a0;
 strokePos = 1;
 };
 closed = 1;
@@ -107,7 +107,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x2ba3a78b0;
+identifier = ID0x2828b7fc0;
 strokePos = "1";
 };
 closed = 1;

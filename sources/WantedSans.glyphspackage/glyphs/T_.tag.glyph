@@ -32,7 +32,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x2ba331c10;
+identifier = ID0x281843000;
 strokePos = "0";
 };
 closed = 1;
@@ -90,7 +90,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x2ba3d6bc0;
+identifier = ID0x281847700;
 strokePos = "0";
 };
 closed = 1;
