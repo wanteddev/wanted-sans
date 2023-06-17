@@ -1,0 +1,34 @@
+{
+color = 0;
+glyphname = ddotbelow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (610,0);
+ref = dotbelowcomb;
+}
+);
+width = 1220;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = d;
+},
+{
+pos = (658,0);
+ref = dotbelowcomb;
+}
+);
+width = 1316;
+}
+);
+note = $EXTRA_STEM_LOWERCASE;
+unicode = 7693;
+}
