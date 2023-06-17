@@ -1,0 +1,54 @@
+{
+color = 0;
+glyphname = approxequal;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = equal;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,230);
+ref = asciitilde;
+},
+{
+pos = (0,-230);
+ref = asciitilde;
+}
+);
+width = 1280;
+},
+{
+background = {
+shapes = (
+{
+ref = equal;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,264);
+ref = asciitilde;
+},
+{
+pos = (0,-264);
+ref = asciitilde;
+}
+);
+width = 1440;
+}
+);
+metricLeft = asciitilde;
+metricRight = asciitilde;
+note = $CASE;
+unicode = 8776;
+}
