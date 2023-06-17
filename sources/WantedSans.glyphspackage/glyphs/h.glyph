@@ -62,7 +62,7 @@ pos = (508,0);
 ref = _smart.shoulder;
 }
 );
-width = 1334;
+width = 1336;
 }
 );
 note = $EXTRA_STEM_LOWERCASE;
