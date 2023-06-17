@@ -1,41 +1,40 @@
 {
 color = 3;
-glyphname = rdotbelowmacron;
+glyphname = abrevedotbelow.cv03;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = r;
+ref = a.cv03;
 },
 {
-pos = (216,0);
+pos = (534,0);
 ref = dotbelowcomb;
 },
 {
-pos = (384,0);
-ref = macroncomb;
+pos = (534,0);
+ref = brevecomb;
 }
 );
-width = 766;
+width = 1068;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = r;
+ref = a.cv03;
 },
 {
-pos = (308,0);
+pos = (594,0);
 ref = dotbelowcomb;
 },
 {
-pos = (480,0);
-ref = macroncomb;
+pos = (594,0);
+ref = brevecomb;
 }
 );
-width = 960;
+width = 1188;
 }
 );
-unicode = 7773;
 }

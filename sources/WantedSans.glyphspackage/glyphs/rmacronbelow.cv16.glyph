@@ -1,34 +1,31 @@
 {
-color = 0;
-glyphname = hmacronbelow;
+glyphname = rmacronbelow.cv16;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = h;
+ref = r.cv16;
 },
 {
-pos = (552,0);
+pos = (216,0);
 ref = macronbelowcomb;
 }
 );
-width = 1104;
+width = 660;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = h;
+ref = r.cv16;
 },
 {
-pos = (668,0);
+pos = (308,0);
 ref = macronbelowcomb;
 }
 );
-width = 1336;
+width = 1092;
 }
 );
-note = $EXTRA_STEM_LOWERCASE;
-unicode = 7830;
 }

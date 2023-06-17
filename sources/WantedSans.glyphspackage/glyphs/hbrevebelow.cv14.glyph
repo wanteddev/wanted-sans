@@ -1,12 +1,12 @@
 {
-color = 0;
-glyphname = hbrevebelow;
+color = 1;
+glyphname = hbrevebelow.cv14;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = h;
+ref = h.cv14;
 },
 {
 pos = (552,0);
@@ -19,7 +19,7 @@ width = 1104;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = h;
+ref = h.cv14;
 },
 {
 pos = (668,0);
@@ -30,5 +30,4 @@ width = 1336;
 }
 );
 note = $EXTRA_STEM_LOWERCASE;
-unicode = 7723;
 }
