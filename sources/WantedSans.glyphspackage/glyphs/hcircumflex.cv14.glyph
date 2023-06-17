@@ -1,0 +1,33 @@
+{
+color = 1;
+glyphname = hcircumflex.cv14;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.cv14;
+},
+{
+pos = (216,480);
+ref = circumflexcomb;
+}
+);
+width = 1104;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = h.cv14;
+},
+{
+pos = (308,480);
+ref = circumflexcomb;
+}
+);
+width = 1336;
+}
+);
+note = $EXTRA_STEM_LOWERCASE;
+}

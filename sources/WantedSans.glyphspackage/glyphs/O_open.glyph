@@ -1,0 +1,31 @@
+{
+color = 3;
+glyphname = Oopen;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1464,0);
+ref = C;
+scale = (-1,1);
+}
+);
+width = 1464;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (1562,0);
+ref = C;
+scale = (-1,1);
+}
+);
+width = 1562;
+}
+);
+unicode = 390;
+}

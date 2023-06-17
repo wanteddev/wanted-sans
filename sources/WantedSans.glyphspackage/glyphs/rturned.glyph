@@ -1,0 +1,29 @@
+{
+color = 3;
+glyphname = rturned;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (766,1032);
+ref = r;
+}
+);
+width = 766;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+angle = 180;
+pos = (960,1032);
+ref = r;
+}
+);
+width = 960;
+}
+);
+unicode = 633;
+}

@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = gmacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (610,0);
+ref = macroncomb;
+}
+);
+width = 1220;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = g;
+},
+{
+pos = (658,0);
+ref = macroncomb;
+}
+);
+width = 1314;
+}
+);
+unicode = 7713;
+}

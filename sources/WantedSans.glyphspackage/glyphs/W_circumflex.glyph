@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = Wcircumflex;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = W;
+},
+{
+pos = (1056,416);
+ref = circumflexcomb;
+}
+);
+width = 2112;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = W;
+},
+{
+pos = (1132,416);
+ref = circumflexcomb;
+}
+);
+width = 2264;
+}
+);
+unicode = 372;
+}

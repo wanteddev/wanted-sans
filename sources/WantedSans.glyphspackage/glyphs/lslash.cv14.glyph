@@ -1,4 +1,5 @@
 {
+color = 1;
 glyphname = lslash.cv14;
 kernLeft = lslash;
 kernRight = lslash;
@@ -40,4 +41,5 @@ width = 784;
 }
 );
 metricLeft = t;
+note = $EXTRA_STEM_LOWERCASE;
 }

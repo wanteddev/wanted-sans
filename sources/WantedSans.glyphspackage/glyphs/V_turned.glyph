@@ -1,0 +1,31 @@
+{
+color = 3;
+glyphname = Vturned;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,1448);
+ref = V;
+scale = (1,-1);
+}
+);
+width = 1416;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,1448);
+ref = V;
+scale = (1,-1);
+}
+);
+width = 1584;
+}
+);
+unicode = 581;
+}

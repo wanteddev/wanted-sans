@@ -1,0 +1,41 @@
+{
+glyphname = threequarters.cv09.cv10;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = three.numr.cv09;
+},
+{
+pos = (646,0);
+ref = fraction;
+},
+{
+pos = (902,0);
+ref = four.dnom.cv10;
+}
+);
+width = 1576;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = three.numr.cv09;
+},
+{
+pos = (754,0);
+ref = fraction;
+},
+{
+pos = (1066,0);
+ref = four.dnom.cv10;
+}
+);
+width = 1870;
+}
+);
+metricLeft = three.numr;
+metricRight = three.numr;
+}

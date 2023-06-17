@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z J.cv05 Q.cv06";
+code = "A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hcircumflex I Iacute Icaron Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M Macute N Nacute Ncaron Ncommaaccent Ndotaccent Ntilde O Oacute Ocaron Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde P Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucaron Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
 name = Uppercase;
 },
 {
@@ -73,7 +73,7 @@ value = (
 );
 }
 );
-date = "2023-06-15 07:49:04 +0000";
+date = "2023-06-15 17:19:08 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -81,8 +81,16 @@ automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
 languagesystem latn PLK;
 languagesystem latn CAT;
+languagesystem latn NLD;
 ";
 name = Languagesystems;
 },
@@ -150,30 +158,81 @@ tag = aalt;
 {
 automatic = 1;
 code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	@Markscomb = [ogonekcomb];
+	@MarkscombCase = [ogonekcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
 code = "script latn;
-language PLK;
+language AZE;
 lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language PLK;
+lookup locl_latn_2 {
+	sub Cacute by Cacute.loclPLK;
+	sub Nacute by Nacute.loclPLK;
+	sub Oacute by Oacute.loclPLK;
+	sub Sacute by Sacute.loclPLK;
+	sub Zacute by Zacute.loclPLK;
 	sub aacute by aacute.loclPLK;
+	sub cacute by cacute.loclPLK;
+	sub nacute by nacute.loclPLK;
+	sub oacute by oacute.loclPLK;
+	sub sacute by sacute.loclPLK;
+	sub zacute by zacute.loclPLK;
 	sub acutecomb by acutecomb.loclPLK;
 	sub acute by acute.loclPLK;
-} locl_latn_0;
+} locl_latn_2;
 
 script latn;
 language CAT;
-lookup locl_latn_1 {
+lookup locl_latn_3 {
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_1;
+} locl_latn_3;
+
+script latn;
+language NLD;
+lookup locl_latn_4 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_4;
 ";
 tag = locl;
 },
@@ -290,6 +349,7 @@ sub equal by equal.case;
 sub greater by greater.case;
 sub less by less.case;
 sub asciitilde by asciitilde.case;
+sub ogonekcomb by ogonekcomb.case;
 ";
 tag = case;
 },
@@ -349,6 +409,7 @@ sub amacron by amacron.cv03;
 sub aogonek by aogonek.cv03;
 sub aring by aring.cv03;
 sub atilde by atilde.cv03;
+sub aturned by aturned.cv03;
 sub aacute.loclPLK by aacute.loclPLK.cv03;
 ";
 tag = cv03;
@@ -356,12 +417,25 @@ tag = cv03;
 {
 automatic = 1;
 code = "sub u by u.cv04;
+sub uacute by uacute.cv04;
+sub ubreve by ubreve.cv04;
+sub ucaron by ucaron.cv04;
+sub ucircumflex by ucircumflex.cv04;
+sub udieresis by udieresis.cv04;
+sub ugrave by ugrave.cv04;
+sub uhungarumlaut by uhungarumlaut.cv04;
+sub umacron by umacron.cv04;
+sub uogonek by uogonek.cv04;
+sub uring by uring.cv04;
+sub utilde by utilde.cv04;
 ";
 tag = cv04;
 },
 {
 automatic = 1;
 code = "sub J by J.cv05;
+sub Jacute by Jacute.cv05;
+sub Jcircumflex by Jcircumflex.cv05;
 ";
 tag = cv05;
 },
@@ -376,6 +450,9 @@ automatic = 1;
 code = "sub one by one.cv07;
 sub one.dnom by one.dnom.cv07;
 sub one.numr by one.numr.cv07;
+sub onehalf by onehalf.cv07;
+sub onequarter by onequarter.cv07;
+sub oneeighth by oneeighth.cv07;
 sub oneinferior by oneinferior.cv07;
 sub onesuperior by onesuperior.cv07;
 ";
@@ -386,6 +463,8 @@ automatic = 1;
 code = "sub two by two.cv08;
 sub two.dnom by two.dnom.cv08;
 sub two.numr by two.numr.cv08;
+sub onehalf by onehalf.cv08;
+sub onehalf.cv07 by onehalf.cv07.cv08;
 sub twoinferior by twoinferior.cv08;
 sub twosuperior by twosuperior.cv08;
 ";
@@ -396,6 +475,8 @@ automatic = 1;
 code = "sub three by three.cv09;
 sub three.dnom by three.dnom.cv09;
 sub three.numr by three.numr.cv09;
+sub threequarters by threequarters.cv09;
+sub threeeighths by threeeighths.cv09;
 sub threeinferior by threeinferior.cv09;
 sub threesuperior by threesuperior.cv09;
 ";
@@ -406,6 +487,10 @@ automatic = 1;
 code = "sub four by four.cv10;
 sub four.dnom by four.dnom.cv10;
 sub four.numr by four.numr.cv10;
+sub onequarter by onequarter.cv10;
+sub threequarters by threequarters.cv10;
+sub onequarter.cv07 by onequarter.cv07.cv10;
+sub threequarters.cv09 by threequarters.cv09.cv10;
 sub fourinferior by fourinferior.cv10;
 sub foursuperior by foursuperior.cv10;
 ";
@@ -431,6 +516,7 @@ automatic = 1;
 code = "sub seven by seven.cv12;
 sub seven.dnom by seven.dnom.cv12;
 sub seven.numr by seven.numr.cv12;
+sub seveneighths by seveneighths.cv12;
 sub seveninferior by seveninferior.cv12;
 sub sevensuperior by sevensuperior.cv12;
 ";
@@ -447,9 +533,18 @@ tag = cv13;
 automatic = 1;
 code = "sub b by b.cv14;
 sub d by d.cv14;
+sub dcaron by dcaron.cv14;
+sub dcroat by dcroat.cv14;
 sub h by h.cv14;
+sub hbar by hbar.cv14;
+sub hcircumflex by hcircumflex.cv14;
 sub k by k.cv14;
+sub kcaron by kcaron.cv14;
+sub kcommaaccent by kcommaaccent.cv14;
 sub l by l.cv14;
+sub lacute by lacute.cv14;
+sub lcaron by lcaron.cv14;
+sub lcommaaccent by lcommaaccent.cv14;
 sub lslash by lslash.cv14;
 ";
 tag = cv14;
@@ -459,6 +554,8 @@ automatic = 1;
 code = "sub two by two.cv15;
 sub two.dnom by two.dnom.cv15;
 sub two.numr by two.numr.cv15;
+sub onehalf by onehalf.cv15;
+sub onehalf.cv07 by onehalf.cv07.cv15;
 sub twoinferior by twoinferior.cv15;
 sub twosuperior by twosuperior.cv15;
 ";
@@ -467,6 +564,10 @@ tag = cv15;
 {
 automatic = 1;
 code = "sub r by r.cv16;
+sub racute by racute.cv16;
+sub rcaron by rcaron.cv16;
+sub rcommaaccent by rcommaaccent.cv16;
+sub rturned by rturned.cv16;
 ";
 tag = cv16;
 },

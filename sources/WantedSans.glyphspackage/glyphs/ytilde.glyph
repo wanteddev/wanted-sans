@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = ytilde;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (544,0);
+ref = tildecomb;
+}
+);
+width = 1088;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (662,0);
+ref = tildecomb;
+}
+);
+width = 1324;
+}
+);
+unicode = 7929;
+}

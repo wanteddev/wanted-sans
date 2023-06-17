@@ -1,0 +1,32 @@
+{
+color = 3;
+glyphname = udieresis.cv04;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.cv04;
+},
+{
+pos = (554,0);
+ref = dieresiscomb;
+}
+);
+width = 1108;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = u.cv04;
+},
+{
+pos = (652,0);
+ref = dieresiscomb;
+}
+);
+width = 1304;
+}
+);
+}
