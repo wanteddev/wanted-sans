@@ -49,15 +49,14 @@ metricLeft = "=0";
 shapes = (
 {
 attr = {
-lineCapEnd = "3";
-strokeHeight = 168;
 strokePos = "0";
-strokeWidth = 180;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(564,1280,l),
+(564,1448,l),
 (0,1448,l),
-(480,1448,l)
+(0,1280,l)
 );
 }
 );
@@ -109,14 +108,14 @@ metricLeft = "=0";
 shapes = (
 {
 attr = {
-lineCapEnd = "3";
 strokePos = "0";
-strokeWidth = 392;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(538,1056,l),
+(538,1448,l),
 (0,1448,l),
-(342,1448,l)
+(0,1056,l)
 );
 }
 );

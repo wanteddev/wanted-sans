@@ -20,6 +20,17 @@ nodes = (
 },
 {
 ref = f;
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
+nodes = (
+(76,1032,l),
+(700,1032,l)
+);
 }
 );
 };
@@ -34,12 +45,13 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 140;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(700,892,l),
+(700,1032,l),
 (76,1032,l),
-(700,1032,l)
+(76,892,l)
 );
 }
 );
@@ -63,6 +75,17 @@ nodes = (
 (868,1448,l),
 (868,0,l)
 );
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(60,1032,l),
+(868,1032,l)
+);
 }
 );
 };
@@ -77,12 +100,13 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 304;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(868,728,l),
+(868,1032,l),
 (60,1032,l),
-(868,1032,l)
+(60,728,l)
 );
 }
 );
@@ -107,6 +131,17 @@ nodes = (
 },
 {
 ref = t;
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
+nodes = (
+(52,1032,l),
+(652,1032,l)
+);
 }
 );
 };
@@ -122,12 +157,13 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 140;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(652,892,l),
+(652,1032,l),
 (52,1032,l),
-(652,1032,l)
+(52,892,l)
 );
 }
 );
@@ -152,6 +188,17 @@ nodes = (
 },
 {
 ref = t;
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(44,1032,l),
+(836,1032,l)
+);
 }
 );
 };
@@ -167,12 +214,13 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 304;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(836,728,l),
+(836,1032,l),
 (44,1032,l),
-(836,1032,l)
+(44,728,l)
 );
 }
 );
@@ -190,6 +238,17 @@ background = {
 shapes = (
 {
 ref = t.cv02;
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 140;
+};
+closed = 0;
+nodes = (
+(52,1032,l),
+(636,1032,l)
+);
 }
 );
 };
@@ -205,12 +264,13 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 140;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(636,892,l),
+(636,1032,l),
 (52,1032,l),
-(636,1032,l)
+(52,892,l)
 );
 }
 );
@@ -228,6 +288,17 @@ background = {
 shapes = (
 {
 ref = t.cv02;
+},
+{
+attr = {
+strokePos = "0";
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(44,1032,l),
+(812,1032,l)
+);
 }
 );
 };
@@ -243,12 +314,13 @@ shapes = (
 {
 attr = {
 strokePos = "0";
-strokeWidth = 304;
 };
-closed = 0;
+closed = 1;
 nodes = (
+(812,728,l),
+(812,1032,l),
 (44,1032,l),
-(812,1032,l)
+(44,728,l)
 );
 }
 );

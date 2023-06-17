@@ -319,6 +319,10 @@ width = 1196;
 {
 anchors = (
 {
+name = _center;
+pos = (654,724);
+},
+{
 name = bottom;
 pos = (656,0);
 },
@@ -827,6 +831,10 @@ width = 1194;
 },
 {
 anchors = (
+{
+name = _center;
+pos = (614,724);
+},
 {
 name = bottom;
 pos = (608,0);

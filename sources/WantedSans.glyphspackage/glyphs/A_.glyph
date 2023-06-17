@@ -6,6 +6,10 @@ layers = (
 {
 anchors = (
 {
+name = _center;
+pos = (708,724);
+},
+{
 name = bottom;
 pos = (708,0);
 },
@@ -167,6 +171,10 @@ width = 1468;
 {
 anchors = (
 {
+name = _center;
+pos = (800,724);
+},
+{
 name = bottom;
 pos = (800,0);
 },
@@ -262,12 +270,16 @@ width = 1600;
 {
 anchors = (
 {
+name = _center;
+pos = (764,724);
+},
+{
 name = bottom;
 pos = (764,0);
 },
 {
 name = ogonek;
-pos = (1376,10);
+pos = (1134,0);
 },
 {
 name = top;
