@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = idotless;
 kernLeft = n;
 kernRight = a;
@@ -8,6 +9,10 @@ anchors = (
 {
 name = bottom;
 pos = (216,0);
+},
+{
+name = center;
+pos = (216,540);
 },
 {
 name = ogonek;
@@ -34,6 +39,10 @@ anchors = (
 {
 name = bottom;
 pos = (308,0);
+},
+{
+name = center;
+pos = (308,540);
 },
 {
 name = ogonek;

@@ -58,7 +58,7 @@ ref = idotless;
 layerId = m01;
 metricWidth = "=0";
 partSelection = {
-a.cv03 = 1;
+Width = 2;
 };
 shapes = (
 {
@@ -109,43 +109,37 @@ text = "https://typedrawers.com/discussion/1184/modernist-solutions-for-the-ogon
 type = Text;
 }
 );
-shapes = (
-{
-pos = (-764,0);
-ref = a.cv03;
-}
-);
 };
 layerId = "3849D437-D1C7-47D4-995C-E49F0F4F315D";
 metricWidth = "=0";
-name = a.cv03;
+name = Width;
 partSelection = {
-a.cv03 = 2;
+Width = 1;
 };
 shapes = (
 {
 closed = 1;
 nodes = (
-(88,-460,o),
-(134,-450,o),
-(172,-434,c),
-(172,-332,l),
-(146,-340,o),
-(122,-344,o),
-(100,-344,cs),
-(30,-344,o),
-(-12,-304,o),
+(68,-460,o),
+(108,-450,o),
+(144,-434,c),
+(144,-332,l),
+(124,-340,o),
+(104,-344,o),
+(84,-344,cs),
+(24,-344,o),
+(-12,-306,o),
 (-12,-238,cs),
 (-12,-156,o),
-(52,-72,o),
-(172,0,c),
+(42,-72,o),
+(144,0,c),
 (0,0,l),
 (-118,-62,o),
 (-180,-158,o),
 (-180,-262,cs),
-(-180,-384,o),
-(-94,-460,o),
-(40,-460,cs)
+(-180,-382,o),
+(-98,-460,o),
+(24,-460,cs)
 );
 }
 );
@@ -232,7 +226,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricWidth = "=0";
 name = Black;
 partSelection = {
-a.cv03 = 1;
+Width = 2;
 };
 shapes = (
 {
@@ -280,9 +274,9 @@ ref = a.cv03;
 };
 layerId = "83186B7A-6C61-4023-879F-C35339EED77E";
 metricWidth = "=0";
-name = a.cv03;
+name = Width;
 partSelection = {
-a.cv03 = 2;
+Width = 1;
 };
 shapes = (
 {
@@ -487,13 +481,74 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = m01;
+background = {
+annotations = (
+{
+pos = (-80,-146);
+text = "https://www.twardoch.com/download/polishhowto/ogonek.html";
+type = Text;
+},
+{
+pos = (2,-66);
+text = "https://typedrawers.com/discussion/1184/modernist-solutions-for-the-ogonek";
+type = Text;
+}
+);
+shapes = (
+{
+pos = (-764,0);
+ref = a.cv03;
+}
+);
+};
+layerId = "5445BE34-CBAE-450D-B15C-BCED698E6F14";
+metricWidth = "=0";
+name = a.cv03;
+partSelection = {
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,-460,o),
+(134,-450,o),
+(172,-434,c),
+(172,-332,l),
+(146,-340,o),
+(122,-344,o),
+(100,-344,cs),
+(30,-344,o),
+(-12,-304,o),
+(-12,-238,cs),
+(-12,-156,o),
+(52,-72,o),
+(172,0,c),
+(0,0,l),
+(-118,-62,o),
+(-180,-158,o),
+(-180,-262,cs),
+(-180,-384,o),
+(-94,-460,o),
+(40,-460,cs)
+);
+}
+);
+width = 0;
 }
 );
 partsSettings = (
 {
 bottomValue = 0;
-name = a.cv03;
-topValue = 1;
+name = Width;
+topValue = 24;
 }
 );
 }

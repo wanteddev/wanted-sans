@@ -5,6 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (512,0);
 ref = gravecomb;
 }
