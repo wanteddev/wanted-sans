@@ -16,6 +16,7 @@ Double = 1;
 Kreska = 1;
 Comma = 1;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -44,6 +45,7 @@ Double = 1;
 Kreska = 1;
 Comma = 1;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -74,6 +76,7 @@ Double = 2;
 Kreska = 1;
 Comma = 1;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -104,6 +107,7 @@ Double = 2;
 Kreska = 1;
 Comma = 1;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -148,6 +152,7 @@ Double = 1;
 Kreska = 2;
 Comma = 1;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -187,6 +192,7 @@ Double = 1;
 Kreska = 2;
 Comma = 1;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -217,6 +223,7 @@ Double = 1;
 Kreska = 1;
 Comma = 2;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -247,6 +254,7 @@ Double = 1;
 Kreska = 1;
 Comma = 2;
 "Comma Above" = 1;
+Above = 1;
 };
 shapes = (
 {
@@ -277,6 +285,7 @@ Double = 1;
 Kreska = 1;
 Comma = 2;
 "Comma Above" = 2;
+Above = 1;
 };
 shapes = (
 {
@@ -307,6 +316,7 @@ Double = 1;
 Kreska = 1;
 Comma = 2;
 "Comma Above" = 2;
+Above = 1;
 };
 shapes = (
 {
@@ -316,6 +326,68 @@ nodes = (
 (162,1496,l),
 (38,1496,l),
 (-82,1192,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "9B010235-F179-4D6D-9418-04CB8B4F34BA";
+metricWidth = "=0";
+name = Above;
+partSelection = {
+Double = 1;
+Kreska = 1;
+Comma = 1;
+"Comma Above" = 1;
+Above = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,1192,l),
+(-100,1528,l),
+(-288,1528,l),
+(-78,1192,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "5FF8F216-1D81-4F34-86B0-9B1ABDC704D2";
+metricWidth = "=0";
+name = Above;
+partSelection = {
+Double = 1;
+Kreska = 1;
+Comma = 1;
+"Comma Above" = 1;
+Above = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,1152,l),
+(-40,1492,l),
+(-448,1492,l),
+(-168,1152,l)
 );
 }
 );
@@ -341,6 +413,11 @@ topValue = 1;
 {
 bottomValue = 0;
 name = "Comma Above";
+topValue = 1;
+},
+{
+bottomValue = 0;
+name = Above;
 topValue = 1;
 }
 );

@@ -1,0 +1,60 @@
+{
+glyphname = circumflexbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(-300,-460,l),
+(300,-460,l)
+);
+}
+);
+};
+layerId = m01;
+metricWidth = "=0";
+shapes = (
+{
+pos = (0,-1686);
+ref = circumflexcomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(-300,-460,l),
+(300,-460,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+shapes = (
+{
+pos = (0,-1612);
+ref = circumflexcomb;
+}
+);
+width = 0;
+}
+);
+unicode = 813;
+}

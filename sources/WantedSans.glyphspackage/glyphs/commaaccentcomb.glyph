@@ -53,6 +53,7 @@ shapes = (
 alignment = -1;
 angle = 180;
 piece = {
+Above = 0;
 Comma = 1;
 "Comma Above" = 0;
 };
