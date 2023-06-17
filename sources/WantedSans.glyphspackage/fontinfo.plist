@@ -391,6 +391,9 @@ tag = cv01;
 {
 automatic = 1;
 code = "sub t by t.cv02;
+sub tcaron by tcaron.cv02;
+sub tcedilla by tcedilla.cv02;
+sub tcommaaccent by tcommaaccent.cv02;
 ";
 tag = cv02;
 },
