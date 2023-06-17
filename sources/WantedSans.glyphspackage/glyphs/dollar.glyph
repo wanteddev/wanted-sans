@@ -43,7 +43,7 @@ attr = {
 axisRules = (
 {
 max = 900;
-min = 600.001;
+min = 600.01;
 }
 );
 };
