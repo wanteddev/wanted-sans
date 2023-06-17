@@ -62,5 +62,7 @@ ref = caroncomb;
 width = 0;
 }
 );
+metricLeft = caroncomb;
+metricRight = caroncomb;
 unicode = 812;
 }

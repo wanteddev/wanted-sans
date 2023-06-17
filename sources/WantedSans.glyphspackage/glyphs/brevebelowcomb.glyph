@@ -15,6 +15,7 @@ ref = caronbelowcomb;
 );
 };
 layerId = m01;
+metricRight = "=|";
 metricWidth = "=0";
 shapes = (
 {
@@ -52,6 +53,7 @@ ref = caronbelowcomb;
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
 metricWidth = "=0";
 shapes = (
 {

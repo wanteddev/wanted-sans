@@ -48,5 +48,7 @@ ref = tildecomb;
 width = 0;
 }
 );
+metricLeft = tildecomb;
+metricRight = tildecomb;
 unicode = 816;
 }

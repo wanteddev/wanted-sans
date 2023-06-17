@@ -50,5 +50,7 @@ scale = (1,-1);
 width = 0;
 }
 );
+metricLeft = brevebelowcomb;
+metricRight = brevebelowcomb;
 unicode = 815;
 }
