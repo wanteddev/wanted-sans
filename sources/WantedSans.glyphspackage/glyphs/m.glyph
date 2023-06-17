@@ -28,6 +28,7 @@ ref = _smart.shoulder;
 },
 {
 piece = {
+Intermediate = 1;
 Narrow = 70;
 };
 pos = (926,0);
@@ -61,6 +62,7 @@ ref = _smart.shoulder;
 },
 {
 piece = {
+Intermediate = 1;
 Narrow = 70;
 };
 pos = (1178,0);
