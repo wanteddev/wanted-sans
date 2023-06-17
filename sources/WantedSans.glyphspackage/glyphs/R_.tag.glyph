@@ -1,5 +1,4 @@
 {
-color = 11;
 export = 0;
 glyphname = R.tag;
 kernLeft = H.tag;
