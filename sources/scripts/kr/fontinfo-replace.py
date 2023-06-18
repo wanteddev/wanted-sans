@@ -31,6 +31,10 @@ with open(file_path, 'w') as f:
 # Add codePageRanges
 insert_code = '''},
 {
+name = ROS;
+value = "Adobe-Identity-0";
+},
+{
 name = codePageRanges;
 value = (
 "1252",
