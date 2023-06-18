@@ -1,7 +1,7 @@
 {
 glyphname = five.dnom;
-kernLeft = five.dnom;
-kernRight = five.dnom;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = m01;

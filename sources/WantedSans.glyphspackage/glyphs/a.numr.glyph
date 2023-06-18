@@ -1,0 +1,28 @@
+{
+glyphname = a.numr;
+kernLeft = zero.numr;
+kernRight = zero.numr;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,728);
+ref = a.dnom;
+}
+);
+width = 758;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,656);
+ref = a.dnom;
+}
+);
+width = 870;
+}
+);
+note = "{\012  \"width\" : [\012    61,\012    67\012  ],\012  \"weight\" : [\012    -90,\012    -356\012  ],\012  \"height\" : [\012    61,\012    67\012  ],\012  \"verticalShift\" : [\012    1,\012    1\012  ]\012}  # Regular\012.numr:816, superior:936, inferior:-208\012+ 직선 높이 조정  # Black\012.numr:752, superior:864, inferior:-208";
+}
