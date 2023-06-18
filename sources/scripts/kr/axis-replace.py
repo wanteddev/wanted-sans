@@ -4,7 +4,7 @@ import os
 import re
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-folder_path = os.path.join(script_dir, '../../WantedSansKR.glyphspackage/glyphs')
+folder_path = os.path.join(script_dir, '../../WantedSans.glyphspackage/glyphs')
 
 for subdir, dirs, files in os.walk(folder_path):
     for file in files:

@@ -2,13 +2,13 @@ import os
 import re
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(script_dir, '../../WantedSansKR.glyphspackage/fontinfo.plist')
+file_path = os.path.join(script_dir, '../../WantedSans.glyphspackage/fontinfo.plist')
 
 with open(file_path, 'r') as f:
     contents = f.read()
 
 # Update font name
-contents = re.sub(r'(Wanted Sans).*?([^\w]|$)', r'\1 KR\2', contents)
+contents = re.sub(r'(Wanted Sans) Std([^\w]|$)', r'\1\2', contents)
 
 # Update master and instances
 contents = contents.replace('axesValues = (\n900\n);\ncustomParameters = (\n{\nname = "Master Icon Glyph Name";\nvalue = B;',

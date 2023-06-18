@@ -1,7 +1,7 @@
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-target_path = os.path.join(script_dir, '../../WantedSansKR.glyphspackage/order.plist')
+target_path = os.path.join(script_dir, '../../WantedSans.glyphspackage/order.plist')
 original_path = os.path.join(script_dir, '../../splits/WantedSans-Split-Hangul.glyphspackage/order.plist')
 target_line = 'h.subs,'
 
