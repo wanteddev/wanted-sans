@@ -7,6 +7,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (0,936);
 ref = n.dnom;
 }
@@ -17,6 +18,7 @@ width = 706;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+alignment = -1;
 pos = (0,864);
 ref = n.dnom;
 }
@@ -24,5 +26,7 @@ ref = n.dnom;
 width = 870;
 }
 );
+metricLeft = n.dnom;
+metricRight = n.dnom;
 unicode = 8319;
 }
