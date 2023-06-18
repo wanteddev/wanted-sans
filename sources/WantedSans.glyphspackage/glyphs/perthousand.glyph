@@ -10,19 +10,19 @@ shapes = (
 ref = _part.percentnumr;
 },
 {
-pos = (722,0);
-ref = fraction;
+pos = (734,0);
+ref = _part.percentfraction;
 },
 {
-pos = (930,0);
+pos = (942,0);
 ref = _part.percentdnom;
 },
 {
-pos = (1604,0);
+pos = (1628,0);
 ref = _part.percentdnom;
 }
 );
-width = 2376;
+width = 2410;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -31,19 +31,19 @@ shapes = (
 ref = _part.percentnumr;
 },
 {
-pos = (842,0);
-ref = fraction;
+pos = (850,0);
+ref = _part.percentfraction;
 },
 {
-pos = (1114,0);
+pos = (1122,0);
 ref = _part.percentdnom;
 },
 {
-pos = (1916,0);
+pos = (1932,0);
 ref = _part.percentdnom;
 }
 );
-width = 2798;
+width = 2822;
 }
 );
 unicode = 8240;

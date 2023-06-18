@@ -10,15 +10,15 @@ shapes = (
 ref = _part.percentnumr;
 },
 {
-pos = (722,0);
-ref = fraction;
+pos = (734,0);
+ref = _part.percentfraction;
 },
 {
-pos = (930,0);
+pos = (942,0);
 ref = _part.percentdnom;
 }
 );
-width = 1702;
+width = 1724;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,15 +27,15 @@ shapes = (
 ref = _part.percentnumr;
 },
 {
-pos = (842,0);
-ref = fraction;
+pos = (850,0);
+ref = _part.percentfraction;
 },
 {
-pos = (1114,0);
+pos = (1122,0);
 ref = _part.percentdnom;
 }
 );
-width = 1996;
+width = 2012;
 }
 );
 unicode = 37;
