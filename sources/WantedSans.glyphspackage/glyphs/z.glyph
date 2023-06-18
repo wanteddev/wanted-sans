@@ -331,6 +331,5 @@ width = 1024;
 }
 );
 metricLeft = n;
-metricRight = "||z";
 unicode = 122;
 }
