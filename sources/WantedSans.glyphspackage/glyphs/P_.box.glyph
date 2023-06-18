@@ -1,0 +1,38 @@
+{
+glyphname = P.box;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = whiteSquare;
+},
+{
+alignment = 1;
+pos = (568,0);
+ref = P.tag;
+}
+);
+width = 1712;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = whiteSquare;
+},
+{
+alignment = 1;
+pos = (616,0);
+ref = P.tag;
+}
+);
+width = 1784;
+}
+);
+unicode = 127295;
+}

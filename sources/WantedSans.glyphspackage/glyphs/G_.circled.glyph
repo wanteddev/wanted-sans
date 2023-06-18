@@ -1,0 +1,38 @@
+{
+glyphname = G.circled;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (468,0);
+ref = G.tag;
+}
+);
+width = 1764;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (540,0);
+ref = G.tag;
+}
+);
+width = 1812;
+}
+);
+unicode = 9404;
+}

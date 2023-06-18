@@ -1,5 +1,7 @@
 {
 glyphname = O.box;
+kernLeft = H;
+kernRight = H;
 layers = (
 {
 layerId = m01;
@@ -9,11 +11,12 @@ alignment = 1;
 ref = whiteSquare;
 },
 {
-pos = (440,0);
+alignment = 1;
+pos = (442,0);
 ref = O.tag;
 }
 );
-width = 1708;
+width = 1712;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -23,11 +26,12 @@ alignment = 1;
 ref = whiteSquare;
 },
 {
-pos = (444,0);
+alignment = 1;
+pos = (526,0);
 ref = O.tag;
 }
 );
-width = 1708;
+width = 1784;
 }
 );
 unicode = 127294;

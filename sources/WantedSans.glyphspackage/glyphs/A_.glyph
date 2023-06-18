@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = _center;
-pos = (708,724);
+pos = (708,740);
 },
 {
 name = bottom;
@@ -175,7 +175,7 @@ width = 1468;
 anchors = (
 {
 name = _center;
-pos = (800,724);
+pos = (800,708);
 },
 {
 name = bottom;
@@ -640,5 +640,6 @@ nodes = (
 width = 1416;
 }
 );
+note = "{\012  \"width\" : [\012    50,\012    50\012  ],\012  \"weight\" : [\012    -90,\012    -440\012  ],\012  \"height\" : [\012    50,\012    50\012  ],\012  \"verticalShift\" : [\012    362,\012    362\012  ]\012}";
 unicode = 65;
 }

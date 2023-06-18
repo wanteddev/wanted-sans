@@ -61,31 +61,31 @@ width = 268;
 anchors = (
 {
 name = "#entry";
-pos = (58,362);
+pos = (50,398);
 },
 {
 name = "#exit";
-pos = (270,362);
+pos = (254,398);
 },
 {
 name = _center;
-pos = (164,724);
+pos = (152,724);
 },
 {
 name = bottom;
-pos = (164,362);
+pos = (152,398);
 },
 {
 name = ogonek;
-pos = (58,362);
+pos = (50,398);
 },
 {
 name = top;
-pos = (164,1086);
+pos = (152,1050);
 },
 {
 name = topleft;
-pos = (58,1086);
+pos = (50,1050);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -93,22 +93,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(270,362,l),
-(270,1086,l),
-(58,1086,l),
-(58,362,l)
+(254,398,l),
+(254,1050,l),
+(50,1050,l),
+(50,398,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -440;
-width = 50;
+height = 45;
+verticalShift = 398;
+weight = -460;
+width = 45;
 };
 };
-width = 328;
+width = 304;
 }
 );
 metricLeft = H.tag;

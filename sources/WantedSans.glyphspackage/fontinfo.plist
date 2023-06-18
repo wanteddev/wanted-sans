@@ -2721,9 +2721,9 @@ less.case = -120;
 };
 "@MMK_L_B.tag" = {
 "@MMK_R_A.tag" = -20;
-"@MMK_R_S.tag" = -8;
-"@MMK_R_V.tag" = -32;
-"@MMK_R_X.tag" = -28;
+"@MMK_R_S.tag" = -7;
+"@MMK_R_V.tag" = -29;
+"@MMK_R_X.tag" = -25;
 };
 "@MMK_L_C" = {
 "@MMK_R_A" = -40;
@@ -2739,8 +2739,8 @@ less.case = -120;
 };
 "@MMK_L_C.tag" = {
 "@MMK_R_A.tag" = -20;
-"@MMK_R_V.tag" = -16;
-"@MMK_R_X.tag" = -12;
+"@MMK_R_V.tag" = -14;
+"@MMK_R_X.tag" = -11;
 };
 "@MMK_L_E" = {
 "@MMK_R_J" = -8;
@@ -2751,8 +2751,8 @@ less.case = -120;
 };
 "@MMK_L_E.tag" = {
 "@MMK_R_J.tag" = -4;
-"@MMK_R_O.tag" = -12;
-"@MMK_R_S.tag" = -16;
+"@MMK_R_O.tag" = -11;
+"@MMK_R_S.tag" = -14;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -128;
@@ -2779,9 +2779,9 @@ less.case = -120;
 };
 "@MMK_L_F.tag" = {
 "@MMK_R_A.tag" = -64;
-"@MMK_R_J.tag" = -52;
-"@MMK_R_O.tag" = -16;
-"@MMK_R_S.tag" = -12;
+"@MMK_R_J.tag" = -47;
+"@MMK_R_O.tag" = -14;
+"@MMK_R_S.tag" = -11;
 };
 "@MMK_L_H" = {
 "@MMK_R_jdotless" = 48;
@@ -2828,11 +2828,11 @@ periodcentered.loclCAT.case = -536;
 t.cv02 = -80;
 };
 "@MMK_L_L.tag" = {
-"@MMK_R_O.tag" = -8;
-"@MMK_R_S.tag" = -8;
-"@MMK_R_T.tag" = -116;
-"@MMK_R_U.tag" = -20;
-"@MMK_R_V.tag" = -94;
+"@MMK_R_O.tag" = -7;
+"@MMK_R_S.tag" = -7;
+"@MMK_R_T.tag" = -104;
+"@MMK_R_U.tag" = -18;
+"@MMK_R_V.tag" = -85;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -88;
@@ -2861,9 +2861,9 @@ t.cv02 = -80;
 "@MMK_L_O.tag" = {
 "@MMK_R_A.tag" = -44;
 "@MMK_R_S.tag" = -4;
-"@MMK_R_T.tag" = -8;
-"@MMK_R_V.tag" = -40;
-"@MMK_R_X.tag" = -40;
+"@MMK_R_T.tag" = -7;
+"@MMK_R_V.tag" = -36;
+"@MMK_R_X.tag" = -36;
 "@MMK_R_Z.tag" = -4;
 };
 "@MMK_L_P" = {
@@ -2890,10 +2890,10 @@ t.cv02 = -80;
 };
 "@MMK_L_P.tag" = {
 "@MMK_R_A.tag" = -80;
-"@MMK_R_J.tag" = -64;
-"@MMK_R_T.tag" = -8;
-"@MMK_R_V.tag" = -12;
-"@MMK_R_X.tag" = -36;
+"@MMK_R_J.tag" = -58;
+"@MMK_R_T.tag" = -7;
+"@MMK_R_V.tag" = -11;
+"@MMK_R_X.tag" = -32;
 };
 "@MMK_L_Q" = {
 "@MMK_R_O" = -32;
@@ -2949,11 +2949,11 @@ t.cv02 = -80;
 less.case = -32;
 };
 "@MMK_L_R.tag" = {
-"@MMK_R_H.tag" = 8;
-"@MMK_R_J.tag" = -16;
-"@MMK_R_S.tag" = -8;
-"@MMK_R_T.tag" = -8;
-"@MMK_R_V.tag" = -24;
+"@MMK_R_H.tag" = 7;
+"@MMK_R_J.tag" = -14;
+"@MMK_R_S.tag" = -7;
+"@MMK_R_T.tag" = -7;
+"@MMK_R_V.tag" = -22;
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -24;
@@ -3009,9 +3009,9 @@ less.case = -104;
 };
 "@MMK_L_T.tag" = {
 "@MMK_R_A.tag" = -88;
-"@MMK_R_J.tag" = -96;
-"@MMK_R_O.tag" = -8;
-"@MMK_R_S.tag" = -8;
+"@MMK_R_J.tag" = -86;
+"@MMK_R_O.tag" = -7;
+"@MMK_R_S.tag" = -7;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -88;
@@ -3023,7 +3023,7 @@ less.case = -104;
 };
 "@MMK_L_U.tag" = {
 "@MMK_R_A.tag" = -44;
-"@MMK_R_J.tag" = -12;
+"@MMK_R_J.tag" = -11;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -232;
@@ -3072,9 +3072,9 @@ less.case = -80;
 };
 "@MMK_L_V.tag" = {
 "@MMK_R_A.tag" = -116;
-"@MMK_R_J.tag" = -100;
-"@MMK_R_O.tag" = -40;
-"@MMK_R_S.tag" = -16;
+"@MMK_R_J.tag" = -90;
+"@MMK_R_O.tag" = -36;
+"@MMK_R_S.tag" = -14;
 };
 "@MMK_L_X" = {
 "@MMK_R_J" = -40;
@@ -3111,8 +3111,8 @@ less.case = -80;
 less.case = -104;
 };
 "@MMK_L_X.tag" = {
-"@MMK_R_J.tag" = -20;
-"@MMK_R_O.tag" = -44;
+"@MMK_R_J.tag" = -18;
+"@MMK_R_O.tag" = -40;
 "@MMK_R_S.tag" = -4;
 };
 "@MMK_L_Z" = {
@@ -3131,8 +3131,8 @@ less.case = -104;
 less.case = -24;
 };
 "@MMK_L_Z.tag" = {
-"@MMK_R_J.tag" = -12;
-"@MMK_R_O.tag" = -8;
+"@MMK_R_J.tag" = -11;
+"@MMK_R_O.tag" = -7;
 };
 "@MMK_L_a" = {
 "@MMK_R_T" = -128;
