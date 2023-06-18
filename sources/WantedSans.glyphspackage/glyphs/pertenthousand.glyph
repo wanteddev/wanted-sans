@@ -26,7 +26,7 @@ pos = (2278,0);
 ref = _part.percentdnom;
 }
 );
-width = 3048;
+width = 3050;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

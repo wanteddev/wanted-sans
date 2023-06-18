@@ -23,7 +23,7 @@ pos = (48,0);
 ref = zero.dnom;
 }
 );
-width = 770;
+width = 772;
 },
 {
 anchors = (

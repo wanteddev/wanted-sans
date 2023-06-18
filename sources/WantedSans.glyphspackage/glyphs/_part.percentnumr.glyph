@@ -25,7 +25,7 @@ pos = (48,0);
 ref = zero.numr;
 }
 );
-width = 770;
+width = 772;
 },
 {
 anchors = (
