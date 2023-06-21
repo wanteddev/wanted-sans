@@ -1182,6 +1182,12 @@ value = (
 {
 name = "Variable Font Origin";
 value = m01;
+},
+{
+name = "Decompose Glyphs";
+value = (
+dcroat
+);
 }
 );
 name = Regular;
