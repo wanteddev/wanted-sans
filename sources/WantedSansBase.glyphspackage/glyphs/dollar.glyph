@@ -21,6 +21,13 @@ ref = _smart.currencystem;
 width = 1196;
 },
 {
+attr = {
+axisRules = (
+{
+min = 601;
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
@@ -42,8 +49,7 @@ associatedMasterId = m01;
 attr = {
 axisRules = (
 {
-max = 900;
-min = 600.01;
+min = 601;
 }
 );
 };
@@ -69,8 +75,6 @@ associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 attr = {
 axisRules = (
 {
-max = 600;
-min = 400;
 }
 );
 };
