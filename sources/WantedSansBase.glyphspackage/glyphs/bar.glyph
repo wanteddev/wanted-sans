@@ -7,37 +7,30 @@ layers = (
 layerId = m01;
 shapes = (
 {
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeWidth = 168;
+alignment = -1;
+piece = {
+Height = 1880;
 };
-closed = 0;
-nodes = (
-(224,1664,l),
-(224,-216,l)
-);
+pos = (0,-216);
+ref = _smart.upperstem;
 }
 );
-width = 448;
+width = 456;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeWidth = 384;
+alignment = -1;
+piece = {
+Condensed = 64;
+Height = 1880;
 };
-closed = 0;
-nodes = (
-(308,1664,l),
-(308,-216,l)
-);
+pos = (0,-216);
+ref = _smart.upperstem;
 }
 );
-width = 616;
+width = 584;
 },
 {
 annotations = (

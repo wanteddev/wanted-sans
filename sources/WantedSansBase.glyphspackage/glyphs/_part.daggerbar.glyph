@@ -1,0 +1,41 @@
+{
+export = 0;
+glyphname = _part.daggerbar;
+layers = (
+{
+layerId = m01;
+metricLeft = "=minus*.6";
+shapes = (
+{
+alignment = -1;
+piece = {
+Case = 0;
+Space = 0;
+Width = 656;
+};
+pos = (72,0);
+ref = _smart.horizontalbar;
+}
+);
+width = 800;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=minus*.6";
+shapes = (
+{
+alignment = -1;
+piece = {
+Case = 0;
+Space = 0;
+Width = 768;
+};
+pos = (96,0);
+ref = _smart.horizontalbar;
+}
+);
+width = 960;
+}
+);
+metricWidth = dagger;
+}

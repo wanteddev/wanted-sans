@@ -16,6 +16,7 @@ ref = minus;
 },
 {
 piece = {
+Condensed = 0;
 Height = 1040;
 };
 pos = (412,20);

@@ -33,7 +33,7 @@ Case = 1;
 shapes = (
 {
 attr = {
-strokeWidth = 352;
+strokeWidth = 336;
 };
 closed = 0;
 nodes = (
@@ -79,7 +79,7 @@ Case = 1;
 shapes = (
 {
 attr = {
-strokeWidth = 352;
+strokeWidth = 336;
 };
 closed = 0;
 nodes = (
@@ -125,7 +125,7 @@ Case = 2;
 shapes = (
 {
 attr = {
-strokeWidth = 352;
+strokeWidth = 336;
 };
 closed = 0;
 nodes = (
@@ -160,6 +160,12 @@ nodes = (
 width = 1264;
 },
 {
+annotations = (
+{
+pos = (1464,-22);
+type = Text;
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "E17198A9-7E2F-4116-9BFE-52924C1F0EF3";
 name = Width;
@@ -171,7 +177,7 @@ Case = 1;
 shapes = (
 {
 attr = {
-strokeWidth = 352;
+strokeWidth = 336;
 };
 closed = 0;
 nodes = (
