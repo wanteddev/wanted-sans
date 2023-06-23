@@ -969,9 +969,9 @@ _smart.ogonek,
 _smart.shoulder,
 _smart.terminal,
 _smart.upperstem,
+_part.basesymbol.large,
+_part.basesymbol.medium,
+_part.basesymbol.small,
 _part.questionbase.cv13,
-_part.rbase.cv16,
-_base.symbol,
-_base.symbol.large,
-_base.symbol.small
+_part.rbase.cv16
 )
