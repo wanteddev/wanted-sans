@@ -12,7 +12,6 @@ for subdir, dirs, files in os.walk(folder_path):
         with open(file_path, 'r') as f:
             contents = f.read()
         contents = contents.replace('coordinates = (\n700', 'coordinates = (\n767.5')
-        contents = contents.replace('min = 600.01;', 'min = 645.01;')
-        contents = contents.replace('max = 600;', 'max = 645;')
+        contents = contents.replace('min = 601;', 'min = 646;')
         with open(file_path, 'w') as f:
             f.write(contents)
