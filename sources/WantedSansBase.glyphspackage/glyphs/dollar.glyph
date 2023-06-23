@@ -14,11 +14,11 @@ piece = {
 Open = 0;
 Thin = 1;
 };
-pos = (614,0);
+pos = (592,0);
 ref = _smart.currencystem;
 }
 );
-width = 1196;
+width = 1184;
 },
 {
 attr = {
@@ -64,11 +64,11 @@ piece = {
 Open = 100;
 Thin = 0;
 };
-pos = (614,0);
+pos = (592,0);
 ref = _smart.currencystem;
 }
 );
-width = 1196;
+width = 1184;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

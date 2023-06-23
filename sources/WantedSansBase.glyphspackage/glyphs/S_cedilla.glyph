@@ -11,11 +11,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (608,0);
+pos = (592,0);
 ref = cedillacomb;
 }
 );
-width = 1196;
+width = 1184;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
