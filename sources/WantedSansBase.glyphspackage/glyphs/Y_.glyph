@@ -7,15 +7,15 @@ layers = (
 anchors = (
 {
 name = _center;
-pos = (662,724);
+pos = (660,724);
 },
 {
 name = bottom;
-pos = (662,0);
+pos = (660,0);
 },
 {
 name = top;
-pos = (662,1448);
+pos = (660,1448);
 },
 {
 name = topleft;
@@ -54,7 +54,7 @@ pos = (432,0);
 ref = _smart.upperstem;
 }
 );
-width = 1322;
+width = 1320;
 },
 {
 anchors = (
