@@ -18,7 +18,7 @@ layerId = m01;
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,-1650);
+pos = (0,-1690);
 ref = macroncomb;
 }
 );
@@ -41,7 +41,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,-1626);
+pos = (0,-1656);
 ref = macroncomb;
 }
 );

@@ -15,8 +15,8 @@ ref = dotbelowcomb;
 {
 closed = 0;
 nodes = (
-(-300,-460,l),
-(300,-460,l)
+(-300,-464,l),
+(300,-464,l)
 );
 }
 );
@@ -25,7 +25,7 @@ layerId = m01;
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,-1686);
+pos = (0,-1690);
 ref = caroncomb;
 }
 );
@@ -45,8 +45,8 @@ ref = dotbelowcomb;
 {
 closed = 0;
 nodes = (
-(-300,-460,l),
-(300,-460,l)
+(-300,-448,l),
+(300,-448,l)
 );
 }
 );
@@ -55,7 +55,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,-1612);
+pos = (0,-1600);
 ref = caroncomb;
 }
 );

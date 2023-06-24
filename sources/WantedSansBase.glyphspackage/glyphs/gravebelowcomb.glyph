@@ -20,10 +20,10 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Above = 1;
+Above = 0;
 "Comma Above" = 0;
 };
-pos = (194,-1648);
+pos = (194,-1616);
 ref = _smart.grave;
 }
 );
@@ -48,10 +48,10 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Above = 1;
+Above = 0;
 "Comma Above" = 0;
 };
-pos = (244,-1612);
+pos = (244,-1624);
 ref = _smart.grave;
 }
 );

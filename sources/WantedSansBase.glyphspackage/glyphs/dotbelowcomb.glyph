@@ -23,7 +23,7 @@ alignment = -1;
 piece = {
 Mark = 100;
 };
-pos = (0,-384);
+pos = (0,-424);
 ref = _smart.dot;
 }
 );
@@ -49,9 +49,9 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Mark = 520;
+Mark = 220;
 };
-pos = (0,-432);
+pos = (0,-452);
 ref = _smart.dot;
 }
 );

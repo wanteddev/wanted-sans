@@ -79,7 +79,7 @@ value = (
 );
 }
 );
-date = "2023-06-23 17:51:18 +0000";
+date = "2023-06-24 16:58:38 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -884,6 +884,9 @@ over = -28;
 pos = -432;
 },
 {
+pos = -494;
+},
+{
 over = -16;
 },
 {
@@ -977,6 +980,9 @@ over = -28;
 {
 over = -28;
 pos = -432;
+},
+{
+pos = -494;
 },
 {
 over = -16;
@@ -4457,6 +4463,9 @@ type = baseline;
 },
 {
 type = descender;
+},
+{
+name = Bottom;
 },
 {
 type = "italic angle";

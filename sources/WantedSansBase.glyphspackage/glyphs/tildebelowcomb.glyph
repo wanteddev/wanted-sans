@@ -18,7 +18,7 @@ layerId = m01;
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,-1648);
+pos = (0,-1688);
 ref = tildecomb;
 }
 );
@@ -41,7 +41,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricWidth = "=0";
 shapes = (
 {
-pos = (0,-1614);
+pos = (0,-1604);
 ref = tildecomb;
 }
 );

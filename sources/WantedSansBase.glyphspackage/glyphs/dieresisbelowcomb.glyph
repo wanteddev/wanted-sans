@@ -17,7 +17,7 @@ alignment = -1;
 piece = {
 Mark = 150;
 };
-pos = (-202,-378);
+pos = (-202,-418);
 ref = _smart.dot;
 },
 {
@@ -25,7 +25,7 @@ alignment = -1;
 piece = {
 Mark = 150;
 };
-pos = (202,-378);
+pos = (202,-418);
 ref = _smart.dot;
 }
 );
@@ -39,7 +39,7 @@ alignment = -1;
 piece = {
 Mark = 150;
 };
-pos = (-202,-378);
+pos = (-202,-418);
 ref = _smart.dot;
 },
 {
@@ -47,7 +47,7 @@ alignment = -1;
 piece = {
 Mark = 150;
 };
-pos = (202,-378);
+pos = (202,-418);
 ref = _smart.dot;
 }
 );
@@ -67,17 +67,17 @@ ref = dotbelowcomb;
 {
 alignment = -1;
 piece = {
-Mark = 600;
+Mark = 420;
 };
-pos = (-250,-424);
+pos = (-250,-432);
 ref = _smart.dot;
 },
 {
 alignment = -1;
 piece = {
-Mark = 600;
+Mark = 420;
 };
-pos = (250,-424);
+pos = (250,-432);
 ref = _smart.dot;
 }
 );
@@ -89,17 +89,17 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Mark = 600;
+Mark = 420;
 };
-pos = (-250,-424);
+pos = (-250,-432);
 ref = _smart.dot;
 },
 {
 alignment = -1;
 piece = {
-Mark = 600;
+Mark = 420;
 };
-pos = (250,-424);
+pos = (250,-432);
 ref = _smart.dot;
 }
 );
