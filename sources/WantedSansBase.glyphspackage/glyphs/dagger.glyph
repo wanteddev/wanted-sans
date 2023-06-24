@@ -1,5 +1,7 @@
 {
 glyphname = dagger;
+kernLeft = question;
+kernRight = question;
 layers = (
 {
 associatedMasterId = m01;

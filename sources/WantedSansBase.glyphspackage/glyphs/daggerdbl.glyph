@@ -1,5 +1,7 @@
 {
 glyphname = daggerdbl;
+kernLeft = question;
+kernRight = question;
 layers = (
 {
 layerId = m01;
