@@ -1,0 +1,30 @@
+{
+export = 0;
+glyphname = _part.centbase;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,200);
+ref = c;
+}
+);
+width = 1132;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,200);
+ref = c;
+}
+);
+width = 1200;
+}
+);
+metricLeft = c;
+metricRight = c;
+}

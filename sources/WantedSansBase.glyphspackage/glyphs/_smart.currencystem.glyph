@@ -11,7 +11,9 @@ pos = (0,724);
 );
 layerId = m01;
 partSelection = {
+Thin = 1;
 Open = 1;
+Lowercase = 1;
 };
 shapes = (
 {
@@ -50,7 +52,9 @@ associatedMasterId = m01;
 layerId = "904EE491-434A-4BD4-8E26-99BCD1790E99";
 name = Open;
 partSelection = {
+Thin = 1;
 Open = 2;
+Lowercase = 1;
 };
 shapes = (
 {
@@ -91,6 +95,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 partSelection = {
 Thin = 1;
 Open = 1;
+Lowercase = 1;
 };
 shapes = (
 {
@@ -133,6 +138,7 @@ name = Open;
 partSelection = {
 Thin = 1;
 Open = 2;
+Lowercase = 1;
 };
 shapes = (
 {
@@ -175,6 +181,7 @@ name = Thin;
 partSelection = {
 Thin = 2;
 Open = 1;
+Lowercase = 1;
 };
 shapes = (
 {
@@ -203,6 +210,92 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+associatedMasterId = m01;
+layerId = "D9910AF7-1CCC-4A5E-913F-8D5F0059AE06";
+name = "Open Lowercase";
+partSelection = {
+Thin = 1;
+Open = 2;
+Lowercase = 2;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,1448,l),
+(0,1208,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 144;
+};
+closed = 0;
+nodes = (
+(0,240,l),
+(0,0,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "267A95E5-5A7E-4110-B5E2-416E6CA54298";
+name = "Open Lowercase";
+partSelection = {
+Thin = 1;
+Open = 2;
+Lowercase = 2;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(0,1448,l),
+(0,1208,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(0,240,l),
+(0,0,l)
+);
+}
+);
+width = 0;
 }
 );
 partsSettings = (
@@ -215,6 +308,11 @@ topValue = 1;
 bottomValue = 0;
 name = Open;
 topValue = 100;
+},
+{
+bottomValue = 0;
+name = Lowercase;
+topValue = 1;
 }
 );
 }
