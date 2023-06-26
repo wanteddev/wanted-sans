@@ -4,6 +4,12 @@ kernLeft = seven;
 kernRight = seven;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (580,724);
+}
+);
 background = {
 shapes = (
 {
@@ -65,6 +71,12 @@ nodes = (
 width = 1160;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 background = {
 shapes = (
 {
@@ -123,6 +135,12 @@ nodes = (
 width = 1280;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (641,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "E9260C42-78E1-405D-AEE5-FC09974A85EF";
 name = "San Francisco";
@@ -144,6 +162,12 @@ nodes = (
 width = 1282;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (

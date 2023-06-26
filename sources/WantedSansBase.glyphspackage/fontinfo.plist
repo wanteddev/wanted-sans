@@ -647,6 +647,8 @@ tag = cv06;
 {
 automatic = 1;
 code = "sub one by one.cv07;
+sub one.box by one.box.cv07;
+sub one.circled by one.circled.cv07;
 sub one.dnom by one.dnom.cv07;
 sub one.numr by one.numr.cv07;
 sub onehalf by onehalf.cv07;
@@ -660,6 +662,8 @@ tag = cv07;
 {
 automatic = 1;
 code = "sub two by two.cv08;
+sub two.box by two.box.cv08;
+sub two.circled by two.circled.cv08;
 sub two.dnom by two.dnom.cv08;
 sub two.numr by two.numr.cv08;
 sub onehalf by onehalf.cv08;
@@ -672,6 +676,8 @@ tag = cv08;
 {
 automatic = 1;
 code = "sub three by three.cv09;
+sub three.box by three.box.cv09;
+sub three.circled by three.circled.cv09;
 sub three.dnom by three.dnom.cv09;
 sub three.numr by three.numr.cv09;
 sub threequarters by threequarters.cv09;
@@ -684,6 +690,8 @@ tag = cv09;
 {
 automatic = 1;
 code = "sub four by four.cv10;
+sub four.box by four.box.cv10;
+sub four.circled by four.circled.cv10;
 sub four.dnom by four.dnom.cv10;
 sub four.numr by four.numr.cv10;
 sub onequarter by onequarter.cv10;
@@ -699,6 +707,10 @@ tag = cv10;
 automatic = 1;
 code = "sub six by six.cv11;
 sub nine by nine.cv11;
+sub six.box by six.box.cv11;
+sub nine.box by nine.box.cv11;
+sub six.circled by six.circled.cv11;
+sub nine.circled by nine.circled.cv11;
 sub six.dnom by six.dnom.cv11;
 sub nine.dnom by nine.dnom.cv11;
 sub six.numr by six.numr.cv11;
@@ -713,6 +725,8 @@ tag = cv11;
 {
 automatic = 1;
 code = "sub seven by seven.cv12;
+sub seven.box by seven.box.cv12;
+sub seven.circled by seven.circled.cv12;
 sub seven.dnom by seven.dnom.cv12;
 sub seven.numr by seven.numr.cv12;
 sub seveneighths by seveneighths.cv12;
@@ -763,6 +777,8 @@ tag = cv14;
 {
 automatic = 1;
 code = "sub two by two.cv15;
+sub two.box by two.box.cv15;
+sub two.circled by two.circled.cv15;
 sub two.dnom by two.dnom.cv15;
 sub two.numr by two.numr.cv15;
 sub onehalf by onehalf.cv15;
@@ -1427,6 +1443,7 @@ t.cv02 = -80;
 "@MMK_R_V.tag" = -28;
 "@MMK_R_X.tag" = -32;
 "@MMK_R_Z.tag" = -12;
+"@MMK_R_seven.tag" = -36;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -160;
@@ -2890,6 +2907,17 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 };
+"@MMK_L_seven.tag" = {
+"@MMK_R_O.tag" = -20;
+six.tag = 0;
+zero.tag = 0;
+};
+nine.tag = {
+"@MMK_R_seven.tag" = 0;
+};
+zero.tag = {
+"@MMK_R_seven.tag" = 0;
+};
 };
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = {
 "@MMK_L_A" = {
@@ -3103,6 +3131,7 @@ t.cv02 = -80;
 "@MMK_R_V.tag" = -36;
 "@MMK_R_X.tag" = -36;
 "@MMK_R_Z.tag" = -4;
+"@MMK_R_seven.tag" = -18;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -160;
@@ -4456,6 +4485,12 @@ zero = {
 };
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
+};
+nine.tag = {
+"@MMK_R_seven.tag" = 0;
+};
+zero.tag = {
+"@MMK_R_seven.tag" = 0;
 };
 };
 };

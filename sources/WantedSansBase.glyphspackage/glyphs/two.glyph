@@ -4,6 +4,12 @@ kernLeft = two;
 kernRight = two;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (600,724);
+}
+);
 background = {
 shapes = (
 {
@@ -66,6 +72,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,738);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -150,6 +162,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (600,0);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -219,6 +237,12 @@ name = Base;
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,724);
+}
+);
 background = {
 shapes = (
 {
@@ -293,6 +317,12 @@ nodes = (
 width = 1320;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,738);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -371,6 +401,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,0);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -433,6 +469,12 @@ name = Base;
 width = 1320;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,738);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -508,6 +550,12 @@ nodes = (
 width = 1320;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (600,738);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -572,6 +620,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (600,738);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -636,6 +690,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,738);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (

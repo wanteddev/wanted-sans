@@ -1,0 +1,40 @@
+{
+glyphname = three.circled;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (560,0);
+ref = three.tag;
+}
+);
+width = 1764;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (594,0);
+ref = three.tag;
+}
+);
+width = 1812;
+}
+);
+metricLeft = whiteCircle;
+metricRight = whiteCircle;
+unicode = 9314;
+}

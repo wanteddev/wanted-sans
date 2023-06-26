@@ -4,6 +4,12 @@ kernLeft = nine.cv11;
 kernRight = nine.cv11;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (600,724);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -15,6 +21,12 @@ ref = six.cv11;
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,724);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

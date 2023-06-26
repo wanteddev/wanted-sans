@@ -4,6 +4,12 @@ kernLeft = five;
 kernRight = five;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (611,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -83,6 +89,12 @@ nodes = (
 width = 1222;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -154,6 +166,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -245,6 +263,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (669,710);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "26C785D5-F904-4A4E-91A4-1966DD5C4AE5";
 name = "San Francisco";
@@ -290,6 +314,12 @@ nodes = (
 width = 1338;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,710);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -381,6 +411,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,710);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -472,6 +508,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -576,6 +618,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -680,6 +728,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,724);
+}
+);
 background = {
 shapes = (
 {
@@ -786,6 +840,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,724);
+}
+);
 background = {
 shapes = (
 {
@@ -879,6 +939,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -983,6 +1049,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,710);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (

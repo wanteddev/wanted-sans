@@ -4,6 +4,12 @@ kernLeft = six.cv11;
 kernRight = six.cv11;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (600,724);
+}
+);
 background = {
 shapes = (
 {
@@ -101,6 +107,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (600,710);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -196,6 +208,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,724);
+}
+);
 background = {
 shapes = (
 {
@@ -293,6 +311,12 @@ nodes = (
 width = 1320;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,710);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -364,6 +388,12 @@ nodes = (
 width = 1320;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (660,710);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (

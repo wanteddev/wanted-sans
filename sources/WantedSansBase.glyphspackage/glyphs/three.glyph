@@ -4,6 +4,12 @@ kernLeft = three;
 kernRight = three;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (620,724);
+}
+);
 background = {
 shapes = (
 {
@@ -130,6 +136,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,724);
+}
+);
 annotations = (
 {
 pos = (680.03,1543.54);
@@ -214,6 +226,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (600,724);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -320,6 +338,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,724);
+}
+);
 background = {
 shapes = (
 {
@@ -422,6 +446,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -529,6 +559,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (600,724);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -649,6 +685,12 @@ nodes = (
 width = 1200;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,724);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -769,6 +811,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,724);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -900,6 +948,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (

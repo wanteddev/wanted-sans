@@ -4,6 +4,12 @@ kernLeft = four;
 kernRight = four;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 background = {
 shapes = (
 {
@@ -67,6 +73,12 @@ nodes = (
 width = 1280;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (650,724);
+}
+);
 associatedMasterId = m01;
 layerId = "3347FEA2-4041-49C6-8633-A060AD72C8E4";
 name = "San Francisco";
@@ -101,6 +113,12 @@ nodes = (
 width = 1300;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 associatedMasterId = m01;
 layerId = "042368FC-BFD7-4DA5-8EEF-FBF662111537";
 name = "San Francisco Open";
@@ -130,6 +148,12 @@ nodes = (
 width = 1280;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (650,724);
+}
+);
 associatedMasterId = m01;
 layerId = "300EB033-75D0-4E1B-972E-6EA56D637B9C";
 name = Avenir;
@@ -163,6 +187,12 @@ nodes = (
 width = 1300;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (698,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 layerId = "C6680DA8-8066-4F18-ADAB-115F6925D32C";
 name = Inter;
@@ -195,6 +225,12 @@ nodes = (
 width = 1396;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -268,6 +304,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (680,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -341,6 +383,12 @@ nodes = (
 width = 1360;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (720,724);
+}
+);
 background = {
 shapes = (
 {
@@ -413,6 +461,12 @@ nodes = (
 width = 1440;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (620,724);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -478,6 +532,12 @@ nodes = (
 width = 1240;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (720,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (

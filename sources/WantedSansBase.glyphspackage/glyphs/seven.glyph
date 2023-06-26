@@ -4,6 +4,12 @@ kernLeft = seven;
 kernRight = seven;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (580,724);
+}
+);
 background = {
 shapes = (
 {
@@ -68,6 +74,12 @@ nodes = (
 width = 1160;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (593,724);
+}
+);
 associatedMasterId = m01;
 layerId = "FF8B4E15-E5EB-4EC7-82BD-7F718DC6BBB6";
 name = "Applied Sans";
@@ -95,6 +107,12 @@ nodes = (
 width = 1186;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 background = {
 shapes = (
 {
@@ -159,6 +177,12 @@ nodes = (
 width = 1280;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
@@ -213,6 +237,12 @@ nodes = (
 width = 1280;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (584,724);
+}
+);
 associatedMasterId = m01;
 layerId = "24E01045-C8CE-472C-815A-80B21ED077C6";
 metricRight = "=A*2";
@@ -235,6 +265,12 @@ nodes = (
 width = 1168;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (580,724);
+}
+);
 associatedMasterId = m01;
 background = {
 shapes = (
@@ -298,6 +334,12 @@ nodes = (
 width = 1160;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
