@@ -1,7 +1,7 @@
 {
 glyphname = paragraph;
-kernLeft = zero.numr;
-kernRight = q;
+kernLeft = V;
+kernRight = H;
 layers = (
 {
 layerId = m01;
