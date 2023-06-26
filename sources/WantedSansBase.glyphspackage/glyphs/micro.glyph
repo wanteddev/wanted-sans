@@ -1,0 +1,57 @@
+{
+glyphname = micro;
+kernLeft = p;
+kernRight = a;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Descender = 100;
+};
+ref = _smart.lowerstem;
+},
+{
+pos = (300,0);
+ref = _part.microbase;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (672,0);
+ref = _part.lowerstem.curve;
+}
+);
+width = 1174;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Descender = 100;
+};
+ref = _smart.lowerstem;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (508,0);
+ref = _part.microbase;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (720,0);
+ref = _part.lowerstem.curve;
+}
+);
+width = 1426;
+}
+);
+unicode = 181;
+}

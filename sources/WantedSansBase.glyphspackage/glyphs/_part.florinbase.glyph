@@ -1,0 +1,106 @@
+{
+export = 0;
+glyphname = _part.florinbase;
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (380,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+piece = {
+Bottom = 100;
+Terminal = 100;
+Top = 4;
+};
+pos = (680,-16);
+ref = _smart.terminal;
+scale = (-1,1);
+}
+);
+};
+layerId = m01;
+metricLeft = "=|f";
+metricRight = "=|f";
+shapes = (
+{
+closed = 1;
+nodes = (
+(430,-460,o),
+(548,-336,o),
+(548,-138,cs),
+(548,96,l),
+(380,96,l),
+(380,-132,ls),
+(380,-242,o),
+(328,-296,o),
+(220,-296,cs),
+(184,-296,o),
+(144,-290,o),
+(100,-276,c),
+(100,-434,l),
+(138,-448,o),
+(186,-460,o),
+(244,-460,cs)
+);
+}
+);
+width = 624;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (340,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+piece = {
+Bottom = 100;
+Terminal = 100;
+Top = 4;
+};
+pos = (848,-16);
+ref = _smart.terminal;
+scale = (-1,1);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=|f";
+metricRight = "=|f";
+shapes = (
+{
+closed = 1;
+nodes = (
+(596,-460,o),
+(740,-300,o),
+(740,8,cs),
+(740,96,l),
+(340,96,l),
+(340,44,ls),
+(340,-48,o),
+(304,-84,o),
+(212,-84,cs),
+(174,-84,o),
+(130,-78,o),
+(84,-64,c),
+(84,-416,l),
+(146,-444,o),
+(224,-460,o),
+(312,-460,cs)
+);
+}
+);
+width = 800;
+}
+);
+}
