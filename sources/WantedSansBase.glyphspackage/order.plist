@@ -985,5 +985,8 @@ _part.basesymbol.large,
 _part.basesymbol.medium,
 _part.basesymbol.small,
 _part.questionbase.cv13,
-_part.rbase.cv16
+_part.rbase.cv16,
+wantedLogo,
+wantedLogotype,
+wantedSymbol
 )

@@ -79,7 +79,7 @@ value = (
 );
 }
 );
-date = "2023-06-24 16:58:38 +0000";
+date = "2023-06-26 04:20:57 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -138,6 +138,13 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 } LOOKUP_CALT_2;
 ";
 name = LOOKUP_CALT;
+},
+{
+code = "lookup LOOKUP_LIGA_1 {
+# Wanted Logo
+sub w a n t e d underscore l o g o by wantedLogo;
+} LOOKUP_LIGA_1;";
+name = LOOKUP_LIGA;
 }
 );
 features = (
@@ -506,6 +513,10 @@ sub asciitilde by asciitilde.case;
 sub ogonekcomb by ogonekcomb.case;
 ";
 tag = case;
+},
+{
+code = "lookup LOOKUP_LIGA_1;";
+tag = liga;
 },
 {
 code = "lookup LOOKUP_CALT_1;
