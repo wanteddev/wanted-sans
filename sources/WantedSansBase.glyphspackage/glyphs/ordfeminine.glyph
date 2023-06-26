@@ -1,5 +1,5 @@
 {
-glyphname = a.sups;
+glyphname = ordfeminine;
 kernLeft = zero.sups;
 kernRight = zero.sups;
 layers = (
@@ -7,9 +7,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (0,936);
-ref = a.dnom;
+ref = a.sups;
 }
 );
 width = 758;
@@ -18,15 +16,11 @@ width = 758;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-alignment = -1;
-pos = (0,864);
-ref = a.dnom;
+ref = a.sups;
 }
 );
 width = 870;
 }
 );
-metricLeft = a.dnom;
-metricRight = a.dnom;
-unicode = 7491;
+unicode = 170;
 }

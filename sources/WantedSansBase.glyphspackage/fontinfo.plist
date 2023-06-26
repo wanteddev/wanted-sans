@@ -158,6 +158,7 @@ feature numr;
 feature dnom;
 feature frac;
 feature case;
+feature ordn;
 feature ss02;
 feature cv01;
 feature cv02;
@@ -481,6 +482,13 @@ tag = frac;
 },
 {
 automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
 code = "sub colon by colon.case;
 sub periodcentered by periodcentered.case;
 sub slash by slash.case;
@@ -607,6 +615,7 @@ sub a.dnom by a.dnom.cv03;
 sub a.numr by a.numr.cv03;
 sub a.subs by a.subs.cv03;
 sub a.sups by a.sups.cv03;
+sub ordfeminine by ordfeminine.cv03;
 ";
 tag = cv03;
 },
