@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = amacron.cv03;
 kernLeft = g;
 kernRight = n;

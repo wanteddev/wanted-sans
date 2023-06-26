@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = zmacronbelow;
 kernLeft = z;
 kernRight = z;

@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = ucircumflex.cv04;
 kernLeft = u;
 kernRight = u.cv04;

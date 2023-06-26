@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = tdotbelow.cv02;
 kernLeft = f;
 kernRight = t.cv02;
