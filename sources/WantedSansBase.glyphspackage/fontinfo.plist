@@ -557,6 +557,12 @@ code = "cvParameters { FeatUILabelNameID {
 
 sub j by j.cv01;
 sub jdotless by jdotless.cv01;
+sub jacute by jacute.cv01;
+sub jcircumflex by jcircumflex.cv01;
+sub j.dnom by j.dnom.cv01;
+sub j.numr by j.numr.cv01;
+sub j.subs by j.subs.cv01;
+sub j.sups by j.sups.cv01;
 ";
 tag = cv01;
 },
