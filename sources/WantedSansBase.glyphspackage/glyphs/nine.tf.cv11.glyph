@@ -1,0 +1,27 @@
+{
+glyphname = nine.tf.cv11;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = nine.cv11;
+}
+);
+width = 1280;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (60,0);
+ref = nine.cv11;
+}
+);
+width = 1440;
+}
+);
+}
