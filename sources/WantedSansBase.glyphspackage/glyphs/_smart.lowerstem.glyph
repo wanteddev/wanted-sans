@@ -558,6 +558,108 @@ nodes = (
 }
 );
 width = 616;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (300,0);
+},
+{
+name = _crossbar;
+pos = (132,1032);
+},
+{
+name = bottom;
+pos = (216,-432);
+},
+{
+name = ogonek;
+pos = (132,-432);
+},
+{
+name = top;
+pos = (216,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "D1A79999-4896-4FBF-9ADB-F3F88AE20847";
+metricLeft = "=132";
+metricRight = "=|";
+name = "Straight Descender";
+partSelection = {
+Cap = 1;
+Descender = 2;
+Cross = 1;
+Extended = 1;
+Straight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,-432,l),
+(300,-432,l),
+(300,-432,l),
+(300,-432,l),
+(300,1032,l),
+(132,1032,l),
+(132,-432,l)
+);
+}
+);
+width = 432;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (508,0);
+},
+{
+name = _crossbar;
+pos = (108,1032);
+},
+{
+name = bottom;
+pos = (308,-432);
+},
+{
+name = ogonek;
+pos = (108,-432);
+},
+{
+name = top;
+pos = (308,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "A385BBCB-D114-4074-90DB-8D327B41046B";
+metricLeft = "=108";
+metricRight = "=|";
+name = "Straight Dscender";
+partSelection = {
+Cap = 1;
+Descender = 2;
+Cross = 1;
+Extended = 1;
+Straight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,-432,l),
+(508,-432,l),
+(508,-432,l),
+(508,-432,l),
+(508,1032,l),
+(108,1032,l),
+(108,-432,l)
+);
+}
+);
+width = 616;
 }
 );
 partsSettings = (
