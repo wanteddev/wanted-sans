@@ -6,7 +6,7 @@ layers = (
 {
 anchors = (
 {
-name = _center;
+name = _symbol;
 pos = (838,724);
 },
 {
@@ -48,7 +48,7 @@ width = 1676;
 {
 anchors = (
 {
-name = _center;
+name = _symbol;
 pos = (970,724);
 },
 {

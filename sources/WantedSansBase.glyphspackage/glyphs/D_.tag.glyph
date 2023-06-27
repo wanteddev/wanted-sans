@@ -11,7 +11,7 @@ name = "#entry";
 pos = (64,362);
 },
 {
-name = _center;
+name = _symbol;
 pos = (326,724);
 },
 {
@@ -79,7 +79,7 @@ name = "#entry";
 pos = (50,398);
 },
 {
-name = _center;
+name = _symbol;
 pos = (308,724);
 },
 {

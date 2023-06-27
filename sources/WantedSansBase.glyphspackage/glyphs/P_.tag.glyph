@@ -15,7 +15,7 @@ name = "#exit";
 pos = (306,362);
 },
 {
-name = _center;
+name = _symbol;
 pos = (290,724);
 },
 {
@@ -83,7 +83,7 @@ name = "#exit";
 pos = (300,398);
 },
 {
-name = _center;
+name = _symbol;
 pos = (278,724);
 },
 {

@@ -215,7 +215,7 @@ width = 2048;
 {
 anchors = (
 {
-name = _center;
+name = _symbol;
 pos = (1056,724);
 },
 {
@@ -439,7 +439,7 @@ width = 2264;
 {
 anchors = (
 {
-name = _center;
+name = _symbol;
 pos = (1132,724);
 },
 {
@@ -583,7 +583,7 @@ width = 2112;
 {
 anchors = (
 {
-name = _center;
+name = _symbol;
 pos = (1056,724);
 },
 {
@@ -742,7 +742,7 @@ width = 2264;
 {
 anchors = (
 {
-name = _center;
+name = _symbol;
 pos = (1132,724);
 },
 {
