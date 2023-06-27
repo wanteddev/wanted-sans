@@ -24,4 +24,5 @@ ref = one;
 width = 1440;
 }
 );
+metricWidth = zero;
 }

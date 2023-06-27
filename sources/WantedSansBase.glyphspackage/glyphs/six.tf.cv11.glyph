@@ -24,4 +24,5 @@ ref = six.cv11;
 width = 1440;
 }
 );
+metricWidth = zero;
 }

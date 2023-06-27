@@ -24,4 +24,5 @@ ref = seven.cv12;
 width = 1440;
 }
 );
+metricWidth = zero;
 }

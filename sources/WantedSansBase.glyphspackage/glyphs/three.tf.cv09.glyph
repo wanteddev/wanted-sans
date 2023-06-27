@@ -24,4 +24,5 @@ ref = three.cv09;
 width = 1440;
 }
 );
+metricWidth = zero;
 }
