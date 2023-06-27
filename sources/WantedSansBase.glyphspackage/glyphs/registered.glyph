@@ -1,5 +1,7 @@
 {
 glyphname = registered;
+kernLeft = question;
+kernRight = question;
 layers = (
 {
 anchors = (

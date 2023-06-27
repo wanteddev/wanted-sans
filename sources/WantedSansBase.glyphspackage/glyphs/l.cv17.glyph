@@ -2,7 +2,7 @@
 color = 0;
 glyphname = l.cv17;
 kernLeft = l;
-kernRight = l;
+kernRight = l.cv17;
 layers = (
 {
 anchors = (

@@ -1,5 +1,7 @@
 {
 glyphname = trademark;
+kernLeft = question;
+kernRight = question;
 layers = (
 {
 anchors = (

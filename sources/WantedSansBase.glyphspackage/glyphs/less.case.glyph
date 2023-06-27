@@ -1,6 +1,8 @@
 {
 color = 1;
 glyphname = less.case;
+kernLeft = less.case;
+kernRight = less;
 layers = (
 {
 layerId = m01;
