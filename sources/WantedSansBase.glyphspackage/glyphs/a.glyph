@@ -28,6 +28,7 @@ scale = (-1,1);
 {
 piece = {
 Cross = 1;
+Straight = 1;
 };
 pos = (1220,0);
 ref = _smart.lowerstem;

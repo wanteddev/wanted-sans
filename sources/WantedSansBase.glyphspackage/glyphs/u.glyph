@@ -19,7 +19,7 @@ pos = (552,1032);
 },
 {
 name = topright;
-pos = (1084,1032);
+pos = (972,1032);
 }
 );
 layerId = m01;
@@ -40,7 +40,7 @@ pos = (668,0);
 },
 {
 name = ogonek;
-pos = (826,0);
+pos = (828,0);
 },
 {
 name = top;
@@ -48,7 +48,7 @@ pos = (668,1032);
 },
 {
 name = topright;
-pos = (1314,1032);
+pos = (1228,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

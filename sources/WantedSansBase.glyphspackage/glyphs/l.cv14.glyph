@@ -28,6 +28,7 @@ shapes = (
 {
 piece = {
 Cap = 115.5;
+Straight = 1;
 };
 ref = _smart.lowerstem;
 }
@@ -61,6 +62,7 @@ Cap = 115.5;
 Cross = 0;
 Descender = 0;
 Extended = 0;
+Straight = 1;
 };
 ref = _smart.lowerstem;
 }

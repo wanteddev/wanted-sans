@@ -24,6 +24,7 @@ shapes = (
 {
 piece = {
 Cap = 115.5;
+Straight = 1;
 };
 ref = _smart.lowerstem;
 },
@@ -54,6 +55,7 @@ shapes = (
 {
 piece = {
 Cap = 115.5;
+Straight = 1;
 };
 ref = _smart.lowerstem;
 },

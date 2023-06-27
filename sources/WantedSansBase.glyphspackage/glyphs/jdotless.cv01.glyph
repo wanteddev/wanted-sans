@@ -19,6 +19,7 @@ shapes = (
 {
 piece = {
 Descender = 100;
+Straight = 1;
 };
 ref = _smart.lowerstem;
 }
@@ -41,6 +42,7 @@ shapes = (
 {
 piece = {
 Descender = 100;
+Straight = 1;
 };
 ref = _smart.lowerstem;
 }

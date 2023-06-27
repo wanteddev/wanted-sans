@@ -17,6 +17,9 @@ pos = (552,1032);
 layerId = m01;
 shapes = (
 {
+piece = {
+Straight = 1;
+};
 ref = _smart.lowerstem;
 },
 {
@@ -40,6 +43,9 @@ pos = (668,1032);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+piece = {
+Straight = 1;
+};
 ref = _smart.lowerstem;
 },
 {

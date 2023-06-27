@@ -24,6 +24,9 @@ ref = n;
 layerId = m01;
 shapes = (
 {
+piece = {
+Straight = 1;
+};
 ref = _smart.lowerstem;
 },
 {
@@ -63,6 +66,9 @@ nodes = (
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+piece = {
+Straight = 1;
+};
 ref = _smart.lowerstem;
 },
 {

@@ -33,6 +33,7 @@ Cap = 1;
 Descender = 1;
 Cross = 1;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -81,6 +82,7 @@ Cap = 1;
 Descender = 1;
 Cross = 1;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -131,6 +133,7 @@ Cap = 2;
 Descender = 1;
 Cross = 1;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -181,6 +184,7 @@ Cap = 2;
 Descender = 1;
 Cross = 1;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -231,6 +235,7 @@ Cap = 1;
 Descender = 2;
 Cross = 1;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -281,6 +286,7 @@ Cap = 1;
 Descender = 2;
 Cross = 1;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -331,6 +337,7 @@ Cap = 1;
 Descender = 1;
 Cross = 2;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -381,6 +388,7 @@ Cap = 1;
 Descender = 1;
 Cross = 2;
 Extended = 1;
+Straight = 1;
 };
 shapes = (
 {
@@ -431,6 +439,7 @@ Cap = 1;
 Descender = 1;
 Cross = 1;
 Extended = 2;
+Straight = 1;
 };
 shapes = (
 {
@@ -447,6 +456,108 @@ nodes = (
 }
 );
 width = 632;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (300,0);
+},
+{
+name = _crossbar;
+pos = (132,1032);
+},
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = ogonek;
+pos = (132,0);
+},
+{
+name = top;
+pos = (216,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "51C86700-EBC8-4193-AD82-362F886D2B67";
+metricLeft = "=132";
+metricRight = "=|";
+name = Straight;
+partSelection = {
+Cap = 1;
+Descender = 1;
+Cross = 1;
+Extended = 1;
+Straight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(300,0,l),
+(300,0,l),
+(300,0,l),
+(300,1032,l),
+(132,1032,l),
+(132,0,l)
+);
+}
+);
+width = 432;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (508,0);
+},
+{
+name = _crossbar;
+pos = (108,1032);
+},
+{
+name = bottom;
+pos = (308,0);
+},
+{
+name = ogonek;
+pos = (108,0);
+},
+{
+name = top;
+pos = (308,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "72F6278C-2B06-40C9-94E2-8FA727F17A6C";
+metricLeft = "=108";
+metricRight = "=|";
+name = Straight;
+partSelection = {
+Cap = 1;
+Descender = 1;
+Cross = 1;
+Extended = 1;
+Straight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,0,l),
+(508,0,l),
+(508,0,l),
+(508,0,l),
+(508,1032,l),
+(108,1032,l),
+(108,0,l)
+);
+}
+);
+width = 616;
 }
 );
 partsSettings = (
@@ -468,6 +579,11 @@ topValue = 1;
 {
 bottomValue = 0;
 name = Extended;
+topValue = 1;
+},
+{
+bottomValue = 0;
+name = Straight;
 topValue = 1;
 }
 );
