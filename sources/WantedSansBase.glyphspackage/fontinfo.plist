@@ -518,6 +518,7 @@ sub less by less.case;
 sub plusminus by plusminus.case;
 sub approxequal by approxequal.case;
 sub asciitilde by asciitilde.case;
+sub logicalnot by logicalnot.case;
 sub ogonekcomb by ogonekcomb.case;
 ";
 tag = case;
