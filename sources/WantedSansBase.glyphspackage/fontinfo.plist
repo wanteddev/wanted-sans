@@ -176,6 +176,7 @@ feature cv13;
 feature cv14;
 feature cv15;
 feature cv16;
+feature cv17;
 ";
 tag = aalt;
 },
@@ -845,6 +846,33 @@ $[name beginswith 'J' and leftKerningGroup == 'J']
 pos @L @Quote' 144 (wght:900) 40 @A;
 pos @L @Quote' 96 (wght:900) 40 @J;";
 tag = kern;
+},
+{
+automatic = 1;
+code = "sub l by l.cv17;
+sub lacute by lacute.cv17;
+sub lcaron by lcaron.cv17;
+sub lcircumflexbelow by lcircumflexbelow.cv17;
+sub lcommaaccent by lcommaaccent.cv17;
+sub ldotbelow by ldotbelow.cv17;
+sub ldotbelowmacron by ldotbelowmacron.cv17;
+sub lmacronbelow by lmacronbelow.cv17;
+sub lslash by lslash.cv17;
+sub l.cv14 by l.cv14.cv17;
+sub lacute.cv14 by lacute.cv14.cv17;
+sub lcaron.cv14 by lcaron.cv14.cv17;
+sub lcircumflexbelow.cv14 by lcircumflexbelow.cv14.cv17;
+sub lcommaaccent.cv14 by lcommaaccent.cv14.cv17;
+sub ldotbelow.cv14 by ldotbelow.cv14.cv17;
+sub ldotbelowmacron.cv14 by ldotbelowmacron.cv14.cv17;
+sub lmacronbelow.cv14 by lmacronbelow.cv14.cv17;
+sub lslash.cv14 by lslash.cv14.cv17;
+sub l.dnom by l.dnom.cv17;
+sub l.numr by l.numr.cv17;
+sub l.subs by l.subs.cv17;
+sub l.sups by l.sups.cv17;
+";
+tag = cv17;
 }
 );
 fontMaster = (
