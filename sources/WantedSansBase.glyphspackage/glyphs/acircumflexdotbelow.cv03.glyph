@@ -1,6 +1,6 @@
 {
 glyphname = acircumflexdotbelow.cv03;
-kernLeft = g;
+kernLeft = o;
 kernRight = n;
 layers = (
 {

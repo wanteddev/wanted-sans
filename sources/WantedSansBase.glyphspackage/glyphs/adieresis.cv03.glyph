@@ -1,6 +1,6 @@
 {
 glyphname = adieresis.cv03;
-kernLeft = g;
+kernLeft = o;
 kernRight = n;
 layers = (
 {
