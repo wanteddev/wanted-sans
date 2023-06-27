@@ -11,7 +11,7 @@ pos = (270,2);
 },
 {
 name = bottom;
-pos = (202,2);
+pos = (202,0);
 },
 {
 name = center;
@@ -23,7 +23,7 @@ pos = (136,632);
 },
 {
 name = ogonek;
-pos = (136,2);
+pos = (136,0);
 },
 {
 name = top;
@@ -38,7 +38,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x28818a670;
+identifier = ID0x2c6969cf0;
 strokePos = "0";
 };
 closed = 1;
@@ -53,9 +53,9 @@ nodes = (
 closed = 1;
 nodes = (
 (270,0,l),
-(270,128,l),
-(270,316,l),
-(270,484,l),
+(270,0,l),
+(270,0,l),
+(270,0,l),
 (270,776,l),
 (136,776,l),
 (136,0,l)
@@ -80,7 +80,7 @@ pos = (384,2);
 },
 {
 name = bottom;
-pos = (264,2);
+pos = (264,0);
 },
 {
 name = center;
@@ -92,39 +92,39 @@ pos = (144,694);
 },
 {
 name = ogonek;
-pos = (144,2);
+pos = (144,0);
 },
 {
 name = top;
-pos = (264,858);
+pos = (264,856);
 },
 {
 name = topright;
-pos = (522,858);
+pos = (522,856);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x288191050;
+identifier = ID0x29f9afde0;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(522,512,l),
-(522,696,l),
-(30,696,l),
-(30,512,l)
+(522,510,l),
+(522,694,l),
+(30,694,l),
+(30,510,l)
 );
 },
 {
 closed = 1;
 nodes = (
 (384,0,l),
-(384,142,l),
-(384,348,l),
-(384,532,l),
+(384,0,l),
+(384,0,l),
+(384,0,l),
 (384,856,l),
 (144,856,l),
 (144,0,l)
