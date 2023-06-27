@@ -14,7 +14,7 @@ piece = {
 Lowercase = 1;
 Open = 0;
 };
-pos = (618,-8);
+pos = (602,-8);
 ref = _smart.currencystem;
 }
 );
@@ -39,7 +39,7 @@ Lowercase = 1;
 Open = 100;
 Thin = 0;
 };
-pos = (618,-8);
+pos = (610,-8);
 ref = _smart.currencystem;
 }
 );
@@ -65,7 +65,7 @@ piece = {
 Lowercase = 1;
 Open = 100;
 };
-pos = (618,-8);
+pos = (602,-8);
 ref = _smart.currencystem;
 }
 );
@@ -91,7 +91,7 @@ Lowercase = 1;
 Open = 0;
 Thin = 1;
 };
-pos = (618,-8);
+pos = (610,-8);
 ref = _smart.currencystem;
 }
 );
