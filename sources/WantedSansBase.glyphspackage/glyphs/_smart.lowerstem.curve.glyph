@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _part.lowerstem.curve;
+glyphname = _smart.lowerstem.curve;
 layers = (
 {
 anchors = (
@@ -26,6 +26,9 @@ ref = _smart.lowerstem;
 };
 layerId = m01;
 metricRight = "=f/2";
+partSelection = {
+Cap = 1;
+};
 shapes = (
 {
 closed = 1;
@@ -55,6 +58,99 @@ width = 502;
 anchors = (
 {
 name = "#entry";
+pos = (132,0);
+},
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (216,1448);
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+ref = _smart.lowerstem;
+}
+);
+};
+layerId = "C1F4A5FD-68FF-4993-AB19-26F653A32675";
+metricRight = "=f/2";
+name = Cap;
+partSelection = {
+Cap = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(396,-28,o),
+(424,-24,o),
+(452,-18,c),
+(452,136,l),
+(438,134,o),
+(422,132,o),
+(406,132,cs),
+(330,132,o),
+(300,178,o),
+(300,300,cs),
+(300,1448,l),
+(132,1448,l),
+(132,292,ls),
+(132,80,o),
+(210,-28,o),
+(366,-28,cs)
+);
+}
+);
+width = 502;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (132,0);
+},
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (216,1032);
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+ref = _smart.lowerstem;
+}
+);
+};
+layerId = "9CAF863E-C78A-4E4E-9AC4-81A55B75BF0D";
+metricRight = "=f/2";
+name = "Jun 26, 23 16:39";
+partSelection = {
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+Terminal = -100;
+};
+ref = _smart.terminal;
+}
+);
+width = 502;
+},
+{
+anchors = (
+{
+name = "#entry";
 pos = (108,0);
 },
 {
@@ -75,6 +171,9 @@ ref = _smart.lowerstem;
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=f/2";
+partSelection = {
+Cap = 1;
+};
 shapes = (
 {
 closed = 1;
@@ -104,18 +203,18 @@ width = 706;
 anchors = (
 {
 name = "#entry";
-pos = (132,0);
+pos = (108,0);
 },
 {
 name = bottom;
-pos = (216,0);
+pos = (308,0);
 },
 {
 name = top;
-pos = (216,1032);
+pos = (308,1448);
 }
 );
-associatedMasterId = m01;
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
 {
@@ -123,19 +222,36 @@ ref = _smart.lowerstem;
 }
 );
 };
-layerId = "9CAF863E-C78A-4E4E-9AC4-81A55B75BF0D";
+layerId = "DC01C97D-6203-471C-B61B-41AB82763D5A";
 metricRight = "=f/2";
-name = "Jun 26, 23 16:39";
+name = Cap;
+partSelection = {
+Cap = 2;
+};
 shapes = (
 {
-alignment = -1;
-piece = {
-Terminal = -100;
-};
-ref = _smart.terminal;
+closed = 1;
+nodes = (
+(540,-28,o),
+(606,-18,o),
+(664,0,c),
+(664,356,l),
+(632,350,o),
+(608,348,o),
+(592,348,cs),
+(532,348,o),
+(508,376,o),
+(508,446,cs),
+(508,1448,l),
+(108,1448,l),
+(108,440,ls),
+(108,118,o),
+(232,-28,o),
+(476,-28,cs)
+);
 }
 );
-width = 502;
+width = 706;
 },
 {
 anchors = (
@@ -163,6 +279,8 @@ ref = _smart.lowerstem;
 layerId = "003F846E-5982-4E33-8A9C-C1A08F055939";
 metricRight = "=f/2";
 name = "Jun 26, 23 16:39";
+partSelection = {
+};
 shapes = (
 {
 alignment = -1;
@@ -176,4 +294,11 @@ width = 706;
 }
 );
 metricLeft = _smart.lowerstem;
+partsSettings = (
+{
+bottomValue = 0;
+name = Cap;
+topValue = 100;
+}
+);
 }

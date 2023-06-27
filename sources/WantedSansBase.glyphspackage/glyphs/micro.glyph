@@ -21,7 +21,7 @@ piece = {
 Group = 1;
 };
 pos = (672,0);
-ref = _part.lowerstem.curve;
+ref = _smart.lowerstem.curve;
 }
 );
 width = 1174;
@@ -47,7 +47,7 @@ piece = {
 Group = 1;
 };
 pos = (720,0);
-ref = _part.lowerstem.curve;
+ref = _smart.lowerstem.curve;
 }
 );
 width = 1426;
