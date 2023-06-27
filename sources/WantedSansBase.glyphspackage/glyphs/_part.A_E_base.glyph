@@ -1,0 +1,99 @@
+{
+export = 0;
+glyphname = _part.AEbase;
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (998,0);
+}
+);
+background = {
+shapes = (
+{
+pos = (6,0);
+ref = A;
+},
+{
+pos = (858,0);
+ref = E;
+}
+);
+};
+layerId = m01;
+metricRight = "=0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(242,0,l),
+(920,1448,l),
+(708,1250,l),
+(1112,1250,l),
+(1112,1448,l),
+(732,1448,l),
+(44,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1112,422,l),
+(1112,586,l),
+(316,586,l),
+(316,422,l)
+);
+}
+);
+width = 1112;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (990,0);
+}
+);
+background = {
+shapes = (
+{
+pos = (12,0);
+ref = A;
+},
+{
+pos = (874,0);
+ref = E;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,0,l),
+(1070,1448,l),
+(666,966,l),
+(1120,966,l),
+(1120,1448,l),
+(702,1448,l),
+(36,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1120,232,l),
+(1120,584,l),
+(504,584,l),
+(504,232,l)
+);
+}
+);
+width = 1120;
+}
+);
+metricLeft = A;
+}
