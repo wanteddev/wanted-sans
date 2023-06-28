@@ -5,6 +5,12 @@ kernLeft = hyphen;
 kernRight = hyphen;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (640,540);
+}
+);
 background = {
 annotations = (
 {
@@ -39,6 +45,12 @@ ref = minus;
 width = 1280;
 },
 {
+anchors = (
+{
+name = center;
+pos = (720,540);
+}
+);
 background = {
 annotations = (
 {

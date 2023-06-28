@@ -1,0 +1,34 @@
+{
+glyphname = IJ;
+kernLeft = H;
+kernRight = J;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (456,0);
+ref = J;
+}
+);
+width = 1596;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (648,0);
+ref = J;
+}
+);
+width = 1900;
+}
+);
+unicode = 306;
+}
