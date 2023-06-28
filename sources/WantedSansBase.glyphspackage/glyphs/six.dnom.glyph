@@ -1,7 +1,7 @@
 {
 glyphname = six.dnom;
-kernLeft = O.dnom;
-kernRight = six.dnom;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
 layers = (
 {
 anchors = (

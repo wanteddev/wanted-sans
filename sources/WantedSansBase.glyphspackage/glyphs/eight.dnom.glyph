@@ -1,7 +1,7 @@
 {
 glyphname = eight.dnom;
-kernLeft = eight.dnom;
-kernRight = eight.dnom;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
 layers = (
 {
 anchors = (

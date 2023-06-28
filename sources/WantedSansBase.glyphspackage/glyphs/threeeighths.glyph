@@ -8,15 +8,15 @@ shapes = (
 ref = three.numr;
 },
 {
-pos = (646,0);
+pos = (648,0);
 ref = fraction;
 },
 {
-pos = (902,0);
+pos = (904,0);
 ref = eight.dnom;
 }
 );
-width = 1550;
+width = 1552;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -25,15 +25,15 @@ shapes = (
 ref = three.numr;
 },
 {
-pos = (754,0);
+pos = (752,0);
 ref = fraction;
 },
 {
-pos = (1066,0);
+pos = (1064,0);
 ref = eight.dnom;
 }
 );
-width = 1820;
+width = 1816;
 }
 );
 metricLeft = three.numr;
