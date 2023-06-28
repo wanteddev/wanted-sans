@@ -19,11 +19,11 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 alignment = -1;
-pos = (44,0);
+pos = (60,0);
 ref = comma;
 }
 );
-width = 656;
+width = 672;
 }
 );
 metricLeft = quoteleft;
