@@ -1,5 +1,5 @@
 {
-glyphname = fi;
+glyphname = f_f_i;
 kernLeft = f;
 kernRight = l;
 layers = (
@@ -10,7 +10,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (800,0);
+pos = (624,0);
+ref = f;
+},
+{
+pos = (1424,0);
 ref = i;
 }
 );
@@ -18,14 +22,21 @@ ref = i;
 layerId = m01;
 shapes = (
 {
+piece = {
+ff = 1;
+};
 ref = _smart.fligature;
 },
 {
-pos = (800,0);
+pos = (624,0);
+ref = _smart.fligature;
+},
+{
+pos = (1424,0);
 ref = i;
 }
 );
-width = 1232;
+width = 1856;
 },
 {
 background = {
@@ -34,7 +45,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (952,0);
+pos = (808,0);
+ref = f;
+},
+{
+pos = (1760,0);
 ref = i;
 }
 );
@@ -42,17 +57,27 @@ ref = i;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+piece = {
+ff = 1;
+};
 ref = _smart.fligature;
 },
 {
-pos = (952,0);
+piece = {
+Group = 1;
+};
+pos = (808,0);
+ref = _smart.fligature;
+},
+{
+pos = (1760,0);
 ref = i;
 }
 );
-width = 1568;
+width = 2376;
 }
 );
 metricLeft = f;
 metricRight = i;
-unicode = 64257;
+unicode = 64259;
 }

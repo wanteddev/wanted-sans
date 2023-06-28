@@ -79,7 +79,7 @@ value = (
 );
 }
 );
-date = "2023-04-12 16:29:22 +0000";
+date = "2023-06-28 16:48:18 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -138,6 +138,27 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 } LOOKUP_CALT_2;
 ";
 name = LOOKUP_CALT;
+},
+{
+code = "lookup LOOKUP_DLIG_1 {
+# Apply ligature with Contextual
+@Ligature = [
+f f_f_i f_f_l f_f fi fl
+];
+
+sub f' [i l] by f_i.start;
+sub f' @Ligature by f_f.start;
+sub f_f' @Ligature by f_f.end;
+
+# Normal ligature
+#sub f f i by f_f_i;
+#sub f f l by f_f_l;
+#sub f f by f_f;
+#sub f i by fi;
+#sub f l by fl;
+} LOOKUP_DLIG_1;
+";
+name = LOOKUP_DLIG;
 },
 {
 code = "lookup LOOKUP_LIGA_1 {
@@ -567,8 +588,15 @@ sub ogonekcomb by ogonekcomb.case;
 tag = case;
 },
 {
-code = "lookup LOOKUP_LIGA_1;";
+code = "lookupflag IgnoreMarks;
+
+lookup LOOKUP_LIGA_1;
+";
 tag = liga;
+},
+{
+code = "lookup LOOKUP_DLIG_1;";
+tag = dlig;
 },
 {
 code = "lookup LOOKUP_CALT_1;
@@ -578,7 +606,6 @@ tag = calt;
 },
 {
 code = "# Duplicated calt due to the web's inability to support Hangul characters in calt
-
 lookup LOOKUP_CALT_1;
 ";
 tag = clig;

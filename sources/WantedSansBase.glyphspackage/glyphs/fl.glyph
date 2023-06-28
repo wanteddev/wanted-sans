@@ -4,7 +4,7 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
-layerId = m01;
+background = {
 shapes = (
 {
 ref = f;
@@ -14,13 +14,35 @@ pos = (800,0);
 ref = l;
 }
 );
+};
+layerId = m01;
+shapes = (
+{
+ref = _smart.fligature;
+},
+{
+pos = (800,0);
+ref = l;
+}
+);
 width = 1232;
 },
 {
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
 shapes = (
 {
 ref = f;
+},
+{
+pos = (952,0);
+ref = l;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _smart.fligature;
 },
 {
 pos = (952,0);
