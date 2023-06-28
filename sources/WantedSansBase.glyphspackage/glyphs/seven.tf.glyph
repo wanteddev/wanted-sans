@@ -1,28 +1,100 @@
 {
+color = 4;
 glyphname = seven.tf;
+kernLeft = seven.tf;
+kernRight = seven.tf;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (60,0);
-ref = seven;
+closed = 1;
+nodes = (
+(946,1284,l),
+(1154,1284,l),
+(1154,1448,l),
+(160,1448,l),
+(160,1284,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(610,0,l),
+(652,486,o),
+(828,908,o),
+(1154,1284,c),
+(946,1284,l),
+(940,1300,l),
+(940,1268,l),
+(946,1284,l),
+(648,902,o),
+(486,478,o),
+(448,0,c)
+);
 }
 );
+userData = {
+RMXScaler = {
+width = 105;
+};
+};
 width = 1280;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (720,724);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-alignment = -1;
-pos = (80,0);
-ref = seven;
+closed = 1;
+nodes = (
+(830,1088,l),
+(1320,1120,l),
+(1320,1448,l),
+(150,1448,l),
+(150,1088,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(784,0,l),
+(822,438,o),
+(1018,720,o),
+(1320,1120,c),
+(830,1088,l),
+(824,1104,l),
+(824,1072,l),
+(830,1088,l),
+(574,754,o),
+(402,442,o),
+(370,0,c)
+);
 }
 );
+userData = {
+RMXScaler = {
+width = 107.5;
+};
+};
 width = 1440;
 }
 );
 metricWidth = zero;
+userData = {
+RMXScaler = {
+source = seven;
+};
+};
 }
