@@ -41,7 +41,7 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 312;
+strokeWidth = 316;
 };
 closed = 0;
 nodes = (
@@ -56,10 +56,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-130,0,l),
-(770,1448,l),
-(402,1448,l),
-(-498,0,l)
+(-128,0,l),
+(772,1448,l),
+(400,1448,l),
+(-500,0,l)
 );
 }
 );
