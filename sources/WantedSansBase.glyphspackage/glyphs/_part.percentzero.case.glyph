@@ -1,0 +1,64 @@
+{
+export = 0;
+glyphname = _part.percentzero.case;
+kernLeft = zero.numr;
+kernRight = zero.numr;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (122,0);
+ref = zero.numr;
+}
+);
+};
+layerId = m01;
+metricLeft = "=zero.numr+48";
+metricRight = "=|";
+shapes = (
+{
+pos = (0,728);
+ref = _part.percentzero;
+}
+);
+userData = {
+RMXScaler = {
+weight = 34;
+};
+};
+width = 920;
+},
+{
+background = {
+shapes = (
+{
+pos = (100,0);
+ref = zero.numr;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=zero.numr+40";
+metricRight = "=|";
+shapes = (
+{
+pos = (0,656);
+ref = _part.percentzero;
+}
+);
+userData = {
+RMXScaler = {
+weight = 28;
+};
+};
+width = 1000;
+}
+);
+note = "{\012  \"weight\" : [\012    34,\012    28\012  ]\012}";
+userData = {
+RMXScaler = {
+source = zero.numr;
+};
+};
+}

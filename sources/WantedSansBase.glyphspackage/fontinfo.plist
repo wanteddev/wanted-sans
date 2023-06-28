@@ -79,7 +79,7 @@ value = (
 );
 }
 );
-date = "2023-06-27 09:24:05 +0000";
+date = "2023-06-28 08:17:40 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -1567,6 +1567,7 @@ t.cv02 = -80;
 };
 "@MMK_L_O.dnom" = {
 "@MMK_R_seven.dnom" = -36;
+"@MMK_R_zero.dnom" = -36;
 };
 "@MMK_L_O.tag" = {
 "@MMK_R_A.tag" = -44;
@@ -2715,6 +2716,7 @@ zero = 0;
 "@MMK_R_O.dnom" = -20;
 six.dnom = 0;
 zero.dnom = 0;
+"@MMK_R_zero.dnom" = -20;
 };
 "@MMK_L_seven.tag" = {
 "@MMK_R_O.tag" = -20;
@@ -2991,6 +2993,11 @@ zero.tag = 0;
 "@MMK_R_seven" = -208;
 "@MMK_R_v" = -128;
 "@MMK_R_x" = -24;
+_part.percentzero = -80;
+"@MMK_R_zero.dnom" = -20;
+"@MMK_R_seven.dnom" = -36;
+"@MMK_R_O.dnom" = -20;
+six.dnom = 0;
 };
 "@MMK_L_zero.numr" = {
 "@MMK_R_A" = -256;
@@ -3053,6 +3060,7 @@ nine = {
 };
 nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
+"@MMK_R_zero.dnom" = 0;
 };
 nine.tag = {
 "@MMK_R_seven.tag" = 0;
@@ -3274,6 +3282,7 @@ t.cv02 = -80;
 };
 "@MMK_L_O.dnom" = {
 "@MMK_R_seven.dnom" = -22;
+"@MMK_R_zero.dnom" = -22;
 };
 "@MMK_L_O.tag" = {
 "@MMK_R_A.tag" = -44;
@@ -4581,6 +4590,9 @@ j.cv01 = 0;
 "@MMK_R_seven" = -160;
 "@MMK_R_v" = -128;
 "@MMK_R_x" = -80;
+_part.percentzero = -64;
+"@MMK_R_zero.dnom" = -22;
+"@MMK_R_seven.dnom" = -22;
 };
 "@MMK_L_zero.numr" = {
 "@MMK_R_A" = -280;
@@ -4642,6 +4654,7 @@ nine = {
 };
 nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
+"@MMK_R_zero.dnom" = 0;
 };
 nine.tag = {
 "@MMK_R_seven.tag" = 0;
@@ -4816,5 +4829,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 500;
+versionMinor = 501;
 }
