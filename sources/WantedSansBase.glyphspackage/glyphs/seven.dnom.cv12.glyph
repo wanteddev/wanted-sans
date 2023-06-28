@@ -4,13 +4,19 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
+anchors = (
+{
+name = _symbol;
+pos = (302,360);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(256,0,l),
-(564,606,l),
+(258,0,l),
+(566,608,l),
 (410,600,l),
 (408,608,l),
 (408,592,l),
@@ -25,8 +31,8 @@ strokePos = "0";
 closed = 1;
 nodes = (
 (410,600,l),
-(564,606,l),
-(564,720,l),
+(566,608,l),
+(566,720,l),
 (56,720,l),
 (56,600,l)
 );
@@ -36,13 +42,19 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -96;
+weight = -94;
 width = 50;
 };
 };
-width = 604;
+width = 606;
 },
 {
+anchors = (
+{
+name = _symbol;
+pos = (354,396);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
@@ -50,17 +62,17 @@ closed = 1;
 nodes = (
 (372,0,l),
 (672,596,l),
-(388,576,l),
-(386,586,l),
-(386,568,l),
-(388,576,l),
+(386,576,l),
+(384,586,l),
+(384,568,l),
+(386,576,l),
 (98,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(388,576,l),
+(386,576,l),
 (672,596,l),
 (672,792,l),
 (52,792,l),
@@ -72,7 +84,7 @@ userData = {
 RMXScaler = {
 height = 54.7;
 weight = -360;
-width = 54.7;
+width = 54.5;
 };
 };
 width = 710;

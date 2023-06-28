@@ -4,22 +4,28 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
+anchors = (
+{
+name = _symbol;
+pos = (336,360);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(638,152,l),
+(638,144,l),
 (638,272,l),
 (196,272,l),
 (196,286,l),
 (194,272,l),
-(394,600,l),
-(464,600,l),
+(394,596,l),
+(464,596,l),
 (464,720,l),
 (322,720,l),
-(48,272,l),
-(48,152,l)
+(48,274,l),
+(48,144,l)
 );
 },
 {
@@ -36,27 +42,33 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -96;
+weight = -94;
 width = 50;
 };
 };
 width = 674;
 },
 {
+anchors = (
+{
+name = _symbol;
+pos = (400,396);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 closed = 1;
 nodes = (
-(764,130,l),
-(764,352,l),
+(762,130,l),
+(762,352,l),
 (304,352,l),
 (304,370,l),
 (302,352,l),
-(416,572,l),
-(538,572,l),
-(538,792,l),
-(292,792,l),
+(414,572,l),
+(536,572,l),
+(536,792,l),
+(290,792,l),
 (52,352,l),
 (52,130,l)
 );
@@ -64,8 +76,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(656,0,l),
-(656,792,l),
+(654,0,l),
+(654,792,l),
 (420,792,l),
 (420,0,l)
 );
@@ -75,10 +87,10 @@ userData = {
 RMXScaler = {
 height = 54.7;
 weight = -360;
-width = 54.7;
+width = 54.5;
 };
 };
-width = 804;
+width = 802;
 }
 );
 metricLeft = four.dnom;

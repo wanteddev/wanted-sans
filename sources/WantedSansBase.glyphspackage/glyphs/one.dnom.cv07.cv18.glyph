@@ -18,24 +18,24 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x136cdce10;
+identifier = ID0x17a5662f0;
 strokePos = 1;
 };
 closed = 1;
 nodes = (
 (606,0,l),
-(606,120,l),
-(112,120,l),
+(606,122,l),
+(112,122,l),
 (112,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(304,570,l),
-(294,568,l),
 (304,568,l),
-(304,570,l),
+(294,566,l),
+(304,566,l),
+(304,568,l),
 (304,720,l),
 (130,598,l),
 (130,446,l)
@@ -56,7 +56,7 @@ RMXScaler = {
 adjustSpace = 56;
 height = 50;
 verticalShift = -2;
-weight = -96;
+weight = -94;
 width = 50;
 };
 };
@@ -70,20 +70,20 @@ pos = (416,396);
 },
 {
 name = serif;
-pos = (438,0);
+pos = (436,0);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x17857d740;
+identifier = ID0x2a16a6570;
 strokePos = "1";
 };
 closed = 1;
 nodes = (
-(722,0,l),
-(722,216,l),
+(720,0,l),
+(720,216,l),
 (116,216,l),
 (116,0,l)
 );
@@ -92,7 +92,7 @@ nodes = (
 closed = 1;
 nodes = (
 (314,532,l),
-(304,530,l),
+(302,530,l),
 (314,530,l),
 (314,532,l),
 (314,792,l),
@@ -115,10 +115,10 @@ RMXScaler = {
 adjustSpace = 64;
 height = 54.7;
 weight = -360;
-width = 54.7;
+width = 54.5;
 };
 };
-width = 838;
+width = 836;
 }
 );
 userData = {

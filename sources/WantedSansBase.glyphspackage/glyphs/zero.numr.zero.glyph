@@ -21,7 +21,7 @@ pos = (0,656);
 ref = zero.dnom.zero;
 }
 );
-width = 802;
+width = 800;
 }
 );
 }
