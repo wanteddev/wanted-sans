@@ -8,6 +8,10 @@ anchors = (
 {
 name = _symbol;
 pos = (640,724);
+},
+{
+name = center;
+pos = (640,724);
 }
 );
 background = {
@@ -207,6 +211,10 @@ width = 1268;
 anchors = (
 {
 name = _symbol;
+pos = (720,724);
+},
+{
+name = center;
 pos = (720,724);
 }
 );

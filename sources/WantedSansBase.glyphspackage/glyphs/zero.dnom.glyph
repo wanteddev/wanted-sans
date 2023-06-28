@@ -4,6 +4,16 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
+anchors = (
+{
+name = _symbol;
+pos = (338,360);
+},
+{
+name = center;
+pos = (338,360);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -52,6 +62,16 @@ width = 50;
 width = 676;
 },
 {
+anchors = (
+{
+name = _symbol;
+pos = (402,396);
+},
+{
+name = center;
+pos = (402,396);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {

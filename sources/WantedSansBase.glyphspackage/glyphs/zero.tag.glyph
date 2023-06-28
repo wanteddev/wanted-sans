@@ -9,6 +9,10 @@ anchors = (
 {
 name = _symbol;
 pos = (336,724);
+},
+{
+name = center;
+pos = (336,724);
 }
 );
 layerId = m01;
@@ -62,6 +66,10 @@ width = 674;
 anchors = (
 {
 name = _symbol;
+pos = (330,724);
+},
+{
+name = center;
 pos = (330,724);
 }
 );
