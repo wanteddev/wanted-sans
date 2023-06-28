@@ -180,6 +180,7 @@ feature cv15;
 feature cv16;
 feature cv17;
 feature cv18;
+feature zero;
 ";
 tag = aalt;
 },
@@ -947,6 +948,19 @@ $[name beginswith 'J' and leftKerningGroup == 'J']
 pos @L @Quote' 144 (wght:900) 40 @A;
 pos @L @Quote' 96 (wght:900) 40 @J;";
 tag = kern;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+sub zero.box by zero.box.zero;
+sub zero.tf by zero.tf.zero;
+sub zero.circled by zero.circled.zero;
+sub zero.dnom by zero.dnom.zero;
+sub zero.numr by zero.numr.zero;
+sub zeroinferior by zeroinferior.zero;
+sub zerosuperior by zerosuperior.zero;
+";
+tag = zero;
 }
 );
 fontMaster = (
