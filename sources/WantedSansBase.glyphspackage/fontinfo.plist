@@ -179,6 +179,7 @@ feature cv14;
 feature cv15;
 feature cv16;
 feature cv17;
+feature cv18;
 ";
 tag = aalt;
 },
@@ -862,32 +863,6 @@ sub r.sups by r.sups.cv16;
 tag = cv16;
 },
 {
-code = "# Automatic Code
-
-@L = [
-$[name beginswith 'L' and rightKerningGroup == 'L']
-];
-
-@Quote = [
-quotedblleft
-quotedblright
-quoteleft
-quoteright
-];
-
-@A = [
-$[name beginswith 'A' and leftKerningGroup == 'A']
-];
-
-@J = [
-$[name beginswith 'J' and leftKerningGroup == 'J']
-];
-
-pos @L @Quote' 144 (wght:900) 40 @A;
-pos @L @Quote' 96 (wght:900) 40 @J;";
-tag = kern;
-},
-{
 automatic = 1;
 code = "sub l by l.cv17;
 sub lacute by lacute.cv17;
@@ -913,6 +888,65 @@ sub l.subs by l.subs.cv17;
 sub l.sups by l.sups.cv17;
 ";
 tag = cv17;
+},
+{
+automatic = 1;
+code = "sub one by one.cv18;
+sub one.box by one.box.cv18;
+sub one.cv07 by one.cv07.cv18;
+sub one.circled by one.circled.cv18;
+sub one.tf by one.tf.cv18;
+sub one.box.cv07 by one.box.cv07.cv18;
+sub one.circled.cv07 by one.circled.cv07.cv18;
+sub one.tf.cv07 by one.tf.cv07.cv18;
+sub one.dnom by one.dnom.cv18;
+sub one.numr by one.numr.cv18;
+sub onehalf by onehalf.cv18;
+sub onequarter by onequarter.cv18;
+sub oneeighth by oneeighth.cv18;
+sub one.dnom.cv07 by one.dnom.cv07.cv18;
+sub one.numr.cv07 by one.numr.cv07.cv18;
+sub onehalf.cv07 by onehalf.cv07.cv18;
+sub onequarter.cv07 by onequarter.cv07.cv18;
+sub oneeighth.cv07 by oneeighth.cv07.cv18;
+sub onehalf.cv08 by onehalf.cv08.cv18;
+sub onequarter.cv10 by onequarter.cv10.cv18;
+sub onehalf.cv15 by onehalf.cv15.cv18;
+sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv18;
+sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv18;
+sub onehalf.cv07.cv15 by onehalf.cv07.cv15.cv18;
+sub oneinferior by oneinferior.cv18;
+sub onesuperior by onesuperior.cv18;
+sub oneinferior.cv07 by oneinferior.cv07.cv18;
+sub onesuperior.cv07 by onesuperior.cv07.cv18;
+";
+tag = cv18;
+},
+{
+code = "# Automatic Code
+
+@L = [
+$[name beginswith 'L' and rightKerningGroup == 'L']
+];
+
+@Quote = [
+quotedblleft
+quotedblright
+quoteleft
+quoteright
+];
+
+@A = [
+$[name beginswith 'A' and leftKerningGroup == 'A']
+];
+
+@J = [
+$[name beginswith 'J' and leftKerningGroup == 'J']
+];
+
+pos @L @Quote' 144 (wght:900) 40 @A;
+pos @L @Quote' 96 (wght:900) 40 @J;";
+tag = kern;
 }
 );
 fontMaster = (

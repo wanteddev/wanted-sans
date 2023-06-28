@@ -1,0 +1,39 @@
+{
+glyphname = one.box.cv07.cv18;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = whiteSquare;
+},
+{
+alignment = 1;
+pos = (566,-8);
+ref = one.tag.cv07.cv18;
+}
+);
+width = 1712;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = whiteSquare;
+},
+{
+alignment = 1;
+pos = (604,-8);
+ref = one.tag.cv07.cv18;
+}
+);
+width = 1784;
+}
+);
+metricLeft = whiteSquare;
+metricRight = whiteSquare;
+}
