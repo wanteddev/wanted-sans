@@ -182,7 +182,7 @@ width = 40;
 width = 818;
 }
 );
-note = "{\012  \"width\" : [\012    50,\012    45\012  ],\012  \"weight\" : [\012    -90,\012    -460\012  ],\012  \"height\" : [\012    50,\012    45\012  ],\012  \"verticalShift\" : [\012    362,\012    398\012  ]\012}";
+note = "# Required RMX Scaler";
 unicode = 917581;
 userData = {
 RMXScaler = {

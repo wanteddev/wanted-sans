@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = _part.wonbase;
 layers = (
@@ -415,7 +416,7 @@ width = 84.78;
 width = 1962;
 }
 );
-note = "# 하기 전에 W 레이어를 Won과 swap\012\012{\012  \"width\" : [\012    85,\012    80\012  ],\012  \"adjustSpace\" : [\012    80,\012    72\012  ]\012}";
+note = "# Required RMX Scaler\012\012# Required Swap layer from W to Won before running RMX Scaler";
 userData = {
 RMXScaler = {
 source = W;

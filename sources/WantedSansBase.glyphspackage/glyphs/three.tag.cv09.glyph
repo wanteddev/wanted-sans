@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = three.tag.cv09;
 kernLeft = three.tag;
@@ -150,6 +151,7 @@ width = 620;
 }
 );
 metricRight = eight.tag;
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = three.cv09;

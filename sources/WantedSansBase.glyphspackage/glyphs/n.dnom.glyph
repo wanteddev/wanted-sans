@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = n.dnom;
 kernLeft = zero.dnom;
 kernRight = zero.dnom;
@@ -140,6 +141,7 @@ width = 67;
 width = 870;
 }
 );
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = n;

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 3;
 glyphname = six.tf.cv11;
 layers = (
 {
@@ -134,6 +134,7 @@ width = 1440;
 }
 );
 metricWidth = zero;
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = six.cv11;

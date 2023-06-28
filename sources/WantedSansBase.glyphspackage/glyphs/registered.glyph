@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = registered;
 kernLeft = question;
 kernRight = question;
@@ -403,7 +404,7 @@ nodes = (
 width = 1536;
 }
 );
-note = "{\012  \"width\" : [\012    80,\012    80\012  ],\012  \"weight\" : [\012    0,\012    -240\012  ],\012  \"height\" : [\012    80,\012    80\012  ],\012  \"verticalShift\" : [\012    436,\012    418\012  ]\012}";
+note = "# Required RMX Scaler";
 unicode = 174;
 userData = {
 RMXScaler = {

@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = a.dnom;
 kernLeft = zero.dnom;
 kernRight = zero.dnom;
@@ -179,7 +180,7 @@ width = 870;
 }
 );
 metricLeft = o.dnom;
-note = "{\012  \"width\" : [\012    61,\012    67\012  ],\012  \"weight\" : [\012    -90,\012    -356\012  ],\012  \"height\" : [\012    61,\012    67\012  ],\012  \"verticalShift\" : [\012    1,\012    1\012  ]\012}  # Regular\012.numr:728, superior:936, inferior:-208\012+ 직선 높이 조정  # Black\012.numr:656, superior:864, inferior:-208";
+note = "# Required RMX Scaler  # Regular\012.numr:728, superior:936, inferior:-208\012+ Required adjustment Non-overshoot height  # Black\012.numr:656, superior:864, inferior:-208";
 userData = {
 RMXScaler = {
 source = a;

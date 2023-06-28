@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = a.dnom.cv03;
 kernLeft = zero.dnom;
 kernRight = zero.dnom;
@@ -164,6 +165,7 @@ width = 782;
 );
 metricLeft = o.dnom;
 metricRight = n.dnom;
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = a.cv03;

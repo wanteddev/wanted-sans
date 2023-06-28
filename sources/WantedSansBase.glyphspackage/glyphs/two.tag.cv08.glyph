@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = two.tag.cv08;
 kernLeft = two.tag;
@@ -111,6 +112,7 @@ width = 600;
 );
 metricLeft = two.tag;
 metricRight = two.tag;
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = two.cv08;

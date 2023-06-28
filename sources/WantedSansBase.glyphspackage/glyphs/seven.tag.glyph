@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = seven.tag;
 kernLeft = seven.tag;
@@ -97,6 +98,7 @@ width = 45;
 width = 586;
 }
 );
+note = "# Required RMX Scaler";
 unicode = 917559;
 userData = {
 RMXScaler = {

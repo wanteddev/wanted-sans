@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 3;
 glyphname = seven.tf.cv12;
 layers = (
 {
@@ -85,6 +85,7 @@ width = 1440;
 }
 );
 metricWidth = zero;
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = seven.cv12;

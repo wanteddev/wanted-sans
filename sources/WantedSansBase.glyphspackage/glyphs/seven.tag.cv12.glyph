@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = seven.tag.cv12;
 kernLeft = seven.tag;
@@ -94,6 +95,7 @@ width = 586;
 );
 metricLeft = seven.tag;
 metricRight = seven.tag;
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = seven.cv12;

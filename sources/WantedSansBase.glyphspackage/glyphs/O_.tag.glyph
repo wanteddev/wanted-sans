@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = O.tag;
 kernLeft = O.tag;
@@ -169,6 +170,7 @@ width = 45;
 width = 738;
 }
 );
+note = "# Required RMX Scaler";
 unicode = 917583;
 userData = {
 RMXScaler = {
