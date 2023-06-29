@@ -99,7 +99,7 @@ value = (
 );
 }
 );
-date = "2023-06-29 06:36:24 +0000";
+date = "2023-06-29 09:33:25 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -640,6 +640,31 @@ code = "# Duplicated calt due to the web's inability to support Hangul character
 lookup LOOKUP_CALT_1;
 ";
 tag = clig;
+},
+{
+code = "#ifdef VARIABLE
+
+# Fix overlap and swap alternates issue from filled glyphs
+@RLIG_L = [
+Q.roundBlackBox
+Q.blackCircled
+Q.box
+Q.circled
+];
+
+@RLIG_R = [
+Q.roundBlackBox.bold
+Q.blackCircled.bold
+Q.box.bold
+Q.circled.bold
+];
+
+condition 601 < wght;
+sub @RLIG_L by @RLIG_R;
+
+#endif
+";
+tag = rlig;
 },
 {
 code = "# Bring cv01 cv02 cv04 cv06 cv08 cv11 cv12 cv13
@@ -1847,7 +1872,13 @@ value = m01;
 {
 name = "Decompose Glyphs";
 value = (
-dcroat
+dcroat,
+Q.roundBlackBox,
+Q.blackCircled,
+Q.circled,
+Q.box,
+Q.roundBlackBox.bold,
+Q.blackCircled.bold
 );
 }
 );
