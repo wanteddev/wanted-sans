@@ -12,7 +12,7 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (554,-8);
+pos = (554,0);
 ref = seven.tag.cv12;
 }
 );

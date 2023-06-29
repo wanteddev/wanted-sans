@@ -16,7 +16,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (384,0);
-ref = W.tag;
+ref = W.tag.black;
 }
 );
 width = 1764;
@@ -33,8 +33,8 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (460,0);
-ref = W.tag;
+pos = (412,0);
+ref = W.tag.black;
 }
 );
 width = 1812;

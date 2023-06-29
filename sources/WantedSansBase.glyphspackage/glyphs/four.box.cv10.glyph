@@ -12,7 +12,7 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (520,-8);
+pos = (520,0);
 ref = four.tag.cv10;
 }
 );

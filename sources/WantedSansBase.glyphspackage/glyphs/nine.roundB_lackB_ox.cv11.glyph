@@ -15,8 +15,8 @@ alignment = 1;
 attr = {
 reversePaths = "1";
 };
-pos = (546,-8);
-ref = nine.tag.cv11;
+pos = (546,0);
+ref = nine.tag.black.cv11;
 }
 );
 width = 1712;
@@ -34,7 +34,7 @@ attr = {
 reversePaths = "1";
 };
 pos = (592,-8);
-ref = nine.tag.cv11;
+ref = nine.tag.black.cv11;
 }
 );
 width = 1784;

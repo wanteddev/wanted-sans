@@ -8,6 +8,10 @@ layers = (
 {
 anchors = (
 {
+name = _serif;
+pos = (300,362);
+},
+{
 name = _symbol;
 pos = (240,724);
 }
@@ -51,6 +55,10 @@ width = 480;
 },
 {
 anchors = (
+{
+name = _serif;
+pos = (302,398);
+},
 {
 name = _symbol;
 pos = (246,724);
