@@ -4,6 +4,16 @@ kernLeft = asterisk;
 kernRight = asterisk;
 layers = (
 {
+anchors = (
+{
+name = "#entry";
+pos = (176,0);
+},
+{
+name = "#exit";
+pos = (624,0);
+}
+);
 background = {
 shapes = (
 {
@@ -89,6 +99,16 @@ nodes = (
 width = 800;
 },
 {
+anchors = (
+{
+name = "#entry";
+pos = (192,0);
+},
+{
+name = "#exit";
+pos = (768,0);
+}
+);
 background = {
 shapes = (
 {
