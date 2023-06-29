@@ -1,0 +1,44 @@
+{
+glyphname = X.blackCircled;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = 1;
+};
+pos = (520,0);
+ref = X.tag;
+}
+);
+width = 1764;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = 1;
+};
+pos = (540,0);
+ref = X.tag;
+}
+);
+width = 1812;
+}
+);
+unicode = 127335;
+}

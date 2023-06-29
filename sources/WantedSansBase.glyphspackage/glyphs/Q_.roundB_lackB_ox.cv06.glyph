@@ -1,0 +1,43 @@
+{
+glyphname = Q.roundBlackBox.cv06;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = blackSquare;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = "1";
+};
+pos = (448,0);
+ref = Q.tag.cv06;
+}
+);
+width = 1712;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = blackSquare;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = "1";
+};
+pos = (532,0);
+ref = Q.tag.cv06;
+}
+);
+width = 1784;
+}
+);
+}
