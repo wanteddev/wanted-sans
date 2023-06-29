@@ -99,7 +99,7 @@ value = (
 );
 }
 );
-date = "2023-06-29 05:30:19 +0000";
+date = "2023-06-29 06:36:24 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -205,7 +205,9 @@ feature ordn;
 feature pnum;
 feature tnum;
 feature case;
+feature ss01;
 feature ss02;
+feature ss03;
 feature ss06;
 feature ss11;
 feature ss12;
@@ -640,13 +642,163 @@ lookup LOOKUP_CALT_1;
 tag = clig;
 },
 {
-code = "sub one by one.cv07;
+code = "# Bring cv01 cv02 cv04 cv06 cv08 cv11 cv12 cv13
+
+sub j by j.cv01;
+sub jdotless by jdotless.cv01;
+sub jacute by jacute.cv01;
+sub jcircumflex by jcircumflex.cv01;
+sub j.dnom by j.dnom.cv01;
+sub j.numr by j.numr.cv01;
+sub j.subs by j.subs.cv01;
+sub j.sups by j.sups.cv01;
+
+sub t by t.cv02;
+sub tcaron by tcaron.cv02;
+sub tcedilla by tcedilla.cv02;
+sub tcircumflexbelow by tcircumflexbelow.cv02;
+sub tcommaaccent by tcommaaccent.cv02;
+sub tdieresis by tdieresis.cv02;
+sub tdotbelow by tdotbelow.cv02;
+sub tmacronbelow by tmacronbelow.cv02;
+sub t.dnom by t.dnom.cv02;
+sub t.numr by t.numr.cv02;
+sub t.subs by t.subs.cv02;
+sub t.sups by t.sups.cv02;
+
+sub u by u.cv04;
+sub uacute by uacute.cv04;
+sub ubreve by ubreve.cv04;
+sub ucaron by ucaron.cv04;
+sub ucircumflex by ucircumflex.cv04;
+sub udieresis by udieresis.cv04;
+sub udotbelow by udotbelow.cv04;
+sub ugrave by ugrave.cv04;
+sub uhungarumlaut by uhungarumlaut.cv04;
+sub umacron by umacron.cv04;
+sub uogonek by uogonek.cv04;
+sub uring by uring.cv04;
+sub utilde by utilde.cv04;
+sub u.dnom by u.dnom.cv04;
+sub u.numr by u.numr.cv04;
+sub u.subs by u.subs.cv04;
+sub u.sups by u.sups.cv04;
+
+sub Q by Q.cv06;
+sub Q.blackCircled by Q.blackCircled.cv06;
+sub Q.box by Q.box.cv06;
+sub Q.roundBlackBox by Q.roundBlackBox.cv06;
+sub Q.circled by Q.circled.cv06;
+
 sub two by two.cv08;
-sub three by three.cv09;
-sub four by four.cv10;
+sub two.box by two.box.cv08;
+sub two.blackCircled by two.blackCircled.cv08;
+sub two.circled by two.circled.cv08;
+sub two.roundBlackBox by two.roundBlackBox.cv08;
+sub two.tf by two.tf.cv08;
+sub two.dnom by two.dnom.cv08;
+sub two.numr by two.numr.cv08;
+sub onehalf by onehalf.cv08;
+sub onehalf.cv07 by onehalf.cv07.cv08;
+sub twoinferior by twoinferior.cv08;
+sub twosuperior by twosuperior.cv08;
+
+
 sub six by six.cv11;
 sub nine by nine.cv11;
+sub six.box by six.box.cv11;
+sub nine.box by nine.box.cv11;
+sub six.blackCircled by six.blackCircled.cv11;
+sub nine.blackCircled by nine.blackCircled.cv11;
+sub six.circled by six.circled.cv11;
+sub nine.circled by nine.circled.cv11;
+sub six.roundBlackBox by six.roundBlackBox.cv11;
+sub nine.roundBlackBox by nine.roundBlackBox.cv11;
+sub six.tf by six.tf.cv11;
+sub nine.tf by nine.tf.cv11;
+sub six.dnom by six.dnom.cv11;
+sub nine.dnom by nine.dnom.cv11;
+sub six.numr by six.numr.cv11;
+sub nine.numr by nine.numr.cv11;
+sub sixinferior by sixinferior.cv11;
+sub nineinferior by nineinferior.cv11;
+sub sixsuperior by sixsuperior.cv11;
+sub ninesuperior by ninesuperior.cv11;
+
 sub seven by seven.cv12;
+sub seven.box by seven.box.cv12;
+sub seven.blackCircled by seven.blackCircled.cv12;
+sub seven.circled by seven.circled.cv12;
+sub seven.roundBlackBox by seven.roundBlackBox.cv12;
+sub seven.tf by seven.tf.cv12;
+sub seven.dnom by seven.dnom.cv12;
+sub seven.numr by seven.numr.cv12;
+sub seveneighths by seveneighths.cv12;
+sub seveninferior by seveninferior.cv12;
+sub sevensuperior by sevensuperior.cv12;
+
+sub question by question.cv13;
+sub questiondown by questiondown.cv13;
+";
+labels = (
+{
+language = dflt;
+value = "Geometric forms";
+}
+);
+tag = ss01;
+},
+{
+code = "# Bring cv07 cv08 cv10 cv12
+
+sub one by one.cv07;
+sub one.box by one.box.cv07;
+sub one.blackCircled by one.blackCircled.cv07;
+sub one.circled by one.circled.cv07;
+sub one.roundBlackBox by one.roundBlackBox.cv07;
+sub one.tf by one.tf.cv07;
+sub one.dnom by one.dnom.cv07;
+sub one.numr by one.numr.cv07;
+sub oneeighth by oneeighth.cv07;
+sub oneinferior by oneinferior.cv07;
+sub onesuperior by onesuperior.cv07;
+
+sub two by two.cv08;
+sub two.box by two.box.cv08;
+sub two.blackCircled by two.blackCircled.cv08;
+sub two.circled by two.circled.cv08;
+sub two.roundBlackBox by two.roundBlackBox.cv08;
+sub two.tf by two.tf.cv08;
+sub two.dnom by two.dnom.cv08;
+sub two.numr by two.numr.cv08;
+sub onehalf by onehalf.cv07.cv08;
+sub twoinferior by twoinferior.cv08;
+sub twosuperior by twosuperior.cv08;
+
+sub four by four.cv10;
+sub four.box by four.box.cv10;
+sub four.blackCircled by four.blackCircled.cv10;
+sub four.circled by four.circled.cv10;
+sub four.roundBlackBox by four.roundBlackBox.cv10;
+sub four.tf by four.tf.cv10;
+sub four.dnom by four.dnom.cv10;
+sub four.numr by four.numr.cv10;
+sub onequarter by onequarter.cv07.cv10;
+sub threequarters by threequarters.cv10;
+sub fourinferior by fourinferior.cv10;
+sub foursuperior by foursuperior.cv10;
+
+sub seven by seven.cv12;
+sub seven.box by seven.box.cv12;
+sub seven.blackCircled by seven.blackCircled.cv12;
+sub seven.circled by seven.circled.cv12;
+sub seven.roundBlackBox by seven.roundBlackBox.cv12;
+sub seven.tf by seven.tf.cv12;
+sub seven.dnom by seven.dnom.cv12;
+sub seven.numr by seven.numr.cv12;
+sub seveneighths by seveneighths.cv12;
+sub seveninferior by seveninferior.cv12;
+sub sevensuperior by sevensuperior.cv12;
 ";
 labels = (
 {
@@ -657,7 +809,51 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19 zero
+code = "# Bring cv15 cv16
+
+sub two by two.cv15;
+sub two.box by two.box.cv15;
+sub two.blackCircled by two.blackCircled.cv15;
+sub two.circled by two.circled.cv15;
+sub two.roundBlackBox by two.roundBlackBox.cv15;
+sub two.tf by two.tf.cv15;
+sub two.dnom by two.dnom.cv15;
+sub two.numr by two.numr.cv15;
+sub onehalf by onehalf.cv15;
+sub onehalf.cv07 by onehalf.cv07.cv15;
+sub twoinferior by twoinferior.cv15;
+sub twosuperior by twosuperior.cv15;
+
+sub r by r.cv16;
+sub racute by racute.cv16;
+sub rcaron by rcaron.cv16;
+sub rcommaaccent by rcommaaccent.cv16;
+sub rdotbelowmacron by rdotbelowmacron.cv16;
+sub rmacronbelow by rmacronbelow.cv16;
+sub rturned by rturned.cv16;
+sub r.dnom by r.dnom.cv16;
+sub r.numr by r.numr.cv16;
+sub r.subs by r.subs.cv16;
+sub r.sups by r.sups.cv16;
+";
+labels = (
+{
+language = dflt;
+value = "Stylistic forms";
+}
+);
+tag = ss03;
+},
+{
+code = "# Customize sets
+@SS06_L = [
+];
+@SS06_R = [
+];
+
+sub @SS06_L by @SS06_R;
+
+# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19 zero
 
 sub a by a.cv03;
 sub aacute by aacute.cv03;
@@ -793,17 +989,6 @@ sub Igrave by Igrave.cv19;
 sub Imacron by Imacron.cv19;
 sub Iogonek by Iogonek.cv19;
 sub Itilde by Itilde.cv19;
-
-sub zero by zero.zero;
-sub zero.box by zero.box.zero;
-sub zero.roundBlackBox by zero.roundBlackBox.zero;
-sub zero.tf by zero.tf.zero;
-sub zero.blackCircled by zero.blackCircled.zero;
-sub zero.circled by zero.circled.zero;
-sub zero.dnom by zero.dnom.zero;
-sub zero.numr by zero.numr.zero;
-sub zeroinferior by zeroinferior.zero;
-sub zerosuperior by zerosuperior.zero;
 ";
 labels = (
 {
@@ -5299,5 +5484,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 502;
+versionMinor = 503;
 }
