@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcircumflexbelow Dcroat Ddotbelow Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent Kmacronbelow L Lacute Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Nmacronbelow Ntilde O Oacute Ocaron Ocircumflex Ocircumflexdotbelow Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelowmacron Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow T Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Zmacronbelow J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
+code = "A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcircumflexbelow Dcroat Ddotbelow Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent Kmacronbelow L Lacute Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Nmacronbelow Ntilde O Oacute Ocaron Ocircumflex Ocircumflexdotbelow Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelowmacron Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow T Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Zmacronbelow J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 I.cv19 IJ.cv19 Iacute.cv19 Icaron.cv19 Icircumflex.cv19 Idieresis.cv19 Idotaccent.cv19 Idotbelow.cv19 Igrave.cv19 Imacron.cv19 Iogonek.cv19 Itilde.cv19 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
 name = Uppercase;
 },
 {
@@ -1052,6 +1052,23 @@ sub oneinferior.cv07 by oneinferior.cv07.cv18;
 sub onesuperior.cv07 by onesuperior.cv07.cv18;
 ";
 tag = cv18;
+},
+{
+automatic = 1;
+code = "sub I by I.cv19;
+sub IJ by IJ.cv19;
+sub Iacute by Iacute.cv19;
+sub Icaron by Icaron.cv19;
+sub Icircumflex by Icircumflex.cv19;
+sub Idieresis by Idieresis.cv19;
+sub Idotaccent by Idotaccent.cv19;
+sub Idotbelow by Idotbelow.cv19;
+sub Igrave by Igrave.cv19;
+sub Imacron by Imacron.cv19;
+sub Iogonek by Iogonek.cv19;
+sub Itilde by Itilde.cv19;
+";
+tag = cv19;
 },
 {
 code = "# Automatic Code
