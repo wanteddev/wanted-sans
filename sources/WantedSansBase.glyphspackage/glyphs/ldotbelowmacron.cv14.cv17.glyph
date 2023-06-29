@@ -19,7 +19,7 @@ pos = (216,480);
 ref = macroncomb;
 }
 );
-width = 502;
+width = 540;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -36,7 +36,7 @@ pos = (308,472);
 ref = macroncomb;
 }
 );
-width = 706;
+width = 732;
 }
 );
 note = $EXTRA_STEM_LOWERCASE;

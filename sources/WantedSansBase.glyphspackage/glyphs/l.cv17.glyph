@@ -39,7 +39,7 @@ Cap = 100;
 ref = _smart.lowerstem.curve;
 }
 );
-width = 502;
+width = 540;
 },
 {
 anchors = (
@@ -76,7 +76,7 @@ Cap = 100;
 ref = _smart.lowerstem.curve;
 }
 );
-width = 706;
+width = 732;
 }
 );
 metricLeft = n;
