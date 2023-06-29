@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 export = 0;
 glyphname = two.tag.black.cv15;
 kernLeft = two.tag;
@@ -19,8 +19,8 @@ closed = 1;
 nodes = (
 (570,362,l),
 (570,488,l),
-(236,488,l),
-(236,492,l),
+(238,488,l),
+(238,500,l),
 (236,488,l),
 (290,610,o),
 (558,638,o),
@@ -104,7 +104,7 @@ width = 50;
 width = 656;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler \012# Required Adjustment overlap from Regular";
 userData = {
 RMXScaler = {
 source = two.cv15;

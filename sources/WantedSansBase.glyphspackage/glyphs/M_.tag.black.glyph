@@ -44,7 +44,7 @@ closed = 1;
 nodes = (
 (450,362,l),
 (450,570,l),
-(450,580,l),
+(452,580,l),
 (436,580,l),
 (450,570,l),
 (242,1086,l),
@@ -67,7 +67,7 @@ nodes = (
 (654,1086,l),
 (446,570,l),
 (458,580,l),
-(446,580,l),
+(444,580,l),
 (446,570,l),
 (446,362,l),
 (506,362,l)
@@ -182,7 +182,7 @@ width = 45;
 width = 890;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler\012\012# Required Adjustment overlap from Black";
 userData = {
 RMXScaler = {
 source = M;
