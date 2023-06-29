@@ -42,4 +42,5 @@ width = 1784;
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
+note = "$SYMBOL_FILL $SYMBOL_SQUARE";
 }

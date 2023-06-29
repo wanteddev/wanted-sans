@@ -34,4 +34,5 @@ ref = Q.tag.cv06;
 width = 1784;
 }
 );
+note = "$SYMBOL_OUTLINE $SYMBOL_SQUARE";
 }

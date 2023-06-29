@@ -40,5 +40,6 @@ ref = G.tag.black;
 width = 1784;
 }
 );
+note = "$SYMBOL_FILL $SYMBOL_SQUARE";
 unicode = 127350;
 }

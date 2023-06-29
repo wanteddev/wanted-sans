@@ -34,5 +34,6 @@ ref = K.tag;
 width = 1784;
 }
 );
+note = "$SYMBOL_OUTLINE $SYMBOL_SQUARE";
 unicode = 127290;
 }

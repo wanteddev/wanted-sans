@@ -40,5 +40,6 @@ ref = U.tag.black;
 width = 1812;
 }
 );
+note = "$SYMBOL_FILL $SYMBOL_CIRCLE";
 unicode = 127332;
 }

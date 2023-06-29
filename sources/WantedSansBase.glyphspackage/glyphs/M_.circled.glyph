@@ -34,5 +34,6 @@ ref = M.tag;
 width = 1812;
 }
 );
+note = "$SYMBOL_OUTLINE $SYMBOL_CIRCLE";
 unicode = 9410;
 }

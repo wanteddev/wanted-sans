@@ -36,4 +36,5 @@ width = 1784;
 );
 metricLeft = whiteSquare;
 metricRight = whiteSquare;
+note = "$SYMBOL_OUTLINE $SYMBOL_SQUARE";
 }

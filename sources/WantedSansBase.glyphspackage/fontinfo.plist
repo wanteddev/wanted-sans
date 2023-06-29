@@ -70,6 +70,26 @@ name = EXTRA_STEM_LOWERCASE_L;
 code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
 ";
 name = EXTRA_STEM_LOWERCASE_R;
+},
+{
+code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_CIRCLE\"]
+";
+name = SYMBOL_FILL_CIRCLE;
+},
+{
+code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_SQUARE\"]
+";
+name = SYMBOL_FILL_SQUARE;
+},
+{
+code = "$[note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_CIRCLE\"]
+";
+name = SYMBOL_OUTLINE_CIRCLE;
+},
+{
+code = "$[note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_SQUARE\"]
+";
+name = SYMBOL_OUTLINE_SQUARE;
 }
 );
 customParameters = (
@@ -183,6 +203,10 @@ feature pnum;
 feature tnum;
 feature case;
 feature ss02;
+feature ss11;
+feature ss12;
+feature ss13;
+feature ss14;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -626,6 +650,53 @@ value = "Common numerics";
 }
 );
 tag = ss02;
+},
+{
+code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_OUTLINE_SQUARE;
+sub @SYMBOL_FILL_CIRCLE by @SYMBOL_OUTLINE_CIRCLE;
+";
+labels = (
+{
+language = dflt;
+value = "Outlined symbols";
+}
+);
+tag = ss11;
+},
+{
+code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_FILL_CIRCLE;
+sub @SYMBOL_OUTLINE_SQUARE by @SYMBOL_OUTLINE_CIRCLE;";
+labels = (
+{
+language = dflt;
+value = "Circle symbols";
+}
+);
+tag = ss12;
+},
+{
+code = "sub @SYMBOL_FILL_CIRCLE by @SYMBOL_FILL_SQUARE;
+sub @SYMBOL_OUTLINE_CIRCLE by @SYMBOL_OUTLINE_SQUARE;
+";
+labels = (
+{
+language = dflt;
+value = "Square symbols";
+}
+);
+tag = ss13;
+},
+{
+code = "sub @SYMBOL_OUTLINE_SQUARE by @SYMBOL_FILL_SQUARE;
+sub @SYMBOL_OUTLINE_CIRCLE by @SYMBOL_FILL_CIRCLE;
+";
+labels = (
+{
+language = dflt;
+value = "Filled symbols";
+}
+);
+tag = ss14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 

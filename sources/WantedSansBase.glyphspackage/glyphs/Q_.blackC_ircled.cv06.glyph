@@ -40,4 +40,5 @@ ref = Q.tag.black.cv06;
 width = 1812;
 }
 );
+note = "$SYMBOL_FILL $SYMBOL_CIRCLE";
 }
