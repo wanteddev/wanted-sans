@@ -24,7 +24,7 @@ pos = (672,0);
 ref = _smart.lowerstem.curve;
 }
 );
-width = 1174;
+width = 1212;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -50,7 +50,7 @@ pos = (720,0);
 ref = _smart.lowerstem.curve;
 }
 );
-width = 1426;
+width = 1452;
 }
 );
 unicode = 181;
