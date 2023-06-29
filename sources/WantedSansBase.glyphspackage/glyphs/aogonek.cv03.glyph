@@ -11,7 +11,7 @@ ref = a.cv03;
 },
 {
 piece = {
-Width = 1;
+Width = 28;
 };
 pos = (780,0);
 ref = _smart.ogonek;

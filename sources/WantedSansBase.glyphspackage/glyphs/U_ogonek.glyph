@@ -10,8 +10,11 @@ shapes = (
 ref = U;
 },
 {
+piece = {
+Width = 32;
+};
 pos = (700,0);
-ref = ogonekcomb.case;
+ref = _smart.ogonek;
 }
 );
 width = 1384;
@@ -23,8 +26,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (540,0);
-ref = ogonekcomb.case;
+piece = {
+Width = 28;
+};
+pos = (552,0);
+ref = _smart.ogonek;
 }
 );
 width = 1508;
