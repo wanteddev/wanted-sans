@@ -170,7 +170,7 @@ sub f' [i l] by f_i.start;
 sub f' @Ligature by f_f.start;
 sub f_f' @Ligature by f_f.end;
 
-# Normal ligature
+# Legacy ligature
 #sub f f i by f_f_i;
 #sub f f l by f_f_l;
 #sub f f by f_f;
