@@ -668,7 +668,6 @@ tag = rlig;
 },
 {
 code = "# Bring cv01 cv02 cv04 cv06 cv08 cv11 cv12 cv13
-
 sub j by j.cv01;
 sub jdotless by jdotless.cv01;
 sub jacute by jacute.cv01;
@@ -677,7 +676,6 @@ sub j.dnom by j.dnom.cv01;
 sub j.numr by j.numr.cv01;
 sub j.subs by j.subs.cv01;
 sub j.sups by j.sups.cv01;
-
 sub t by t.cv02;
 sub tcaron by tcaron.cv02;
 sub tcedilla by tcedilla.cv02;
@@ -690,7 +688,6 @@ sub t.dnom by t.dnom.cv02;
 sub t.numr by t.numr.cv02;
 sub t.subs by t.subs.cv02;
 sub t.sups by t.sups.cv02;
-
 sub u by u.cv04;
 sub uacute by uacute.cv04;
 sub ubreve by ubreve.cv04;
@@ -708,13 +705,11 @@ sub u.dnom by u.dnom.cv04;
 sub u.numr by u.numr.cv04;
 sub u.subs by u.subs.cv04;
 sub u.sups by u.sups.cv04;
-
 sub Q by Q.cv06;
 sub Q.blackCircled by Q.blackCircled.cv06;
 sub Q.box by Q.box.cv06;
 sub Q.roundBlackBox by Q.roundBlackBox.cv06;
 sub Q.circled by Q.circled.cv06;
-
 sub two by two.cv08;
 sub two.box by two.box.cv08;
 sub two.blackCircled by two.blackCircled.cv08;
@@ -727,8 +722,6 @@ sub onehalf by onehalf.cv08;
 sub onehalf.cv07 by onehalf.cv07.cv08;
 sub twoinferior by twoinferior.cv08;
 sub twosuperior by twosuperior.cv08;
-
-
 sub six by six.cv11;
 sub nine by nine.cv11;
 sub six.box by six.box.cv11;
@@ -749,7 +742,6 @@ sub sixinferior by sixinferior.cv11;
 sub nineinferior by nineinferior.cv11;
 sub sixsuperior by sixsuperior.cv11;
 sub ninesuperior by ninesuperior.cv11;
-
 sub seven by seven.cv12;
 sub seven.box by seven.box.cv12;
 sub seven.blackCircled by seven.blackCircled.cv12;
@@ -761,9 +753,9 @@ sub seven.numr by seven.numr.cv12;
 sub seveneighths by seveneighths.cv12;
 sub seveninferior by seveninferior.cv12;
 sub sevensuperior by sevensuperior.cv12;
-
 sub question by question.cv13;
 sub questiondown by questiondown.cv13;
+# End Bring
 ";
 labels = (
 {
@@ -775,7 +767,6 @@ tag = ss01;
 },
 {
 code = "# Bring cv07 cv08 cv10 cv12
-
 sub one by one.cv07;
 sub one.box by one.box.cv07;
 sub one.blackCircled by one.blackCircled.cv07;
@@ -787,7 +778,6 @@ sub one.numr by one.numr.cv07;
 sub oneeighth by oneeighth.cv07;
 sub oneinferior by oneinferior.cv07;
 sub onesuperior by onesuperior.cv07;
-
 sub two by two.cv08;
 sub two.box by two.box.cv08;
 sub two.blackCircled by two.blackCircled.cv08;
@@ -799,7 +789,6 @@ sub two.numr by two.numr.cv08;
 sub onehalf by onehalf.cv07.cv08;
 sub twoinferior by twoinferior.cv08;
 sub twosuperior by twosuperior.cv08;
-
 sub four by four.cv10;
 sub four.box by four.box.cv10;
 sub four.blackCircled by four.blackCircled.cv10;
@@ -812,7 +801,6 @@ sub onequarter by onequarter.cv07.cv10;
 sub threequarters by threequarters.cv10;
 sub fourinferior by fourinferior.cv10;
 sub foursuperior by foursuperior.cv10;
-
 sub seven by seven.cv12;
 sub seven.box by seven.box.cv12;
 sub seven.blackCircled by seven.blackCircled.cv12;
@@ -824,6 +812,7 @@ sub seven.numr by seven.numr.cv12;
 sub seveneighths by seveneighths.cv12;
 sub seveninferior by seveninferior.cv12;
 sub sevensuperior by sevensuperior.cv12;
+# End Bring
 ";
 labels = (
 {
@@ -835,7 +824,6 @@ tag = ss02;
 },
 {
 code = "# Bring cv15 cv16
-
 sub two by two.cv15;
 sub two.box by two.box.cv15;
 sub two.blackCircled by two.blackCircled.cv15;
@@ -848,7 +836,6 @@ sub onehalf by onehalf.cv15;
 sub onehalf.cv07 by onehalf.cv07.cv15;
 sub twoinferior by twoinferior.cv15;
 sub twosuperior by twosuperior.cv15;
-
 sub r by r.cv16;
 sub racute by racute.cv16;
 sub rcaron by rcaron.cv16;
@@ -860,6 +847,7 @@ sub r.dnom by r.dnom.cv16;
 sub r.numr by r.numr.cv16;
 sub r.subs by r.subs.cv16;
 sub r.sups by r.sups.cv16;
+# End Bring
 ";
 labels = (
 {
@@ -878,8 +866,7 @@ code = "# Customize sets
 
 sub @SS06_L by @SS06_R;
 
-# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19 zero
-
+# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19
 sub a by a.cv03;
 sub aacute by aacute.cv03;
 sub abreve by abreve.cv03;
@@ -903,7 +890,6 @@ sub a.numr by a.numr.cv03;
 sub a.subs by a.subs.cv03;
 sub a.sups by a.sups.cv03;
 sub ordfeminine by ordfeminine.cv03;
-
 sub J by J.cv05;
 sub Jacute by Jacute.cv05;
 sub Jcircumflex by Jcircumflex.cv05;
@@ -911,7 +897,6 @@ sub J.blackCircled by J.blackCircled.cv05;
 sub J.box by J.box.cv05;
 sub J.roundBlackBox by J.roundBlackBox.cv05;
 sub J.circled by J.circled.cv05;
-
 sub three by three.cv09;
 sub three.box by three.box.cv09;
 sub three.blackCircled by three.blackCircled.cv09;
@@ -924,7 +909,6 @@ sub threequarters by threequarters.cv09;
 sub threeeighths by threeeighths.cv09;
 sub threeinferior by threeinferior.cv09;
 sub threesuperior by threesuperior.cv09;
-
 sub six by six.cv11;
 sub nine by nine.cv11;
 sub six.box by six.box.cv11;
@@ -945,7 +929,6 @@ sub sixinferior by sixinferior.cv11;
 sub nineinferior by nineinferior.cv11;
 sub sixsuperior by sixsuperior.cv11;
 sub ninesuperior by ninesuperior.cv11;
-
 sub l by l.cv17;
 sub lacute by lacute.cv17;
 sub lcaron by lcaron.cv17;
@@ -968,7 +951,6 @@ sub l.dnom by l.dnom.cv17;
 sub l.numr by l.numr.cv17;
 sub l.subs by l.subs.cv17;
 sub l.sups by l.sups.cv17;
-
 sub one by one.cv18;
 sub one.box by one.box.cv18;
 sub one.cv07 by one.cv07.cv18;
@@ -1001,7 +983,6 @@ sub oneinferior by oneinferior.cv18;
 sub onesuperior by onesuperior.cv18;
 sub oneinferior.cv07 by oneinferior.cv07.cv18;
 sub onesuperior.cv07 by onesuperior.cv07.cv18;
-
 sub I by I.cv19;
 sub IJ by IJ.cv19;
 sub Iacute by Iacute.cv19;
@@ -1014,6 +995,7 @@ sub Igrave by Igrave.cv19;
 sub Imacron by Imacron.cv19;
 sub Iogonek by Iogonek.cv19;
 sub Itilde by Itilde.cv19;
+# End Bring
 ";
 labels = (
 {
