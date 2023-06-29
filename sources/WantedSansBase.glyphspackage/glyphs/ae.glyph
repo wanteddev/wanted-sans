@@ -21,11 +21,11 @@ shapes = (
 ref = _part.aebase;
 },
 {
-pos = (712,0);
+pos = (728,0);
 ref = _part.xebase;
 }
 );
-width = 1868;
+width = 1884;
 },
 {
 background = {
