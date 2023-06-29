@@ -43,5 +43,5 @@ width = 1812;
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
 note = "$SYMBOL_FILL $SYMBOL_CIRCLE";
-unicode = 10109;
+unicode = (10109,10129);
 }
