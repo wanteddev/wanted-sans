@@ -1173,7 +1173,11 @@ code = "sub Q by Q.cv06;
 sub Q.blackCircled by Q.blackCircled.cv06;
 sub Q.box by Q.box.cv06;
 sub Q.roundBlackBox by Q.roundBlackBox.cv06;
+sub Q.blackCircled.bold by Q.blackCircled.bold.cv06;
+sub Q.box.bold by Q.box.bold.cv06;
 sub Q.circled by Q.circled.cv06;
+sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
+sub Q.circled.bold by Q.circled.bold.cv06;
 ";
 tag = cv06;
 },
