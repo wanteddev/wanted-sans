@@ -13,11 +13,11 @@ ref = a.cv03;
 piece = {
 Width = 1;
 };
-pos = (764,0);
+pos = (780,0);
 ref = _smart.ogonek;
 }
 );
-width = 1068;
+width = 1084;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
