@@ -99,7 +99,7 @@ value = (
 );
 }
 );
-date = "2023-06-29 01:59:50 +0000";
+date = "2023-06-29 05:30:19 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -141,21 +141,24 @@ sub @CASE_L' @Separator @Case by @CASE_R;
 
 lookup LOOKUP_CALT_2 {
 # Separate I and l
-sub I @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+@I = [
+$[case > 0 and name beginswith \"I\"]
+];
+
+sub @I @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_R @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L I by @EXTRA_STEM_LOWERCASE_R;
-} LOOKUP_CALT_2;
+sub @EXTRA_STEM_LOWERCASE_L' @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;} LOOKUP_CALT_2;
 ";
 name = LOOKUP_CALT;
 },
@@ -203,6 +206,7 @@ feature pnum;
 feature tnum;
 feature case;
 feature ss02;
+feature ss06;
 feature ss11;
 feature ss12;
 feature ss13;
@@ -225,6 +229,7 @@ feature cv15;
 feature cv16;
 feature cv17;
 feature cv18;
+feature cv19;
 feature zero;
 ";
 tag = aalt;
@@ -650,6 +655,163 @@ value = "Common numerics";
 }
 );
 tag = ss02;
+},
+{
+code = "# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19 zero
+
+sub a by a.cv03;
+sub aacute by aacute.cv03;
+sub abreve by abreve.cv03;
+sub abrevedotbelow by abrevedotbelow.cv03;
+sub acaron by acaron.cv03;
+sub acircumflex by acircumflex.cv03;
+sub acircumflexdotbelow by acircumflexdotbelow.cv03;
+sub adblgrave by adblgrave.cv03;
+sub adieresis by adieresis.cv03;
+sub adotaccent by adotaccent.cv03;
+sub adotbelow by adotbelow.cv03;
+sub agrave by agrave.cv03;
+sub amacron by amacron.cv03;
+sub aogonek by aogonek.cv03;
+sub aring by aring.cv03;
+sub atilde by atilde.cv03;
+sub aturned by aturned.cv03;
+sub aacute.loclPLK by aacute.loclPLK.cv03;
+sub a.dnom by a.dnom.cv03;
+sub a.numr by a.numr.cv03;
+sub a.subs by a.subs.cv03;
+sub a.sups by a.sups.cv03;
+sub ordfeminine by ordfeminine.cv03;
+
+sub J by J.cv05;
+sub Jacute by Jacute.cv05;
+sub Jcircumflex by Jcircumflex.cv05;
+sub J.blackCircled by J.blackCircled.cv05;
+sub J.box by J.box.cv05;
+sub J.roundBlackBox by J.roundBlackBox.cv05;
+sub J.circled by J.circled.cv05;
+
+sub three by three.cv09;
+sub three.box by three.box.cv09;
+sub three.blackCircled by three.blackCircled.cv09;
+sub three.circled by three.circled.cv09;
+sub three.roundBlackBox by three.roundBlackBox.cv09;
+sub three.tf by three.tf.cv09;
+sub three.dnom by three.dnom.cv09;
+sub three.numr by three.numr.cv09;
+sub threequarters by threequarters.cv09;
+sub threeeighths by threeeighths.cv09;
+sub threeinferior by threeinferior.cv09;
+sub threesuperior by threesuperior.cv09;
+
+sub six by six.cv11;
+sub nine by nine.cv11;
+sub six.box by six.box.cv11;
+sub nine.box by nine.box.cv11;
+sub six.blackCircled by six.blackCircled.cv11;
+sub nine.blackCircled by nine.blackCircled.cv11;
+sub six.circled by six.circled.cv11;
+sub nine.circled by nine.circled.cv11;
+sub six.roundBlackBox by six.roundBlackBox.cv11;
+sub nine.roundBlackBox by nine.roundBlackBox.cv11;
+sub six.tf by six.tf.cv11;
+sub nine.tf by nine.tf.cv11;
+sub six.dnom by six.dnom.cv11;
+sub nine.dnom by nine.dnom.cv11;
+sub six.numr by six.numr.cv11;
+sub nine.numr by nine.numr.cv11;
+sub sixinferior by sixinferior.cv11;
+sub nineinferior by nineinferior.cv11;
+sub sixsuperior by sixsuperior.cv11;
+sub ninesuperior by ninesuperior.cv11;
+
+sub l by l.cv17;
+sub lacute by lacute.cv17;
+sub lcaron by lcaron.cv17;
+sub lcircumflexbelow by lcircumflexbelow.cv17;
+sub lcommaaccent by lcommaaccent.cv17;
+sub ldotbelow by ldotbelow.cv17;
+sub ldotbelowmacron by ldotbelowmacron.cv17;
+sub lmacronbelow by lmacronbelow.cv17;
+sub lslash by lslash.cv17;
+sub l.cv14 by l.cv14.cv17;
+sub lacute.cv14 by lacute.cv14.cv17;
+sub lcaron.cv14 by lcaron.cv14.cv17;
+sub lcircumflexbelow.cv14 by lcircumflexbelow.cv14.cv17;
+sub lcommaaccent.cv14 by lcommaaccent.cv14.cv17;
+sub ldotbelow.cv14 by ldotbelow.cv14.cv17;
+sub ldotbelowmacron.cv14 by ldotbelowmacron.cv14.cv17;
+sub lmacronbelow.cv14 by lmacronbelow.cv14.cv17;
+sub lslash.cv14 by lslash.cv14.cv17;
+sub l.dnom by l.dnom.cv17;
+sub l.numr by l.numr.cv17;
+sub l.subs by l.subs.cv17;
+sub l.sups by l.sups.cv17;
+
+sub one by one.cv18;
+sub one.box by one.box.cv18;
+sub one.cv07 by one.cv07.cv18;
+sub one.blackCircled by one.blackCircled.cv18;
+sub one.circled by one.circled.cv18;
+sub one.roundBlackBox by one.roundBlackBox.cv18;
+sub one.tf by one.tf.cv18;
+sub one.box.cv07 by one.box.cv07.cv18;
+sub one.blackCircled.cv07 by one.blackCircled.cv07.cv18;
+sub one.circled.cv07 by one.circled.cv07.cv18;
+sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv18;
+sub one.tf.cv07 by one.tf.cv07.cv18;
+sub one.dnom by one.dnom.cv18;
+sub one.numr by one.numr.cv18;
+sub onehalf by onehalf.cv18;
+sub onequarter by onequarter.cv18;
+sub oneeighth by oneeighth.cv18;
+sub one.dnom.cv07 by one.dnom.cv07.cv18;
+sub one.numr.cv07 by one.numr.cv07.cv18;
+sub onehalf.cv07 by onehalf.cv07.cv18;
+sub onequarter.cv07 by onequarter.cv07.cv18;
+sub oneeighth.cv07 by oneeighth.cv07.cv18;
+sub onehalf.cv08 by onehalf.cv08.cv18;
+sub onequarter.cv10 by onequarter.cv10.cv18;
+sub onehalf.cv15 by onehalf.cv15.cv18;
+sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv18;
+sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv18;
+sub onehalf.cv07.cv15 by onehalf.cv07.cv15.cv18;
+sub oneinferior by oneinferior.cv18;
+sub onesuperior by onesuperior.cv18;
+sub oneinferior.cv07 by oneinferior.cv07.cv18;
+sub onesuperior.cv07 by onesuperior.cv07.cv18;
+
+sub I by I.cv19;
+sub IJ by IJ.cv19;
+sub Iacute by Iacute.cv19;
+sub Icaron by Icaron.cv19;
+sub Icircumflex by Icircumflex.cv19;
+sub Idieresis by Idieresis.cv19;
+sub Idotaccent by Idotaccent.cv19;
+sub Idotbelow by Idotbelow.cv19;
+sub Igrave by Igrave.cv19;
+sub Imacron by Imacron.cv19;
+sub Iogonek by Iogonek.cv19;
+sub Itilde by Itilde.cv19;
+
+sub zero by zero.zero;
+sub zero.box by zero.box.zero;
+sub zero.roundBlackBox by zero.roundBlackBox.zero;
+sub zero.tf by zero.tf.zero;
+sub zero.blackCircled by zero.blackCircled.zero;
+sub zero.circled by zero.circled.zero;
+sub zero.dnom by zero.dnom.zero;
+sub zero.numr by zero.numr.zero;
+sub zeroinferior by zeroinferior.zero;
+sub zerosuperior by zerosuperior.zero;
+";
+labels = (
+{
+language = dflt;
+value = "High legibility";
+}
+);
+tag = ss06;
 },
 {
 code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_OUTLINE_SQUARE;
