@@ -1,0 +1,53 @@
+{
+glyphname = j.cv01;
+kernLeft = p;
+kernRight = q;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (-32,0);
+ref = j;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = jdotless.cv01;
+},
+{
+alignment = 1;
+pos = (216,0);
+ref = dotaccentcomb;
+}
+);
+width = 432;
+},
+{
+background = {
+shapes = (
+{
+pos = (-32,0);
+ref = j;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = jdotless.cv01;
+},
+{
+alignment = 1;
+pos = (308,0);
+ref = dotaccentcomb;
+}
+);
+width = 616;
+}
+);
+metricLeft = i;
+metricRight = i;
+}

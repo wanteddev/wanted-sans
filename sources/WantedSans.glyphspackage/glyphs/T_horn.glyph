@@ -1,0 +1,72 @@
+{
+glyphname = Thorn;
+kernLeft = H;
+kernRight = P;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (596,0);
+},
+{
+name = top;
+pos = (596,1448);
+}
+);
+background = {
+shapes = (
+{
+ref = P;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+alignment = -1;
+pos = (316,-284);
+ref = _smart.Pbase;
+}
+);
+width = 1192;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (596,0);
+},
+{
+name = top;
+pos = (596,1448);
+}
+);
+background = {
+shapes = (
+{
+ref = P;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+alignment = -1;
+pos = (532,-206);
+ref = _smart.Pbase;
+}
+);
+width = 1320;
+}
+);
+metricLeft = P;
+metricWidth = P;
+unicode = 222;
+}

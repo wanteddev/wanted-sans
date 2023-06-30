@@ -1,0 +1,100 @@
+{
+glyphname = M;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (838,724);
+},
+{
+name = bottom;
+pos = (838,0);
+},
+{
+name = top;
+pos = (838,1448);
+}
+);
+layerId = m01;
+shapes = (
+{
+piece = {
+Condensed = 0;
+};
+ref = _smart.upperstem;
+},
+{
+pos = (316,0);
+ref = _part.Mbase;
+},
+{
+pos = (1360,0);
+ref = _part.Mbase;
+scale = (-1,1);
+},
+{
+piece = {
+Condensed = 0;
+};
+pos = (1220,0);
+ref = _smart.upperstem;
+}
+);
+width = 1676;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (970,724);
+},
+{
+name = bottom;
+pos = (970,0);
+},
+{
+name = top;
+pos = (970,1448);
+}
+);
+background = {
+shapes = (
+{
+pos = (-142,0);
+ref = N;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Condensed = 12;
+};
+ref = _smart.upperstem;
+},
+{
+pos = (520,0);
+ref = _part.Mbase;
+},
+{
+pos = (1420,0);
+ref = _part.Mbase;
+scale = (-1,1);
+},
+{
+piece = {
+Condensed = 12;
+};
+pos = (1304,0);
+ref = _smart.upperstem;
+}
+);
+width = 1940;
+}
+);
+unicode = 77;
+}

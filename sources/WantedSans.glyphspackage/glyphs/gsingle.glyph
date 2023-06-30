@@ -1,0 +1,26 @@
+{
+glyphname = gsingle;
+kernLeft = g;
+kernRight = g;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g;
+}
+);
+width = 1220;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = g;
+}
+);
+width = 1314;
+}
+);
+unicode = 609;
+}

@@ -1,0 +1,47 @@
+{
+color = 4;
+glyphname = Q.blackCircled.bold;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+name = Black;
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = "1";
+};
+pos = (486,0);
+ref = Q.tag.black.bold;
+}
+);
+width = 1812;
+},
+{
+layerId = m01;
+name = Regular;
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = "1";
+};
+pos = (462,0);
+ref = Q.tag.black.bold;
+}
+);
+width = 1764;
+}
+);
+note = "$SYMBOL_FILL $SYMBOL_CIRCLE\012\012# Detached each alternates for .bold glyph";
+}

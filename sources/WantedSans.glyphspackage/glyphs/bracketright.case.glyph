@@ -1,0 +1,29 @@
+{
+glyphname = bracketright.case;
+kernLeft = parenright.case;
+kernRight = parenright.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (640,0);
+ref = bracketleft.case;
+scale = (-1,1);
+}
+);
+width = 640;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (880,0);
+ref = bracketleft.case;
+scale = (-1,1);
+}
+);
+width = 880;
+}
+);
+}

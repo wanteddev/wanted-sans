@@ -1,0 +1,110 @@
+{
+glyphname = dieresisbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = dotbelowcomb;
+},
+{
+alignment = -1;
+piece = {
+Mark = 150;
+};
+pos = (-202,-418);
+ref = _smart.dot;
+},
+{
+alignment = -1;
+piece = {
+Mark = 150;
+};
+pos = (202,-418);
+ref = _smart.dot;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+alignment = -1;
+piece = {
+Mark = 150;
+};
+pos = (-202,-418);
+ref = _smart.dot;
+},
+{
+alignment = -1;
+piece = {
+Mark = 150;
+};
+pos = (202,-418);
+ref = _smart.dot;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = dotbelowcomb;
+},
+{
+alignment = -1;
+piece = {
+Mark = 420;
+};
+pos = (-250,-432);
+ref = _smart.dot;
+},
+{
+alignment = -1;
+piece = {
+Mark = 420;
+};
+pos = (250,-432);
+ref = _smart.dot;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+alignment = -1;
+piece = {
+Mark = 420;
+};
+pos = (-250,-432);
+ref = _smart.dot;
+},
+{
+alignment = -1;
+piece = {
+Mark = 420;
+};
+pos = (250,-432);
+ref = _smart.dot;
+}
+);
+width = 0;
+}
+);
+unicode = 804;
+}

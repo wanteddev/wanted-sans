@@ -1,0 +1,74 @@
+{
+color = 0;
+glyphname = colon;
+kernLeft = colon;
+kernRight = colon;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,776);
+ref = period;
+}
+);
+width = 512;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,612);
+ref = period;
+}
+);
+width = 660;
+},
+{
+associatedMasterId = m01;
+layerId = "E339636C-4957-4E41-AF5D-A0064593EF24";
+name = "Apr 11, 23 11:22";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,808);
+ref = period;
+}
+);
+width = 512;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "C7BF4CB1-EB79-48D6-9E17-AC83B5BE417D";
+name = "Apr 11, 23 11:22";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,628);
+ref = period;
+}
+);
+width = 660;
+}
+);
+note = $CASE;
+unicode = 58;
+}

@@ -1,0 +1,53 @@
+{
+export = 0;
+glyphname = _part.basesymbol.medium;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(2048,-300,l),
+(2048,1748,l),
+(0,1744,l),
+(0,-300,l)
+);
+}
+);
+width = 2048;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(2048,-300,l),
+(2048,1748,l),
+(0,1744,l),
+(0,-300,l)
+);
+}
+);
+width = 2048;
+},
+{
+associatedMasterId = m01;
+layerId = "5C20EF92-B63D-42A8-8878-93C2863E0093";
+name = Heavy;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-299,l),
+(2048,-299,l),
+(2048,1749,l),
+(0,1745,l)
+);
+}
+);
+width = 2048;
+}
+);
+}

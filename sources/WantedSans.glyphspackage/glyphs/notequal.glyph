@@ -1,0 +1,34 @@
+{
+glyphname = notequal;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = equal;
+},
+{
+ref = _part.equalnotslash;
+}
+);
+width = 1280;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = equal;
+},
+{
+ref = _part.equalnotslash;
+}
+);
+width = 1440;
+}
+);
+unicode = 8800;
+}

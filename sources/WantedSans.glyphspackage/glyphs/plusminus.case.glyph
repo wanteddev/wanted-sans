@@ -1,0 +1,29 @@
+{
+color = 1;
+glyphname = plusminus.case;
+kernLeft = hyphen.case;
+kernRight = hyphen.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,156);
+ref = plusminus;
+}
+);
+width = 1280;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,172);
+ref = plusminus;
+}
+);
+width = 1440;
+}
+);
+note = $CASE;
+}

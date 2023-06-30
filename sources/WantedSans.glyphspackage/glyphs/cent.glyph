@@ -1,0 +1,102 @@
+{
+glyphname = cent;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.centbase;
+},
+{
+piece = {
+Lowercase = 1;
+Open = 0;
+};
+pos = (602,-8);
+ref = _smart.currencystem;
+}
+);
+width = 1132;
+},
+{
+attr = {
+axisRules = (
+{
+min = 646;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.centbase;
+},
+{
+piece = {
+Lowercase = 1;
+Open = 100;
+Thin = 0;
+};
+pos = (610,-8);
+ref = _smart.currencystem;
+}
+);
+width = 1200;
+},
+{
+associatedMasterId = m01;
+attr = {
+axisRules = (
+{
+min = 646;
+}
+);
+};
+layerId = "54F5B1BD-44A2-4BB3-8049-511FCE07EEE3";
+name = Alternate;
+shapes = (
+{
+ref = _part.centbase;
+},
+{
+piece = {
+Lowercase = 1;
+Open = 100;
+};
+pos = (602,-8);
+ref = _smart.currencystem;
+}
+);
+width = 1132;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+attr = {
+axisRules = (
+{
+}
+);
+};
+layerId = "31A53B7E-A801-4F14-A202-13AFC1827714";
+name = "Black [601‹wg] Jun 24, 23 23:07";
+shapes = (
+{
+ref = _part.centbase;
+},
+{
+piece = {
+Lowercase = 1;
+Open = 0;
+Thin = 1;
+};
+pos = (610,-8);
+ref = _smart.currencystem;
+}
+);
+width = 1200;
+}
+);
+unicode = 162;
+}

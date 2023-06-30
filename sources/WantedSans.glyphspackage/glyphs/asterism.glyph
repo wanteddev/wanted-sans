@@ -1,0 +1,48 @@
+{
+glyphname = asterism;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = lowasterisk;
+},
+{
+alignment = 1;
+pos = (448,0);
+ref = asterisk;
+},
+{
+alignment = 1;
+pos = (896,0);
+ref = lowasterisk;
+}
+);
+width = 1696;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = lowasterisk;
+},
+{
+alignment = 1;
+pos = (576,0);
+ref = asterisk;
+},
+{
+alignment = 1;
+pos = (1152,0);
+ref = lowasterisk;
+}
+);
+width = 2112;
+}
+);
+unicode = 8258;
+}

@@ -1,0 +1,69 @@
+{
+glyphname = I.cv19;
+kernLeft = Z;
+kernRight = Z;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (482,0);
+},
+{
+name = ogonek;
+pos = (682,0);
+},
+{
+name = top;
+pos = (482,1448);
+},
+{
+name = topleft;
+pos = (106,1448);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = _part.Iserifbase;
+},
+{
+pos = (238,0);
+ref = I;
+}
+);
+width = 932;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (544,0);
+},
+{
+name = ogonek;
+pos = (572,0);
+},
+{
+name = top;
+pos = (544,1448);
+},
+{
+name = topleft;
+pos = (100,1448);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.Iserifbase;
+},
+{
+pos = (220,0);
+ref = I;
+}
+);
+width = 1088;
+}
+);
+}

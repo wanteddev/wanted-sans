@@ -1,0 +1,93 @@
+{
+glyphname = n;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (552,0);
+},
+{
+name = top;
+pos = (552,1032);
+}
+);
+layerId = m01;
+shapes = (
+{
+piece = {
+Straight = 1;
+};
+ref = _smart.lowerstem;
+},
+{
+pos = (300,0);
+ref = _smart.shoulder;
+}
+);
+width = 1104;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (668,0);
+},
+{
+name = top;
+pos = (668,1032);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Straight = 1;
+};
+ref = _smart.lowerstem;
+},
+{
+pos = (508,0);
+ref = _smart.shoulder;
+}
+);
+width = 1336;
+},
+{
+associatedMasterId = m01;
+layerId = "EE6C7DD3-D9F5-484E-A155-C033E4576943";
+name = "Wanted Logotype";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,0,l),
+(292,0,l),
+(292,590,ls),
+(292,772,o),
+(396,874,o),
+(542,874,cs),
+(690,874,o),
+(792,772,o),
+(792,590,cs),
+(790,0,l),
+(1008,0,l),
+(1008,604,ls),
+(1008,898,o),
+(870,1060,o),
+(610,1060,cs),
+(468,1060,o),
+(346,1006,o),
+(292,908,c),
+(292,1040,l),
+(76,1040,l)
+);
+}
+);
+width = 1070;
+}
+);
+unicode = 110;
+}

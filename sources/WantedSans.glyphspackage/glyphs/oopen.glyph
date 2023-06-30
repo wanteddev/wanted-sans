@@ -1,0 +1,30 @@
+{
+glyphname = oopen;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1132,0);
+ref = c;
+scale = (-1,1);
+}
+);
+width = 1132;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (1200,0);
+ref = c;
+scale = (-1,1);
+}
+);
+width = 1200;
+}
+);
+unicode = 596;
+}

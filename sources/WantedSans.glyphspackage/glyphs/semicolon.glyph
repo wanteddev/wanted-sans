@@ -1,0 +1,53 @@
+{
+glyphname = semicolon;
+kernLeft = colon;
+kernRight = colon;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = colon;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = comma;
+},
+{
+alignment = -1;
+pos = (0,808);
+ref = period;
+}
+);
+width = 512;
+},
+{
+background = {
+shapes = (
+{
+ref = colon;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = comma;
+},
+{
+alignment = -1;
+pos = (0,628);
+ref = period;
+}
+);
+width = 660;
+}
+);
+metricWidth = colon;
+unicode = 59;
+}

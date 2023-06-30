@@ -1,0 +1,186 @@
+{
+export = 0;
+glyphname = _smart.diacriticslashsmall;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,540);
+}
+);
+background = {
+shapes = (
+{
+pos = (-218,0);
+ref = l;
+}
+);
+};
+layerId = m01;
+metricWidth = "=0";
+partSelection = {
+L = 1;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeWidth = 120;
+};
+closed = 0;
+nodes = (
+(-236,454,l),
+(236,626,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,540);
+}
+);
+background = {
+shapes = (
+{
+pos = (-316,0);
+ref = l;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+name = Black;
+partSelection = {
+L = 1;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeWidth = 240;
+};
+closed = 0;
+nodes = (
+(-348,414,l),
+(348,666,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,540);
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+pos = (-218,0);
+ref = l;
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 120;
+};
+closed = 0;
+nodes = (
+(-240,452,l),
+(240,628,l)
+);
+}
+);
+};
+layerId = "BAAA0167-7C24-4CF4-A3B7-65B2B7507EF3";
+metricWidth = "=0";
+name = L;
+partSelection = {
+L = 2;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeWidth = 120;
+};
+closed = 0;
+nodes = (
+(-240,452,l),
+(434,700,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,540);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+pos = (-316,0);
+ref = l;
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 240;
+};
+closed = 0;
+nodes = (
+(-356,412,l),
+(356,668,l)
+);
+}
+);
+};
+layerId = "0EB130F4-A238-42D7-A0AB-847BD9EFB07B";
+metricWidth = "=0";
+name = L;
+partSelection = {
+L = 2;
+};
+shapes = (
+{
+attr = {
+lineCapEnd = 4;
+lineCapStart = 4;
+strokeWidth = 240;
+};
+closed = 0;
+nodes = (
+(-356,412,l),
+(470,708,l)
+);
+}
+);
+width = 0;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = L;
+topValue = 1;
+}
+);
+}

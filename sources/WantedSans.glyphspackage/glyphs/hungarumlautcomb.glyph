@@ -1,0 +1,32 @@
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+layerId = m01;
+metricLeft = "=|dblgravecomb";
+metricRight = "=|dblgravecomb";
+metricWidth = "=0";
+shapes = (
+{
+ref = dblgravecomb;
+scale = (-1,1);
+}
+);
+width = 0;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=|dblgravecomb";
+metricRight = "=|dblgravecomb";
+metricWidth = "=0";
+shapes = (
+{
+ref = dblgravecomb;
+scale = (-1,1);
+}
+);
+width = 0;
+}
+);
+unicode = 779;
+}

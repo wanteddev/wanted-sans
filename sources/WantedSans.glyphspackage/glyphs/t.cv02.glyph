@@ -1,0 +1,87 @@
+{
+glyphname = t.cv02;
+kernLeft = f;
+kernRight = t.cv02;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (312,0);
+},
+{
+name = center;
+pos = (312,516);
+},
+{
+name = top;
+pos = (312,1264);
+},
+{
+name = topright;
+pos = (636,1264);
+}
+);
+layerId = m01;
+shapes = (
+{
+piece = {
+t = 0;
+"tailless t" = 1;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Cap = 56;
+Straight = 1;
+};
+pos = (96,0);
+ref = _smart.lowerstem;
+}
+);
+width = 688;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (412,0);
+},
+{
+name = center;
+pos = (412,516);
+},
+{
+name = top;
+pos = (412,1280);
+},
+{
+name = topright;
+pos = (812,1280);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+t = 0;
+"tailless t" = 1;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Cap = 59.5;
+Straight = 1;
+};
+pos = (104,0);
+ref = _smart.lowerstem;
+}
+);
+width = 856;
+}
+);
+metricLeft = t;
+metricRight = t;
+}

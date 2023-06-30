@@ -1,0 +1,26 @@
+{
+glyphname = Q.blackCircled.bold.cv06;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = Q.blackCircled.cv06;
+}
+);
+width = 1764;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = Q.blackCircled.cv06;
+}
+);
+width = 1812;
+}
+);
+note = "$SYMBOL_FILL $SYMBOL_CIRCLE";
+}

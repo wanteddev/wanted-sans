@@ -1,0 +1,60 @@
+{
+glyphname = oe;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = o;
+},
+{
+alignment = -1;
+pos = (888,0);
+ref = e;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = _part.oebase;
+},
+{
+pos = (920,0);
+ref = _part.xebase;
+}
+);
+width = 2076;
+},
+{
+background = {
+shapes = (
+{
+ref = o;
+},
+{
+alignment = -1;
+pos = (740,0);
+ref = e;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.oebase;
+},
+{
+pos = (826,0);
+ref = _part.xebase;
+}
+);
+width = 1958;
+}
+);
+metricLeft = o;
+metricRight = e;
+unicode = 339;
+}

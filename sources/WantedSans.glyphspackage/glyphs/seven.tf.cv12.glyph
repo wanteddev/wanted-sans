@@ -1,0 +1,94 @@
+{
+color = 3;
+glyphname = seven.tf.cv12;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (640,724);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(466,0,l),
+(1154,1284,l),
+(962,1284,l),
+(958,1300,l),
+(958,1268,l),
+(962,1284,l),
+(274,0,l)
+);
+},
+{
+attr = {
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(962,1284,l),
+(1154,1284,l),
+(1154,1448,l),
+(160,1448,l),
+(160,1284,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+width = 105;
+};
+};
+width = 1280;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (720,724);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(702,0,l),
+(1320,1120,l),
+(850,1088,l),
+(846,1104,l),
+(846,1072,l),
+(850,1088,l),
+(248,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(850,1088,l),
+(1320,1120,l),
+(1320,1448,l),
+(150,1448,l),
+(150,1088,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+width = 107.5;
+};
+};
+width = 1440;
+}
+);
+metricWidth = zero;
+note = "# Required RMX Scaler";
+userData = {
+RMXScaler = {
+source = seven.cv12;
+};
+};
+}

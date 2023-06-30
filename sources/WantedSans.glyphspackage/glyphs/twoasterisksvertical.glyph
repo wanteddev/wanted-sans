@@ -1,0 +1,41 @@
+{
+glyphname = twoasterisksvertical;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = asterisk;
+},
+{
+alignment = -1;
+pos = (0,2);
+ref = lowasterisk;
+}
+);
+width = 800;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,96);
+ref = asterisk;
+},
+{
+alignment = -1;
+pos = (0,-96);
+ref = lowasterisk;
+}
+);
+width = 960;
+}
+);
+metricLeft = asterisk;
+metricRight = asterisk;
+unicode = 8273;
+}

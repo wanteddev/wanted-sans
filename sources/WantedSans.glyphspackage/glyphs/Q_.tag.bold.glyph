@@ -1,0 +1,198 @@
+{
+color = 4;
+export = 0;
+glyphname = Q.tag.bold;
+kernLeft = O.tag;
+kernRight = O.tag;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (380,724);
+},
+{
+name = bottom;
+pos = (368,398);
+},
+{
+name = center;
+pos = (368,724);
+},
+{
+name = ogonek;
+pos = (368,398);
+},
+{
+name = tail;
+pos = (368,398);
+},
+{
+name = top;
+pos = (368,1050);
+},
+{
+name = topleft;
+pos = (24,1050);
+},
+{
+name = topright;
+pos = (714,1050);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(566,386,o),
+(714,532,o),
+(714,724,cs),
+(714,916,o),
+(566,1062,o),
+(368,1062,cs),
+(172,1062,o),
+(24,916,o),
+(24,724,cs),
+(24,530,o),
+(172,386,o),
+(368,386,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(288,578,o),
+(228,638,o),
+(228,724,cs),
+(228,810,o),
+(288,870,o),
+(368,870,cs),
+(450,870,o),
+(510,808,o),
+(510,724,cs),
+(510,638,o),
+(450,578,o),
+(368,578,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(720,330,l),
+(600,480,l),
+(384,480,l),
+(496,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 45;
+verticalShift = 398;
+weight = -460;
+width = 45;
+};
+};
+width = 738;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (422,724);
+},
+{
+name = bottom;
+pos = (416,362);
+},
+{
+name = center;
+pos = (416,724);
+},
+{
+name = ogonek;
+pos = (416,362);
+},
+{
+name = tail;
+pos = (416,362);
+},
+{
+name = top;
+pos = (416,1086);
+},
+{
+name = topleft;
+pos = (38,1086);
+},
+{
+name = topright;
+pos = (796,1086);
+}
+);
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(632,348,o),
+(796,510,o),
+(796,724,cs),
+(796,938,o),
+(632,1100,o),
+(416,1100,cs),
+(200,1100,o),
+(38,938,o),
+(38,724,cs),
+(38,510,o),
+(200,348,o),
+(416,348,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(278,482,o),
+(180,584,o),
+(180,724,cs),
+(180,864,o),
+(278,966,o),
+(416,966,cs),
+(554,966,o),
+(654,866,o),
+(654,724,cs),
+(654,582,o),
+(554,482,o),
+(416,482,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(774,288,l),
+(652,452,l),
+(496,452,l),
+(614,288,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 50;
+verticalShift = 362;
+weight = -90;
+width = 50;
+};
+};
+width = 834;
+}
+);
+note = "# Required RMX Scaler\012\012# Required detach each alternates for .bold glyph";
+userData = {
+RMXScaler = {
+source = Q;
+};
+};
+}

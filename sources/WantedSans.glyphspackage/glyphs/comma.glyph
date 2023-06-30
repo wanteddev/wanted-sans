@@ -1,0 +1,56 @@
+{
+glyphname = comma;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = period;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (428,1160);
+ref = quoteleft;
+}
+);
+width = 512;
+},
+{
+background = {
+shapes = (
+{
+ref = period;
+},
+{
+closed = 1;
+nodes = (
+(188,208,l),
+(56,-288,l),
+(218,-288,l),
+(368,208,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (612,1160);
+ref = quoteleft;
+}
+);
+width = 660;
+}
+);
+metricWidth = period;
+unicode = 44;
+}

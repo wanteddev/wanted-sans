@@ -1,0 +1,70 @@
+{
+glyphname = D;
+kernLeft = H;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (636,724);
+},
+{
+name = bottom;
+pos = (636,0);
+},
+{
+name = center;
+pos = (700,724);
+},
+{
+name = top;
+pos = (636,1448);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+pos = (316,0);
+ref = _part.Dbase;
+}
+);
+width = 1398;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (678,724);
+},
+{
+name = bottom;
+pos = (678,0);
+},
+{
+name = center;
+pos = (742,724);
+},
+{
+name = top;
+pos = (678,1448);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _smart.upperstem;
+},
+{
+pos = (532,0);
+ref = _part.Dbase;
+}
+);
+width = 1484;
+}
+);
+unicode = 68;
+}

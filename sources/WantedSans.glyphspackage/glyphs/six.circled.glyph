@@ -1,0 +1,41 @@
+{
+glyphname = six.circled;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (562,0);
+ref = six.tag;
+}
+);
+width = 1764;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (598,0);
+ref = six.tag;
+}
+);
+width = 1812;
+}
+);
+metricLeft = whiteCircle;
+metricRight = whiteCircle;
+note = "$SYMBOL_OUTLINE $SYMBOL_CIRCLE";
+unicode = (9317,10117);
+}

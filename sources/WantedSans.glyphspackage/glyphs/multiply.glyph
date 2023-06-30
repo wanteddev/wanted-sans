@@ -1,0 +1,86 @@
+{
+color = 0;
+glyphname = multiply;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+background = {
+annotations = (
+{
+pos = (898.065,814.468);
+text = "vertical*1.16";
+type = Text;
+}
+);
+shapes = (
+{
+ref = plus;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+attr = {
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(214,966,l),
+(1066,114,l)
+);
+},
+{
+attr = {
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(1066,966,l),
+(214,114,l)
+);
+}
+);
+width = 1280;
+},
+{
+background = {
+shapes = (
+{
+ref = plus;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(278,982,l),
+(1162,98,l)
+);
+},
+{
+attr = {
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(1162,982,l),
+(278,98,l)
+);
+}
+);
+width = 1440;
+}
+);
+metricWidth = plus;
+note = $CASE;
+unicode = 215;
+}

@@ -1,0 +1,100 @@
+{
+glyphname = dollar;
+kernLeft = S;
+kernRight = S;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.dollarbase;
+},
+{
+piece = {
+Open = 0;
+Thin = 1;
+};
+pos = (592,0);
+ref = _smart.currencystem;
+}
+);
+width = 1184;
+},
+{
+attr = {
+axisRules = (
+{
+min = 646;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.dollarbase;
+},
+{
+piece = {
+Open = 100;
+Thin = 0;
+};
+pos = (654,0);
+ref = _smart.currencystem;
+}
+);
+width = 1276;
+},
+{
+associatedMasterId = m01;
+attr = {
+axisRules = (
+{
+min = 646;
+}
+);
+};
+layerId = "44DACA45-A561-4492-826A-4FA587BC1E3F";
+name = Alternate;
+shapes = (
+{
+ref = _part.dollarbase;
+},
+{
+piece = {
+Open = 100;
+Thin = 0;
+};
+pos = (592,0);
+ref = _smart.currencystem;
+}
+);
+width = 1184;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+attr = {
+axisRules = (
+{
+}
+);
+};
+layerId = "5E17C703-4DF3-47D5-A425-99B79BCD54B6";
+name = Alternate;
+shapes = (
+{
+ref = _part.dollarbase;
+},
+{
+piece = {
+Open = 0;
+Thin = 1;
+};
+pos = (654,0);
+ref = _smart.currencystem;
+}
+);
+width = 1276;
+}
+);
+unicode = 36;
+}

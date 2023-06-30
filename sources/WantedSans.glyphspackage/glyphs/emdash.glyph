@@ -1,0 +1,70 @@
+{
+color = 0;
+glyphname = emdash;
+kernLeft = emdash;
+kernRight = emdash;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 0;
+Width = 1664;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1664;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 0;
+Width = 1664;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1664;
+},
+{
+associatedMasterId = m01;
+layerId = "677A1242-F0B4-42B6-B143-0B82964F1E4B";
+name = "Apr 21, 23 0:01";
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 1;
+Width = 2048;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 2050;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "793A0BF4-9186-4F5C-876A-722E6867DFAC";
+name = "Apr 21, 23 0:01";
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 1;
+Width = 2048;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 2050;
+}
+);
+note = $CASE;
+unicode = 8212;
+}

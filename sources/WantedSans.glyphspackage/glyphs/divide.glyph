@@ -1,0 +1,90 @@
+{
+color = 0;
+glyphname = divide;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = plus;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+attr = {
+identifier = ID0x2e5a1d2e0;
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(120,540,l),
+(1160,540,l)
+);
+},
+{
+alignment = -1;
+pos = (638,828);
+ref = _smart.dot;
+},
+{
+alignment = -1;
+piece = {
+Pressed = 0;
+};
+pos = (638,36);
+ref = _smart.dot;
+}
+);
+width = 1280;
+},
+{
+background = {
+shapes = (
+{
+ref = plus;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+identifier = ID0x2eb2a0b50;
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(160,540,l),
+(1280,540,l)
+);
+},
+{
+alignment = -1;
+piece = {
+Mark = 420;
+};
+pos = (720,760);
+ref = _smart.dot;
+},
+{
+alignment = -1;
+piece = {
+Mark = 420;
+};
+pos = (720,0);
+ref = _smart.dot;
+}
+);
+width = 1440;
+}
+);
+metricWidth = plus;
+note = $CASE;
+unicode = 247;
+}

@@ -1,0 +1,202 @@
+{
+glyphname = Q;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (844,724);
+},
+{
+name = bottom;
+pos = (844,0);
+},
+{
+name = top;
+pos = (844,1448);
+}
+);
+background = {
+annotations = (
+{
+pos = (606.031,837.486);
+type = Text;
+},
+{
+pos = (772.739,678.257);
+type = Text;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (844,0);
+ref = _part.Qbase;
+}
+);
+width = 1688;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (844,724);
+},
+{
+name = bottom;
+pos = (824,0);
+},
+{
+name = top;
+pos = (824,1448);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (824,0);
+ref = _part.Qbase;
+}
+);
+width = 1648;
+},
+{
+annotations = (
+{
+pos = (1120.996,544.947);
+text = "올리자";
+type = Text;
+}
+);
+associatedMasterId = m01;
+background = {
+annotations = (
+{
+pos = (606.031,837.486);
+type = Text;
+},
+{
+pos = (772.739,678.257);
+type = Text;
+}
+);
+};
+layerId = "B999BAAF-601E-44D7-8C5D-84BE6E55CDFB";
+name = Neuzeit;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1228,-26,o),
+(1578,260,o),
+(1578,724,cs),
+(1578,1188,o),
+(1268,1476,o),
+(842,1476,cs),
+(424,1476,o),
+(106,1162,o),
+(106,724,cs),
+(106,260,o),
+(416,-26,o),
+(842,-26,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(436,120,o),
+(280,486,o),
+(280,724,cs),
+(280,1018,o),
+(440,1330,o),
+(842,1330,cs),
+(1244,1330,o),
+(1404,1018,o),
+(1404,724,cs),
+(1404,486,o),
+(1248,120,o),
+(842,120,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1586,32,l),
+(1126,492,l),
+(1030,396,l),
+(1490,-64,l)
+);
+}
+);
+width = 1688;
+},
+{
+annotations = (
+{
+pos = (1072,1670);
+text = "방법이 없나?";
+type = Text;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "6E278EEA-35FE-435A-86BF-D0978E920066";
+name = Neuzeit;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1318,-26,o),
+(1510,386,o),
+(1510,724,cs),
+(1510,1064,o),
+(1294,1476,o),
+(826,1476,cs),
+(354,1476,o),
+(142,1082,o),
+(142,724,cs),
+(142,386,o),
+(360,-26,o),
+(826,-26,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(648,306,o),
+(528,450,o),
+(528,724,cs),
+(528,962,o),
+(646,1142,o),
+(826,1142,cs),
+(1008,1142,o),
+(1128,962,o),
+(1126,724,cs),
+(1124,450,o),
+(1004,306,o),
+(826,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1550,144,l),
+(972,594,l),
+(776,368,l),
+(1336,-94,l)
+);
+}
+);
+width = 1648;
+}
+);
+unicode = 81;
+}

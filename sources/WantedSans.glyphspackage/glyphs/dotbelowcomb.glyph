@@ -1,0 +1,62 @@
+{
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = gravebelowcomb;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+alignment = -1;
+piece = {
+Mark = 100;
+};
+pos = (0,-424);
+ref = _smart.dot;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = gravebelowcomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+alignment = -1;
+piece = {
+Mark = 220;
+};
+pos = (0,-452);
+ref = _smart.dot;
+}
+);
+width = 0;
+}
+);
+unicode = 803;
+}
