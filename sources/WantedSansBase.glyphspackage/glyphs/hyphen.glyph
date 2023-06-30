@@ -1,0 +1,37 @@
+{
+color = 0;
+glyphname = hyphen;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 120;
+Width = 640;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 880;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Space = 144;
+Width = 632;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 920;
+}
+);
+note = $CASE;
+unicode = 45;
+}

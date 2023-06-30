@@ -1,0 +1,56 @@
+{
+glyphname = breveinvertedbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = brevebelowcomb;
+}
+);
+};
+layerId = m01;
+metricWidth = "=0";
+shapes = (
+{
+pos = (0,-656);
+ref = brevebelowcomb;
+scale = (1,-1);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = brevebelowcomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+shapes = (
+{
+pos = (0,-608);
+ref = brevebelowcomb;
+scale = (1,-1);
+}
+);
+width = 0;
+}
+);
+metricLeft = brevebelowcomb;
+metricRight = brevebelowcomb;
+unicode = 815;
+}

@@ -1,0 +1,78 @@
+{
+glyphname = thorn;
+kernLeft = p;
+kernRight = o;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (610,0);
+},
+{
+name = top;
+pos = (610,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = p;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+piece = {
+Cap = 100;
+Cross = 1;
+Descender = 100;
+};
+ref = _smart.lowerstem;
+},
+{
+pos = (300,0);
+ref = _smart.bowl;
+}
+);
+width = 1220;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (658,0);
+},
+{
+name = top;
+pos = (658,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = p;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Cap = 100;
+Cross = 1;
+Descender = 100;
+};
+ref = _smart.lowerstem;
+},
+{
+pos = (508,0);
+ref = _smart.bowl;
+}
+);
+width = 1316;
+}
+);
+unicode = 254;
+}

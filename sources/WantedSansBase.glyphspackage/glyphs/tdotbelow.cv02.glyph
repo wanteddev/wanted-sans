@@ -1,0 +1,33 @@
+{
+glyphname = tdotbelow.cv02;
+kernLeft = f;
+kernRight = t.cv02;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.cv02;
+},
+{
+pos = (312,0);
+ref = dotbelowcomb;
+}
+);
+width = 688;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = t.cv02;
+},
+{
+pos = (412,0);
+ref = dotbelowcomb;
+}
+);
+width = 856;
+}
+);
+}

@@ -1,0 +1,98 @@
+{
+color = 0;
+glyphname = plusminus;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = plus;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+attr = {
+identifier = ID0x2e5a1d2e0;
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(160,692,l),
+(1120,692,l)
+);
+},
+{
+attr = {
+identifier = ID0x2e5a1d2e0;
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(160,142,l),
+(1120,142,l)
+);
+},
+{
+piece = {
+Height = 736;
+};
+pos = (412,324);
+ref = _smart.upperstem;
+}
+);
+width = 1280;
+},
+{
+background = {
+shapes = (
+{
+ref = plus;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+identifier = ID0x2eb2a0b50;
+strokeWidth = 320;
+};
+closed = 0;
+nodes = (
+(192,720,l),
+(1248,720,l)
+);
+},
+{
+attr = {
+identifier = ID0x2eb2a0b50;
+strokeWidth = 304;
+};
+closed = 0;
+nodes = (
+(192,160,l),
+(1248,160,l)
+);
+},
+{
+piece = {
+Condensed = 64;
+Height = 720;
+};
+pos = (428,360);
+ref = _smart.upperstem;
+}
+);
+width = 1440;
+}
+);
+metricWidth = plus;
+note = $CASE;
+unicode = 177;
+}

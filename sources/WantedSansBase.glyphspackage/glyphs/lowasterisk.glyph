@@ -1,0 +1,52 @@
+{
+glyphname = lowasterisk;
+kernLeft = periodcentered;
+kernRight = periodcentered;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (176,0);
+},
+{
+name = "#exit";
+pos = (624,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-840);
+ref = asterisk;
+}
+);
+width = 800;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (192,0);
+},
+{
+name = "#exit";
+pos = (768,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,-656);
+ref = asterisk;
+}
+);
+width = 960;
+}
+);
+metricLeft = asterisk;
+metricRight = asterisk;
+unicode = 8270;
+}

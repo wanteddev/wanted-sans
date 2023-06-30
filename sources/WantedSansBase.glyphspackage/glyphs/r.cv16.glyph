@@ -1,0 +1,65 @@
+{
+glyphname = r.cv16;
+kernLeft = n;
+kernRight = r;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (328,1032);
+}
+);
+layerId = m01;
+shapes = (
+{
+piece = {
+Straight = 1;
+};
+ref = _smart.lowerstem;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (300,0);
+ref = _part.rbase.cv16;
+}
+);
+width = 660;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (308,0);
+},
+{
+name = top;
+pos = (544,1032);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Straight = 1;
+};
+ref = _smart.lowerstem;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (508,0);
+ref = _part.rbase.cv16;
+}
+);
+width = 1092;
+}
+);
+}

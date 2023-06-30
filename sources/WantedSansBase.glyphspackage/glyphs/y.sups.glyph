@@ -1,0 +1,32 @@
+{
+glyphname = y.sups;
+kernLeft = zero.sups;
+kernRight = zero.sups;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,936);
+ref = y.dnom;
+}
+);
+width = 696;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,864);
+ref = y.dnom;
+}
+);
+width = 860;
+}
+);
+metricLeft = y.dnom;
+metricRight = y.dnom;
+unicode = 696;
+}

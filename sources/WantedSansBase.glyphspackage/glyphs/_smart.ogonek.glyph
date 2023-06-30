@@ -1,0 +1,554 @@
+{
+export = 0;
+glyphname = _smart.ogonek;
+layers = (
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+background = {
+annotations = (
+{
+pos = (-80,-146);
+text = "https://www.twardoch.com/download/polishhowto/ogonek.html";
+type = Text;
+},
+{
+pos = (2,-66);
+text = "https://typedrawers.com/discussion/1184/modernist-solutions-for-the-ogonek";
+type = Text;
+}
+);
+shapes = (
+{
+closed = 0;
+nodes = (
+(-260,-460,l),
+(138,-460,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+strokeHeight = 140;
+strokeWidth = 170;
+};
+closed = 0;
+nodes = (
+(124,60,l),
+(-26,-28,o),
+(-96,-148,o),
+(-96,-258,cs),
+(-96,-344,o),
+(-54,-390,o),
+(38,-390,cs),
+(88,-390,o),
+(130,-376,o),
+(168,-354,c)
+);
+},
+{
+pos = (-132,0);
+ref = idotless;
+}
+);
+};
+layerId = m01;
+metricWidth = "=0";
+partSelection = {
+Width = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,-460,o),
+(132,-450,o),
+(168,-434,c),
+(168,-332,l),
+(144,-340,o),
+(120,-344,o),
+(98,-344,cs),
+(28,-344,o),
+(-12,-304,o),
+(-12,-238,cs),
+(-12,-156,o),
+(50,-72,o),
+(168,0,c),
+(0,0,l),
+(-118,-62,o),
+(-180,-158,o),
+(-180,-262,cs),
+(-180,-384,o),
+(-94,-460,o),
+(40,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = m01;
+background = {
+annotations = (
+{
+pos = (-80,-146);
+text = "https://www.twardoch.com/download/polishhowto/ogonek.html";
+type = Text;
+},
+{
+pos = (2,-66);
+text = "https://typedrawers.com/discussion/1184/modernist-solutions-for-the-ogonek";
+type = Text;
+}
+);
+};
+layerId = "3849D437-D1C7-47D4-995C-E49F0F4F315D";
+metricWidth = "=0";
+name = Width;
+partSelection = {
+Width = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(68,-460,o),
+(108,-450,o),
+(144,-434,c),
+(144,-332,l),
+(124,-340,o),
+(104,-344,o),
+(84,-344,cs),
+(24,-344,o),
+(-12,-306,o),
+(-12,-238,cs),
+(-12,-156,o),
+(42,-72,o),
+(144,0,c),
+(0,0,l),
+(-118,-62,o),
+(-180,-158,o),
+(-180,-262,cs),
+(-180,-382,o),
+(-98,-460,o),
+(24,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = m01;
+layerId = "24C9564C-8179-4202-9728-0885475898E3";
+metricWidth = "=0";
+name = "San Francisco";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-58,-460,o),
+(-12,-456,o),
+(12,-442,c),
+(12,-330,l),
+(-2,-338,o),
+(-22,-340,o),
+(-48,-340,cs),
+(-104,-340,o),
+(-150,-304,o),
+(-150,-230,cs),
+(-150,-228,ls),
+(-150,-140,o),
+(-94,-64,o),
+(0,0,c),
+(-108,0,l),
+(-108,20,l),
+(-144,20,l),
+(-242,-46,o),
+(-308,-148,o),
+(-308,-254,cs),
+(-308,-256,ls),
+(-308,-396,o),
+(-196,-460,o),
+(-84,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+strokeHeight = 240;
+strokeWidth = 256;
+};
+closed = 0;
+nodes = (
+(356,112,l),
+(104,20,o),
+(-64,-150,o),
+(-64,-244,cs),
+(-64,-308,o),
+(16,-340,o),
+(174,-340,cs),
+(256,-340,o),
+(336,-322,o),
+(400,-292,c)
+);
+},
+{
+pos = (-108,0);
+ref = idotless;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+name = Black;
+partSelection = {
+Width = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,-460,o),
+(322,-448,o),
+(400,-420,c),
+(400,-224,l),
+(372,-234,o),
+(330,-240,o),
+(292,-240,cs),
+(218,-240,o),
+(178,-216,o),
+(178,-174,cs),
+(178,-112,o),
+(264,-44,o),
+(400,0,c),
+(0,0,l),
+(-132,-76,o),
+(-192,-162,o),
+(-192,-252,cs),
+(-192,-380,o),
+(-70,-460,o),
+(156,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+pos = (-704,0);
+ref = a.cv03;
+}
+);
+};
+layerId = "83186B7A-6C61-4023-879F-C35339EED77E";
+metricWidth = "=0";
+name = Width;
+partSelection = {
+Width = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,-460,o),
+(302,-448,o),
+(376,-420,c),
+(376,-224,l),
+(350,-234,o),
+(312,-240,o),
+(280,-240,cs),
+(214,-240,o),
+(178,-216,o),
+(178,-174,cs),
+(178,-112,o),
+(256,-44,o),
+(376,0,c),
+(0,0,l),
+(-132,-76,o),
+(-192,-162,o),
+(-192,-252,cs),
+(-192,-380,o),
+(-76,-460,o),
+(142,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "7D0CFFC3-1DC2-4F4F-834F-8BE143C18BC5";
+metricWidth = "=0";
+name = "San Francisco";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-90,-494,o),
+(-14,-482,o),
+(24,-460,c),
+(24,-290,l),
+(16,-294,o),
+(4,-294,o),
+(-10,-294,cs),
+(-56,-294,o),
+(-98,-264,o),
+(-98,-194,cs),
+(-98,-122,o),
+(-68,-58,o),
+(0,0,c),
+(-112,0,l),
+(-112,40,l),
+(-200,40,l),
+(-358,-26,o),
+(-436,-138,o),
+(-436,-262,cs),
+(-436,-444,o),
+(-284,-494,o),
+(-180,-494,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+strokeHeight = 240;
+strokeWidth = 256;
+};
+closed = 0;
+nodes = (
+(186,114,l),
+(14,22,o),
+(-80,-100,o),
+(-80,-212,cs),
+(-80,-298,o),
+(-24,-340,o),
+(84,-340,cs),
+(140,-340,o),
+(196,-326,o),
+(240,-302,c)
+);
+},
+{
+pos = (-108,0);
+ref = idotless;
+}
+);
+};
+layerId = "EE2502FE-B935-43C3-908E-EE2B32704A28";
+metricWidth = "=0";
+name = "May 12, 23 14:35";
+shapes = (
+{
+closed = 1;
+nodes = (
+(258,-460,o),
+(338,-448,o),
+(400,-432,c),
+(400,-172,l),
+(372,-186,o),
+(330,-192,o),
+(288,-192,cs),
+(252,-192,o),
+(180,-186,o),
+(178,-148,cs),
+(176,-104,o),
+(256,-40,o),
+(400,0,c),
+(0,0,l),
+(-132,-62,o),
+(-208,-158,o),
+(-208,-262,cs),
+(-208,-410,o),
+(-58,-460,o),
+(174,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+strokeHeight = 240;
+strokeWidth = 256;
+};
+closed = 0;
+nodes = (
+(356,112,l),
+(104,20,o),
+(-64,-150,o),
+(-64,-244,cs),
+(-64,-308,o),
+(16,-340,o),
+(174,-340,cs),
+(256,-340,o),
+(336,-322,o),
+(400,-292,c)
+);
+},
+{
+pos = (-108,0);
+ref = idotless;
+}
+);
+};
+layerId = "5AF81687-38EC-4CFA-86B5-F3509AD30633";
+metricWidth = "=0";
+name = "May 12, 23 14:55";
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,-460,o),
+(320,-448,o),
+(400,-420,c),
+(400,-224,l),
+(372,-234,o),
+(330,-240,o),
+(292,-240,cs),
+(218,-240,o),
+(178,-216,o),
+(178,-174,cs),
+(178,-112,o),
+(264,-44,o),
+(400,0,c),
+(0,0,l),
+(-146,-76,o),
+(-208,-162,o),
+(-208,-252,cs),
+(-208,-380,o),
+(-84,-460,o),
+(150,-460,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ogonek;
+}
+);
+associatedMasterId = m01;
+background = {
+annotations = (
+{
+pos = (-80,-146);
+text = "https://www.twardoch.com/download/polishhowto/ogonek.html";
+type = Text;
+},
+{
+pos = (2,-66);
+text = "https://typedrawers.com/discussion/1184/modernist-solutions-for-the-ogonek";
+type = Text;
+}
+);
+shapes = (
+{
+pos = (-764,0);
+ref = a.cv03;
+}
+);
+};
+layerId = "5445BE34-CBAE-450D-B15C-BCED698E6F14";
+metricWidth = "=0";
+name = a.cv03;
+partSelection = {
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,-460,o),
+(134,-450,o),
+(172,-434,c),
+(172,-332,l),
+(146,-340,o),
+(122,-344,o),
+(100,-344,cs),
+(30,-344,o),
+(-12,-304,o),
+(-12,-238,cs),
+(-12,-156,o),
+(52,-72,o),
+(172,0,c),
+(0,0,l),
+(-118,-62,o),
+(-180,-158,o),
+(-180,-262,cs),
+(-180,-384,o),
+(-94,-460,o),
+(40,-460,cs)
+);
+}
+);
+width = 0;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Width;
+topValue = 24;
+}
+);
+}

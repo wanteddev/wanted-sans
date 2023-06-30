@@ -1,0 +1,40 @@
+{
+glyphname = daggerdbl;
+kernLeft = question;
+kernRight = question;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = dagger;
+},
+{
+alignment = -1;
+pos = (0,382);
+ref = _part.daggerbar;
+}
+);
+width = 800;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = dagger;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (0,236);
+ref = _part.daggerbar;
+}
+);
+width = 960;
+}
+);
+unicode = 8225;
+}

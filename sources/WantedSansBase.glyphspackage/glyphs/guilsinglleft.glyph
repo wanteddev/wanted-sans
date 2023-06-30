@@ -1,0 +1,70 @@
+{
+color = 0;
+glyphname = guilsinglleft;
+kernLeft = less;
+kernRight = x;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (428,0);
+}
+);
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeHeight = 168;
+strokeWidth = 172;
+};
+closed = 0;
+nodes = (
+(492,114,l),
+(206,540,l),
+(492,966,l)
+);
+}
+);
+width = 700;
+},
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (606,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeHeight = 312;
+strokeWidth = 328;
+};
+closed = 0;
+nodes = (
+(610,114,l),
+(324,540,l),
+(610,966,l)
+);
+}
+);
+width = 936;
+}
+);
+note = $CASE;
+unicode = 8249;
+}

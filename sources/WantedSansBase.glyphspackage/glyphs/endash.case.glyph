@@ -1,0 +1,29 @@
+{
+color = 1;
+glyphname = endash.case;
+kernLeft = emdash.case;
+kernRight = emdash.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,176);
+ref = endash;
+}
+);
+width = 1024;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,176);
+ref = endash;
+}
+);
+width = 1024;
+}
+);
+note = $CASE;
+}

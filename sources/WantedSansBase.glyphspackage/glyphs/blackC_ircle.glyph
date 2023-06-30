@@ -1,0 +1,68 @@
+{
+glyphname = blackCircle;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = symbol;
+pos = (884,724);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1322,-64,o),
+(1670,284,o),
+(1672,724,cs),
+(1670,1164,o),
+(1322,1512,o),
+(882,1514,cs),
+(442,1512,o),
+(94,1164,o),
+(92,724,cs),
+(94,284,o),
+(442,-64,o),
+(882,-66,cs)
+);
+}
+);
+width = 1764;
+},
+{
+anchors = (
+{
+name = symbol;
+pos = (908,724);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1380,-122,o),
+(1752,250,o),
+(1752,724,cs),
+(1752,1198,o),
+(1380,1570,o),
+(906,1570,cs),
+(432,1570,o),
+(60,1198,o),
+(60,724,cs),
+(60,250,o),
+(432,-122,o),
+(906,-122,cs)
+);
+}
+);
+width = 1812;
+}
+);
+metricLeft = whiteCircle;
+metricRight = whiteCircle;
+unicode = 9679;
+}

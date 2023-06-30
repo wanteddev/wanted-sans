@@ -1,0 +1,198 @@
+{
+export = 0;
+glyphname = _smart.dot;
+layers = (
+{
+anchors = (
+{
+name = _baseline;
+}
+);
+layerId = m01;
+partSelection = {
+Mark = 1;
+Pressed = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(72,-16,o),
+(124,36,o),
+(124,108,cs),
+(124,180,o),
+(72,232,o),
+(0,232,cs),
+(-72,232,o),
+(-124,180,o),
+(-124,108,cs),
+(-124,36,o),
+(-72,-16,o),
+(0,-16,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _baseline;
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+partSelection = {
+Mark = 1;
+Pressed = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,-28,o),
+(238,70,o),
+(238,202,cs),
+(238,334,o),
+(136,432,o),
+(0,432,cs),
+(-138,432,o),
+(-238,334,o),
+(-238,202,cs),
+(-238,70,o),
+(-138,-28,o),
+(0,-28,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _baseline;
+}
+);
+annotations = (
+{
+pos = (34.382,305.633);
+text = /1.1;
+type = Text;
+}
+);
+associatedMasterId = m01;
+layerId = "A45E34EE-CBD1-4A0F-B870-952E306E4A0D";
+name = Mark;
+partSelection = {
+Mark = 2;
+Pressed = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,-16,o),
+(112,32,o),
+(112,96,cs),
+(112,160,o),
+(64,208,o),
+(0,208,cs),
+(-64,208,o),
+(-112,160,o),
+(-112,96,cs),
+(-112,32,o),
+(-64,-16,o),
+(0,-16,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _baseline;
+}
+);
+annotations = (
+{
+pos = (105.575,492.62);
+text = /1.05;
+type = Text;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "8394FA8D-5A66-4723-AC1D-ECD10A75C23B";
+name = Mark;
+partSelection = {
+Mark = 2;
+Pressed = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,-28,o),
+(226,66,o),
+(226,192,cs),
+(226,318,o),
+(128,412,o),
+(0,412,cs),
+(-128,412,o),
+(-226,318,o),
+(-226,192,cs),
+(-226,66,o),
+(-128,-28,o),
+(0,-28,cs)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _baseline;
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "F0887E75-D17E-43A4-9E42-48E2836D5A8D";
+name = Pressed;
+partSelection = {
+Mark = 1;
+Pressed = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,-28,o),
+(238,66,o),
+(238,192,cs),
+(238,318,o),
+(136,412,o),
+(0,412,cs),
+(-138,412,o),
+(-238,318,o),
+(-238,192,cs),
+(-238,66,o),
+(-138,-28,o),
+(0,-28,cs)
+);
+}
+);
+width = 0;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Mark;
+topValue = 100;
+},
+{
+bottomValue = 0;
+name = Pressed;
+topValue = 1;
+}
+);
+}

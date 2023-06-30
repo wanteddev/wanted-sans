@@ -1,0 +1,55 @@
+{
+export = 0;
+glyphname = _part.rbase.cv16;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+background = {
+shapes = (
+{
+pos = (-300,0);
+ref = _smart.lowerstem;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (156,814);
+ref = _smart.dot;
+}
+);
+width = 360;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+background = {
+shapes = (
+{
+pos = (-508,0);
+ref = _smart.lowerstem;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (262,614);
+ref = _smart.dot;
+}
+);
+width = 584;
+}
+);
+metricRight = r;
+}

@@ -1,0 +1,110 @@
+{
+export = 0;
+glyphname = _part.paragraphstem;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (140,0);
+},
+{
+name = "#exit";
+pos = (452,0);
+}
+);
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(308,1448,l),
+(308,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(452,1448,l),
+(452,0,l)
+);
+},
+{
+piece = {
+Cap = 100;
+Descender = 100;
+};
+pos = (8,0);
+ref = _smart.lowerstem;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(308,-432,l),
+(308,1448,l),
+(140,1448,l),
+(140,-432,l)
+);
+}
+);
+width = 448;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (116,0);
+},
+{
+name = "#exit";
+pos = (608,0);
+}
+);
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(420,1448,l),
+(420,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(608,1448,l),
+(608,0,l)
+);
+},
+{
+piece = {
+Cap = 100;
+Descender = 100;
+};
+pos = (8,0);
+ref = _smart.lowerstem;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,-432,l),
+(420,1448,l),
+(116,1448,l),
+(116,-432,l)
+);
+}
+);
+width = 536;
+}
+);
+metricLeft = bar;
+metricRight = bar;
+}

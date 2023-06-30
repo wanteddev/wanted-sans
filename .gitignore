@@ -18,3 +18,7 @@ instance_ufo
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Glyphs files #
+*(Autosaved).*
+UIState.plist

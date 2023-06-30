@@ -1,0 +1,61 @@
+{
+export = 0;
+glyphname = _part.paragraphbase;
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (572,0);
+}
+);
+layerId = m01;
+metricRight = "=-48";
+shapes = (
+{
+closed = 1;
+nodes = (
+(620,668,l),
+(620,1448,l),
+(572,1448,l),
+(326,1448,o),
+(140,1280,o),
+(140,1058,cs),
+(140,836,o),
+(326,668,o),
+(572,668,cs)
+);
+}
+);
+width = 572;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (582,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=-48";
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,608,l),
+(630,1448,l),
+(582,1448,l),
+(316,1448,o),
+(116,1268,o),
+(116,1028,cs),
+(116,788,o),
+(316,608,o),
+(582,608,cs)
+);
+}
+);
+width = 582;
+}
+);
+metricLeft = bar;
+}

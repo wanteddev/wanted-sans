@@ -1,0 +1,28 @@
+{
+glyphname = k.subs;
+kernLeft = zero.subs;
+kernRight = zero.subs;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-208);
+ref = k.dnom;
+}
+);
+width = 640;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,-208);
+ref = k.dnom;
+}
+);
+width = 812;
+}
+);
+unicode = 8342;
+}

@@ -1,0 +1,77 @@
+{
+glyphname = dotaccentcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+piece = {
+Mark = 100;
+};
+pos = (0,1264);
+ref = _smart.dot;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+piece = {
+Mark = 100;
+};
+pos = (0,1148);
+ref = _smart.dot;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "847C0AEA-63EC-45D7-BFDF-FF0D2C616F39";
+name = "100%";
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,1136,o),
+(220,1230,o),
+(220,1356,cs),
+(220,1482,o),
+(126,1576,o),
+(0,1576,cs),
+(-128,1576,o),
+(-220,1482,o),
+(-220,1356,cs),
+(-220,1230,o),
+(-128,1136,o),
+(0,1136,cs)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 775;
+}

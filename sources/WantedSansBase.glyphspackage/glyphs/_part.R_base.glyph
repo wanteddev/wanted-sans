@@ -1,0 +1,79 @@
+{
+export = 0;
+glyphname = _part.Rbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 172;
+};
+closed = 0;
+nodes = (
+(2,674,l),
+(460,0,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,0,l),
+(106,674,l),
+(-102,674,l),
+(356,0,l)
+);
+}
+);
+width = 608;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 384;
+};
+closed = 0;
+nodes = (
+(16,628,l),
+(416,0,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(648,0,l),
+(248,628,l),
+(-200,628,l),
+(184,0,l)
+);
+}
+);
+width = 684;
+}
+);
+metricRight = A;
+}

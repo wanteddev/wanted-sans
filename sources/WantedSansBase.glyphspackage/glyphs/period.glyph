@@ -1,0 +1,52 @@
+{
+glyphname = period;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (480,0);
+}
+);
+layerId = m01;
+metricRight = "=|";
+metricWidth = "=space";
+shapes = (
+{
+alignment = -1;
+pos = (256,0);
+ref = _smart.dot;
+}
+);
+width = 512;
+},
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (628,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+metricWidth = "=space*1.375";
+shapes = (
+{
+alignment = -1;
+pos = (330,0);
+ref = _smart.dot;
+}
+);
+width = 660;
+}
+);
+unicode = 46;
+}

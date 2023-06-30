@@ -1,0 +1,49 @@
+{
+glyphname = yen;
+kernLeft = V;
+kernRight = V;
+layers = (
+{
+background = {
+annotations = (
+{
+pos = (920,688);
+text = "*.75";
+type = Text;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = _part.yenbase;
+},
+{
+piece = {
+Width = 924;
+};
+pos = (136,-248);
+ref = _smart.currencybardouble;
+}
+);
+width = 1320;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.yenbase;
+},
+{
+piece = {
+Width = 1184;
+};
+pos = (164,-286);
+ref = _smart.currencybardouble;
+}
+);
+width = 1636;
+}
+);
+unicode = 165;
+}

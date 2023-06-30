@@ -1,0 +1,33 @@
+{
+glyphname = aacute.loclPLK.cv03;
+kernLeft = g;
+kernRight = n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.cv03;
+},
+{
+pos = (536,0);
+ref = acutecomb.loclPLK;
+}
+);
+width = 1084;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = a.cv03;
+},
+{
+pos = (594,0);
+ref = acutecomb.loclPLK;
+}
+);
+width = 1188;
+}
+);
+}

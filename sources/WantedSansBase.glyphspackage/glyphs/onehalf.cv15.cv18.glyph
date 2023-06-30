@@ -1,0 +1,41 @@
+{
+glyphname = onehalf.cv15.cv18;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr.cv18;
+},
+{
+pos = (718,0);
+ref = fraction;
+},
+{
+pos = (974,0);
+ref = two.dnom.cv15;
+}
+);
+width = 1600;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = one.numr.cv18;
+},
+{
+pos = (836,0);
+ref = fraction;
+},
+{
+pos = (1148,0);
+ref = two.dnom.cv15;
+}
+);
+width = 1880;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+}

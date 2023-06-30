@@ -1,0 +1,181 @@
+{
+glyphname = exclam;
+kernLeft = I;
+kernRight = I;
+layers = (
+{
+layerId = m01;
+metricLeft = "=i*1.15";
+metricRight = "=|exclam";
+shapes = (
+{
+ref = _part.exclambase;
+},
+{
+pos = (298,0);
+ref = _smart.dot;
+}
+);
+width = 596;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=i*1.15";
+metricRight = "=|exclam";
+shapes = (
+{
+ref = _part.exclambase;
+},
+{
+piece = {
+Pressed = 1;
+};
+pos = (390,0);
+ref = _smart.dot;
+}
+);
+width = 780;
+},
+{
+associatedMasterId = m01;
+layerId = "1AEE1DD4-88DB-4E26-8875-28B66D64C956";
+name = "San Francisco";
+shapes = (
+{
+closed = 1;
+nodes = (
+(194,478,l),
+(352,478,l),
+(364,1448,l),
+(182,1448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(338,-14,o),
+(386,38,o),
+(386,100,cs),
+(386,166,o),
+(338,216,o),
+(274,216,cs),
+(208,216,o),
+(160,166,o),
+(160,100,cs),
+(160,38,o),
+(208,-14,o),
+(274,-14,cs)
+);
+}
+);
+width = 546;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "2450A5F6-FE9F-423E-9309-D3C57F1BF048";
+name = "San Francisco";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,482,l),
+(552,482,l),
+(588,1448,l),
+(162,1448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(493.333,-28,o),
+(590,59.333,o),
+(590,174,cs),
+(590,286,o),
+(493.333,376,o),
+(376,376,cs),
+(256,376,o),
+(160,286,o),
+(160,174,cs),
+(160,59.333,o),
+(256,-28,o),
+(376,-28,cs)
+);
+}
+);
+width = 750;
+},
+{
+associatedMasterId = m01;
+layerId = "EB738933-5318-4C59-A461-A65A1BC93249";
+metricLeft = "=i*1.15";
+metricRight = "=|exclam";
+name = Avenir;
+shapes = (
+{
+closed = 1;
+nodes = (
+(154,1448,l),
+(154,424,l),
+(358,424,l),
+(358,1448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(394,196,o),
+(336,256,o),
+(258,256,cs),
+(178,256,o),
+(120,194,o),
+(120,122,cs),
+(120,50,o),
+(180,-12,o),
+(258,-12,cs),
+(336,-12,o),
+(394,52,o),
+(394,124,cs)
+);
+}
+);
+width = 514;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "15AF84D6-1F5E-47FA-A9B1-E9B7732B7123";
+metricLeft = "=i*1.15";
+metricRight = "=|exclam";
+name = Avenir;
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,532,l),
+(592,532,l),
+(592,1448,l),
+(102,1448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(476,-32,o),
+(600,66,o),
+(600,216,cs),
+(600,352,o),
+(488,462,o),
+(346,462,cs),
+(208,462,o),
+(94,356,o),
+(94,216,cs),
+(94,62,o),
+(218,-32,o),
+(346,-32,cs)
+);
+}
+);
+width = 694;
+}
+);
+unicode = 33;
+}

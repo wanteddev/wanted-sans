@@ -1,0 +1,119 @@
+{
+color = 3;
+glyphname = two.dnom.cv08;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (314,360);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(570,0,l),
+(570,120,l),
+(268,120,l),
+(268,132,l),
+(264,120,l),
+(380,228,ls),
+(490,332,o),
+(558,396,o),
+(558,506,cs),
+(558,634,o),
+(462,736,o),
+(306,736,cs),
+(194,736,o),
+(96,680,o),
+(58,538,c),
+(190,506,l),
+(210,582,o),
+(250,612,o),
+(306,612,cs),
+(378,612,o),
+(422,568,o),
+(422,506,cs),
+(422,442,o),
+(384,404,o),
+(288,316,cs),
+(64,112,l),
+(64,0,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 50;
+verticalShift = -2;
+weight = -94;
+width = 50;
+};
+};
+width = 628;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (366,396);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(682,0,l),
+(682,216,l),
+(438,216,l),
+(438,228,l),
+(432,216,l),
+(562,312,ls),
+(638,368,o),
+(672,436,o),
+(672,522,cs),
+(672,666,o),
+(570,808,o),
+(364,808,cs),
+(200,808,o),
+(86,720,o),
+(50,554,c),
+(286,502,l),
+(298,568,o),
+(328,590,o),
+(364,590,cs),
+(408,590,o),
+(430,554,o),
+(430,522,cs),
+(430,514,o),
+(426,482,o),
+(408,468,cs),
+(66,196,l),
+(66,0,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 54.7;
+weight = -360;
+width = 54.5;
+};
+};
+width = 732;
+}
+);
+metricLeft = two.dnom;
+metricRight = two.dnom;
+note = "# Required RMX Scaler";
+userData = {
+RMXScaler = {
+source = two.cv08;
+};
+};
+}
