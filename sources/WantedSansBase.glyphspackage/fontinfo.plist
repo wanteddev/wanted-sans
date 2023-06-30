@@ -1054,11 +1054,10 @@ tag = ss14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Alternative j\";
+	name \"Geometric j\";
 }; };
 
-# Copy and Paste automatically generated feature from here
-
+# Copy and paste codes below automatically generated feature
 sub j by j.cv01;
 sub jdotless by jdotless.cv01;
 sub jacute by jacute.cv01;
@@ -1071,8 +1070,12 @@ sub j.sups by j.sups.cv01;
 tag = cv01;
 },
 {
-automatic = 1;
-code = "sub t by t.cv02;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Geometric t\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub t by t.cv02;
 sub tcaron by tcaron.cv02;
 sub tcedilla by tcedilla.cv02;
 sub tcircumflexbelow by tcircumflexbelow.cv02;
@@ -1088,8 +1091,12 @@ sub t.sups by t.sups.cv02;
 tag = cv02;
 },
 {
-automatic = 1;
-code = "sub a by a.cv03;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Double-storey a\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub a by a.cv03;
 sub aacute by aacute.cv03;
 sub abreve by abreve.cv03;
 sub abrevedotbelow by abrevedotbelow.cv03;
@@ -1116,8 +1123,12 @@ sub ordfeminine by ordfeminine.cv03;
 tag = cv03;
 },
 {
-automatic = 1;
-code = "sub u by u.cv04;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Geometric u\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub u by u.cv04;
 sub uacute by uacute.cv04;
 sub ubreve by ubreve.cv04;
 sub ucaron by ucaron.cv04;
@@ -1138,8 +1149,12 @@ sub u.sups by u.sups.cv04;
 tag = cv04;
 },
 {
-automatic = 1;
-code = "sub J by J.cv05;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Legible J\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub J by J.cv05;
 sub Jacute by Jacute.cv05;
 sub Jcircumflex by Jcircumflex.cv05;
 sub J.blackCircled by J.blackCircled.cv05;
@@ -1150,8 +1165,12 @@ sub J.circled by J.circled.cv05;
 tag = cv05;
 },
 {
-automatic = 1;
-code = "sub Q by Q.cv06;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Geometric Q\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub Q by Q.cv06;
 sub Q.blackCircled by Q.blackCircled.cv06;
 sub Q.box by Q.box.cv06;
 sub Q.roundBlackBox by Q.roundBlackBox.cv06;
@@ -1164,8 +1183,12 @@ sub Q.circled.bold by Q.circled.bold.cv06;
 tag = cv06;
 },
 {
-automatic = 1;
-code = "sub one by one.cv07;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Straight 1\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub one by one.cv07;
 sub one.box by one.box.cv07;
 sub one.blackCircled by one.blackCircled.cv07;
 sub one.circled by one.circled.cv07;
@@ -1182,8 +1205,12 @@ sub onesuperior by onesuperior.cv07;
 tag = cv07;
 },
 {
-automatic = 1;
-code = "sub two by two.cv08;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Straight 2\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub two by two.cv08;
 sub two.box by two.box.cv08;
 sub two.blackCircled by two.blackCircled.cv08;
 sub two.circled by two.circled.cv08;
@@ -1199,8 +1226,12 @@ sub twosuperior by twosuperior.cv08;
 tag = cv08;
 },
 {
-automatic = 1;
-code = "sub three by three.cv09;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Double-storey 3\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub three by three.cv09;
 sub three.box by three.box.cv09;
 sub three.blackCircled by three.blackCircled.cv09;
 sub three.circled by three.circled.cv09;
@@ -1216,8 +1247,12 @@ sub threesuperior by threesuperior.cv09;
 tag = cv09;
 },
 {
-automatic = 1;
-code = "sub four by four.cv10;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Closed 4\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub four by four.cv10;
 sub four.box by four.box.cv10;
 sub four.blackCircled by four.blackCircled.cv10;
 sub four.circled by four.circled.cv10;
@@ -1235,8 +1270,12 @@ sub foursuperior by foursuperior.cv10;
 tag = cv10;
 },
 {
-automatic = 1;
-code = "sub six by six.cv11;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Straight 6 9\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub six by six.cv11;
 sub nine by nine.cv11;
 sub six.box by six.box.cv11;
 sub nine.box by nine.box.cv11;
@@ -1260,8 +1299,12 @@ sub ninesuperior by ninesuperior.cv11;
 tag = cv11;
 },
 {
-automatic = 1;
-code = "sub seven by seven.cv12;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Straight 7\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub seven by seven.cv12;
 sub seven.box by seven.box.cv12;
 sub seven.blackCircled by seven.blackCircled.cv12;
 sub seven.circled by seven.circled.cv12;
@@ -1276,15 +1319,23 @@ sub sevensuperior by sevensuperior.cv12;
 tag = cv12;
 },
 {
-automatic = 1;
-code = "sub question by question.cv13;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Geometric ?\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub question by question.cv13;
 sub questiondown by questiondown.cv13;
 ";
 tag = cv13;
 },
 {
-automatic = 1;
-code = "sub b by b.cv14;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Legible b d h k l\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub b by b.cv14;
 sub bdotbelow by bdotbelow.cv14;
 sub d by d.cv14;
 sub dcaron by dcaron.cv14;
@@ -1315,8 +1366,12 @@ sub lslash by lslash.cv14;
 tag = cv14;
 },
 {
-automatic = 1;
-code = "sub two by two.cv15;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic 2\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub two by two.cv15;
 sub two.box by two.box.cv15;
 sub two.blackCircled by two.blackCircled.cv15;
 sub two.circled by two.circled.cv15;
@@ -1332,8 +1387,12 @@ sub twosuperior by twosuperior.cv15;
 tag = cv15;
 },
 {
-automatic = 1;
-code = "sub r by r.cv16;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic r\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub r by r.cv16;
 sub racute by racute.cv16;
 sub rcaron by rcaron.cv16;
 sub rcommaaccent by rcommaaccent.cv16;
@@ -1348,8 +1407,12 @@ sub r.sups by r.sups.cv16;
 tag = cv16;
 },
 {
-automatic = 1;
-code = "sub l by l.cv17;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Legible l\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub l by l.cv17;
 sub lacute by lacute.cv17;
 sub lcaron by lcaron.cv17;
 sub lcircumflexbelow by lcircumflexbelow.cv17;
@@ -1375,8 +1438,12 @@ sub l.sups by l.sups.cv17;
 tag = cv17;
 },
 {
-automatic = 1;
-code = "sub one by one.cv18;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Legible 1\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub one by one.cv18;
 sub one.box by one.box.cv18;
 sub one.cv07 by one.cv07.cv18;
 sub one.blackCircled by one.blackCircled.cv18;
@@ -1412,8 +1479,12 @@ sub onesuperior.cv07 by onesuperior.cv07.cv18;
 tag = cv18;
 },
 {
-automatic = 1;
-code = "sub I by I.cv19;
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Legible I\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub I by I.cv19;
 sub IJ by IJ.cv19;
 sub Iacute by Iacute.cv19;
 sub Icaron by Icaron.cv19;
