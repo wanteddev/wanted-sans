@@ -31,11 +31,11 @@ pos = (1000,0);
 ref = _part.percentfraction;
 },
 {
-pos = (1272,0);
+pos = (1240,0);
 ref = _part.percentzero;
 }
 );
-width = 2272;
+width = 2240;
 }
 );
 unicode = 37;

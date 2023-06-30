@@ -17,7 +17,7 @@ pos = (260,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 544;
+width = 536;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

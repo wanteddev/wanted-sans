@@ -365,19 +365,19 @@ pos = (1000,0);
 ref = _part.percentfraction;
 },
 {
-pos = (1272,0);
+pos = (1240,0);
 ref = _part.percentzero;
 },
 {
-pos = (2208,0);
+pos = (2176,0);
 ref = _part.percentzero;
 },
 {
-pos = (3144,0);
+pos = (3112,0);
 ref = _part.percentzero;
 }
 );
-width = 4144;
+width = 4112;
 }
 );
 unicode = 8241;

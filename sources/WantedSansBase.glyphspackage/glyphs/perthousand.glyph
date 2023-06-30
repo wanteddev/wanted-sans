@@ -35,15 +35,15 @@ pos = (1000,0);
 ref = _part.percentfraction;
 },
 {
-pos = (1272,0);
+pos = (1240,0);
 ref = _part.percentzero;
 },
 {
-pos = (2208,0);
+pos = (2176,0);
 ref = _part.percentzero;
 }
 );
-width = 3208;
+width = 3176;
 }
 );
 unicode = 8240;

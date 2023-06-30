@@ -41,12 +41,12 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 316;
+strokeWidth = 308;
 };
 closed = 0;
 nodes = (
-(586,1448,l),
-(-314,0,l)
+(570,1448,l),
+(-332,0,l)
 );
 }
 );
@@ -56,14 +56,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-128,0,l),
-(772,1448,l),
-(400,1448,l),
-(-500,0,l)
+(-148,0,l),
+(752,1448,l),
+(388,1448,l),
+(-512,0,l)
 );
 }
 );
-width = 272;
+width = 240;
 }
 );
 }

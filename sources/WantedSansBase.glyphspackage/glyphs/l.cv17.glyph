@@ -39,7 +39,7 @@ Cap = 100;
 ref = _smart.lowerstem.curve;
 }
 );
-width = 540;
+width = 532;
 },
 {
 anchors = (
