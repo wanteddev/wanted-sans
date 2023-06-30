@@ -55,7 +55,6 @@ weight = 28;
 width = 1000;
 }
 );
-note = "{\012  \"weight\" : [\012    34,\012    28\012  ]\012}";
 userData = {
 RMXScaler = {
 source = zero.numr;

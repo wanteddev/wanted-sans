@@ -28,6 +28,5 @@ width = 818;
 );
 metricLeft = o.dnom;
 metricRight = o.dnom;
-note = "{\012  \"width\" : [\012    61,\012    67\012  ],\012  \"weight\" : [\012    -90,\012    -356\012  ],\012  \"height\" : [\012    61,\012    67\012  ],\012  \"verticalShift\" : [\012    1,\012    1\012  ]\012}  # Regular\012.numr:816, superior:1024, inferior:-208\012+ 직선 높이 조정  # Black\012.numr:752, superior:832, inferior:-208";
 unicode = 7506;
 }

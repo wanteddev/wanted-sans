@@ -120,7 +120,7 @@ width = 54.5;
 width = 800;
 }
 );
-note = "# Required RMX Scaler  # Regular\012.numr:728, superior:936, inferior:-208\012+ Required adjustment Non-overshoot height  # Black\012.numr:656, superior:864, inferior:-208";
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = zero;
