@@ -194,17 +194,18 @@ name = LOOKUP_LIGA;
 features = (
 {
 automatic = 1;
-code = "feature locl;
-feature subs;
-feature sinf;
-feature sups;
-feature numr;
-feature dnom;
+code = "feature case;
+feature locl;
 feature frac;
+feature dnom;
+feature numr;
+feature subs;
+feature sups;
+feature sinf;
 feature ordn;
 feature pnum;
 feature tnum;
-feature case;
+feature zero;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -232,7 +233,6 @@ feature cv16;
 feature cv17;
 feature cv18;
 feature cv19;
-feature zero;
 ";
 tag = aalt;
 },
@@ -619,15 +619,19 @@ sub ogonekcomb by ogonekcomb.case;
 tag = case;
 },
 {
-code = "lookupflag IgnoreMarks;
-
-lookup LOOKUP_LIGA_1;
+automatic = 1;
+code = "sub zero by zero.zero;
+sub zero.box by zero.box.zero;
+sub zero.roundBlackBox by zero.roundBlackBox.zero;
+sub zero.tf by zero.tf.zero;
+sub zero.blackCircled by zero.blackCircled.zero;
+sub zero.circled by zero.circled.zero;
+sub zero.dnom by zero.dnom.zero;
+sub zero.numr by zero.numr.zero;
+sub zeroinferior by zeroinferior.zero;
+sub zerosuperior by zerosuperior.zero;
 ";
-tag = liga;
-},
-{
-code = "lookup LOOKUP_DLIG_1;";
-tag = dlig;
+tag = zero;
 },
 {
 code = "lookup LOOKUP_CALT_1;
@@ -640,6 +644,17 @@ code = "# Duplicated calt due to the web's inability to support Hangul character
 lookup LOOKUP_CALT_1;
 ";
 tag = clig;
+},
+{
+code = "lookup LOOKUP_DLIG_1;";
+tag = dlig;
+},
+{
+code = "lookupflag IgnoreMarks;
+
+lookup LOOKUP_LIGA_1;
+";
+tag = liga;
 },
 {
 code = "#ifdef VARIABLE
@@ -665,6 +680,32 @@ sub @RLIG_L by @RLIG_R;
 #endif
 ";
 tag = rlig;
+},
+{
+code = "# Automatic Code
+
+@L = [
+$[name beginswith 'L' and rightKerningGroup == 'L']
+];
+
+@Quote = [
+quotedblleft
+quotedblright
+quoteleft
+quoteright
+];
+
+@A = [
+$[name beginswith 'A' and leftKerningGroup == 'A']
+];
+
+@J = [
+$[name beginswith 'J' and leftKerningGroup == 'J']
+];
+
+pos @L @Quote' 144 (wght:900) 40 @A;
+pos @L @Quote' 96 (wght:900) 40 @J;";
+tag = kern;
 },
 {
 code = "# Bring cv01 cv02 cv04 cv06 cv08 cv11 cv12 cv13
@@ -1498,47 +1539,6 @@ sub Iogonek by Iogonek.cv19;
 sub Itilde by Itilde.cv19;
 ";
 tag = cv19;
-},
-{
-code = "# Automatic Code
-
-@L = [
-$[name beginswith 'L' and rightKerningGroup == 'L']
-];
-
-@Quote = [
-quotedblleft
-quotedblright
-quoteleft
-quoteright
-];
-
-@A = [
-$[name beginswith 'A' and leftKerningGroup == 'A']
-];
-
-@J = [
-$[name beginswith 'J' and leftKerningGroup == 'J']
-];
-
-pos @L @Quote' 144 (wght:900) 40 @A;
-pos @L @Quote' 96 (wght:900) 40 @J;";
-tag = kern;
-},
-{
-automatic = 1;
-code = "sub zero by zero.zero;
-sub zero.box by zero.box.zero;
-sub zero.roundBlackBox by zero.roundBlackBox.zero;
-sub zero.tf by zero.tf.zero;
-sub zero.blackCircled by zero.blackCircled.zero;
-sub zero.circled by zero.circled.zero;
-sub zero.dnom by zero.dnom.zero;
-sub zero.numr by zero.numr.zero;
-sub zeroinferior by zeroinferior.zero;
-sub zerosuperior by zerosuperior.zero;
-";
-tag = zero;
 }
 );
 fontMaster = (
