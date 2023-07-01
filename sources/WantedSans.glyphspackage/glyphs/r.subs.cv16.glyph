@@ -11,7 +11,7 @@ pos = (0,-208);
 ref = r.dnom.cv16;
 }
 );
-width = 460;
+width = 468;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -21,7 +21,7 @@ pos = (0,-208);
 ref = r.dnom.cv16;
 }
 );
-width = 682;
+width = 678;
 }
 );
 }
