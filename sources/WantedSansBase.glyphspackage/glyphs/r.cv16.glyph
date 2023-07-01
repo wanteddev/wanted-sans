@@ -11,7 +11,7 @@ pos = (216,0);
 },
 {
 name = top;
-pos = (328,1032);
+pos = (366,1032);
 }
 );
 layerId = m01;
@@ -30,7 +30,7 @@ pos = (300,0);
 ref = _part.rbase.cv16;
 }
 );
-width = 660;
+width = 680;
 },
 {
 anchors = (
@@ -40,7 +40,7 @@ pos = (308,0);
 },
 {
 name = top;
-pos = (544,1032);
+pos = (552,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -59,7 +59,7 @@ pos = (508,0);
 ref = _part.rbase.cv16;
 }
 );
-width = 1092;
+width = 1080;
 }
 );
 }
