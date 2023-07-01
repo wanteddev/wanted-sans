@@ -7,19 +7,19 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (468,0);
+pos = (460,0);
 },
 {
 name = center;
-pos = (400,516);
+pos = (392,516);
 },
 {
 name = top;
-pos = (336,1264);
+pos = (328,1264);
 },
 {
 name = topright;
-pos = (676,1032);
+pos = (668,1032);
 }
 );
 layerId = m01;
@@ -35,7 +35,7 @@ piece = {
 Terminal = 64;
 Top = 56;
 };
-pos = (120,0);
+pos = (112,0);
 ref = _smart.terminal;
 }
 );
@@ -101,7 +101,7 @@ piece = {
 Terminal = 34;
 Top = 54;
 };
-pos = (120,0);
+pos = (112,0);
 ref = _smart.terminal;
 }
 );
@@ -111,19 +111,19 @@ width = 752;
 anchors = (
 {
 name = bottom;
-pos = (562,0);
+pos = (554,0);
 },
 {
 name = center;
-pos = (482,516);
+pos = (474,516);
 },
 {
 name = top;
-pos = (432,1280);
+pos = (424,1280);
 },
 {
 name = topright;
-pos = (856,1032);
+pos = (848,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -140,7 +140,7 @@ piece = {
 Terminal = 20;
 Top = 59.5;
 };
-pos = (124,0);
+pos = (116,0);
 ref = _smart.terminal;
 }
 );
@@ -390,7 +390,7 @@ piece = {
 Terminal = 100;
 Top = 59.5;
 };
-pos = (124,0);
+pos = (116,0);
 ref = _smart.terminal;
 }
 );
