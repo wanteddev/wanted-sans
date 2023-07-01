@@ -39,7 +39,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x287725e00;
+identifier = ID0x29404dcc0;
 strokePos = "0";
 };
 closed = 1;
@@ -71,7 +71,7 @@ weight = -90;
 width = 61;
 };
 };
-width = 476;
+width = 484;
 },
 {
 anchors = (
@@ -108,7 +108,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x287d15060;
+identifier = ID0x294050ae0;
 strokePos = "0";
 };
 closed = 1;
@@ -140,7 +140,7 @@ weight = -356;
 width = 67;
 };
 };
-width = 586;
+width = 582;
 }
 );
 metricLeft = t.dnom;
