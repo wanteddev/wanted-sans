@@ -41,6 +41,6 @@ ref = period;
 width = 1916;
 }
 );
-note = $HANG;
+note = $3_CALT;
 unicode = 8230;
 }

@@ -166,11 +166,11 @@ lookup LOOKUP_CALT_3 {
 # Align ellipsis with Hangul
 
 @ELLIPSIS_L = [
-$[colorIndex == 0 and note contains \"$HANG\"]
+$[colorIndex == 0 and note contains \"$3_CALT\"]
 ];
 
 @ELLIPSIS_R = [
-$[colorIndex == 1 and note contains \"$HANG\"]
+$[colorIndex == 1 and note contains \"$3_CALT\"]
 ];
 
 @Parenleft = [
@@ -403,12 +403,9 @@ lookup locl_latn_5 {
 
 script hang;
 lookup locl_hang_0 {
-	sub colon by colon.loclhang;
-	sub ellipsis by ellipsis.loclhang;
 	sub periodcentered by periodcentered.loclhang;
 	sub slash by slash.loclhang;
 	sub backslash by backslash.loclhang;
-	sub twodotenleader by twodotenleader.loclhang;
 	sub hyphen by hyphen.loclhang;
 	sub endash by endash.loclhang;
 	sub emdash by emdash.loclhang;
