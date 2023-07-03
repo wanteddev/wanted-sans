@@ -9,7 +9,7 @@ shapes = (
 ref = _part.registeredcircle;
 },
 {
-pos = (440,-108);
+pos = (440,0);
 ref = R.tag;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = _part.registeredcircle;
 },
 {
-pos = (464,-108);
+pos = (464,0);
 ref = R.tag;
 }
 );
