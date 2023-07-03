@@ -99,7 +99,7 @@ value = (
 );
 }
 );
-date = "2023-07-03 09:30:58 +0000";
+date = "2023-07-03 09:58:40 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -163,6 +163,69 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;} LOOKUP_CALT_2;
+
+lookup LOOKUP_CALT_3 {
+# Align ellipsis with Hangul
+
+@ELLIPSIS_L = [
+ellipsis
+twodotenleader
+];
+
+@ELLIPSIS_R = [
+ellipsis.loclKOR
+twodotenleader.loclKOR
+];
+
+@Parenleft = [
+$[name beginswith \"parenleft\"]
+];
+
+@Parenright = [
+$[name beginswith \"parenright\"]
+];
+
+# Cut three more ellipsis glyphs
+ignore sub @ELLIPSIS_L' period period;
+ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L period @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @Hangul @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' period;
+ignore sub @Hangul @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' period;
+ignore sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L' @Hangul;
+ignore sub @ELLIPSIS_L period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L' @Separator @Hangul;
+ignore sub period @ELLIPSIS_L';
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub period @ELLIPSIS_L' @ELLIPSIS_L;
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+
+# ...K K... K.......
+sub @Hangul @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangul @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Hangul by @ELLIPSIS_R;
+
+# ...... K ......
+sub @ELLIPSIS_L' @Separator @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Separator @Hangul by @ELLIPSIS_R;
+sub @Hangul @Separator @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+
+# .... .......
+sub @ELLIPSIS_L' period by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
+
+# (...) to (---)
+sub @Parenleft @ELLIPSIS_L' @Parenright by @ELLIPSIS_R;
+
+} LOOKUP_CALT_3;
 ";
 name = LOOKUP_CALT;
 },
@@ -654,12 +717,14 @@ tag = zero;
 {
 code = "lookup LOOKUP_CALT_1;
 lookup LOOKUP_CALT_2;
+lookup LOOKUP_CALT_3;
 ";
 tag = calt;
 },
 {
 code = "# Duplicated calt due to the web's inability to support Hangul characters in calt
 lookup LOOKUP_CALT_1;
+lookup LOOKUP_CALT_3;
 ";
 tag = clig;
 },
@@ -5590,5 +5655,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 801;
+versionMinor = 802;
 }
