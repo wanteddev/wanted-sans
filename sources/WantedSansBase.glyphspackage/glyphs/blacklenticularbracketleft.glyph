@@ -1,0 +1,70 @@
+{
+glyphname = blacklenticularbracketleft;
+kernLeft = parenleft.case;
+kernRight = parenleft.case;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = bracketleft.case;
+},
+{
+ref = parenleft.case;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(596,-224,l),
+(428,46,o),
+(326,370,o),
+(326,716,cs),
+(326,1064,o),
+(428,1388,o),
+(596,1656,c),
+(158,1656,l),
+(158,-224,l)
+);
+}
+);
+width = 640;
+},
+{
+background = {
+shapes = (
+{
+ref = bracketleft.case;
+},
+{
+ref = parenleft.case;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(844,-224,l),
+(676,24,o),
+(566,352,o),
+(566,716,cs),
+(566,1082,o),
+(676,1408,o),
+(844,1656,c),
+(166,1656,l),
+(166,-224,l)
+);
+}
+);
+width = 880;
+}
+);
+metricLeft = bracketleft;
+metricRight = parenleft;
+unicode = 12304;
+}
