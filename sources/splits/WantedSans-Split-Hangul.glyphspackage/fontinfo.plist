@@ -19,9 +19,13 @@ value = (
 "1252",
 "949"
 );
+},
+{
+name = ROS;
+value = "Adobe-Identity-0";
 }
 );
-date = "2023-05-17 08:55:14 +0000";
+date = "2023-07-03 06:50:20 +0000";
 familyName = "Wanted Sans Split Hangul";
 featurePrefixes = (
 {
@@ -508,5 +512,5 @@ keyboardIncrementBig = 4;
 };
 unitsPerEm = 2048;
 versionMajor = 0;
-versionMinor = 206;
+versionMinor = 0;
 }
