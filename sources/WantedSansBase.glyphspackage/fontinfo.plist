@@ -1930,6 +1930,7 @@ value = m01;
 name = "Decompose Glyphs";
 value = (
 dcroat,
+dcroat.cv14,
 Q.roundBlackBox,
 Q.blackCircled,
 Q.circled,
