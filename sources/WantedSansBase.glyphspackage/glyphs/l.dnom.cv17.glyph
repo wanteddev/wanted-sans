@@ -120,7 +120,7 @@ width = 468;
 }
 );
 metricLeft = n.dnom;
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler  # Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = l.cv17;

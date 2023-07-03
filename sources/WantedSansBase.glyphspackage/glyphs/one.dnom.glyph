@@ -100,7 +100,7 @@ width = 54.5;
 width = 596;
 }
 );
-note = "# Required RMX Scaler  # Required adjustment ascender and baseline position";
+note = "# Required RMX Scaler  # Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = one;
