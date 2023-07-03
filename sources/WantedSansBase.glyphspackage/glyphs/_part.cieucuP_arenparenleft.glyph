@@ -1,0 +1,73 @@
+{
+export = 0;
+glyphname = _part.cieucuParenparenleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,-224,l),
+(346,56,o),
+(268,380,o),
+(268,716,cs),
+(268,1058,o),
+(348,1382,o),
+(484,1656,c),
+(326,1656,l),
+(194,1384,o),
+(118,1064,o),
+(118,716,cs),
+(118,368,o),
+(194,48,o),
+(326,-224,c)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -64;
+width = 80;
+};
+};
+width = 518;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(708,-224,l),
+(568,38,o),
+(484,368,o),
+(484,716,cs),
+(484,1076,o),
+(572,1402,o),
+(708,1656,c),
+(324,1656,l),
+(196,1376,o),
+(124,1056,o),
+(124,716,cs),
+(124,376,o),
+(196,58,o),
+(324,-224,c)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -120;
+width = 80;
+};
+};
+width = 736;
+}
+);
+userData = {
+RMXScaler = {
+source = parenleft.case;
+};
+};
+}
