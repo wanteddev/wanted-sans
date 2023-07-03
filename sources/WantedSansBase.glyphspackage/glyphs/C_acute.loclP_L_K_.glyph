@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = Cacute.loclPLK;
 kernLeft = O;
 kernRight = C;

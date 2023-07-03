@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = oacute.loclPLK;
 kernLeft = o;
 kernRight = o;
