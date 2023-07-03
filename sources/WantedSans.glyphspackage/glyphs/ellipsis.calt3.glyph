@@ -1,6 +1,6 @@
 {
 color = 1;
-glyphname = twodotenleader.loclhang;
+glyphname = ellipsis.calt3;
 kernLeft = periodcentered;
 kernRight = periodcentered;
 layers = (
@@ -8,24 +8,25 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (0,608);
-ref = twodotenleader;
+ref = ellipsis;
 }
 );
-width = 992;
+width = 1472;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,514);
-ref = twodotenleader;
+ref = ellipsis;
 }
 );
-width = 1288;
+width = 1916;
 }
 );
-metricLeft = twodotenleader;
-metricRight = twodotenleader;
-note = $HANG;
+metricLeft = ellipsis;
+metricRight = ellipsis;
+note = $3_CALT;
 }
