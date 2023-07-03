@@ -25,15 +25,15 @@ shapes = (
 ref = one.numr.cv07.cv18;
 },
 {
-pos = (836,0);
+pos = (838,0);
 ref = fraction;
 },
 {
-pos = (1148,0);
+pos = (1150,0);
 ref = four.dnom.cv10;
 }
 );
-width = 1950;
+width = 1952;
 }
 );
 metricLeft = one.numr;

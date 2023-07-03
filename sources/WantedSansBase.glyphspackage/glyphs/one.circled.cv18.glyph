@@ -12,7 +12,7 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (584,0);
+pos = (582,0);
 ref = one.tag.cv18;
 }
 );
@@ -27,7 +27,7 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (620,0);
+pos = (616,0);
 ref = one.tag.cv18;
 }
 );
