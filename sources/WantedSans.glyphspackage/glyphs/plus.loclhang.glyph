@@ -1,15 +1,15 @@
 {
-color = 1;
-glyphname = logicalnot.case;
+color = 9;
+glyphname = plus.loclhang;
 kernLeft = hyphen.case;
-kernRight = period;
+kernRight = hyphen.case;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-pos = (0,176);
-ref = logicalnot;
+alignment = 1;
+ref = plus.case;
 }
 );
 width = 1280;
@@ -18,12 +18,11 @@ width = 1280;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (0,176);
-ref = logicalnot;
+alignment = 1;
+ref = plus.case;
 }
 );
 width = 1440;
 }
 );
-note = $CASE;
 }

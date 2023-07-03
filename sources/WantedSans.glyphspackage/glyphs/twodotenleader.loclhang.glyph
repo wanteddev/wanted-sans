@@ -1,5 +1,6 @@
 {
-glyphname = ellipsis.loclKOR;
+color = 1;
+glyphname = twodotenleader.loclhang;
 kernLeft = periodcentered;
 kernRight = periodcentered;
 layers = (
@@ -7,24 +8,24 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 pos = (0,608);
-ref = ellipsis;
+ref = twodotenleader;
 }
 );
-width = 1472;
+width = 992;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,514);
-ref = ellipsis;
+ref = twodotenleader;
 }
 );
-width = 1916;
+width = 1288;
 }
 );
-metricLeft = ellipsis;
-metricRight = ellipsis;
+metricLeft = twodotenleader;
+metricRight = twodotenleader;
+note = $HANG;
 }

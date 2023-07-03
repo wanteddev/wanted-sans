@@ -1,5 +1,6 @@
 {
-glyphname = bar.loclENG;
+color = 9;
+glyphname = brokenbar.locllatn;
 kernLeft = H;
 kernRight = H;
 layers = (
@@ -8,22 +9,22 @@ layerId = m01;
 shapes = (
 {
 pos = (0,-216);
-ref = bar;
+ref = brokenbar;
 }
 );
-width = 456;
+width = 448;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,-216);
-ref = bar;
+ref = brokenbar;
 }
 );
-width = 584;
+width = 616;
 }
 );
-metricLeft = bar;
-metricRight = bar;
+metricLeft = brokenbar;
+metricRight = brokenbar;
 }
