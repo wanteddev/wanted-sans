@@ -115,8 +115,12 @@ languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn PLK;
+languagesystem latn ENG;
 languagesystem latn CAT;
 languagesystem latn NLD;
+
+languagesystem hang dflt;
+languagesystem hang KOR;
 ";
 name = Languagesystems;
 },
@@ -194,17 +198,17 @@ name = LOOKUP_LIGA;
 features = (
 {
 automatic = 1;
-code = "feature case;
-feature locl;
-feature frac;
-feature dnom;
-feature numr;
+code = "feature locl;
 feature subs;
-feature sups;
 feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
 feature ordn;
 feature pnum;
 feature tnum;
+feature case;
 feature zero;
 feature ss01;
 feature ss02;
@@ -310,18 +314,32 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
-language CAT;
+language ENG;
 lookup locl_latn_3 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
+	sub bar by bar.loclENG;
+	sub brokenbar by brokenbar.loclENG;
 } locl_latn_3;
 
 script latn;
-language NLD;
+language CAT;
 lookup locl_latn_4 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_4;
+
+script latn;
+language NLD;
+lookup locl_latn_5 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_4;
+} locl_latn_5;
+
+script hang;
+language KOR;
+lookup locl_hang_0 {
+	sub ellipsis by ellipsis.loclKOR;
+	sub twodotenleader by twodotenleader.loclKOR;
+} locl_hang_0;
 ";
 tag = locl;
 },

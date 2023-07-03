@@ -1,0 +1,29 @@
+{
+glyphname = twodotenleader.loclKOR;
+kernLeft = periodcentered;
+kernRight = periodcentered;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,608);
+ref = twodotenleader;
+}
+);
+width = 992;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,514);
+ref = twodotenleader;
+}
+);
+width = 1288;
+}
+);
+metricLeft = twodotenleader;
+metricRight = twodotenleader;
+}

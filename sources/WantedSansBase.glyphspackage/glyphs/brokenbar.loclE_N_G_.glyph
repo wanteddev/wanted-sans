@@ -1,0 +1,29 @@
+{
+glyphname = brokenbar.loclENG;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-216);
+ref = brokenbar;
+}
+);
+width = 448;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,-216);
+ref = brokenbar;
+}
+);
+width = 616;
+}
+);
+metricLeft = brokenbar;
+metricRight = brokenbar;
+}
