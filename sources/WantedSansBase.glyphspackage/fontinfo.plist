@@ -1487,7 +1487,7 @@ tag = cv13;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Legible b d h k l\";
+	name \"Legible ascender\";
 }; };
 
 # Copy and paste codes below automatically generated feature
