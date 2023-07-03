@@ -26,7 +26,7 @@ width = 1160;
 anchors = (
 {
 name = _symbol;
-pos = (632,724);
+pos = (640,724);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -35,7 +35,7 @@ shapes = (
 ref = _part.oneserifbase;
 },
 {
-pos = (48,0);
+pos = (56,0);
 ref = one.cv07;
 }
 );
