@@ -1,4 +1,5 @@
 {
+color = 3;
 export = 0;
 glyphname = _part.cieucuParenbase;
 layers = (
@@ -146,6 +147,7 @@ width = 75;
 width = 1070;
 }
 );
+note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
 source = "ju-ko";

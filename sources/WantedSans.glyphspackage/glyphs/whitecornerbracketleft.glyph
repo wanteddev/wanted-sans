@@ -1,0 +1,34 @@
+{
+glyphname = whitecornerbracketleft;
+kernLeft = parenleft.case;
+kernRight = parenleft.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.whitecornerbracketleftbase;
+},
+{
+pos = (296,0);
+ref = _part.whitecornerbracketleftbase;
+}
+);
+width = 880;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.whitecornerbracketleftbase;
+},
+{
+pos = (388,0);
+ref = _part.whitecornerbracketleftbase;
+}
+);
+width = 1092;
+}
+);
+unicode = 12302;
+}

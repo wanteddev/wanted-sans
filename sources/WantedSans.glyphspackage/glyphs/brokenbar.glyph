@@ -1,7 +1,7 @@
 {
 glyphname = brokenbar;
-kernLeft = I;
-kernRight = I;
+kernLeft = H;
+kernRight = H;
 layers = (
 {
 background = {

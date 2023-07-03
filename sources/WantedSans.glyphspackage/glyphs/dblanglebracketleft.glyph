@@ -1,0 +1,34 @@
+{
+glyphname = dblanglebracketleft;
+kernLeft = parenleft.case;
+kernRight = parenleft.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.dblanglebracketleftbase;
+},
+{
+pos = (344,0);
+ref = _part.dblanglebracketleftbase;
+}
+);
+width = 984;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.dblanglebracketleftbase;
+},
+{
+pos = (528,0);
+ref = _part.dblanglebracketleftbase;
+}
+);
+width = 1312;
+}
+);
+unicode = 12298;
+}

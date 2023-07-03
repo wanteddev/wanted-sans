@@ -110,7 +110,7 @@ value = (
 );
 }
 );
-date = "2023-07-03 06:55:01 +0000";
+date = "2023-07-03 09:58:40 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -126,8 +126,12 @@ languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn PLK;
+languagesystem latn ENG;
 languagesystem latn CAT;
 languagesystem latn NLD;
+
+languagesystem hang dflt;
+languagesystem hang KOR;
 ";
 name = Languagesystems;
 },
@@ -170,6 +174,69 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;} LOOKUP_CALT_2;
+
+lookup LOOKUP_CALT_3 {
+# Align ellipsis with Hangul
+
+@ELLIPSIS_L = [
+ellipsis
+twodotenleader
+];
+
+@ELLIPSIS_R = [
+ellipsis.loclKOR
+twodotenleader.loclKOR
+];
+
+@Parenleft = [
+$[name beginswith \"parenleft\"]
+];
+
+@Parenright = [
+$[name beginswith \"parenright\"]
+];
+
+# Cut three more ellipsis glyphs
+ignore sub @ELLIPSIS_L' period period;
+ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L period @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @Hangul @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' period;
+ignore sub @Hangul @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' period;
+ignore sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L' @Hangul;
+ignore sub @ELLIPSIS_L period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L' @Separator @Hangul;
+ignore sub period @ELLIPSIS_L';
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub period @ELLIPSIS_L' @ELLIPSIS_L;
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+
+# ...K K... K.......
+sub @Hangul @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangul @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Hangul by @ELLIPSIS_R;
+
+# ...... K ......
+sub @ELLIPSIS_L' @Separator @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Separator @Hangul by @ELLIPSIS_R;
+sub @Hangul @Separator @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+
+# .... .......
+sub @ELLIPSIS_L' period by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
+
+# (...) to (---)
+sub @Parenleft @ELLIPSIS_L' @Parenright by @ELLIPSIS_R;
+
+} LOOKUP_CALT_3;
 ";
 name = LOOKUP_CALT;
 },
@@ -205,17 +272,17 @@ name = LOOKUP_LIGA;
 features = (
 {
 automatic = 1;
-code = "feature case;
-feature locl;
-feature frac;
-feature dnom;
-feature numr;
+code = "feature locl;
 feature subs;
-feature sups;
 feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
 feature ordn;
 feature pnum;
 feature tnum;
+feature case;
 feature zero;
 feature ss01;
 feature ss02;
@@ -321,18 +388,32 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
-language CAT;
+language ENG;
 lookup locl_latn_3 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
+	sub bar by bar.loclENG;
+	sub brokenbar by brokenbar.loclENG;
 } locl_latn_3;
 
 script latn;
-language NLD;
+language CAT;
 lookup locl_latn_4 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_4;
+
+script latn;
+language NLD;
+lookup locl_latn_5 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_4;
+} locl_latn_5;
+
+script hang;
+language KOR;
+lookup locl_hang_0 {
+	sub ellipsis by ellipsis.loclKOR;
+	sub twodotenleader by twodotenleader.loclKOR;
+} locl_hang_0;
 ";
 tag = locl;
 },
@@ -647,12 +728,14 @@ tag = zero;
 {
 code = "lookup LOOKUP_CALT_1;
 lookup LOOKUP_CALT_2;
+lookup LOOKUP_CALT_3;
 ";
 tag = calt;
 },
 {
 code = "# Duplicated calt due to the web's inability to support Hangul characters in calt
 lookup LOOKUP_CALT_1;
+lookup LOOKUP_CALT_3;
 ";
 tag = clig;
 },
@@ -5584,5 +5667,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 801;
+versionMinor = 802;
 }

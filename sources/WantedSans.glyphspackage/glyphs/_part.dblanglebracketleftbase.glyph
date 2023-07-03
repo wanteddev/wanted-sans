@@ -1,0 +1,93 @@
+{
+export = 0;
+glyphname = _part.dblanglebracketleftbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (36,0);
+},
+{
+name = "#exit";
+pos = (380,0);
+}
+);
+layerId = m01;
+metricLeft = "=anglebracketleft";
+metricRight = "=anglebracketleft";
+shapes = (
+{
+closed = 1;
+nodes = (
+(216,712,l),
+(604,1656,l),
+(420,1656,l),
+(36,728,l),
+(36,712,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(604,-224,l),
+(216,720,l),
+(36,720,l),
+(36,704,l),
+(420,-224,l)
+);
+}
+);
+width = 640;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (36,0);
+},
+{
+name = "#exit";
+pos = (564,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=anglebracketleft";
+metricRight = "=anglebracketleft";
+shapes = (
+{
+closed = 1;
+nodes = (
+(416,712,l),
+(748,1656,l),
+(370,1656,l),
+(36,728,l),
+(36,712,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(748,-224,l),
+(416,720,l),
+(36,720,l),
+(36,704,l),
+(370,-224,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -120;
+width = 90;
+};
+};
+width = 784;
+}
+);
+userData = {
+RMXScaler = {
+source = anglebracketleft;
+};
+};
+}

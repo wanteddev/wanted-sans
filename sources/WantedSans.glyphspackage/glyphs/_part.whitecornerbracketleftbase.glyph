@@ -1,0 +1,171 @@
+{
+color = 3;
+export = 0;
+glyphname = _part.whitecornerbracketleftbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (158,0);
+},
+{
+name = "#exit";
+pos = (454,0);
+}
+);
+layerId = m01;
+metricLeft = "=cornerbracketleft";
+metricRight = "=cornerbracketleft";
+shapes = (
+{
+attr = {
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(322,724,l),
+(322,1504,l),
+(548,1504,l),
+(548,1672,l),
+(158,1672,l),
+(158,724,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -36;
+width = 85;
+};
+};
+width = 584;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (166,0);
+},
+{
+name = "#exit";
+pos = (554,0);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=cornerbracketleft";
+metricRight = "=cornerbracketleft";
+shapes = (
+{
+attr = {
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(462,724,l),
+(462,1288,l),
+(668,1288,l),
+(668,1672,l),
+(166,1672,l),
+(166,724,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -240;
+width = 75;
+};
+};
+width = 704;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (166,0);
+},
+{
+name = "#exit";
+pos = (692,0);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "BB59B9DE-3988-45D8-9CC3-DC4CD733F585";
+name = Base;
+shapes = (
+{
+attr = {
+identifier = ID0x177fb7af0;
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(570,724,l),
+(570,1288,l),
+(844,1288,l),
+(844,1672,l),
+(166,1672,l),
+(166,724,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -240;
+width = 75;
+};
+};
+visible = 1;
+width = 880;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (158,0);
+},
+{
+name = "#exit";
+pos = (480,0);
+}
+);
+associatedMasterId = m01;
+layerId = "E36F3EBE-55F8-4F1C-9A1B-23C098389731";
+metricLeft = "=cornerbracketleft";
+metricRight = "=cornerbracketleft";
+name = Base;
+shapes = (
+{
+attr = {
+identifier = ID0x17314bd90;
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(338,724,l),
+(338,1504,l),
+(604,1504,l),
+(604,1672,l),
+(158,1672,l),
+(158,724,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -40;
+width = 85;
+};
+};
+visible = 1;
+width = 640;
+}
+);
+note = "# Required RMX Scaler  # Required adjustment top weight";
+userData = {
+RMXScaler = {
+source = cornerbracketleft;
+};
+};
+}
