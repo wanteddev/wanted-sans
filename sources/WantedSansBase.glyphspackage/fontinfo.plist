@@ -181,6 +181,18 @@ $[name beginswith \"parenleft\"]
 $[name beginswith \"parenright\"]
 ];
 
+# Cut ellipsis insides paren
+ignore sub @Parenleft @ELLIPSIS_L';
+ignore sub @Parenleft @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @Parenleft @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @Parenleft @Separator @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L' @Parenright;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L @Parenright;
+ignore sub @ELLIPSIS_L' period @Parenright;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @Parenright;
+ignore sub @ELLIPSIS_L' period @Separator @Parenright;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Parenright;
+
 # Cut three more ellipsis glyphs
 ignore sub @ELLIPSIS_L' period period;
 ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
@@ -217,9 +229,6 @@ sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
 # .... .......
 sub @ELLIPSIS_L' period by @ELLIPSIS_R;
 sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
-
-# (...) to (---)
-sub @Parenleft @ELLIPSIS_L' @Parenright by @ELLIPSIS_R;
 
 } LOOKUP_CALT_3;
 ";
@@ -394,8 +403,37 @@ lookup locl_latn_5 {
 
 script hang;
 lookup locl_hang_0 {
+	sub colon by colon.loclhang;
 	sub ellipsis by ellipsis.loclhang;
+	sub periodcentered by periodcentered.loclhang;
+	sub slash by slash.loclhang;
+	sub backslash by backslash.loclhang;
 	sub twodotenleader by twodotenleader.loclhang;
+	sub hyphen by hyphen.loclhang;
+	sub endash by endash.loclhang;
+	sub emdash by emdash.loclhang;
+	sub parenleft by parenleft.loclhang;
+	sub parenright by parenright.loclhang;
+	sub braceleft by braceleft.loclhang;
+	sub braceright by braceright.loclhang;
+	sub bracketleft by bracketleft.loclhang;
+	sub bracketright by bracketright.loclhang;
+	sub guillemetleft by guillemetleft.loclhang;
+	sub guillemetright by guillemetright.loclhang;
+	sub guilsinglleft by guilsinglleft.loclhang;
+	sub guilsinglright by guilsinglright.loclhang;
+	sub at by at.loclhang;
+	sub plus by plus.loclhang;
+	sub minus by minus.loclhang;
+	sub multiply by multiply.loclhang;
+	sub divide by divide.loclhang;
+	sub equal by equal.loclhang;
+	sub greater by greater.loclhang;
+	sub less by less.loclhang;
+	sub plusminus by plusminus.loclhang;
+	sub approxequal by approxequal.loclhang;
+	sub asciitilde by asciitilde.loclhang;
+	sub logicalnot by logicalnot.loclhang;
 } locl_hang_0;
 ";
 tag = locl;
