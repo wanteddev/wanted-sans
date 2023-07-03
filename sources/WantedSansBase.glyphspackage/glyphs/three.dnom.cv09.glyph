@@ -149,7 +149,7 @@ width = 752;
 }
 );
 metricRight = eight.dnom;
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler  # Required adjustment ascender and baseline position";
 userData = {
 RMXScaler = {
 source = three.cv09;

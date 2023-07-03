@@ -140,7 +140,7 @@ width = 54.5;
 width = 730;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler  # Required adjustment ascender and baseline position";
 userData = {
 RMXScaler = {
 source = six.cv11;

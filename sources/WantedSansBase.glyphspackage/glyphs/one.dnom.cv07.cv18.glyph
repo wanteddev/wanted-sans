@@ -122,7 +122,7 @@ width = 54.5;
 width = 838;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler  # Required adjustment ascender and baseline position";
 userData = {
 RMXScaler = {
 source = one.cv07.cv18;

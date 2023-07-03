@@ -96,7 +96,7 @@ width = 596;
 );
 metricLeft = one.dnom;
 metricRight = one.dnom;
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler  # Required adjustment ascender and baseline position";
 userData = {
 RMXScaler = {
 source = one.cv07;
