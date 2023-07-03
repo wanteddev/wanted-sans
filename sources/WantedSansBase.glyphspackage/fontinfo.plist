@@ -115,12 +115,10 @@ languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn PLK;
-languagesystem latn ENG;
 languagesystem latn CAT;
 languagesystem latn NLD;
 
 languagesystem hang dflt;
-languagesystem hang KOR;
 ";
 name = Languagesystems;
 },
@@ -168,13 +166,11 @@ lookup LOOKUP_CALT_3 {
 # Align ellipsis with Hangul
 
 @ELLIPSIS_L = [
-ellipsis
-twodotenleader
+$[colorIndex == 0 and note contains \"$HANG\"]
 ];
 
 @ELLIPSIS_R = [
-ellipsis.loclKOR
-twodotenleader.loclKOR
+$[colorIndex == 1 and note contains \"$HANG\"]
 ];
 
 @Parenleft = [
@@ -377,10 +373,9 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
-language ENG;
 lookup locl_latn_3 {
-	sub bar by bar.loclENG;
-	sub brokenbar by brokenbar.loclENG;
+	sub bar by bar.locllatn;
+	sub brokenbar by brokenbar.locllatn;
 } locl_latn_3;
 
 script latn;
@@ -398,10 +393,9 @@ lookup locl_latn_5 {
 } locl_latn_5;
 
 script hang;
-language KOR;
 lookup locl_hang_0 {
-	sub ellipsis by ellipsis.loclKOR;
-	sub twodotenleader by twodotenleader.loclKOR;
+	sub ellipsis by ellipsis.loclhang;
+	sub twodotenleader by twodotenleader.loclhang;
 } locl_hang_0;
 ";
 tag = locl;
