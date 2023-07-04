@@ -117,8 +117,6 @@ languagesystem latn MOL;
 languagesystem latn PLK;
 languagesystem latn CAT;
 languagesystem latn NLD;
-
-languagesystem hang dflt;
 ";
 name = Languagesystems;
 },
@@ -383,56 +381,18 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
+language CAT;
 lookup locl_latn_3 {
-	sub bar by bar.locllatn;
-	sub brokenbar by brokenbar.locllatn;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_3;
 
 script latn;
-language CAT;
-lookup locl_latn_4 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_4;
-
-script latn;
 language NLD;
-lookup locl_latn_5 {
+lookup locl_latn_4 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_5;
-
-script hang;
-lookup locl_hang_0 {
-	sub periodcentered by periodcentered.loclhang;
-	sub slash by slash.loclhang;
-	sub backslash by backslash.loclhang;
-	sub hyphen by hyphen.loclhang;
-	sub endash by endash.loclhang;
-	sub emdash by emdash.loclhang;
-	sub parenleft by parenleft.loclhang;
-	sub parenright by parenright.loclhang;
-	sub braceleft by braceleft.loclhang;
-	sub braceright by braceright.loclhang;
-	sub bracketleft by bracketleft.loclhang;
-	sub bracketright by bracketright.loclhang;
-	sub guillemetleft by guillemetleft.loclhang;
-	sub guillemetright by guillemetright.loclhang;
-	sub guilsinglleft by guilsinglleft.loclhang;
-	sub guilsinglright by guilsinglright.loclhang;
-	sub at by at.loclhang;
-	sub plus by plus.loclhang;
-	sub minus by minus.loclhang;
-	sub multiply by multiply.loclhang;
-	sub divide by divide.loclhang;
-	sub equal by equal.loclhang;
-	sub greater by greater.loclhang;
-	sub less by less.loclhang;
-	sub plusminus by plusminus.loclhang;
-	sub approxequal by approxequal.loclhang;
-	sub asciitilde by asciitilde.loclhang;
-	sub logicalnot by logicalnot.loclhang;
-} locl_hang_0;
+} locl_latn_4;
 ";
 tag = locl;
 },
@@ -1010,6 +970,18 @@ value = "Stylistic forms";
 }
 );
 tag = ss03;
+},
+{
+code = "# Set glyphs alignment for hangul
+sub @CASE_L by @CASE_R;
+";
+labels = (
+{
+language = dflt;
+value = "Korea localization";
+}
+);
+tag = ss05;
 },
 {
 code = "# Customize sets

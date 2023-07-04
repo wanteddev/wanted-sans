@@ -1,5 +1,6 @@
 {
 color = 9;
+export = 0;
 glyphname = divide.loclhang;
 kernLeft = hyphen.case;
 kernRight = hyphen.case;
