@@ -181,37 +181,16 @@ $[name beginswith \"parenright\"]
 ];
 
 # Cut ellipsis insides paren
-ignore sub @Parenleft @ELLIPSIS_L';
-ignore sub @Parenleft @ELLIPSIS_L @ELLIPSIS_L';
-ignore sub @Parenleft @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
-ignore sub @Parenleft @Separator @ELLIPSIS_L';
-ignore sub @ELLIPSIS_L' @Parenright;
-ignore sub @ELLIPSIS_L' @ELLIPSIS_L @Parenright;
-ignore sub @ELLIPSIS_L' period @Parenright;
-ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @Parenright;
-ignore sub @ELLIPSIS_L' period @Separator @Parenright;
-ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Parenright;
 
 # Cut three more ellipsis glyphs
-ignore sub @ELLIPSIS_L' period period;
-ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
-ignore sub @ELLIPSIS_L period @ELLIPSIS_L';
-ignore sub @ELLIPSIS_L @ELLIPSIS_L' period;
-ignore sub @ELLIPSIS_L' @ELLIPSIS_L period period;
-ignore sub @ELLIPSIS_L' @ELLIPSIS_L' period @ELLIPSIS_L;
-ignore sub @ELLIPSIS_L' @ELLIPSIS_L' @ELLIPSIS_L';
-ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
-ignore sub @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
-ignore sub @Hangul @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' period;
-ignore sub @Hangul @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' @ELLIPSIS_L' period;
-ignore sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' period;
-ignore sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_R @ELLIPSIS_L' @ELLIPSIS_L' period;
-ignore sub @ELLIPSIS_L period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L' @Hangul;
-ignore sub @ELLIPSIS_L period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L' @Separator @Hangul;
 ignore sub period @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @ELLIPSIS_L;
 ignore sub period @ELLIPSIS_L @ELLIPSIS_L';
-ignore sub period @ELLIPSIS_L' @ELLIPSIS_L;
 ignore sub period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L' @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
 
 # ...K K... K.......
 sub @Hangul @ELLIPSIS_L' by @ELLIPSIS_R;
@@ -226,8 +205,10 @@ sub @Hangul @Separator @ELLIPSIS_L' by @ELLIPSIS_R;
 sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
 
 # .... .......
-sub @ELLIPSIS_L' period by @ELLIPSIS_R;
-sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
+sub @ELLIPSIS_L' period @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' period @Separator @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Hangul by @ELLIPSIS_R;
 
 } LOOKUP_CALT_3;
 ";
@@ -260,6 +241,28 @@ code = "lookup LOOKUP_LIGA_1 {
 sub w a n t e d underscore l o g o by wantedLogo;
 } LOOKUP_LIGA_1;";
 name = LOOKUP_LIGA;
+},
+{
+code = "lookup LOOKUP_SS05_1 {
+# Replace glyphs to align vertical with Hangul
+sub @CASE_L by @CASE_R;
+} LOOKUP_SS05_1;
+
+lookup LOOKUP_SS05_2 {
+# Align ellipsis with Hangul
+
+# Cut three more ellipsis glyphs
+ignore sub period @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @ELLIPSIS_L;
+
+# .... .......
+sub @ELLIPSIS_L' period by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
+} LOOKUP_SS05_2;
+";
+name = LOOKUP_SS05;
 }
 );
 features = (
@@ -972,8 +975,8 @@ value = "Stylistic forms";
 tag = ss03;
 },
 {
-code = "# Set glyphs alignment for hangul
-sub @CASE_L by @CASE_R;
+code = "lookup LOOKUP_SS05_1;
+lookup LOOKUP_SS05_2;
 ";
 labels = (
 {
