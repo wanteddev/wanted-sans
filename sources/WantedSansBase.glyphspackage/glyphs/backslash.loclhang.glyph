@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = backslash.loclhang;
 kernLeft = backslash.case;
 kernRight = backslash.case;

@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = less.loclhang;
 kernLeft = less.case;
 kernRight = less;

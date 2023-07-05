@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = emdash.loclhang;
 kernLeft = hyphen.case;
 kernRight = hyphen.case;

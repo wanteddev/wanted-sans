@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = greater.loclhang;
 kernLeft = greater;
 kernRight = greater.case;

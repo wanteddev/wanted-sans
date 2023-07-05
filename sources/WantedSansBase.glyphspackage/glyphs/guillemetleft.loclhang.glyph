@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = guillemetleft.loclhang;
 kernLeft = less;
 kernRight = X;

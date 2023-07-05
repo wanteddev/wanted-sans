@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = braceleft.loclhang;
 kernLeft = parenleft.case;
 kernRight = parenleft.case;

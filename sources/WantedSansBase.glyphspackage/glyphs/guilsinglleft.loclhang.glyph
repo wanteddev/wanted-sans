@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = guilsinglleft.loclhang;
 kernLeft = less;
 kernRight = X;
