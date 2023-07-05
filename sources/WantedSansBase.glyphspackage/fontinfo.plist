@@ -3845,9 +3845,6 @@ bracketright.case = {
 "@MMK_R_j" = 96;
 "@MMK_R_jdotless" = 96;
 };
-j.cv01 = {
-"@MMK_R_V" = 0;
-};
 nine = {
 "@MMK_R_seven" = 0;
 };
