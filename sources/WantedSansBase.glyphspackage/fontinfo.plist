@@ -255,8 +255,9 @@ lookup LOOKUP_SS05_2 {
 
 # Cut three more ellipsis glyphs
 ignore sub period @ELLIPSIS_L';
-ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L';
 ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
 ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @ELLIPSIS_L;
 
 # .... .......
