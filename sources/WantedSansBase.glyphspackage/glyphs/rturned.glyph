@@ -1,6 +1,6 @@
 {
 glyphname = rturned;
-kernLeft = j;
+kernLeft = period;
 kernRight = a;
 layers = (
 {
