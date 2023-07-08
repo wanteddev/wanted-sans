@@ -13,7 +13,7 @@ pos = (300,362);
 },
 {
 name = _symbol;
-pos = (240,724);
+pos = (254,724);
 }
 );
 layerId = m01;
@@ -61,7 +61,7 @@ pos = (326,362);
 },
 {
 name = _symbol;
-pos = (262,724);
+pos = (272,724);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
