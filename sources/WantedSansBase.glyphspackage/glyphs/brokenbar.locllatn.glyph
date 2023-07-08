@@ -1,8 +1,8 @@
 {
 color = 9;
 glyphname = brokenbar.locllatn;
-kernLeft = H;
-kernRight = H;
+kernLeft = p;
+kernRight = q;
 layers = (
 {
 layerId = m01;

@@ -1,8 +1,8 @@
 {
 color = 9;
 glyphname = bar.locllatn;
-kernLeft = H;
-kernRight = H;
+kernLeft = p;
+kernRight = q;
 layers = (
 {
 layerId = m01;
