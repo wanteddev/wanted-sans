@@ -1,5 +1,7 @@
 {
 glyphname = onequarter.cv18;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = m01;

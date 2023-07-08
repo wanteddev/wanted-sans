@@ -1,5 +1,7 @@
 {
 glyphname = seveneighths.cv12;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = m01;
