@@ -7,6 +7,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = 1;
 angle = 180;
 pos = (1056,1032);
 ref = question;
@@ -18,6 +19,7 @@ width = 1056;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+alignment = 1;
 angle = 180;
 pos = (1224,1032);
 ref = question;

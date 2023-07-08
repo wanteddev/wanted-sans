@@ -700,6 +700,7 @@ tag = tnum;
 {
 automatic = 1;
 code = "sub colon by colon.case;
+sub questiondown by questiondown.case;
 sub periodcentered by periodcentered.case;
 sub slash by slash.case;
 sub backslash by backslash.case;
@@ -1496,6 +1497,7 @@ code = "cvParameters { FeatUILabelNameID {
 # Copy and paste codes below automatically generated feature
 sub question by question.cv13;
 sub questiondown by questiondown.cv13;
+sub questiondown.case by questiondown.case.cv13;
 ";
 tag = cv13;
 },
