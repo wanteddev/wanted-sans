@@ -247,7 +247,40 @@ name = LOOKUP_LIGA;
 {
 code = "lookup LOOKUP_SS05_1 {
 # Replace glyphs to align vertical with Hangul
-sub @CASE_L by @CASE_R;
+# Bring case
+sub colon by colon.case;
+sub questiondown by questiondown.case;
+sub periodcentered by periodcentered.case;
+sub slash by slash.case;
+sub backslash by backslash.case;
+sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub guillemetleft by guillemetleft.case;
+sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
+sub at by at.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub multiply by multiply.case;
+sub divide by divide.case;
+sub equal by equal.case;
+sub greater by greater.case;
+sub less by less.case;
+sub plusminus by plusminus.case;
+sub approxequal by approxequal.case;
+sub asciitilde by asciitilde.case;
+sub logicalnot by logicalnot.case;
+sub ogonekcomb by ogonekcomb.case;
+# End bring
 } LOOKUP_SS05_1;
 
 lookup LOOKUP_SS05_2 {
@@ -827,7 +860,7 @@ pos @L @Quote' 96 (wght:900) 40 @J;";
 tag = kern;
 },
 {
-code = "# Bring cv01 cv02 cv04 cv06 cv08 cv11 cv12 cv13
+code = "# Bring cv01 cv02 cv04 cv06 cv07 cv08 cv11 cv12 cv13
 sub j by j.cv01;
 sub jdotless by jdotless.cv01;
 sub jacute by jacute.cv01;
@@ -870,6 +903,18 @@ sub Q.blackCircled by Q.blackCircled.cv06;
 sub Q.box by Q.box.cv06;
 sub Q.roundBlackBox by Q.roundBlackBox.cv06;
 sub Q.circled by Q.circled.cv06;
+sub one by one.cv07;
+sub one.box by one.box.cv07;
+sub one.blackCircled by one.blackCircled.cv07;
+sub one.circled by one.circled.cv07;
+sub one.roundBlackBox by one.roundBlackBox.cv07;
+sub one.tf by one.tf.cv07;
+sub one.dnom by one.dnom.cv07;
+sub one.numr by one.numr.cv07;
+sub onequarter by onequarter.cv07;
+sub oneeighth by oneeighth.cv07;
+sub oneinferior by oneinferior.cv07;
+sub onesuperior by onesuperior.cv07;
 sub two by two.cv08;
 sub two.box by two.box.cv08;
 sub two.blackCircled by two.blackCircled.cv08;
@@ -878,7 +923,7 @@ sub two.roundBlackBox by two.roundBlackBox.cv08;
 sub two.tf by two.tf.cv08;
 sub two.dnom by two.dnom.cv08;
 sub two.numr by two.numr.cv08;
-sub onehalf by onehalf.cv08;
+sub onehalf by onehalf.cv07.cv08;
 sub onehalf.cv07 by onehalf.cv07.cv08;
 sub twoinferior by twoinferior.cv08;
 sub twosuperior by twosuperior.cv08;
