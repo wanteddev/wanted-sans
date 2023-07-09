@@ -1,8 +1,6 @@
 {
 color = 3;
 glyphname = f.dnom;
-kernLeft = zero.dnom;
-kernRight = zero.dnom;
 layers = (
 {
 anchors = (
@@ -12,11 +10,11 @@ pos = (216,698);
 },
 {
 name = Top;
-pos = (216,2);
+pos = (216,0);
 },
 {
 name = bottom;
-pos = (254,2);
+pos = (216,0);
 },
 {
 name = crossbar;
@@ -24,7 +22,7 @@ pos = (150,632);
 },
 {
 name = top;
-pos = (254,1192);
+pos = (254,914);
 }
 );
 layerId = m01;
@@ -82,11 +80,11 @@ pos = (276,744);
 },
 {
 name = Top;
-pos = (276,2);
+pos = (276,0);
 },
 {
 name = bottom;
-pos = (310,2);
+pos = (276,0);
 },
 {
 name = crossbar;
@@ -94,7 +92,7 @@ pos = (156,694);
 },
 {
 name = top;
-pos = (310,1308);
+pos = (310,1038);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

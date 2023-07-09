@@ -7,7 +7,7 @@ layers = (
 background = {
 shapes = (
 {
-ref = bracketright;
+ref = bracketright.case;
 }
 );
 };
@@ -18,7 +18,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (640,1224);
+pos = (640,1432);
 ref = cornerbracketleft;
 }
 );
@@ -28,7 +28,7 @@ width = 640;
 background = {
 shapes = (
 {
-ref = bracketright;
+ref = bracketright.case;
 }
 );
 };
@@ -39,7 +39,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (880,1224);
+pos = (880,1432);
 ref = cornerbracketleft;
 }
 );

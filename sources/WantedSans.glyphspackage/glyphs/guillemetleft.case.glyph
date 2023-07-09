@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = guillemetleft.case;
 kernLeft = less;
 kernRight = X;
@@ -25,5 +24,4 @@ ref = guillemetleft;
 width = 1542;
 }
 );
-note = $CASE;
 }

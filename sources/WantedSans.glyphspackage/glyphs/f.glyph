@@ -11,11 +11,11 @@ pos = (252,0);
 },
 {
 name = bottom;
-pos = (400,0);
+pos = (336,0);
 },
 {
 name = top;
-pos = (400,1950);
+pos = (400,1476);
 }
 );
 layerId = m01;
@@ -41,11 +41,11 @@ pos = (228,0);
 },
 {
 name = bottom;
-pos = (476,0);
+pos = (428,0);
 },
 {
 name = top;
-pos = (476,1950);
+pos = (476,1560);
 }
 );
 background = {

@@ -14,7 +14,7 @@ pos = (216,0);
 ref = macronbelowcomb;
 }
 );
-width = 680;
+width = 696;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,7 +27,7 @@ pos = (308,0);
 ref = macronbelowcomb;
 }
 );
-width = 1080;
+width = 1104;
 }
 );
 }
