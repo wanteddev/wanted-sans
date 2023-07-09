@@ -1028,7 +1028,19 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv15 cv16
+code = "# Bring cv09 cv15 cv16
+sub three by three.cv09;
+sub three.box by three.box.cv09;
+sub three.blackCircled by three.blackCircled.cv09;
+sub three.circled by three.circled.cv09;
+sub three.roundBlackBox by three.roundBlackBox.cv09;
+sub three.tf by three.tf.cv09;
+sub three.dnom by three.dnom.cv09;
+sub three.numr by three.numr.cv09;
+sub threequarters by threequarters.cv09;
+sub threeeighths by threeeighths.cv09;
+sub threeinferior by threeinferior.cv09;
+sub threesuperior by threesuperior.cv09;
 sub two by two.cv15;
 sub two.box by two.box.cv15;
 sub two.blackCircled by two.blackCircled.cv15;
