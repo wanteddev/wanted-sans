@@ -408,6 +408,7 @@ lookup locl_latn_5 {
 
 script hang;
 lookup locl_hang_0 {
+	sub questiondown by questiondown.loclhang;
 	sub periodcentered by periodcentered.loclhang;
 	sub slash by slash.loclhang;
 	sub backslash by backslash.loclhang;
@@ -1498,6 +1499,7 @@ code = "cvParameters { FeatUILabelNameID {
 sub question by question.cv13;
 sub questiondown by questiondown.cv13;
 sub questiondown.case by questiondown.case.cv13;
+sub questiondown.loclhang by questiondown.loclhang.cv13;
 ";
 tag = cv13;
 },
