@@ -23,11 +23,11 @@ alignment = -1;
 piece = {
 Mark = 100;
 };
-pos = (188,838);
+pos = (204,838);
 ref = _smart.dot;
 }
 );
-width = 380;
+width = 396;
 },
 {
 anchors = (
@@ -50,11 +50,11 @@ alignment = -1;
 piece = {
 Mark = 100;
 };
-pos = (262,634);
+pos = (286,634);
 ref = _smart.dot;
 }
 );
-width = 572;
+width = 596;
 },
 {
 anchors = (

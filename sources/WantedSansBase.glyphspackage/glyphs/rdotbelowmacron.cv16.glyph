@@ -14,11 +14,11 @@ pos = (216,0);
 ref = dotbelowcomb;
 },
 {
-pos = (366,0);
+pos = (374,0);
 ref = macroncomb;
 }
 );
-width = 680;
+width = 696;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -31,11 +31,11 @@ pos = (308,0);
 ref = dotbelowcomb;
 },
 {
-pos = (552,0);
+pos = (564,0);
 ref = macroncomb;
 }
 );
-width = 1080;
+width = 1104;
 }
 );
 }
