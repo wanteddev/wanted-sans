@@ -1,0 +1,79 @@
+{
+glyphname = f_f_i.cv20;
+kernLeft = f;
+kernRight = l;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = f.cv20;
+},
+{
+pos = (624,0);
+ref = f.cv20;
+},
+{
+pos = (1424,0);
+ref = i;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+piece = {
+ff = 1;
+};
+ref = _smart.fligature.cv20;
+},
+{
+pos = (624,0);
+ref = _smart.fligature.cv20;
+},
+{
+pos = (1424,0);
+ref = i;
+}
+);
+width = 1856;
+},
+{
+background = {
+shapes = (
+{
+ref = f.cv20;
+},
+{
+pos = (808,0);
+ref = f.cv20;
+},
+{
+pos = (1760,0);
+ref = i;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+ff = 1;
+};
+ref = _smart.fligature.cv20;
+},
+{
+pos = (808,0);
+ref = _smart.fligature.cv20;
+},
+{
+pos = (1760,0);
+ref = i;
+}
+);
+width = 2376;
+}
+);
+metricLeft = f;
+metricRight = i;
+}

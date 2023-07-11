@@ -343,6 +343,8 @@ feature cv16;
 feature cv17;
 feature cv18;
 feature cv19;
+feature cv20;
+feature cv21;
 ";
 tag = aalt;
 },
@@ -1028,7 +1030,7 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv09 cv15 cv16
+code = "# Bring cv09 cv15 cv16 cv20 cv21
 sub three by three.cv09;
 sub three.box by three.box.cv09;
 sub three.blackCircled by three.blackCircled.cv09;
@@ -1064,6 +1066,31 @@ sub r.dnom by r.dnom.cv16;
 sub r.numr by r.numr.cv16;
 sub r.subs by r.subs.cv16;
 sub r.sups by r.sups.cv16;
+sub f by f.cv20;
+sub f.dnom by f.dnom.cv20;
+sub f.numr by f.numr.cv20;
+sub f_f by f_f.cv20;
+sub f_f_i by f_f_i.cv20;
+sub f_f_l by f_f_l.cv20;
+sub fi by fi.cv20;
+sub fl by fl.cv20;
+sub f_f.end by f_f.end.cv20;
+sub f_f.start by f_f.start.cv20;
+sub f_i.start by f_i.start.cv20;
+sub f.subs by f.subs.cv20;
+sub f.sups by f.sups.cv20;
+sub g by g.cv21;
+sub gbreve by gbreve.cv21;
+sub gcaron by gcaron.cv21;
+sub gcircumflex by gcircumflex.cv21;
+sub gcommaaccent by gcommaaccent.cv21;
+sub gdotaccent by gdotaccent.cv21;
+sub gmacron by gmacron.cv21;
+sub gsingle by gsingle.cv21;
+sub g.dnom by g.dnom.cv21;
+sub g.numr by g.numr.cv21;
+sub g.subs by g.subs.cv21;
+sub g.sups by g.sups.cv21;
 # End Bring
 ";
 labels = (
@@ -1729,6 +1756,49 @@ sub Iogonek by Iogonek.cv19;
 sub Itilde by Itilde.cv19;
 ";
 tag = cv19;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic f\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub f by f.cv20;
+sub f.dnom by f.dnom.cv20;
+sub f.numr by f.numr.cv20;
+sub f_f by f_f.cv20;
+sub f_f_i by f_f_i.cv20;
+sub f_f_l by f_f_l.cv20;
+sub fi by fi.cv20;
+sub fl by fl.cv20;
+sub f_f.end by f_f.end.cv20;
+sub f_f.start by f_f.start.cv20;
+sub f_i.start by f_i.start.cv20;
+sub f.subs by f.subs.cv20;
+sub f.sups by f.sups.cv20;
+";
+tag = cv20;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic g\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub g by g.cv21;
+sub gbreve by gbreve.cv21;
+sub gcaron by gcaron.cv21;
+sub gcircumflex by gcircumflex.cv21;
+sub gcommaaccent by gcommaaccent.cv21;
+sub gdotaccent by gdotaccent.cv21;
+sub gmacron by gmacron.cv21;
+sub gsingle by gsingle.cv21;
+sub g.dnom by g.dnom.cv21;
+sub g.numr by g.numr.cv21;
+sub g.subs by g.subs.cv21;
+sub g.sups by g.sups.cv21;
+";
+tag = cv21;
 }
 );
 fontMaster = (
