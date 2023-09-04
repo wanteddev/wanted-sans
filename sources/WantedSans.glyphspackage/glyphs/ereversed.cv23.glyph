@@ -1,0 +1,29 @@
+{
+glyphname = ereversed.cv23;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1188,0);
+ref = e.cv23;
+scale = (-1,1);
+}
+);
+width = 1188;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (1220,0);
+ref = e.cv23;
+scale = (-1,1);
+}
+);
+width = 1220;
+}
+);
+}

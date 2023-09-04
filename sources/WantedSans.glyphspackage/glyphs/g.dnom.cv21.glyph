@@ -1,0 +1,206 @@
+{
+color = 3;
+glyphname = g.dnom.cv21;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (548,2);
+},
+{
+name = bottom;
+pos = (380,-264);
+},
+{
+name = ogonek;
+pos = (680,-264);
+},
+{
+name = top;
+pos = (380,632);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(528,112,l),
+(606,112,l),
+(606,542,l),
+(528,542,l),
+(590,326,l),
+(590,536,o),
+(500,648,o),
+(346,648,cs),
+(172,648,o),
+(48,508,o),
+(48,326,cs),
+(48,144,o),
+(172,4,o),
+(346,4,cs),
+(500,4,o),
+(590,116,o),
+(590,326,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(260,126,o),
+(184,210,o),
+(184,326,cs),
+(184,442,o),
+(260,526,o),
+(368,526,cs),
+(474,526,o),
+(552,444,o),
+(552,326,cs),
+(552,208,o),
+(474,126,o),
+(368,126,cs)
+);
+},
+{
+attr = {
+identifier = ID0x2a740dcc0;
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(550,-264,l),
+(550,-140,l),
+(154,-140,l),
+(154,-264,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(680,632,l),
+(548,632,l),
+(548,484,l),
+(574,316,l),
+(548,128,l),
+(548,-264,l),
+(680,-264,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 61;
+verticalShift = 1;
+weight = -90;
+width = 61;
+};
+};
+width = 758;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (554,2);
+},
+{
+name = bottom;
+pos = (434,-288);
+},
+{
+name = ogonek;
+pos = (794,-288);
+},
+{
+name = top;
+pos = (434,694);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(532,104,l),
+(618,104,l),
+(618,612,l),
+(532,612,l),
+(600,358,l),
+(600,608,o),
+(510,712,o),
+(356,712,cs),
+(170,712,o),
+(38,560,o),
+(38,358,cs),
+(38,156,o),
+(170,4,o),
+(356,4,cs),
+(510,4,o),
+(600,108,o),
+(600,358,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(338,214,o),
+(280,274,o),
+(280,358,cs),
+(280,444,o),
+(338,504,o),
+(420,504,cs),
+(500,504,o),
+(560,444,o),
+(560,358,cs),
+(560,274,o),
+(502,214,o),
+(420,214,cs)
+);
+},
+{
+attr = {
+identifier = ID0x29dee28f0;
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(556,-288,l),
+(556,-84,l),
+(158,-84,l),
+(158,-288,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(794,696,l),
+(554,696,l),
+(554,532,l),
+(584,348,l),
+(554,142,l),
+(554,-288,l),
+(794,-288,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 67;
+verticalShift = 1;
+weight = -356;
+width = 67;
+};
+};
+width = 870;
+}
+);
+note = "# Required RMX Scaler  # Required adjustment non-overshoot height";
+userData = {
+RMXScaler = {
+source = g.cv21;
+};
+};
+}

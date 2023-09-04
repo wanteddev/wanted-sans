@@ -10,11 +10,11 @@ shapes = (
 ref = a.cv03;
 },
 {
-pos = (536,0);
+pos = (552,0);
 ref = ringcomb;
 }
 );
-width = 1084;
+width = 1100;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -23,11 +23,11 @@ shapes = (
 ref = a.cv03;
 },
 {
-pos = (594,0);
+pos = (610,0);
 ref = ringcomb;
 }
 );
-width = 1188;
+width = 1204;
 }
 );
 }
