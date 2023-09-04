@@ -1,0 +1,39 @@
+{
+glyphname = aogonek.cv22;
+kernLeft = o;
+kernRight = n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.cv22;
+},
+{
+piece = {
+Width = 28;
+};
+pos = (848,0);
+ref = _smart.ogonek;
+}
+);
+width = 1152;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = a.cv22;
+},
+{
+piece = {
+Width = 24;
+};
+pos = (808,0);
+ref = _smart.ogonek;
+}
+);
+width = 1316;
+}
+);
+}

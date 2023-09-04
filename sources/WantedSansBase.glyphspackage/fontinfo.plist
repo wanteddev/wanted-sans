@@ -345,6 +345,8 @@ feature cv18;
 feature cv19;
 feature cv20;
 feature cv21;
+feature cv22;
+feature cv23;
 ";
 tag = aalt;
 },
@@ -1030,7 +1032,7 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv09 cv15 cv16 cv20 cv21
+code = "# Bring cv09 cv15 cv16 cv20 cv21 cv22 cv23
 sub three by three.cv09;
 sub three.box by three.box.cv09;
 sub three.blackCircled by three.blackCircled.cv09;
@@ -1091,6 +1093,49 @@ sub g.dnom by g.dnom.cv21;
 sub g.numr by g.numr.cv21;
 sub g.subs by g.subs.cv21;
 sub g.sups by g.sups.cv21;
+sub a by a.cv22;
+sub aacute by aacute.cv22;
+sub abreve by abreve.cv22;
+sub abrevedotbelow by abrevedotbelow.cv22;
+sub acaron by acaron.cv22;
+sub acircumflex by acircumflex.cv22;
+sub acircumflexdotbelow by acircumflexdotbelow.cv22;
+sub adblgrave by adblgrave.cv22;
+sub adieresis by adieresis.cv22;
+sub adotaccent by adotaccent.cv22;
+sub adotbelow by adotbelow.cv22;
+sub agrave by agrave.cv22;
+sub amacron by amacron.cv22;
+sub aogonek by aogonek.cv22;
+sub aring by aring.cv22;
+sub atilde by atilde.cv22;
+sub aturned by aturned.cv22;
+sub aacute.loclPLK by aacute.loclPLK.cv22;
+sub a.dnom by a.dnom.cv22;
+sub a.numr by a.numr.cv22;
+sub a.subs by a.subs.cv22;
+sub a.sups by a.sups.cv22;
+sub ordfeminine by ordfeminine.cv22;
+sub e by e.cv23;
+sub eacute by eacute.cv23;
+sub ecaron by ecaron.cv23;
+sub ecedilla by ecedilla.cv23;
+sub ecircumflex by ecircumflex.cv23;
+sub ecircumflexdotbelow by ecircumflexdotbelow.cv23;
+sub edieresis by edieresis.cv23;
+sub edotaccent by edotaccent.cv23;
+sub edotbelow by edotbelow.cv23;
+sub egrave by egrave.cv23;
+sub emacron by emacron.cv23;
+sub eogonek by eogonek.cv23;
+sub ereversed by ereversed.cv23;
+sub etilde by etilde.cv23;
+sub eturned by eturned.cv23;
+sub schwa by schwa.cv23;
+sub e.dnom by e.dnom.cv23;
+sub e.numr by e.numr.cv23;
+sub e.subs by e.subs.cv23;
+sub e.sups by e.sups.cv23;
 # End Bring
 ";
 labels = (
@@ -1799,6 +1844,67 @@ sub g.subs by g.subs.cv21;
 sub g.sups by g.sups.cv21;
 ";
 tag = cv21;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic a\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub a by a.cv22;
+sub aacute by aacute.cv22;
+sub abreve by abreve.cv22;
+sub abrevedotbelow by abrevedotbelow.cv22;
+sub acaron by acaron.cv22;
+sub acircumflex by acircumflex.cv22;
+sub acircumflexdotbelow by acircumflexdotbelow.cv22;
+sub adblgrave by adblgrave.cv22;
+sub adieresis by adieresis.cv22;
+sub adotaccent by adotaccent.cv22;
+sub adotbelow by adotbelow.cv22;
+sub agrave by agrave.cv22;
+sub amacron by amacron.cv22;
+sub aogonek by aogonek.cv22;
+sub aring by aring.cv22;
+sub atilde by atilde.cv22;
+sub aturned by aturned.cv22;
+sub aacute.loclPLK by aacute.loclPLK.cv22;
+sub a.dnom by a.dnom.cv22;
+sub a.numr by a.numr.cv22;
+sub a.subs by a.subs.cv22;
+sub a.sups by a.sups.cv22;
+sub ordfeminine by ordfeminine.cv22;
+";
+tag = cv22;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic e\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub e by e.cv23;
+sub eacute by eacute.cv23;
+sub ecaron by ecaron.cv23;
+sub ecedilla by ecedilla.cv23;
+sub ecircumflex by ecircumflex.cv23;
+sub ecircumflexdotbelow by ecircumflexdotbelow.cv23;
+sub edieresis by edieresis.cv23;
+sub edotaccent by edotaccent.cv23;
+sub edotbelow by edotbelow.cv23;
+sub egrave by egrave.cv23;
+sub emacron by emacron.cv23;
+sub eogonek by eogonek.cv23;
+sub ereversed by ereversed.cv23;
+sub etilde by etilde.cv23;
+sub eturned by eturned.cv23;
+sub schwa by schwa.cv23;
+sub e.dnom by e.dnom.cv23;
+sub e.numr by e.numr.cv23;
+sub e.subs by e.subs.cv23;
+sub e.sups by e.sups.cv23;
+";
+tag = cv23;
 }
 );
 fontMaster = (

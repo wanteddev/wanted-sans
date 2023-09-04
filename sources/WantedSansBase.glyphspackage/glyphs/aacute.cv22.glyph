@@ -1,0 +1,33 @@
+{
+glyphname = aacute.cv22;
+kernLeft = o;
+kernRight = n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.cv22;
+},
+{
+pos = (560,0);
+ref = acutecomb;
+}
+);
+width = 1152;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = a.cv22;
+},
+{
+pos = (672,0);
+ref = acutecomb;
+}
+);
+width = 1316;
+}
+);
+}
