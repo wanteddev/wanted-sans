@@ -1171,7 +1171,7 @@ code = "# Customize sets
 
 sub @SS06_L by @SS06_R;
 
-# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19
+# Bring cv03 cv05 cv09 cv11 cv12 cv17 cv18 cv19
 sub a by a.cv03;
 sub aacute by aacute.cv03;
 sub abreve by abreve.cv03;
@@ -1234,6 +1234,17 @@ sub sixinferior by sixinferior.cv11;
 sub nineinferior by nineinferior.cv11;
 sub sixsuperior by sixsuperior.cv11;
 sub ninesuperior by ninesuperior.cv11;
+sub seven by seven.cv12;
+sub seven.box by seven.box.cv12;
+sub seven.blackCircled by seven.blackCircled.cv12;
+sub seven.circled by seven.circled.cv12;
+sub seven.roundBlackBox by seven.roundBlackBox.cv12;
+sub seven.tf by seven.tf.cv12;
+sub seven.dnom by seven.dnom.cv12;
+sub seven.numr by seven.numr.cv12;
+sub seveneighths by seveneighths.cv12;
+sub seveninferior by seveninferior.cv12;
+sub sevensuperior by sevensuperior.cv12;
 sub l by l.cv17;
 sub lacute by lacute.cv17;
 sub lcaron by lcaron.cv17;
