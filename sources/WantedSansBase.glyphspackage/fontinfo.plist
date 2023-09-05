@@ -1032,7 +1032,7 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv09 cv15 cv16 cv20 cv21 cv22 cv23
+code = "# Bring cv09 cv13 cv15 cv16 cv20 cv21 cv22 cv23
 sub three by three.cv09;
 sub three.box by three.box.cv09;
 sub three.blackCircled by three.blackCircled.cv09;
@@ -1045,6 +1045,10 @@ sub threequarters by threequarters.cv09;
 sub threeeighths by threeeighths.cv09;
 sub threeinferior by threeinferior.cv09;
 sub threesuperior by threesuperior.cv09;
+sub question by question.cv13;
+sub questiondown by questiondown.cv13;
+sub questiondown.case by questiondown.case.cv13;
+sub questiondown.loclhang by questiondown.loclhang.cv13;
 sub two by two.cv15;
 sub two.box by two.box.cv15;
 sub two.blackCircled by two.blackCircled.cv15;
