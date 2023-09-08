@@ -1,0 +1,31 @@
+{
+glyphname = iconSquareFill.medium;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-85);
+ref = iconSquareFill.small;
+scale = (1.25,1.25);
+}
+);
+width = 1200;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,-85);
+ref = iconSquareFill.small;
+scale = (1.25,1.25);
+}
+);
+width = 1200;
+}
+);
+note = "$SYMBOL_MEDIUM $SYMBOL_FILL $SYMBOL_SQUARE";
+unicode = 1048723;
+}

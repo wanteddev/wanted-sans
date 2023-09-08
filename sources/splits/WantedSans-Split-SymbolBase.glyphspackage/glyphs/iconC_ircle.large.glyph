@@ -1,0 +1,30 @@
+{
+glyphname = iconCircle.large;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-170);
+ref = iconCircle.small;
+scale = (1.5,1.5);
+}
+);
+width = 1440;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,-170);
+ref = iconCircle.small;
+scale = (1.5,1.5);
+}
+);
+width = 1440;
+}
+);
+note = "$SYMBOL_LARGE $SYMBOL_OUTLINE $SYMBOL_CIRCLE";
+}

@@ -1,0 +1,53 @@
+{
+glyphname = iconCircleFill.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(698,-56,o),
+(876,122,o),
+(876,340,cs),
+(876,558,o),
+(698,736,o),
+(480,736,cs),
+(262,736,o),
+(84,558,o),
+(84,340,cs),
+(84,122,o),
+(262,-56,o),
+(480,-56,cs)
+);
+}
+);
+width = 960;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(716,-88,o),
+(908,104,o),
+(908,340,cs),
+(908,576,o),
+(716,768,o),
+(480,768,cs),
+(244,768,o),
+(52,576,o),
+(52,340,cs),
+(52,104,o),
+(244,-88,o),
+(480,-88,cs)
+);
+}
+);
+width = 960;
+}
+);
+metricWidth = baseSymbol;
+note = "$SYMBOL_SMALL $SYMBOL_FILL $SYMBOL_CIRCLE";
+}
