@@ -104,7 +104,8 @@ width = 50;
 width = 656;
 }
 );
-note = "# Required RMX Scaler \012# Required Adjustment overlap from Regular";
+note = "# Required RMX Scaler 
+# Required Adjustment overlap from Regular";
 userData = {
 RMXScaler = {
 source = two.cv15;

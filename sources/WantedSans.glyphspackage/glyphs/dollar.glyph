@@ -89,11 +89,11 @@ piece = {
 Open = 0;
 Thin = 1;
 };
-pos = (654,0);
+pos = (624,0);
 ref = _smart.currencystem;
 }
 );
-width = 1276;
+width = 1212;
 }
 );
 unicode = 36;

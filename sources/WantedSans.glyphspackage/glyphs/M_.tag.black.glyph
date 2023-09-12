@@ -182,7 +182,9 @@ width = 45;
 width = 890;
 }
 );
-note = "# Required RMX Scaler\012\012# Required Adjustment overlap from Black";
+note = "# Required RMX Scaler
+
+# Required Adjustment overlap from Black";
 userData = {
 RMXScaler = {
 source = M;

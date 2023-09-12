@@ -244,5 +244,7 @@ nodes = (
 width = 1178;
 }
 );
-note = "# Required RMX Scaler\012\012# Required Swap layer to Base before running RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required Swap layer to Base before running RMX Scaler";
 }

@@ -190,7 +190,9 @@ width = 45;
 width = 738;
 }
 );
-note = "# Required RMX Scaler\012\012# Required detach each alternates for .bold glyph";
+note = "# Required RMX Scaler
+
+# Required detach each alternates for .bold glyph";
 unicode = 917585;
 userData = {
 RMXScaler = {

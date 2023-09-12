@@ -381,7 +381,9 @@ width = 50;
 width = 834;
 }
 );
-note = "# Required RMX Scaler\012\012# Required detach each alternates for .bold glyph";
+note = "# Required RMX Scaler
+
+# Required detach each alternates for .bold glyph";
 userData = {
 RMXScaler = {
 source = Q;

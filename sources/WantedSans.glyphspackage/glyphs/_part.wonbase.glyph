@@ -572,7 +572,9 @@ width = 85;
 width = 1974;
 }
 );
-note = "# Required RMX Scaler\012\012# Required Swap layer from W to Won before running RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required Swap layer from W to Won before running RMX Scaler";
 userData = {
 RMXScaler = {
 source = W;

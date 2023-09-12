@@ -26,5 +26,6 @@ scale = (1.5,1.5);
 width = 1440;
 }
 );
-note = "$SYMBOL_LARGE\012$SYMBOL_OUTLINE $SYMBOL_SQUARE";
+note = "$SYMBOL_LARGE
+$SYMBOL_OUTLINE $SYMBOL_SQUARE";
 }

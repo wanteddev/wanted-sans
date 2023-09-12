@@ -43,5 +43,7 @@ ref = Q.tag.black.bold;
 width = 1712;
 }
 );
-note = "$SYMBOL_FILL $SYMBOL_SQUARE\012\012# Detached each alternates for .bold glyph";
+note = "$SYMBOL_FILL $SYMBOL_SQUARE
+
+# Detached each alternates for .bold glyph";
 }
