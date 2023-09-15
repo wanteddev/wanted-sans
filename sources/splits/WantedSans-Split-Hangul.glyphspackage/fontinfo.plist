@@ -395,6 +395,33 @@ name = Black;
 weightClass = 900;
 },
 {
+axesValues = (
+1012.5
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+11,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;
+};
+name = Super;
+weightClass = 900;
+},
+{
 customParameters = (
 {
 name = panose;
