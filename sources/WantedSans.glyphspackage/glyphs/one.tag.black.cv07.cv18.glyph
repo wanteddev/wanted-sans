@@ -9,117 +9,117 @@ layers = (
 anchors = (
 {
 name = _symbol;
-pos = (302,724);
+pos = (312,724);
 },
 {
 name = serif;
-pos = (332,362);
+pos = (344,344);
 }
 );
 layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x161488830;
+identifier = ID0x38f4935d0;
 strokePos = 1;
 };
 closed = 1;
 nodes = (
-(568,362,l),
-(568,488,l),
-(72,488,l),
-(72,362,l)
+(588,344,l),
+(588,468,l),
+(74,468,l),
+(74,344,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(264,932,l),
-(254,930,l),
-(264,930,l),
-(264,932,l),
-(264,1086,l),
-(88,964,l),
-(88,810,l)
+(276,952,l),
+(266,950,l),
+(276,950,l),
+(276,952,l),
+(276,1104,l),
+(94,976,l),
+(94,824,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(402,362,l),
-(402,1086,l),
-(264,1086,l),
-(264,362,l)
+(412,344,l),
+(412,1104,l),
+(276,1104,l),
+(276,344,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -90;
-width = 50;
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
 };
 };
-width = 608;
+width = 632;
 },
 {
 anchors = (
 {
 name = _symbol;
-pos = (318,724);
+pos = (350,724);
 },
 {
 name = serif;
-pos = (354,362);
+pos = (390,326);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x161488fe0;
+identifier = ID0x39cdbcab0;
 strokePos = "1";
 };
 closed = 1;
 nodes = (
-(606,362,l),
-(606,538,l),
-(70,538,l),
-(70,362,l)
+(666,326,l),
+(666,516,l),
+(78,516,l),
+(78,326,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(254,872,l),
-(244,870,l),
-(254,870,l),
-(254,872,l),
-(254,1086,l),
-(78,966,l),
-(78,752,l)
+(282,892,l),
+(270,890,l),
+(282,890,l),
+(282,892,l),
+(282,1122,l),
+(88,990,l),
+(88,758,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(454,362,l),
-(454,1086,l),
-(254,1086,l),
-(254,362,l)
+(496,326,l),
+(496,1122,l),
+(282,1122,l),
+(282,326,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -460;
-width = 50;
+height = 55;
+verticalShift = 326;
+weight = -480;
+width = 55;
 };
 };
-width = 636;
+width = 700;
 }
 );
 note = "# Required RMX Scaler";

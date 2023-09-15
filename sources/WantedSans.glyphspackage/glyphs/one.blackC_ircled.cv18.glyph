@@ -15,11 +15,11 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (582,0);
+pos = (624,0);
 ref = one.tag.black.cv18;
 }
 );
-width = 1764;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -33,11 +33,11 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (590,0);
+pos = (638,0);
 ref = one.tag.black.cv18;
 }
 );
-width = 1812;
+width = 1976;
 }
 );
 metricLeft = whiteCircle;

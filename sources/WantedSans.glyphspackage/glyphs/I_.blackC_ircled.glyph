@@ -15,11 +15,11 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (750,0);
+pos = (798,0);
 ref = I.tag.black;
 }
 );
-width = 1764;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -33,11 +33,11 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (756,0);
+pos = (822,0);
 ref = I.tag.black;
 }
 );
-width = 1812;
+width = 1976;
 }
 );
 note = "$SYMBOL_FILL
