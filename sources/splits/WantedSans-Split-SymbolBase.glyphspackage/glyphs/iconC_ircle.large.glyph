@@ -1,30 +1,112 @@
 {
+color = 3;
 glyphname = iconCircle.large;
 layers = (
 {
 layerId = m01;
+metricWidth = "=baseSymbol.large";
 shapes = (
 {
-alignment = -1;
-pos = (0,-170);
-ref = iconCircle.small;
-scale = (1.5,1.5);
+closed = 1;
+nodes = (
+(1040,-241,o),
+(1301,21,o),
+(1301,340,cs),
+(1301,659,o),
+(1040,921,o),
+(720,921,cs),
+(401,921,o),
+(139,660,o),
+(139,340,cs),
+(139,20,o),
+(401,-241,o),
+(720,-241,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(447,-159,o),
+(221,66,o),
+(221,340,cs),
+(221,614,o),
+(447,839,o),
+(720,839,cs),
+(994,839,o),
+(1219,613,o),
+(1219,340,cs),
+(1219,67,o),
+(994,-159,o),
+(720,-159,cs)
+);
 }
 );
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
 width = 1440;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=baseSymbol.large";
 shapes = (
 {
-alignment = -1;
-pos = (0,-170);
-ref = iconCircle.small;
-scale = (1.5,1.5);
+closed = 1;
+nodes = (
+(1058,-273,o),
+(1333,3,o),
+(1333,340,cs),
+(1333,677,o),
+(1058,953,o),
+(720,953,cs),
+(383,953,o),
+(107,678,o),
+(107,340,cs),
+(107,2,o),
+(383,-273,o),
+(720,-273,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(463,-127,o),
+(253,82,o),
+(253,340,cs),
+(253,598,o),
+(463,807,o),
+(720,807,cs),
+(978,807,o),
+(1187,597,o),
+(1187,340,cs),
+(1187,83,o),
+(978,-127,o),
+(720,-127,cs)
+);
 }
 );
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
 width = 1440;
 }
 );
-note = "$SYMBOL_LARGE $SYMBOL_OUTLINE $SYMBOL_CIRCLE";
+note = "# Required RMX Scaler
+
+$SYMBOL_LARGE
+$SYMBOL_OUTLINE
+$SYMBOL_CIRCLE";
+userData = {
+RMXScaler = {
+source = iconCircle.small;
+};
+};
 }

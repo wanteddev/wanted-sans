@@ -436,5 +436,7 @@ width = 960;
 }
 );
 metricWidth = baseSymbol;
-note = "$SYMBOL_SMALL $SYMBOL_OUTLINE $SYMBOL_SQUARE";
+note = "$SYMBOL_SMALL
+$SYMBOL_OUTLINE
+$SYMBOL_SQUARE";
 }

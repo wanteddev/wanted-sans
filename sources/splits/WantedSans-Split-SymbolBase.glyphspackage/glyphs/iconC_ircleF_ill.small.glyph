@@ -49,5 +49,7 @@ width = 960;
 }
 );
 metricWidth = baseSymbol;
-note = "$SYMBOL_SMALL $SYMBOL_FILL $SYMBOL_CIRCLE";
+note = "$SYMBOL_SMALL
+$SYMBOL_FILL
+$SYMBOL_CIRCLE";
 }

@@ -1,30 +1,78 @@
 {
+color = 3;
 glyphname = iconCircleFill.large;
 layers = (
 {
 layerId = m01;
+metricWidth = "=baseSymbol.large";
 shapes = (
 {
-alignment = -1;
-pos = (0,-170);
-ref = iconCircleFill.small;
-scale = (1.5,1.5);
+closed = 1;
+nodes = (
+(1040,-241,o),
+(1301,21,o),
+(1301,340,cs),
+(1301,659,o),
+(1040,921,o),
+(720,921,cs),
+(401,921,o),
+(139,660,o),
+(139,340,cs),
+(139,20,o),
+(401,-241,o),
+(720,-241,cs)
+);
 }
 );
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
 width = 1440;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=baseSymbol.large";
 shapes = (
 {
-alignment = -1;
-pos = (0,-170);
-ref = iconCircleFill.small;
-scale = (1.5,1.5);
+closed = 1;
+nodes = (
+(1058,-273,o),
+(1333,3,o),
+(1333,340,cs),
+(1333,677,o),
+(1058,953,o),
+(720,953,cs),
+(383,953,o),
+(107,678,o),
+(107,340,cs),
+(107,2,o),
+(383,-273,o),
+(720,-273,cs)
+);
 }
 );
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
 width = 1440;
 }
 );
-note = "$SYMBOL_LARGE $SYMBOL_FILL $SYMBOL_CIRCLE";
+note = "# Required RMX Scaler
+
+$SYMBOL_LARGE
+$SYMBOL_FILL
+$SYMBOL_CIRCLE";
+userData = {
+RMXScaler = {
+source = iconCircleFill.small;
+};
+};
 }
