@@ -1,4 +1,5 @@
 {
+category = "SF-Symbol";
 color = 3;
 glyphname = iconArrowUpDown.large;
 layers = (
@@ -124,6 +125,7 @@ width = 1440;
 note = "# Required RMX Scaler
 
 $SYMBOL_LARGE";
+subCategory = Other;
 userData = {
 RMXScaler = {
 source = iconArrowUpDown.small;

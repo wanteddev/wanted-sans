@@ -1,4 +1,5 @@
 {
+category = "SF-Symbol";
 glyphname = iconSquare.small;
 layers = (
 {
@@ -439,4 +440,5 @@ metricWidth = baseSymbol;
 note = "$SYMBOL_SMALL
 $SYMBOL_OUTLINE
 $SYMBOL_SQUARE";
+subCategory = Other;
 }
