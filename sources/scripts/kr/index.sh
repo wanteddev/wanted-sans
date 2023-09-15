@@ -20,9 +20,6 @@ cp -R "$split_path/glyphs/" "$target_path/glyphs/"
 echo "Replacing Font Info..."
 python3 "$script_dir/fontinfo-replace.py"
 
-echo "Replacing Glyph Axis..."
-python3 "$script_dir/axis-replace.py"
-
 echo "Merging Order..."
 python3 "$script_dir/order-merge.py"
 

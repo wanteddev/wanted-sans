@@ -833,7 +833,7 @@ Q.box.bold
 Q.circled.bold
 ];
 
-condition 601 < wght;
+condition 646 < wght;
 sub @RLIG_L by @RLIG_R;
 
 #endif
@@ -2026,7 +2026,7 @@ GSOffsetVertical = -20.5;
 },
 {
 axesValues = (
-900
+1012.5
 );
 customParameters = (
 {
@@ -2171,8 +2171,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.2;
-m01 = 0.8;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16327;
+m01 = 0.83673;
 };
 name = Medium;
 weightClass = 500;
@@ -2199,8 +2199,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4;
-m01 = 0.6;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.32653;
+m01 = 0.67347;
 };
 name = SemiBold;
 weightClass = 600;
@@ -2227,8 +2227,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.6;
-m01 = 0.4;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4898;
+m01 = 0.5102;
 };
 isBold = 1;
 name = Bold;
@@ -2256,8 +2256,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;
-m01 = 0.2;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.65306;
+m01 = 0.34694;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -2284,9 +2284,37 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.81633;
+m01 = 0.18367;
 };
 name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+1012.5
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+11,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;
+};
+name = Super;
 weightClass = 900;
 },
 {
