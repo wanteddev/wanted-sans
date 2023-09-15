@@ -7,10 +7,44 @@ layers = (
 anchors = (
 {
 name = symbol;
-pos = (884,724);
+pos = (936,724);
 }
 );
 layerId = m01;
+shapes = (
+{
+pos = (-88,0);
+ref = iconCircle.small;
+}
+);
+width = 1874;
+},
+{
+anchors = (
+{
+name = symbol;
+pos = (988,724);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (-36,0);
+ref = iconCircle.small;
+}
+);
+width = 1976;
+},
+{
+anchors = (
+{
+name = symbol;
+pos = (884,724);
+}
+);
+associatedMasterId = m01;
+layerId = "05CF0185-3A08-4312-B460-E52229F7FECD";
+name = "Sep 15, 23 18:51";
 shapes = (
 {
 closed = 1;
@@ -56,7 +90,9 @@ name = symbol;
 pos = (908,724);
 }
 );
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "64C20E98-70CD-4EA6-827A-5082582B56A2";
+name = "Sep 15, 23 18:51";
 shapes = (
 {
 closed = 1;

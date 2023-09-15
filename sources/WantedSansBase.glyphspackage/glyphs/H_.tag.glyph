@@ -9,31 +9,31 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (64,362);
+pos = (68,344);
 },
 {
 name = "#exit";
-pos = (674,362);
+pos = (700,344);
 },
 {
 name = _symbol;
-pos = (370,724);
+pos = (384,724);
 },
 {
 name = bottom;
-pos = (370,362);
+pos = (384,344);
 },
 {
 name = center;
-pos = (370,724);
+pos = (384,724);
 },
 {
 name = top;
-pos = (370,1086);
+pos = (384,1104);
 },
 {
 name = topleft;
-pos = (64,1086);
+pos = (68,1104);
 }
 );
 layerId = m01;
@@ -41,70 +41,70 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(204,362,l),
-(204,1086,l),
-(64,1086,l),
-(64,362,l)
+(206,344,l),
+(206,1104,l),
+(68,1104,l),
+(68,344,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(554,676,l),
-(554,808,l),
-(184,808,l),
-(184,676,l)
+(582,678,l),
+(582,808,l),
+(186,808,l),
+(186,678,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(674,362,l),
-(674,1086,l),
-(534,1086,l),
-(534,362,l)
+(700,344,l),
+(700,1104,l),
+(562,1104,l),
+(562,344,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -90;
-width = 50;
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
 };
 };
-width = 738;
+width = 768;
 },
 {
 anchors = (
 {
 name = "#entry";
-pos = (50,398);
+pos = (56,362);
 },
 {
 name = "#exit";
-pos = (674,398);
+pos = (742,362);
 },
 {
 name = _symbol;
-pos = (362,724);
+pos = (398,724);
 },
 {
 name = bottom;
-pos = (362,398);
+pos = (398,362);
 },
 {
 name = center;
-pos = (362,724);
+pos = (398,724);
 },
 {
 name = top;
-pos = (362,1050);
+pos = (398,1086);
 },
 {
 name = topleft;
-pos = (50,1050);
+pos = (56,1086);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -112,40 +112,40 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(254,398,l),
-(254,1050,l),
-(50,1050,l),
-(50,398,l)
+(274,362,l),
+(274,1086,l),
+(56,1086,l),
+(56,362,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(488,644,l),
-(488,836,l),
-(236,836,l),
-(236,644,l)
+(544,640,l),
+(544,844,l),
+(254,844,l),
+(254,640,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(674,398,l),
-(674,1050,l),
-(470,1050,l),
-(470,398,l)
+(742,362,l),
+(742,1086,l),
+(524,1086,l),
+(524,362,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 45;
-verticalShift = 398;
-weight = -460;
-width = 45;
+height = 50;
+verticalShift = 362;
+weight = -480;
+width = 50;
 };
 };
-width = 724;
+width = 798;
 }
 );
 note = "# Required RMX Scaler";
