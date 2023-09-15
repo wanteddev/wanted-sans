@@ -26,7 +26,7 @@ value = "Adobe-Identity-0";
 }
 );
 date = "2023-07-03 06:50:20 +0000";
-familyName = "Wanted Sans Split Hangul";
+familyName = "Wanted Sans Split Hangeul";
 featurePrefixes = (
 {
 automatic = 1;
@@ -479,7 +479,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Kil Hyung-jin; Hangul glyphs from Noto Sans CJK(Source Han Sans) by Jang Soo-young and Kang Joo-yeon, Sandoll Communications;";
+value = "Kil Hyung-jin; Hangeul glyphs from Noto Sans CJK(Source Han Sans) by Jang Soo-young and Kang Joo-yeon, Sandoll Communications;";
 }
 );
 },

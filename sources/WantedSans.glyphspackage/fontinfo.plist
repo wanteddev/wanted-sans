@@ -37,13 +37,13 @@ name = Numeral;
 {
 code = "$[script == \"hangul\"]
 ";
-name = Hangul;
+name = Hangeul;
 },
 {
 code = "@Uppercase
 @Numeral
 @Uniquecase
-@Hangul";
+@Hangeul";
 name = Case;
 },
 {
@@ -190,7 +190,7 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 } LOOKUP_CALT_2;
 
 lookup LOOKUP_CALT_3 {
-# Align ellipsis with Hangul
+# Align ellipsis with Hangeul
 
 @ELLIPSIS_L = [
 $[colorIndex == 0 and note contains \"$3_CALT\"]
@@ -221,22 +221,22 @@ ignore sub @ELLIPSIS_L' @ELLIPSIS_L' @ELLIPSIS_L';
 ignore sub @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
 
 # ...K K... K.......
-sub @Hangul @ELLIPSIS_L' by @ELLIPSIS_R;
-sub @Hangul @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
-sub @ELLIPSIS_L' @Hangul by @ELLIPSIS_R;
-sub @ELLIPSIS_L' @ELLIPSIS_L @Hangul by @ELLIPSIS_R;
+sub @Hangeul @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangeul @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Hangeul by @ELLIPSIS_R;
 
 # ...... K ......
-sub @ELLIPSIS_L' @Separator @Hangul by @ELLIPSIS_R;
-sub @ELLIPSIS_L' @ELLIPSIS_L @Separator @Hangul by @ELLIPSIS_R;
-sub @Hangul @Separator @ELLIPSIS_L' by @ELLIPSIS_R;
-sub @Hangul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @Separator @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Separator @Hangeul by @ELLIPSIS_R;
+sub @Hangeul @Separator @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangeul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
 
 # .... .......
-sub @ELLIPSIS_L' period @Hangul by @ELLIPSIS_R;
-sub @ELLIPSIS_L' period @Separator @Hangul by @ELLIPSIS_R;
-sub @ELLIPSIS_L' @ELLIPSIS_L period @Hangul by @ELLIPSIS_R;
-sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Hangul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' period @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' period @Separator @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Hangeul by @ELLIPSIS_R;
 
 } LOOKUP_CALT_3;
 ";
@@ -272,7 +272,7 @@ name = LOOKUP_LIGA;
 },
 {
 code = "lookup LOOKUP_SS05_1 {
-# Replace glyphs to align vertical with Hangul
+# Replace glyphs to align vertical with Hangeul
 # Bring case
 sub colon by colon.case;
 sub questiondown by questiondown.case;
@@ -310,7 +310,7 @@ sub ogonekcomb by ogonekcomb.case;
 } LOOKUP_SS05_1;
 
 lookup LOOKUP_SS05_2 {
-# Align ellipsis with Hangul
+# Align ellipsis with Hangeul
 
 # Cut three more ellipsis glyphs
 ignore sub period @ELLIPSIS_L';
@@ -827,7 +827,7 @@ lookup LOOKUP_CALT_3;
 tag = calt;
 },
 {
-code = "# Duplicated calt due to the web's inability to support Hangul characters in calt
+code = "# Duplicated calt due to the web's inability to support Hangeul characters in calt
 lookup LOOKUP_CALT_1;
 lookup LOOKUP_CALT_3;
 ";
