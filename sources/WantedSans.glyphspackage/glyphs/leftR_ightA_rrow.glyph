@@ -1,0 +1,29 @@
+{
+glyphname = leftRightArrow;
+layers = (
+{
+layerId = m01;
+metricRight = "=|";
+shapes = (
+{
+pos = (-130,0);
+ref = iconArrowLeftRight.small;
+}
+);
+width = 1790;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+shapes = (
+{
+pos = (-78,0);
+ref = iconArrowLeftRight.small;
+}
+);
+width = 1892;
+}
+);
+metricLeft = whiteCircle;
+unicode = 8596;
+}
