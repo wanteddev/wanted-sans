@@ -544,6 +544,18 @@ value = m01;
 );
 name = Regular;
 type = variable;
+},
+{
+axesValues = (
+1012.5
+);
+exports = 0;
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1.225;
+m01 = -0.225;
+};
+name = Super;
+weightClass = 900;
 }
 );
 kerningLTR = {
