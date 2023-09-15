@@ -34,5 +34,6 @@ ref = J.tag.cv05;
 width = 1812;
 }
 );
-note = "$SYMBOL_OUTLINE $SYMBOL_CIRCLE";
+note = "$SYMBOL_OUTLINE
+$SYMBOL_CIRCLE";
 }

@@ -40,5 +40,6 @@ ref = J.tag.black.cv05;
 width = 1784;
 }
 );
-note = "$SYMBOL_FILL $SYMBOL_SQUARE";
+note = "$SYMBOL_FILL
+$SYMBOL_SQUARE";
 }

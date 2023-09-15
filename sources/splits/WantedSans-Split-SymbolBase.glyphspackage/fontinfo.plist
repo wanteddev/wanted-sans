@@ -2362,7 +2362,8 @@ key = trademarks;
 values = (
 {
 language = dflt;
-value = "Wanted Sans Symbols is a trademark of Wantedlab, Inc. Wanted Logo is a trademark of Wantedlab, Inc.";
+value = "Wanted Sans Symbols is a trademark of Wantedlab, Inc.
+Wanted Logo is a trademark of Wantedlab, Inc.";
 }
 );
 },

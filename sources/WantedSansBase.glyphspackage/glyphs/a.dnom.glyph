@@ -180,9 +180,13 @@ width = 870;
 }
 );
 metricLeft = o.dnom;
-note = "# Required RMX Scaler  # Regular
+note = "# Required RMX Scaler
+
+# Regular
 .numr:728, superior:936, inferior:-208
-+ Required adjustment non-overshoot height  # Black
++ Required adjustment non-overshoot height
+
+# Black
 .numr:656, superior:864, inferior:-208
 + Required adjustment non-overshoot height";
 userData = {

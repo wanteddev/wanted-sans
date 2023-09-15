@@ -96,7 +96,9 @@ width = 802;
 );
 metricLeft = four.dnom;
 metricRight = four.dnom;
-note = "# Required RMX Scaler  # Required adjustment non-overshoot height";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = four.cv10;

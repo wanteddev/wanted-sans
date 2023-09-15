@@ -34,6 +34,7 @@ ref = C.tag;
 width = 1784;
 }
 );
-note = "$SYMBOL_OUTLINE $SYMBOL_SQUARE";
+note = "$SYMBOL_OUTLINE
+$SYMBOL_SQUARE";
 unicode = 127282;
 }

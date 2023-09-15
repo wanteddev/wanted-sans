@@ -176,7 +176,9 @@ visible = 1;
 width = 640;
 }
 );
-note = "# Required RMX Scaler  # Required adjustment top weight";
+note = "# Required RMX Scaler
+
+# Required adjustment top weight";
 userData = {
 RMXScaler = {
 source = cornerbracketleft;

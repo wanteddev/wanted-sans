@@ -110,7 +110,9 @@ width = 732;
 );
 metricLeft = two.dnom;
 metricRight = two.dnom;
-note = "# Required RMX Scaler  # Required adjustment non-overshoot height";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = two.cv08;

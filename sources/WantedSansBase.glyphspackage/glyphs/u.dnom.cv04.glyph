@@ -115,7 +115,9 @@ width = 67;
 width = 846;
 }
 );
-note = "# Required RMX Scaler  # Required adjustment non-overshoot height";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = u.cv04;
