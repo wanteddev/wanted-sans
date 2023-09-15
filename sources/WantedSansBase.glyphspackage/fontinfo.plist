@@ -72,6 +72,21 @@ code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"]
 name = EXTRA_STEM_LOWERCASE_R;
 },
 {
+code = "$[note contains \"$SYMBOL_SMALL\"]
+";
+name = SYMBOL_SMALL;
+},
+{
+code = "$[note contains \"$SYMBOL_MEDIUM\"]
+";
+name = SYMBOL_MEDIUM;
+},
+{
+code = "$[note contains \"$SYMBOL_LARGE\"]
+";
+name = SYMBOL_LARGE;
+},
+{
 code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_CIRCLE\"]
 ";
 name = SYMBOL_FILL_CIRCLE;
@@ -320,10 +335,13 @@ feature ss01;
 feature ss02;
 feature ss03;
 feature ss06;
+feature ss10;
 feature ss11;
 feature ss12;
 feature ss13;
 feature ss14;
+feature ss15;
+feature ss16;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -1325,6 +1343,18 @@ value = "High legibility";
 tag = ss06;
 },
 {
+code = "sub @SYMBOL_SMALL by @SYMBOL_MEDIUM;
+sub @SYMBOL_LARGE by @SYMBOL_MEDIUM;
+";
+labels = (
+{
+language = dflt;
+value = "Medium symbols";
+}
+);
+tag = ss10;
+},
+{
 code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_OUTLINE_SQUARE;
 sub @SYMBOL_FILL_CIRCLE by @SYMBOL_OUTLINE_CIRCLE;
 ";
@@ -1370,6 +1400,28 @@ value = "Filled symbols";
 }
 );
 tag = ss14;
+},
+{
+code = "sub @SYMBOL_LARGE by @SYMBOL_SMALL;
+sub @SYMBOL_MEDIUM by @SYMBOL_SMALL;";
+labels = (
+{
+language = dflt;
+value = "Small symbols";
+}
+);
+tag = ss15;
+},
+{
+code = "sub @SYMBOL_SMALL by @SYMBOL_LARGE;
+sub @SYMBOL_MEDIUM by @SYMBOL_LARGE;";
+labels = (
+{
+language = dflt;
+value = "Large symbols";
+}
+);
+tag = ss16;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
