@@ -1,5 +1,5 @@
 {
-.appVersion = "3208";
+.appVersion = "3218";
 .formatVersion = 3;
 axes = (
 {
@@ -354,19 +354,22 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [acutebelowcomb brevebelowcomb breveinvertedbelowcomb caronbelowcomb cedillacomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb gravebelowcomb macronbelowcomb ogonekcomb ringbelowcomb tildebelowcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
 	@Markscomb = [ogonekcomb];
 	@MarkscombCase = [ogonekcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
+} ccmp_Other_2;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_3 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_3;
 
 lookup ccmp_latn_1 {
 	sub fi by f i;
