@@ -1,0 +1,57 @@
+{
+category = "SF-Symbol";
+glyphname = iconCircleFill.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1489,-119,o),
+(1869,260,o),
+(1869,725,cs),
+(1869,1190,o),
+(1489,1570,o),
+(1024,1570,cs),
+(559,1570,o),
+(179,1190,o),
+(179,725,cs),
+(179,260,o),
+(559,-119,o),
+(1024,-119,cs)
+);
+}
+);
+width = 2048;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1536,-203,o),
+(1952,213,o),
+(1952,725,cs),
+(1952,1237,o),
+(1536,1653,o),
+(1024,1653,cs),
+(512,1653,o),
+(96,1237,o),
+(96,725,cs),
+(96,213,o),
+(512,-203,o),
+(1024,-203,cs)
+);
+}
+);
+width = 2048;
+}
+);
+metricWidth = baseSymbol;
+note = "$SYMBOL_SMALL
+$SYMBOL_FILL
+$SYMBOL_CIRCLE";
+subCategory = Other;
+}
