@@ -12,11 +12,11 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (546,0);
+pos = (584,0);
 ref = four.tag.cv10;
 }
 );
-width = 1798;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,11 +27,11 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (594,0);
+pos = (622,0);
 ref = four.tag.cv10;
 }
 );
-width = 1918;
+width = 1976;
 }
 );
 metricLeft = whiteSquare;
