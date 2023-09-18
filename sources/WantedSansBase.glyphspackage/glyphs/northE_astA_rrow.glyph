@@ -3,27 +3,25 @@ glyphname = northEastArrow;
 layers = (
 {
 layerId = m01;
-metricRight = "=|";
 shapes = (
 {
-pos = (-386,0);
+alignment = 1;
 ref = iconArrowTopRight.small;
 }
 );
-width = 1276;
+width = 2048;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|";
 shapes = (
 {
-pos = (-334,0);
+alignment = 1;
 ref = iconArrowTopRight.small;
 }
 );
-width = 1380;
+width = 2048;
 }
 );
-metricLeft = whiteCircle;
 unicode = 8599;
 }
