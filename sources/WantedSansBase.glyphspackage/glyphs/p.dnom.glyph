@@ -16,7 +16,7 @@ pos = (380,2);
 },
 {
 name = ogonek;
-pos = (78,-262);
+pos = (78,-264);
 },
 {
 name = top;
@@ -81,7 +81,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -103,7 +103,7 @@ pos = (76,-288);
 },
 {
 name = top;
-pos = (436,694);
+pos = (436,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -164,7 +164,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };
@@ -172,6 +172,7 @@ width = 870;
 }
 );
 metricLeft = n.dnom;
+metricRight = b.dnom;
 note = "# Required RMX Scaler
 
 # Required adjustment non-overshoot height";

@@ -21,7 +21,7 @@ nodes = (
 (602,234,cs),
 (602,372,o),
 (502,474,o),
-(372,474,cs),
+(374,474,cs),
 (242,474,o),
 (144,370,o),
 (144,228,c),
@@ -68,7 +68,7 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -94;
+weight = -70;
 width = 50;
 };
 };
@@ -137,7 +137,7 @@ nodes = (
 userData = {
 RMXScaler = {
 height = 54.7;
-weight = -360;
+weight = -400;
 width = 54.5;
 };
 };

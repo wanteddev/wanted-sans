@@ -14,7 +14,7 @@ piece = {
 Open = 0;
 Thin = 1;
 };
-pos = (562,0);
+pos = (560,0);
 ref = _smart.currencystem;
 }
 );
@@ -38,7 +38,7 @@ piece = {
 Open = 100;
 Thin = 0;
 };
-pos = (624,0);
+pos = (622,0);
 ref = _smart.currencystem;
 }
 );

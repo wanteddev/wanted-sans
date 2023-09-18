@@ -8,11 +8,11 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (212,0);
+pos = (212,2);
 },
 {
 name = bottom;
-pos = (144,0);
+pos = (144,2);
 },
 {
 name = center;
@@ -20,7 +20,7 @@ pos = (144,466);
 },
 {
 name = ogonek;
-pos = (78,0);
+pos = (78,2);
 },
 {
 name = top;
@@ -36,13 +36,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(212,0,l),
-(212,0,l),
-(212,0,l),
-(212,0,l),
+(212,2,l),
+(212,2,l),
+(212,2,l),
+(212,2,l),
 (212,888,l),
 (78,888,l),
-(78,0,l)
+(78,2,l)
 );
 }
 );
@@ -50,7 +50,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -102,7 +102,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

@@ -35,7 +35,7 @@ nodes = (
 );
 userData = {
 RMXScaler = {
-weight = -36;
+weight = -32;
 width = 85;
 };
 };
@@ -63,8 +63,8 @@ strokePos = "1";
 closed = 1;
 nodes = (
 (462,724,l),
-(462,1272,l),
-(668,1272,l),
+(462,1368,l),
+(668,1368,l),
 (668,1656,l),
 (166,1656,l),
 (166,724,l)
@@ -73,7 +73,7 @@ nodes = (
 );
 userData = {
 RMXScaler = {
-weight = -240;
+weight = -272;
 width = 75;
 };
 };

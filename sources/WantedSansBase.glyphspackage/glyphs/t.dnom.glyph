@@ -1,8 +1,8 @@
 {
 color = 3;
 glyphname = t.dnom;
-kernLeft = f.dnom;
-kernRight = t.dnom;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
 layers = (
 {
 anchors = (
@@ -39,7 +39,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x16365e880;
+identifier = ID0x29cb13750;
 strokePos = "0";
 };
 closed = 1;
@@ -76,7 +76,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -90,7 +90,7 @@ pos = (276,276);
 },
 {
 name = Top;
-pos = (276,858);
+pos = (276,856);
 },
 {
 name = bottom;
@@ -98,34 +98,34 @@ pos = (364,2);
 },
 {
 name = center;
-pos = (310,348);
+pos = (312,348);
 },
 {
 name = crossbar;
-pos = (156,694);
+pos = (156,696);
 },
 {
 name = top;
-pos = (276,858);
+pos = (276,856);
 },
 {
 name = topright;
-pos = (550,694);
+pos = (550,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x294042580;
+identifier = ID0x29cb2c810;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(550,510,l),
-(550,694,l),
-(42,694,l),
-(42,510,l)
+(550,512,l),
+(550,696,l),
+(42,696,l),
+(42,512,l)
 );
 },
 {
@@ -141,8 +141,8 @@ nodes = (
 (420,210,o),
 (396,234,o),
 (396,294,cs),
-(396,858,l),
-(156,858,l),
+(396,856,l),
+(156,856,l),
 (156,280,ls),
 (156,86,o),
 (250,-16,o),
@@ -154,7 +154,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

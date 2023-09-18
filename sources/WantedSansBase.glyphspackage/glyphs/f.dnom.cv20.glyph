@@ -27,7 +27,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x2a98090b0;
+identifier = ID0x29cbdf240;
 strokePos = "0";
 };
 closed = 1;
@@ -49,15 +49,15 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x2a98091d0;
+identifier = ID0x29cbdf360;
 strokePos = 0;
 };
 closed = 1;
 nodes = (
 (448,784,l),
 (448,896,l),
-(280,896,l),
-(280,784,l)
+(282,896,l),
+(282,784,l)
 );
 }
 );
@@ -65,7 +65,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -83,7 +83,7 @@ pos = (276,0);
 },
 {
 name = crossbar;
-pos = (156,694);
+pos = (156,696);
 },
 {
 name = top;
@@ -94,15 +94,15 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x2987b42b0;
+identifier = ID0x29cbe57d0;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(562,510,l),
-(562,694,l),
-(42,694,l),
-(42,510,l)
+(562,512,l),
+(562,696,l),
+(42,696,l),
+(42,512,l)
 );
 },
 {
@@ -116,7 +116,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x17f9a2b30;
+identifier = ID0x29cbe58f0;
 strokePos = "0";
 };
 closed = 1;
@@ -132,7 +132,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

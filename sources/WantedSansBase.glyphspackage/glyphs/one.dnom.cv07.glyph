@@ -24,7 +24,7 @@ nodes = (
 (220,566,l),
 (230,566,l),
 (230,568,l),
-(230,722,l),
+(230,720,l),
 (56,598,l),
 (56,446,l)
 );
@@ -33,8 +33,8 @@ nodes = (
 closed = 1;
 nodes = (
 (366,0,l),
-(366,722,l),
-(230,722,l),
+(366,720,l),
+(230,720,l),
 (230,0,l)
 );
 }
@@ -43,7 +43,7 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -94;
+weight = -70;
 width = 50;
 };
 };
@@ -87,7 +87,7 @@ nodes = (
 userData = {
 RMXScaler = {
 height = 54.7;
-weight = -360;
+weight = -400;
 width = 54.5;
 };
 };

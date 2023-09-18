@@ -24,7 +24,7 @@ pos = (144,888);
 },
 {
 name = topright;
-pos = (212,886);
+pos = (212,888);
 }
 );
 layerId = m01;
@@ -55,7 +55,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -95,7 +95,7 @@ nodes = (
 (430,214,l),
 (416,212,o),
 (396,210,o),
-(378,210,cs),
+(380,210,cs),
 (334,210,o),
 (316,228,o),
 (316,284,cs),
@@ -112,7 +112,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

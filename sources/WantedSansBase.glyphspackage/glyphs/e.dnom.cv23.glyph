@@ -70,7 +70,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -87,7 +87,7 @@ pos = (416,0);
 },
 {
 name = ogonek;
-pos = (484,2);
+pos = (482,2);
 },
 {
 name = top;
@@ -126,7 +126,7 @@ nodes = (
 (774,308,o),
 (774,348,cs),
 (774,564,o),
-(626,712,o),
+(628,712,o),
 (412,712,cs),
 (196,712,o),
 (38,564,o),
@@ -141,7 +141,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };
