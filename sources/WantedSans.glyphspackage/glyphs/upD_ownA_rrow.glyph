@@ -3,27 +3,25 @@ glyphname = upDownArrow;
 layers = (
 {
 layerId = m01;
-metricRight = "=|";
 shapes = (
 {
-pos = (-428,0);
+alignment = 1;
 ref = iconArrowUpDown.small;
 }
 );
-width = 1192;
+width = 2048;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|";
 shapes = (
 {
-pos = (-376,0);
+alignment = 1;
 ref = iconArrowUpDown.small;
 }
 );
-width = 1296;
+width = 2048;
 }
 );
-metricLeft = whiteCircle;
 unicode = 8597;
 }

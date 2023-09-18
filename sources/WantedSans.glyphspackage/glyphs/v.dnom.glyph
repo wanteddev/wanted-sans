@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (348,2);
+pos = (348,0);
 },
 {
 name = top;
@@ -30,8 +30,8 @@ nodes = (
 closed = 1;
 nodes = (
 (396,0,l),
-(396,138,l),
-(320,138,l),
+(396,140,l),
+(320,140,l),
 (396,0,l),
 (164,632,l),
 (22,632,l),
@@ -43,7 +43,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -53,11 +53,11 @@ width = 696;
 anchors = (
 {
 name = bottom;
-pos = (430,2);
+pos = (430,0);
 },
 {
 name = top;
-pos = (430,694);
+pos = (430,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -75,12 +75,12 @@ nodes = (
 closed = 1;
 nodes = (
 (522,0,l),
-(522,266,l),
-(390,266,l),
+(522,268,l),
+(390,268,l),
 (522,0,l),
 (274,696,l),
 (22,696,l),
-(304,0,l)
+(306,0,l)
 );
 }
 );
@@ -88,7 +88,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

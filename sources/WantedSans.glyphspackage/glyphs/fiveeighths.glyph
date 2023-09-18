@@ -27,15 +27,15 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (752,0);
+pos = (754,0);
 ref = fraction;
 },
 {
-pos = (1064,0);
+pos = (1066,0);
 ref = eight.dnom;
 }
 );
-width = 1816;
+width = 1818;
 }
 );
 metricLeft = five.numr;

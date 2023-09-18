@@ -8,11 +8,11 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (212,2);
+pos = (212,0);
 },
 {
 name = bottom;
-pos = (380,2);
+pos = (380,0);
 },
 {
 name = center;
@@ -20,7 +20,7 @@ pos = (380,316);
 },
 {
 name = ogonek;
-pos = (78,2);
+pos = (78,0);
 },
 {
 name = top;
@@ -57,8 +57,8 @@ nodes = (
 (168,532,o),
 (168,316,c),
 (230,538,l),
-(152,538,l),
-(152,96,l),
+(154,538,l),
+(154,96,l),
 (230,96,l),
 (168,316,l)
 );
@@ -85,7 +85,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -95,11 +95,11 @@ width = 758;
 anchors = (
 {
 name = "#exit";
-pos = (316,2);
+pos = (316,0);
 },
 {
 name = bottom;
-pos = (436,2);
+pos = (436,0);
 },
 {
 name = center;
@@ -107,7 +107,7 @@ pos = (436,348);
 },
 {
 name = ogonek;
-pos = (76,2);
+pos = (76,0);
 },
 {
 name = top;
@@ -144,8 +144,8 @@ nodes = (
 (270,604,o),
 (270,348,c),
 (338,608,l),
-(252,608,l),
-(252,88,l),
+(254,608,l),
+(254,88,l),
 (338,88,l),
 (270,348,l)
 );
@@ -172,7 +172,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

@@ -8,15 +8,15 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (986,2);
+pos = (986,0);
 },
 {
 name = bottom;
-pos = (532,2);
+pos = (532,0);
 },
 {
 name = ogonek;
-pos = (78,2);
+pos = (78,0);
 },
 {
 name = top;
@@ -90,7 +90,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -100,19 +100,19 @@ width = 1064;
 anchors = (
 {
 name = "#exit";
-pos = (1204,2);
+pos = (1204,0);
 },
 {
 name = bottom;
-pos = (640,2);
+pos = (640,0);
 },
 {
 name = ogonek;
-pos = (76,2);
+pos = (76,0);
 },
 {
 name = top;
-pos = (640,694);
+pos = (640,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -182,7 +182,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };

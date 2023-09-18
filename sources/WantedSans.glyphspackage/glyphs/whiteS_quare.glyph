@@ -7,33 +7,33 @@ layers = (
 anchors = (
 {
 name = symbol;
-pos = (898,724);
+pos = (936,724);
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (-126,0);
+pos = (-88,0);
 ref = iconSquare.small;
 }
 );
-width = 1798;
+width = 1874;
 },
 {
 anchors = (
 {
 name = symbol;
-pos = (958,724);
+pos = (986,724);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (-66,0);
+pos = (-38,0);
 ref = iconSquare.small;
 }
 );
-width = 1918;
+width = 1976;
 },
 {
 anchors = (
@@ -148,7 +148,6 @@ nodes = (
 width = 1712;
 }
 );
-metricLeft = H;
-metricRight = H;
+metricWidth = whiteCircle;
 unicode = 9633;
 }

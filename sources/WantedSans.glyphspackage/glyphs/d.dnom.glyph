@@ -12,11 +12,11 @@ pos = (548,0);
 },
 {
 name = "#exit";
-pos = (680,2);
+pos = (680,0);
 },
 {
 name = bottom;
-pos = (380,2);
+pos = (380,0);
 },
 {
 name = center;
@@ -28,11 +28,11 @@ pos = (680,0);
 },
 {
 name = top;
-pos = (380,886);
+pos = (380,888);
 },
 {
 name = topright;
-pos = (680,888);
+pos = (680,886);
 }
 );
 layerId = m01;
@@ -93,7 +93,7 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -75;
 width = 61;
 };
 };
@@ -107,11 +107,11 @@ pos = (554,0);
 },
 {
 name = "#exit";
-pos = (794,2);
+pos = (794,0);
 },
 {
 name = bottom;
-pos = (434,2);
+pos = (434,0);
 },
 {
 name = center;
@@ -188,7 +188,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -406;
 width = 67;
 };
 };
