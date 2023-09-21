@@ -5,41 +5,21 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
+guides = (
 {
-name = "#exit";
-pos = (284,0);
 },
 {
-name = bottom;
-pos = (216,0);
+pos = (0,632);
 },
 {
-name = center;
-pos = (216,316);
-},
-{
-name = crossbar;
-pos = (150,632);
-},
-{
-name = ogonek;
-pos = (150,0);
-},
-{
-name = top;
-pos = (216,776);
-},
-{
-name = topright;
-pos = (424,632);
+pos = (0,776);
 }
 );
 layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x29cb8f0d0;
+identifier = ID0x166320240;
 strokePos = "0";
 };
 closed = 1;
@@ -67,48 +47,28 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -75;
+weight = -77;
 width = 61;
 };
 };
 width = 484;
 },
 {
-anchors = (
+guides = (
 {
-name = "#exit";
-pos = (396,0);
 },
 {
-name = bottom;
-pos = (276,0);
+pos = (0,696);
 },
 {
-name = center;
-pos = (276,348);
-},
-{
-name = crossbar;
-pos = (156,696);
-},
-{
-name = ogonek;
-pos = (156,0);
-},
-{
-name = top;
-pos = (276,856);
-},
-{
-name = topright;
-pos = (534,696);
+pos = (0,856);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x29cb95eb0;
+identifier = ID0x166326c20;
 strokePos = "0";
 };
 closed = 1;
@@ -136,7 +96,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -406;
+weight = -402;
 width = 67;
 };
 };

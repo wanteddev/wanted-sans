@@ -15,7 +15,7 @@ alignment = 1;
 attr = {
 reversePaths = "1";
 };
-pos = (610,0);
+pos = (608,0);
 ref = nine.tag.black.cv11;
 }
 );

@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Q.box.bold;
 kernLeft = H;
 kernRight = H;
@@ -13,7 +12,7 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (494,0);
+pos = (492,0);
 ref = Q.tag.bold;
 }
 );

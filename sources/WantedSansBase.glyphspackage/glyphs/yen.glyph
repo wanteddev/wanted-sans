@@ -22,11 +22,11 @@ ref = _part.yenbase;
 piece = {
 Width = 924;
 };
-pos = (118,-248);
+pos = (1284,0);
 ref = _smart.currencybardouble;
 }
 );
-width = 1284;
+width = 2334;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -38,11 +38,11 @@ ref = _part.yenbase;
 piece = {
 Width = 1184;
 };
-pos = (146,-286);
+pos = (1600,0);
 ref = _smart.currencybardouble;
 }
 );
-width = 1600;
+width = 2912;
 }
 );
 unicode = 165;

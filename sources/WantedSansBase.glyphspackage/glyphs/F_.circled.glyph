@@ -27,7 +27,7 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (690,0);
+pos = (688,0);
 ref = F.tag;
 }
 );

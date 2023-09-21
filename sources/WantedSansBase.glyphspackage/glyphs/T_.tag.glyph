@@ -32,7 +32,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x3b6ca2c90;
+identifier = ID0x15da66ae0;
 strokePos = "0";
 };
 closed = 1;
@@ -90,15 +90,15 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x3b6cd6760;
+identifier = ID0x15da5b140;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(652,880,l),
-(652,1086,l),
+(650,882,l),
+(650,1086,l),
 (48,1086,l),
-(48,880,l)
+(48,882,l)
 );
 },
 {
@@ -106,8 +106,8 @@ closed = 1;
 nodes = (
 (458,362,l),
 (458,1086,l),
-(240,1086,l),
-(240,362,l)
+(242,1086,l),
+(242,362,l)
 );
 }
 );
@@ -119,7 +119,7 @@ weight = -480;
 width = 50;
 };
 };
-width = 700;
+width = 698;
 }
 );
 note = "# Required RMX Scaler";
