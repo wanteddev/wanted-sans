@@ -18,6 +18,10 @@ name = bottom;
 pos = (642,28);
 },
 {
+name = center;
+pos = (642,476);
+},
+{
 name = top;
 pos = (642,1420);
 },
@@ -76,6 +80,10 @@ pos = (800,724);
 {
 name = bottom;
 pos = (800,28);
+},
+{
+name = center;
+pos = (800,438);
 },
 {
 name = top;
