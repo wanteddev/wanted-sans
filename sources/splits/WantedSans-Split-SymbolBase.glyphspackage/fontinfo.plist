@@ -24,24 +24,24 @@ code = "$[note contains \"$SYMBOL_LARGE\"]
 name = SYMBOL_LARGE;
 },
 {
-code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_CIRCLE\"]
+code = "$[note contains \"$SYMBOL_FILL\"]
 ";
-name = SYMBOL_FILL_CIRCLE;
+name = SYMBOL_FILL;
 },
 {
-code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_SQUARE\"]
+code = "$[note contains \"$SYMBOL_OUTLINE\"]
 ";
-name = SYMBOL_FILL_SQUARE;
+name = SYMBOL_OUTLINE;
 },
 {
-code = "$[note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_CIRCLE\"]
+code = "$[note contains \"$SYMBOL_CIRCLE\"]
 ";
-name = SYMBOL_OUTLINE_CIRCLE;
+name = SYMBOL_CIRCLE;
 },
 {
-code = "$[note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_SQUARE\"]
+code = "$[note contains \"$SYMBOL_SQUARE\"]
 ";
-name = SYMBOL_OUTLINE_SQUARE;
+name = SYMBOL_SQUARE;
 }
 );
 customParameters = (
@@ -51,7 +51,7 @@ value = (
 );
 }
 );
-date = "2023-09-15 06:57:10 +0000";
+date = "2023-09-25 06:54:53 +0000";
 familyName = "Wanted Sans Symbols";
 featurePrefixes = (
 {
@@ -87,8 +87,7 @@ value = "Medium symbols";
 tag = ss10;
 },
 {
-code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_OUTLINE_SQUARE;
-sub @SYMBOL_FILL_CIRCLE by @SYMBOL_OUTLINE_CIRCLE;
+code = "sub @SYMBOL_FILL by @SYMBOL_OUTLINE;
 ";
 labels = (
 {
@@ -99,8 +98,8 @@ value = "Outlined symbols";
 tag = ss11;
 },
 {
-code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_FILL_CIRCLE;
-sub @SYMBOL_OUTLINE_SQUARE by @SYMBOL_OUTLINE_CIRCLE;";
+code = "sub @SYMBOL_SQUARE by @SYMBOL_CIRCLE;
+";
 labels = (
 {
 language = dflt;
@@ -110,9 +109,7 @@ value = "Circle symbols";
 tag = ss12;
 },
 {
-code = "sub @SYMBOL_FILL_CIRCLE by @SYMBOL_FILL_SQUARE;
-sub @SYMBOL_OUTLINE_CIRCLE by @SYMBOL_OUTLINE_SQUARE;
-";
+code = "sub @SYMBOL_CIRCLE by @SYMBOL_SQUARE;";
 labels = (
 {
 language = dflt;
@@ -122,8 +119,7 @@ value = "Square symbols";
 tag = ss13;
 },
 {
-code = "sub @SYMBOL_OUTLINE_SQUARE by @SYMBOL_FILL_SQUARE;
-sub @SYMBOL_OUTLINE_CIRCLE by @SYMBOL_FILL_CIRCLE;
+code = "sub @SYMBOL_OUTLINE by @SYMBOL_FILL;
 ";
 labels = (
 {
