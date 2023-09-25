@@ -161,7 +161,8 @@ width = 1976;
 );
 metricLeft = blackSquare;
 metricRight = blackSquare;
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 unicode = 127360;
 }

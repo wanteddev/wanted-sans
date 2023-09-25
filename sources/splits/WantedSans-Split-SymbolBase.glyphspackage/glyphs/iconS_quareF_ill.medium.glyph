@@ -76,6 +76,7 @@ width = 1200;
 );
 note = "# Required RMX Scaler
 
+$SYMBOL_ICON
 $SYMBOL_MEDIUM
 $SYMBOL_FILL
 $SYMBOL_SQUARE";

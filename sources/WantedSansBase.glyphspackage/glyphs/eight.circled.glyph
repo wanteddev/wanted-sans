@@ -36,7 +36,8 @@ width = 1976;
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_CIRCLE";
 unicode = (9319,10119);
 }

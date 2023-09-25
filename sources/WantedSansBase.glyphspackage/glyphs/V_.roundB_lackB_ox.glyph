@@ -40,7 +40,8 @@ ref = V.tag.black;
 width = 1976;
 }
 );
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 unicode = 127365;
 }

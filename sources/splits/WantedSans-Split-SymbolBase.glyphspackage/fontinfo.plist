@@ -24,24 +24,24 @@ code = "$[note contains \"$SYMBOL_LARGE\"]
 name = SYMBOL_LARGE;
 },
 {
-code = "$[note contains \"$SYMBOL_FILL\"]
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_FILL\"]
 ";
-name = SYMBOL_FILL;
+name = SYMBOL_ICON_FILL;
 },
 {
-code = "$[note contains \"$SYMBOL_OUTLINE\"]
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_OUTLINE\"]
 ";
-name = SYMBOL_OUTLINE;
+name = SYMBOL_ICON_OUTLINE;
 },
 {
-code = "$[note contains \"$SYMBOL_CIRCLE\"]
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_CIRCLE\"]
 ";
-name = SYMBOL_CIRCLE;
+name = SYMBOL_ICON_CIRCLE;
 },
 {
-code = "$[note contains \"$SYMBOL_SQUARE\"]
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_SQUARE\"]
 ";
-name = SYMBOL_SQUARE;
+name = SYMBOL_ICON_SQUARE;
 }
 );
 customParameters = (
@@ -87,7 +87,7 @@ value = "Medium symbols";
 tag = ss10;
 },
 {
-code = "sub @SYMBOL_FILL by @SYMBOL_OUTLINE;
+code = "sub @SYMBOL_ICON_FILL by @SYMBOL_ICON_OUTLINE;
 ";
 labels = (
 {
@@ -98,7 +98,7 @@ value = "Outlined symbols";
 tag = ss11;
 },
 {
-code = "sub @SYMBOL_SQUARE by @SYMBOL_CIRCLE;
+code = "sub @SYMBOL_ICON_SQUARE by @SYMBOL_ICON_CIRCLE;
 ";
 labels = (
 {
@@ -109,7 +109,8 @@ value = "Circle symbols";
 tag = ss12;
 },
 {
-code = "sub @SYMBOL_CIRCLE by @SYMBOL_SQUARE;";
+code = "sub @SYMBOL_ICON_CIRCLE by @SYMBOL_ICON_SQUARE;
+";
 labels = (
 {
 language = dflt;
@@ -119,7 +120,7 @@ value = "Square symbols";
 tag = ss13;
 },
 {
-code = "sub @SYMBOL_OUTLINE by @SYMBOL_FILL;
+code = "sub @SYMBOL_ICON_OUTLINE by @SYMBOL_ICON_FILL;
 ";
 labels = (
 {

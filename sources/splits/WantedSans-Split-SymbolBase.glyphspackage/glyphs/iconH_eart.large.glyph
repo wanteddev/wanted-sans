@@ -158,6 +158,7 @@ width = 1440;
 );
 note = "# Required RMX Scaler
 
+$SYMBOL_ICON
 $SYMBOL_LARGE
 $SYMBOL_OUTLINE";
 subCategory = Other;

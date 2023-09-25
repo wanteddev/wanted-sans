@@ -240,7 +240,8 @@ width = 960;
 }
 );
 metricWidth = baseSymbol;
-note = "$SYMBOL_SMALL
+note = "$SYMBOL_ICON
+$SYMBOL_SMALL
 $SYMBOL_FILL";
 subCategory = Other;
 }

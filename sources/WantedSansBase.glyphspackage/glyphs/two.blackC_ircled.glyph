@@ -42,7 +42,8 @@ width = 1976;
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_CIRCLE";
 unicode = (10103,10123);
 }
