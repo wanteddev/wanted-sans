@@ -5,18 +5,11 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
+guides = (
 {
-name = bottom;
-pos = (144,2);
 },
 {
-name = ogonek;
-pos = (78,2);
-},
-{
-name = top;
-pos = (248,632);
+pos = (0,632);
 }
 );
 layerId = m01;
@@ -24,13 +17,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(212,2,l),
-(212,2,l),
-(212,2,l),
-(212,2,l),
+(212,0,l),
+(212,0,l),
+(212,0,l),
+(212,0,l),
 (212,632,l),
 (78,632,l),
-(78,2,l)
+(78,0,l)
 );
 },
 {
@@ -44,7 +37,7 @@ nodes = (
 (444,508,c),
 (444,636,l),
 (422,644,o),
-(404,648,o),
+(402,648,o),
 (380,648,cs),
 (274,648,o),
 (190,550,o),
@@ -60,25 +53,18 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -75;
+weight = -77;
 width = 61;
 };
 };
 width = 502;
 },
 {
-anchors = (
+guides = (
 {
-name = bottom;
-pos = (196,0);
 },
 {
-name = ogonek;
-pos = (76,0);
-},
-{
-name = top;
-pos = (312,696);
+pos = (0,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -99,20 +85,20 @@ nodes = (
 closed = 1;
 nodes = (
 (316,422,o),
-(372,488,o),
-(480,488,cs),
-(504,488,o),
-(538,484,o),
-(566,476,c),
-(566,702,l),
-(546,708,o),
+(372,490,o),
+(478,490,cs),
+(504,490,o),
+(536,486,o),
+(564,478,c),
+(564,702,l),
+(544,708,o),
 (526,712,o),
-(504,712,cs),
-(376,712,o),
+(502,712,cs),
+(374,712,o),
 (286,598,o),
 (286,434,c),
-(338,598,l),
-(286,598,l),
+(338,600,l),
+(286,600,l),
 (286,434,l),
 (316,292,l)
 );
@@ -122,11 +108,11 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -406;
+weight = -402;
 width = 67;
 };
 };
-width = 624;
+width = 622;
 }
 );
 metricLeft = n.dnom;

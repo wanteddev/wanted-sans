@@ -28,6 +28,7 @@ width = 880;
 background = {
 shapes = (
 {
+pos = (-2,0);
 ref = bracketright.case;
 }
 );
@@ -39,11 +40,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (1092,1432);
+pos = (1090,1432);
 ref = whitecornerbracketleft;
 }
 );
-width = 1092;
+width = 1090;
 }
 );
 unicode = 12303;

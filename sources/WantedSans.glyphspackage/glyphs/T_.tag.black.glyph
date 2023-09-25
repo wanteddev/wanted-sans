@@ -32,7 +32,7 @@ layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x39cf05980;
+identifier = ID0x15c535480;
 strokePos = "0";
 };
 closed = 1;
@@ -67,7 +67,7 @@ width = 696;
 anchors = (
 {
 name = "#exit";
-pos = (490,326);
+pos = (488,326);
 },
 {
 name = _symbol;
@@ -90,24 +90,24 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x39cf06130;
+identifier = ID0x15c536f10;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(708,916,l),
+(708,918,l),
 (708,1122,l),
 (52,1122,l),
-(52,916,l)
+(52,918,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(490,326,l),
-(490,1122,l),
-(270,1122,l),
-(270,326,l)
+(488,326,l),
+(488,1122,l),
+(272,1122,l),
+(272,326,l)
 );
 }
 );

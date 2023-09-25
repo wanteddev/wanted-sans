@@ -27,7 +27,7 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (662,0);
+pos = (664,0);
 ref = one.tag.cv18;
 }
 );

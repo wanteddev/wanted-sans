@@ -37,23 +37,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(206,344,l),
-(206,1104,l),
+(208,344,l),
+(208,1104,l),
 (68,1104,l),
 (68,344,l)
 );
 },
 {
 attr = {
-identifier = ID0x395f94b50;
+identifier = ID0x15c3b8900;
 strokePos = 1;
 };
 closed = 1;
 nodes = (
 (540,344,l),
 (540,474,l),
-(204,474,l),
-(204,344,l)
+(206,474,l),
+(206,344,l)
 );
 }
 );
@@ -71,15 +71,15 @@ width = 592;
 anchors = (
 {
 name = "#entry";
-pos = (56,362);
+pos = (58,362);
 },
 {
 name = _symbol;
-pos = (296,724);
+pos = (298,724);
 },
 {
 name = bottom;
-pos = (296,362);
+pos = (298,362);
 },
 {
 name = center;
@@ -91,7 +91,7 @@ pos = (166,1086);
 },
 {
 name = topright;
-pos = (538,1086);
+pos = (540,1086);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -101,20 +101,20 @@ closed = 1;
 nodes = (
 (274,362,l),
 (274,1086,l),
-(56,1086,l),
-(56,362,l)
+(58,1086,l),
+(58,362,l)
 );
 },
 {
 attr = {
-identifier = ID0x3a09b7ce0;
+identifier = ID0x15c3f5430;
 strokePos = "1";
 };
 closed = 1;
 nodes = (
-(538,362,l),
-(538,568,l),
-(272,568,l),
+(540,362,l),
+(540,566,l),
+(272,566,l),
 (272,362,l)
 );
 }
@@ -127,7 +127,7 @@ weight = -480;
 width = 50;
 };
 };
-width = 582;
+width = 584;
 }
 );
 note = "# Required RMX Scaler";
