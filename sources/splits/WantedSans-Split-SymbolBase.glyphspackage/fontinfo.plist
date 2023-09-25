@@ -544,14 +544,14 @@ type = variable;
 },
 {
 axesValues = (
-1012.5
+1000
 );
 exports = 0;
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1.225;
-m01 = -0.225;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1.2;
+m01 = -0.2;
 };
-name = Super;
+name = ExtraBlack;
 weightClass = 900;
 }
 );
