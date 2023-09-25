@@ -27,11 +27,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (638,0);
+pos = (636,0);
 ref = one.tag.cv07.cv18;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;

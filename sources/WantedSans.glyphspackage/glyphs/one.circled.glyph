@@ -27,16 +27,17 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (712,0);
+pos = (710,0);
 ref = one.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_CIRCLE";
 unicode = (9312,10112);
 }

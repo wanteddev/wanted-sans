@@ -27,11 +27,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (680,0);
+pos = (678,0);
 ref = P.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 note = "$SYMBOL_LETTER

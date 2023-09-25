@@ -27,11 +27,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (674,0);
+pos = (672,0);
 ref = J.tag.cv05;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 note = "$SYMBOL_LETTER

@@ -31,7 +31,7 @@ pos = (640,0);
 ref = three.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteSquare;

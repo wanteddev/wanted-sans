@@ -105,6 +105,26 @@ name = SYMBOL_LETTER_OUTLINE_CIRCLE;
 code = "$[note contains \"$SYMBOL_LETTER\" and note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_SQUARE\"]
 ";
 name = SYMBOL_LETTER_OUTLINE_SQUARE;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_FILL\"]
+";
+name = SYMBOL_ICON_FILL;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_OUTLINE\"]
+";
+name = SYMBOL_ICON_OUTLINE;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_CIRCLE\"]
+";
+name = SYMBOL_ICON_CIRCLE;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_SQUARE\"]
+";
+name = SYMBOL_ICON_SQUARE;
 }
 );
 customParameters = (
@@ -1357,6 +1377,7 @@ tag = ss10;
 {
 code = "sub @SYMBOL_LETTER_FILL_SQUARE by @SYMBOL_LETTER_OUTLINE_SQUARE;
 sub @SYMBOL_LETTER_FILL_CIRCLE by @SYMBOL_LETTER_OUTLINE_CIRCLE;
+sub @SYMBOL_ICON_FILL by @SYMBOL_ICON_OUTLINE;
 ";
 labels = (
 {
@@ -1369,6 +1390,7 @@ tag = ss11;
 {
 code = "sub @SYMBOL_LETTER_FILL_SQUARE by @SYMBOL_LETTER_FILL_CIRCLE;
 sub @SYMBOL_LETTER_OUTLINE_SQUARE by @SYMBOL_LETTER_OUTLINE_CIRCLE;
+sub @SYMBOL_ICON_SQUARE by @SYMBOL_ICON_CIRCLE;
 ";
 labels = (
 {
@@ -1381,6 +1403,7 @@ tag = ss12;
 {
 code = "sub @SYMBOL_LETTER_FILL_CIRCLE by @SYMBOL_LETTER_FILL_SQUARE;
 sub @SYMBOL_LETTER_OUTLINE_CIRCLE by @SYMBOL_LETTER_OUTLINE_SQUARE;
+sub @SYMBOL_ICON_CIRCLE by @SYMBOL_ICON_SQUARE;
 ";
 labels = (
 {
@@ -1393,6 +1416,7 @@ tag = ss13;
 {
 code = "sub @SYMBOL_LETTER_OUTLINE_SQUARE by @SYMBOL_LETTER_FILL_SQUARE;
 sub @SYMBOL_LETTER_OUTLINE_CIRCLE by @SYMBOL_LETTER_FILL_CIRCLE;
+sub @SYMBOL_ICON_OUTLINE by @SYMBOL_ICON_FILL;
 ";
 labels = (
 {

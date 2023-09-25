@@ -31,11 +31,12 @@ pos = (644,0);
 ref = three.tag.cv09;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteSquare;
 metricRight = whiteSquare;
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_SQUARE";
 }

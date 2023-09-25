@@ -37,7 +37,7 @@ pos = (688,0);
 ref = one.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;

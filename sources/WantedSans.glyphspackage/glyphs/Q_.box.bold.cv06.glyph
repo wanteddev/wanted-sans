@@ -19,9 +19,10 @@ alignment = 1;
 ref = Q.box.cv06;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_SQUARE";
 }

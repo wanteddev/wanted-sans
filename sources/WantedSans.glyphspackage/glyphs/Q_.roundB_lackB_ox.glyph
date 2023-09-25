@@ -22,7 +22,7 @@ pos = (522,0);
 ref = Q.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 },
 {
 associatedMasterId = m01;
@@ -156,12 +156,13 @@ nodes = (
 );
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = blackSquare;
 metricRight = blackSquare;
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 unicode = 127360;
 }

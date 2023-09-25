@@ -33,14 +33,15 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (558,0);
+pos = (556,0);
 ref = X.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_CIRCLE";
 unicode = 127335;
 }

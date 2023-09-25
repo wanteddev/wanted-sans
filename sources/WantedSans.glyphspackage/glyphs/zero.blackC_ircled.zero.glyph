@@ -33,15 +33,16 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (596,0);
+pos = (594,0);
 ref = zero.tag.black.zero;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_CIRCLE";
 }

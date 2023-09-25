@@ -19,11 +19,11 @@ metricLeft = "=whiteCircle*2";
 metricRight = "=|";
 shapes = (
 {
-pos = (-168,0);
+pos = (-170,0);
 ref = iconClose.small;
 }
 );
-width = 1714;
+width = 1710;
 }
 );
 metricLeft = whiteCircle;

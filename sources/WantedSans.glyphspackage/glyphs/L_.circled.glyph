@@ -27,14 +27,15 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (690,0);
+pos = (688,0);
 ref = L.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_CIRCLE";
 unicode = 9409;
 }

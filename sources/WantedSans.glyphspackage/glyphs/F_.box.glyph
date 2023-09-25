@@ -31,10 +31,11 @@ pos = (686,0);
 ref = F.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_SQUARE";
 unicode = 127285;
 }

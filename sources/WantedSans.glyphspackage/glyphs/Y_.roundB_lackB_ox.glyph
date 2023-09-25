@@ -37,10 +37,11 @@ pos = (542,0);
 ref = Y.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 unicode = 127368;
 }

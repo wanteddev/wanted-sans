@@ -22,7 +22,7 @@ pos = (522,0);
 ref = Q.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 },
 {
 associatedMasterId = m01;
@@ -156,7 +156,7 @@ nodes = (
 );
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = blackSquare;

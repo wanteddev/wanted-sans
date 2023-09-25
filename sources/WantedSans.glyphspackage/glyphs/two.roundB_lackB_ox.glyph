@@ -37,11 +37,12 @@ pos = (626,0);
 ref = two.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 }

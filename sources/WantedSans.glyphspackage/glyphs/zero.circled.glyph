@@ -99,16 +99,17 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (626,0);
+pos = (624,0);
 ref = zero.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_CIRCLE";
 unicode = 9450;
 }

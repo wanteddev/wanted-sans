@@ -33,11 +33,11 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (638,0);
+pos = (636,0);
 ref = S.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 note = "$SYMBOL_LETTER

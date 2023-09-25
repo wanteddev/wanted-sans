@@ -27,14 +27,15 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (566,0);
+pos = (564,0);
 ref = Q.tag.bold;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
 $SYMBOL_CIRCLE
 
 # Detached each alternates for .bold glyph";

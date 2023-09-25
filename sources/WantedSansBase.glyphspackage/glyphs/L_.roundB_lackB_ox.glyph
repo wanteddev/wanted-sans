@@ -37,7 +37,7 @@ pos = (660,0);
 ref = L.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 note = "$SYMBOL_LETTER

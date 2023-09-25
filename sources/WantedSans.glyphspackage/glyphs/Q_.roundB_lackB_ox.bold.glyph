@@ -20,7 +20,7 @@ pos = (522,0);
 ref = Q.tag.black.bold;
 }
 );
-width = 1976;
+width = 1974;
 },
 {
 layerId = m01;
@@ -42,7 +42,8 @@ ref = Q.tag.black.bold;
 width = 1874;
 }
 );
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE
 
 # Detached each alternates for .bold glyph";

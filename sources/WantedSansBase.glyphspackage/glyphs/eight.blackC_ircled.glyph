@@ -33,11 +33,11 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (624,0);
+pos = (622,0);
 ref = eight.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;

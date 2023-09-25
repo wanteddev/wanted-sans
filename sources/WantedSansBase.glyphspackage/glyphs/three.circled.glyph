@@ -27,11 +27,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (642,0);
+pos = (640,0);
 ref = three.tag;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;

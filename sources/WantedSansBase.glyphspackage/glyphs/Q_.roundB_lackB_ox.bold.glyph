@@ -20,7 +20,7 @@ pos = (522,0);
 ref = Q.tag.black.bold;
 }
 );
-width = 1976;
+width = 1974;
 },
 {
 layerId = m01;

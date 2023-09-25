@@ -37,9 +37,10 @@ pos = (540,0);
 ref = Q.tag.black.cv06;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 }

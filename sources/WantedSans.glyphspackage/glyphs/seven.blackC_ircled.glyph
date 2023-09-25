@@ -33,16 +33,17 @@ alignment = 1;
 attr = {
 reversePaths = 1;
 };
-pos = (638,0);
+pos = (636,0);
 ref = seven.tag.black;
 }
 );
-width = 1976;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_FILL
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
 $SYMBOL_CIRCLE";
 unicode = (10108,10128);
 }
