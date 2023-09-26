@@ -24,7 +24,7 @@ width = 1132;
 attr = {
 axisRules = (
 {
-min = 646;
+min = 650;
 }
 );
 };
@@ -50,7 +50,7 @@ associatedMasterId = m01;
 attr = {
 axisRules = (
 {
-min = 646;
+min = 650;
 }
 );
 };
