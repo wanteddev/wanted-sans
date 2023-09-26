@@ -1,0 +1,73 @@
+{
+color = 0;
+glyphname = hyphenbullet;
+layers = (
+{
+background = {
+annotations = (
+{
+pos = (440.575,743.354);
+text = "*1.4";
+type = Text;
+}
+);
+shapes = (
+{
+ref = hyphen;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+identifier = ID0x2be7dfc80;
+strokeWidth = 232;
+};
+closed = 0;
+nodes = (
+(120,540,l),
+(760,540,l)
+);
+}
+);
+width = 880;
+},
+{
+background = {
+annotations = (
+{
+pos = (558,798);
+text = "*1.3";
+type = Text;
+}
+);
+shapes = (
+{
+ref = hyphen;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+identifier = ID0x2f2087650;
+strokeWidth = 440;
+};
+closed = 0;
+nodes = (
+(144,540,l),
+(776,540,l)
+);
+}
+);
+width = 920;
+}
+);
+metricLeft = hyphen;
+metricRight = hyphen;
+metricWidth = hyphen;
+note = $CASE;
+unicode = 8259;
+}
