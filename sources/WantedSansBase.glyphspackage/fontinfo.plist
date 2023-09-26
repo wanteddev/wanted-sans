@@ -135,7 +135,7 @@ value = (
 }
 );
 date = "2023-09-26 11:21:13 +0000";
-familyName = "Wanted Sans Std Beta";
+familyName = "Wanted Sans Std";
 featurePrefixes = (
 {
 automatic = 1;
