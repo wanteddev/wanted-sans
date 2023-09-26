@@ -1,24 +1,25 @@
 {
-glyphname = f_i.start.cv20;
-kernLeft = f;
+glyphname = f_l;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = _smart.fligature.cv20;
+ref = fl;
 }
 );
-width = 800;
+width = 1232;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = _smart.fligature.cv20;
+ref = fl;
 }
 );
-width = 952;
+width = 1568;
 }
 );
+metricLeft = fl;
+metricRight = fl;
 }
