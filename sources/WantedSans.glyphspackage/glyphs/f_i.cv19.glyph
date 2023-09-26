@@ -1,0 +1,25 @@
+{
+glyphname = f_i.cv19;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = fi.cv19;
+}
+);
+width = 1232;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = fi.cv19;
+}
+);
+width = 1568;
+}
+);
+metricLeft = fi.cv19;
+metricRight = fi.cv19;
+}

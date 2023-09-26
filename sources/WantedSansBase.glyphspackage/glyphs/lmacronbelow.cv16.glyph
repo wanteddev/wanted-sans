@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = lmacronbelow.cv16;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.cv16;
+},
+{
+pos = (292,0);
+ref = macronbelowcomb;
+}
+);
+width = 532;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = l.cv16;
+},
+{
+pos = (388,0);
+ref = macronbelowcomb;
+}
+);
+width = 732;
+}
+);
+note = $EXTRA_STEM_LOWERCASE;
+}

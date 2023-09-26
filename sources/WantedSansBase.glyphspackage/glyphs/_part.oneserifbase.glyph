@@ -32,7 +32,7 @@ nodes = (
 );
 },
 {
-ref = one.cv18;
+ref = one.cv17;
 }
 );
 };
@@ -83,7 +83,7 @@ nodes = (
 );
 },
 {
-ref = one.cv18;
+ref = one.cv17;
 }
 );
 };

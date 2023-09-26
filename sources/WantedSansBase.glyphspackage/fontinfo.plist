@@ -10,12 +10,12 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcircumflexbelow Dcroat Ddotbelow Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent Kmacronbelow L Lacute Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Nmacronbelow Ntilde O Oacute Ocaron Ocircumflex Ocircumflexdotbelow Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelowmacron Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow T Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Zmacronbelow J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 I.cv19 IJ.cv19 Iacute.cv19 Icaron.cv19 Icircumflex.cv19 Idieresis.cv19 Idotaccent.cv19 Idotbelow.cv19 Igrave.cv19 Imacron.cv19 Iogonek.cv19 Itilde.cv19 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
+code = "A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcircumflexbelow Dcroat Ddotbelow Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent Kmacronbelow L Lacute Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Nmacronbelow Ntilde O Oacute Ocaron Ocircumflex Ocircumflexdotbelow Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelowmacron Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow T Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Zmacronbelow J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 I.cv18 IJ.cv18 Iacute.cv18 Icaron.cv18 Icircumflex.cv18 Idieresis.cv18 Idotaccent.cv18 Idotbelow.cv18 Igrave.cv18 Imacron.cv18 Iogonek.cv18 Itilde.cv18 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
 name = Uppercase;
 },
 {
 automatic = 1;
-code = "a aacute abreve abrevedotbelow acaron acircumflex acircumflexdotbelow adblgrave adieresis adotaccent adotbelow agrave alpha-latin alphaturned-latin amacron aogonek aring atilde aturned ae b bdotbelow c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcircumflexbelow dcroat ddotbelow dmacronbelow eth e eacute ecaron ecedilla ecircumflex ecircumflexdotbelow edieresis edotaccent edotbelow egrave emacron eogonek ereversed etilde eturned schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gsingle h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow i idotless iacute icaron icircumflex idieresis idotaccent idotbelow igrave imacron iogonek istroke itilde ij j jdotless jacute jcircumflex k kcaron kcommaaccent kmacronbelow kturned l lacute lcaron lcircumflexbelow lcommaaccent ldotbelow ldotbelowmacron lmacronbelow lslash m macute mdotaccent mdotbelow mturned n nacute ncaron ncircumflexbelow ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde o oacute ocaron ocircumflex ocircumflexdotbelow odieresis odotbelow ograve ohungarumlaut omacron oopen oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent rdotbelowmacron rmacronbelow rturned s sacute scaron scedilla scircumflex scommaaccent sdotbelow germandbls t tcaron tcedilla tcircumflexbelow tcommaaccent tdieresis tdotbelow tmacronbelow u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde v vturned w wacute wcircumflex wdieresis wgrave wturned x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave ymacron ytilde yturned z zacute zcaron zdotaccent zdotbelow zmacronbelow j.cv01 jdotless.cv01 jacute.cv01 jcircumflex.cv01 t.cv02 tcaron.cv02 tcedilla.cv02 tcircumflexbelow.cv02 tcommaaccent.cv02 tdieresis.cv02 tdotbelow.cv02 tmacronbelow.cv02 a.cv03 aacute.cv03 abreve.cv03 abrevedotbelow.cv03 acaron.cv03 acircumflex.cv03 acircumflexdotbelow.cv03 adblgrave.cv03 adieresis.cv03 adotaccent.cv03 adotbelow.cv03 agrave.cv03 amacron.cv03 aogonek.cv03 aring.cv03 atilde.cv03 aturned.cv03 u.cv04 uacute.cv04 ubreve.cv04 ucaron.cv04 ucircumflex.cv04 udieresis.cv04 udotbelow.cv04 ugrave.cv04 uhungarumlaut.cv04 umacron.cv04 uogonek.cv04 uring.cv04 utilde.cv04 r.cv16 racute.cv16 rcaron.cv16 rcommaaccent.cv16 rdotbelowmacron.cv16 rmacronbelow.cv16 rturned.cv16 l.cv17 lacute.cv17 lcaron.cv17 lcircumflexbelow.cv17 lcommaaccent.cv17 ldotbelow.cv17 ldotbelowmacron.cv17 lmacronbelow.cv17 lslash.cv17 f.cv20 g.cv21 gbreve.cv21 gcaron.cv21 gcircumflex.cv21 gcommaaccent.cv21 gdotaccent.cv21 gmacron.cv21 gsingle.cv21 a.cv22 aacute.cv22 abreve.cv22 abrevedotbelow.cv22 acaron.cv22 acircumflex.cv22 acircumflexdotbelow.cv22 adblgrave.cv22 adieresis.cv22 adotaccent.cv22 adotbelow.cv22 agrave.cv22 amacron.cv22 aogonek.cv22 aring.cv22 atilde.cv22 aturned.cv22 e.cv23 eacute.cv23 ecaron.cv23 ecedilla.cv23 ecircumflex.cv23 ecircumflexdotbelow.cv23 edieresis.cv23 edotaccent.cv23 edotbelow.cv23 egrave.cv23 emacron.cv23 eogonek.cv23 ereversed.cv23 etilde.cv23 eturned.cv23 schwa.cv23 aacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK b.ss04 bdotbelow.ss04 d.ss04 dcaron.ss04 dcircumflexbelow.ss04 dcroat.ss04 ddotbelow.ss04 dmacronbelow.ss04 h.ss04 hbar.ss04 hbrevebelow.ss04 hcircumflex.ss04 hdotbelow.ss04 hmacronbelow.ss04 k.ss04 kcaron.ss04 kcommaaccent.ss04 kmacronbelow.ss04 l.ss04 lacute.ss04 lcaron.ss04 lcircumflexbelow.ss04 lcommaaccent.ss04 ldotbelow.ss04 ldotbelowmacron.ss04 lmacronbelow.ss04 lslash.ss04 aacute.loclPLK.cv03 l.ss04.cv17 lacute.ss04.cv17 lcaron.ss04.cv17 lcircumflexbelow.ss04.cv17 lcommaaccent.ss04.cv17 ldotbelow.ss04.cv17 ldotbelowmacron.ss04.cv17 lmacronbelow.ss04.cv17 lslash.ss04.cv17 aacute.loclPLK.cv22 a.dnom b.dnom c.dnom d.dnom e.dnom f.dnom g.dnom h.dnom i.dnom j.dnom k.dnom l.dnom m.dnom n.dnom o.dnom p.dnom q.dnom r.dnom s.dnom t.dnom u.dnom v.dnom w.dnom x.dnom y.dnom z.dnom a.numr b.numr c.numr d.numr e.numr f.numr g.numr h.numr i.numr j.numr k.numr l.numr m.numr n.numr o.numr p.numr q.numr r.numr s.numr t.numr u.numr v.numr w.numr x.numr y.numr z.numr j.dnom.cv01 j.numr.cv01 t.dnom.cv02 t.numr.cv02 a.dnom.cv03 a.numr.cv03 u.dnom.cv04 u.numr.cv04 r.dnom.cv16 r.numr.cv16 l.dnom.cv17 l.numr.cv17 f.dnom.cv20 f.numr.cv20 g.dnom.cv21 g.numr.cv21 a.dnom.cv22 a.numr.cv22 e.dnom.cv23 e.numr.cv23 f_f f_f_i f_f_l f_i f_l fi fl f_f.cv20 f_f_i.cv20 f_f_l.cv20 f_i.cv20 f_l.cv20 fi.cv20 fl.cv20";
+code = "a aacute abreve abrevedotbelow acaron acircumflex acircumflexdotbelow adblgrave adieresis adotaccent adotbelow agrave alpha-latin alphaturned-latin amacron aogonek aring atilde aturned ae b bdotbelow c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcircumflexbelow dcroat ddotbelow dmacronbelow eth e eacute ecaron ecedilla ecircumflex ecircumflexdotbelow edieresis edotaccent edotbelow egrave emacron eogonek ereversed etilde eturned schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gsingle h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow i idotless iacute icaron icircumflex idieresis idotaccent idotbelow igrave imacron iogonek istroke itilde ij j jdotless jacute jcircumflex k kcaron kcommaaccent kmacronbelow kturned l lacute lcaron lcircumflexbelow lcommaaccent ldotbelow ldotbelowmacron lmacronbelow lslash m macute mdotaccent mdotbelow mturned n nacute ncaron ncircumflexbelow ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde o oacute ocaron ocircumflex ocircumflexdotbelow odieresis odotbelow ograve ohungarumlaut omacron oopen oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent rdotbelowmacron rmacronbelow rturned s sacute scaron scedilla scircumflex scommaaccent sdotbelow germandbls t tcaron tcedilla tcircumflexbelow tcommaaccent tdieresis tdotbelow tmacronbelow u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde v vturned w wacute wcircumflex wdieresis wgrave wturned x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave ymacron ytilde yturned z zacute zcaron zdotaccent zdotbelow zmacronbelow j.cv01 jdotless.cv01 jacute.cv01 jcircumflex.cv01 t.cv02 tcaron.cv02 tcedilla.cv02 tcircumflexbelow.cv02 tcommaaccent.cv02 tdieresis.cv02 tdotbelow.cv02 tmacronbelow.cv02 a.cv03 aacute.cv03 abreve.cv03 abrevedotbelow.cv03 acaron.cv03 acircumflex.cv03 acircumflexdotbelow.cv03 adblgrave.cv03 adieresis.cv03 adotaccent.cv03 adotbelow.cv03 agrave.cv03 amacron.cv03 aogonek.cv03 aring.cv03 atilde.cv03 aturned.cv03 u.cv04 uacute.cv04 ubreve.cv04 ucaron.cv04 ucircumflex.cv04 udieresis.cv04 udotbelow.cv04 ugrave.cv04 uhungarumlaut.cv04 umacron.cv04 uogonek.cv04 uring.cv04 utilde.cv04 r.cv15 racute.cv15 rcaron.cv15 rcommaaccent.cv15 rdotbelowmacron.cv15 rmacronbelow.cv15 rturned.cv15 l.cv16 lacute.cv16 lcaron.cv16 lcircumflexbelow.cv16 lcommaaccent.cv16 ldotbelow.cv16 ldotbelowmacron.cv16 lmacronbelow.cv16 lslash.cv16 f.cv19 g.cv20 gbreve.cv20 gcaron.cv20 gcircumflex.cv20 gcommaaccent.cv20 gdotaccent.cv20 gmacron.cv20 gsingle.cv20 a.cv21 aacute.cv21 abreve.cv21 abrevedotbelow.cv21 acaron.cv21 acircumflex.cv21 acircumflexdotbelow.cv21 adblgrave.cv21 adieresis.cv21 adotaccent.cv21 adotbelow.cv21 agrave.cv21 amacron.cv21 aogonek.cv21 aring.cv21 atilde.cv21 aturned.cv21 e.cv22 eacute.cv22 ecaron.cv22 ecedilla.cv22 ecircumflex.cv22 ecircumflexdotbelow.cv22 edieresis.cv22 edotaccent.cv22 edotbelow.cv22 egrave.cv22 emacron.cv22 eogonek.cv22 ereversed.cv22 etilde.cv22 eturned.cv22 schwa.cv22 aacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK b.ss04 bdotbelow.ss04 d.ss04 dcaron.ss04 dcircumflexbelow.ss04 dcroat.ss04 ddotbelow.ss04 dmacronbelow.ss04 h.ss04 hbar.ss04 hbrevebelow.ss04 hcircumflex.ss04 hdotbelow.ss04 hmacronbelow.ss04 k.ss04 kcaron.ss04 kcommaaccent.ss04 kmacronbelow.ss04 l.ss04 lacute.ss04 lcaron.ss04 lcircumflexbelow.ss04 lcommaaccent.ss04 ldotbelow.ss04 ldotbelowmacron.ss04 lmacronbelow.ss04 lslash.ss04 aacute.loclPLK.cv03 l.ss04.cv16 lacute.ss04.cv16 lcaron.ss04.cv16 lcircumflexbelow.ss04.cv16 lcommaaccent.ss04.cv16 ldotbelow.ss04.cv16 ldotbelowmacron.ss04.cv16 lmacronbelow.ss04.cv16 lslash.ss04.cv16 aacute.loclPLK.cv21 a.dnom b.dnom c.dnom d.dnom e.dnom f.dnom g.dnom h.dnom i.dnom j.dnom k.dnom l.dnom m.dnom n.dnom o.dnom p.dnom q.dnom r.dnom s.dnom t.dnom u.dnom v.dnom w.dnom x.dnom y.dnom z.dnom a.numr b.numr c.numr d.numr e.numr f.numr g.numr h.numr i.numr j.numr k.numr l.numr m.numr n.numr o.numr p.numr q.numr r.numr s.numr t.numr u.numr v.numr w.numr x.numr y.numr z.numr j.dnom.cv01 j.numr.cv01 t.dnom.cv02 t.numr.cv02 a.dnom.cv03 a.numr.cv03 u.dnom.cv04 u.numr.cv04 r.dnom.cv15 r.numr.cv15 l.dnom.cv16 l.numr.cv16 f.dnom.cv19 f.numr.cv19 g.dnom.cv20 g.numr.cv20 a.dnom.cv21 a.numr.cv21 e.dnom.cv22 e.numr.cv22 f_f f_f_i f_f_l f_i f_l fi fl f_f.cv19 f_f_i.cv19 f_f_l.cv19 f_i.cv19 f_l.cv19 fi.cv19 fl.cv19";
 name = Lowercase;
 },
 {
@@ -134,7 +134,7 @@ value = (
 );
 }
 );
-date = "2023-09-26 06:56:37 +0000";
+date = "2023-09-26 11:21:13 +0000";
 familyName = "Wanted Sans Std Beta";
 featurePrefixes = (
 {
@@ -405,6 +405,7 @@ feature cv10;
 feature cv11;
 feature cv12;
 feature cv13;
+feature cv14;
 feature cv15;
 feature cv16;
 feature cv17;
@@ -413,7 +414,6 @@ feature cv19;
 feature cv20;
 feature cv21;
 feature cv22;
-feature cv23;
 ";
 tag = aalt;
 },
@@ -1114,7 +1114,7 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv09 cv13 cv15 cv16 cv20 cv21 cv22 cv23
+code = "# Bring cv09 cv13 cv14 cv15 cv19 cv20 cv21 cv22
 sub three by three.cv09;
 sub three.box by three.box.cv09;
 sub three.blackCircled by three.blackCircled.cv09;
@@ -1131,96 +1131,96 @@ sub question by question.cv13;
 sub questiondown by questiondown.cv13;
 sub questiondown.case by questiondown.case.cv13;
 sub questiondown.loclhang by questiondown.loclhang.cv13;
-sub two by two.cv15;
-sub two.box by two.box.cv15;
-sub two.blackCircled by two.blackCircled.cv15;
-sub two.circled by two.circled.cv15;
-sub two.roundBlackBox by two.roundBlackBox.cv15;
-sub two.tf by two.tf.cv15;
-sub two.dnom by two.dnom.cv15;
-sub two.numr by two.numr.cv15;
-sub onehalf by onehalf.cv15;
-sub onehalf.cv07 by onehalf.cv07.cv15;
-sub twoinferior by twoinferior.cv15;
-sub twosuperior by twosuperior.cv15;
-sub r by r.cv16;
-sub racute by racute.cv16;
-sub rcaron by rcaron.cv16;
-sub rcommaaccent by rcommaaccent.cv16;
-sub rdotbelowmacron by rdotbelowmacron.cv16;
-sub rmacronbelow by rmacronbelow.cv16;
-sub rturned by rturned.cv16;
-sub r.dnom by r.dnom.cv16;
-sub r.numr by r.numr.cv16;
-sub r.subs by r.subs.cv16;
-sub r.sups by r.sups.cv16;
-sub f by f.cv20;
-sub f.dnom by f.dnom.cv20;
-sub f.numr by f.numr.cv20;
-sub f_f by f_f.cv20;
-sub f_f_i by f_f_i.cv20;
-sub f_f_l by f_f_l.cv20;
-sub f_i by f_i.cv20;
-sub f_l by f_l.cv20;
-sub fi by fi.cv20;
-sub fl by fl.cv20;
-sub f.subs by f.subs.cv20;
-sub f.sups by f.sups.cv20;
-sub g by g.cv21;
-sub gbreve by gbreve.cv21;
-sub gcaron by gcaron.cv21;
-sub gcircumflex by gcircumflex.cv21;
-sub gcommaaccent by gcommaaccent.cv21;
-sub gdotaccent by gdotaccent.cv21;
-sub gmacron by gmacron.cv21;
-sub gsingle by gsingle.cv21;
-sub g.dnom by g.dnom.cv21;
-sub g.numr by g.numr.cv21;
-sub g.subs by g.subs.cv21;
-sub g.sups by g.sups.cv21;
-sub a by a.cv22;
-sub aacute by aacute.cv22;
-sub abreve by abreve.cv22;
-sub abrevedotbelow by abrevedotbelow.cv22;
-sub acaron by acaron.cv22;
-sub acircumflex by acircumflex.cv22;
-sub acircumflexdotbelow by acircumflexdotbelow.cv22;
-sub adblgrave by adblgrave.cv22;
-sub adieresis by adieresis.cv22;
-sub adotaccent by adotaccent.cv22;
-sub adotbelow by adotbelow.cv22;
-sub agrave by agrave.cv22;
-sub amacron by amacron.cv22;
-sub aogonek by aogonek.cv22;
-sub aring by aring.cv22;
-sub atilde by atilde.cv22;
-sub aturned by aturned.cv22;
-sub aacute.loclPLK by aacute.loclPLK.cv22;
-sub a.dnom by a.dnom.cv22;
-sub a.numr by a.numr.cv22;
-sub a.subs by a.subs.cv22;
-sub a.sups by a.sups.cv22;
-sub ordfeminine by ordfeminine.cv22;
-sub e by e.cv23;
-sub eacute by eacute.cv23;
-sub ecaron by ecaron.cv23;
-sub ecedilla by ecedilla.cv23;
-sub ecircumflex by ecircumflex.cv23;
-sub ecircumflexdotbelow by ecircumflexdotbelow.cv23;
-sub edieresis by edieresis.cv23;
-sub edotaccent by edotaccent.cv23;
-sub edotbelow by edotbelow.cv23;
-sub egrave by egrave.cv23;
-sub emacron by emacron.cv23;
-sub eogonek by eogonek.cv23;
-sub ereversed by ereversed.cv23;
-sub etilde by etilde.cv23;
-sub eturned by eturned.cv23;
-sub schwa by schwa.cv23;
-sub e.dnom by e.dnom.cv23;
-sub e.numr by e.numr.cv23;
-sub e.subs by e.subs.cv23;
-sub e.sups by e.sups.cv23;
+sub two by two.cv14;
+sub two.box by two.box.cv14;
+sub two.blackCircled by two.blackCircled.cv14;
+sub two.circled by two.circled.cv14;
+sub two.roundBlackBox by two.roundBlackBox.cv14;
+sub two.tf by two.tf.cv14;
+sub two.dnom by two.dnom.cv14;
+sub two.numr by two.numr.cv14;
+sub onehalf by onehalf.cv14;
+sub onehalf.cv07 by onehalf.cv07.cv14;
+sub twoinferior by twoinferior.cv14;
+sub twosuperior by twosuperior.cv14;
+sub r by r.cv15;
+sub racute by racute.cv15;
+sub rcaron by rcaron.cv15;
+sub rcommaaccent by rcommaaccent.cv15;
+sub rdotbelowmacron by rdotbelowmacron.cv15;
+sub rmacronbelow by rmacronbelow.cv15;
+sub rturned by rturned.cv15;
+sub r.dnom by r.dnom.cv15;
+sub r.numr by r.numr.cv15;
+sub r.subs by r.subs.cv15;
+sub r.sups by r.sups.cv15;
+sub f by f.cv19;
+sub f.dnom by f.dnom.cv19;
+sub f.numr by f.numr.cv19;
+sub f_f by f_f.cv19;
+sub f_f_i by f_f_i.cv19;
+sub f_f_l by f_f_l.cv19;
+sub f_i by f_i.cv19;
+sub f_l by f_l.cv19;
+sub fi by fi.cv19;
+sub fl by fl.cv19;
+sub f.subs by f.subs.cv19;
+sub f.sups by f.sups.cv19;
+sub g by g.cv20;
+sub gbreve by gbreve.cv20;
+sub gcaron by gcaron.cv20;
+sub gcircumflex by gcircumflex.cv20;
+sub gcommaaccent by gcommaaccent.cv20;
+sub gdotaccent by gdotaccent.cv20;
+sub gmacron by gmacron.cv20;
+sub gsingle by gsingle.cv20;
+sub g.dnom by g.dnom.cv20;
+sub g.numr by g.numr.cv20;
+sub g.subs by g.subs.cv20;
+sub g.sups by g.sups.cv20;
+sub a by a.cv21;
+sub aacute by aacute.cv21;
+sub abreve by abreve.cv21;
+sub abrevedotbelow by abrevedotbelow.cv21;
+sub acaron by acaron.cv21;
+sub acircumflex by acircumflex.cv21;
+sub acircumflexdotbelow by acircumflexdotbelow.cv21;
+sub adblgrave by adblgrave.cv21;
+sub adieresis by adieresis.cv21;
+sub adotaccent by adotaccent.cv21;
+sub adotbelow by adotbelow.cv21;
+sub agrave by agrave.cv21;
+sub amacron by amacron.cv21;
+sub aogonek by aogonek.cv21;
+sub aring by aring.cv21;
+sub atilde by atilde.cv21;
+sub aturned by aturned.cv21;
+sub aacute.loclPLK by aacute.loclPLK.cv21;
+sub a.dnom by a.dnom.cv21;
+sub a.numr by a.numr.cv21;
+sub a.subs by a.subs.cv21;
+sub a.sups by a.sups.cv21;
+sub ordfeminine by ordfeminine.cv21;
+sub e by e.cv22;
+sub eacute by eacute.cv22;
+sub ecaron by ecaron.cv22;
+sub ecedilla by ecedilla.cv22;
+sub ecircumflex by ecircumflex.cv22;
+sub ecircumflexdotbelow by ecircumflexdotbelow.cv22;
+sub edieresis by edieresis.cv22;
+sub edotaccent by edotaccent.cv22;
+sub edotbelow by edotbelow.cv22;
+sub egrave by egrave.cv22;
+sub emacron by emacron.cv22;
+sub eogonek by eogonek.cv22;
+sub ereversed by ereversed.cv22;
+sub etilde by etilde.cv22;
+sub eturned by eturned.cv22;
+sub schwa by schwa.cv22;
+sub e.dnom by e.dnom.cv22;
+sub e.numr by e.numr.cv22;
+sub e.subs by e.subs.cv22;
+sub e.sups by e.sups.cv22;
 # End Bring
 ";
 labels = (
@@ -1290,7 +1290,7 @@ code = "# Customize sets
 
 sub @SS06_L by @SS06_R;
 
-# Bring cv03 cv05 cv09 cv11 cv12 cv17 cv18 cv19
+# Bring cv03 cv05 cv09 cv11 cv12 cv16 cv17 cv18
 sub a by a.cv03;
 sub aacute by aacute.cv03;
 sub abreve by abreve.cv03;
@@ -1364,72 +1364,72 @@ sub seven.numr by seven.numr.cv12;
 sub seveneighths by seveneighths.cv12;
 sub seveninferior by seveninferior.cv12;
 sub sevensuperior by sevensuperior.cv12;
-sub l by l.cv17;
-sub lacute by lacute.cv17;
-sub lcaron by lcaron.cv17;
-sub lcircumflexbelow by lcircumflexbelow.cv17;
-sub lcommaaccent by lcommaaccent.cv17;
-sub ldotbelow by ldotbelow.cv17;
-sub ldotbelowmacron by ldotbelowmacron.cv17;
-sub lmacronbelow by lmacronbelow.cv17;
-sub lslash by lslash.cv17;
-sub l.ss04 by l.ss04.cv17;
-sub lacute.ss04 by lacute.ss04.cv17;
-sub lcaron.ss04 by lcaron.ss04.cv17;
-sub lcircumflexbelow.ss04 by lcircumflexbelow.ss04.cv17;
-sub lcommaaccent.ss04 by lcommaaccent.ss04.cv17;
-sub ldotbelow.ss04 by ldotbelow.ss04.cv17;
-sub ldotbelowmacron.ss04 by ldotbelowmacron.ss04.cv17;
-sub lmacronbelow.ss04 by lmacronbelow.ss04.cv17;
-sub lslash.ss04 by lslash.ss04.cv17;
-sub l.dnom by l.dnom.cv17;
-sub l.numr by l.numr.cv17;
-sub l.subs by l.subs.cv17;
-sub l.sups by l.sups.cv17;
-sub one by one.cv18;
-sub one.box by one.box.cv18;
-sub one.cv07 by one.cv07.cv18;
-sub one.blackCircled by one.blackCircled.cv18;
-sub one.circled by one.circled.cv18;
-sub one.roundBlackBox by one.roundBlackBox.cv18;
-sub one.tf by one.tf.cv18;
-sub one.box.cv07 by one.box.cv07.cv18;
-sub one.blackCircled.cv07 by one.blackCircled.cv07.cv18;
-sub one.circled.cv07 by one.circled.cv07.cv18;
-sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv18;
-sub one.tf.cv07 by one.tf.cv07.cv18;
-sub one.dnom by one.dnom.cv18;
-sub one.numr by one.numr.cv18;
-sub onehalf by onehalf.cv18;
-sub onequarter by onequarter.cv18;
-sub oneeighth by oneeighth.cv18;
-sub one.dnom.cv07 by one.dnom.cv07.cv18;
-sub one.numr.cv07 by one.numr.cv07.cv18;
-sub onehalf.cv07 by onehalf.cv07.cv18;
-sub onequarter.cv07 by onequarter.cv07.cv18;
-sub oneeighth.cv07 by oneeighth.cv07.cv18;
-sub onehalf.cv08 by onehalf.cv08.cv18;
-sub onequarter.cv10 by onequarter.cv10.cv18;
-sub onehalf.cv15 by onehalf.cv15.cv18;
-sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv18;
-sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv18;
-sub onehalf.cv07.cv15 by onehalf.cv07.cv15.cv18;
-sub oneinferior by oneinferior.cv18;
-sub onesuperior by onesuperior.cv18;
-sub oneinferior.cv07 by oneinferior.cv07.cv18;
-sub onesuperior.cv07 by onesuperior.cv07.cv18;
-sub I by I.cv19;
-sub IJ by IJ.cv19;
-sub Iacute by Iacute.cv19;
-sub Icaron by Icaron.cv19;
-sub Icircumflex by Icircumflex.cv19;
-sub Idieresis by Idieresis.cv19;
-sub Idotaccent by Idotaccent.cv19;
-sub Idotbelow by Idotbelow.cv19;
-sub Igrave by Igrave.cv19;
-sub Imacron by Imacron.cv19;
-sub Iogonek by Iogonek.cv19;
-sub Itilde by Itilde.cv19;
+sub l by l.cv16;
+sub lacute by lacute.cv16;
+sub lcaron by lcaron.cv16;
+sub lcircumflexbelow by lcircumflexbelow.cv16;
+sub lcommaaccent by lcommaaccent.cv16;
+sub ldotbelow by ldotbelow.cv16;
+sub ldotbelowmacron by ldotbelowmacron.cv16;
+sub lmacronbelow by lmacronbelow.cv16;
+sub lslash by lslash.cv16;
+sub l.ss04 by l.ss04.cv16;
+sub lacute.ss04 by lacute.ss04.cv16;
+sub lcaron.ss04 by lcaron.ss04.cv16;
+sub lcircumflexbelow.ss04 by lcircumflexbelow.ss04.cv16;
+sub lcommaaccent.ss04 by lcommaaccent.ss04.cv16;
+sub ldotbelow.ss04 by ldotbelow.ss04.cv16;
+sub ldotbelowmacron.ss04 by ldotbelowmacron.ss04.cv16;
+sub lmacronbelow.ss04 by lmacronbelow.ss04.cv16;
+sub lslash.ss04 by lslash.ss04.cv16;
+sub l.dnom by l.dnom.cv16;
+sub l.numr by l.numr.cv16;
+sub l.subs by l.subs.cv16;
+sub l.sups by l.sups.cv16;
+sub one by one.cv17;
+sub one.box by one.box.cv17;
+sub one.cv07 by one.cv07.cv17;
+sub one.blackCircled by one.blackCircled.cv17;
+sub one.circled by one.circled.cv17;
+sub one.roundBlackBox by one.roundBlackBox.cv17;
+sub one.tf by one.tf.cv17;
+sub one.box.cv07 by one.box.cv07.cv17;
+sub one.blackCircled.cv07 by one.blackCircled.cv07.cv17;
+sub one.circled.cv07 by one.circled.cv07.cv17;
+sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv17;
+sub one.tf.cv07 by one.tf.cv07.cv17;
+sub one.dnom by one.dnom.cv17;
+sub one.numr by one.numr.cv17;
+sub onehalf by onehalf.cv17;
+sub onequarter by onequarter.cv17;
+sub oneeighth by oneeighth.cv17;
+sub one.dnom.cv07 by one.dnom.cv07.cv17;
+sub one.numr.cv07 by one.numr.cv07.cv17;
+sub onehalf.cv07 by onehalf.cv07.cv17;
+sub onequarter.cv07 by onequarter.cv07.cv17;
+sub oneeighth.cv07 by oneeighth.cv07.cv17;
+sub onehalf.cv08 by onehalf.cv08.cv17;
+sub onequarter.cv10 by onequarter.cv10.cv17;
+sub onehalf.cv14 by onehalf.cv14.cv17;
+sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv17;
+sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv17;
+sub onehalf.cv07.cv14 by onehalf.cv07.cv14.cv17;
+sub oneinferior by oneinferior.cv17;
+sub onesuperior by onesuperior.cv17;
+sub oneinferior.cv07 by oneinferior.cv07.cv17;
+sub onesuperior.cv07 by onesuperior.cv07.cv17;
+sub I by I.cv18;
+sub IJ by IJ.cv18;
+sub Iacute by Iacute.cv18;
+sub Icaron by Icaron.cv18;
+sub Icircumflex by Icircumflex.cv18;
+sub Idieresis by Idieresis.cv18;
+sub Idotaccent by Idotaccent.cv18;
+sub Idotbelow by Idotbelow.cv18;
+sub Igrave by Igrave.cv18;
+sub Imacron by Imacron.cv18;
+sub Iogonek by Iogonek.cv18;
+sub Itilde by Itilde.cv18;
 # End Bring
 ";
 labels = (
@@ -1811,20 +1811,20 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub two by two.cv15;
-sub two.box by two.box.cv15;
-sub two.blackCircled by two.blackCircled.cv15;
-sub two.circled by two.circled.cv15;
-sub two.roundBlackBox by two.roundBlackBox.cv15;
-sub two.tf by two.tf.cv15;
-sub two.dnom by two.dnom.cv15;
-sub two.numr by two.numr.cv15;
-sub onehalf by onehalf.cv15;
-sub onehalf.cv07 by onehalf.cv07.cv15;
-sub twoinferior by twoinferior.cv15;
-sub twosuperior by twosuperior.cv15;
+sub two by two.cv14;
+sub two.box by two.box.cv14;
+sub two.blackCircled by two.blackCircled.cv14;
+sub two.circled by two.circled.cv14;
+sub two.roundBlackBox by two.roundBlackBox.cv14;
+sub two.tf by two.tf.cv14;
+sub two.dnom by two.dnom.cv14;
+sub two.numr by two.numr.cv14;
+sub onehalf by onehalf.cv14;
+sub onehalf.cv07 by onehalf.cv07.cv14;
+sub twoinferior by twoinferior.cv14;
+sub twosuperior by twosuperior.cv14;
 ";
-tag = cv15;
+tag = cv14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1832,19 +1832,19 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub r by r.cv16;
-sub racute by racute.cv16;
-sub rcaron by rcaron.cv16;
-sub rcommaaccent by rcommaaccent.cv16;
-sub rdotbelowmacron by rdotbelowmacron.cv16;
-sub rmacronbelow by rmacronbelow.cv16;
-sub rturned by rturned.cv16;
-sub r.dnom by r.dnom.cv16;
-sub r.numr by r.numr.cv16;
-sub r.subs by r.subs.cv16;
-sub r.sups by r.sups.cv16;
+sub r by r.cv15;
+sub racute by racute.cv15;
+sub rcaron by rcaron.cv15;
+sub rcommaaccent by rcommaaccent.cv15;
+sub rdotbelowmacron by rdotbelowmacron.cv15;
+sub rmacronbelow by rmacronbelow.cv15;
+sub rturned by rturned.cv15;
+sub r.dnom by r.dnom.cv15;
+sub r.numr by r.numr.cv15;
+sub r.subs by r.subs.cv15;
+sub r.sups by r.sups.cv15;
 ";
-tag = cv16;
+tag = cv15;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1852,30 +1852,30 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub l by l.cv17;
-sub lacute by lacute.cv17;
-sub lcaron by lcaron.cv17;
-sub lcircumflexbelow by lcircumflexbelow.cv17;
-sub lcommaaccent by lcommaaccent.cv17;
-sub ldotbelow by ldotbelow.cv17;
-sub ldotbelowmacron by ldotbelowmacron.cv17;
-sub lmacronbelow by lmacronbelow.cv17;
-sub lslash by lslash.cv17;
-sub l.ss04 by l.ss04.cv17;
-sub lacute.ss04 by lacute.ss04.cv17;
-sub lcaron.ss04 by lcaron.ss04.cv17;
-sub lcircumflexbelow.ss04 by lcircumflexbelow.ss04.cv17;
-sub lcommaaccent.ss04 by lcommaaccent.ss04.cv17;
-sub ldotbelow.ss04 by ldotbelow.ss04.cv17;
-sub ldotbelowmacron.ss04 by ldotbelowmacron.ss04.cv17;
-sub lmacronbelow.ss04 by lmacronbelow.ss04.cv17;
-sub lslash.ss04 by lslash.ss04.cv17;
-sub l.dnom by l.dnom.cv17;
-sub l.numr by l.numr.cv17;
-sub l.subs by l.subs.cv17;
-sub l.sups by l.sups.cv17;
+sub l by l.cv16;
+sub lacute by lacute.cv16;
+sub lcaron by lcaron.cv16;
+sub lcircumflexbelow by lcircumflexbelow.cv16;
+sub lcommaaccent by lcommaaccent.cv16;
+sub ldotbelow by ldotbelow.cv16;
+sub ldotbelowmacron by ldotbelowmacron.cv16;
+sub lmacronbelow by lmacronbelow.cv16;
+sub lslash by lslash.cv16;
+sub l.ss04 by l.ss04.cv16;
+sub lacute.ss04 by lacute.ss04.cv16;
+sub lcaron.ss04 by lcaron.ss04.cv16;
+sub lcircumflexbelow.ss04 by lcircumflexbelow.ss04.cv16;
+sub lcommaaccent.ss04 by lcommaaccent.ss04.cv16;
+sub ldotbelow.ss04 by ldotbelow.ss04.cv16;
+sub ldotbelowmacron.ss04 by ldotbelowmacron.ss04.cv16;
+sub lmacronbelow.ss04 by lmacronbelow.ss04.cv16;
+sub lslash.ss04 by lslash.ss04.cv16;
+sub l.dnom by l.dnom.cv16;
+sub l.numr by l.numr.cv16;
+sub l.subs by l.subs.cv16;
+sub l.sups by l.sups.cv16;
 ";
-tag = cv17;
+tag = cv16;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1883,40 +1883,40 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub one by one.cv18;
-sub one.box by one.box.cv18;
-sub one.cv07 by one.cv07.cv18;
-sub one.blackCircled by one.blackCircled.cv18;
-sub one.circled by one.circled.cv18;
-sub one.roundBlackBox by one.roundBlackBox.cv18;
-sub one.tf by one.tf.cv18;
-sub one.box.cv07 by one.box.cv07.cv18;
-sub one.blackCircled.cv07 by one.blackCircled.cv07.cv18;
-sub one.circled.cv07 by one.circled.cv07.cv18;
-sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv18;
-sub one.tf.cv07 by one.tf.cv07.cv18;
-sub one.dnom by one.dnom.cv18;
-sub one.numr by one.numr.cv18;
-sub onehalf by onehalf.cv18;
-sub onequarter by onequarter.cv18;
-sub oneeighth by oneeighth.cv18;
-sub one.dnom.cv07 by one.dnom.cv07.cv18;
-sub one.numr.cv07 by one.numr.cv07.cv18;
-sub onehalf.cv07 by onehalf.cv07.cv18;
-sub onequarter.cv07 by onequarter.cv07.cv18;
-sub oneeighth.cv07 by oneeighth.cv07.cv18;
-sub onehalf.cv08 by onehalf.cv08.cv18;
-sub onequarter.cv10 by onequarter.cv10.cv18;
-sub onehalf.cv15 by onehalf.cv15.cv18;
-sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv18;
-sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv18;
-sub onehalf.cv07.cv15 by onehalf.cv07.cv15.cv18;
-sub oneinferior by oneinferior.cv18;
-sub onesuperior by onesuperior.cv18;
-sub oneinferior.cv07 by oneinferior.cv07.cv18;
-sub onesuperior.cv07 by onesuperior.cv07.cv18;
+sub one by one.cv17;
+sub one.box by one.box.cv17;
+sub one.cv07 by one.cv07.cv17;
+sub one.blackCircled by one.blackCircled.cv17;
+sub one.circled by one.circled.cv17;
+sub one.roundBlackBox by one.roundBlackBox.cv17;
+sub one.tf by one.tf.cv17;
+sub one.box.cv07 by one.box.cv07.cv17;
+sub one.blackCircled.cv07 by one.blackCircled.cv07.cv17;
+sub one.circled.cv07 by one.circled.cv07.cv17;
+sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv17;
+sub one.tf.cv07 by one.tf.cv07.cv17;
+sub one.dnom by one.dnom.cv17;
+sub one.numr by one.numr.cv17;
+sub onehalf by onehalf.cv17;
+sub onequarter by onequarter.cv17;
+sub oneeighth by oneeighth.cv17;
+sub one.dnom.cv07 by one.dnom.cv07.cv17;
+sub one.numr.cv07 by one.numr.cv07.cv17;
+sub onehalf.cv07 by onehalf.cv07.cv17;
+sub onequarter.cv07 by onequarter.cv07.cv17;
+sub oneeighth.cv07 by oneeighth.cv07.cv17;
+sub onehalf.cv08 by onehalf.cv08.cv17;
+sub onequarter.cv10 by onequarter.cv10.cv17;
+sub onehalf.cv14 by onehalf.cv14.cv17;
+sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv17;
+sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv17;
+sub onehalf.cv07.cv14 by onehalf.cv07.cv14.cv17;
+sub oneinferior by oneinferior.cv17;
+sub onesuperior by onesuperior.cv17;
+sub oneinferior.cv07 by oneinferior.cv07.cv17;
+sub onesuperior.cv07 by onesuperior.cv07.cv17;
 ";
-tag = cv18;
+tag = cv17;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1924,20 +1924,20 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub I by I.cv19;
-sub IJ by IJ.cv19;
-sub Iacute by Iacute.cv19;
-sub Icaron by Icaron.cv19;
-sub Icircumflex by Icircumflex.cv19;
-sub Idieresis by Idieresis.cv19;
-sub Idotaccent by Idotaccent.cv19;
-sub Idotbelow by Idotbelow.cv19;
-sub Igrave by Igrave.cv19;
-sub Imacron by Imacron.cv19;
-sub Iogonek by Iogonek.cv19;
-sub Itilde by Itilde.cv19;
+sub I by I.cv18;
+sub IJ by IJ.cv18;
+sub Iacute by Iacute.cv18;
+sub Icaron by Icaron.cv18;
+sub Icircumflex by Icircumflex.cv18;
+sub Idieresis by Idieresis.cv18;
+sub Idotaccent by Idotaccent.cv18;
+sub Idotbelow by Idotbelow.cv18;
+sub Igrave by Igrave.cv18;
+sub Imacron by Imacron.cv18;
+sub Iogonek by Iogonek.cv18;
+sub Itilde by Itilde.cv18;
 ";
-tag = cv19;
+tag = cv18;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1945,20 +1945,20 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub f by f.cv20;
-sub f.dnom by f.dnom.cv20;
-sub f.numr by f.numr.cv20;
-sub f_f by f_f.cv20;
-sub f_f_i by f_f_i.cv20;
-sub f_f_l by f_f_l.cv20;
-sub f_i by f_i.cv20;
-sub f_l by f_l.cv20;
-sub fi by fi.cv20;
-sub fl by fl.cv20;
-sub f.subs by f.subs.cv20;
-sub f.sups by f.sups.cv20;
+sub f by f.cv19;
+sub f.dnom by f.dnom.cv19;
+sub f.numr by f.numr.cv19;
+sub f_f by f_f.cv19;
+sub f_f_i by f_f_i.cv19;
+sub f_f_l by f_f_l.cv19;
+sub f_i by f_i.cv19;
+sub f_l by f_l.cv19;
+sub fi by fi.cv19;
+sub fl by fl.cv19;
+sub f.subs by f.subs.cv19;
+sub f.sups by f.sups.cv19;
 ";
-tag = cv20;
+tag = cv19;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1966,20 +1966,20 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub g by g.cv21;
-sub gbreve by gbreve.cv21;
-sub gcaron by gcaron.cv21;
-sub gcircumflex by gcircumflex.cv21;
-sub gcommaaccent by gcommaaccent.cv21;
-sub gdotaccent by gdotaccent.cv21;
-sub gmacron by gmacron.cv21;
-sub gsingle by gsingle.cv21;
-sub g.dnom by g.dnom.cv21;
-sub g.numr by g.numr.cv21;
-sub g.subs by g.subs.cv21;
-sub g.sups by g.sups.cv21;
+sub g by g.cv20;
+sub gbreve by gbreve.cv20;
+sub gcaron by gcaron.cv20;
+sub gcircumflex by gcircumflex.cv20;
+sub gcommaaccent by gcommaaccent.cv20;
+sub gdotaccent by gdotaccent.cv20;
+sub gmacron by gmacron.cv20;
+sub gsingle by gsingle.cv20;
+sub g.dnom by g.dnom.cv20;
+sub g.numr by g.numr.cv20;
+sub g.subs by g.subs.cv20;
+sub g.sups by g.sups.cv20;
 ";
-tag = cv21;
+tag = cv20;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1987,31 +1987,31 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub a by a.cv22;
-sub aacute by aacute.cv22;
-sub abreve by abreve.cv22;
-sub abrevedotbelow by abrevedotbelow.cv22;
-sub acaron by acaron.cv22;
-sub acircumflex by acircumflex.cv22;
-sub acircumflexdotbelow by acircumflexdotbelow.cv22;
-sub adblgrave by adblgrave.cv22;
-sub adieresis by adieresis.cv22;
-sub adotaccent by adotaccent.cv22;
-sub adotbelow by adotbelow.cv22;
-sub agrave by agrave.cv22;
-sub amacron by amacron.cv22;
-sub aogonek by aogonek.cv22;
-sub aring by aring.cv22;
-sub atilde by atilde.cv22;
-sub aturned by aturned.cv22;
-sub aacute.loclPLK by aacute.loclPLK.cv22;
-sub a.dnom by a.dnom.cv22;
-sub a.numr by a.numr.cv22;
-sub a.subs by a.subs.cv22;
-sub a.sups by a.sups.cv22;
-sub ordfeminine by ordfeminine.cv22;
+sub a by a.cv21;
+sub aacute by aacute.cv21;
+sub abreve by abreve.cv21;
+sub abrevedotbelow by abrevedotbelow.cv21;
+sub acaron by acaron.cv21;
+sub acircumflex by acircumflex.cv21;
+sub acircumflexdotbelow by acircumflexdotbelow.cv21;
+sub adblgrave by adblgrave.cv21;
+sub adieresis by adieresis.cv21;
+sub adotaccent by adotaccent.cv21;
+sub adotbelow by adotbelow.cv21;
+sub agrave by agrave.cv21;
+sub amacron by amacron.cv21;
+sub aogonek by aogonek.cv21;
+sub aring by aring.cv21;
+sub atilde by atilde.cv21;
+sub aturned by aturned.cv21;
+sub aacute.loclPLK by aacute.loclPLK.cv21;
+sub a.dnom by a.dnom.cv21;
+sub a.numr by a.numr.cv21;
+sub a.subs by a.subs.cv21;
+sub a.sups by a.sups.cv21;
+sub ordfeminine by ordfeminine.cv21;
 ";
-tag = cv22;
+tag = cv21;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -2019,28 +2019,28 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub e by e.cv23;
-sub eacute by eacute.cv23;
-sub ecaron by ecaron.cv23;
-sub ecedilla by ecedilla.cv23;
-sub ecircumflex by ecircumflex.cv23;
-sub ecircumflexdotbelow by ecircumflexdotbelow.cv23;
-sub edieresis by edieresis.cv23;
-sub edotaccent by edotaccent.cv23;
-sub edotbelow by edotbelow.cv23;
-sub egrave by egrave.cv23;
-sub emacron by emacron.cv23;
-sub eogonek by eogonek.cv23;
-sub ereversed by ereversed.cv23;
-sub etilde by etilde.cv23;
-sub eturned by eturned.cv23;
-sub schwa by schwa.cv23;
-sub e.dnom by e.dnom.cv23;
-sub e.numr by e.numr.cv23;
-sub e.subs by e.subs.cv23;
-sub e.sups by e.sups.cv23;
+sub e by e.cv22;
+sub eacute by eacute.cv22;
+sub ecaron by ecaron.cv22;
+sub ecedilla by ecedilla.cv22;
+sub ecircumflex by ecircumflex.cv22;
+sub ecircumflexdotbelow by ecircumflexdotbelow.cv22;
+sub edieresis by edieresis.cv22;
+sub edotaccent by edotaccent.cv22;
+sub edotbelow by edotbelow.cv22;
+sub egrave by egrave.cv22;
+sub emacron by emacron.cv22;
+sub eogonek by eogonek.cv22;
+sub ereversed by ereversed.cv22;
+sub etilde by etilde.cv22;
+sub eturned by eturned.cv22;
+sub schwa by schwa.cv22;
+sub e.dnom by e.dnom.cv22;
+sub e.numr by e.numr.cv22;
+sub e.subs by e.subs.cv22;
+sub e.sups by e.sups.cv22;
 ";
-tag = cv23;
+tag = cv22;
 }
 );
 fontMaster = (
@@ -3529,7 +3529,7 @@ asterisk = 0;
 "@MMK_R_slash.case" = 16;
 periodcentered.loclCAT = -64;
 };
-"@MMK_L_l.cv17" = {
+"@MMK_L_l.cv16" = {
 "@MMK_R_A" = 56;
 "@MMK_R_O" = -40;
 "@MMK_R_T" = -72;
@@ -5442,7 +5442,7 @@ j.cv01 = 0;
 "@MMK_R_slash.case" = 16;
 periodcentered.loclCAT = -64;
 };
-"@MMK_L_l.cv17" = {
+"@MMK_L_l.cv16" = {
 "@MMK_R_A" = 48;
 "@MMK_R_O" = -16;
 "@MMK_R_T" = -88;
@@ -6432,5 +6432,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 900;
+versionMinor = 901;
 }

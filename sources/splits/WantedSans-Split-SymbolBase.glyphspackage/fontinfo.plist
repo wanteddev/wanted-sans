@@ -1517,7 +1517,7 @@ kerningLTR = {
 "@MMK_R_slash" = -18.75;
 "@MMK_R_slash.case" = 7.5;
 };
-"@MMK_L_l.cv17" = {
+"@MMK_L_l.cv16" = {
 "@MMK_R_A" = 22.5;
 "@MMK_R_O" = -7.5;
 "@MMK_R_T" = -41.25;

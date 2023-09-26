@@ -1,0 +1,165 @@
+{
+export = 0;
+glyphname = _smart.fligature.cv19;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (252,0);
+},
+{
+name = bottom;
+pos = (400,0);
+},
+{
+name = top;
+pos = (400,1950);
+}
+);
+layerId = m01;
+partSelection = {
+ff = 1;
+};
+shapes = (
+{
+piece = {
+fi = 1;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (120,0);
+ref = _part.fbase.cv19;
+}
+);
+width = 800;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (228,0);
+},
+{
+name = bottom;
+pos = (476,0);
+},
+{
+name = top;
+pos = (476,1950);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+partSelection = {
+ff = 1;
+};
+shapes = (
+{
+piece = {
+fi = 1;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (120,0);
+ref = _part.fbase.cv19;
+}
+);
+width = 952;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (252,0);
+},
+{
+name = bottom;
+pos = (400,0);
+},
+{
+name = top;
+pos = (400,1950);
+}
+);
+associatedMasterId = m01;
+layerId = "706C7DF0-E3C6-44EF-BCC9-614EA98AA4C1";
+name = ff;
+partSelection = {
+ff = 2;
+};
+shapes = (
+{
+piece = {
+ff = 1;
+fi = 0;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (120,0);
+ref = _part.fbase.cv19;
+}
+);
+width = 624;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (228,0);
+},
+{
+name = bottom;
+pos = (476,0);
+},
+{
+name = top;
+pos = (476,1950);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "8F50047D-5A20-4A65-BA85-B0B74BBD799B";
+name = ff;
+partSelection = {
+ff = 2;
+};
+shapes = (
+{
+piece = {
+ff = 1;
+fi = 0;
+};
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (120,0);
+ref = _part.fbase.cv19;
+}
+);
+width = 808;
+}
+);
+partsSettings = (
+{
+bottomName = Low;
+bottomValue = 0;
+name = ff;
+topName = High;
+topValue = 1;
+}
+);
+}

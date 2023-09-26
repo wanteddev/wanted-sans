@@ -1,0 +1,29 @@
+{
+glyphname = aturned.cv21;
+kernLeft = u;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1160,1032);
+ref = a.cv21;
+}
+);
+width = 1160;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+angle = 180;
+pos = (1316,1032);
+ref = a.cv21;
+}
+);
+width = 1316;
+}
+);
+}
