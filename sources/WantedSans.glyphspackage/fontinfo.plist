@@ -145,7 +145,7 @@ value = (
 );
 }
 );
-date = "2023-09-21 06:03:53 +0000";
+date = "2023-09-26 06:56:37 +0000";
 familyName = "Wanted Sans Beta";
 featurePrefixes = (
 {
@@ -188,11 +188,17 @@ sub @CASE_L' @Separator @Case by @CASE_R;
 } LOOKUP_CALT_1;
 
 lookup LOOKUP_CALT_2 {
-# Separate I and l
+# Improve legibility of I and l
 @I = [
 $[case > 0 and name beginswith \"I\"]
 ];
 
+@Latin = [
+@Uppercase
+@Lowercase
+];
+
+# Separate in confrontation
 sub @I @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_R @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @I by @EXTRA_STEM_LOWERCASE_R;
@@ -207,6 +213,33 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+
+# Separating when close together in confrontation
+sub @I @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @Latin @I by @EXTRA_STEM_LOWERCASE_R;
+
 } LOOKUP_CALT_2;
 
 lookup LOOKUP_CALT_3 {
