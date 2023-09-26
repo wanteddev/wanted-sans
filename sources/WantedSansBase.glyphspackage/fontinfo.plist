@@ -912,7 +912,7 @@ Q.box.bold
 Q.circled.bold
 ];
 
-condition 646 < wght;
+condition 650 < wght;
 sub @RLIG_L by @RLIG_R;
 
 #endif
