@@ -27,7 +27,6 @@ nodes = (
 );
 };
 layerId = m01;
-metricWidth = "=1770";
 shapes = (
 {
 closed = 1;
@@ -117,7 +116,6 @@ nodes = (
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricWidth = "=1770";
 shapes = (
 {
 closed = 1;
@@ -184,4 +182,5 @@ width = 1770;
 );
 metricLeft = N;
 metricRight = N;
+metricWidth = _part.basehangul;
 }

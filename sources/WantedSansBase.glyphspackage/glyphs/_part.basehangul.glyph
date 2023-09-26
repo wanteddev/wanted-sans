@@ -1,0 +1,36 @@
+{
+export = 0;
+glyphname = _part.basehangul;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1770,-298,l),
+(1770,1750,l),
+(0,1746,l),
+(0,-298,l)
+);
+}
+);
+width = 1770;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1770,-298,l),
+(1770,1750,l),
+(0,1746,l),
+(0,-298,l)
+);
+}
+);
+width = 1770;
+}
+);
+}

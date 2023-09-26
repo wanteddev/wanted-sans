@@ -40,5 +40,6 @@ ref = _smart.horizontalbar;
 width = 1770;
 }
 );
+metricWidth = _part.basehangul;
 unicode = 8213;
 }
