@@ -1,0 +1,71 @@
+{
+color = 1;
+glyphname = l.ss04.cv17;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (292,0);
+},
+{
+name = center;
+pos = (216,760);
+},
+{
+name = top;
+pos = (216,1512);
+},
+{
+name = topright;
+pos = (300,1512);
+}
+);
+layerId = m01;
+shapes = (
+{
+piece = {
+Cap = 115.5;
+};
+ref = _smart.lowerstem.curve;
+}
+);
+width = 532;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (386,0);
+},
+{
+name = center;
+pos = (308,760);
+},
+{
+name = top;
+pos = (308,1504);
+},
+{
+name = topright;
+pos = (508,1504);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Cap = 115.5;
+};
+ref = _smart.lowerstem.curve;
+}
+);
+width = 732;
+}
+);
+metricLeft = n;
+metricRight = idotless;
+note = $EXTRA_STEM_LOWERCASE;
+}
