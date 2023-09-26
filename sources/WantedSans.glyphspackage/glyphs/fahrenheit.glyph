@@ -1,5 +1,7 @@
 {
 glyphname = fahrenheit;
+kernLeft = asterisk;
+kernRight = F;
 layers = (
 {
 layerId = m01;
