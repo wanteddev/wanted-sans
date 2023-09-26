@@ -1,0 +1,44 @@
+{
+glyphname = horizontalbar;
+kernLeft = emdash.case;
+kernRight = emdash.case;
+layers = (
+{
+layerId = m01;
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+piece = {
+Case = 0;
+Space = 0;
+Width = 1770;
+};
+pos = (0,184);
+ref = _smart.horizontalbar;
+}
+);
+width = 1770;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+piece = {
+Case = 0;
+Space = 0;
+Width = 1770;
+};
+pos = (0,184);
+ref = _smart.horizontalbar;
+}
+);
+width = 1770;
+}
+);
+unicode = 8213;
+}
