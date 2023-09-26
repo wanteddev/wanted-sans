@@ -1,5 +1,7 @@
 {
 glyphname = centigrade;
+kernLeft = asterisk;
+kernRight = C;
 layers = (
 {
 layerId = m01;
