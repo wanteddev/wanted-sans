@@ -36,7 +36,7 @@ nodes = (
 };
 layerId = m01;
 metricLeft = "=76";
-metricRight = "=84";
+metricRight = "=76";
 partSelection = {
 t = 1;
 "tailless t" = 1;
@@ -57,7 +57,7 @@ nodes = (
 );
 }
 );
-width = 784;
+width = 776;
 },
 {
 anchors = (
