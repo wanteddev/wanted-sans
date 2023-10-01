@@ -2079,19 +2079,19 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 600;
+value = 576;
 },
 {
 name = underlineThickness;
-value = 164;
+value = 120;
 },
 {
 name = strikeoutSize;
-value = 164;
+value = 120;
 },
 {
 name = underlinePosition;
-value = -400;
+value = -320;
 },
 {
 name = typoLineGap;
@@ -2177,19 +2177,19 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 600;
+value = 648;
 },
 {
 name = underlineThickness;
-value = 248;
+value = 264;
 },
 {
 name = strikeoutSize;
-value = 248;
+value = 264;
 },
 {
 name = underlinePosition;
-value = -400;
+value = -256;
 },
 {
 name = typoLineGap;
