@@ -1,4 +1,4 @@
-!/bin/zsh
+#!/bin/zsh
 set -e
 
 script_dir="$(cd "$(dirname "$0")" && pwd)"
