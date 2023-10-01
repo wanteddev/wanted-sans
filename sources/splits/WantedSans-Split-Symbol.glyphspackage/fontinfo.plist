@@ -2336,7 +2336,7 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Wantedlab, Inc.";
+value = "Wanted Lab, Inc.";
 }
 );
 },
@@ -2349,7 +2349,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2023 Wantedlab, Inc.";
+value = "Copyright © 2023 Wanted Lab, Inc.";
 }
 );
 },
@@ -2367,8 +2367,8 @@ key = trademarks;
 values = (
 {
 language = dflt;
-value = "Wanted Sans Symbols is a trademark of Wantedlab, Inc.
-Wanted Logo is a trademark of Wantedlab, Inc.";
+value = "Wanted Sans Symbols is a trademark of Wanted Lab, Inc.
+Wanted Logo is a trademark of Wanted Lab, Inc.";
 }
 );
 },
