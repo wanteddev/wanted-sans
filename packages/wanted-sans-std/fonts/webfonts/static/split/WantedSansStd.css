@@ -12,7 +12,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 1000;
-    src: url("./woff2/WantedSansStd-ExtraBlack.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-ExtraBlack.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -21,7 +21,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 1000;
-    src: url("./woff2/WantedSansStd-ExtraBlack.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-ExtraBlack.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -30,7 +30,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 1000;
-    src: url("./woff2/WantedSansStd-ExtraBlack.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-ExtraBlack.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
 /* [0] */
@@ -39,7 +39,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 900;
-    src: url("./woff2/WantedSansStd-Black.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Black.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -48,7 +48,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 900;
-    src: url("./woff2/WantedSansStd-Black.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Black.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -57,7 +57,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 900;
-    src: url("./woff2/WantedSansStd-Black.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Black.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
 /* [0] */
@@ -66,7 +66,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 800;
-    src: url("./woff2/WantedSansStd-ExtraBold.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-ExtraBold.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -75,7 +75,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 800;
-    src: url("./woff2/WantedSansStd-ExtraBold.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-ExtraBold.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -84,7 +84,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 800;
-    src: url("./woff2/WantedSansStd-ExtraBold.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-ExtraBold.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
 /* [0] */
@@ -93,7 +93,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 700;
-    src: url("./woff2/WantedSansStd-Bold.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Bold.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -102,7 +102,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 700;
-    src: url("./woff2/WantedSansStd-Bold.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Bold.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -111,7 +111,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 700;
-    src: url("./woff2/WantedSansStd-Bold.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Bold.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
 /* [0] */
@@ -120,7 +120,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 600;
-    src: url("./woff2/WantedSansStd-SemiBold.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-SemiBold.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -129,7 +129,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 600;
-    src: url("./woff2/WantedSansStd-SemiBold.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-SemiBold.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -138,7 +138,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 600;
-    src: url("./woff2/WantedSansStd-SemiBold.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-SemiBold.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
 /* [0] */
@@ -147,7 +147,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url("./woff2/WantedSansStd-Medium.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Medium.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -156,7 +156,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url("./woff2/WantedSansStd-Medium.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Medium.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -165,7 +165,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url("./woff2/WantedSansStd-Medium.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Medium.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
 /* [0] */
@@ -174,7 +174,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    src: url("./woff2/WantedSansStd-Regular.subset.0.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Regular.split.0.woff2") format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C7C;
 }
 /* [1] */
@@ -183,7 +183,7 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    src: url("./woff2/WantedSansStd-Regular.subset.1.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Regular.split.1.woff2") format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6-02C7, U+02D0-02DD, U+2000-209F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [2] */
@@ -192,6 +192,6 @@ http://scripts.sil.org/OFL
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    src: url("./woff2/WantedSansStd-Regular.subset.2.woff2") format("woff2");
+    src: url("./woff2/WantedSansStd-Regular.split.2.woff2") format("woff2");
     unicode-range: U+f0000-fffff, U+100000-10ffff;
 }
