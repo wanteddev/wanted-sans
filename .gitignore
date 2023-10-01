@@ -9,7 +9,6 @@ master_ufo
 instance_ufo
 
 # OS generated files #
-######################
 .DS_Store
 .DS_Store?
 ._*
@@ -17,6 +16,14 @@ instance_ufo
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Yarn #
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # Glyphs files #
 *(Autosaved).*
