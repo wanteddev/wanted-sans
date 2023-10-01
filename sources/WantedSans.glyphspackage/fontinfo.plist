@@ -1,5 +1,5 @@
 {
-.appVersion = "3218";
+.appVersion = "3220";
 .formatVersion = 3;
 axes = (
 {
@@ -145,7 +145,7 @@ value = (
 );
 }
 );
-date = "2023-09-26 11:21:13 +0000";
+date = "2023-10-01 10:40:21 +0000";
 familyName = "Wanted Sans";
 featurePrefixes = (
 {
@@ -2090,19 +2090,19 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 600;
+value = 576;
 },
 {
 name = underlineThickness;
-value = 164;
+value = 120;
 },
 {
 name = strikeoutSize;
-value = 164;
+value = 120;
 },
 {
 name = underlinePosition;
-value = -400;
+value = -320;
 },
 {
 name = typoLineGap;
@@ -2188,19 +2188,19 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 600;
+value = 648;
 },
 {
 name = underlineThickness;
-value = 248;
+value = 264;
 },
 {
 name = strikeoutSize;
-value = 248;
+value = 264;
 },
 {
 name = underlinePosition;
-value = -400;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -6443,5 +6443,5 @@ tH = "140";
 };
 };
 versionMajor = 0;
-versionMinor = 901;
+versionMinor = 902;
 }
