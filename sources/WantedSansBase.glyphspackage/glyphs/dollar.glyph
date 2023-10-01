@@ -89,7 +89,7 @@ piece = {
 Open = 0;
 Thin = 1;
 };
-pos = (624,0);
+pos = (622,0);
 ref = _smart.currencystem;
 }
 );
