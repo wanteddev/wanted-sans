@@ -9,7 +9,7 @@ name = "#entry";
 }
 );
 layerId = m01;
-metricRight = "=f*.8";
+metricRight = "=f*1.05";
 shapes = (
 {
 closed = 1;
@@ -77,7 +77,7 @@ name = "#entry";
 );
 associatedMasterId = m01;
 layerId = "2033DC6A-3DCA-4CE3-BEA6-A7DC9DD27F64";
-metricRight = "=f*.6";
+metricRight = "=f*.79";
 name = Hanbin;
 shapes = (
 {

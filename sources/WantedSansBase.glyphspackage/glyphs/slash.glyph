@@ -32,16 +32,16 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 384;
+strokeWidth = 352;
 };
 closed = 0;
 nodes = (
-(586,1448,l),
-(196,-432,l)
+(570,1448,l),
+(180,-432,l)
 );
 }
 );
-width = 782;
+width = 750;
 }
 );
 unicode = 47;
