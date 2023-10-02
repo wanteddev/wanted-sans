@@ -24,7 +24,7 @@ done
 
 echo "Fixing Variable file name..."
 for fonts_file in "$temp_path"/*VF.ttf; do
-    mv "$fonts_file" "${fonts_file/VF/Variable[wght]}"
+    mv "$fonts_file" "${fonts_file/VF/Variable}"
 done
 
 echo "Moving files to appropriate directories..."
