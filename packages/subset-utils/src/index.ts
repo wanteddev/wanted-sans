@@ -90,9 +90,8 @@ async function createOption(kinds: TSubsetKinds, format: Tformat, fontInfo: IFon
     nameFormat: outName
   };
   const fontOptions = fontList.map((fontFile, i) => {
-    const name = fontFile.replace(/\[wght]/g, "")
     const logFormat  = i === 0 ? groupLogFormat : baseLogFormat;
-    const fontName   = basename(name, extname(fontFile));
+    const fontName   = basename(fontFile, extname(fontFile));
     const fontPath   = join(basePath, fontFile);
     const fontOption = {
       fontPath,
@@ -107,8 +106,7 @@ async function createOption(kinds: TSubsetKinds, format: Tformat, fontInfo: IFon
     } 
     
     if(kinds === "split") {
-      const cssName = fontName.replace(/\[wght]/g, "")
-      fontOption.option.cssFile  = join(fontsPath, kinds, cssName + ".css");
+      fontOption.option.cssFile  = join(fontsPath, kinds, fontName + ".css");
     }
     return fontOption;
   });
@@ -121,7 +119,7 @@ export function getFontList(family = FONTFAMILY.WantedSans, options?: TFontListO
 
   const extResult = `.${ext}`;
   const fontList  = variable
-    ? [ family + "Variable[wght]" + extResult ]
+    ? [ family + "Variable" + extResult ]
     : FONTWEIGHTS.map(weight => family + "-" + weight + extResult);
 
   return { family, fontList, options };
