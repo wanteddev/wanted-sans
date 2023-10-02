@@ -19,7 +19,7 @@ pos = (216,1448);
 );
 associatedMasterId = m01;
 layerId = "C1F4A5FD-68FF-4993-AB19-26F653A32675";
-metricRight = "=f/1.56";
+metricRight = "=f/1.18";
 name = Cap;
 partSelection = {
 Cap = 2;
@@ -468,7 +468,7 @@ ref = _smart.lowerstem;
 );
 };
 layerId = m01;
-metricRight = "=f/1.56";
+metricRight = "=f/1.18";
 name = Regular;
 shapes = (
 {

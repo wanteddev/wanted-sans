@@ -12,21 +12,7 @@ lineCapEnd = "4";
 lineCapStart = "4";
 strokeHeight = 168;
 strokePos = "1";
-strokeWidth = 180;
-};
-closed = 0;
-nodes = (
-(158,1448,l),
-(158,-432,l)
-);
-},
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeHeight = 168;
-strokePos = "1";
-strokeWidth = 180;
+strokeWidth = 172;
 };
 closed = 0;
 nodes = (
@@ -42,20 +28,6 @@ width = 640;
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
-{
-attr = {
-lineCapEnd = "4";
-lineCapStart = "4";
-strokeHeight = 384;
-strokePos = 1;
-strokeWidth = 404;
-};
-closed = 0;
-nodes = (
-(166,1448,l),
-(166,-432,l)
-);
-},
 {
 attr = {
 lineCapEnd = "4";
