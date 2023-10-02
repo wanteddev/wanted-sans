@@ -9,14 +9,14 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Condensed = 8;
+Condensed = 16;
 Height = 1880;
 };
 pos = (0,-216);
 ref = _smart.upperstem;
 }
 );
-width = 448;
+width = 440;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

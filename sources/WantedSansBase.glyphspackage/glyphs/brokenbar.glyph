@@ -19,12 +19,12 @@ attr = {
 identifier = ID0x127ce93b0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 168;
+strokeWidth = 160;
 };
 closed = 0;
 nodes = (
-(224,1664,l),
-(224,864,l)
+(220,1664,l),
+(220,864,l)
 );
 },
 {
@@ -32,16 +32,16 @@ attr = {
 identifier = ID0x127ce93b0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 168;
+strokeWidth = 160;
 };
 closed = 0;
 nodes = (
-(224,584,l),
-(224,-216,l)
+(220,584,l),
+(220,-216,l)
 );
 }
 );
-width = 448;
+width = 440;
 },
 {
 background = {
@@ -58,12 +58,12 @@ attr = {
 identifier = ID0x4161dedd0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 384;
+strokeWidth = 360;
 };
 closed = 0;
 nodes = (
-(308,1664,l),
-(308,824,l)
+(296,1664,l),
+(296,824,l)
 );
 },
 {
@@ -71,16 +71,16 @@ attr = {
 identifier = ID0x4161dedd0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 384;
+strokeWidth = 360;
 };
 closed = 0;
 nodes = (
-(308,624,l),
-(308,-216,l)
+(296,624,l),
+(296,-216,l)
 );
 }
 );
-width = 616;
+width = 592;
 }
 );
 metricLeft = I;
