@@ -12,16 +12,16 @@ shapes = (
 attr = {
 lineCapEnd = 4;
 lineCapStart = 4;
-strokeWidth = 160;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
-(516,1448,l),
-(82,-432,l)
+(518,1448,l),
+(84,-432,l)
 );
 }
 );
-width = 598;
+width = 602;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
