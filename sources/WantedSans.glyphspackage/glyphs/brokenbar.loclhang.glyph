@@ -1,6 +1,6 @@
 {
 color = 9;
-glyphname = brokenbar.locllatn;
+glyphname = brokenbar.loclhang;
 kernLeft = p;
 kernRight = q;
 layers = (
@@ -8,8 +8,8 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,-216);
-ref = brokenbar;
+alignment = 1;
+ref = brokenbar.case;
 }
 );
 width = 440;
@@ -18,8 +18,8 @@ width = 440;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (0,-216);
-ref = brokenbar;
+alignment = 1;
+ref = brokenbar.case;
 }
 );
 width = 592;

@@ -1,6 +1,6 @@
 {
 color = 9;
-glyphname = bar.locllatn;
+glyphname = bar.loclhang;
 kernLeft = p;
 kernRight = q;
 layers = (
@@ -8,8 +8,8 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,-216);
-ref = bar;
+alignment = 1;
+ref = bar.case;
 }
 );
 width = 440;
@@ -18,8 +18,8 @@ width = 440;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (0,-216);
-ref = bar;
+alignment = 1;
+ref = bar.case;
 }
 );
 width = 592;
