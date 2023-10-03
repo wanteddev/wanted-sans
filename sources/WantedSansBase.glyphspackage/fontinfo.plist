@@ -331,6 +331,8 @@ sub guillemetright by guillemetright.case;
 sub guilsinglleft by guilsinglleft.case;
 sub guilsinglright by guilsinglright.case;
 sub at by at.case;
+sub bar by bar.case;
+sub brokenbar by brokenbar.case;
 sub plus by plus.case;
 sub minus by minus.case;
 sub multiply by multiply.case;
@@ -494,24 +496,18 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
+language CAT;
 lookup locl_latn_3 {
-	sub bar by bar.locllatn;
-	sub brokenbar by brokenbar.locllatn;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_3;
 
 script latn;
-language CAT;
-lookup locl_latn_4 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_4;
-
-script latn;
 language NLD;
-lookup locl_latn_5 {
+lookup locl_latn_4 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_5;
+} locl_latn_4;
 
 script hang;
 lookup locl_hang_0 {
@@ -538,6 +534,8 @@ lookup locl_hang_0 {
 	sub guilsinglleft by guilsinglleft.loclhang;
 	sub guilsinglright by guilsinglright.loclhang;
 	sub at by at.loclhang;
+	sub bar by bar.loclhang;
+	sub brokenbar by brokenbar.loclhang;
 	sub plus by plus.loclhang;
 	sub minus by minus.loclhang;
 	sub multiply by multiply.loclhang;
@@ -838,6 +836,8 @@ sub guillemetright by guillemetright.case;
 sub guilsinglleft by guilsinglleft.case;
 sub guilsinglright by guilsinglright.case;
 sub at by at.case;
+sub bar by bar.case;
+sub brokenbar by brokenbar.case;
 sub plus by plus.case;
 sub minus by minus.case;
 sub multiply by multiply.case;

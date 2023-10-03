@@ -12,7 +12,7 @@ piece = {
 Condensed = 16;
 Height = 1880;
 };
-pos = (0,-216);
+pos = (0,-432);
 ref = _smart.upperstem;
 }
 );
@@ -27,7 +27,7 @@ piece = {
 Condensed = 56;
 Height = 1880;
 };
-pos = (0,-216);
+pos = (0,-432);
 ref = _smart.upperstem;
 }
 );
