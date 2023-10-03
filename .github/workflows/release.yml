@@ -24,7 +24,7 @@ jobs:
           cd packages
 
           # Remove Split Files
-          find -wholename "**/webfonts/*/split" -delete
+          find -wholename "**/webfonts/*/split*" -delete
 
           # Zip
           (cd wanted-sans/fonts && zip -rv - .) > WantedSans-${{ env.RELEASE_NAME }}.zip
