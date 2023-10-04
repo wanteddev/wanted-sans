@@ -1243,8 +1243,12 @@ value = "Stylistic forms";
 tag = ss03;
 },
 {
-automatic = 1;
-code = "sub b by b.ss04;
+code = "# Manually added code
+sub f_l.cv19 by f_l.ss04.cv19;
+sub f_f_l.cv19 by f_f_l.ss04.cv19;
+
+# Copy and paste codes below automatically generated feature
+sub b by b.ss04;
 sub bdotbelow by bdotbelow.ss04;
 sub d by d.ss04;
 sub dcaron by dcaron.ss04;
@@ -1303,6 +1307,12 @@ code = "# Customize sets
 ];
 
 sub @SS06_L by @SS06_R;
+
+# Manually added code
+sub f_l.cv19 by f_l.cv16.cv19;
+sub f_f_l.cv19 by f_f_l.cv16.cv19;
+sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
+sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
 
 # Bring cv03 cv05 cv09 cv11 cv12 cv16 cv17 cv18
 sub a by a.cv03;
@@ -1870,6 +1880,12 @@ tag = cv15;
 code = "cvParameters { FeatUILabelNameID { 
 	name \"Legible l\";
 }; };
+
+# Manually added code
+sub f_l.cv19 by f_l.cv16.cv19;
+sub f_f_l.cv19 by f_f_l.cv16.cv19;
+sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
+sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
 
 # Copy and paste codes below automatically generated feature
 sub l by l.cv16;
