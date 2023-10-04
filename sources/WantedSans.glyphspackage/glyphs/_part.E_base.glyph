@@ -45,7 +45,7 @@ nodes = (
 );
 };
 layerId = m01;
-metricRight = "=I*.76";
+metricRight = "=I*.66";
 shapes = (
 {
 attr = {
@@ -81,7 +81,7 @@ nodes = (
 );
 }
 );
-width = 842;
+width = 828;
 },
 {
 anchors = (
