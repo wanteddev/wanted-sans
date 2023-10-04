@@ -24,7 +24,7 @@ shapes = (
 ref = l.ss04.cv16;
 },
 {
-pos = (308,472);
+pos = (308,480);
 ref = caroncomb;
 }
 );

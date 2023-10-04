@@ -32,7 +32,7 @@ pos = (386,0);
 ref = dotbelowcomb;
 },
 {
-pos = (308,472);
+pos = (308,480);
 ref = macroncomb;
 }
 );
