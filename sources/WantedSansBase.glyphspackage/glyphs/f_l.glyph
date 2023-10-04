@@ -1,5 +1,8 @@
 {
+color = 0;
 glyphname = f_l;
+kernLeft = f;
+kernRight = l;
 layers = (
 {
 layerId = m01;
@@ -22,4 +25,5 @@ width = 1568;
 );
 metricLeft = fl;
 metricRight = fl;
+note = $EXTRA_STEM_LOWERCASE;
 }

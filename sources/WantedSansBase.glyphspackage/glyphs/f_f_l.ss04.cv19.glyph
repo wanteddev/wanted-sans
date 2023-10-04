@@ -1,6 +1,6 @@
 {
-color = 0;
-glyphname = f_f_l.cv19;
+color = 1;
+glyphname = f_f_l.ss04.cv19;
 kernLeft = f;
 kernRight = l;
 layers = (
@@ -37,7 +37,7 @@ piece = {
 Group = 1;
 };
 pos = (1424,0);
-ref = l;
+ref = l.ss04;
 }
 );
 width = 1856;
@@ -75,7 +75,7 @@ piece = {
 Group = 1;
 };
 pos = (1760,0);
-ref = l;
+ref = l.ss04;
 }
 );
 width = 2376;
