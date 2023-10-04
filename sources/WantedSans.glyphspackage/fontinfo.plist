@@ -1255,6 +1255,7 @@ tag = ss03;
 },
 {
 code = "# Manually added code
+sub fl.cv19 by fl.ss04.cv19;
 sub f_l.cv19 by f_l.ss04.cv19;
 sub f_f_l.cv19 by f_f_l.ss04.cv19;
 
@@ -1318,12 +1319,6 @@ code = "# Customize sets
 ];
 
 sub @SS06_L by @SS06_R;
-
-# Manually added code
-sub f_l.cv19 by f_l.cv16.cv19;
-sub f_f_l.cv19 by f_f_l.cv16.cv19;
-sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
-sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
 
 # Bring cv03 cv05 cv09 cv11 cv12 cv16 cv17 cv18
 sub a by a.cv03;
@@ -1399,6 +1394,12 @@ sub seven.numr by seven.numr.cv12;
 sub seveneighths by seveneighths.cv12;
 sub seveninferior by seveninferior.cv12;
 sub sevensuperior by sevensuperior.cv12;
+sub fl.cv19 by fl.cv16.cv19;
+sub f_l.cv19 by f_l.cv16.cv19;
+sub f_f_l.cv19 by f_f_l.cv16.cv19;
+sub fl.ss04.cv19 by fl.ss04.cv16.cv19;
+sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
+sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
 sub l by l.cv16;
 sub lacute by lacute.cv16;
 sub lcaron by lcaron.cv16;
@@ -1893,11 +1894,12 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Manually added code
+sub fl.cv19 by fl.cv16.cv19;
 sub f_l.cv19 by f_l.cv16.cv19;
 sub f_f_l.cv19 by f_f_l.cv16.cv19;
+sub fl.ss04.cv19 by fl.ss04.cv16.cv19;
 sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
 sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
-
 # Copy and paste codes below automatically generated feature
 sub l by l.cv16;
 sub lacute by lacute.cv16;
