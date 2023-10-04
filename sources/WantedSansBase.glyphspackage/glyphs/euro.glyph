@@ -10,18 +10,18 @@ metricRight = "=O*1.5";
 shapes = (
 {
 alignment = -1;
-pos = (164,0);
+pos = (150,0);
 ref = _part.eurobase;
 },
 {
 piece = {
 Width = 976;
 };
-pos = (44,0);
+pos = (30,0);
 ref = _smart.currencybardouble;
 }
 );
-width = 1290;
+width = 1276;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

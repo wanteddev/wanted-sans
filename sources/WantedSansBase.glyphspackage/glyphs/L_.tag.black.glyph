@@ -45,7 +45,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x15f0e83c0;
+identifier = ID0x127605a90;
 strokePos = 1;
 };
 closed = 1;
@@ -65,7 +65,7 @@ weight = -72;
 width = 52.5;
 };
 };
-width = 592;
+width = 588;
 },
 {
 anchors = (
@@ -107,7 +107,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x15f0fcc90;
+identifier = ID0x1276127b0;
 strokePos = "1";
 };
 closed = 1;
@@ -127,7 +127,7 @@ weight = -480;
 width = 55;
 };
 };
-width = 638;
+width = 636;
 }
 );
 note = "# Required RMX Scaler";

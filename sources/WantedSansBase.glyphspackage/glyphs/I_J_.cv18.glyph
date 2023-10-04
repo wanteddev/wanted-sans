@@ -10,11 +10,11 @@ shapes = (
 ref = I.cv18;
 },
 {
-pos = (908,0);
+pos = (880,0);
 ref = J;
 }
 );
-width = 2048;
+width = 2020;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
