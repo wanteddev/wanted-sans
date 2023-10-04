@@ -1,6 +1,6 @@
 {
-color = 0;
-glyphname = f_f_l.cv19;
+color = 1;
+glyphname = f_f_l.ss04.cv16;
 kernLeft = f;
 kernRight = l;
 layers = (
@@ -8,11 +8,11 @@ layers = (
 background = {
 shapes = (
 {
-ref = f.cv19;
+ref = f;
 },
 {
 pos = (624,0);
-ref = f.cv19;
+ref = f;
 },
 {
 pos = (1424,0);
@@ -26,31 +26,31 @@ shapes = (
 piece = {
 ff = 1;
 };
-ref = _smart.fligature.cv19;
+ref = _smart.fligature;
 },
 {
 pos = (624,0);
-ref = _smart.fligature.cv19;
+ref = _smart.fligature;
 },
 {
 piece = {
 Group = 1;
 };
 pos = (1424,0);
-ref = l;
+ref = l.ss04.cv16;
 }
 );
-width = 1856;
+width = 1956;
 },
 {
 background = {
 shapes = (
 {
-ref = f.cv19;
+ref = f;
 },
 {
 pos = (808,0);
-ref = f.cv19;
+ref = f;
 },
 {
 pos = (1760,0);
@@ -64,21 +64,21 @@ shapes = (
 piece = {
 ff = 1;
 };
-ref = _smart.fligature.cv19;
+ref = _smart.fligature;
 },
 {
 pos = (808,0);
-ref = _smart.fligature.cv19;
+ref = _smart.fligature;
 },
 {
 piece = {
 Group = 1;
 };
 pos = (1760,0);
-ref = l;
+ref = l.ss04.cv16;
 }
 );
-width = 2376;
+width = 2492;
 }
 );
 metricLeft = f;

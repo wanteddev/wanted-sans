@@ -1,6 +1,6 @@
 {
-color = 0;
-glyphname = fl;
+color = 1;
+glyphname = fl.ss04;
 kernLeft = f;
 kernRight = l;
 layers = (
@@ -23,7 +23,7 @@ ref = _smart.fligature;
 },
 {
 pos = (800,0);
-ref = l;
+ref = l.ss04;
 }
 );
 width = 1232;
@@ -47,7 +47,7 @@ ref = _smart.fligature;
 },
 {
 pos = (952,0);
-ref = l;
+ref = l.ss04;
 }
 );
 width = 1568;
@@ -56,5 +56,4 @@ width = 1568;
 metricLeft = f;
 metricRight = l;
 note = $EXTRA_STEM_LOWERCASE;
-unicode = 64258;
 }
