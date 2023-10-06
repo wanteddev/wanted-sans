@@ -1518,7 +1518,6 @@ sub Imacron by Imacron.cv18;
 sub Iogonek by Iogonek.cv18;
 sub Itilde by Itilde.cv18;
 # End Bring
-
 ";
 labels = (
 {
