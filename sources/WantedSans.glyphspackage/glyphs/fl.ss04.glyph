@@ -5,45 +5,23 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = f;
-},
-{
-pos = (800,0);
-ref = l;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
-ref = _smart.fligature;
-},
-{
-pos = (800,0);
-ref = l.ss04;
-}
-);
-width = 1232;
-},
-{
-background = {
-shapes = (
-{
 ref = f;
 },
 {
-pos = (952,0);
-ref = l;
+pos = (776,0);
+ref = l.ss04;
 }
 );
-};
+width = 1208;
+},
+{
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = _smart.fligature;
+ref = f;
 },
 {
 pos = (952,0);
@@ -55,5 +33,4 @@ width = 1568;
 );
 metricLeft = f;
 metricRight = l;
-note = $EXTRA_STEM_LOWERCASE;
 }

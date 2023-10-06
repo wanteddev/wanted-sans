@@ -5,83 +5,40 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = f;
-},
-{
-pos = (624,0);
-ref = f;
-},
-{
-pos = (1424,0);
-ref = l;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
-piece = {
-ff = 1;
-};
-ref = _smart.fligature;
+ref = f;
 },
 {
-pos = (624,0);
-ref = _smart.fligature;
+pos = (776,0);
+ref = f;
 },
 {
-piece = {
-Group = 1;
-};
-pos = (1424,0);
+pos = (1552,0);
 ref = l.cv16;
 }
 );
-width = 1956;
+width = 2084;
 },
 {
-background = {
-shapes = (
-{
-ref = f;
-},
-{
-pos = (808,0);
-ref = f;
-},
-{
-pos = (1760,0);
-ref = l;
-}
-);
-};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-piece = {
-ff = 1;
-};
-ref = _smart.fligature;
+ref = f;
 },
 {
-pos = (808,0);
-ref = _smart.fligature;
+pos = (952,0);
+ref = f;
 },
 {
-piece = {
-Group = 1;
-};
-pos = (1760,0);
+pos = (1904,0);
 ref = l.cv16;
 }
 );
-width = 2492;
+width = 2636;
 }
 );
 metricLeft = f;
 metricRight = l;
-note = $EXTRA_STEM_LOWERCASE;
 }

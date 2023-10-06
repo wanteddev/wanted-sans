@@ -4,80 +4,40 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = f;
-},
-{
-pos = (624,0);
-ref = f;
-},
-{
-pos = (1424,0);
-ref = i;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
-piece = {
-ff = 1;
-};
-ref = _smart.fligature;
-},
-{
-pos = (624,0);
-ref = _smart.fligature;
-},
-{
-pos = (1424,0);
-ref = i;
-}
-);
-width = 1856;
-},
-{
-background = {
-shapes = (
-{
 ref = f;
 },
 {
-pos = (808,0);
+pos = (776,0);
 ref = f;
 },
 {
-pos = (1760,0);
+pos = (1552,0);
 ref = i;
 }
 );
-};
+width = 1984;
+},
+{
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-piece = {
-ff = 1;
-};
-ref = _smart.fligature;
+ref = f;
 },
 {
-piece = {
-Group = 1;
-};
-pos = (808,0);
-ref = _smart.fligature;
+pos = (952,0);
+ref = f;
 },
 {
-pos = (1760,0);
+pos = (1904,0);
 ref = i;
 }
 );
-width = 2376;
+width = 2520;
 }
 );
 metricLeft = f;
 metricRight = i;
-unicode = 64259;
 }

@@ -36,7 +36,7 @@ pos = (120,0);
 ref = _part.fbase.cv19;
 }
 );
-width = 800;
+width = 776;
 },
 {
 anchors = (

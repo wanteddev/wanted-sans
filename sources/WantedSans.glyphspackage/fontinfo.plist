@@ -15,7 +15,7 @@ name = Uppercase;
 },
 {
 automatic = 1;
-code = "a aacute abreve abrevedotbelow acaron acircumflex acircumflexdotbelow adblgrave adieresis adotaccent adotbelow agrave alpha-latin alphaturned-latin amacron aogonek aring atilde aturned ae b bdotbelow c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcircumflexbelow dcroat ddotbelow dmacronbelow eth e eacute ecaron ecedilla ecircumflex ecircumflexdotbelow edieresis edotaccent edotbelow egrave emacron eogonek ereversed etilde eturned schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gsingle h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow i idotless iacute icaron icircumflex idieresis idotaccent idotbelow igrave imacron iogonek istroke itilde ij j jdotless jacute jcircumflex k kcaron kcommaaccent kmacronbelow kturned l lacute lcaron lcircumflexbelow lcommaaccent ldotbelow ldotbelowmacron lmacronbelow lslash m macute mdotaccent mdotbelow mturned n nacute ncaron ncircumflexbelow ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde o oacute ocaron ocircumflex ocircumflexdotbelow odieresis odotbelow ograve ohungarumlaut omacron oopen oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent rdotbelowmacron rmacronbelow rturned s sacute scaron scedilla scircumflex scommaaccent sdotbelow germandbls t tcaron tcedilla tcircumflexbelow tcommaaccent tdieresis tdotbelow tmacronbelow u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde v vturned w wacute wcircumflex wdieresis wgrave wturned x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave ymacron ytilde yturned z zacute zcaron zdotaccent zdotbelow zmacronbelow j.cv01 jdotless.cv01 jacute.cv01 jcircumflex.cv01 t.cv02 tcaron.cv02 tcedilla.cv02 tcircumflexbelow.cv02 tcommaaccent.cv02 tdieresis.cv02 tdotbelow.cv02 tmacronbelow.cv02 a.cv03 aacute.cv03 abreve.cv03 abrevedotbelow.cv03 acaron.cv03 acircumflex.cv03 acircumflexdotbelow.cv03 adblgrave.cv03 adieresis.cv03 adotaccent.cv03 adotbelow.cv03 agrave.cv03 amacron.cv03 aogonek.cv03 aring.cv03 atilde.cv03 aturned.cv03 u.cv04 uacute.cv04 ubreve.cv04 ucaron.cv04 ucircumflex.cv04 udieresis.cv04 udotbelow.cv04 ugrave.cv04 uhungarumlaut.cv04 umacron.cv04 uogonek.cv04 uring.cv04 utilde.cv04 r.cv15 racute.cv15 rcaron.cv15 rcommaaccent.cv15 rdotbelowmacron.cv15 rmacronbelow.cv15 rturned.cv15 l.cv16 lacute.cv16 lcaron.cv16 lcircumflexbelow.cv16 lcommaaccent.cv16 ldotbelow.cv16 ldotbelowmacron.cv16 lmacronbelow.cv16 lslash.cv16 f.cv19 g.cv20 gbreve.cv20 gcaron.cv20 gcircumflex.cv20 gcommaaccent.cv20 gdotaccent.cv20 gmacron.cv20 gsingle.cv20 a.cv21 aacute.cv21 abreve.cv21 abrevedotbelow.cv21 acaron.cv21 acircumflex.cv21 acircumflexdotbelow.cv21 adblgrave.cv21 adieresis.cv21 adotaccent.cv21 adotbelow.cv21 agrave.cv21 amacron.cv21 aogonek.cv21 aring.cv21 atilde.cv21 aturned.cv21 e.cv22 eacute.cv22 ecaron.cv22 ecedilla.cv22 ecircumflex.cv22 ecircumflexdotbelow.cv22 edieresis.cv22 edotaccent.cv22 edotbelow.cv22 egrave.cv22 emacron.cv22 eogonek.cv22 ereversed.cv22 etilde.cv22 eturned.cv22 schwa.cv22 aacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK b.ss04 bdotbelow.ss04 d.ss04 dcaron.ss04 dcircumflexbelow.ss04 dcroat.ss04 ddotbelow.ss04 dmacronbelow.ss04 h.ss04 hbar.ss04 hbrevebelow.ss04 hcircumflex.ss04 hdotbelow.ss04 hmacronbelow.ss04 k.ss04 kcaron.ss04 kcommaaccent.ss04 kmacronbelow.ss04 l.ss04 lacute.ss04 lcaron.ss04 lcircumflexbelow.ss04 lcommaaccent.ss04 ldotbelow.ss04 ldotbelowmacron.ss04 lmacronbelow.ss04 lslash.ss04 aacute.loclPLK.cv03 l.ss04.cv16 lacute.ss04.cv16 lcaron.ss04.cv16 lcircumflexbelow.ss04.cv16 lcommaaccent.ss04.cv16 ldotbelow.ss04.cv16 ldotbelowmacron.ss04.cv16 lmacronbelow.ss04.cv16 lslash.ss04.cv16 aacute.loclPLK.cv21 a.dnom b.dnom c.dnom d.dnom e.dnom f.dnom g.dnom h.dnom i.dnom j.dnom k.dnom l.dnom m.dnom n.dnom o.dnom p.dnom q.dnom r.dnom s.dnom t.dnom u.dnom v.dnom w.dnom x.dnom y.dnom z.dnom a.numr b.numr c.numr d.numr e.numr f.numr g.numr h.numr i.numr j.numr k.numr l.numr m.numr n.numr o.numr p.numr q.numr r.numr s.numr t.numr u.numr v.numr w.numr x.numr y.numr z.numr j.dnom.cv01 j.numr.cv01 t.dnom.cv02 t.numr.cv02 a.dnom.cv03 a.numr.cv03 u.dnom.cv04 u.numr.cv04 r.dnom.cv15 r.numr.cv15 l.dnom.cv16 l.numr.cv16 f.dnom.cv19 f.numr.cv19 g.dnom.cv20 g.numr.cv20 a.dnom.cv21 a.numr.cv21 e.dnom.cv22 e.numr.cv22 f_f f_f_i f_f_l f_i f_l fi fl f_f_l.cv16 f_l.cv16 fl.cv16 f_f.cv19 f_f_i.cv19 f_f_l.cv19 f_i.cv19 f_l.cv19 fi.cv19 fl.cv19 f_f_l.ss04 f_l.ss04 fl.ss04 f_f_l.cv16.cv19 f_l.cv16.cv19 fl.ss04.cv16 fl.cv16.cv19 fl.ss04.cv19 f_f_l.ss04.cv16 f_l.ss04.cv16 f_f_l.ss04.cv19 f_l.ss04.cv19 fl.ss04.cv16.cv19 f_f_l.ss04.cv16.cv19 f_l.ss04.cv16.cv19";
+code = "a aacute abreve abrevedotbelow acaron acircumflex acircumflexdotbelow adblgrave adieresis adotaccent adotbelow agrave alpha-latin alphaturned-latin amacron aogonek aring atilde aturned ae b bdotbelow c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcircumflexbelow dcroat ddotbelow dmacronbelow eth e eacute ecaron ecedilla ecircumflex ecircumflexdotbelow edieresis edotaccent edotbelow egrave emacron eogonek ereversed etilde eturned schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gsingle h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow i idotless iacute icaron icircumflex idieresis idotaccent idotbelow igrave imacron iogonek istroke itilde ij j jdotless jacute jcircumflex k kcaron kcommaaccent kmacronbelow kturned l lacute lcaron lcircumflexbelow lcommaaccent ldotbelow ldotbelowmacron lmacronbelow lslash m macute mdotaccent mdotbelow mturned n nacute ncaron ncircumflexbelow ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde o oacute ocaron ocircumflex ocircumflexdotbelow odieresis odotbelow ograve ohungarumlaut omacron oopen oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent rdotbelowmacron rmacronbelow rturned s sacute scaron scedilla scircumflex scommaaccent sdotbelow germandbls t tcaron tcedilla tcircumflexbelow tcommaaccent tdieresis tdotbelow tmacronbelow u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde v vturned w wacute wcircumflex wdieresis wgrave wturned x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave ymacron ytilde yturned z zacute zcaron zdotaccent zdotbelow zmacronbelow j.cv01 jdotless.cv01 jacute.cv01 jcircumflex.cv01 t.cv02 tcaron.cv02 tcedilla.cv02 tcircumflexbelow.cv02 tcommaaccent.cv02 tdieresis.cv02 tdotbelow.cv02 tmacronbelow.cv02 a.cv03 aacute.cv03 abreve.cv03 abrevedotbelow.cv03 acaron.cv03 acircumflex.cv03 acircumflexdotbelow.cv03 adblgrave.cv03 adieresis.cv03 adotaccent.cv03 adotbelow.cv03 agrave.cv03 amacron.cv03 aogonek.cv03 aring.cv03 atilde.cv03 aturned.cv03 u.cv04 uacute.cv04 ubreve.cv04 ucaron.cv04 ucircumflex.cv04 udieresis.cv04 udotbelow.cv04 ugrave.cv04 uhungarumlaut.cv04 umacron.cv04 uogonek.cv04 uring.cv04 utilde.cv04 r.cv15 racute.cv15 rcaron.cv15 rcommaaccent.cv15 rdotbelowmacron.cv15 rmacronbelow.cv15 rturned.cv15 l.cv16 lacute.cv16 lcaron.cv16 lcircumflexbelow.cv16 lcommaaccent.cv16 ldotbelow.cv16 ldotbelowmacron.cv16 lmacronbelow.cv16 lslash.cv16 f.cv19 g.cv20 gbreve.cv20 gcaron.cv20 gcircumflex.cv20 gcommaaccent.cv20 gdotaccent.cv20 gmacron.cv20 gsingle.cv20 a.cv21 aacute.cv21 abreve.cv21 abrevedotbelow.cv21 acaron.cv21 acircumflex.cv21 acircumflexdotbelow.cv21 adblgrave.cv21 adieresis.cv21 adotaccent.cv21 adotbelow.cv21 agrave.cv21 amacron.cv21 aogonek.cv21 aring.cv21 atilde.cv21 aturned.cv21 e.cv22 eacute.cv22 ecaron.cv22 ecedilla.cv22 ecircumflex.cv22 ecircumflexdotbelow.cv22 edieresis.cv22 edotaccent.cv22 edotbelow.cv22 egrave.cv22 emacron.cv22 eogonek.cv22 ereversed.cv22 etilde.cv22 eturned.cv22 schwa.cv22 aacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK b.ss04 bdotbelow.ss04 d.ss04 dcaron.ss04 dcircumflexbelow.ss04 dcroat.ss04 ddotbelow.ss04 dmacronbelow.ss04 h.ss04 hbar.ss04 hbrevebelow.ss04 hcircumflex.ss04 hdotbelow.ss04 hmacronbelow.ss04 k.ss04 kcaron.ss04 kcommaaccent.ss04 kmacronbelow.ss04 l.ss04 lacute.ss04 lcaron.ss04 lcircumflexbelow.ss04 lcommaaccent.ss04 ldotbelow.ss04 ldotbelowmacron.ss04 lmacronbelow.ss04 lslash.ss04 aacute.loclPLK.cv03 l.ss04.cv16 lacute.ss04.cv16 lcaron.ss04.cv16 lcircumflexbelow.ss04.cv16 lcommaaccent.ss04.cv16 ldotbelow.ss04.cv16 ldotbelowmacron.ss04.cv16 lmacronbelow.ss04.cv16 lslash.ss04.cv16 aacute.loclPLK.cv21 a.dnom b.dnom c.dnom d.dnom e.dnom f.dnom g.dnom h.dnom i.dnom j.dnom k.dnom l.dnom m.dnom n.dnom o.dnom p.dnom q.dnom r.dnom s.dnom t.dnom u.dnom v.dnom w.dnom x.dnom y.dnom z.dnom a.numr b.numr c.numr d.numr e.numr f.numr g.numr h.numr i.numr j.numr k.numr l.numr m.numr n.numr o.numr p.numr q.numr r.numr s.numr t.numr u.numr v.numr w.numr x.numr y.numr z.numr j.dnom.cv01 j.numr.cv01 t.dnom.cv02 t.numr.cv02 a.dnom.cv03 a.numr.cv03 u.dnom.cv04 u.numr.cv04 r.dnom.cv15 r.numr.cv15 l.dnom.cv16 l.numr.cv16 f.dnom.cv19 f.numr.cv19 g.dnom.cv20 g.numr.cv20 a.dnom.cv21 a.numr.cv21 e.dnom.cv22 e.numr.cv22 f_f.dlig f_f f_f_i.dlig f_f_i f_f_l.dlig f_f_l fi fl f_f_l.cv16 fl.cv16 f_f.cv19 f_f_i.cv19 f_f_l.cv19 fi.cv19 fl.cv19 fi.dlig fl.dlig f_f_l.ss04 fl.ss04 f_f_l.cv16.cv19 fl.dlig.cv16 fl.ss04.cv16 fl.cv16.cv19 fi.dlig.cv19 fl.dlig.cv19 fl.ss04.cv19 f_f_l.dlig.cv16 f_f.dlig.cv19 f_f_i.dlig.cv19 f_f_l.dlig.cv19 f_f_l.dlig.ss04 f_f_l.ss04.cv16 f_f_l.ss04.cv19 fl.dlig.ss04 fl.dlig.ss04.cv16 fl.dlig.cv16.cv19 fl.ss04.cv16.cv19 fl.dlig.ss04.cv19 f_f_l.dlig.cv16.cv19 f_f_l.dlig.ss04.cv16 f_f_l.dlig.ss04.cv19 f_f_l.ss04.cv16.cv19 fl.dlig.ss04.cv16.cv19 f_f_l.dlig.ss04.cv16.cv19";
 name = Lowercase;
 },
 {
@@ -62,12 +62,44 @@ code = "$[colorIndex == 1 and note contains \"$CASE\"]
 name = CASE_R;
 },
 {
-code = "$[colorIndex == 0 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
+code = "$[colorIndex == 0 and note contains \"$EXTRA_STEM_LOWERCASE\"]
+f_f_l.dlig
+f_f_l
+fl
+f_f_l.cv16
+fl.cv16
+f_f_l.cv19
+fl.cv19
+fl.dlig
+f_f_l.cv16.cv19
+fl.dlig.cv16
+fl.cv16.cv19
+fl.dlig.cv19
+f_f_l.dlig.cv16
+f_f_l.dlig.cv19
+fl.dlig.cv16.cv19
+f_f_l.dlig.cv16.cv19
 ";
 name = EXTRA_STEM_LOWERCASE_L;
 },
 {
-code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
+code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"]
+f_f_l.dlig.ss04
+f_f_l.ss04
+fl.ss04
+f_f_l.ss04.cv16
+fl.ss04.cv16
+f_f_l.ss04.cv19
+fl.ss04.cv19
+fl.dlig.ss04
+f_f_l.ss04.cv16.cv19
+fl.dlig.ss04.cv16
+fl.ss04.cv16.cv19
+fl.dlig.ss04.cv19
+f_f_l.dlig.ss04.cv16
+f_f_l.dlig.ss04.cv19
+fl.dlig.ss04.cv16.cv19
+f_f_l.dlig.ss04.cv16.cv19
 ";
 name = EXTRA_STEM_LOWERCASE_R;
 },
@@ -297,14 +329,24 @@ name = LOOKUP_CALT;
 },
 {
 code = "lookup LOOKUP_DLIG_1 {
-sub f f i by f_f_i;
-sub f f l by f_f_l;
-sub f f l.ss04 by f_f_l.ss04;
-sub f f by f_f;
-sub f i by f_i;
-sub f l by f_l;
-sub f l.ss04 by f_l.ss04;
+sub f f i by f_f_i.dlig;
+sub f f l by f_f_l.dlig;
+sub f f l.ss04 by f_f_l.dlig.ss04;
+sub f f by f_f.dlig;
+sub f i by fi.dlig;
+sub f l by fl.dlig;
+sub f l.ss04 by fl.dlig.ss04;
 } LOOKUP_DLIG_1;
+
+lookup LOOKUP_DLIG_2 {
+sub f_f_i by f_f_i.dlig;
+sub f_f_l by f_f_l.dlig;
+sub f_f_l.ss04 by f_f_l.dlig.ss04;
+sub f_f by f_f.dlig;
+sub fi by fi.dlig;
+sub fl by fl.dlig;
+sub fl.ss04 by fl.dlig.ss04;
+} LOOKUP_DLIG_2;
 ";
 name = LOOKUP_DLIG;
 },
@@ -897,7 +939,8 @@ lookup LOOKUP_CALT_3;
 tag = clig;
 },
 {
-code = "lookup LOOKUP_DLIG_1;";
+code = "lookup LOOKUP_DLIG_1;
+lookup LOOKUP_DLIG_2;";
 tag = dlig;
 },
 {
@@ -1173,19 +1216,25 @@ sub f.numr by f.numr.cv19;
 sub f_f by f_f.cv19;
 sub f_f_i by f_f_i.cv19;
 sub f_f_l by f_f_l.cv19;
-sub f_i by f_i.cv19;
-sub f_l by f_l.cv19;
 sub fi by fi.cv19;
 sub fl by fl.cv19;
 sub f_f_l.cv16 by f_f_l.cv16.cv19;
-sub f_l.cv16 by f_l.cv16.cv19;
 sub fl.cv16 by fl.cv16.cv19;
+sub fi.dlig by fi.dlig.cv19;
+sub fl.dlig by fl.dlig.cv19;
 sub fl.ss04 by fl.ss04.cv19;
+sub f_f.dlig by f_f.dlig.cv19;
+sub f_f_i.dlig by f_f_i.dlig.cv19;
+sub f_f_l.dlig by f_f_l.dlig.cv19;
 sub f_f_l.ss04 by f_f_l.ss04.cv19;
-sub f_l.ss04 by f_l.ss04.cv19;
+sub fl.dlig.cv16 by fl.dlig.cv16.cv19;
 sub fl.ss04.cv16 by fl.ss04.cv16.cv19;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv19;
+sub f_f_l.dlig.cv16 by f_f_l.dlig.cv16.cv19;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv19;
 sub f_f_l.ss04.cv16 by f_f_l.ss04.cv16.cv19;
-sub f_l.ss04.cv16 by f_l.ss04.cv16.cv19;
+sub fl.dlig.ss04.cv16 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv16 by f_f_l.dlig.ss04.cv16.cv19;
 sub f.subs by f.subs.cv19;
 sub f.sups by f.sups.cv19;
 sub g by g.cv20;
@@ -1256,8 +1305,9 @@ tag = ss03;
 {
 code = "# Manually added code
 sub fl.cv19 by fl.ss04.cv19;
-sub f_l.cv19 by f_l.ss04.cv19;
 sub f_f_l.cv19 by f_f_l.ss04.cv19;
+sub fl.dlig.cv19 by fl.dlig.ss04.cv19;
+sub f_f_l.dlig.cv19 by f_f_l.dlig.ss04.cv19;
 
 # Copy and paste codes below automatically generated feature
 sub b by b.ss04;
@@ -1288,8 +1338,9 @@ sub ldotbelowmacron by ldotbelowmacron.ss04;
 sub lmacronbelow by lmacronbelow.ss04;
 sub lslash by lslash.ss04;
 sub f_f_l by f_f_l.ss04;
-sub f_l by f_l.ss04;
 sub fl by fl.ss04;
+sub f_f_l.dlig by f_f_l.dlig.ss04;
+sub fl.dlig by fl.dlig.ss04;
 ";
 labels = (
 {
@@ -1395,11 +1446,14 @@ sub seveneighths by seveneighths.cv12;
 sub seveninferior by seveninferior.cv12;
 sub sevensuperior by sevensuperior.cv12;
 sub fl.cv19 by fl.cv16.cv19;
-sub f_l.cv19 by f_l.cv16.cv19;
 sub f_f_l.cv19 by f_f_l.cv16.cv19;
 sub fl.ss04.cv19 by fl.ss04.cv16.cv19;
-sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
 sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
+sub fl.dlig by fl.dlig.cv16;
+sub fl.dlig.cv19 by fl.dlig.cv16.cv19;
+sub f_f_l.dlig.cv19 by f_f_l.dlig.cv16.cv19;
+sub fl.dlig.ss04.cv19 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv19 by f_f_l.dlig.ss04.cv16.cv19;
 sub l by l.cv16;
 sub lacute by lacute.cv16;
 sub lcaron by lcaron.cv16;
@@ -1421,11 +1475,13 @@ sub lslash.ss04 by lslash.ss04.cv16;
 sub l.dnom by l.dnom.cv16;
 sub l.numr by l.numr.cv16;
 sub f_f_l by f_f_l.cv16;
-sub f_l by f_l.cv16;
 sub fl by fl.cv16;
+sub fl.dlig by fl.dlig.cv16;
 sub fl.ss04 by fl.ss04.cv16;
+sub f_f_l.dlig by f_f_l.dlig.cv16;
 sub f_f_l.ss04 by f_f_l.ss04.cv16;
-sub f_l.ss04 by f_l.ss04.cv16;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv16;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv16;
 sub l.subs by l.subs.cv16;
 sub l.sups by l.sups.cv16;
 sub one by one.cv17;
@@ -1895,11 +1951,13 @@ code = "cvParameters { FeatUILabelNameID {
 
 # Manually added code
 sub fl.cv19 by fl.cv16.cv19;
-sub f_l.cv19 by f_l.cv16.cv19;
 sub f_f_l.cv19 by f_f_l.cv16.cv19;
 sub fl.ss04.cv19 by fl.ss04.cv16.cv19;
-sub f_l.ss04.cv19 by f_l.ss04.cv16.cv19;
 sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
+sub fl.dlig.cv19 by fl.dlig.cv16.cv19;
+sub f_f_l.dlig.cv19 by f_f_l.dlig.cv16.cv19;
+sub fl.dlig.ss04.cv19 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv19 by f_f_l.dlig.ss04.cv16.cv19;
 # Copy and paste codes below automatically generated feature
 sub l by l.cv16;
 sub lacute by lacute.cv16;
@@ -1922,11 +1980,13 @@ sub lslash.ss04 by lslash.ss04.cv16;
 sub l.dnom by l.dnom.cv16;
 sub l.numr by l.numr.cv16;
 sub f_f_l by f_f_l.cv16;
-sub f_l by f_l.cv16;
 sub fl by fl.cv16;
+sub fl.dlig by fl.dlig.cv16;
 sub fl.ss04 by fl.ss04.cv16;
+sub f_f_l.dlig by f_f_l.dlig.cv16;
 sub f_f_l.ss04 by f_f_l.ss04.cv16;
-sub f_l.ss04 by f_l.ss04.cv16;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv16;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv16;
 sub l.subs by l.subs.cv16;
 sub l.sups by l.sups.cv16;
 ";
@@ -2006,19 +2066,25 @@ sub f.numr by f.numr.cv19;
 sub f_f by f_f.cv19;
 sub f_f_i by f_f_i.cv19;
 sub f_f_l by f_f_l.cv19;
-sub f_i by f_i.cv19;
-sub f_l by f_l.cv19;
 sub fi by fi.cv19;
 sub fl by fl.cv19;
 sub f_f_l.cv16 by f_f_l.cv16.cv19;
-sub f_l.cv16 by f_l.cv16.cv19;
 sub fl.cv16 by fl.cv16.cv19;
+sub fi.dlig by fi.dlig.cv19;
+sub fl.dlig by fl.dlig.cv19;
 sub fl.ss04 by fl.ss04.cv19;
+sub f_f.dlig by f_f.dlig.cv19;
+sub f_f_i.dlig by f_f_i.dlig.cv19;
+sub f_f_l.dlig by f_f_l.dlig.cv19;
 sub f_f_l.ss04 by f_f_l.ss04.cv19;
-sub f_l.ss04 by f_l.ss04.cv19;
+sub fl.dlig.cv16 by fl.dlig.cv16.cv19;
 sub fl.ss04.cv16 by fl.ss04.cv16.cv19;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv19;
+sub f_f_l.dlig.cv16 by f_f_l.dlig.cv16.cv19;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv19;
 sub f_f_l.ss04.cv16 by f_f_l.ss04.cv16.cv19;
-sub f_l.ss04.cv16 by f_l.ss04.cv16.cv19;
+sub fl.dlig.ss04.cv16 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv16 by f_f_l.dlig.ss04.cv16.cv19;
 sub f.subs by f.subs.cv19;
 sub f.sups by f.sups.cv19;
 ";

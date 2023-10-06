@@ -351,12 +351,12 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(932,1448,l),
-(932,0,l)
+(908,1448,l),
+(908,0,l)
 );
 },
 {
-ref = fi;
+ref = fi.dlig;
 },
 {
 attr = {
@@ -388,14 +388,14 @@ strokePos = "0";
 };
 closed = 1;
 nodes = (
-(1064,892,l),
-(1064,1032,l),
+(1040,892,l),
+(1040,1032,l),
 (76,1032,l),
 (76,892,l)
 );
 }
 );
-width = 800;
+width = 776;
 },
 {
 anchors = (
@@ -408,7 +408,7 @@ associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
 {
-ref = fi;
+ref = fi.dlig;
 },
 {
 closed = 0;

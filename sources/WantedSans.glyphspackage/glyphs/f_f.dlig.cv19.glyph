@@ -1,0 +1,47 @@
+{
+glyphname = f_f.dlig.cv19;
+kernLeft = f;
+kernRight = f;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+ff = 1;
+};
+ref = _smart.fligature.cv19;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (624,0);
+ref = f.cv19;
+}
+);
+width = 1400;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+ff = 1;
+};
+ref = _smart.fligature.cv19;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (808,0);
+ref = f.cv19;
+}
+);
+width = 1760;
+}
+);
+metricLeft = f;
+metricRight = f;
+}
