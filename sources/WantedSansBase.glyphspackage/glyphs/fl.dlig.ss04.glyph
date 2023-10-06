@@ -1,35 +1,36 @@
 {
-glyphname = f_f.cv19;
+color = 1;
+glyphname = fl.dlig.ss04;
 kernLeft = f;
-kernRight = f;
+kernRight = l;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = f.cv19;
+ref = _smart.fligature;
 },
 {
 pos = (776,0);
-ref = f.cv19;
+ref = l.ss04;
 }
 );
-width = 1552;
+width = 1208;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = f.cv19;
+ref = _smart.fligature;
 },
 {
 pos = (952,0);
-ref = f.cv19;
+ref = l.ss04;
 }
 );
-width = 1904;
+width = 1568;
 }
 );
 metricLeft = f;
-metricRight = f;
+metricRight = l;
 }

@@ -1,14 +1,25 @@
 {
 color = 1;
-glyphname = fl.ss04.cv16;
+glyphname = fl.dlig.ss04.cv16.cv19;
 kernLeft = f;
 kernRight = l;
 layers = (
 {
+background = {
+shapes = (
+{
+ref = f.cv19;
+},
+{
+pos = (800,0);
+ref = l;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
-ref = f;
+ref = _smart.fligature.cv19;
 },
 {
 pos = (776,0);
@@ -18,10 +29,21 @@ ref = l.ss04.cv16;
 width = 1308;
 },
 {
+background = {
+shapes = (
+{
+ref = f.cv19;
+},
+{
+pos = (952,0);
+ref = l;
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-ref = f;
+ref = _smart.fligature.cv19;
 },
 {
 pos = (952,0);

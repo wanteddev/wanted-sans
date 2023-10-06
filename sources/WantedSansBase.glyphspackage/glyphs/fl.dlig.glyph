@@ -1,0 +1,88 @@
+{
+color = 0;
+glyphname = fl.dlig;
+kernLeft = f;
+kernRight = l;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = f;
+},
+{
+pos = (776,0);
+ref = l;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = _smart.fligature;
+},
+{
+pos = (776,0);
+ref = l;
+}
+);
+width = 1208;
+},
+{
+background = {
+shapes = (
+{
+ref = f;
+},
+{
+pos = (952,0);
+ref = l;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _smart.fligature;
+},
+{
+pos = (952,0);
+ref = l;
+}
+);
+width = 1568;
+},
+{
+associatedMasterId = m01;
+layerId = "48828B78-3C0E-45EB-BDF5-B58A61FFB9D2";
+name = Original;
+shapes = (
+{
+ref = f;
+},
+{
+pos = (776,0);
+ref = l;
+}
+);
+width = 1208;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "4D3BBE49-3D10-4CB0-BC7E-6F8E8E89F25E";
+name = Original;
+shapes = (
+{
+ref = f;
+},
+{
+pos = (952,0);
+ref = l;
+}
+);
+width = 1568;
+}
+);
+metricLeft = f;
+metricRight = l;
+}
