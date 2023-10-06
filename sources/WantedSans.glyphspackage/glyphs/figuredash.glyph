@@ -1,7 +1,8 @@
 {
+color = 0;
 glyphname = figuredash;
-kernLeft = emdash.case;
-kernRight = emdash.case;
+kernLeft = emdash;
+kernRight = emdash;
 layers = (
 {
 layerId = m01;
@@ -9,13 +10,11 @@ metricLeft = "=0";
 metricRight = "=|";
 shapes = (
 {
-alignment = -1;
 piece = {
 Case = 0;
 Space = 0;
 Width = 1280;
 };
-pos = (0,184);
 ref = _smart.horizontalbar;
 }
 );
@@ -27,18 +26,17 @@ metricLeft = "=0";
 metricRight = "=|";
 shapes = (
 {
-alignment = -1;
 piece = {
 Case = 0;
 Space = 0;
 Width = 1440;
 };
-pos = (0,184);
 ref = _smart.horizontalbar;
 }
 );
 width = 1440;
 }
 );
+note = $CASE;
 unicode = 8210;
 }

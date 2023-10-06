@@ -1,6 +1,6 @@
 {
-color = 1;
-glyphname = endash.case;
+color = 9;
+glyphname = horizontalbar.loclhang;
 kernLeft = emdash.case;
 kernRight = emdash.case;
 layers = (
@@ -8,22 +8,21 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,184);
-ref = endash;
+alignment = 1;
+ref = horizontalbar.case;
 }
 );
-width = 1024;
+width = 1770;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
-pos = (0,184);
-ref = endash;
+alignment = 1;
+ref = horizontalbar.case;
 }
 );
-width = 1024;
+width = 1770;
 }
 );
-note = $CASE;
 }
