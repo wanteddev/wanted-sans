@@ -1,15 +1,15 @@
 {
 color = 1;
-glyphname = multiply.case;
-kernLeft = hyphen.case;
-kernRight = hyphen.case;
+glyphname = figuredash.case;
+kernLeft = emdash.case;
+kernRight = emdash.case;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,184);
-ref = multiply;
+ref = figuredash;
 }
 );
 width = 1280;
@@ -19,7 +19,7 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,184);
-ref = multiply;
+ref = figuredash;
 }
 );
 width = 1440;

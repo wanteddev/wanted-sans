@@ -1,28 +1,28 @@
 {
 color = 1;
-glyphname = multiply.case;
-kernLeft = hyphen.case;
-kernRight = hyphen.case;
+glyphname = horizontalbar.case;
+kernLeft = emdash.case;
+kernRight = emdash.case;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,184);
-ref = multiply;
+ref = horizontalbar;
 }
 );
-width = 1280;
+width = 1770;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 pos = (0,184);
-ref = multiply;
+ref = horizontalbar;
 }
 );
-width = 1440;
+width = 1770;
 }
 );
 note = $CASE;

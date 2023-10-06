@@ -14,6 +14,14 @@ name = "#exit";
 pos = (454,0);
 }
 );
+background = {
+shapes = (
+{
+pos = (-14,0);
+ref = cornerbracketleft;
+}
+);
+};
 layerId = m01;
 metricLeft = "=cornerbracketleft";
 metricRight = "=cornerbracketleft";
@@ -24,12 +32,12 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(308,724,l),
-(308,1496,l),
-(548,1496,l),
-(548,1656,l),
-(158,1656,l),
-(158,724,l)
+(308,732,l),
+(308,1504,l),
+(548,1504,l),
+(548,1664,l),
+(158,1664,l),
+(158,732,l)
 );
 }
 );
@@ -52,6 +60,14 @@ name = "#exit";
 pos = (554,0);
 }
 );
+background = {
+shapes = (
+{
+pos = (-110,0);
+ref = cornerbracketleft;
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricLeft = "=cornerbracketleft";
 metricRight = "=cornerbracketleft";
@@ -62,12 +78,12 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(460,724,l),
-(460,1272,l),
-(666,1272,l),
-(666,1656,l),
-(166,1656,l),
-(166,724,l)
+(460,732,l),
+(460,1280,l),
+(666,1280,l),
+(666,1664,l),
+(166,1664,l),
+(166,732,l)
 );
 }
 );
@@ -78,102 +94,6 @@ width = 75;
 };
 };
 width = 702;
-},
-{
-anchors = (
-{
-name = "#entry";
-pos = (166,0);
-},
-{
-name = "#exit";
-pos = (692,0);
-}
-);
-associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-background = {
-shapes = (
-{
-ref = cornerbracketleft;
-}
-);
-};
-layerId = "BB59B9DE-3988-45D8-9CC3-DC4CD733F585";
-name = Base;
-shapes = (
-{
-attr = {
-identifier = ID0x108d32270;
-strokePos = "1";
-};
-closed = 1;
-nodes = (
-(570,724,l),
-(570,1272,l),
-(844,1272,l),
-(844,1656,l),
-(166,1656,l),
-(166,724,l)
-);
-}
-);
-userData = {
-RMXScaler = {
-weight = -240;
-width = 75;
-};
-};
-visible = 1;
-width = 880;
-},
-{
-anchors = (
-{
-name = "#entry";
-pos = (158,0);
-},
-{
-name = "#exit";
-pos = (480,0);
-}
-);
-associatedMasterId = m01;
-background = {
-shapes = (
-{
-ref = cornerbracketleft;
-}
-);
-};
-layerId = "E36F3EBE-55F8-4F1C-9A1B-23C098389731";
-metricLeft = "=cornerbracketleft";
-metricRight = "=cornerbracketleft";
-name = Base;
-shapes = (
-{
-attr = {
-identifier = ID0x16da9c5e0;
-strokePos = "1";
-};
-closed = 1;
-nodes = (
-(322,724,l),
-(322,1496,l),
-(604,1496,l),
-(604,1656,l),
-(158,1656,l),
-(158,724,l)
-);
-}
-);
-userData = {
-RMXScaler = {
-weight = -40;
-width = 85;
-};
-};
-visible = 1;
-width = 640;
 }
 );
 note = "# Required RMX Scaler
