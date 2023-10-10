@@ -228,6 +228,7 @@ $[case > 0 and name beginswith \"I\"]
 @Latin = [
 @Uppercase
 @Lowercase
+@Numeral
 ];
 
 # Separate in confrontation
