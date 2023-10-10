@@ -1,5 +1,5 @@
 {
-glyphname = one.box.cv07.cv17;
+glyphname = I.roundBlackBox.cv18;
 kernLeft = H;
 kernRight = H;
 layers = (
@@ -8,12 +8,15 @@ layerId = m01;
 shapes = (
 {
 alignment = 1;
-ref = whiteSquare;
+ref = blackSquare;
 },
 {
 alignment = 1;
-pos = (624,0);
-ref = one.tag.cv07.cv17;
+attr = {
+reversePaths = "1";
+};
+pos = (680,0);
+ref = I.tag.black.cv18;
 }
 );
 width = 1874;
@@ -23,20 +26,21 @@ layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 alignment = 1;
-ref = whiteSquare;
+ref = blackSquare;
 },
 {
 alignment = 1;
-pos = (664,0);
-ref = one.tag.cv07.cv17;
+attr = {
+reversePaths = "1";
+};
+pos = (692,0);
+ref = I.tag.black.cv18;
 }
 );
 width = 1974;
 }
 );
-metricLeft = whiteSquare;
-metricRight = whiteSquare;
 note = "$SYMBOL_LETTER
-$SYMBOL_OUTLINE
+$SYMBOL_FILL
 $SYMBOL_SQUARE";
 }
