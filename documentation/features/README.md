@@ -238,7 +238,7 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `cvxx`: 모양 대체
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset=https://github.com/wanteddev/wanted-sans/assets/7247848/3b9f6305-d099-43b2-ac33-f97b5f01be5a">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3b9f6305-d099-43b2-ac33-f97b5f01be5a">
 	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/430fc6ec-5891-492f-b861-f306f4668984">
     <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ce3c8d92-2477-4f55-bcd8-4ed5661eacdb">
 	<img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/19821192-06e7-4379-9065-6b4baf96488c">
