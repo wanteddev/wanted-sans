@@ -8,6 +8,7 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/42c42e5c-b5d4-438c-82c6-76c93151bd1f">
+    <source media="(max-width: 560px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/37591508-9809-40cc-80c8-c1dc6e640fc3">
     <img width="100%" alt="tnum" src="https://github.com/wanteddev/wanted-sans/assets/7247848/3efae6eb-db65-4687-b547-6b928441c5bb">
 </picture>
 
@@ -211,3 +212,4 @@ OpenType 기능을 적용하려면 다음과 같은 코드를 사용하세요:
 ```css
 font-feature-settings: "ss01";
 ```
+
