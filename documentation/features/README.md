@@ -16,8 +16,8 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `case`: 대문자에 맞춘 문자
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ac7a8e9b-eba0-4e7b-b98e-a78a9746581f">
-    <img width="100%" alt="case" src="https://github.com/wanteddev/wanted-sans/assets/7247848/b83ed830-6bde-4176-86a8-d0a4b2cc7676">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a1f57e10-3f34-42b8-bd22-830a94f329a9">
+    <img width="100%" alt="case" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6e65b46e-7fb5-4397-87d1-a2c2d59e10a6">
 </picture>
 
 대문자에 맞춘 문자로 나타냅니다.
@@ -196,8 +196,8 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `cvxx`: 모양 대체
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bb3b00a6-d01e-4dc1-9265-504e0da4f899">
-    <img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/34df0ca2-0bb3-4c3c-b246-8cdd4de3501d">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/430fc6ec-5891-492f-b861-f306f4668984">
+    <img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/19821192-06e7-4379-9065-6b4baf96488c">
 </picture>
 
 문자 모양을 바꿔 나타냅니다.
