@@ -162,9 +162,9 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 
 <picture>
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/6c70ac3a-b33b-4cc1-bf77-bb3077366a18">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7b85ef7e-5453-46c4-b490-1f35d4ef6a25">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a1f55a37-5510-40d9-9f85-882ff85c4dc5">
     <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7fabaf28-8cf2-4a5d-ba45-d3b221a75959">
-	<img width="100%" alt="ss06" src="https://github.com/wanteddev/wanted-sans/assets/7247848/f0384fde-a4a9-48d4-9704-c99e2f17e1e6">
+	<img width="100%" alt="ss06" src="https://github.com/wanteddev/wanted-sans/assets/7247848/b42477c1-1e87-4d47-b472-0cbd2daed5b5">
 </picture>
 
 문자를 서로 확실히 구분하는 모양으로 나타냅니다.
