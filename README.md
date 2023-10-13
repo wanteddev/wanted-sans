@@ -4,6 +4,10 @@ Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드
 
 다양한 환경에서 올곧게 가능성을 전할 수 있는 Wanted Sans는 7가지 기본 굵기를 지원하며, 가변 글꼴로도 제공합니다.
 
+## 다운로드
+
+### [최신 버전 다운로드](https://github.com/wanteddev/wanted-sans/releases/latest)
+
 ## 미리보기
 
 <picture>
