@@ -4,6 +4,16 @@
 
 ---
 
+### font-family
+
+어디서든 동일한 환경을 가지고자 한다면 아래와 같은 font-family 구성을 추천합니다.
+
+```css
+font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+```
+
+---
+
 ### 가변 동적 서브셋
 
 가장 적은 용량으로 가변 굵기와 함께 페이지에 포함된 문자만 선택적으로 다운로드해 보다 빠르고 쾌적하게 Wanted Sans를 사용하려면 아래 코드를 사용하세요. 사용하는 font-family 이름은 `"Wanted Sans Variable"` 입니다.
@@ -80,14 +90,4 @@
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans/fonts/webfonts/variable/complete/WantedSansVariable.css");
-```
-
----
-
-### font-family
-
-어디서든 동일한 환경을 가지고자 한다면 아래와 같은 font-family 구성을 추천합니다.
-
-```css
-font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 ```
