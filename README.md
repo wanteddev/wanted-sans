@@ -13,11 +13,11 @@ Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드
 
 ## 기능
 
-모든 OpenType 기능을 둘러보려면 [이곳](https://github.com/wanteddev/wanted-sans/blob/main/documentation/features/README.md)으로 이동하세요.
+모든 OpenType 기능을 둘러보려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/features/README.md)으로 이동하세요.
 
 ## 웹폰트
 
-Wanted Sans를 웹폰트로 쓰려면 [이곳](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans/documentation/webfonts/README.md)으로 이동하세요.
+Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans/documentation/webfonts/README.md)으로 이동하세요.
 
 ## 크레딧
 
