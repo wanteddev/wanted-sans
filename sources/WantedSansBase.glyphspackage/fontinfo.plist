@@ -171,7 +171,7 @@ value = (
 );
 }
 );
-date = "2023-10-10 15:00:21 +0000";
+date = "2023-10-24 15:00:21 +0000";
 familyName = "Wanted Sans Std";
 featurePrefixes = (
 {
@@ -2482,6 +2482,15 @@ value = (
 0,
 0
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
 }
 );
 instanceInterpolations = {
@@ -2511,6 +2520,15 @@ value = (
 0,
 0
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
 }
 );
 instanceInterpolations = {
@@ -2539,6 +2557,15 @@ value = (
 0,
 0
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
 }
 );
 instanceInterpolations = {
@@ -2566,6 +2593,15 @@ value = (
 0,
 0,
 0
+);
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
 );
 }
 );
