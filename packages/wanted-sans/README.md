@@ -1,5 +1,10 @@
 # Wanted Sans
 
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0d1f73ec-47c2-4230-b145-a63bd6b7efec">
+    <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6e5f922f-96e5-4ac3-a45f-2aacc18f02d7">
+</picture>
+
 Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드](https://wanted.co.kr) 정신과 가까이 맞닿은 글꼴입니다. 기하학적인 모양으로 곧은 인상과 함께 읽기 쉬운 형태를 지닌 Wanted Sans는 제목과 본문에서 두루 쓸 수 있으며, 아름답고 재치있는 다양한 문자 모양과 함께, 지능적 문맥 인식 등 유용한 여러 기능을 지원합니다.
 
 다양한 환경에서 올곧게 가능성을 전할 수 있는 Wanted Sans는 7가지 기본 굵기를 지원하며, 가변 글꼴로도 제공합니다.
