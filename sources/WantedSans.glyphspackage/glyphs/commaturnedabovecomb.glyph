@@ -1,0 +1,76 @@
+{
+glyphname = commaturnedabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = macroncomb;
+},
+{
+ref = ringcomb;
+},
+{
+ref = gravecomb;
+}
+);
+};
+layerId = m01;
+metricLeft = "=|commaaccentcomb";
+metricRight = "=|commaaccentcomb";
+metricWidth = "=0";
+shapes = (
+{
+piece = {
+Comma = 1;
+"Comma Above" = 1;
+};
+ref = _smart.grave;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = macroncomb;
+},
+{
+ref = ringcomb;
+},
+{
+ref = gravecomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=|commaaccentcomb";
+metricRight = "=|commaaccentcomb";
+metricWidth = "=0";
+shapes = (
+{
+piece = {
+Comma = 1;
+"Comma Above" = 1;
+};
+ref = _smart.grave;
+}
+);
+width = 0;
+}
+);
+unicode = 786;
+}

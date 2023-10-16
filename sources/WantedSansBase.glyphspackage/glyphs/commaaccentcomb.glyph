@@ -1,0 +1,108 @@
+{
+glyphname = commaaccentcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+pos = (-192,-262);
+ref = comma;
+scale = (0.68,0.68);
+}
+);
+};
+layerId = m01;
+metricWidth = "=0";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+piece = {
+Comma = 1;
+"Comma Above" = 0;
+};
+pos = (0,1072);
+ref = _smart.grave;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+pos = (-356,-392);
+ref = comma;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+piece = {
+Above = 0;
+Comma = 1;
+"Comma Above" = 0;
+};
+pos = (0,1032);
+ref = _smart.grave;
+}
+);
+width = 0;
+},
+{
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-177,-456,l),
+(-65,-456,l),
+(81,-119,l),
+(-87,-119,l)
+);
+}
+);
+};
+layerId = "F0C5BD62-3C3E-48D0-88DA-ACC272EA6F11";
+metricWidth = "=0";
+name = "San Francisco";
+width = 0;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-238,-494,l),
+(15,-494,l),
+(162,-121,l),
+(-176,-121,l)
+);
+}
+);
+};
+layerId = "66EEA479-D21B-4E10-92E7-45C9D13BEFA5";
+metricWidth = "=0";
+name = "San Francisco";
+width = 0;
+}
+);
+unicode = 806;
+}

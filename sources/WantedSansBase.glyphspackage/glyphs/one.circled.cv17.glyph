@@ -1,0 +1,42 @@
+{
+glyphname = one.circled.cv17;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (624,0);
+ref = one.tag.cv17;
+}
+);
+width = 1874;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+alignment = 1;
+pos = (664,0);
+ref = one.tag.cv17;
+}
+);
+width = 1974;
+}
+);
+metricLeft = whiteCircle;
+metricRight = whiteCircle;
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
+$SYMBOL_CIRCLE";
+}

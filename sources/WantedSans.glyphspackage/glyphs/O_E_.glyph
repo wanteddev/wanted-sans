@@ -1,0 +1,36 @@
+{
+glyphname = OE;
+kernLeft = O;
+kernRight = E;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.OEbase;
+},
+{
+pos = (1280,0);
+ref = E;
+}
+);
+width = 2424;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.OEbase;
+},
+{
+pos = (1058,0);
+ref = E;
+}
+);
+width = 2262;
+}
+);
+metricLeft = O;
+metricRight = E;
+unicode = 338;
+}

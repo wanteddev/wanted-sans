@@ -1,0 +1,30 @@
+{
+glyphname = heartBlackSuit;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (4,0);
+ref = iconHeartFill.small;
+}
+);
+width = 2058;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (22,0);
+ref = iconHeartFill.small;
+}
+);
+width = 2094;
+}
+);
+metricLeft = heartWhiteSuit;
+metricRight = heartWhiteSuit;
+unicode = 9829;
+}

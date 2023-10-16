@@ -1,0 +1,56 @@
+{
+color = 0;
+glyphname = f_f_l.dlig.cv16;
+kernLeft = f;
+kernRight = l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+ff = 1;
+};
+ref = _smart.fligature;
+},
+{
+pos = (624,0);
+ref = _smart.fligature;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (1400,0);
+ref = l.cv16;
+}
+);
+width = 1932;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+ff = 1;
+};
+ref = _smart.fligature;
+},
+{
+pos = (808,0);
+ref = _smart.fligature;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (1760,0);
+ref = l.cv16;
+}
+);
+width = 2492;
+}
+);
+metricLeft = f;
+metricRight = l;
+}

@@ -1,0 +1,150 @@
+{
+category = "SF-Symbol";
+color = 3;
+glyphname = iconTriangleExclamationFill.large;
+layers = (
+{
+layerId = m01;
+metricWidth = "=baseSymbol.large";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1110,-181,ls),
+(1188,-181,o),
+(1244,-163,o),
+(1280,-102,cs),
+(1314,-44,o),
+(1310,13,o),
+(1266,88,cs),
+(876,754,ls),
+(835,824,o),
+(790,861,o),
+(720,861,cs),
+(651,861,o),
+(606,824,o),
+(565,754,cs),
+(175,88,ls),
+(134,18,o),
+(125,-39,o),
+(159,-99,cs),
+(193,-159,o),
+(245,-181,o),
+(330,-181,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(680,18,o),
+(648,51,o),
+(648,90,cs),
+(648,131,o),
+(680,162,o),
+(720,162,cs),
+(761,162,o),
+(792,130,o),
+(792,90,cs),
+(792,51,o),
+(760,18,o),
+(720,18,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(670,542,l),
+(770,542,l),
+(770,228,l),
+(670,228,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
+width = 1440;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=baseSymbol.large";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1110,-213,ls),
+(1218,-213,o),
+(1274,-177,o),
+(1309,-116,cs),
+(1345,-53,o),
+(1346,15,o),
+(1294,104,cs),
+(904,770,ls),
+(849,864,o),
+(788,893,o),
+(720,893,cs),
+(653,893,o),
+(592,864,o),
+(537,770,cs),
+(147,104,ls),
+(95,15,o),
+(95,-53,o),
+(133,-118,cs),
+(171,-183,o),
+(232,-213,o),
+(330,-213,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(680,-2,o),
+(648,31,o),
+(648,70,cs),
+(648,111,o),
+(680,142,o),
+(720,142,cs),
+(761,142,o),
+(792,110,o),
+(792,70,cs),
+(792,31,o),
+(760,-2,o),
+(720,-2,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(660,562,l),
+(780,562,l),
+(780,208,l),
+(660,208,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
+width = 1440;
+}
+);
+note = "# Required RMX Scaler
+
+$SYMBOL_ICON
+$SYMBOL_LARGE
+$SYMBOL_FILL";
+subCategory = Other;
+userData = {
+RMXScaler = {
+source = iconTriangleExclamationFill.small;
+};
+};
+}

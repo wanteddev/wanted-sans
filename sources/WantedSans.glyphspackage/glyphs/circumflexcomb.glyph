@@ -1,0 +1,182 @@
+{
+glyphname = circumflexcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 140;
+};
+closed = 0;
+nodes = (
+(-220,1226,l),
+(-32,1496,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 140;
+};
+closed = 0;
+nodes = (
+(30,1496,l),
+(218,1226,l)
+);
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-134,1226,l),
+(54,1496,l),
+(-116,1496,l),
+(-304,1226,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(304,1226,l),
+(116,1496,l),
+(-54,1496,l),
+(134,1226,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(-264,1152,l),
+(-60,1480,l)
+);
+},
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 272;
+};
+closed = 0;
+nodes = (
+(60,1480,l),
+(264,1152,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-104,1152,l),
+(100,1480,l),
+(-220,1480,l),
+(-424,1152,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(424,1152,l),
+(220,1480,l),
+(-100,1480,l),
+(104,1152,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = m01;
+layerId = "4496F527-1986-400F-A727-0328E04484FD";
+metricRight = "=|";
+metricWidth = "=0";
+name = Reference;
+shapes = (
+{
+ref = macroncomb;
+},
+{
+ref = ringcomb;
+},
+{
+ref = gravecomb;
+},
+{
+ref = brevecomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "356148B1-671B-447D-9360-3DB37FA786B2";
+metricRight = "=|";
+metricWidth = "=0";
+name = Reference;
+shapes = (
+{
+ref = macroncomb;
+},
+{
+ref = ringcomb;
+},
+{
+ref = gravecomb;
+},
+{
+ref = brevecomb;
+}
+);
+width = 0;
+}
+);
+unicode = 770;
+}

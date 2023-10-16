@@ -1,0 +1,139 @@
+{
+glyphname = gravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+};
+layerId = m01;
+metricWidth = "=0";
+shapes = (
+{
+ref = _smart.grave;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=0";
+shapes = (
+{
+ref = _smart.grave;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+background = {
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "63E7F734-A984-488E-9EC9-4A337CF00F87";
+metricWidth = "=0";
+name = "May 11, 23 12:07";
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,1176,l),
+(64,1544,l),
+(-328,1544,l),
+(-144,1176,l)
+);
+}
+);
+width = 0;
+},
+{
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "1E2D2CB6-B1A2-44A7-9005-7BCF5FBF073A";
+metricWidth = "=0";
+name = "San Francisco";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-48,1160,l),
+(86,1160,l),
+(-84,1460,l),
+(-266,1460,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,1032);
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "879CB111-23ED-4F3E-B1BF-DF5571B2EF42";
+metricWidth = "=0";
+name = "May 11, 23 13:15";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,1176,l),
+(-36,1448,l),
+(-216,1448,l),
+(-64,1176,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 768;
+}

@@ -1,0 +1,70 @@
+{
+export = 0;
+glyphname = _part.percentfraction;
+kernLeft = fraction;
+kernRight = fraction;
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(540,1448,l),
+(-398,0,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-300,0,l),
+(640,1448,l),
+(444,1448,l),
+(-496,0,l)
+);
+}
+);
+width = 144;
+},
+{
+background = {
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 308;
+};
+closed = 0;
+nodes = (
+(570,1448,l),
+(-332,0,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-148,0,l),
+(752,1448,l),
+(388,1448,l),
+(-512,0,l)
+);
+}
+);
+width = 240;
+}
+);
+}

@@ -1,0 +1,122 @@
+{
+export = 0;
+glyphname = _part.Fbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+background = {
+shapes = (
+{
+attr = {
+strokePos = "0";
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(-4,1448,l),
+(704,1448,l)
+);
+},
+{
+attr = {
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(-4,728,l),
+(640,728,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(704,1284,l),
+(704,1448,l),
+(-4,1448,l),
+(-4,1284,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(640,646,l),
+(640,810,l),
+(-4,810,l),
+(-4,646,l)
+);
+}
+);
+width = 796;
+},
+{
+anchors = (
+{
+name = "#entry";
+}
+);
+background = {
+shapes = (
+{
+attr = {
+strokePos = "0";
+strokeWidth = 392;
+};
+closed = 0;
+nodes = (
+(-4,1448,l),
+(548,1448,l)
+);
+},
+{
+attr = {
+strokeWidth = 360;
+};
+closed = 0;
+nodes = (
+(-4,688,l),
+(484,688,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=I*.825";
+shapes = (
+{
+attr = {
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(548,1056,l),
+(548,1448,l),
+(-4,1448,l),
+(-4,1056,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(484,508,l),
+(484,868,l),
+(-4,868,l),
+(-4,508,l)
+);
+}
+);
+width = 644;
+}
+);
+metricRight = _part.Ebase;
+}

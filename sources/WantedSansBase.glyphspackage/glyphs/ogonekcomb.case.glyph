@@ -1,0 +1,29 @@
+{
+glyphname = ogonekcomb.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Width = 32;
+};
+ref = _smart.ogonek;
+}
+);
+width = 0;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+piece = {
+Width = 40;
+};
+ref = _smart.ogonek;
+}
+);
+width = 0;
+}
+);
+}

@@ -1,0 +1,42 @@
+{
+glyphname = Abrevedotbelow;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (708,0);
+ref = dotbelowcomb;
+},
+{
+pos = (708,416);
+ref = brevecomb;
+}
+);
+width = 1416;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (800,0);
+ref = dotbelowcomb;
+},
+{
+pos = (800,416);
+ref = brevecomb;
+}
+);
+width = 1600;
+}
+);
+unicode = 7862;
+}

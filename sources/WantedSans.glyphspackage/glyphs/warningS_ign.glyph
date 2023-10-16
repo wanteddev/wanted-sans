@@ -1,0 +1,31 @@
+{
+glyphname = warningSign;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (6,0);
+ref = iconTriangleExclamation.small;
+}
+);
+width = 2060;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|+1";
+shapes = (
+{
+alignment = -1;
+pos = (24,0);
+ref = iconTriangleExclamation.small;
+}
+);
+width = 2098;
+}
+);
+metricLeft = heartWhiteSuit;
+metricRight = heartWhiteSuit;
+unicode = 9888;
+}

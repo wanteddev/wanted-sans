@@ -1,0 +1,33 @@
+{
+glyphname = acaron.cv03;
+kernLeft = o;
+kernRight = n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.cv03;
+},
+{
+pos = (552,0);
+ref = caroncomb;
+}
+);
+width = 1100;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = a.cv03;
+},
+{
+pos = (610,0);
+ref = caroncomb;
+}
+);
+width = 1204;
+}
+);
+}

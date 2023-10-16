@@ -1,0 +1,56 @@
+{
+glyphname = ae;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = a.cv03;
+},
+{
+pos = (680,0);
+ref = e;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = _part.aebase;
+},
+{
+pos = (728,0);
+ref = _part.xebase;
+}
+);
+width = 1884;
+},
+{
+background = {
+shapes = (
+{
+ref = a.cv03;
+},
+{
+pos = (650,0);
+ref = e;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _part.aebase;
+},
+{
+pos = (738,0);
+ref = _part.xebase;
+}
+);
+width = 1870;
+}
+);
+unicode = 230;
+}

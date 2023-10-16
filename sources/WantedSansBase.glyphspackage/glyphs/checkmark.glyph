@@ -1,0 +1,34 @@
+{
+glyphname = checkmark;
+layers = (
+{
+layerId = m01;
+metricLeft = "=whiteCircle*2";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+pos = (-156,0);
+ref = iconCheck.small;
+}
+);
+width = 1738;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=whiteCircle*2";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+pos = (-138,0);
+ref = iconCheck.small;
+}
+);
+width = 1774;
+}
+);
+metricLeft = whiteCircle;
+metricRight = whiteCircle;
+unicode = 10003;
+}

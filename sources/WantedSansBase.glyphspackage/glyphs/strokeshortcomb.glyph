@@ -1,0 +1,42 @@
+{
+glyphname = strokeshortcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-638);
+ref = macroncomb;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (0,724);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,-620);
+ref = macroncomb;
+}
+);
+width = 0;
+}
+);
+metricLeft = macroncomb;
+metricRight = macroncomb;
+unicode = 821;
+}

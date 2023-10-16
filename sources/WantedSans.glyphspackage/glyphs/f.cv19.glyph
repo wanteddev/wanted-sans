@@ -1,0 +1,67 @@
+{
+glyphname = f.cv19;
+kernLeft = f;
+kernRight = f;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (252,0);
+},
+{
+name = bottom;
+pos = (336,0);
+},
+{
+name = top;
+pos = (400,1448);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (120,0);
+ref = _part.fbase.cv19;
+}
+);
+width = 776;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (228,0);
+},
+{
+name = bottom;
+pos = (428,0);
+},
+{
+name = top;
+pos = (476,1544);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = _smart.crossbar;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (120,0);
+ref = _part.fbase.cv19;
+}
+);
+width = 952;
+}
+);
+}

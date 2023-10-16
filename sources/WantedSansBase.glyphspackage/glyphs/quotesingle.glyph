@@ -1,0 +1,80 @@
+{
+glyphname = quotesingle;
+kernLeft = quotesingle;
+kernRight = quotesingle;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (132,1448);
+},
+{
+name = "#exit";
+pos = (428,1448);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(308,952,l),
+(308,1448,l),
+(132,1448,l),
+(132,952,l)
+);
+}
+);
+width = 440;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (108,1448);
+},
+{
+name = "#exit";
+pos = (556,1448);
+}
+);
+background = {
+annotations = (
+{
+pos = (203.003,1539.375);
+text = "대소문자 중간, 80%";
+type = Text;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(524,952,l),
+(524,1448,l),
+(108,1448,l),
+(108,952,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(436,952,l),
+(436,1448,l),
+(108,1448,l),
+(108,952,l)
+);
+}
+);
+width = 544;
+}
+);
+metricLeft = idotless;
+metricRight = idotless;
+unicode = 39;
+}

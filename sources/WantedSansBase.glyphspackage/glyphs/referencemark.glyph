@@ -1,0 +1,71 @@
+{
+glyphname = referencemark;
+layers = (
+{
+layerId = m01;
+metricLeft = "=128";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+ref = _part.referencemarkbase;
+},
+{
+alignment = -1;
+pos = (624,1244);
+ref = period;
+},
+{
+alignment = -1;
+pos = (624,-12);
+ref = period;
+},
+{
+alignment = -1;
+pos = (-4,642);
+ref = period;
+},
+{
+alignment = -1;
+pos = (1252,642);
+ref = period;
+}
+);
+width = 1760;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=128";
+metricRight = "=|";
+shapes = (
+{
+alignment = -1;
+pos = (202,0);
+ref = _part.referencemarkbase;
+},
+{
+alignment = -1;
+pos = (750,1236);
+ref = period;
+},
+{
+alignment = -1;
+pos = (750,-192);
+ref = period;
+},
+{
+alignment = -1;
+pos = (36,522);
+ref = period;
+},
+{
+alignment = -1;
+pos = (1464,522);
+ref = period;
+}
+);
+width = 2160;
+}
+);
+unicode = 8251;
+}

@@ -1,0 +1,61 @@
+{
+glyphname = J.cv05;
+kernLeft = J;
+kernRight = J;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (570,724);
+},
+{
+name = bottom;
+pos = (570,0);
+},
+{
+name = top;
+pos = (670,1448);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = J;
+},
+{
+pos = (340,0);
+ref = _part.Jserif;
+}
+);
+width = 1140;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (626,724);
+},
+{
+name = bottom;
+pos = (626,0);
+},
+{
+name = top;
+pos = (756,1448);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (378,0);
+ref = _part.Jserif;
+}
+);
+width = 1252;
+}
+);
+}

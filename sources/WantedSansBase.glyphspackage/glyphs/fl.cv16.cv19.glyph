@@ -1,0 +1,36 @@
+{
+color = 0;
+glyphname = fl.cv16.cv19;
+kernLeft = f;
+kernRight = l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f.cv19;
+},
+{
+pos = (776,0);
+ref = l.cv16;
+}
+);
+width = 1308;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = f.cv19;
+},
+{
+pos = (952,0);
+ref = l.cv16;
+}
+);
+width = 1684;
+}
+);
+metricLeft = f;
+metricRight = l;
+}

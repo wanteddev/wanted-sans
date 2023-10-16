@@ -1,0 +1,28 @@
+{
+color = 1;
+glyphname = periodcentered.loclCAT.case;
+kernLeft = periodcentered;
+kernRight = periodcentered;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = periodcentered.case;
+}
+);
+width = 512;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (0,192);
+ref = periodcentered.case;
+}
+);
+width = 660;
+}
+);
+note = $CASE;
+}

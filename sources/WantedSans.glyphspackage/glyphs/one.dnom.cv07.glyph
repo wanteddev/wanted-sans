@@ -1,0 +1,101 @@
+{
+color = 3;
+glyphname = one.dnom.cv07;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
+layers = (
+{
+guides = (
+{
+},
+{
+pos = (0,720);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,570,l),
+(220,566,l),
+(230,566,l),
+(230,570,l),
+(230,720,l),
+(56,598,l),
+(56,446,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(366,0,l),
+(366,720,l),
+(230,720,l),
+(230,0,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 50;
+verticalShift = -2;
+weight = -74;
+width = 50;
+};
+};
+width = 478;
+},
+{
+guides = (
+{
+},
+{
+pos = (0,792);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,532,l),
+(234,530,l),
+(244,530,l),
+(244,532,l),
+(244,792,l),
+(52,662,l),
+(52,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(490,0,l),
+(490,792,l),
+(244,792,l),
+(244,0,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 54.7;
+weight = -397;
+width = 54.5;
+};
+};
+width = 596;
+}
+);
+metricLeft = one.dnom;
+metricRight = one.dnom;
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
+userData = {
+RMXScaler = {
+source = one.cv07;
+};
+};
+}

@@ -1,0 +1,105 @@
+{
+color = 3;
+glyphname = one.dnom;
+kernLeft = zero.dnom;
+kernRight = zero.dnom;
+layers = (
+{
+guides = (
+{
+},
+{
+pos = (0,720);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,476,o),
+(172,518,o),
+(230,564,c),
+(218,562,l),
+(230,562,l),
+(230,720,l),
+(170,666,o),
+(114,624,o),
+(56,588,c),
+(56,446,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(366,0,l),
+(366,720,l),
+(230,720,l),
+(230,0,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 50;
+verticalShift = -2;
+weight = -74;
+width = 50;
+};
+};
+width = 478;
+},
+{
+guides = (
+{
+},
+{
+pos = (0,792);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,424,o),
+(180,476,o),
+(244,530,c),
+(232,528,l),
+(244,528,l),
+(244,792,l),
+(180,730,o),
+(116,682,o),
+(52,642,c),
+(52,394,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(490,0,l),
+(490,792,l),
+(244,792,l),
+(244,0,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 54.7;
+weight = -397;
+width = 54.5;
+};
+};
+width = 596;
+}
+);
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
+userData = {
+RMXScaler = {
+source = one;
+};
+};
+}

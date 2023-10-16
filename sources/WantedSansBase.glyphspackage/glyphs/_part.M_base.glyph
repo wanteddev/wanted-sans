@@ -1,0 +1,89 @@
+{
+export = 0;
+glyphname = _part.Mbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (522,0);
+}
+);
+background = {
+shapes = (
+{
+pos = (-628,0);
+ref = N;
+}
+);
+};
+layerId = m01;
+metricLeft = "=-4";
+metricRight = "=|";
+shapes = (
+{
+closed = 1;
+nodes = (
+(526,0,l),
+(526,256,l),
+(526,276,l),
+(504,276,l),
+(526,256,l),
+(46,1448,l),
+(-4,1448,l),
+(-4,1100,l),
+(-4,1072,l),
+(24,1072,l),
+(-4,1100,l),
+(442,0,l)
+);
+}
+);
+width = 522;
+},
+{
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (450,0);
+}
+);
+background = {
+shapes = (
+{
+ref = _part.Nbase;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=-4";
+metricRight = "=|";
+shapes = (
+{
+closed = 1;
+nodes = (
+(454,0,l),
+(454,618,l),
+(454,638,l),
+(424,638,l),
+(454,618,l),
+(118,1448,l),
+(-4,1448,l),
+(-4,748,l),
+(-4,718,l),
+(24,718,l),
+(-4,748,l),
+(284,0,l)
+);
+}
+);
+width = 450;
+}
+);
+}

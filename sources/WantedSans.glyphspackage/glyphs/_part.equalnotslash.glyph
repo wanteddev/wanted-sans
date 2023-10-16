@@ -1,0 +1,103 @@
+{
+export = 0;
+glyphname = _part.equalnotslash;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (640,540);
+}
+);
+background = {
+shapes = (
+{
+alignment = 1;
+ref = equal;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(814,1080,l),
+(466,0,l)
+);
+}
+);
+width = 1280;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (720,540);
+}
+);
+background = {
+shapes = (
+{
+alignment = 1;
+ref = equal;
+},
+{
+pos = (428,0);
+ref = bar;
+},
+{
+closed = 0;
+nodes = (
+(1440,-216,l),
+(0,-216,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(1440,0,l),
+(0,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(1440,-108,l),
+(0,-108,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(1440,-56,l),
+(0,-56,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 316;
+};
+closed = 0;
+nodes = (
+(914,1136,l),
+(526,-56,l)
+);
+}
+);
+width = 1440;
+}
+);
+metricWidth = equal;
+}

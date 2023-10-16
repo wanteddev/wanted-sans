@@ -1,0 +1,179 @@
+{
+color = 3;
+export = 0;
+glyphname = O.tag.black;
+kernLeft = O.tag;
+kernRight = O.tag;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (440,724);
+},
+{
+name = bottom;
+pos = (440,344);
+},
+{
+name = center;
+pos = (440,724);
+},
+{
+name = ogonek;
+pos = (440,344);
+},
+{
+name = tail;
+pos = (440,344);
+},
+{
+name = top;
+pos = (440,1104);
+},
+{
+name = topleft;
+pos = (42,1104);
+},
+{
+name = topright;
+pos = (836,1104);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(666,330,o),
+(836,500,o),
+(836,724,cs),
+(836,948,o),
+(666,1118,o),
+(440,1118,cs),
+(212,1118,o),
+(42,948,o),
+(42,724,cs),
+(42,500,o),
+(212,330,o),
+(440,330,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(288,462,o),
+(182,572,o),
+(182,724,cs),
+(182,876,o),
+(288,986,o),
+(440,986,cs),
+(590,986,o),
+(696,876,o),
+(696,724,cs),
+(696,572,o),
+(590,462,o),
+(440,462,cs)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
+};
+};
+width = 878;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (454,724);
+},
+{
+name = bottom;
+pos = (454,326);
+},
+{
+name = center;
+pos = (454,724);
+},
+{
+name = ogonek;
+pos = (454,326);
+},
+{
+name = tail;
+pos = (454,326);
+},
+{
+name = top;
+pos = (454,1122);
+},
+{
+name = topleft;
+pos = (34,1122);
+},
+{
+name = topright;
+pos = (874,1122);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(694,310,o),
+(874,488,o),
+(874,724,cs),
+(874,960,o),
+(694,1138,o),
+(454,1138,cs),
+(214,1138,o),
+(34,960,o),
+(34,724,cs),
+(34,488,o),
+(214,310,o),
+(454,310,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,516,o),
+(252,604,o),
+(252,724,cs),
+(252,846,o),
+(336,934,o),
+(454,934,cs),
+(572,934,o),
+(656,846,o),
+(656,724,cs),
+(656,602,o),
+(570,516,o),
+(454,516,cs)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 55;
+verticalShift = 326;
+weight = -480;
+width = 55;
+};
+};
+width = 908;
+}
+);
+note = "# Required RMX Scaler";
+userData = {
+RMXScaler = {
+source = O;
+};
+};
+}

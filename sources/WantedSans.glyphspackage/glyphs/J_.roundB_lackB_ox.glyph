@@ -1,0 +1,47 @@
+{
+glyphname = J.roundBlackBox;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = blackSquare;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = "1";
+};
+pos = (626,0);
+ref = J.tag.black;
+}
+);
+width = 1874;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = blackSquare;
+},
+{
+alignment = 1;
+attr = {
+reversePaths = "1";
+};
+pos = (652,0);
+ref = J.tag.black;
+}
+);
+width = 1974;
+}
+);
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
+$SYMBOL_SQUARE";
+unicode = 127353;
+}

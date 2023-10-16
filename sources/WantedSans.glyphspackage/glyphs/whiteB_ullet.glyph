@@ -1,0 +1,182 @@
+{
+color = 0;
+glyphname = whiteBullet;
+layers = (
+{
+background = {
+annotations = (
+{
+pos = (592,832);
+text = "*1.2";
+type = Text;
+}
+);
+shapes = (
+{
+attr = {
+strokePos = "1";
+strokeWidth = 152;
+};
+closed = 1;
+nodes = (
+(582,300,o),
+(680,398,o),
+(680,540,cs),
+(680,682,o),
+(582,780,o),
+(440,780,cs),
+(298,780,o),
+(200,682,o),
+(200,540,cs),
+(200,398,o),
+(298,300,o),
+(440,300,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+strokePos = 1;
+};
+closed = 1;
+nodes = (
+(580,300,o),
+(680,400,o),
+(680,540,cs),
+(680,680,o),
+(580,780,o),
+(440,780,cs),
+(300,780,o),
+(200,680,o),
+(200,540,cs),
+(200,400,o),
+(300,300,o),
+(440,300,cs)
+);
+},
+{
+attr = {
+strokePos = 1;
+};
+closed = 1;
+nodes = (
+(388,452,o),
+(352,488,o),
+(352,540,cs),
+(352,592,o),
+(388,628,o),
+(440,628,cs),
+(492,628,o),
+(528,592,o),
+(528,540,cs),
+(528,488,o),
+(492,452,o),
+(440,452,cs)
+);
+}
+);
+width = 880;
+},
+{
+background = {
+shapes = (
+{
+attr = {
+strokePos = "1";
+strokeWidth = 248;
+};
+closed = 1;
+nodes = (
+(674,180,o),
+(824,328,o),
+(824,540,cs),
+(824,752,o),
+(674,900,o),
+(460,900,cs),
+(246,900,o),
+(96,752,o),
+(96,540,cs),
+(96,328,o),
+(246,180,o),
+(460,180,cs)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+strokePos = 1;
+};
+closed = 1;
+nodes = (
+(674,180,o),
+(824,328,o),
+(824,540,cs),
+(824,752,o),
+(674,900,o),
+(460,900,cs),
+(246,900,o),
+(96,752,o),
+(96,540,cs),
+(96,328,o),
+(246,180,o),
+(460,180,cs)
+);
+},
+{
+attr = {
+strokePos = 1;
+};
+closed = 1;
+nodes = (
+(392,428,o),
+(344,474,o),
+(344,540,cs),
+(344,606,o),
+(392,652,o),
+(460,652,cs),
+(528,652,o),
+(576,606,o),
+(576,540,cs),
+(576,474,o),
+(528,428,o),
+(460,428,cs)
+);
+}
+);
+width = 920;
+},
+{
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "573B5212-AF66-4209-A89C-288EEF01A99D";
+name = Reference;
+shapes = (
+{
+alignment = 1;
+ref = bullet;
+}
+);
+width = 920;
+},
+{
+associatedMasterId = m01;
+layerId = "2C98ACBE-DB58-4591-A512-79111DF4115B";
+name = Reference;
+shapes = (
+{
+alignment = 1;
+ref = bullet;
+}
+);
+width = 880;
+}
+);
+metricWidth = hyphen;
+note = $CASE;
+unicode = 9702;
+}

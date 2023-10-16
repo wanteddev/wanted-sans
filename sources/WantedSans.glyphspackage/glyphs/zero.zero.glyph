@@ -1,0 +1,45 @@
+{
+glyphname = zero.zero;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (640,724);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = zero;
+},
+{
+ref = _smart.zeroslashbase;
+}
+);
+width = 1280;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (720,724);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = zero;
+},
+{
+ref = _smart.zeroslashbase;
+}
+);
+width = 1440;
+}
+);
+}

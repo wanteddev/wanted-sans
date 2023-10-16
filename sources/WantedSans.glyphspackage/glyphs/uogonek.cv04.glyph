@@ -1,0 +1,36 @@
+{
+glyphname = uogonek.cv04;
+kernLeft = u;
+kernRight = u.cv04;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.cv04;
+},
+{
+pos = (552,0);
+ref = _smart.ogonek;
+}
+);
+width = 1124;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = u.cv04;
+},
+{
+piece = {
+Width = -16;
+};
+pos = (464,0);
+ref = _smart.ogonek;
+}
+);
+width = 1288;
+}
+);
+}

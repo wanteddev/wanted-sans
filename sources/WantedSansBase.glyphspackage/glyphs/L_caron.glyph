@@ -1,0 +1,91 @@
+{
+glyphname = Lcaron;
+kernLeft = H;
+kernRight = L;
+layers = (
+{
+background = {
+annotations = (
+{
+pos = (736,964);
+text = "40%";
+type = Text;
+}
+);
+shapes = (
+{
+closed = 0;
+nodes = (
+(1004,1448,l),
+(1004,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(316,1448,l),
+(316,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(592,1448,l),
+(592,0,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (394,0);
+ref = caroncomb.alt;
+}
+);
+width = 1096;
+},
+{
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(748,1448,l),
+(748,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(532,1448,l),
+(532,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(1072,1448,l),
+(1072,0,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (460,0);
+ref = caroncomb.alt;
+}
+);
+width = 1160;
+}
+);
+unicode = 317;
+}

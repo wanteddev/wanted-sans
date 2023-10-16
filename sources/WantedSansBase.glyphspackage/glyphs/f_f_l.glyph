@@ -1,0 +1,45 @@
+{
+color = 0;
+glyphname = f_f_l;
+kernLeft = f;
+kernRight = l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f;
+},
+{
+pos = (776,0);
+ref = f;
+},
+{
+pos = (1552,0);
+ref = l;
+}
+);
+width = 1984;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = f;
+},
+{
+pos = (952,0);
+ref = f;
+},
+{
+pos = (1904,0);
+ref = l;
+}
+);
+width = 2520;
+}
+);
+metricLeft = f;
+metricRight = l;
+unicode = 64260;
+}

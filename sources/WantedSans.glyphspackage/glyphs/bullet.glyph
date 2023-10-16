@@ -1,0 +1,69 @@
+{
+color = 0;
+glyphname = bullet;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = hyphen;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(558,340,o),
+(640,422,o),
+(640,540,cs),
+(640,658,o),
+(558,740,o),
+(440,740,cs),
+(322,740,o),
+(240,658,o),
+(240,540,cs),
+(240,422,o),
+(322,340,o),
+(440,340,cs)
+);
+}
+);
+width = 880;
+},
+{
+background = {
+shapes = (
+{
+ref = hyphen;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(638,240,o),
+(764,364,o),
+(764,540,cs),
+(764,716,o),
+(638,840,o),
+(460,840,cs),
+(282,840,o),
+(156,716,o),
+(156,540,cs),
+(156,364,o),
+(282,240,o),
+(460,240,cs)
+);
+}
+);
+width = 920;
+}
+);
+metricWidth = hyphen;
+note = $CASE;
+unicode = 8226;
+}

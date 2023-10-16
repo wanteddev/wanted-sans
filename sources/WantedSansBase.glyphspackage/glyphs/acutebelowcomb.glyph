@@ -1,0 +1,56 @@
+{
+glyphname = acutebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = gravebelowcomb;
+}
+);
+};
+layerId = m01;
+metricLeft = "=|gravebelowcomb";
+metricRight = "=|gravebelowcomb";
+metricWidth = "=0";
+shapes = (
+{
+ref = gravebelowcomb;
+scale = (-1,1);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = gravebelowcomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=|gravebelowcomb";
+metricRight = "=|gravebelowcomb";
+metricWidth = "=0";
+shapes = (
+{
+ref = gravebelowcomb;
+scale = (-1,1);
+}
+);
+width = 0;
+}
+);
+unicode = 791;
+}

@@ -1,0 +1,44 @@
+{
+glyphname = oneeighth;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (478,0);
+ref = fraction;
+},
+{
+pos = (734,0);
+ref = eight.dnom;
+}
+);
+width = 1380;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (596,0);
+ref = fraction;
+},
+{
+pos = (908,0);
+ref = eight.dnom;
+}
+);
+width = 1660;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 8539;
+}

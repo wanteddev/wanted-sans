@@ -1,0 +1,32 @@
+{
+category = "SF-Symbol";
+export = 0;
+glyphname = baseSymbol.medium;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-181);
+ref = baseSymbol;
+scale = (1.25,1.25);
+}
+);
+width = 2560;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (0,-181);
+ref = baseSymbol;
+scale = (1.25,1.25);
+}
+);
+width = 2560;
+}
+);
+subCategory = Other;
+}

@@ -1,0 +1,82 @@
+{
+glyphname = brevebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = caronbelowcomb;
+}
+);
+};
+layerId = m01;
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+attr = {
+identifier = ID0x2e6dcd4d0;
+strokeHeight = 140;
+strokePos = "0";
+strokeWidth = 148;
+};
+closed = 0;
+nodes = (
+(-128,-194,l),
+(-128,-270,o),
+(-76,-322,o),
+(0,-322,cs),
+(76,-322,o),
+(128,-270,o),
+(128,-194,c)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+background = {
+shapes = (
+{
+ref = caronbelowcomb;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricRight = "=|";
+metricWidth = "=0";
+shapes = (
+{
+attr = {
+identifier = ID0x2fb35bde0;
+strokeHeight = 240;
+strokePos = "0";
+strokeWidth = 256;
+};
+closed = 0;
+nodes = (
+(-128,-120,l),
+(-128,-190,o),
+(-74,-248,o),
+(0,-248,cs),
+(74,-248,o),
+(128,-190,o),
+(128,-120,c)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 814;
+}

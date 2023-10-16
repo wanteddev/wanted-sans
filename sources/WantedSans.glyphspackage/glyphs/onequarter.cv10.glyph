@@ -1,0 +1,43 @@
+{
+glyphname = onequarter.cv10;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (478,0);
+ref = fraction;
+},
+{
+pos = (734,0);
+ref = four.dnom.cv10;
+}
+);
+width = 1408;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (596,0);
+ref = fraction;
+},
+{
+pos = (908,0);
+ref = four.dnom.cv10;
+}
+);
+width = 1708;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+}

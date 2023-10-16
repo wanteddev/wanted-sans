@@ -1,0 +1,89 @@
+{
+glyphname = brokenbar;
+kernLeft = p;
+kernRight = q;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = 1;
+ref = bar;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+identifier = ID0x127ce93b0;
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 160;
+};
+closed = 0;
+nodes = (
+(220,1448,l),
+(220,648,l)
+);
+},
+{
+attr = {
+identifier = ID0x127ce93b0;
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 160;
+};
+closed = 0;
+nodes = (
+(220,368,l),
+(220,-432,l)
+);
+}
+);
+width = 440;
+},
+{
+background = {
+shapes = (
+{
+ref = bar;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+identifier = ID0x4161dedd0;
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 360;
+};
+closed = 0;
+nodes = (
+(296,1448,l),
+(296,608,l)
+);
+},
+{
+attr = {
+identifier = ID0x4161dedd0;
+lineCapEnd = "4";
+lineCapStart = "4";
+strokeWidth = 360;
+};
+closed = 0;
+nodes = (
+(296,408,l),
+(296,-432,l)
+);
+}
+);
+width = 592;
+}
+);
+metricLeft = I;
+metricRight = I;
+unicode = 166;
+}
