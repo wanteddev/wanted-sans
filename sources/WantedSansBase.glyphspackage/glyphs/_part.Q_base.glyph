@@ -49,7 +49,7 @@ associatedMasterId = m01;
 attr = {
 axisRules = (
 {
-min = 601;
+min = 650;
 }
 );
 };
@@ -181,7 +181,7 @@ name = _tail;
 attr = {
 axisRules = (
 {
-min = 601;
+min = 650;
 }
 );
 };

@@ -1,0 +1,82 @@
+{
+category = "SF-Symbol";
+color = 3;
+glyphname = iconCircleFill.medium;
+layers = (
+{
+layerId = m01;
+metricWidth = "=baseSymbol.medium";
+shapes = (
+{
+closed = 1;
+nodes = (
+(868,-149,o),
+(1088,71,o),
+(1088,340,cs),
+(1088,609,o),
+(868,829,o),
+(600,829,cs),
+(331,829,o),
+(111,609,o),
+(111,340,cs),
+(111,71,o),
+(331,-149,o),
+(600,-149,cs)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 125;
+verticalShift = -85;
+width = 125;
+};
+};
+width = 1200;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=baseSymbol.medium";
+shapes = (
+{
+closed = 1;
+nodes = (
+(886,-181,o),
+(1120,53,o),
+(1120,340,cs),
+(1120,627,o),
+(886,861,o),
+(600,861,cs),
+(313,861,o),
+(79,627,o),
+(79,340,cs),
+(79,53,o),
+(313,-181,o),
+(600,-181,cs)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 125;
+verticalShift = -85;
+width = 125;
+};
+};
+width = 1200;
+}
+);
+note = "# Required RMX Scaler
+
+$SYMBOL_ICON
+$SYMBOL_MEDIUM
+$SYMBOL_FILL
+$SYMBOL_CIRCLE";
+subCategory = Other;
+unicode = 1048577;
+userData = {
+RMXScaler = {
+source = iconCircleFill.small;
+};
+};
+}

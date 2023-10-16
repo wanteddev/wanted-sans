@@ -23,7 +23,7 @@ pos = (0,864);
 ref = n.dnom;
 }
 );
-width = 870;
+width = 868;
 }
 );
 metricLeft = n.dnom;

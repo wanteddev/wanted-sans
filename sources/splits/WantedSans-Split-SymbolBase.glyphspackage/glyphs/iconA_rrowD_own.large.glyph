@@ -1,0 +1,109 @@
+{
+category = "SF-Symbol";
+color = 3;
+glyphname = iconArrowDown.large;
+layers = (
+{
+layerId = m01;
+metricWidth = "=baseSymbol.large";
+shapes = (
+{
+closed = 1;
+nodes = (
+(710,-186,o),
+(733,-184,o),
+(749,-168,cs),
+(1139,222,ls),
+(1155,238,o),
+(1156,261,o),
+(1139,278,cs),
+(1123,294,o),
+(1100,296,o),
+(1082,278,cs),
+(762,-40,l),
+(762,820,ls),
+(762,843,o),
+(743,861,o),
+(720,861,cs),
+(698,861,o),
+(679,843,o),
+(679,820,cs),
+(679,-40,l),
+(359,278,ls),
+(343,294,o),
+(319,296,o),
+(302,279,cs),
+(286,263,o),
+(284,240,o),
+(302,222,cs),
+(692,-168,ls)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
+width = 1440;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=baseSymbol.large";
+shapes = (
+{
+closed = 1;
+nodes = (
+(698,-220,o),
+(743,-220,o),
+(772,-191,cs),
+(1162,199,ls),
+(1190,227,o),
+(1191,272,o),
+(1162,301,cs),
+(1134,329,o),
+(1089,331,o),
+(1059,301,cs),
+(794,37,l),
+(794,820,ls),
+(794,861,o),
+(761,893,o),
+(720,893,cs),
+(680,893,o),
+(647,861,o),
+(647,820,cs),
+(647,37,l),
+(382,301,ls),
+(351,332,o),
+(305,328,o),
+(279,302,cs),
+(252,275,o),
+(248,230,o),
+(279,199,cs),
+(669,-191,ls)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 150;
+verticalShift = -170;
+width = 150;
+};
+};
+width = 1440;
+}
+);
+note = "# Required RMX Scaler
+
+$SYMBOL_ICON
+$SYMBOL_LARGE";
+subCategory = Other;
+userData = {
+RMXScaler = {
+source = iconArrowDown.small;
+};
+};
+}

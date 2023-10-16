@@ -1,4 +1,5 @@
 {
+color = 0;
 glyphname = bullet;
 layers = (
 {
@@ -63,5 +64,6 @@ width = 920;
 }
 );
 metricWidth = hyphen;
+note = $CASE;
 unicode = 8226;
 }

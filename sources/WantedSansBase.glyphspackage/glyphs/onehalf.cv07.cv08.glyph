@@ -1,5 +1,7 @@
 {
 glyphname = onehalf.cv07.cv08;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = m01;
@@ -16,7 +18,7 @@ pos = (734,0);
 ref = two.dnom.cv08;
 }
 );
-width = 1362;
+width = 1360;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

@@ -9,11 +9,11 @@ shapes = (
 ref = _part.registeredcircle;
 },
 {
-pos = (440,-108);
+pos = (476,0);
 ref = R.tag;
 }
 );
-width = 1504;
+width = 1606;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -22,11 +22,11 @@ shapes = (
 ref = _part.registeredcircle;
 },
 {
-pos = (464,-108);
+pos = (498,0);
 ref = R.tag;
 }
 );
-width = 1536;
+width = 1672;
 }
 );
 }

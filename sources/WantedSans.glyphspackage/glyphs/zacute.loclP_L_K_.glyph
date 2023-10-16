@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = zacute.loclPLK;
 kernLeft = z;
 kernRight = z;

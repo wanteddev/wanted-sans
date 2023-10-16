@@ -12,16 +12,16 @@ shapes = (
 attr = {
 lineCapEnd = 4;
 lineCapStart = 4;
-strokeWidth = 168;
+strokeWidth = 164;
 };
 closed = 0;
 nodes = (
-(520,1448,l),
-(86,-432,l)
+(518,1448,l),
+(84,-432,l)
 );
 }
 );
-width = 606;
+width = 602;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -32,16 +32,16 @@ shapes = (
 attr = {
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 384;
+strokeWidth = 352;
 };
 closed = 0;
 nodes = (
-(586,1448,l),
-(196,-432,l)
+(570,1448,l),
+(180,-432,l)
 );
 }
 );
-width = 782;
+width = 750;
 }
 );
 unicode = 47;

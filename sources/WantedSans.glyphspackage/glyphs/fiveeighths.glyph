@@ -1,5 +1,7 @@
 {
 glyphname = fiveeighths;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = m01;
@@ -16,7 +18,7 @@ pos = (902,0);
 ref = eight.dnom;
 }
 );
-width = 1550;
+width = 1548;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -25,15 +27,15 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (752,0);
+pos = (754,0);
 ref = fraction;
 },
 {
-pos = (1064,0);
+pos = (1066,0);
 ref = eight.dnom;
 }
 );
-width = 1816;
+width = 1818;
 }
 );
 metricLeft = five.numr;

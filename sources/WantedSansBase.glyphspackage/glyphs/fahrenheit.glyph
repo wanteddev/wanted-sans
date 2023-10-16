@@ -1,0 +1,36 @@
+{
+glyphname = fahrenheit;
+kernLeft = asterisk;
+kernRight = F;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = degree;
+},
+{
+pos = (800,0);
+ref = F;
+}
+);
+width = 1912;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = degree;
+},
+{
+pos = (960,0);
+ref = F;
+}
+);
+width = 2136;
+}
+);
+unicode = 8457;
+}

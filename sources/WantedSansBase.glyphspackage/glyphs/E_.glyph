@@ -36,7 +36,7 @@ pos = (316,0);
 ref = _part.Ebase;
 }
 );
-width = 1158;
+width = 1144;
 },
 {
 anchors = (

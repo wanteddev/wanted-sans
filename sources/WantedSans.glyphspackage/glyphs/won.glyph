@@ -4,6 +4,28 @@ kernLeft = V;
 kernRight = V;
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(716,796,l),
+(1268,796,l),
+(1268,1172,l),
+(716,1172,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1102,276,l),
+(1654,276,l),
+(1654,652,l),
+(1102,652,l)
+);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -13,13 +35,35 @@ ref = _part.wonbase;
 piece = {
 Width = 1742;
 };
-pos = (54,0);
+pos = (18,0);
 ref = _smart.currencybar;
 }
 );
-width = 1974;
+width = 1904;
 },
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(716,848,l),
+(1268,848,l),
+(1268,934,l),
+(716,934,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1030,514,l),
+(1582,514,l),
+(1582,600,l),
+(1030,600,l)
+);
+}
+);
+};
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
@@ -30,11 +74,11 @@ piece = {
 Open = 0;
 Width = 1768;
 };
-pos = (56,0);
+pos = (24,0);
 ref = _smart.currencybar;
 }
 );
-width = 2008;
+width = 1944;
 }
 );
 unicode = 8361;

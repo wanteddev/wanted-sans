@@ -9,19 +9,19 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (64,362);
+pos = (68,344);
 },
 {
 name = _symbol;
-pos = (294,724);
+pos = (308,724);
 },
 {
 name = bottom;
-pos = (294,362);
+pos = (308,344);
 },
 {
 name = top;
-pos = (294,1086);
+pos = (308,1104);
 }
 );
 layerId = m01;
@@ -29,62 +29,62 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(204,362,l),
-(204,1086,l),
-(64,1086,l),
-(64,362,l)
+(208,344,l),
+(208,1104,l),
+(68,1104,l),
+(68,344,l)
 );
 },
 {
 attr = {
-identifier = ID0x2d3e15290;
+identifier = ID0x14ebede90;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(522,954,l),
-(522,1086,l),
-(202,1086,l),
-(202,954,l)
+(546,974,l),
+(546,1104,l),
+(206,1104,l),
+(206,974,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(490,654,l),
-(490,780,l),
-(202,780,l),
-(202,654,l)
+(512,656,l),
+(512,780,l),
+(206,780,l),
+(206,656,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -90;
-width = 50;
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
 };
 };
-width = 572;
+width = 600;
 },
 {
 anchors = (
 {
 name = "#entry";
-pos = (50,398);
+pos = (58,362);
 },
 {
 name = _symbol;
-pos = (270,724);
+pos = (300,724);
 },
 {
 name = bottom;
-pos = (270,398);
+pos = (300,362);
 },
 {
 name = top;
-pos = (270,1050);
+pos = (300,1086);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -92,44 +92,44 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(254,398,l),
-(254,1050,l),
-(50,1050,l),
-(50,398,l)
+(274,362,l),
+(274,1086,l),
+(58,1086,l),
+(58,362,l)
 );
 },
 {
 attr = {
-identifier = ID0x2d3e1e7b0;
+identifier = ID0x15c351e30;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(490,858,l),
-(490,1050,l),
-(252,1050,l),
-(252,858,l)
+(542,882,l),
+(542,1086,l),
+(272,1086,l),
+(272,882,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(460,616,l),
-(460,792,l),
-(252,792,l),
-(252,616,l)
+(510,612,l),
+(510,798,l),
+(272,798,l),
+(272,612,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 45;
-verticalShift = 398;
-weight = -460;
-width = 45;
+height = 50;
+verticalShift = 362;
+weight = -480;
+width = 50;
 };
 };
-width = 532;
+width = 590;
 }
 );
 note = "# Required RMX Scaler";

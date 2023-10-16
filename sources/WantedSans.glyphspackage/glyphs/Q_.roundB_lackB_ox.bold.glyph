@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Q.roundBlackBox.bold;
 kernLeft = O;
 kernRight = O;
@@ -17,11 +16,11 @@ alignment = 1;
 attr = {
 reversePaths = "1";
 };
-pos = (472,0);
+pos = (522,0);
 ref = Q.tag.black.bold;
 }
 );
-width = 1784;
+width = 1974;
 },
 {
 layerId = m01;
@@ -36,12 +35,16 @@ alignment = 1;
 attr = {
 reversePaths = "1";
 };
-pos = (436,0);
+pos = (492,0);
 ref = Q.tag.black.bold;
 }
 );
-width = 1712;
+width = 1874;
 }
 );
-note = "$SYMBOL_FILL $SYMBOL_SQUARE\012\012# Detached each alternates for .bold glyph";
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
+$SYMBOL_SQUARE
+
+# Detached each alternates for .bold glyph";
 }

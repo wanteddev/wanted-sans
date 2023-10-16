@@ -5,22 +5,14 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
+guides = (
 {
-name = "#exit";
-pos = (212,2);
 },
 {
-name = bottom;
-pos = (380,2);
+pos = (0,632);
 },
 {
-name = ogonek;
-pos = (78,-262);
-},
-{
-name = top;
-pos = (380,632);
+pos = (0,-264);
 }
 );
 layerId = m01;
@@ -42,13 +34,13 @@ closed = 1;
 nodes = (
 (168,100,o),
 (258,-16,o),
-(414,-16,cs),
+(412,-16,cs),
 (586,-16,o),
 (710,128,o),
 (710,316,cs),
 (710,506,o),
 (586,648,o),
-(414,648,cs),
+(412,648,cs),
 (258,648,o),
 (168,532,o),
 (168,316,c),
@@ -69,7 +61,7 @@ nodes = (
 (282,524,o),
 (390,524,cs),
 (500,524,o),
-(576,438,o),
+(576,436,o),
 (576,316,cs),
 (576,196,o),
 (500,108,o),
@@ -81,29 +73,21 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -77;
 width = 61;
 };
 };
 width = 758;
 },
 {
-anchors = (
+guides = (
 {
-name = "#exit";
-pos = (316,2);
 },
 {
-name = bottom;
-pos = (436,2);
+pos = (0,696);
 },
 {
-name = ogonek;
-pos = (76,-288);
-},
-{
-name = top;
-pos = (436,694);
+pos = (0,-288);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -123,7 +107,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(270,92,o),
+(270,90,o),
 (360,-16,o),
 (514,-16,cs),
 (700,-16,o),
@@ -133,7 +117,7 @@ nodes = (
 (700,712,o),
 (514,712,cs),
 (360,712,o),
-(270,604,o),
+(270,606,o),
 (270,348,c),
 (338,608,l),
 (254,608,l),
@@ -145,14 +129,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(370,200,o),
-(312,262,o),
-(312,348,cs),
-(312,432,o),
-(370,494,o),
-(452,494,cs),
-(534,494,o),
-(592,432,o),
+(368,200,o),
+(310,262,o),
+(310,348,cs),
+(310,434,o),
+(368,496,o),
+(452,496,cs),
+(534,496,o),
+(592,434,o),
 (592,348,cs),
 (592,262,o),
 (534,200,o),
@@ -164,7 +148,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -402;
 width = 67;
 };
 };
@@ -172,7 +156,10 @@ width = 870;
 }
 );
 metricLeft = n.dnom;
-note = "# Required RMX Scaler";
+metricRight = b.dnom;
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = p;

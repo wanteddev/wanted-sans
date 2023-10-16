@@ -218,8 +218,20 @@ width = 914;
 {
 anchors = (
 {
+name = "#entry";
+pos = (686,0);
+},
+{
+name = "#exit";
+pos = (686,0);
+},
+{
 name = bottom;
 pos = (482,0);
+},
+{
+name = ogonek;
+pos = (686,0);
 },
 {
 name = top;
@@ -282,7 +294,7 @@ nodes = (
 userData = {
 RMXScaler = {
 height = 75.73529;
-weight = -50;
+weight = -40;
 width = 75.73529;
 };
 };
@@ -397,8 +409,20 @@ width = 932;
 {
 anchors = (
 {
+name = "#entry";
+pos = (522,0);
+},
+{
+name = "#exit";
+pos = (522,0);
+},
+{
 name = bottom;
 pos = (438,0);
+},
+{
+name = ogonek;
+pos = (522,0);
 },
 {
 name = top;
@@ -461,7 +485,7 @@ nodes = (
 userData = {
 RMXScaler = {
 height = 69.85294;
-weight = -300;
+weight = -332;
 width = 65;
 };
 };

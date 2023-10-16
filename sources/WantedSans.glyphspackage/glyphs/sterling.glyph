@@ -1,9 +1,130 @@
 {
+color = 3;
 glyphname = sterling;
 kernLeft = S;
 kernRight = S;
 layers = (
 {
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1126,42,l),
+(1126,204,l),
+(86,204,l),
+(86,124,l),
+(374,124,l),
+(374,232,l),
+(128,150,l),
+(158,150,ls),
+(368,150,o),
+(470,256,o),
+(470,476,cs),
+(470,970,ls),
+(470,1162,o),
+(566,1270,o),
+(740,1270,cs),
+(878,1270,o),
+(956,1204,o),
+(1006,1046,c),
+(1172,1094,l),
+(1100,1326,o),
+(950,1432,o),
+(740,1432,cs),
+(468,1432,o),
+(296,1254,o),
+(296,970,cs),
+(296,426,ls),
+(296,278,o),
+(250,204,o),
+(154,204,cs),
+(86,204,l),
+(86,42,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(734,678,l),
+(734,836,l),
+(86,836,l),
+(86,678,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 94.2;
+verticalShift = 42;
+width = 94.2;
+};
+};
+width = 1258;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1290,42,l),
+(1290,424,l),
+(94,424,l),
+(94,234,l),
+(628,234,l),
+(628,476,l),
+(234,330,l),
+(264,330,ls),
+(524,330,o),
+(690,422,o),
+(690,558,cs),
+(690,906,ls),
+(690,998,o),
+(736,1050,o),
+(816,1050,cs),
+(892,1050,o),
+(940,1004,o),
+(960,918,c),
+(1352,1004,l),
+(1284,1286,o),
+(1096,1432,o),
+(816,1432,cs),
+(492,1432,o),
+(288,1230,o),
+(288,906,cs),
+(288,564,ls),
+(288,472,o),
+(252,424,o),
+(178,424,cs),
+(94,424,l),
+(94,42,l)
+);
+},
+{
+attr = {
+strokeHeight = 336;
+};
+closed = 1;
+nodes = (
+(914,592,l),
+(914,858,l),
+(94,858,l),
+(94,592,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 94.2;
+verticalShift = 42;
+width = 94.2;
+};
+};
+width = 1434;
+},
+{
+associatedMasterId = m01;
 background = {
 shapes = (
 {
@@ -41,8 +162,9 @@ nodes = (
 }
 );
 };
-layerId = m01;
+layerId = "9AF29326-03CA-44F8-A064-27315E1F5F25";
 metricLeft = "=|E";
+name = "Sep 5, 23 16:19";
 shapes = (
 {
 closed = 1;
@@ -93,6 +215,7 @@ nodes = (
 width = 1358;
 },
 {
+associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 background = {
 shapes = (
 {
@@ -129,8 +252,9 @@ nodes = (
 }
 );
 };
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+layerId = "C37E11FB-49C9-4FA6-99EE-3AF37ADD8F3B";
 metricLeft = "=|E";
+name = "Sep 5, 23 16:19";
 shapes = (
 {
 closed = 1;
@@ -184,6 +308,11 @@ nodes = (
 width = 1506;
 }
 );
-metricRight = L;
+note = "# Required RMX Scaler";
 unicode = 163;
+userData = {
+RMXScaler = {
+source = _part.sterlingbase;
+};
+};
 }

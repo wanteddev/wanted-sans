@@ -9,7 +9,7 @@ alignment = 1;
 ref = Q.circled.cv06;
 }
 );
-width = 1764;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -19,8 +19,10 @@ alignment = 1;
 ref = Q.circled.cv06;
 }
 );
-width = 1812;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE $SYMBOL_CIRCLE";
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
+$SYMBOL_CIRCLE";
 }

@@ -1,7 +1,7 @@
 {
 glyphname = kturned;
 kernLeft = x;
-kernRight = p;
+kernRight = q;
 layers = (
 {
 layerId = m01;

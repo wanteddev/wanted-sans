@@ -5,6 +5,6 @@
 # Names should be added to this file as: 
 # Name or Organization <email address> 
 
-Wantedlab
+Wanted Lab, Inc.
 Kil Hyung-jin <orioncactus@gmail.com>
-Kanghabnin <phaelkang@gmail.com>
+Kang Hanbin <phaelkang@gmail.com>

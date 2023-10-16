@@ -12,6 +12,7 @@ pos = (704,0);
 background = {
 shapes = (
 {
+pos = (-16,0);
 ref = a.cv03;
 }
 );
@@ -226,6 +227,7 @@ pos = (780,0);
 background = {
 shapes = (
 {
+pos = (-16,0);
 ref = a.cv03;
 }
 );

@@ -11,7 +11,7 @@ alignment = 1;
 ref = whiteSquare;
 }
 );
-width = 1712;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -21,7 +21,7 @@ alignment = 1;
 ref = whiteSquare;
 }
 );
-width = 1784;
+width = 1974;
 }
 );
 unicode = 9634;

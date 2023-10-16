@@ -390,7 +390,7 @@ pos = (656,0);
 },
 {
 name = _symbol;
-pos = (530,724);
+pos = (546,724);
 }
 );
 background = {
@@ -460,7 +460,7 @@ pos = (554,0);
 },
 {
 name = _symbol;
-pos = (440,724);
+pos = (480,724);
 }
 );
 background = {

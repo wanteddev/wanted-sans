@@ -5,21 +5,15 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
-{
-name = _symbol;
-pos = (324,360);
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
 (486,-16,o),
-(602,90,o),
-(602,234,cs),
-(602,372,o),
+(600,90,o),
+(600,234,cs),
+(600,370,o),
 (502,474,o),
 (372,474,cs),
 (242,474,o),
@@ -33,10 +27,10 @@ nodes = (
 (362,608,cs),
 (408,608,o),
 (454,590,o),
-(486,548,c),
+(486,550,c),
 (584,638,l),
-(528,704,o),
-(444,736,o),
+(530,700,o),
+(450,736,o),
 (362,736,cs),
 (180,736,o),
 (46,588,o),
@@ -68,19 +62,13 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -94;
+weight = -74;
 width = 50;
 };
 };
-width = 648;
+width = 646;
 },
 {
-anchors = (
-{
-name = _symbol;
-pos = (376,396);
-}
-);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
@@ -92,9 +80,9 @@ nodes = (
 (716,414,o),
 (612,532,o),
 (474,532,cs),
-(336,532,o),
-(232,414,o),
-(232,258,c),
+(334,532,o),
+(230,412,o),
+(230,258,c),
 (304,442,l),
 (278,442,l),
 (286,432,l),
@@ -102,8 +90,8 @@ nodes = (
 (342,576,o),
 (430,576,cs),
 (472,576,o),
-(506,564,o),
-(534,544,c),
+(504,564,o),
+(532,544,c),
 (688,724,l),
 (622,776,o),
 (528,808,o),
@@ -119,11 +107,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(340,190,o),
-(304,224,o),
-(304,272,cs),
-(304,318,o),
-(340,352,o),
+(338,190,o),
+(302,224,o),
+(302,272,cs),
+(302,318,o),
+(338,352,o),
 (388,352,cs),
 (438,352,o),
 (474,318,o),
@@ -137,7 +125,7 @@ nodes = (
 userData = {
 RMXScaler = {
 height = 54.7;
-weight = -360;
+weight = -397;
 width = 54.5;
 };
 };
@@ -146,7 +134,9 @@ width = 752;
 );
 metricLeft = zero.dnom;
 metricRight = zero.dnom;
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = six;

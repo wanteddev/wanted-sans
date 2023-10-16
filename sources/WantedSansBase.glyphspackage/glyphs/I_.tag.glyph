@@ -9,31 +9,35 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (64,362);
+pos = (68,344);
 },
 {
 name = "#exit";
-pos = (204,362);
+pos = (208,344);
+},
+{
+name = _serif;
+pos = (138,344);
 },
 {
 name = _symbol;
-pos = (134,724);
+pos = (138,724);
 },
 {
 name = bottom;
-pos = (134,362);
+pos = (138,344);
 },
 {
 name = ogonek;
-pos = (64,362);
+pos = (68,344);
 },
 {
 name = top;
-pos = (134,1086);
+pos = (138,1104);
 },
 {
 name = topleft;
-pos = (64,1086);
+pos = (68,1104);
 }
 );
 layerId = m01;
@@ -41,52 +45,56 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(204,362,l),
-(204,1086,l),
-(64,1086,l),
-(64,362,l)
+(208,344,l),
+(208,1104,l),
+(68,1104,l),
+(68,344,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -90;
-width = 50;
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
 };
 };
-width = 268;
+width = 276;
 },
 {
 anchors = (
 {
 name = "#entry";
-pos = (50,398);
+pos = (58,362);
 },
 {
 name = "#exit";
-pos = (254,398);
+pos = (274,362);
+},
+{
+name = _serif;
+pos = (166,362);
 },
 {
 name = _symbol;
-pos = (152,724);
+pos = (166,724);
 },
 {
 name = bottom;
-pos = (152,398);
+pos = (166,362);
 },
 {
 name = ogonek;
-pos = (50,398);
+pos = (58,362);
 },
 {
 name = top;
-pos = (152,1050);
+pos = (166,1086);
 },
 {
 name = topleft;
-pos = (50,1050);
+pos = (58,1086);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -94,22 +102,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(254,398,l),
-(254,1050,l),
-(50,1050,l),
-(50,398,l)
+(274,362,l),
+(274,1086,l),
+(58,1086,l),
+(58,362,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 45;
-verticalShift = 398;
-weight = -460;
-width = 45;
+height = 50;
+verticalShift = 362;
+weight = -480;
+width = 50;
 };
 };
-width = 304;
+width = 332;
 }
 );
 metricLeft = H.tag;

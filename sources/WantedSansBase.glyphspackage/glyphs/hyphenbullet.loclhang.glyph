@@ -1,0 +1,26 @@
+{
+color = 9;
+glyphname = hyphenbullet.loclhang;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = hyphenbullet.case;
+}
+);
+width = 880;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = hyphenbullet.case;
+}
+);
+width = 920;
+}
+);
+}

@@ -1,0 +1,134 @@
+{
+export = 0;
+glyphname = _part.fbase.cv19;
+layers = (
+{
+anchors = (
+{
+name = _crossbar;
+pos = (132,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = _part.fbase;
+},
+{
+attr = {
+strokeHeight = 152;
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(216,0,l),
+(216,1448,l)
+);
+},
+{
+attr = {
+strokeHeight = 152;
+strokePos = "0";
+strokeWidth = 168;
+};
+closed = 0;
+nodes = (
+(296,1448,l),
+(580,1448,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(300,1448,l),
+(132,1448,l),
+(132,0,l)
+);
+},
+{
+attr = {
+strokePos = 0;
+};
+closed = 1;
+nodes = (
+(580,1296,l),
+(580,1448,l),
+(296,1448,l),
+(296,1296,l)
+);
+}
+);
+width = 464;
+},
+{
+anchors = (
+{
+name = _crossbar;
+pos = (108,1032);
+}
+);
+background = {
+shapes = (
+{
+ref = _part.fbase;
+},
+{
+attr = {
+strokeHeight = 304;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(308,0,l),
+(308,1544,l)
+);
+},
+{
+attr = {
+strokeHeight = 304;
+strokePos = "0";
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(504,1544,l),
+(748,1544,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,0,l),
+(508,1544,l),
+(108,1544,l),
+(108,0,l)
+);
+},
+{
+attr = {
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(748,1240,l),
+(748,1544,l),
+(504,1544,l),
+(504,1240,l)
+);
+}
+);
+width = 648;
+}
+);
+metricLeft = _part.fbase;
+metricRight = _part.fbase;
+}

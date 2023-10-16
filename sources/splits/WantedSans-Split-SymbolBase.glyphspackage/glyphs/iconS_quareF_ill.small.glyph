@@ -1,0 +1,66 @@
+{
+category = "SF-Symbol";
+glyphname = iconSquareFill.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(696,-16,ls),
+(792,-16,o),
+(836,28,o),
+(836,124,cs),
+(836,556,ls),
+(836,652,o),
+(792,696,o),
+(696,696,cs),
+(264,696,ls),
+(168,696,o),
+(124,652,o),
+(124,556,cs),
+(124,124,ls),
+(124,28,o),
+(168,-16,o),
+(264,-16,cs)
+);
+}
+);
+width = 960;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(696,-48,ls),
+(810,-48,o),
+(868,10,o),
+(868,124,cs),
+(868,556,ls),
+(868,670,o),
+(810,728,o),
+(696,728,cs),
+(264,728,ls),
+(150,728,o),
+(92,670,o),
+(92,556,cs),
+(92,124,ls),
+(92,10,o),
+(150,-48,o),
+(264,-48,cs)
+);
+}
+);
+width = 960;
+}
+);
+metricWidth = baseSymbol;
+note = "$SYMBOL_ICON
+$SYMBOL_SMALL
+$SYMBOL_FILL
+$SYMBOL_SQUARE";
+subCategory = Other;
+}

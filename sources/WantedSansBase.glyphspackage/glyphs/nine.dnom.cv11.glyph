@@ -5,10 +5,11 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
+guides = (
 {
-name = _symbol;
-pos = (312,360);
+},
+{
+pos = (0,720);
 }
 );
 layerId = m01;
@@ -26,12 +27,12 @@ nodes = (
 (456,350,o),
 (456,484,c),
 (502,484,l),
-(354,304,l),
+(356,304,l),
 (424,246,l),
 (448,274,l),
 (448,484,l),
-(448,398,o),
-(420,348,o),
+(448,402,o),
+(424,354,o),
 (344,244,cs),
 (164,0,l),
 (328,0,l),
@@ -66,17 +67,18 @@ userData = {
 RMXScaler = {
 height = 50;
 verticalShift = -2;
-weight = -94;
+weight = -74;
 width = 50;
 };
 };
 width = 624;
 },
 {
-anchors = (
+guides = (
 {
-name = _symbol;
-pos = (364,396);
+},
+{
+pos = (0,792);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -96,16 +98,16 @@ nodes = (
 (534,510,l),
 (336,324,l),
 (416,238,l),
-(448,268,l),
+(448,270,l),
 (448,510,l),
 (448,408,o),
 (420,364,o),
 (368,294,cs),
 (150,0,l),
 (442,0,l),
-(576,202,ls),
-(644,304,o),
-(688,376,o),
+(574,202,ls),
+(642,306,o),
+(688,378,o),
 (688,486,cs),
 (688,674,o),
 (556,808,o),
@@ -133,14 +135,16 @@ nodes = (
 userData = {
 RMXScaler = {
 height = 54.7;
-weight = -360;
+weight = -397;
 width = 54.5;
 };
 };
 width = 730;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = nine.cv11;

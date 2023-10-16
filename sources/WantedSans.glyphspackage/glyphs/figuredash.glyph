@@ -1,0 +1,42 @@
+{
+color = 0;
+glyphname = figuredash;
+kernLeft = emdash;
+kernRight = emdash;
+layers = (
+{
+layerId = m01;
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 0;
+Width = 1280;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1280;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+piece = {
+Case = 0;
+Space = 0;
+Width = 1440;
+};
+ref = _smart.horizontalbar;
+}
+);
+width = 1440;
+}
+);
+note = $CASE;
+unicode = 8210;
+}

@@ -6,19 +6,16 @@ layers = (
 anchors = (
 {
 name = serif;
-pos = (602,0);
+pos = (626,0);
 }
 );
 background = {
 shapes = (
 {
-ref = one.cv18;
-},
-{
 closed = 0;
 nodes = (
-(168,1448,l),
-(168,0,l)
+(192,1448,l),
+(192,0,l)
 );
 },
 {
@@ -30,14 +27,16 @@ strokeWidth = 172;
 };
 closed = 0;
 nodes = (
-(120,0,l),
-(1040,0,l)
+(144,0,l),
+(1064,0,l)
 );
+},
+{
+ref = one.cv17;
 }
 );
 };
 layerId = m01;
-metricRight = "=|";
 shapes = (
 {
 attr = {
@@ -45,10 +44,10 @@ strokePos = 1;
 };
 closed = 1;
 nodes = (
-(1040,0,l),
-(1040,164,l),
-(120,164,l),
-(120,0,l)
+(1064,0,l),
+(1064,164,l),
+(144,164,l),
+(144,0,l)
 );
 }
 );
@@ -58,7 +57,7 @@ width = 1160;
 anchors = (
 {
 name = serif;
-pos = (672,0);
+pos = (712,0);
 }
 );
 background = {
@@ -66,12 +65,9 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(116,1448,l),
-(116,0,l)
+(156,1448,l),
+(156,0,l)
 );
-},
-{
-ref = one.cv18;
 },
 {
 attr = {
@@ -82,14 +78,16 @@ strokeWidth = 416;
 };
 closed = 0;
 nodes = (
-(100,0,l),
-(1180,0,l)
+(140,0,l),
+(1220,0,l)
 );
+},
+{
+ref = one.cv17;
 }
 );
 };
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
-metricRight = "=|";
 shapes = (
 {
 attr = {
@@ -97,10 +95,10 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(1180,0,l),
-(1180,360,l),
-(100,360,l),
-(100,0,l)
+(1220,0,l),
+(1220,360,l),
+(140,360,l),
+(140,0,l)
 );
 }
 );

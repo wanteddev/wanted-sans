@@ -12,11 +12,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (562,0);
+pos = (600,0);
 ref = three.tag.cv09;
 }
 );
-width = 1764;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,14 +27,16 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (598,0);
+pos = (644,0);
 ref = three.tag.cv09;
 }
 );
-width = 1812;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_OUTLINE $SYMBOL_CIRCLE";
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
+$SYMBOL_CIRCLE";
 }

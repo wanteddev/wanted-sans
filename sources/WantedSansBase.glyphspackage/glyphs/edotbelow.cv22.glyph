@@ -1,0 +1,33 @@
+{
+glyphname = edotbelow.cv22;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.cv22;
+},
+{
+pos = (622,0);
+ref = dotbelowcomb;
+}
+);
+width = 1188;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+ref = e.cv22;
+},
+{
+pos = (634,0);
+ref = dotbelowcomb;
+}
+);
+width = 1220;
+}
+);
+}

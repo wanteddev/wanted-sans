@@ -9,27 +9,27 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (64,362);
+pos = (68,344);
 },
 {
 name = _symbol;
-pos = (300,724);
+pos = (314,724);
 },
 {
 name = bottom;
-pos = (300,362);
+pos = (314,344);
 },
 {
 name = ogonek;
-pos = (396,362);
+pos = (422,344);
 },
 {
 name = top;
-pos = (300,1086);
+pos = (314,1104);
 },
 {
 name = topleft;
-pos = (64,1086);
+pos = (68,1104);
 }
 );
 layerId = m01;
@@ -37,83 +37,83 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(204,362,l),
-(204,1086,l),
-(64,1086,l),
-(64,362,l)
+(208,344,l),
+(208,1104,l),
+(68,1104,l),
+(68,344,l)
 );
 },
 {
 attr = {
-identifier = ID0x2c6f62470;
+identifier = ID0x1377d8a60;
 strokePos = "1";
 };
 closed = 1;
 nodes = (
-(536,362,l),
-(536,494,l),
-(202,494,l),
-(202,362,l)
+(562,344,l),
+(562,474,l),
+(206,474,l),
+(206,344,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(500,674,l),
-(500,794,l),
-(202,794,l),
-(202,674,l)
+(524,676,l),
+(524,796,l),
+(206,796,l),
+(206,676,l)
 );
 },
 {
 attr = {
-identifier = ID0x2c6f62470;
+identifier = ID0x1377d8a60;
 strokePos = 0;
 };
 closed = 1;
 nodes = (
-(528,954,l),
-(528,1086,l),
-(202,1086,l),
-(202,954,l)
+(554,974,l),
+(554,1104,l),
+(206,1104,l),
+(206,974,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -90;
-width = 50;
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
 };
 };
-width = 588;
+width = 612;
 },
 {
 anchors = (
 {
 name = "#entry";
-pos = (58,362);
+pos = (66,326);
 },
 {
 name = _symbol;
-pos = (304,724);
+pos = (336,724);
 },
 {
 name = bottom;
-pos = (304,362);
+pos = (336,326);
 },
 {
 name = ogonek;
-pos = (348,362);
+pos = (388,326);
 },
 {
 name = top;
-pos = (304,1086);
+pos = (336,1122);
 },
 {
 name = topleft;
-pos = (58,1086);
+pos = (68,1122);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -121,57 +121,57 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(262,362,l),
-(262,1086,l),
-(58,1086,l),
-(58,362,l)
+(282,326,l),
+(282,1122,l),
+(66,1122,l),
+(66,326,l)
 );
 },
 {
 attr = {
-identifier = ID0x2c6fe5ad0;
+identifier = ID0x1699c0fa0;
 strokePos = "1";
 };
 closed = 1;
 nodes = (
-(550,362,l),
-(550,554,l),
-(260,554,l),
-(260,362,l)
+(606,326,l),
+(606,530,l),
+(280,530,l),
+(280,326,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(514,640,l),
-(514,808,l),
-(260,808,l),
-(260,640,l)
+(566,636,l),
+(566,816,l),
+(280,816,l),
+(280,636,l)
 );
 },
 {
 attr = {
-identifier = ID0x2c6fe5ad0;
+identifier = ID0x1699c0fa0;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(542,894,l),
-(542,1086,l),
-(260,1086,l),
-(260,894,l)
+(596,918,l),
+(596,1122,l),
+(280,1122,l),
+(280,918,l)
 );
 }
 );
 userData = {
 RMXScaler = {
-height = 50;
-verticalShift = 362;
-weight = -460;
-width = 50;
+height = 55;
+verticalShift = 326;
+weight = -480;
+width = 55;
 };
 };
-width = 600;
+width = 660;
 }
 );
 note = "# Required RMX Scaler";

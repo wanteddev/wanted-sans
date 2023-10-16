@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = Sacute.loclPLK;
 kernLeft = S;
 kernRight = S;

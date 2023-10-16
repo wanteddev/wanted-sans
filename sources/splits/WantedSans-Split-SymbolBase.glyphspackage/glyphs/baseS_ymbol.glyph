@@ -1,0 +1,38 @@
+{
+category = "SF-Symbol";
+export = 0;
+glyphname = baseSymbol;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(960,-140,l),
+(960,820,l),
+(0,818,l),
+(0,-140,l)
+);
+}
+);
+width = 960;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(960,-140,l),
+(960,820,l),
+(0,818,l),
+(0,-140,l)
+);
+}
+);
+width = 960;
+}
+);
+subCategory = Other;
+}

@@ -1,0 +1,138 @@
+{
+export = 0;
+glyphname = _part.referencemarkbase;
+layers = (
+{
+anchors = (
+{
+name = dotbottom;
+pos = (880,-28);
+},
+{
+name = dotleft;
+pos = (156,760);
+},
+{
+name = dotright;
+pos = (1604,760);
+},
+{
+name = dottop;
+pos = (880,1476);
+}
+);
+background = {
+shapes = (
+{
+attr = {
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(214,1390,l),
+(1546,58,l)
+);
+},
+{
+attr = {
+strokeWidth = 164;
+};
+closed = 0;
+nodes = (
+(1546,1390,l),
+(214,58,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(880,608,l),
+(1488,0,l),
+(1604,116,l),
+(996,724,l),
+(1604,1332,l),
+(1488,1448,l),
+(880,840,l),
+(272,1448,l),
+(156,1332,l),
+(764,724,l),
+(156,116,l),
+(272,0,l)
+);
+}
+);
+width = 1760;
+},
+{
+anchors = (
+{
+name = dotbottom;
+pos = (878,-28);
+},
+{
+name = dotleft;
+pos = (154,760);
+},
+{
+name = dotright;
+pos = (1602,760);
+},
+{
+name = dottop;
+pos = (878,1476);
+}
+);
+background = {
+shapes = (
+{
+attr = {
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(278,1324,l),
+(1478,124,l)
+);
+},
+{
+attr = {
+strokeWidth = 352;
+};
+closed = 0;
+nodes = (
+(1478,1324,l),
+(278,124,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(878,476,l),
+(1354,0,l),
+(1602,248,l),
+(1126,724,l),
+(1602,1200,l),
+(1354,1448,l),
+(878,972,l),
+(402,1448,l),
+(154,1200,l),
+(630,724,l),
+(154,248,l),
+(402,0,l)
+);
+}
+);
+width = 1756;
+}
+);
+metricLeft = multiply;
+metricRight = multiply;
+}

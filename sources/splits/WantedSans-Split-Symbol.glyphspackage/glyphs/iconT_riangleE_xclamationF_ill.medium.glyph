@@ -1,0 +1,151 @@
+{
+category = "SF-Symbol";
+color = 3;
+glyphname = iconTriangleExclamationFill.medium;
+layers = (
+{
+layerId = m01;
+metricWidth = "=baseSymbol.medium";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1973,-211,ls),
+(2131,-211,o),
+(2223,-166,o),
+(2283,-64,cs),
+(2342,38,o),
+(2338,143,o),
+(2257,282,cs),
+(1564,1466,ls),
+(1483,1604,o),
+(1395,1662,o),
+(1280,1662,cs),
+(1152,1662,o),
+(1069,1594,o),
+(994,1466,cs),
+(303,282,ls),
+(226,149,o),
+(213,43,o),
+(277,-66,cs),
+(341,-175,o),
+(439,-211,o),
+(587,-211,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1207,147,o),
+(1152,207,o),
+(1152,275,cs),
+(1152,346,o),
+(1207,403,o),
+(1280,403,cs),
+(1350,403,o),
+(1408,348,o),
+(1408,275,cs),
+(1408,207,o),
+(1353,147,o),
+(1280,147,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1188,1090,l),
+(1372,1090,l),
+(1372,521,l),
+(1188,521,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 125;
+verticalShift = -85;
+width = 125;
+};
+};
+width = 2560;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricWidth = "=baseSymbol.medium";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1973,-293,ls),
+(2180,-293,o),
+(2289,-220,o),
+(2357,-100,cs),
+(2425,20,o),
+(2428,153,o),
+(2329,323,cs),
+(1635,1507,ls),
+(1529,1689,o),
+(1408,1744,o),
+(1280,1744,cs),
+(1157,1744,o),
+(1033,1696,o),
+(922,1507,cs),
+(231,323,ls),
+(124,139,o),
+(142,7,o),
+(203,-102,cs),
+(267,-216,o),
+(373,-293,o),
+(587,-293,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1207,97,o),
+(1152,155,o),
+(1152,225,cs),
+(1152,294,o),
+(1207,353,o),
+(1280,353,cs),
+(1350,353,o),
+(1408,296,o),
+(1408,225,cs),
+(1408,155,o),
+(1353,97,o),
+(1280,97,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1163,1142,l),
+(1397,1142,l),
+(1397,469,l),
+(1163,469,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 125;
+verticalShift = -85;
+width = 125;
+};
+};
+width = 2560;
+}
+);
+note = "# Required RMX Scaler
+
+$SYMBOL_ICON
+$SYMBOL_MEDIUM
+$SYMBOL_FILL";
+subCategory = Other;
+unicode = 1049087;
+userData = {
+RMXScaler = {
+source = iconTriangleExclamationFill.small;
+};
+};
+}

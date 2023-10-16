@@ -1,0 +1,28 @@
+{
+glyphname = second;
+kernLeft = quoteleft;
+kernRight = quoteleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = quotedblright;
+}
+);
+width = 792;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = quotedblright;
+}
+);
+width = 1196;
+}
+);
+unicode = 8243;
+}

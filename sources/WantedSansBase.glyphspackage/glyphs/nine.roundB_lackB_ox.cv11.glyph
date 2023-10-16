@@ -15,11 +15,11 @@ alignment = 1;
 attr = {
 reversePaths = "1";
 };
-pos = (546,0);
+pos = (608,0);
 ref = nine.tag.black.cv11;
 }
 );
-width = 1712;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -33,14 +33,16 @@ alignment = 1;
 attr = {
 reversePaths = "1";
 };
-pos = (564,0);
+pos = (626,0);
 ref = nine.tag.black.cv11;
 }
 );
-width = 1784;
+width = 1974;
 }
 );
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
-note = "$SYMBOL_FILL $SYMBOL_SQUARE";
+note = "$SYMBOL_LETTER
+$SYMBOL_FILL
+$SYMBOL_SQUARE";
 }

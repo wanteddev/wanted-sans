@@ -5,14 +5,11 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
+guides = (
 {
-name = bottom;
-pos = (504,2);
 },
 {
-name = top;
-pos = (504,632);
+pos = (0,632);
 }
 );
 layerId = m01;
@@ -20,48 +17,48 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(354,2,l),
-(354,154,l),
+(352,0,l),
+(352,154,l),
 (272,154,l),
-(354,2,l),
+(352,0,l),
 (158,632,l),
 (22,632,l),
-(234,2,l)
+(234,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(386,2,l),
+(386,0,l),
 (536,530,l),
 (472,414,l),
 (536,414,l),
 (536,530,l),
 (544,632,l),
 (442,632,l),
-(272,2,l)
+(272,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(736,2,l),
+(736,0,l),
 (736,154,l),
 (656,154,l),
-(736,2,l),
+(736,0,l),
 (566,632,l),
 (464,632,l),
 (472,530,l),
-(624,2,l)
+(624,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(776,2,l),
+(776,0,l),
 (986,632,l),
 (850,632,l),
-(656,2,l)
+(656,0,l)
 );
 }
 );
@@ -69,21 +66,18 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -77;
 width = 61;
 };
 };
 width = 1008;
 },
 {
-anchors = (
+guides = (
 {
-name = bottom;
-pos = (588,2);
 },
 {
-name = top;
-pos = (588,694);
+pos = (0,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -92,8 +86,8 @@ shapes = (
 closed = 1;
 nodes = (
 (462,0,l),
-(462,298,l),
-(314,298,l),
+(462,296,l),
+(314,296,l),
 (462,0,l),
 (264,696,l),
 (22,696,l),
@@ -104,10 +98,10 @@ nodes = (
 closed = 1;
 nodes = (
 (494,0,l),
-(602,438,l),
-(574,372,l),
-(602,372,l),
-(602,438,l),
+(602,436,l),
+(574,370,l),
+(602,370,l),
+(602,436,l),
 (634,696,l),
 (482,696,l),
 (314,0,l)
@@ -116,13 +110,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(864,0,l),
-(864,298,l),
-(714,298,l),
-(864,-2,l),
+(862,0,l),
+(862,296,l),
+(714,296,l),
+(862,-2,l),
 (694,696,l),
 (542,696,l),
-(574,438,l),
+(574,436,l),
 (682,0,l)
 );
 },
@@ -140,7 +134,7 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -402;
 width = 67;
 };
 };
@@ -149,7 +143,9 @@ width = 1176;
 );
 metricLeft = v.dnom;
 metricRight = v.dnom;
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = w;

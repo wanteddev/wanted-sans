@@ -7,19 +7,19 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (312,0);
+pos = (336,0);
 },
 {
 name = center;
-pos = (312,516);
+pos = (336,516);
 },
 {
 name = top;
-pos = (312,1264);
+pos = (336,1264);
 },
 {
 name = topright;
-pos = (636,1264);
+pos = (660,1032);
 }
 );
 layerId = m01;
@@ -36,29 +36,29 @@ piece = {
 Cap = 56;
 Straight = 1;
 };
-pos = (96,0);
+pos = (120,0);
 ref = _smart.lowerstem;
 }
 );
-width = 688;
+width = 720;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (412,0);
+pos = (424,0);
 },
 {
 name = center;
-pos = (412,516);
+pos = (424,516);
 },
 {
 name = top;
-pos = (412,1280);
+pos = (424,1280);
 },
 {
 name = topright;
-pos = (812,1280);
+pos = (824,1032);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -75,11 +75,11 @@ piece = {
 Cap = 59.5;
 Straight = 1;
 };
-pos = (104,0);
+pos = (116,0);
 ref = _smart.lowerstem;
 }
 );
-width = 856;
+width = 872;
 }
 );
 metricLeft = t;

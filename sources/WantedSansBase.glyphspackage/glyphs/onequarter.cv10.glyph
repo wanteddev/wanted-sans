@@ -1,5 +1,7 @@
 {
 glyphname = onequarter.cv10;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = m01;
@@ -33,7 +35,7 @@ pos = (908,0);
 ref = four.dnom.cv10;
 }
 );
-width = 1710;
+width = 1708;
 }
 );
 metricLeft = one.numr;

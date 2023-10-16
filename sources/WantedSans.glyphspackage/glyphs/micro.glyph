@@ -1,7 +1,7 @@
 {
 glyphname = micro;
 kernLeft = p;
-kernRight = l.cv17;
+kernRight = l.cv16;
 layers = (
 {
 layerId = m01;

@@ -1,0 +1,171 @@
+@charset 'UTF-8';
+
+:root {
+    --color-label: black;
+    --color-background: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: keep-all;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    font-size: normal;
+    line-height: 1.5;
+    color: var(--color-label);
+    background-color: var(--color-background);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2em;
+    transition: font-weight 1s;
+}
+p:last-child {
+    margin: 0;
+}
+
+blockquote {
+    margin: 0;
+    padding-left: calc(2em - 2px);
+    border-left: 2px solid black;
+}
+
+hr {
+    width: 12.5%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-radius: 2px;
+}
+
+figure {
+    margin: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+img:last-child {
+    margin-bottom: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* custom */
+
+section.content {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.content article {
+    width: 100%;
+    max-width: 40em;
+    margin: 4em 0;
+    font-size: 1.125em;
+    line-height: 1.76;
+}
+
+section.content div {
+    margin: 2rem 1rem;
+}
+
+section.content div.opentype {
+    text-align: center;
+}
+
+section.content div.animation {
+    font-size: 1.5em;
+    animation: variable-loop 2s infinite linear both;
+    text-align: center;
+}
+
+section.content article.variable div.animation {
+    animation-timing-function: ease;
+}
+
+section.grid {
+    display: flex;
+    width: 100%;
+}
+
+section.grid > article {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.opentype {
+    display: var(--opentype);
+}
+
+article.kr-charset {
+    display: var(--kr-charset);
+}
+
+article.jp-charset {
+    display: var(--jp-charset);
+}
+
+article.std-charset {
+    display: var(--std-charset);
+}
+
+@keyframes variable-loop {
+    0% {
+        font-weight: 400;
+    }
+    45% {
+        font-weight: 1000;
+    }
+    90% {
+        font-weight: 400;
+    }
+    100% {
+        font-weight: 400;
+    }
+}
+
+/* 다크 모드 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-label: #e8e8e8;
+        --color-background: #1e1e1e;
+    }
+}

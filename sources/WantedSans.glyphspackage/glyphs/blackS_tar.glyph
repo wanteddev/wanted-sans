@@ -1,0 +1,29 @@
+{
+glyphname = blackStar;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = iconStarFill.small;
+}
+);
+width = 2050;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = -1;
+pos = (36,0);
+ref = iconStarFill.small;
+}
+);
+width = 2120;
+}
+);
+metricLeft = whiteStar;
+metricRight = whiteStar;
+unicode = 9733;
+}

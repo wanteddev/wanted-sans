@@ -5,34 +5,14 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-anchors = (
+guides = (
 {
-name = "#entry";
-pos = (548,0);
 },
 {
-name = "#exit";
-pos = (680,2);
+pos = (0,632);
 },
 {
-name = bottom;
-pos = (380,2);
-},
-{
-name = center;
-pos = (584,738);
-},
-{
-name = ogonek;
-pos = (680,0);
-},
-{
-name = top;
-pos = (380,886);
-},
-{
-name = topright;
-pos = (680,888);
+pos = (0,888);
 }
 );
 layerId = m01;
@@ -54,10 +34,10 @@ closed = 1;
 nodes = (
 (528,96,l),
 (604,96,l),
-(604,538,l),
-(528,538,l),
+(604,540,l),
+(528,540,l),
 (590,316,l),
-(590,534,o),
+(590,536,o),
 (500,648,o),
 (346,648,cs),
 (172,648,o),
@@ -74,11 +54,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(260,108,o),
-(184,194,o),
-(184,316,cs),
-(184,438,o),
-(260,524,o),
+(258,108,o),
+(182,196,o),
+(182,316,cs),
+(182,436,o),
+(258,524,o),
 (368,524,cs),
 (476,524,o),
 (552,438,o),
@@ -93,41 +73,21 @@ userData = {
 RMXScaler = {
 height = 61;
 verticalShift = 1;
-weight = -90;
+weight = -77;
 width = 61;
 };
 };
 width = 758;
 },
 {
-anchors = (
+guides = (
 {
-name = "#entry";
-pos = (554,0);
 },
 {
-name = "#exit";
-pos = (794,2);
+pos = (0,696);
 },
 {
-name = bottom;
-pos = (434,2);
-},
-{
-name = center;
-pos = (642,816);
-},
-{
-name = ogonek;
-pos = (794,0);
-},
-{
-name = top;
-pos = (434,972);
-},
-{
-name = topright;
-pos = (794,972);
+pos = (0,972);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -148,12 +108,12 @@ nodes = (
 closed = 1;
 nodes = (
 (532,88,l),
-(616,88,l),
-(616,608,l),
+(618,88,l),
+(618,608,l),
 (532,608,l),
-(600,348,l),
-(600,606,o),
-(510,712,o),
+(602,348,l),
+(602,604,o),
+(512,712,o),
 (356,712,cs),
 (170,712,o),
 (38,556,o),
@@ -161,21 +121,21 @@ nodes = (
 (38,140,o),
 (170,-16,o),
 (356,-16,cs),
-(510,-16,o),
-(600,90,o),
-(600,348,c)
+(512,-16,o),
+(602,92,o),
+(602,348,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(338,200,o),
-(280,262,o),
-(280,348,cs),
-(280,434,o),
-(338,494,o),
-(420,494,cs),
-(500,494,o),
+(336,200,o),
+(278,262,o),
+(278,348,cs),
+(278,434,o),
+(336,496,o),
+(420,496,cs),
+(502,496,o),
 (560,434,o),
 (560,348,cs),
 (560,262,o),
@@ -188,14 +148,16 @@ userData = {
 RMXScaler = {
 height = 67;
 verticalShift = 1;
-weight = -356;
+weight = -402;
 width = 67;
 };
 };
 width = 870;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required adjustment non-overshoot height";
 userData = {
 RMXScaler = {
 source = d;

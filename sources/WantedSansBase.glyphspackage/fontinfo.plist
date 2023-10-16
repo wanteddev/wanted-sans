@@ -1,5 +1,5 @@
 {
-.appVersion = "3192";
+.appVersion = "3221";
 .formatVersion = 3;
 axes = (
 {
@@ -9,13 +9,18 @@ tag = wght;
 );
 classes = (
 {
+code = "$[category == \"Letter\" or category == \"Number\"]
+";
+name = Letter;
+},
+{
 automatic = 1;
-code = "A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcircumflexbelow Dcroat Ddotbelow Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent Kmacronbelow L Lacute Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Nmacronbelow Ntilde O Oacute Ocaron Ocircumflex Ocircumflexdotbelow Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelowmacron Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow T Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Zmacronbelow J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 I.cv19 IJ.cv19 Iacute.cv19 Icaron.cv19 Icircumflex.cv19 Idieresis.cv19 Idotaccent.cv19 Idotbelow.cv19 Igrave.cv19 Imacron.cv19 Iogonek.cv19 Itilde.cv19 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
+code = "A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcircumflexbelow Dcroat Ddotbelow Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Ereversed Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent Kmacronbelow L Lacute Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Nmacronbelow Ntilde O Oacute Ocaron Ocircumflex Ocircumflexdotbelow Odieresis Odotbelow Ograve Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelowmacron Rmacronbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow T Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Zmacronbelow IJ.cv05 J.cv05 Jacute.cv05 Jcircumflex.cv05 Q.cv06 I.cv18 IJ.cv18 Iacute.cv18 Icaron.cv18 Icircumflex.cv18 Idieresis.cv18 Idotaccent.cv18 Idotbelow.cv18 Igrave.cv18 Imacron.cv18 Iogonek.cv18 Itilde.cv18 Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK IJ.cv05.cv18";
 name = Uppercase;
 },
 {
 automatic = 1;
-code = "a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z j.cv01 jdotless.cv01 t.cv02 a.cv03 u.cv04";
+code = "a aacute abreve abrevedotbelow acaron acircumflex acircumflexdotbelow adblgrave adieresis adotaccent adotbelow agrave alpha-latin alphaturned-latin amacron aogonek aring atilde aturned ae b bdotbelow c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcircumflexbelow dcroat ddotbelow dmacronbelow eth e eacute ecaron ecedilla ecircumflex ecircumflexdotbelow edieresis edotaccent edotbelow egrave emacron eogonek ereversed etilde eturned schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gsingle h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow i idotless iacute icaron icircumflex idieresis idotaccent idotbelow igrave imacron iogonek istroke itilde ij j jdotless jacute jcircumflex k kcaron kcommaaccent kmacronbelow kturned l lacute lcaron lcircumflexbelow lcommaaccent ldotbelow ldotbelowmacron lmacronbelow lslash m macute mdotaccent mdotbelow mturned n nacute ncaron ncircumflexbelow ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde o oacute ocaron ocircumflex ocircumflexdotbelow odieresis odotbelow ograve ohungarumlaut omacron oopen oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent rdotbelowmacron rmacronbelow rturned s sacute scaron scedilla scircumflex scommaaccent sdotbelow germandbls t tcaron tcedilla tcircumflexbelow tcommaaccent tdieresis tdotbelow tmacronbelow u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde v vturned w wacute wcircumflex wdieresis wgrave wturned x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave ymacron ytilde yturned z zacute zcaron zdotaccent zdotbelow zmacronbelow ij.cv01 j.cv01 jdotless.cv01 jacute.cv01 jcircumflex.cv01 t.cv02 tcaron.cv02 tcedilla.cv02 tcircumflexbelow.cv02 tcommaaccent.cv02 tdieresis.cv02 tdotbelow.cv02 tmacronbelow.cv02 a.cv03 aacute.cv03 abreve.cv03 abrevedotbelow.cv03 acaron.cv03 acircumflex.cv03 acircumflexdotbelow.cv03 adblgrave.cv03 adieresis.cv03 adotaccent.cv03 adotbelow.cv03 agrave.cv03 amacron.cv03 aogonek.cv03 aring.cv03 atilde.cv03 aturned.cv03 u.cv04 uacute.cv04 ubreve.cv04 ucaron.cv04 ucircumflex.cv04 udieresis.cv04 udotbelow.cv04 ugrave.cv04 uhungarumlaut.cv04 umacron.cv04 uogonek.cv04 uring.cv04 utilde.cv04 r.cv15 racute.cv15 rcaron.cv15 rcommaaccent.cv15 rdotbelowmacron.cv15 rmacronbelow.cv15 rturned.cv15 l.cv16 lacute.cv16 lcaron.cv16 lcircumflexbelow.cv16 lcommaaccent.cv16 ldotbelow.cv16 ldotbelowmacron.cv16 lmacronbelow.cv16 lslash.cv16 f.cv19 g.cv20 gbreve.cv20 gcaron.cv20 gcircumflex.cv20 gcommaaccent.cv20 gdotaccent.cv20 gmacron.cv20 gsingle.cv20 a.cv21 aacute.cv21 abreve.cv21 abrevedotbelow.cv21 acaron.cv21 acircumflex.cv21 acircumflexdotbelow.cv21 adblgrave.cv21 adieresis.cv21 adotaccent.cv21 adotbelow.cv21 agrave.cv21 amacron.cv21 aogonek.cv21 aring.cv21 atilde.cv21 aturned.cv21 e.cv22 eacute.cv22 ecaron.cv22 ecedilla.cv22 ecircumflex.cv22 ecircumflexdotbelow.cv22 edieresis.cv22 edotaccent.cv22 edotbelow.cv22 egrave.cv22 emacron.cv22 eogonek.cv22 ereversed.cv22 etilde.cv22 eturned.cv22 schwa.cv22 aacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK b.ss04 bdotbelow.ss04 d.ss04 dcaron.ss04 dcircumflexbelow.ss04 dcroat.ss04 ddotbelow.ss04 dmacronbelow.ss04 h.ss04 hbar.ss04 hbrevebelow.ss04 hcircumflex.ss04 hdotbelow.ss04 hmacronbelow.ss04 k.ss04 kcaron.ss04 kcommaaccent.ss04 kmacronbelow.ss04 l.ss04 lacute.ss04 lcaron.ss04 lcircumflexbelow.ss04 lcommaaccent.ss04 ldotbelow.ss04 ldotbelowmacron.ss04 lmacronbelow.ss04 lslash.ss04 aacute.loclPLK.cv03 l.ss04.cv16 lacute.ss04.cv16 lcaron.ss04.cv16 lcircumflexbelow.ss04.cv16 lcommaaccent.ss04.cv16 ldotbelow.ss04.cv16 ldotbelowmacron.ss04.cv16 lmacronbelow.ss04.cv16 lslash.ss04.cv16 aacute.loclPLK.cv21 a.dnom b.dnom c.dnom d.dnom e.dnom f.dnom g.dnom h.dnom i.dnom j.dnom k.dnom l.dnom m.dnom n.dnom o.dnom p.dnom q.dnom r.dnom s.dnom t.dnom u.dnom v.dnom w.dnom x.dnom y.dnom z.dnom a.numr b.numr c.numr d.numr e.numr f.numr g.numr h.numr i.numr j.numr k.numr l.numr m.numr n.numr o.numr p.numr q.numr r.numr s.numr t.numr u.numr v.numr w.numr x.numr y.numr z.numr j.dnom.cv01 j.numr.cv01 t.dnom.cv02 t.numr.cv02 a.dnom.cv03 a.numr.cv03 u.dnom.cv04 u.numr.cv04 r.dnom.cv15 r.numr.cv15 l.dnom.cv16 l.numr.cv16 f.dnom.cv19 f.numr.cv19 g.dnom.cv20 g.numr.cv20 a.dnom.cv21 a.numr.cv21 e.dnom.cv22 e.numr.cv22 f_f.dlig f_f f_f_i.dlig f_f_i f_f_l.dlig f_f_l fi fl f_f_l.cv16 fl.cv16 f_f.cv19 f_f_i.cv19 f_f_l.cv19 fi.cv19 fl.cv19 fi.dlig fl.dlig f_f_l.ss04 fl.ss04 f_f_l.cv16.cv19 fl.dlig.cv16 fl.ss04.cv16 fl.cv16.cv19 fi.dlig.cv19 fl.dlig.cv19 fl.ss04.cv19 f_f_l.dlig.cv16 f_f.dlig.cv19 f_f_i.dlig.cv19 f_f_l.dlig.cv19 f_f_l.dlig.ss04 f_f_l.ss04.cv16 f_f_l.ss04.cv19 fl.dlig.ss04 fl.dlig.ss04.cv16 fl.dlig.cv16.cv19 fl.ss04.cv16.cv19 fl.dlig.ss04.cv19 f_f_l.dlig.cv16.cv19 f_f_l.dlig.ss04.cv16 f_f_l.dlig.ss04.cv19 f_f_l.ss04.cv16.cv19 fl.dlig.ss04.cv16.cv19 f_f_l.dlig.ss04.cv16.cv19";
 name = Lowercase;
 },
 {
@@ -37,13 +42,13 @@ name = Numeral;
 {
 code = "$[script == \"hangul\"]
 ";
-name = Hangul;
+name = Hangeul;
 },
 {
 code = "@Uppercase
 @Numeral
 @Uniquecase
-@Hangul";
+@Hangeul";
 name = Case;
 },
 {
@@ -62,34 +67,101 @@ code = "$[colorIndex == 1 and note contains \"$CASE\"]
 name = CASE_R;
 },
 {
-code = "$[colorIndex == 0 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
+code = "$[colorIndex == 0 and note contains \"$EXTRA_STEM_LOWERCASE\"]
+f_f_l.dlig
+f_f_l
+fl
+f_f_l.cv16
+fl.cv16
+f_f_l.cv19
+fl.cv19
+fl.dlig
+f_f_l.cv16.cv19
+fl.dlig.cv16
+fl.cv16.cv19
+fl.dlig.cv19
+f_f_l.dlig.cv16
+f_f_l.dlig.cv19
+fl.dlig.cv16.cv19
+f_f_l.dlig.cv16.cv19
 ";
 name = EXTRA_STEM_LOWERCASE_L;
 },
 {
-code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"] 
+code = "$[colorIndex == 1 and note contains \"$EXTRA_STEM_LOWERCASE\"]
+f_f_l.dlig.ss04
+f_f_l.ss04
+fl.ss04
+f_f_l.ss04.cv16
+fl.ss04.cv16
+f_f_l.ss04.cv19
+fl.ss04.cv19
+fl.dlig.ss04
+f_f_l.ss04.cv16.cv19
+fl.dlig.ss04.cv16
+fl.ss04.cv16.cv19
+fl.dlig.ss04.cv19
+f_f_l.dlig.ss04.cv16
+f_f_l.dlig.ss04.cv19
+fl.dlig.ss04.cv16.cv19
+f_f_l.dlig.ss04.cv16.cv19
 ";
 name = EXTRA_STEM_LOWERCASE_R;
 },
 {
-code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_CIRCLE\"]
+code = "$[note contains \"$SYMBOL_SMALL\"]
 ";
-name = SYMBOL_FILL_CIRCLE;
+name = SYMBOL_SMALL;
 },
 {
-code = "$[note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_SQUARE\"]
+code = "$[note contains \"$SYMBOL_MEDIUM\"]
 ";
-name = SYMBOL_FILL_SQUARE;
+name = SYMBOL_MEDIUM;
 },
 {
-code = "$[note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_CIRCLE\"]
+code = "$[note contains \"$SYMBOL_LARGE\"]
 ";
-name = SYMBOL_OUTLINE_CIRCLE;
+name = SYMBOL_LARGE;
 },
 {
-code = "$[note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_SQUARE\"]
+code = "$[note contains \"$SYMBOL_LETTER\" and note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_CIRCLE\"]
 ";
-name = SYMBOL_OUTLINE_SQUARE;
+name = SYMBOL_LETTER_FILL_CIRCLE;
+},
+{
+code = "$[note contains \"$SYMBOL_LETTER\" and note contains \"$SYMBOL_FILL\" and note contains \"$SYMBOL_SQUARE\"]
+";
+name = SYMBOL_LETTER_FILL_SQUARE;
+},
+{
+code = "$[note contains \"$SYMBOL_LETTER\" and note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_CIRCLE\"]
+";
+name = SYMBOL_LETTER_OUTLINE_CIRCLE;
+},
+{
+code = "$[note contains \"$SYMBOL_LETTER\" and note contains \"$SYMBOL_OUTLINE\" and note contains \"$SYMBOL_SQUARE\"]
+";
+name = SYMBOL_LETTER_OUTLINE_SQUARE;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_FILL\"]
+";
+name = SYMBOL_ICON_FILL;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_OUTLINE\"]
+";
+name = SYMBOL_ICON_OUTLINE;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_CIRCLE\"]
+";
+name = SYMBOL_ICON_CIRCLE;
+},
+{
+code = "$[note contains \"$SYMBOL_ICON\" and note contains \"$SYMBOL_SQUARE\"]
+";
+name = SYMBOL_ICON_SQUARE;
 }
 );
 customParameters = (
@@ -99,8 +171,8 @@ value = (
 );
 }
 );
-date = "2023-06-30 08:30:00 +0000";
-familyName = "Wanted Sans Std Beta";
+date = "2023-10-24 15:00:21 +0000";
+familyName = "Wanted Sans Std";
 featurePrefixes = (
 {
 automatic = 1;
@@ -117,6 +189,8 @@ languagesystem latn MOL;
 languagesystem latn PLK;
 languagesystem latn CAT;
 languagesystem latn NLD;
+
+languagesystem hang dflt;
 ";
 name = Languagesystems;
 },
@@ -140,11 +214,12 @@ sub @CASE_L' @Separator @Case by @CASE_R;
 } LOOKUP_CALT_1;
 
 lookup LOOKUP_CALT_2 {
-# Separate I and l
+# Improve legibility of I and l
 @I = [
 $[case > 0 and name beginswith \"I\"]
 ];
 
+# Separate in confrontation
 sub @I @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_R @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @I by @EXTRA_STEM_LOWERCASE_R;
@@ -158,28 +233,109 @@ sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EX
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
 sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
-sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;} LOOKUP_CALT_2;
+sub @EXTRA_STEM_LOWERCASE_L' @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @EXTRA_STEM_LOWERCASE_L @I by @EXTRA_STEM_LOWERCASE_R;
+
+# Separating when close together in confrontation
+sub @I @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+sub @I @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @EXTRA_STEM_LOWERCASE_L' by @EXTRA_STEM_LOWERCASE_R;
+sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @Letter @I by @EXTRA_STEM_LOWERCASE_R;
+
+} LOOKUP_CALT_2;
+
+lookup LOOKUP_CALT_3 {
+# Align ellipsis with Hangeul
+
+@ELLIPSIS_L = [
+$[colorIndex == 0 and note contains \"$3_CALT\"]
+];
+
+@ELLIPSIS_R = [
+$[colorIndex == 1 and note contains \"$3_CALT\"]
+];
+
+@Parenleft = [
+$[name beginswith \"parenleft\"]
+];
+
+@Parenright = [
+$[name beginswith \"parenright\"]
+];
+
+# Cut ellipsis insides paren
+
+# Cut three more ellipsis glyphs
+ignore sub period @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @ELLIPSIS_L;
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L' @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L @ELLIPSIS_L';
+
+# ...K K... K.......
+sub @Hangeul @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangeul @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Hangeul by @ELLIPSIS_R;
+
+# ...... K ......
+sub @ELLIPSIS_L' @Separator @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L @Separator @Hangeul by @ELLIPSIS_R;
+sub @Hangeul @Separator @ELLIPSIS_L' by @ELLIPSIS_R;
+sub @Hangeul @Separator @ELLIPSIS_R @ELLIPSIS_L' by @ELLIPSIS_R;
+
+# .... .......
+sub @ELLIPSIS_L' period @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' period @Separator @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period @Hangeul by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Hangeul by @ELLIPSIS_R;
+
+} LOOKUP_CALT_3;
 ";
 name = LOOKUP_CALT;
 },
 {
 code = "lookup LOOKUP_DLIG_1 {
-# Apply ligature with Contextual
-@Ligature = [
-f f_f_i f_f_l f_f fi fl
-];
-
-sub f' [i l] by f_i.start;
-sub f' @Ligature by f_f.start;
-sub f_f' @Ligature by f_f.end;
-
-# Legacy ligature
-#sub f f i by f_f_i;
-#sub f f l by f_f_l;
-#sub f f by f_f;
-#sub f i by fi;
-#sub f l by fl;
+sub f f i by f_f_i.dlig;
+sub f f l by f_f_l.dlig;
+sub f f l.ss04 by f_f_l.dlig.ss04;
+sub f f by f_f.dlig;
+sub f i by fi.dlig;
+sub f l by fl.dlig;
+sub f l.ss04 by fl.dlig.ss04;
 } LOOKUP_DLIG_1;
+
+lookup LOOKUP_DLIG_2 {
+sub f_f_i by f_f_i.dlig;
+sub f_f_l by f_f_l.dlig;
+sub f_f_l.ss04 by f_f_l.dlig.ss04;
+sub f_f by f_f.dlig;
+sub fi by fi.dlig;
+sub fl by fl.dlig;
+sub fl.ss04 by fl.dlig.ss04;
+} LOOKUP_DLIG_2;
 ";
 name = LOOKUP_DLIG;
 },
@@ -189,31 +345,101 @@ code = "lookup LOOKUP_LIGA_1 {
 sub w a n t e d underscore l o g o by wantedLogo;
 } LOOKUP_LIGA_1;";
 name = LOOKUP_LIGA;
+},
+{
+code = "lookup LOOKUP_SS05_1 {
+# Replace glyphs to align vertical with Hangeul
+# Bring case
+sub colon by colon.case;
+sub questiondown by questiondown.case;
+sub periodcentered by periodcentered.case;
+sub bullet by bullet.case;
+sub hyphenbullet by hyphenbullet.case;
+sub slash by slash.case;
+sub backslash by backslash.case;
+sub triangularbullet by triangularbullet.case;
+sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub figuredash by figuredash.case;
+sub horizontalbar by horizontalbar.case;
+sub threeemdash by threeemdash.case;
+sub twoemdash by twoemdash.case;
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub guillemetleft by guillemetleft.case;
+sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
+sub at by at.case;
+sub bar by bar.case;
+sub brokenbar by brokenbar.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub multiply by multiply.case;
+sub divide by divide.case;
+sub equal by equal.case;
+sub greater by greater.case;
+sub less by less.case;
+sub plusminus by plusminus.case;
+sub approxequal by approxequal.case;
+sub asciitilde by asciitilde.case;
+sub logicalnot by logicalnot.case;
+sub whiteBullet by whiteBullet.case;
+sub ogonekcomb by ogonekcomb.case;
+# End bring
+} LOOKUP_SS05_1;
+
+lookup LOOKUP_SS05_2 {
+# Align ellipsis with Hangeul
+
+# Cut three more ellipsis glyphs
+ignore sub period @ELLIPSIS_L';
+ignore sub period @ELLIPSIS_L @ELLIPSIS_L';
+ignore sub @ELLIPSIS_L' period @ELLIPSIS_L;
+ignore sub @ELLIPSIS_L @ELLIPSIS_L' @ELLIPSIS_L' period;
+ignore sub @ELLIPSIS_L' @ELLIPSIS_L period @ELLIPSIS_L;
+
+# .... .......
+sub @ELLIPSIS_L' period by @ELLIPSIS_R;
+sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
+} LOOKUP_SS05_2;
+";
+name = LOOKUP_SS05;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature case;
-feature locl;
-feature frac;
-feature dnom;
-feature numr;
+code = "feature locl;
 feature subs;
-feature sups;
 feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
 feature ordn;
 feature pnum;
 feature tnum;
+feature case;
 feature zero;
 feature ss01;
 feature ss02;
 feature ss03;
+feature ss04;
 feature ss06;
+feature ss10;
 feature ss11;
 feature ss12;
 feature ss13;
 feature ss14;
+feature ss15;
+feature ss16;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -233,6 +459,9 @@ feature cv16;
 feature cv17;
 feature cv18;
 feature cv19;
+feature cv20;
+feature cv21;
+feature cv22;
 ";
 tag = aalt;
 },
@@ -240,19 +469,22 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [acutebelowcomb brevebelowcomb breveinvertedbelowcomb caronbelowcomb cedillacomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb gravebelowcomb macronbelowcomb ogonekcomb ringbelowcomb tildebelowcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
 	@Markscomb = [ogonekcomb];
 	@MarkscombCase = [ogonekcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
+} ccmp_Other_2;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_3 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_3;
 
 lookup ccmp_latn_1 {
 	sub fi by f i;
@@ -322,6 +554,49 @@ lookup locl_latn_4 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_4;
+
+script hang;
+lookup locl_hang_0 {
+	sub questiondown by questiondown.loclhang;
+	sub periodcentered by periodcentered.loclhang;
+	sub bullet by bullet.loclhang;
+	sub hyphenbullet by hyphenbullet.loclhang;
+	sub slash by slash.loclhang;
+	sub backslash by backslash.loclhang;
+	sub triangularbullet by triangularbullet.loclhang;
+	sub hyphen by hyphen.loclhang;
+	sub endash by endash.loclhang;
+	sub emdash by emdash.loclhang;
+	sub figuredash by figuredash.loclhang;
+	sub horizontalbar by horizontalbar.loclhang;
+	sub threeemdash by threeemdash.loclhang;
+	sub twoemdash by twoemdash.loclhang;
+	sub parenleft by parenleft.loclhang;
+	sub parenright by parenright.loclhang;
+	sub braceleft by braceleft.loclhang;
+	sub braceright by braceright.loclhang;
+	sub bracketleft by bracketleft.loclhang;
+	sub bracketright by bracketright.loclhang;
+	sub guillemetleft by guillemetleft.loclhang;
+	sub guillemetright by guillemetright.loclhang;
+	sub guilsinglleft by guilsinglleft.loclhang;
+	sub guilsinglright by guilsinglright.loclhang;
+	sub at by at.loclhang;
+	sub bar by bar.loclhang;
+	sub brokenbar by brokenbar.loclhang;
+	sub plus by plus.loclhang;
+	sub minus by minus.loclhang;
+	sub multiply by multiply.loclhang;
+	sub divide by divide.loclhang;
+	sub equal by equal.loclhang;
+	sub greater by greater.loclhang;
+	sub less by less.loclhang;
+	sub plusminus by plusminus.loclhang;
+	sub approxequal by approxequal.loclhang;
+	sub asciitilde by asciitilde.loclhang;
+	sub logicalnot by logicalnot.loclhang;
+	sub whiteBullet by whiteBullet.loclhang;
+} locl_hang_0;
 ";
 tag = locl;
 },
@@ -585,13 +860,21 @@ tag = tnum;
 {
 automatic = 1;
 code = "sub colon by colon.case;
+sub questiondown by questiondown.case;
 sub periodcentered by periodcentered.case;
+sub bullet by bullet.case;
+sub hyphenbullet by hyphenbullet.case;
 sub slash by slash.case;
 sub backslash by backslash.case;
+sub triangularbullet by triangularbullet.case;
 sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 sub hyphen by hyphen.case;
 sub endash by endash.case;
 sub emdash by emdash.case;
+sub figuredash by figuredash.case;
+sub horizontalbar by horizontalbar.case;
+sub threeemdash by threeemdash.case;
+sub twoemdash by twoemdash.case;
 sub parenleft by parenleft.case;
 sub parenright by parenright.case;
 sub braceleft by braceleft.case;
@@ -603,6 +886,8 @@ sub guillemetright by guillemetright.case;
 sub guilsinglleft by guilsinglleft.case;
 sub guilsinglright by guilsinglright.case;
 sub at by at.case;
+sub bar by bar.case;
+sub brokenbar by brokenbar.case;
 sub plus by plus.case;
 sub minus by minus.case;
 sub multiply by multiply.case;
@@ -614,6 +899,7 @@ sub plusminus by plusminus.case;
 sub approxequal by approxequal.case;
 sub asciitilde by asciitilde.case;
 sub logicalnot by logicalnot.case;
+sub whiteBullet by whiteBullet.case;
 sub ogonekcomb by ogonekcomb.case;
 ";
 tag = case;
@@ -636,17 +922,20 @@ tag = zero;
 {
 code = "lookup LOOKUP_CALT_1;
 lookup LOOKUP_CALT_2;
+lookup LOOKUP_CALT_3;
 ";
 tag = calt;
 },
 {
-code = "# Duplicated calt due to the web's inability to support Hangul characters in calt
+code = "# Duplicated calt due to the web's inability to support Hangeul characters in calt
 lookup LOOKUP_CALT_1;
+lookup LOOKUP_CALT_3;
 ";
 tag = clig;
 },
 {
-code = "lookup LOOKUP_DLIG_1;";
+code = "lookup LOOKUP_DLIG_1;
+lookup LOOKUP_DLIG_2;";
 tag = dlig;
 },
 {
@@ -674,7 +963,7 @@ Q.box.bold
 Q.circled.bold
 ];
 
-condition 601 < wght;
+condition 650 < wght;
 sub @RLIG_L by @RLIG_R;
 
 #endif
@@ -708,7 +997,8 @@ pos @L @Quote' 96 (wght:900) 40 @J;";
 tag = kern;
 },
 {
-code = "# Bring cv01 cv02 cv04 cv06 cv08 cv11 cv12 cv13
+code = "# Bring cv01 cv02 cv04 cv06 cv07 cv08 cv11 cv12 cv13
+sub ij by ij.cv01;
 sub j by j.cv01;
 sub jdotless by jdotless.cv01;
 sub jacute by jacute.cv01;
@@ -751,6 +1041,18 @@ sub Q.blackCircled by Q.blackCircled.cv06;
 sub Q.box by Q.box.cv06;
 sub Q.roundBlackBox by Q.roundBlackBox.cv06;
 sub Q.circled by Q.circled.cv06;
+sub one by one.cv07;
+sub one.box by one.box.cv07;
+sub one.blackCircled by one.blackCircled.cv07;
+sub one.circled by one.circled.cv07;
+sub one.roundBlackBox by one.roundBlackBox.cv07;
+sub one.tf by one.tf.cv07;
+sub one.dnom by one.dnom.cv07;
+sub one.numr by one.numr.cv07;
+sub onequarter by onequarter.cv07;
+sub oneeighth by oneeighth.cv07;
+sub oneinferior by oneinferior.cv07;
+sub onesuperior by onesuperior.cv07;
 sub two by two.cv08;
 sub two.box by two.box.cv08;
 sub two.blackCircled by two.blackCircled.cv08;
@@ -759,7 +1061,7 @@ sub two.roundBlackBox by two.roundBlackBox.cv08;
 sub two.tf by two.tf.cv08;
 sub two.dnom by two.dnom.cv08;
 sub two.numr by two.numr.cv08;
-sub onehalf by onehalf.cv08;
+sub onehalf by onehalf.cv07.cv08;
 sub onehalf.cv07 by onehalf.cv07.cv08;
 sub twoinferior by twoinferior.cv08;
 sub twosuperior by twosuperior.cv08;
@@ -864,30 +1166,128 @@ value = "Common numerics";
 tag = ss02;
 },
 {
-code = "# Bring cv15 cv16
-sub two by two.cv15;
-sub two.box by two.box.cv15;
-sub two.blackCircled by two.blackCircled.cv15;
-sub two.circled by two.circled.cv15;
-sub two.roundBlackBox by two.roundBlackBox.cv15;
-sub two.tf by two.tf.cv15;
-sub two.dnom by two.dnom.cv15;
-sub two.numr by two.numr.cv15;
-sub onehalf by onehalf.cv15;
-sub onehalf.cv07 by onehalf.cv07.cv15;
-sub twoinferior by twoinferior.cv15;
-sub twosuperior by twosuperior.cv15;
-sub r by r.cv16;
-sub racute by racute.cv16;
-sub rcaron by rcaron.cv16;
-sub rcommaaccent by rcommaaccent.cv16;
-sub rdotbelowmacron by rdotbelowmacron.cv16;
-sub rmacronbelow by rmacronbelow.cv16;
-sub rturned by rturned.cv16;
-sub r.dnom by r.dnom.cv16;
-sub r.numr by r.numr.cv16;
-sub r.subs by r.subs.cv16;
-sub r.sups by r.sups.cv16;
+code = "# Bring cv09 cv13 cv14 cv15 cv19 cv20 cv21 cv22
+sub three by three.cv09;
+sub three.box by three.box.cv09;
+sub three.blackCircled by three.blackCircled.cv09;
+sub three.circled by three.circled.cv09;
+sub three.roundBlackBox by three.roundBlackBox.cv09;
+sub three.tf by three.tf.cv09;
+sub three.dnom by three.dnom.cv09;
+sub three.numr by three.numr.cv09;
+sub threequarters by threequarters.cv09;
+sub threeeighths by threeeighths.cv09;
+sub threeinferior by threeinferior.cv09;
+sub threesuperior by threesuperior.cv09;
+sub question by question.cv13;
+sub questiondown by questiondown.cv13;
+sub questiondown.case by questiondown.case.cv13;
+sub questiondown.loclhang by questiondown.loclhang.cv13;
+sub two by two.cv14;
+sub two.box by two.box.cv14;
+sub two.blackCircled by two.blackCircled.cv14;
+sub two.circled by two.circled.cv14;
+sub two.roundBlackBox by two.roundBlackBox.cv14;
+sub two.tf by two.tf.cv14;
+sub two.dnom by two.dnom.cv14;
+sub two.numr by two.numr.cv14;
+sub onehalf by onehalf.cv14;
+sub onehalf.cv07 by onehalf.cv07.cv14;
+sub twoinferior by twoinferior.cv14;
+sub twosuperior by twosuperior.cv14;
+sub r by r.cv15;
+sub racute by racute.cv15;
+sub rcaron by rcaron.cv15;
+sub rcommaaccent by rcommaaccent.cv15;
+sub rdotbelowmacron by rdotbelowmacron.cv15;
+sub rmacronbelow by rmacronbelow.cv15;
+sub rturned by rturned.cv15;
+sub r.dnom by r.dnom.cv15;
+sub r.numr by r.numr.cv15;
+sub r.subs by r.subs.cv15;
+sub r.sups by r.sups.cv15;
+sub f by f.cv19;
+sub f.dnom by f.dnom.cv19;
+sub f.numr by f.numr.cv19;
+sub f_f by f_f.cv19;
+sub f_f_i by f_f_i.cv19;
+sub f_f_l by f_f_l.cv19;
+sub fi by fi.cv19;
+sub fl by fl.cv19;
+sub f_f_l.cv16 by f_f_l.cv16.cv19;
+sub fl.cv16 by fl.cv16.cv19;
+sub fi.dlig by fi.dlig.cv19;
+sub fl.dlig by fl.dlig.cv19;
+sub fl.ss04 by fl.ss04.cv19;
+sub f_f.dlig by f_f.dlig.cv19;
+sub f_f_i.dlig by f_f_i.dlig.cv19;
+sub f_f_l.dlig by f_f_l.dlig.cv19;
+sub f_f_l.ss04 by f_f_l.ss04.cv19;
+sub fl.dlig.cv16 by fl.dlig.cv16.cv19;
+sub fl.ss04.cv16 by fl.ss04.cv16.cv19;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv19;
+sub f_f_l.dlig.cv16 by f_f_l.dlig.cv16.cv19;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv19;
+sub f_f_l.ss04.cv16 by f_f_l.ss04.cv16.cv19;
+sub fl.dlig.ss04.cv16 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv16 by f_f_l.dlig.ss04.cv16.cv19;
+sub f.subs by f.subs.cv19;
+sub f.sups by f.sups.cv19;
+sub g by g.cv20;
+sub gbreve by gbreve.cv20;
+sub gcaron by gcaron.cv20;
+sub gcircumflex by gcircumflex.cv20;
+sub gcommaaccent by gcommaaccent.cv20;
+sub gdotaccent by gdotaccent.cv20;
+sub gmacron by gmacron.cv20;
+sub gsingle by gsingle.cv20;
+sub g.dnom by g.dnom.cv20;
+sub g.numr by g.numr.cv20;
+sub g.subs by g.subs.cv20;
+sub g.sups by g.sups.cv20;
+sub a by a.cv21;
+sub aacute by aacute.cv21;
+sub abreve by abreve.cv21;
+sub abrevedotbelow by abrevedotbelow.cv21;
+sub acaron by acaron.cv21;
+sub acircumflex by acircumflex.cv21;
+sub acircumflexdotbelow by acircumflexdotbelow.cv21;
+sub adblgrave by adblgrave.cv21;
+sub adieresis by adieresis.cv21;
+sub adotaccent by adotaccent.cv21;
+sub adotbelow by adotbelow.cv21;
+sub agrave by agrave.cv21;
+sub amacron by amacron.cv21;
+sub aogonek by aogonek.cv21;
+sub aring by aring.cv21;
+sub atilde by atilde.cv21;
+sub aturned by aturned.cv21;
+sub aacute.loclPLK by aacute.loclPLK.cv21;
+sub a.dnom by a.dnom.cv21;
+sub a.numr by a.numr.cv21;
+sub a.subs by a.subs.cv21;
+sub a.sups by a.sups.cv21;
+sub ordfeminine by ordfeminine.cv21;
+sub e by e.cv22;
+sub eacute by eacute.cv22;
+sub ecaron by ecaron.cv22;
+sub ecedilla by ecedilla.cv22;
+sub ecircumflex by ecircumflex.cv22;
+sub ecircumflexdotbelow by ecircumflexdotbelow.cv22;
+sub edieresis by edieresis.cv22;
+sub edotaccent by edotaccent.cv22;
+sub edotbelow by edotbelow.cv22;
+sub egrave by egrave.cv22;
+sub emacron by emacron.cv22;
+sub eogonek by eogonek.cv22;
+sub ereversed by ereversed.cv22;
+sub etilde by etilde.cv22;
+sub eturned by eturned.cv22;
+sub schwa by schwa.cv22;
+sub e.dnom by e.dnom.cv22;
+sub e.numr by e.numr.cv22;
+sub e.subs by e.subs.cv22;
+sub e.sups by e.sups.cv22;
 # End Bring
 ";
 labels = (
@@ -899,6 +1299,66 @@ value = "Stylistic forms";
 tag = ss03;
 },
 {
+code = "# Manually added code
+sub fl.cv19 by fl.ss04.cv19;
+sub f_f_l.cv19 by f_f_l.ss04.cv19;
+sub fl.dlig.cv19 by fl.dlig.ss04.cv19;
+sub f_f_l.dlig.cv19 by f_f_l.dlig.ss04.cv19;
+
+# Copy and paste codes below automatically generated feature
+sub b by b.ss04;
+sub bdotbelow by bdotbelow.ss04;
+sub d by d.ss04;
+sub dcaron by dcaron.ss04;
+sub dcircumflexbelow by dcircumflexbelow.ss04;
+sub dcroat by dcroat.ss04;
+sub ddotbelow by ddotbelow.ss04;
+sub dmacronbelow by dmacronbelow.ss04;
+sub h by h.ss04;
+sub hbar by hbar.ss04;
+sub hbrevebelow by hbrevebelow.ss04;
+sub hcircumflex by hcircumflex.ss04;
+sub hdotbelow by hdotbelow.ss04;
+sub hmacronbelow by hmacronbelow.ss04;
+sub k by k.ss04;
+sub kcaron by kcaron.ss04;
+sub kcommaaccent by kcommaaccent.ss04;
+sub kmacronbelow by kmacronbelow.ss04;
+sub l by l.ss04;
+sub lacute by lacute.ss04;
+sub lcaron by lcaron.ss04;
+sub lcircumflexbelow by lcircumflexbelow.ss04;
+sub lcommaaccent by lcommaaccent.ss04;
+sub ldotbelow by ldotbelow.ss04;
+sub ldotbelowmacron by ldotbelowmacron.ss04;
+sub lmacronbelow by lmacronbelow.ss04;
+sub lslash by lslash.ss04;
+sub f_f_l by f_f_l.ss04;
+sub fl by fl.ss04;
+sub f_f_l.dlig by f_f_l.dlig.ss04;
+sub fl.dlig by fl.dlig.ss04;
+";
+labels = (
+{
+language = dflt;
+value = "Legible ascender";
+}
+);
+tag = ss04;
+},
+{
+code = "lookup LOOKUP_SS05_1;
+lookup LOOKUP_SS05_2;
+";
+labels = (
+{
+language = dflt;
+value = "Korea localization";
+}
+);
+tag = ss05;
+},
+{
 code = "# Customize sets
 @SS06_L = [
 ];
@@ -907,7 +1367,10 @@ code = "# Customize sets
 
 sub @SS06_L by @SS06_R;
 
-# Bring cv03 cv05 cv09 cv11 cv17 cv18 cv19
+# Manually added code
+sub IJ by IJ.cv05.cv18;
+
+# Bring cv03 cv05 cv09 cv11 cv12 cv16 cv17 cv18
 sub a by a.cv03;
 sub aacute by aacute.cv03;
 sub abreve by abreve.cv03;
@@ -970,72 +1433,104 @@ sub sixinferior by sixinferior.cv11;
 sub nineinferior by nineinferior.cv11;
 sub sixsuperior by sixsuperior.cv11;
 sub ninesuperior by ninesuperior.cv11;
-sub l by l.cv17;
-sub lacute by lacute.cv17;
-sub lcaron by lcaron.cv17;
-sub lcircumflexbelow by lcircumflexbelow.cv17;
-sub lcommaaccent by lcommaaccent.cv17;
-sub ldotbelow by ldotbelow.cv17;
-sub ldotbelowmacron by ldotbelowmacron.cv17;
-sub lmacronbelow by lmacronbelow.cv17;
-sub lslash by lslash.cv17;
-sub l.cv14 by l.cv14.cv17;
-sub lacute.cv14 by lacute.cv14.cv17;
-sub lcaron.cv14 by lcaron.cv14.cv17;
-sub lcircumflexbelow.cv14 by lcircumflexbelow.cv14.cv17;
-sub lcommaaccent.cv14 by lcommaaccent.cv14.cv17;
-sub ldotbelow.cv14 by ldotbelow.cv14.cv17;
-sub ldotbelowmacron.cv14 by ldotbelowmacron.cv14.cv17;
-sub lmacronbelow.cv14 by lmacronbelow.cv14.cv17;
-sub lslash.cv14 by lslash.cv14.cv17;
-sub l.dnom by l.dnom.cv17;
-sub l.numr by l.numr.cv17;
-sub l.subs by l.subs.cv17;
-sub l.sups by l.sups.cv17;
-sub one by one.cv18;
-sub one.box by one.box.cv18;
-sub one.cv07 by one.cv07.cv18;
-sub one.blackCircled by one.blackCircled.cv18;
-sub one.circled by one.circled.cv18;
-sub one.roundBlackBox by one.roundBlackBox.cv18;
-sub one.tf by one.tf.cv18;
-sub one.box.cv07 by one.box.cv07.cv18;
-sub one.blackCircled.cv07 by one.blackCircled.cv07.cv18;
-sub one.circled.cv07 by one.circled.cv07.cv18;
-sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv18;
-sub one.tf.cv07 by one.tf.cv07.cv18;
-sub one.dnom by one.dnom.cv18;
-sub one.numr by one.numr.cv18;
-sub onehalf by onehalf.cv18;
-sub onequarter by onequarter.cv18;
-sub oneeighth by oneeighth.cv18;
-sub one.dnom.cv07 by one.dnom.cv07.cv18;
-sub one.numr.cv07 by one.numr.cv07.cv18;
-sub onehalf.cv07 by onehalf.cv07.cv18;
-sub onequarter.cv07 by onequarter.cv07.cv18;
-sub oneeighth.cv07 by oneeighth.cv07.cv18;
-sub onehalf.cv08 by onehalf.cv08.cv18;
-sub onequarter.cv10 by onequarter.cv10.cv18;
-sub onehalf.cv15 by onehalf.cv15.cv18;
-sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv18;
-sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv18;
-sub onehalf.cv07.cv15 by onehalf.cv07.cv15.cv18;
-sub oneinferior by oneinferior.cv18;
-sub onesuperior by onesuperior.cv18;
-sub oneinferior.cv07 by oneinferior.cv07.cv18;
-sub onesuperior.cv07 by onesuperior.cv07.cv18;
-sub I by I.cv19;
-sub IJ by IJ.cv19;
-sub Iacute by Iacute.cv19;
-sub Icaron by Icaron.cv19;
-sub Icircumflex by Icircumflex.cv19;
-sub Idieresis by Idieresis.cv19;
-sub Idotaccent by Idotaccent.cv19;
-sub Idotbelow by Idotbelow.cv19;
-sub Igrave by Igrave.cv19;
-sub Imacron by Imacron.cv19;
-sub Iogonek by Iogonek.cv19;
-sub Itilde by Itilde.cv19;
+sub seven by seven.cv12;
+sub seven.box by seven.box.cv12;
+sub seven.blackCircled by seven.blackCircled.cv12;
+sub seven.circled by seven.circled.cv12;
+sub seven.roundBlackBox by seven.roundBlackBox.cv12;
+sub seven.tf by seven.tf.cv12;
+sub seven.dnom by seven.dnom.cv12;
+sub seven.numr by seven.numr.cv12;
+sub seveneighths by seveneighths.cv12;
+sub seveninferior by seveninferior.cv12;
+sub sevensuperior by sevensuperior.cv12;
+sub fl.cv19 by fl.cv16.cv19;
+sub f_f_l.cv19 by f_f_l.cv16.cv19;
+sub fl.ss04.cv19 by fl.ss04.cv16.cv19;
+sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
+sub fl.dlig by fl.dlig.cv16;
+sub fl.dlig.cv19 by fl.dlig.cv16.cv19;
+sub f_f_l.dlig.cv19 by f_f_l.dlig.cv16.cv19;
+sub fl.dlig.ss04.cv19 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv19 by f_f_l.dlig.ss04.cv16.cv19;
+sub l by l.cv16;
+sub lacute by lacute.cv16;
+sub lcaron by lcaron.cv16;
+sub lcircumflexbelow by lcircumflexbelow.cv16;
+sub lcommaaccent by lcommaaccent.cv16;
+sub ldotbelow by ldotbelow.cv16;
+sub ldotbelowmacron by ldotbelowmacron.cv16;
+sub lmacronbelow by lmacronbelow.cv16;
+sub lslash by lslash.cv16;
+sub l.ss04 by l.ss04.cv16;
+sub lacute.ss04 by lacute.ss04.cv16;
+sub lcaron.ss04 by lcaron.ss04.cv16;
+sub lcircumflexbelow.ss04 by lcircumflexbelow.ss04.cv16;
+sub lcommaaccent.ss04 by lcommaaccent.ss04.cv16;
+sub ldotbelow.ss04 by ldotbelow.ss04.cv16;
+sub ldotbelowmacron.ss04 by ldotbelowmacron.ss04.cv16;
+sub lmacronbelow.ss04 by lmacronbelow.ss04.cv16;
+sub lslash.ss04 by lslash.ss04.cv16;
+sub l.dnom by l.dnom.cv16;
+sub l.numr by l.numr.cv16;
+sub f_f_l by f_f_l.cv16;
+sub fl by fl.cv16;
+sub fl.dlig by fl.dlig.cv16;
+sub fl.ss04 by fl.ss04.cv16;
+sub f_f_l.dlig by f_f_l.dlig.cv16;
+sub f_f_l.ss04 by f_f_l.ss04.cv16;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv16;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv16;
+sub l.subs by l.subs.cv16;
+sub l.sups by l.sups.cv16;
+sub one by one.cv17;
+sub one.box by one.box.cv17;
+sub one.cv07 by one.cv07.cv17;
+sub one.blackCircled by one.blackCircled.cv17;
+sub one.circled by one.circled.cv17;
+sub one.roundBlackBox by one.roundBlackBox.cv17;
+sub one.tf by one.tf.cv17;
+sub one.box.cv07 by one.box.cv07.cv17;
+sub one.blackCircled.cv07 by one.blackCircled.cv07.cv17;
+sub one.circled.cv07 by one.circled.cv07.cv17;
+sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv17;
+sub one.tf.cv07 by one.tf.cv07.cv17;
+sub one.dnom by one.dnom.cv17;
+sub one.numr by one.numr.cv17;
+sub onehalf by onehalf.cv17;
+sub onequarter by onequarter.cv17;
+sub oneeighth by oneeighth.cv17;
+sub one.dnom.cv07 by one.dnom.cv07.cv17;
+sub one.numr.cv07 by one.numr.cv07.cv17;
+sub onehalf.cv07 by onehalf.cv07.cv17;
+sub onequarter.cv07 by onequarter.cv07.cv17;
+sub oneeighth.cv07 by oneeighth.cv07.cv17;
+sub onehalf.cv08 by onehalf.cv08.cv17;
+sub onequarter.cv10 by onequarter.cv10.cv17;
+sub onehalf.cv14 by onehalf.cv14.cv17;
+sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv17;
+sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv17;
+sub onehalf.cv07.cv14 by onehalf.cv07.cv14.cv17;
+sub oneinferior by oneinferior.cv17;
+sub onesuperior by onesuperior.cv17;
+sub oneinferior.cv07 by oneinferior.cv07.cv17;
+sub onesuperior.cv07 by onesuperior.cv07.cv17;
+sub I by I.cv18;
+sub Iacute by Iacute.cv18;
+sub Icaron by Icaron.cv18;
+sub Icircumflex by Icircumflex.cv18;
+sub Idieresis by Idieresis.cv18;
+sub Idotaccent by Idotaccent.cv18;
+sub Idotbelow by Idotbelow.cv18;
+sub Igrave by Igrave.cv18;
+sub Imacron by Imacron.cv18;
+sub Iogonek by Iogonek.cv18;
+sub Itilde by Itilde.cv18;
+sub IJ.cv05 by IJ.cv05.cv18;
+sub I.blackCircled by I.blackCircled.cv18;
+sub I.box by I.box.cv18;
+sub I.roundBlackBox by I.roundBlackBox.cv18;
+sub I.circled by I.circled.cv18;
 # End Bring
 ";
 labels = (
@@ -1047,8 +1542,21 @@ value = "High legibility";
 tag = ss06;
 },
 {
-code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_OUTLINE_SQUARE;
-sub @SYMBOL_FILL_CIRCLE by @SYMBOL_OUTLINE_CIRCLE;
+code = "sub @SYMBOL_SMALL by @SYMBOL_MEDIUM;
+sub @SYMBOL_LARGE by @SYMBOL_MEDIUM;
+";
+labels = (
+{
+language = dflt;
+value = "Medium symbols";
+}
+);
+tag = ss10;
+},
+{
+code = "sub @SYMBOL_LETTER_FILL_SQUARE by @SYMBOL_LETTER_OUTLINE_SQUARE;
+sub @SYMBOL_LETTER_FILL_CIRCLE by @SYMBOL_LETTER_OUTLINE_CIRCLE;
+sub @SYMBOL_ICON_FILL by @SYMBOL_ICON_OUTLINE;
 ";
 labels = (
 {
@@ -1059,8 +1567,10 @@ value = "Outlined symbols";
 tag = ss11;
 },
 {
-code = "sub @SYMBOL_FILL_SQUARE by @SYMBOL_FILL_CIRCLE;
-sub @SYMBOL_OUTLINE_SQUARE by @SYMBOL_OUTLINE_CIRCLE;";
+code = "sub @SYMBOL_LETTER_FILL_SQUARE by @SYMBOL_LETTER_FILL_CIRCLE;
+sub @SYMBOL_LETTER_OUTLINE_SQUARE by @SYMBOL_LETTER_OUTLINE_CIRCLE;
+sub @SYMBOL_ICON_SQUARE by @SYMBOL_ICON_CIRCLE;
+";
 labels = (
 {
 language = dflt;
@@ -1070,8 +1580,9 @@ value = "Circle symbols";
 tag = ss12;
 },
 {
-code = "sub @SYMBOL_FILL_CIRCLE by @SYMBOL_FILL_SQUARE;
-sub @SYMBOL_OUTLINE_CIRCLE by @SYMBOL_OUTLINE_SQUARE;
+code = "sub @SYMBOL_LETTER_FILL_CIRCLE by @SYMBOL_LETTER_FILL_SQUARE;
+sub @SYMBOL_LETTER_OUTLINE_CIRCLE by @SYMBOL_LETTER_OUTLINE_SQUARE;
+sub @SYMBOL_ICON_CIRCLE by @SYMBOL_ICON_SQUARE;
 ";
 labels = (
 {
@@ -1082,8 +1593,9 @@ value = "Square symbols";
 tag = ss13;
 },
 {
-code = "sub @SYMBOL_OUTLINE_SQUARE by @SYMBOL_FILL_SQUARE;
-sub @SYMBOL_OUTLINE_CIRCLE by @SYMBOL_FILL_CIRCLE;
+code = "sub @SYMBOL_LETTER_OUTLINE_SQUARE by @SYMBOL_LETTER_FILL_SQUARE;
+sub @SYMBOL_LETTER_OUTLINE_CIRCLE by @SYMBOL_LETTER_FILL_CIRCLE;
+sub @SYMBOL_ICON_OUTLINE by @SYMBOL_ICON_FILL;
 ";
 labels = (
 {
@@ -1094,11 +1606,34 @@ value = "Filled symbols";
 tag = ss14;
 },
 {
+code = "sub @SYMBOL_LARGE by @SYMBOL_SMALL;
+sub @SYMBOL_MEDIUM by @SYMBOL_SMALL;";
+labels = (
+{
+language = dflt;
+value = "Small symbols";
+}
+);
+tag = ss15;
+},
+{
+code = "sub @SYMBOL_SMALL by @SYMBOL_LARGE;
+sub @SYMBOL_MEDIUM by @SYMBOL_LARGE;";
+labels = (
+{
+language = dflt;
+value = "Large symbols";
+}
+);
+tag = ss16;
+},
+{
 code = "cvParameters { FeatUILabelNameID { 
 	name \"Geometric j\";
 }; };
 
 # Copy and paste codes below automatically generated feature
+sub ij by ij.cv01;
 sub j by j.cv01;
 sub jdotless by jdotless.cv01;
 sub jacute by jacute.cv01;
@@ -1195,6 +1730,7 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
+sub IJ by IJ.cv05;
 sub J by J.cv05;
 sub Jacute by Jacute.cv05;
 sub Jcircumflex by Jcircumflex.cv05;
@@ -1367,44 +1903,10 @@ code = "cvParameters { FeatUILabelNameID {
 # Copy and paste codes below automatically generated feature
 sub question by question.cv13;
 sub questiondown by questiondown.cv13;
+sub questiondown.case by questiondown.case.cv13;
+sub questiondown.loclhang by questiondown.loclhang.cv13;
 ";
 tag = cv13;
-},
-{
-code = "cvParameters { FeatUILabelNameID { 
-	name \"Legible b d h k l\";
-}; };
-
-# Copy and paste codes below automatically generated feature
-sub b by b.cv14;
-sub bdotbelow by bdotbelow.cv14;
-sub d by d.cv14;
-sub dcaron by dcaron.cv14;
-sub dcircumflexbelow by dcircumflexbelow.cv14;
-sub dcroat by dcroat.cv14;
-sub ddotbelow by ddotbelow.cv14;
-sub dmacronbelow by dmacronbelow.cv14;
-sub h by h.cv14;
-sub hbar by hbar.cv14;
-sub hbrevebelow by hbrevebelow.cv14;
-sub hcircumflex by hcircumflex.cv14;
-sub hdotbelow by hdotbelow.cv14;
-sub hmacronbelow by hmacronbelow.cv14;
-sub k by k.cv14;
-sub kcaron by kcaron.cv14;
-sub kcommaaccent by kcommaaccent.cv14;
-sub kmacronbelow by kmacronbelow.cv14;
-sub l by l.cv14;
-sub lacute by lacute.cv14;
-sub lcaron by lcaron.cv14;
-sub lcircumflexbelow by lcircumflexbelow.cv14;
-sub lcommaaccent by lcommaaccent.cv14;
-sub ldotbelow by ldotbelow.cv14;
-sub ldotbelowmacron by ldotbelowmacron.cv14;
-sub lmacronbelow by lmacronbelow.cv14;
-sub lslash by lslash.cv14;
-";
-tag = cv14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1412,20 +1914,20 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub two by two.cv15;
-sub two.box by two.box.cv15;
-sub two.blackCircled by two.blackCircled.cv15;
-sub two.circled by two.circled.cv15;
-sub two.roundBlackBox by two.roundBlackBox.cv15;
-sub two.tf by two.tf.cv15;
-sub two.dnom by two.dnom.cv15;
-sub two.numr by two.numr.cv15;
-sub onehalf by onehalf.cv15;
-sub onehalf.cv07 by onehalf.cv07.cv15;
-sub twoinferior by twoinferior.cv15;
-sub twosuperior by twosuperior.cv15;
+sub two by two.cv14;
+sub two.box by two.box.cv14;
+sub two.blackCircled by two.blackCircled.cv14;
+sub two.circled by two.circled.cv14;
+sub two.roundBlackBox by two.roundBlackBox.cv14;
+sub two.tf by two.tf.cv14;
+sub two.dnom by two.dnom.cv14;
+sub two.numr by two.numr.cv14;
+sub onehalf by onehalf.cv14;
+sub onehalf.cv07 by onehalf.cv07.cv14;
+sub twoinferior by twoinferior.cv14;
+sub twosuperior by twosuperior.cv14;
 ";
-tag = cv15;
+tag = cv14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1433,50 +1935,67 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub r by r.cv16;
-sub racute by racute.cv16;
-sub rcaron by rcaron.cv16;
-sub rcommaaccent by rcommaaccent.cv16;
-sub rdotbelowmacron by rdotbelowmacron.cv16;
-sub rmacronbelow by rmacronbelow.cv16;
-sub rturned by rturned.cv16;
-sub r.dnom by r.dnom.cv16;
-sub r.numr by r.numr.cv16;
-sub r.subs by r.subs.cv16;
-sub r.sups by r.sups.cv16;
+sub r by r.cv15;
+sub racute by racute.cv15;
+sub rcaron by rcaron.cv15;
+sub rcommaaccent by rcommaaccent.cv15;
+sub rdotbelowmacron by rdotbelowmacron.cv15;
+sub rmacronbelow by rmacronbelow.cv15;
+sub rturned by rturned.cv15;
+sub r.dnom by r.dnom.cv15;
+sub r.numr by r.numr.cv15;
+sub r.subs by r.subs.cv15;
+sub r.sups by r.sups.cv15;
 ";
-tag = cv16;
+tag = cv15;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
 	name \"Legible l\";
 }; };
 
+# Manually added code
+sub fl.cv19 by fl.cv16.cv19;
+sub f_f_l.cv19 by f_f_l.cv16.cv19;
+sub fl.ss04.cv19 by fl.ss04.cv16.cv19;
+sub f_f_l.ss04.cv19 by f_f_l.ss04.cv16.cv19;
+sub fl.dlig.cv19 by fl.dlig.cv16.cv19;
+sub f_f_l.dlig.cv19 by f_f_l.dlig.cv16.cv19;
+sub fl.dlig.ss04.cv19 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv19 by f_f_l.dlig.ss04.cv16.cv19;
 # Copy and paste codes below automatically generated feature
-sub l by l.cv17;
-sub lacute by lacute.cv17;
-sub lcaron by lcaron.cv17;
-sub lcircumflexbelow by lcircumflexbelow.cv17;
-sub lcommaaccent by lcommaaccent.cv17;
-sub ldotbelow by ldotbelow.cv17;
-sub ldotbelowmacron by ldotbelowmacron.cv17;
-sub lmacronbelow by lmacronbelow.cv17;
-sub lslash by lslash.cv17;
-sub l.cv14 by l.cv14.cv17;
-sub lacute.cv14 by lacute.cv14.cv17;
-sub lcaron.cv14 by lcaron.cv14.cv17;
-sub lcircumflexbelow.cv14 by lcircumflexbelow.cv14.cv17;
-sub lcommaaccent.cv14 by lcommaaccent.cv14.cv17;
-sub ldotbelow.cv14 by ldotbelow.cv14.cv17;
-sub ldotbelowmacron.cv14 by ldotbelowmacron.cv14.cv17;
-sub lmacronbelow.cv14 by lmacronbelow.cv14.cv17;
-sub lslash.cv14 by lslash.cv14.cv17;
-sub l.dnom by l.dnom.cv17;
-sub l.numr by l.numr.cv17;
-sub l.subs by l.subs.cv17;
-sub l.sups by l.sups.cv17;
+sub l by l.cv16;
+sub lacute by lacute.cv16;
+sub lcaron by lcaron.cv16;
+sub lcircumflexbelow by lcircumflexbelow.cv16;
+sub lcommaaccent by lcommaaccent.cv16;
+sub ldotbelow by ldotbelow.cv16;
+sub ldotbelowmacron by ldotbelowmacron.cv16;
+sub lmacronbelow by lmacronbelow.cv16;
+sub lslash by lslash.cv16;
+sub l.ss04 by l.ss04.cv16;
+sub lacute.ss04 by lacute.ss04.cv16;
+sub lcaron.ss04 by lcaron.ss04.cv16;
+sub lcircumflexbelow.ss04 by lcircumflexbelow.ss04.cv16;
+sub lcommaaccent.ss04 by lcommaaccent.ss04.cv16;
+sub ldotbelow.ss04 by ldotbelow.ss04.cv16;
+sub ldotbelowmacron.ss04 by ldotbelowmacron.ss04.cv16;
+sub lmacronbelow.ss04 by lmacronbelow.ss04.cv16;
+sub lslash.ss04 by lslash.ss04.cv16;
+sub l.dnom by l.dnom.cv16;
+sub l.numr by l.numr.cv16;
+sub f_f_l by f_f_l.cv16;
+sub fl by fl.cv16;
+sub fl.dlig by fl.dlig.cv16;
+sub fl.ss04 by fl.ss04.cv16;
+sub f_f_l.dlig by f_f_l.dlig.cv16;
+sub f_f_l.ss04 by f_f_l.ss04.cv16;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv16;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv16;
+sub l.subs by l.subs.cv16;
+sub l.sups by l.sups.cv16;
 ";
-tag = cv17;
+tag = cv16;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1484,40 +2003,40 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub one by one.cv18;
-sub one.box by one.box.cv18;
-sub one.cv07 by one.cv07.cv18;
-sub one.blackCircled by one.blackCircled.cv18;
-sub one.circled by one.circled.cv18;
-sub one.roundBlackBox by one.roundBlackBox.cv18;
-sub one.tf by one.tf.cv18;
-sub one.box.cv07 by one.box.cv07.cv18;
-sub one.blackCircled.cv07 by one.blackCircled.cv07.cv18;
-sub one.circled.cv07 by one.circled.cv07.cv18;
-sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv18;
-sub one.tf.cv07 by one.tf.cv07.cv18;
-sub one.dnom by one.dnom.cv18;
-sub one.numr by one.numr.cv18;
-sub onehalf by onehalf.cv18;
-sub onequarter by onequarter.cv18;
-sub oneeighth by oneeighth.cv18;
-sub one.dnom.cv07 by one.dnom.cv07.cv18;
-sub one.numr.cv07 by one.numr.cv07.cv18;
-sub onehalf.cv07 by onehalf.cv07.cv18;
-sub onequarter.cv07 by onequarter.cv07.cv18;
-sub oneeighth.cv07 by oneeighth.cv07.cv18;
-sub onehalf.cv08 by onehalf.cv08.cv18;
-sub onequarter.cv10 by onequarter.cv10.cv18;
-sub onehalf.cv15 by onehalf.cv15.cv18;
-sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv18;
-sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv18;
-sub onehalf.cv07.cv15 by onehalf.cv07.cv15.cv18;
-sub oneinferior by oneinferior.cv18;
-sub onesuperior by onesuperior.cv18;
-sub oneinferior.cv07 by oneinferior.cv07.cv18;
-sub onesuperior.cv07 by onesuperior.cv07.cv18;
+sub one by one.cv17;
+sub one.box by one.box.cv17;
+sub one.cv07 by one.cv07.cv17;
+sub one.blackCircled by one.blackCircled.cv17;
+sub one.circled by one.circled.cv17;
+sub one.roundBlackBox by one.roundBlackBox.cv17;
+sub one.tf by one.tf.cv17;
+sub one.box.cv07 by one.box.cv07.cv17;
+sub one.blackCircled.cv07 by one.blackCircled.cv07.cv17;
+sub one.circled.cv07 by one.circled.cv07.cv17;
+sub one.roundBlackBox.cv07 by one.roundBlackBox.cv07.cv17;
+sub one.tf.cv07 by one.tf.cv07.cv17;
+sub one.dnom by one.dnom.cv17;
+sub one.numr by one.numr.cv17;
+sub onehalf by onehalf.cv17;
+sub onequarter by onequarter.cv17;
+sub oneeighth by oneeighth.cv17;
+sub one.dnom.cv07 by one.dnom.cv07.cv17;
+sub one.numr.cv07 by one.numr.cv07.cv17;
+sub onehalf.cv07 by onehalf.cv07.cv17;
+sub onequarter.cv07 by onequarter.cv07.cv17;
+sub oneeighth.cv07 by oneeighth.cv07.cv17;
+sub onehalf.cv08 by onehalf.cv08.cv17;
+sub onequarter.cv10 by onequarter.cv10.cv17;
+sub onehalf.cv14 by onehalf.cv14.cv17;
+sub onehalf.cv07.cv08 by onehalf.cv07.cv08.cv17;
+sub onequarter.cv07.cv10 by onequarter.cv07.cv10.cv17;
+sub onehalf.cv07.cv14 by onehalf.cv07.cv14.cv17;
+sub oneinferior by oneinferior.cv17;
+sub onesuperior by onesuperior.cv17;
+sub oneinferior.cv07 by oneinferior.cv07.cv17;
+sub onesuperior.cv07 by onesuperior.cv07.cv17;
 ";
-tag = cv18;
+tag = cv17;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
@@ -1525,20 +2044,143 @@ code = "cvParameters { FeatUILabelNameID {
 }; };
 
 # Copy and paste codes below automatically generated feature
-sub I by I.cv19;
-sub IJ by IJ.cv19;
-sub Iacute by Iacute.cv19;
-sub Icaron by Icaron.cv19;
-sub Icircumflex by Icircumflex.cv19;
-sub Idieresis by Idieresis.cv19;
-sub Idotaccent by Idotaccent.cv19;
-sub Idotbelow by Idotbelow.cv19;
-sub Igrave by Igrave.cv19;
-sub Imacron by Imacron.cv19;
-sub Iogonek by Iogonek.cv19;
-sub Itilde by Itilde.cv19;
+sub I by I.cv18;
+sub IJ by IJ.cv18;
+sub Iacute by Iacute.cv18;
+sub Icaron by Icaron.cv18;
+sub Icircumflex by Icircumflex.cv18;
+sub Idieresis by Idieresis.cv18;
+sub Idotaccent by Idotaccent.cv18;
+sub Idotbelow by Idotbelow.cv18;
+sub Igrave by Igrave.cv18;
+sub Imacron by Imacron.cv18;
+sub Iogonek by Iogonek.cv18;
+sub Itilde by Itilde.cv18;
+sub IJ.cv05 by IJ.cv05.cv18;
+sub I.blackCircled by I.blackCircled.cv18;
+sub I.box by I.box.cv18;
+sub I.roundBlackBox by I.roundBlackBox.cv18;
+sub I.circled by I.circled.cv18;
+";
+tag = cv18;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic f\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub f by f.cv19;
+sub f.dnom by f.dnom.cv19;
+sub f.numr by f.numr.cv19;
+sub f_f by f_f.cv19;
+sub f_f_i by f_f_i.cv19;
+sub f_f_l by f_f_l.cv19;
+sub fi by fi.cv19;
+sub fl by fl.cv19;
+sub f_f_l.cv16 by f_f_l.cv16.cv19;
+sub fl.cv16 by fl.cv16.cv19;
+sub fi.dlig by fi.dlig.cv19;
+sub fl.dlig by fl.dlig.cv19;
+sub fl.ss04 by fl.ss04.cv19;
+sub f_f.dlig by f_f.dlig.cv19;
+sub f_f_i.dlig by f_f_i.dlig.cv19;
+sub f_f_l.dlig by f_f_l.dlig.cv19;
+sub f_f_l.ss04 by f_f_l.ss04.cv19;
+sub fl.dlig.cv16 by fl.dlig.cv16.cv19;
+sub fl.ss04.cv16 by fl.ss04.cv16.cv19;
+sub fl.dlig.ss04 by fl.dlig.ss04.cv19;
+sub f_f_l.dlig.cv16 by f_f_l.dlig.cv16.cv19;
+sub f_f_l.dlig.ss04 by f_f_l.dlig.ss04.cv19;
+sub f_f_l.ss04.cv16 by f_f_l.ss04.cv16.cv19;
+sub fl.dlig.ss04.cv16 by fl.dlig.ss04.cv16.cv19;
+sub f_f_l.dlig.ss04.cv16 by f_f_l.dlig.ss04.cv16.cv19;
+sub f.subs by f.subs.cv19;
+sub f.sups by f.sups.cv19;
 ";
 tag = cv19;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic g\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub g by g.cv20;
+sub gbreve by gbreve.cv20;
+sub gcaron by gcaron.cv20;
+sub gcircumflex by gcircumflex.cv20;
+sub gcommaaccent by gcommaaccent.cv20;
+sub gdotaccent by gdotaccent.cv20;
+sub gmacron by gmacron.cv20;
+sub gsingle by gsingle.cv20;
+sub g.dnom by g.dnom.cv20;
+sub g.numr by g.numr.cv20;
+sub g.subs by g.subs.cv20;
+sub g.sups by g.sups.cv20;
+";
+tag = cv20;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic a\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub a by a.cv21;
+sub aacute by aacute.cv21;
+sub abreve by abreve.cv21;
+sub abrevedotbelow by abrevedotbelow.cv21;
+sub acaron by acaron.cv21;
+sub acircumflex by acircumflex.cv21;
+sub acircumflexdotbelow by acircumflexdotbelow.cv21;
+sub adblgrave by adblgrave.cv21;
+sub adieresis by adieresis.cv21;
+sub adotaccent by adotaccent.cv21;
+sub adotbelow by adotbelow.cv21;
+sub agrave by agrave.cv21;
+sub amacron by amacron.cv21;
+sub aogonek by aogonek.cv21;
+sub aring by aring.cv21;
+sub atilde by atilde.cv21;
+sub aturned by aturned.cv21;
+sub aacute.loclPLK by aacute.loclPLK.cv21;
+sub a.dnom by a.dnom.cv21;
+sub a.numr by a.numr.cv21;
+sub a.subs by a.subs.cv21;
+sub a.sups by a.sups.cv21;
+sub ordfeminine by ordfeminine.cv21;
+";
+tag = cv21;
+},
+{
+code = "cvParameters { FeatUILabelNameID { 
+	name \"Stylistic e\";
+}; };
+
+# Copy and paste codes below automatically generated feature
+sub e by e.cv22;
+sub eacute by eacute.cv22;
+sub ecaron by ecaron.cv22;
+sub ecedilla by ecedilla.cv22;
+sub ecircumflex by ecircumflex.cv22;
+sub ecircumflexdotbelow by ecircumflexdotbelow.cv22;
+sub edieresis by edieresis.cv22;
+sub edotaccent by edotaccent.cv22;
+sub edotbelow by edotbelow.cv22;
+sub egrave by egrave.cv22;
+sub emacron by emacron.cv22;
+sub eogonek by eogonek.cv22;
+sub ereversed by ereversed.cv22;
+sub etilde by etilde.cv22;
+sub eturned by eturned.cv22;
+sub schwa by schwa.cv22;
+sub e.dnom by e.dnom.cv22;
+sub e.numr by e.numr.cv22;
+sub e.subs by e.subs.cv22;
+sub e.sups by e.sups.cv22;
+";
+tag = cv22;
 }
 );
 fontMaster = (
@@ -1577,19 +2219,19 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 600;
+value = 576;
 },
 {
 name = underlineThickness;
-value = 164;
+value = 120;
 },
 {
 name = strikeoutSize;
-value = 164;
+value = 120;
 },
 {
 name = underlinePosition;
-value = -400;
+value = -320;
 },
 {
 name = typoLineGap;
@@ -1642,7 +2284,7 @@ GSOffsetVertical = -20.5;
 },
 {
 axesValues = (
-900
+1000
 );
 customParameters = (
 {
@@ -1675,19 +2317,19 @@ value = 494;
 },
 {
 name = strikeoutPosition;
-value = 600;
+value = 648;
 },
 {
 name = underlineThickness;
-value = 248;
+value = 264;
 },
 {
 name = strikeoutSize;
-value = 248;
+value = 264;
 },
 {
 name = underlinePosition;
-value = -400;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -1731,7 +2373,7 @@ pos = 760;
 pos = 540;
 }
 );
-name = Black;
+name = ExtraBlack;
 userData = {
 GSOffsetHorizontal = 106;
 GSOffsetVertical = 0;
@@ -1787,8 +2429,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.2;
-m01 = 0.8;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.16667;
+m01 = 0.83333;
 };
 name = Medium;
 weightClass = 500;
@@ -1815,8 +2457,8 @@ value = (
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.4;
-m01 = 0.6;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.33333;
+m01 = 0.66667;
 };
 name = SemiBold;
 weightClass = 600;
@@ -1840,11 +2482,20 @@ value = (
 0,
 0
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.6;
-m01 = 0.4;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.5;
+m01 = 0.5;
 };
 isBold = 1;
 name = Bold;
@@ -1869,11 +2520,20 @@ value = (
 0,
 0
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
 }
 );
 instanceInterpolations = {
-"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.8;
-m01 = 0.2;
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.66667;
+m01 = 0.33333;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -1897,12 +2557,58 @@ value = (
 0,
 0
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
+}
+);
+instanceInterpolations = {
+"94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 0.83333;
+m01 = 0.16667;
+};
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+1000
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+11,
+4,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = "Rename Glyphs";
+value = (
+"Q.roundBlackBox=Q.roundBlackBox.bold",
+"Q.blackCircled=Q.blackCircled.bold",
+"Q.box=Q.box.bold",
+"Q.circled=Q.circled.bold"
+);
 }
 );
 instanceInterpolations = {
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = 1;
 };
-name = Black;
+name = ExtraBlack;
 weightClass = 900;
 },
 {
@@ -1930,6 +2636,7 @@ value = m01;
 name = "Decompose Glyphs";
 value = (
 dcroat,
+dcroat.ss04,
 Q.roundBlackBox,
 Q.blackCircled,
 Q.circled,
@@ -1951,6 +2658,7 @@ m01 = {
 "@MMK_R_T" = -144;
 "@MMK_R_U" = -56;
 "@MMK_R_V" = -192;
+"@MMK_R_Y" = -216;
 "@MMK_R_ampersand" = -32;
 "@MMK_R_asciicircum" = -176;
 "@MMK_R_asterisk" = -176;
@@ -1958,7 +2666,7 @@ m01 = {
 "@MMK_R_backslash.case" = -176;
 "@MMK_R_emdash" = -48;
 "@MMK_R_emdash.case" = -80;
-"@MMK_R_f" = -48;
+"@MMK_R_f" = -96;
 "@MMK_R_five" = -16;
 "@MMK_R_hyphen" = -72;
 "@MMK_R_hyphen.case" = -104;
@@ -1983,15 +2691,23 @@ m01 = {
 "@MMK_R_zero.sups" = -224;
 };
 "@MMK_L_A.tag" = {
-"@MMK_R_O.tag" = -44;
-"@MMK_R_T.tag" = -72;
-"@MMK_R_U.tag" = -28;
-"@MMK_R_V.tag" = -96;
+"@MMK_R_O.tag" = -46;
+"@MMK_R_T.tag" = -76;
+"@MMK_R_U.tag" = -29;
+"@MMK_R_V.tag" = -113;
+"@MMK_R_Y.tag" = -96;
+"@MMK_R_five.tag" = -8;
+"@MMK_R_nine.cv11.tag" = -50;
+"@MMK_R_nine.tag" = -13;
+"@MMK_R_one.tag" = -59;
+"@MMK_R_seven.tag" = -50;
+"@MMK_R_six.cv11.tag" = -21;
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -40;
 "@MMK_R_V" = -56;
 "@MMK_R_X" = -40;
+"@MMK_R_Y" = -56;
 "@MMK_R_emdash" = 24;
 "@MMK_R_f" = -24;
 "@MMK_R_parenright" = -32;
@@ -2005,14 +2721,16 @@ m01 = {
 "@MMK_R_zero.sups" = -48;
 };
 "@MMK_L_B.tag" = {
-"@MMK_R_A.tag" = -20;
-"@MMK_R_V.tag" = -28;
-"@MMK_R_X.tag" = -20;
+"@MMK_R_A.tag" = -21;
+"@MMK_R_V.tag" = -29;
+"@MMK_R_X.tag" = -21;
+"@MMK_R_Y.tag" = -29;
 };
 "@MMK_L_C" = {
 "@MMK_R_Lslash" = -40;
 "@MMK_R_asciicircum" = -56;
 "@MMK_R_asterisk" = -56;
+"@MMK_R_f" = -24;
 "@MMK_R_lslash" = -32;
 "@MMK_R_o" = -16;
 "@MMK_R_questiondown" = -48;
@@ -2026,9 +2744,9 @@ m01 = {
 "@MMK_R_v" = -16;
 };
 "@MMK_L_E.tag" = {
-"@MMK_R_J.tag" = -16;
-"@MMK_R_O.tag" = -12;
-"@MMK_R_S.tag" = -16;
+"@MMK_R_J.tag" = -17;
+"@MMK_R_O.tag" = -13;
+"@MMK_R_S.tag" = -17;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -160;
@@ -2055,11 +2773,11 @@ m01 = {
 "@MMK_R_zero.subs" = -184;
 };
 "@MMK_L_F.tag" = {
-"@MMK_R_A.tag" = -80;
-"@MMK_R_J.tag" = -64;
-"@MMK_R_O.tag" = -12;
-"@MMK_R_S.tag" = -12;
-"@MMK_R_six.cv11.tag" = -20;
+"@MMK_R_A.tag" = -84;
+"@MMK_R_J.tag" = -67;
+"@MMK_R_O.tag" = -13;
+"@MMK_R_S.tag" = -13;
+"@MMK_R_six.cv11.tag" = -21;
 };
 "@MMK_L_H" = {
 "@MMK_R_jdotless" = 40;
@@ -2076,7 +2794,7 @@ m01 = {
 "@MMK_R_questiondown" = -80;
 };
 "@MMK_L_J.tag" = {
-"@MMK_R_A.tag" = -16;
+"@MMK_R_A.tag" = -17;
 };
 "@MMK_L_L" = {
 "@MMK_R_J" = -24;
@@ -2086,12 +2804,13 @@ m01 = {
 "@MMK_R_T" = -280;
 "@MMK_R_U" = -72;
 "@MMK_R_V" = -232;
+"@MMK_R_Y" = -264;
 "@MMK_R_asciicircum" = -272;
 "@MMK_R_asterisk" = -272;
 "@MMK_R_backslash" = -168;
 "@MMK_R_backslash.case" = -192;
 "@MMK_R_eight" = -32;
-"@MMK_R_f" = -136;
+"@MMK_R_f" = -152;
 "@MMK_R_five" = -80;
 "@MMK_R_four" = -72;
 "@MMK_R_g" = -48;
@@ -2119,20 +2838,21 @@ periodcentered.loclCAT.case = -512;
 t.cv02 = -80;
 };
 "@MMK_L_L.tag" = {
-"@MMK_R_J.tag" = -12;
-"@MMK_R_O.tag" = -52;
-"@MMK_R_S.tag" = -24;
-"@MMK_R_T.tag" = -140;
-"@MMK_R_U.tag" = -36;
-"@MMK_R_V.tag" = -116;
-"@MMK_R_eight.tag" = -16;
-"@MMK_R_five.tag" = -40;
-"@MMK_R_four.tag" = -36;
-"@MMK_R_nine.cv11.tag" = -76;
-"@MMK_R_nine.tag" = -60;
-"@MMK_R_one.tag" = -80;
-"@MMK_R_seven.tag" = -88;
-"@MMK_R_three.tag" = -20;
+"@MMK_R_J.tag" = -13;
+"@MMK_R_O.tag" = -55;
+"@MMK_R_S.tag" = -25;
+"@MMK_R_T.tag" = -147;
+"@MMK_R_U.tag" = -38;
+"@MMK_R_V.tag" = -139;
+"@MMK_R_Y.tag" = -139;
+"@MMK_R_eight.tag" = -17;
+"@MMK_R_five.tag" = -42;
+"@MMK_R_four.tag" = -38;
+"@MMK_R_nine.cv11.tag" = -80;
+"@MMK_R_nine.tag" = -63;
+"@MMK_R_one.tag" = -84;
+"@MMK_R_seven.tag" = -92;
+"@MMK_R_three.tag" = -21;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -88;
@@ -2140,6 +2860,7 @@ t.cv02 = -80;
 "@MMK_R_T" = -64;
 "@MMK_R_V" = -56;
 "@MMK_R_X" = -64;
+"@MMK_R_Y" = -104;
 "@MMK_R_Z" = -24;
 "@MMK_R_asciicircum" = -16;
 "@MMK_R_asterisk" = -16;
@@ -2163,13 +2884,14 @@ t.cv02 = -80;
 "@MMK_R_zero.dnom" = -36;
 };
 "@MMK_L_O.tag" = {
-"@MMK_R_A.tag" = -44;
-"@MMK_R_J.tag" = -12;
-"@MMK_R_T.tag" = -32;
-"@MMK_R_V.tag" = -28;
-"@MMK_R_X.tag" = -32;
-"@MMK_R_Z.tag" = -12;
-"@MMK_R_seven.tag" = -36;
+"@MMK_R_A.tag" = -46;
+"@MMK_R_J.tag" = -13;
+"@MMK_R_T.tag" = -34;
+"@MMK_R_V.tag" = -55;
+"@MMK_R_X.tag" = -34;
+"@MMK_R_Y.tag" = -55;
+"@MMK_R_Z.tag" = -13;
+"@MMK_R_seven.tag" = -38;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -160;
@@ -2177,6 +2899,7 @@ t.cv02 = -80;
 "@MMK_R_T" = -24;
 "@MMK_R_V" = -16;
 "@MMK_R_X" = -48;
+"@MMK_R_Y" = -16;
 "@MMK_R_Z" = -16;
 "@MMK_R_ampersand" = -80;
 "@MMK_R_asciicircum" = -48;
@@ -2200,14 +2923,15 @@ t.cv02 = -80;
 "@MMK_R_zero.subs" = -264;
 };
 "@MMK_L_P.tag" = {
-"@MMK_R_A.tag" = -80;
-"@MMK_R_J.tag" = -72;
-"@MMK_R_T.tag" = -12;
+"@MMK_R_A.tag" = -84;
+"@MMK_R_J.tag" = -76;
+"@MMK_R_T.tag" = -13;
 "@MMK_R_V.tag" = -8;
-"@MMK_R_X.tag" = -24;
+"@MMK_R_X.tag" = -25;
+"@MMK_R_Y.tag" = -8;
 "@MMK_R_Z.tag" = -8;
-"@MMK_R_four.tag" = -40;
-"@MMK_R_three.tag" = -40;
+"@MMK_R_four.tag" = -42;
+"@MMK_R_three.tag" = -42;
 };
 "@MMK_L_Q" = {
 "@MMK_R_J" = -32;
@@ -2217,6 +2941,7 @@ t.cv02 = -80;
 "@MMK_R_T" = -128;
 "@MMK_R_U" = -56;
 "@MMK_R_V" = -144;
+"@MMK_R_Y" = -144;
 "@MMK_R_ampersand" = -32;
 "@MMK_R_asciicircum" = -72;
 "@MMK_R_asterisk" = -72;
@@ -2258,6 +2983,7 @@ t.cv02 = -80;
 "@MMK_R_S" = -16;
 "@MMK_R_T" = -24;
 "@MMK_R_V" = -16;
+"@MMK_R_Y" = -16;
 "@MMK_R_asciicircum" = -48;
 "@MMK_R_asterisk" = -48;
 "@MMK_R_eight" = -24;
@@ -2273,22 +2999,24 @@ t.cv02 = -80;
 "@MMK_R_three" = -40;
 };
 "@MMK_L_R.tag" = {
-"@MMK_R_H.tag" = 28;
+"@MMK_R_H.tag" = 29;
 "@MMK_R_J.tag" = -8;
 "@MMK_R_O.tag" = -8;
 "@MMK_R_S.tag" = -8;
-"@MMK_R_T.tag" = -12;
+"@MMK_R_T.tag" = -13;
 "@MMK_R_V.tag" = -8;
-"@MMK_R_eight.tag" = -12;
+"@MMK_R_Y.tag" = -8;
+"@MMK_R_eight.tag" = -13;
 "@MMK_R_five.tag" = -8;
-"@MMK_R_four.tag" = -12;
-"@MMK_R_seven.tag" = -24;
-"@MMK_R_six.cv11.tag" = -12;
-"@MMK_R_three.tag" = -20;
+"@MMK_R_four.tag" = -13;
+"@MMK_R_seven.tag" = -25;
+"@MMK_R_six.cv11.tag" = -13;
+"@MMK_R_three.tag" = -21;
 };
 "@MMK_L_S" = {
 "@MMK_R_T" = -32;
 "@MMK_R_V" = -32;
+"@MMK_R_Y" = -32;
 "@MMK_R_asciicircum" = -32;
 "@MMK_R_asterisk" = -32;
 "@MMK_R_colon" = -32;
@@ -2300,8 +3028,9 @@ t.cv02 = -80;
 "@MMK_R_slash" = -80;
 };
 "@MMK_L_S.tag" = {
-"@MMK_R_T.tag" = -16;
-"@MMK_R_V.tag" = -16;
+"@MMK_R_T.tag" = -17;
+"@MMK_R_V.tag" = -17;
+"@MMK_R_Y.tag" = -17;
 "@MMK_R_seven.tag" = -8;
 };
 "@MMK_L_T" = {
@@ -2344,15 +3073,15 @@ t.cv02 = -80;
 "@MMK_R_zero.subs" = -304;
 };
 "@MMK_L_T.tag" = {
-"@MMK_R_A.tag" = -72;
-"@MMK_R_J.tag" = -92;
-"@MMK_R_O.tag" = -40;
-"@MMK_R_S.tag" = -16;
-"@MMK_R_eight.tag" = -32;
-"@MMK_R_four.tag" = -48;
-"@MMK_R_nine.cv11.tag" = -12;
-"@MMK_R_nine.tag" = -12;
-"@MMK_R_six.cv11.tag" = -36;
+"@MMK_R_A.tag" = -76;
+"@MMK_R_J.tag" = -97;
+"@MMK_R_O.tag" = -42;
+"@MMK_R_S.tag" = -17;
+"@MMK_R_eight.tag" = -34;
+"@MMK_R_four.tag" = -50;
+"@MMK_R_nine.cv11.tag" = -13;
+"@MMK_R_nine.tag" = -13;
+"@MMK_R_six.cv11.tag" = -38;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -56;
@@ -2363,8 +3092,8 @@ t.cv02 = -80;
 "@MMK_R_zero.subs" = -64;
 };
 "@MMK_L_U.tag" = {
-"@MMK_R_A.tag" = -28;
-"@MMK_R_J.tag" = -12;
+"@MMK_R_A.tag" = -29;
+"@MMK_R_J.tag" = -13;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -192;
@@ -2380,7 +3109,7 @@ t.cv02 = -80;
 "@MMK_R_eight" = -48;
 "@MMK_R_emdash" = -64;
 "@MMK_R_emdash.case" = -64;
-"@MMK_R_f" = -40;
+"@MMK_R_f" = -72;
 "@MMK_R_five" = -40;
 "@MMK_R_four" = -112;
 "@MMK_R_g" = -80;
@@ -2394,7 +3123,7 @@ t.cv02 = -80;
 "@MMK_R_nine" = -16;
 "@MMK_R_nine.cv11" = -16;
 "@MMK_R_numbersign" = -72;
-"@MMK_R_o" = -120;
+"@MMK_R_o" = -152;
 "@MMK_R_p" = -80;
 "@MMK_R_period" = -208;
 "@MMK_R_periodcentered" = -144;
@@ -2412,16 +3141,19 @@ t.cv02 = -80;
 j.cv01 = 0;
 };
 "@MMK_L_V.tag" = {
-"@MMK_R_A.tag" = -96;
-"@MMK_R_J.tag" = -88;
-"@MMK_R_O.tag" = -28;
-"@MMK_R_S.tag" = -24;
-"@MMK_R_eight.tag" = -24;
-"@MMK_R_five.tag" = -20;
-"@MMK_R_four.tag" = -56;
-"@MMK_R_nine.cv11.tag" = -8;
-"@MMK_R_nine.tag" = -8;
-"@MMK_R_six.cv11.tag" = -52;
+"@MMK_R_A.tag" = -113;
+"@MMK_R_J.tag" = -109;
+"@MMK_R_O.tag" = -55;
+"@MMK_R_S.tag" = -38;
+"@MMK_R_eight.tag" = -50;
+"@MMK_R_five.tag" = -21;
+"@MMK_R_four.tag" = -59;
+"@MMK_R_nine.cv11.tag" = -38;
+"@MMK_R_nine.tag" = -25;
+"@MMK_R_one.tag" = -13;
+"@MMK_R_six.cv11.tag" = -71;
+"@MMK_R_three.tag" = -13;
+"@MMK_R_two.tag" = -13;
 };
 "@MMK_L_X" = {
 "@MMK_R_J" = -32;
@@ -2457,14 +3189,76 @@ j.cv01 = 0;
 "@MMK_R_zero.numr" = -48;
 };
 "@MMK_L_X.tag" = {
-"@MMK_R_J.tag" = -16;
-"@MMK_R_O.tag" = -28;
+"@MMK_R_J.tag" = -17;
+"@MMK_R_O.tag" = -29;
 "@MMK_R_eight.tag" = -8;
-"@MMK_R_five.tag" = -16;
-"@MMK_R_four.tag" = -12;
-"@MMK_R_nine.cv11.tag" = -12;
-"@MMK_R_nine.tag" = -12;
-"@MMK_R_six.cv11.tag" = -36;
+"@MMK_R_five.tag" = -17;
+"@MMK_R_four.tag" = -13;
+"@MMK_R_nine.cv11.tag" = -13;
+"@MMK_R_nine.tag" = -13;
+"@MMK_R_six.cv11.tag" = -38;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -216;
+"@MMK_R_J" = -208;
+"@MMK_R_Lslash" = -40;
+"@MMK_R_O" = -104;
+"@MMK_R_S" = -72;
+"@MMK_R_ampersand" = -88;
+"@MMK_R_asciicircum" = -120;
+"@MMK_R_backslash" = 64;
+"@MMK_R_colon" = -104;
+"@MMK_R_colon.case" = -24;
+"@MMK_R_eight" = -96;
+"@MMK_R_emdash" = -64;
+"@MMK_R_emdash.case" = -64;
+"@MMK_R_f" = -96;
+"@MMK_R_five" = -40;
+"@MMK_R_four" = -112;
+"@MMK_R_g" = -216;
+"@MMK_R_hyphen" = -160;
+"@MMK_R_hyphen.case" = -104;
+"@MMK_R_jdotless" = -176;
+"@MMK_R_less" = -88;
+"@MMK_R_less.case" = -88;
+"@MMK_R_lslash" = -32;
+"@MMK_R_n" = -144;
+"@MMK_R_nine" = -48;
+"@MMK_R_nine.cv11" = -72;
+"@MMK_R_numbersign" = -72;
+"@MMK_R_o" = -216;
+"@MMK_R_one" = -24;
+"@MMK_R_p" = -112;
+"@MMK_R_period" = -208;
+"@MMK_R_periodcentered" = -208;
+"@MMK_R_questiondown" = -288;
+"@MMK_R_s" = -144;
+"@MMK_R_six.cv11" = -136;
+"@MMK_R_slash" = -232;
+"@MMK_R_slash.case" = -176;
+"@MMK_R_three" = -24;
+"@MMK_R_two" = -24;
+"@MMK_R_u" = -152;
+"@MMK_R_v" = -80;
+"@MMK_R_x" = -80;
+"@MMK_R_z" = -96;
+"@MMK_R_zero.dnom" = -192;
+"@MMK_R_zero.subs" = -280;
+j.cv01 = 0;
+};
+"@MMK_L_Y.tag" = {
+"@MMK_R_J.tag" = -109;
+"@MMK_R_O.tag" = -55;
+"@MMK_R_S.tag" = -38;
+"@MMK_R_eight.tag" = -50;
+"@MMK_R_five.tag" = -21;
+"@MMK_R_four.tag" = -59;
+"@MMK_R_nine.cv11.tag" = -38;
+"@MMK_R_nine.tag" = -25;
+"@MMK_R_one.tag" = -13;
+"@MMK_R_six.cv11.tag" = -71;
+"@MMK_R_three.tag" = -13;
+"@MMK_R_two.tag" = -13;
 };
 "@MMK_L_Z" = {
 "@MMK_R_J" = -24;
@@ -2485,14 +3279,15 @@ j.cv01 = 0;
 "@MMK_R_v" = -16;
 };
 "@MMK_L_Z.tag" = {
-"@MMK_R_J.tag" = -12;
-"@MMK_R_O.tag" = -12;
-"@MMK_R_four.tag" = -32;
-"@MMK_R_six.cv11.tag" = -16;
+"@MMK_R_J.tag" = -13;
+"@MMK_R_O.tag" = -13;
+"@MMK_R_four.tag" = -34;
+"@MMK_R_six.cv11.tag" = -17;
 };
 "@MMK_L_a" = {
 "@MMK_R_T" = -200;
 "@MMK_R_V" = -80;
+"@MMK_R_Y" = -144;
 "@MMK_R_backslash" = -24;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_seven" = -80;
@@ -2506,6 +3301,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -200;
 "@MMK_R_U" = -56;
 "@MMK_R_V" = -160;
+"@MMK_R_Y" = -160;
 "@MMK_R_asciicircum" = -40;
 "@MMK_R_asterisk" = -120;
 "@MMK_R_backslash" = -56;
@@ -2539,6 +3335,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -160;
 "@MMK_R_V" = -120;
 "@MMK_R_X" = -128;
+"@MMK_R_Y" = -120;
 "@MMK_R_Z" = -112;
 "@MMK_R_ampersand" = -88;
 "@MMK_R_asterisk" = -112;
@@ -2584,6 +3381,7 @@ asterisk = 0;
 "@MMK_R_U" = -96;
 "@MMK_R_V" = -232;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -232;
 "@MMK_R_Z" = -72;
 "@MMK_R_asciicircum" = -144;
 "@MMK_R_asterisk" = -144;
@@ -2615,6 +3413,7 @@ asterisk = 0;
 "@MMK_R_O" = -48;
 "@MMK_R_T" = -176;
 "@MMK_R_V" = -176;
+"@MMK_R_Y" = -176;
 "@MMK_R_asciicircum" = -80;
 "@MMK_R_asterisk" = -80;
 "@MMK_R_backslash" = 72;
@@ -2642,17 +3441,24 @@ asterisk = 0;
 "@MMK_R_T" = -152;
 "@MMK_R_V" = -112;
 "@MMK_R_X" = -8;
+"@MMK_R_Y" = -224;
 "@MMK_R_emdash" = -32;
+"@MMK_R_f" = -24;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_parenright" = -16;
 "@MMK_R_question" = -24;
 "@MMK_R_seven" = -48;
 "@MMK_R_zero.numr" = -16;
 };
+"@MMK_L_c.dnom" = {
+"@MMK_R_f.dnom" = -15;
+"@MMK_R_zero.dnom" = -15;
+};
 "@MMK_L_colon" = {
 "@MMK_R_S" = -32;
 "@MMK_R_T" = -152;
 "@MMK_R_V" = -72;
+"@MMK_R_Y" = -104;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_eight" = -16;
 "@MMK_R_g" = -16;
@@ -2665,16 +3471,18 @@ asterisk = 0;
 "@MMK_L_colon.case" = {
 "@MMK_R_V" = -24;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -24;
 };
 "@MMK_L_eight" = {
 "@MMK_R_T" = -64;
 "@MMK_R_V" = -48;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -96;
 "@MMK_R_asciicircum" = -48;
 "@MMK_R_asterisk" = -48;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_colon" = -40;
-"@MMK_R_f" = -24;
+"@MMK_R_f" = -32;
 "@MMK_R_parenright" = -32;
 "@MMK_R_parenright.case" = -32;
 "@MMK_R_period" = -80;
@@ -2683,9 +3491,10 @@ asterisk = 0;
 "@MMK_R_slash" = -40;
 };
 "@MMK_L_eight.tag" = {
-"@MMK_R_T.tag" = -32;
-"@MMK_R_V.tag" = -24;
-"@MMK_R_X.tag" = -12;
+"@MMK_R_T.tag" = -34;
+"@MMK_R_V.tag" = -50;
+"@MMK_R_X.tag" = -13;
+"@MMK_R_Y.tag" = -50;
 };
 "@MMK_L_emdash" = {
 "@MMK_R_A" = -48;
@@ -2695,6 +3504,7 @@ asterisk = 0;
 "@MMK_R_T" = -192;
 "@MMK_R_V" = -64;
 "@MMK_R_X" = -48;
+"@MMK_R_Y" = -64;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_g" = 24;
 "@MMK_R_lslash" = 80;
@@ -2720,6 +3530,7 @@ asterisk = 0;
 "@MMK_R_T" = -112;
 "@MMK_R_V" = -64;
 "@MMK_R_X" = -80;
+"@MMK_R_Y" = -64;
 "@MMK_R_g" = 24;
 "@MMK_R_lslash" = 80;
 "@MMK_R_nine.cv11" = -16;
@@ -2754,11 +3565,13 @@ asterisk = 0;
 "@MMK_R_g.dnom" = -24;
 "@MMK_R_o.dnom" = -34;
 "@MMK_R_s.dnom" = -20;
+"@MMK_R_zero.dnom" = -34;
 };
 "@MMK_L_five" = {
 "@MMK_R_A" = -32;
 "@MMK_R_V" = -48;
 "@MMK_R_X" = -72;
+"@MMK_R_Y" = -48;
 "@MMK_R_emdash" = 24;
 "@MMK_R_f" = -48;
 "@MMK_R_parenright" = -16;
@@ -2773,19 +3586,22 @@ asterisk = 0;
 "@MMK_R_zero.sups" = -32;
 };
 "@MMK_L_five.tag" = {
-"@MMK_R_V.tag" = -24;
-"@MMK_R_X.tag" = -36;
+"@MMK_R_A.tag" = -17;
+"@MMK_R_V.tag" = -25;
+"@MMK_R_X.tag" = -38;
+"@MMK_R_Y.tag" = -25;
 };
 "@MMK_L_four" = {
 "@MMK_R_Lslash" = -40;
 "@MMK_R_V" = -112;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -112;
 "@MMK_R_asciicircum" = -88;
 "@MMK_R_asterisk" = -88;
 "@MMK_R_backslash" = -48;
 "@MMK_R_backslash.case" = -96;
 "@MMK_R_emdash" = 24;
-"@MMK_R_f" = -16;
+"@MMK_R_f" = -48;
 "@MMK_R_lslash" = -32;
 "@MMK_R_parenright" = -56;
 "@MMK_R_parenright.case" = -40;
@@ -2798,8 +3614,9 @@ asterisk = 0;
 "@MMK_R_zero.sups" = -128;
 };
 "@MMK_L_four.tag" = {
-"@MMK_R_V.tag" = -56;
-"@MMK_R_X.tag" = -12;
+"@MMK_R_V.tag" = -59;
+"@MMK_R_X.tag" = -13;
+"@MMK_R_Y.tag" = -59;
 };
 "@MMK_L_fraction" = {
 "@MMK_R_zero.numr" = 424;
@@ -2808,6 +3625,7 @@ asterisk = 0;
 "@MMK_L_g" = {
 "@MMK_R_T" = -216;
 "@MMK_R_V" = -80;
+"@MMK_R_Y" = -144;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_j" = 40;
 "@MMK_R_jdotless" = 40;
@@ -2821,6 +3639,7 @@ asterisk = 0;
 "@MMK_R_T" = -128;
 "@MMK_R_V" = -88;
 "@MMK_R_X" = -96;
+"@MMK_R_Y" = -88;
 "@MMK_R_Z" = -32;
 "@MMK_R_f" = -24;
 "@MMK_R_seven" = -88;
@@ -2830,6 +3649,7 @@ asterisk = 0;
 "@MMK_R_T" = -128;
 "@MMK_R_V" = -88;
 "@MMK_R_X" = -96;
+"@MMK_R_Y" = -88;
 "@MMK_R_Z" = -32;
 "@MMK_R_f" = -24;
 "@MMK_R_seven" = -88;
@@ -2840,6 +3660,7 @@ asterisk = 0;
 "@MMK_R_T" = -192;
 "@MMK_R_V" = -160;
 "@MMK_R_X" = -80;
+"@MMK_R_Y" = -160;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_f" = -16;
 "@MMK_R_one" = -96;
@@ -2860,6 +3681,7 @@ asterisk = 0;
 "@MMK_R_T" = -192;
 "@MMK_R_V" = -104;
 "@MMK_R_X" = -128;
+"@MMK_R_Y" = -104;
 "@MMK_R_one" = -48;
 "@MMK_R_parenright" = -64;
 "@MMK_R_parenright.case" = -80;
@@ -2883,14 +3705,16 @@ asterisk = 0;
 "@MMK_R_slash.case" = 16;
 periodcentered.loclCAT = -64;
 };
-"@MMK_L_l.cv17" = {
+"@MMK_L_l.cv16" = {
 "@MMK_R_A" = 56;
 "@MMK_R_O" = -40;
 "@MMK_R_T" = -72;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -72;
+"@MMK_R_Y" = -72;
 "@MMK_R_asciicircum" = -72;
 "@MMK_R_asterisk" = -56;
+"@MMK_R_f" = -32;
 "@MMK_R_four" = -8;
 "@MMK_R_g" = -16;
 "@MMK_R_o" = -16;
@@ -2910,6 +3734,7 @@ periodcentered.loclCAT = -64;
 "@MMK_R_T" = -32;
 "@MMK_R_V" = -32;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -32;
 "@MMK_R_Z" = -32;
 "@MMK_R_emdash.case" = 80;
 "@MMK_R_f" = 32;
@@ -2933,11 +3758,12 @@ periodcentered.loclCAT = -64;
 "@MMK_L_n" = {
 "@MMK_R_T" = -200;
 "@MMK_R_V" = -112;
+"@MMK_R_Y" = -152;
 "@MMK_R_asciicircum" = -32;
 "@MMK_R_asterisk" = -32;
 "@MMK_R_backslash" = -40;
 "@MMK_R_backslash.case" = -112;
-"@MMK_R_f" = -24;
+"@MMK_R_f" = -48;
 "@MMK_R_parenright" = -32;
 "@MMK_R_parenright.case" = -16;
 "@MMK_R_question" = -64;
@@ -2951,9 +3777,10 @@ periodcentered.loclCAT = -64;
 "@MMK_R_zero.sups" = -112;
 };
 "@MMK_L_n.dnom" = {
-"@MMK_R_f.dnom" = -15;
+"@MMK_R_f.dnom" = -29;
 "@MMK_R_s.dnom" = -10;
 "@MMK_R_v.dnom" = -24;
+"@MMK_R_zero.dnom" = -29;
 };
 "@MMK_L_nine.cv11" = {
 "@MMK_R_A" = -120;
@@ -2961,6 +3788,7 @@ periodcentered.loclCAT = -64;
 "@MMK_R_T" = -48;
 "@MMK_R_V" = -16;
 "@MMK_R_X" = -48;
+"@MMK_R_Y" = -72;
 "@MMK_R_ampersand" = -48;
 "@MMK_R_emdash" = 8;
 "@MMK_R_emdash.case" = 24;
@@ -2972,10 +3800,12 @@ periodcentered.loclCAT = -64;
 "@MMK_R_slash.case" = -80;
 };
 "@MMK_L_nine.cv11.tag" = {
-"@MMK_R_J.tag" = -36;
-"@MMK_R_T.tag" = -24;
-"@MMK_R_V.tag" = -8;
-"@MMK_R_X.tag" = -24;
+"@MMK_R_A.tag" = -63;
+"@MMK_R_J.tag" = -38;
+"@MMK_R_T.tag" = -25;
+"@MMK_R_V.tag" = -38;
+"@MMK_R_X.tag" = -25;
+"@MMK_R_Y.tag" = -38;
 };
 "@MMK_L_numbersign" = {
 "@MMK_R_A" = -128;
@@ -2992,15 +3822,16 @@ periodcentered.loclCAT = -64;
 "@MMK_R_A" = -48;
 "@MMK_R_S" = -24;
 "@MMK_R_T" = -200;
-"@MMK_R_V" = -120;
+"@MMK_R_V" = -152;
 "@MMK_R_X" = -48;
+"@MMK_R_Y" = -216;
 "@MMK_R_Z" = -16;
 "@MMK_R_backslash" = -32;
 "@MMK_R_backslash.case" = -88;
 "@MMK_R_colon" = -16;
 "@MMK_R_emdash" = 24;
 "@MMK_R_emdash.case" = 24;
-"@MMK_R_f" = -32;
+"@MMK_R_f" = -48;
 "@MMK_R_one" = -96;
 "@MMK_R_parenright" = -48;
 "@MMK_R_parenright.case" = -24;
@@ -3013,18 +3844,19 @@ periodcentered.loclCAT = -64;
 "@MMK_R_seven" = -112;
 "@MMK_R_slash" = -32;
 "@MMK_R_three" = -24;
-"@MMK_R_v" = -32;
+"@MMK_R_v" = -40;
 "@MMK_R_x" = -48;
 "@MMK_R_z" = -16;
 "@MMK_R_zero.numr" = -64;
 "@MMK_R_zero.sups" = -136;
 };
 "@MMK_L_o.dnom" = {
-"@MMK_R_f.dnom" = -20;
+"@MMK_R_f.dnom" = -29;
 "@MMK_R_s.dnom" = -5;
-"@MMK_R_v.dnom" = -20;
+"@MMK_R_v.dnom" = -24;
 "@MMK_R_x.dnom" = -29;
 "@MMK_R_z.dnom" = -10;
+"@MMK_R_zero.dnom" = -29;
 };
 "@MMK_L_one" = {
 "@MMK_R_slash" = -24;
@@ -3086,6 +3918,7 @@ periodcentered.loclCAT = -64;
 "@MMK_R_T" = -208;
 "@MMK_R_U" = -56;
 "@MMK_R_V" = -208;
+"@MMK_R_Y" = -208;
 "@MMK_R_asciicircum" = -136;
 "@MMK_R_asterisk" = -136;
 "@MMK_R_backslash" = -152;
@@ -3116,6 +3949,7 @@ t = -136;
 "@MMK_R_T" = -208;
 "@MMK_R_V" = -144;
 "@MMK_R_X" = -96;
+"@MMK_R_Y" = -208;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_f" = -32;
 "@MMK_R_nine" = -40;
@@ -3130,6 +3964,7 @@ t = -136;
 };
 "@MMK_L_q" = {
 "@MMK_R_V" = -80;
+"@MMK_R_Y" = -112;
 "@MMK_R_backslash" = -24;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_j" = 96;
@@ -3164,11 +3999,12 @@ t = -136;
 "@MMK_R_T" = -200;
 "@MMK_R_U" = -88;
 "@MMK_R_V" = -288;
+"@MMK_R_Y" = -288;
 "@MMK_R_ampersand" = -88;
 "@MMK_R_backslash" = -168;
 "@MMK_R_backslash.case" = -224;
 "@MMK_R_eight" = -64;
-"@MMK_R_f" = -48;
+"@MMK_R_f" = -136;
 "@MMK_R_five" = -64;
 "@MMK_R_four" = -80;
 "@MMK_R_hyphen" = -144;
@@ -3243,7 +4079,6 @@ t = -136;
 "@MMK_R_z" = -48;
 bracketleft = 0;
 bracketleft.case = 0;
-j.cv01 = 0;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -144;
@@ -3269,6 +4104,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -200;
 "@MMK_R_V" = -64;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -104;
 "@MMK_R_Z" = -16;
 "@MMK_R_ampersand" = -72;
 "@MMK_R_emdash" = -48;
@@ -3298,12 +4134,14 @@ j.cv01 = 0;
 "@MMK_R_o.dnom" = -34;
 "@MMK_R_s.dnom" = -20;
 "@MMK_R_v.dnom" = 15;
+"@MMK_R_zero.dnom" = -34;
 };
 "@MMK_L_s" = {
 "@MMK_R_S" = -16;
 "@MMK_R_T" = -184;
 "@MMK_R_V" = -88;
 "@MMK_R_X" = -8;
+"@MMK_R_Y" = -144;
 "@MMK_R_Z" = -8;
 "@MMK_R_emdash" = 24;
 "@MMK_R_f" = -32;
@@ -3318,6 +4156,7 @@ j.cv01 = 0;
 "@MMK_R_f.dnom" = -20;
 "@MMK_R_v.dnom" = -15;
 "@MMK_R_x.dnom" = -15;
+"@MMK_R_zero.dnom" = -20;
 };
 "@MMK_L_seven" = {
 "@MMK_R_A" = -152;
@@ -3359,8 +4198,9 @@ six.dnom = 0;
 zero.dnom = 0;
 };
 "@MMK_L_seven.tag" = {
-"@MMK_R_J.tag" = -78;
-"@MMK_R_O.tag" = -20;
+"@MMK_R_A.tag" = -80;
+"@MMK_R_J.tag" = -82;
+"@MMK_R_O.tag" = -21;
 six.tag = 0;
 six.tag.black = 0;
 zero.tag = 0;
@@ -3371,6 +4211,7 @@ zero.tag.black = 0;
 "@MMK_R_T" = -32;
 "@MMK_R_V" = -24;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -24;
 "@MMK_R_asciicircum" = -72;
 "@MMK_R_asterisk" = -72;
 "@MMK_R_f" = -32;
@@ -3387,11 +4228,12 @@ zero.tag.black = 0;
 "@MMK_R_T" = -96;
 "@MMK_R_V" = -160;
 "@MMK_R_X" = -72;
+"@MMK_R_Y" = -144;
 "@MMK_R_Z" = -24;
 "@MMK_R_backslash.case" = -80;
 "@MMK_R_emdash" = 8;
 "@MMK_R_emdash.case" = -16;
-"@MMK_R_f" = -32;
+"@MMK_R_f" = -48;
 "@MMK_R_parenright" = -40;
 "@MMK_R_parenright.case" = -24;
 "@MMK_R_period" = -104;
@@ -3403,21 +4245,26 @@ zero.tag.black = 0;
 "@MMK_R_x" = -24;
 };
 "@MMK_L_six.cv11.tag" = {
-"@MMK_R_T.tag" = -48;
-"@MMK_R_V.tag" = -80;
-"@MMK_R_X.tag" = -36;
-"@MMK_R_Z.tag" = -12;
+"@MMK_R_A.tag" = -21;
+"@MMK_R_T.tag" = -50;
+"@MMK_R_V.tag" = -76;
+"@MMK_R_X.tag" = -38;
+"@MMK_R_Y.tag" = -76;
+"@MMK_R_Z.tag" = -13;
 };
 "@MMK_L_six.tag" = {
-"@MMK_R_T.tag" = -16;
-"@MMK_R_V.tag" = -12;
-"@MMK_R_X.tag" = -12;
+"@MMK_R_A.tag" = -25;
+"@MMK_R_T.tag" = -17;
+"@MMK_R_V.tag" = -13;
+"@MMK_R_X.tag" = -13;
+"@MMK_R_Y.tag" = -13;
 };
 "@MMK_L_slash" = {
 "@MMK_R_A" = -128;
 "@MMK_R_J" = -48;
 "@MMK_R_V" = 64;
 "@MMK_R_X" = 48;
+"@MMK_R_Y" = 64;
 "@MMK_R_eight" = -16;
 "@MMK_R_four" = -48;
 "@MMK_R_g" = -32;
@@ -3468,8 +4315,9 @@ zero.tag.black = 0;
 "@MMK_R_O" = 0;
 "@MMK_R_T" = -120;
 "@MMK_R_V" = -88;
+"@MMK_R_Y" = -96;
 "@MMK_R_ampersand" = -16;
-"@MMK_R_o" = -24;
+"@MMK_R_o" = -16;
 "@MMK_R_seven" = -24;
 };
 "@MMK_L_t.cv02" = {
@@ -3479,8 +4327,9 @@ zero.tag.black = 0;
 "@MMK_R_S" = -32;
 "@MMK_R_T" = -144;
 "@MMK_R_U" = -24;
-"@MMK_R_V" = -56;
+"@MMK_R_V" = -72;
 "@MMK_R_X" = -88;
+"@MMK_R_Y" = -96;
 "@MMK_R_Z" = -32;
 "@MMK_R_eight" = -24;
 "@MMK_R_emdash" = -64;
@@ -3488,7 +4337,7 @@ zero.tag.black = 0;
 "@MMK_R_four" = -48;
 "@MMK_R_g" = -48;
 "@MMK_R_hyphen" = -80;
-"@MMK_R_o" = -56;
+"@MMK_R_o" = -48;
 "@MMK_R_parenright" = -40;
 "@MMK_R_period" = -136;
 "@MMK_R_periodcentered" = -32;
@@ -3509,10 +4358,12 @@ zero.tag.black = 0;
 "@MMK_R_s.dnom" = -24;
 };
 "@MMK_L_t.dnom" = {
-"@MMK_R_o.dnom" = -15;
+"@MMK_R_o.dnom" = -10;
+"@MMK_R_zero.dnom" = -10;
 };
 "@MMK_L_three" = {
 "@MMK_R_X" = -16;
+"@MMK_R_Y" = -24;
 "@MMK_R_asciicircum" = -72;
 "@MMK_R_asterisk" = -72;
 "@MMK_R_colon" = -40;
@@ -3524,12 +4375,15 @@ zero.tag.black = 0;
 "@MMK_R_slash.case" = -32;
 };
 "@MMK_L_three.tag" = {
+"@MMK_R_V.tag" = -13;
 "@MMK_R_X.tag" = -8;
+"@MMK_R_Y.tag" = -13;
 };
 "@MMK_L_two" = {
 "@MMK_R_J" = -32;
 "@MMK_R_Lslash" = -40;
 "@MMK_R_V" = -32;
+"@MMK_R_Y" = -32;
 "@MMK_R_asciicircum" = -80;
 "@MMK_R_asterisk" = -80;
 "@MMK_R_lslash" = -32;
@@ -3537,8 +4391,9 @@ zero.tag.black = 0;
 "@MMK_R_parenright" = -32;
 };
 "@MMK_L_two.tag" = {
-"@MMK_R_J.tag" = -16;
-"@MMK_R_V.tag" = -16;
+"@MMK_R_J.tag" = -17;
+"@MMK_R_V.tag" = -17;
+"@MMK_R_Y.tag" = -17;
 };
 "@MMK_L_u.cv04" = {
 "@MMK_R_A" = -32;
@@ -3546,6 +4401,7 @@ zero.tag.black = 0;
 "@MMK_R_T" = -184;
 "@MMK_R_V" = -80;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -152;
 "@MMK_R_Z" = -24;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_hyphen" = -24;
@@ -3561,7 +4417,7 @@ zero.tag.black = 0;
 "@MMK_R_ampersand" = -48;
 "@MMK_R_backslash" = -160;
 "@MMK_R_backslash.case" = -240;
-"@MMK_R_f" = -80;
+"@MMK_R_f" = -104;
 "@MMK_R_j" = 232;
 "@MMK_R_jdotless" = 224;
 "@MMK_R_lslash" = -32;
@@ -3575,6 +4431,7 @@ zero.tag.black = 0;
 "@MMK_R_T" = -144;
 "@MMK_R_V" = -16;
 "@MMK_R_X" = -48;
+"@MMK_R_Y" = -80;
 "@MMK_R_Z" = -16;
 "@MMK_R_ampersand" = -48;
 "@MMK_R_asciicircum" = -32;
@@ -3583,7 +4440,7 @@ zero.tag.black = 0;
 "@MMK_R_four" = -48;
 "@MMK_R_g" = -24;
 "@MMK_R_hyphen" = -32;
-"@MMK_R_o" = -32;
+"@MMK_R_o" = -40;
 "@MMK_R_parenright" = -16;
 "@MMK_R_parenright.case" = -32;
 "@MMK_R_period" = -160;
@@ -3600,26 +4457,27 @@ zero.tag.black = 0;
 };
 "@MMK_L_v.dnom" = {
 "@MMK_R_g.dnom" = -15;
-"@MMK_R_o.dnom" = -20;
+"@MMK_R_o.dnom" = -24;
 "@MMK_R_s.dnom" = -5;
+"@MMK_R_zero.dnom" = -24;
 };
 "@MMK_L_x" = {
 "@MMK_R_J" = -40;
 "@MMK_R_Lslash" = -40;
 "@MMK_R_T" = -144;
 "@MMK_R_V" = -16;
+"@MMK_R_Y" = -80;
 "@MMK_R_ampersand" = -32;
 "@MMK_R_asciicircum" = -80;
 "@MMK_R_asterisk" = -80;
 "@MMK_R_backslash.case" = -40;
 "@MMK_R_emdash" = -56;
-"@MMK_R_f" = 0;
 "@MMK_R_four" = -24;
 "@MMK_R_g" = -24;
 "@MMK_R_hyphen" = -88;
 "@MMK_R_hyphen.case" = -48;
 "@MMK_R_lslash" = -32;
-"@MMK_R_o" = -56;
+"@MMK_R_o" = -48;
 "@MMK_R_parenright" = -32;
 "@MMK_R_periodcentered" = -40;
 "@MMK_R_s" = -24;
@@ -3631,34 +4489,48 @@ zero.tag.black = 0;
 "@MMK_L_x.dnom" = {
 "@MMK_R_f.dnom" = 0;
 "@MMK_R_g.dnom" = -15;
-"@MMK_R_o.dnom" = -34;
+"@MMK_R_o.dnom" = -29;
 "@MMK_R_s.dnom" = -15;
+"@MMK_R_zero.dnom" = -29;
 };
 "@MMK_L_z" = {
 "@MMK_R_J" = -24;
 "@MMK_R_T" = -144;
 "@MMK_R_V" = -40;
+"@MMK_R_Y" = -96;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_o" = -24;
 "@MMK_R_seven" = -64;
 };
 "@MMK_L_z.dnom" = {
 "@MMK_R_o.dnom" = -15;
+"@MMK_R_zero.dnom" = -15;
 };
 "@MMK_L_zero.dnom" = {
 "@MMK_R_O.dnom" = -20;
 "@MMK_R_T" = -304;
 "@MMK_R_V" = -192;
+"@MMK_R_Y" = -192;
 "@MMK_R_f" = -72;
+"@MMK_R_f.dnom" = 10;
 "@MMK_R_fraction" = 408;
+"@MMK_R_g.dnom" = -29;
+"@MMK_R_j.dnom" = 59;
+"@MMK_R_o.dnom" = -29;
 "@MMK_R_one" = -192;
+"@MMK_R_s.dnom" = -24;
 "@MMK_R_seven" = -208;
 "@MMK_R_seven.dnom" = -36;
+"@MMK_R_u.dnom" = -10;
 "@MMK_R_v" = -128;
+"@MMK_R_v.dnom" = 15;
 "@MMK_R_x" = -24;
+"@MMK_R_x.dnom" = -29;
+"@MMK_R_z.dnom" = -10;
 "@MMK_R_zero.dnom" = -20;
 _part.percentzero = -80;
 six.dnom = 0;
+zero.dnom = 0;
 };
 "@MMK_L_zero.numr" = {
 "@MMK_R_A" = -256;
@@ -3677,6 +4549,7 @@ six.dnom = 0;
 "@MMK_R_T" = -304;
 "@MMK_R_U" = -64;
 "@MMK_R_V" = -280;
+"@MMK_R_Y" = -280;
 "@MMK_R_f" = -96;
 "@MMK_R_fraction" = 488;
 "@MMK_R_lslash" = -32;
@@ -3714,7 +4587,7 @@ bracketright.case = {
 "@MMK_R_jdotless" = 96;
 };
 j.cv01 = {
-"@MMK_R_V" = 0;
+"@MMK_R_Y" = 0;
 };
 nine = {
 "@MMK_R_seven" = 0;
@@ -3737,6 +4610,7 @@ zero = {
 };
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
+"@MMK_R_zero.dnom" = 0;
 };
 zero.tag = {
 "@MMK_R_seven.tag" = 0;
@@ -3753,6 +4627,7 @@ zero.tag.black = {
 "@MMK_R_T" = -176;
 "@MMK_R_U" = -88;
 "@MMK_R_V" = -232;
+"@MMK_R_Y" = -256;
 "@MMK_R_ampersand" = -32;
 "@MMK_R_asciicircum" = -200;
 "@MMK_R_asterisk" = -200;
@@ -3761,7 +4636,7 @@ zero.tag.black = {
 "@MMK_R_eight" = -24;
 "@MMK_R_emdash" = -48;
 "@MMK_R_emdash.case" = -80;
-"@MMK_R_f" = -104;
+"@MMK_R_f" = -144;
 "@MMK_R_five" = -32;
 "@MMK_R_hyphen" = -80;
 "@MMK_R_hyphen.case" = -128;
@@ -3789,17 +4664,26 @@ braceright = 0;
 bracketright = 0;
 };
 "@MMK_L_A.tag" = {
-"@MMK_R_J.tag" = -12;
-"@MMK_R_O.tag" = -44;
-"@MMK_R_T.tag" = -88;
-"@MMK_R_U.tag" = -44;
-"@MMK_R_V.tag" = -116;
+"@MMK_R_J.tag" = -13;
+"@MMK_R_O.tag" = -48;
+"@MMK_R_T.tag" = -97;
+"@MMK_R_U.tag" = -48;
+"@MMK_R_V.tag" = -141;
+"@MMK_R_Y.tag" = -116;
+"@MMK_R_eight.tag" = -13;
+"@MMK_R_five.tag" = -18;
+"@MMK_R_nine.cv11.tag" = -70;
+"@MMK_R_nine.tag" = -18;
+"@MMK_R_one.tag" = -62;
+"@MMK_R_seven.tag" = -48;
+"@MMK_R_six.cv11.tag" = -40;
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -40;
 "@MMK_R_S" = -16;
 "@MMK_R_V" = -64;
 "@MMK_R_X" = -56;
+"@MMK_R_Y" = -64;
 "@MMK_R_emdash" = 24;
 "@MMK_R_f" = -32;
 "@MMK_R_parenright" = -56;
@@ -3812,27 +4696,31 @@ bracketright = 0;
 "@MMK_R_zero.sups" = -16;
 };
 "@MMK_L_B.tag" = {
-"@MMK_R_A.tag" = -20;
-"@MMK_R_S.tag" = -7;
-"@MMK_R_V.tag" = -29;
-"@MMK_R_X.tag" = -25;
+"@MMK_R_A.tag" = -22;
+"@MMK_R_S.tag" = -9;
+"@MMK_R_V.tag" = -35;
+"@MMK_R_X.tag" = -31;
+"@MMK_R_Y.tag" = -32;
 };
 "@MMK_L_C" = {
 "@MMK_R_A" = -40;
 "@MMK_R_Lslash" = -40;
 "@MMK_R_V" = -32;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -32;
 "@MMK_R_asciicircum" = -48;
 "@MMK_R_asterisk" = -48;
 "@MMK_R_emdash.case" = -32;
+"@MMK_R_f" = -24;
 "@MMK_R_lslash" = -32;
 "@MMK_R_questiondown" = -64;
 "@MMK_R_slash" = -32;
 };
 "@MMK_L_C.tag" = {
-"@MMK_R_A.tag" = -20;
-"@MMK_R_V.tag" = -14;
-"@MMK_R_X.tag" = -11;
+"@MMK_R_A.tag" = -22;
+"@MMK_R_V.tag" = -18;
+"@MMK_R_X.tag" = -13;
+"@MMK_R_Y.tag" = -16;
 };
 "@MMK_L_E" = {
 "@MMK_R_J" = -8;
@@ -3843,8 +4731,8 @@ bracketright = 0;
 };
 "@MMK_L_E.tag" = {
 "@MMK_R_J.tag" = -4;
-"@MMK_R_O.tag" = -11;
-"@MMK_R_S.tag" = -14;
+"@MMK_R_O.tag" = -13;
+"@MMK_R_S.tag" = -18;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -128;
@@ -3870,10 +4758,10 @@ bracketright = 0;
 "@MMK_R_zero.subs" = -128;
 };
 "@MMK_L_F.tag" = {
-"@MMK_R_A.tag" = -64;
-"@MMK_R_J.tag" = -47;
-"@MMK_R_O.tag" = -14;
-"@MMK_R_S.tag" = -11;
+"@MMK_R_A.tag" = -70;
+"@MMK_R_J.tag" = -57;
+"@MMK_R_O.tag" = -18;
+"@MMK_R_S.tag" = -13;
 };
 "@MMK_L_H" = {
 "@MMK_R_jdotless" = 48;
@@ -3887,7 +4775,7 @@ bracketright = 0;
 "@MMK_R_questiondown" = -96;
 };
 "@MMK_L_J.tag" = {
-"@MMK_R_A.tag" = -28;
+"@MMK_R_A.tag" = -31;
 };
 "@MMK_L_L" = {
 "@MMK_R_Lslash" = -40;
@@ -3896,11 +4784,12 @@ bracketright = 0;
 "@MMK_R_T" = -232;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -188;
+"@MMK_R_Y" = -220;
 "@MMK_R_asciicircum" = -256;
 "@MMK_R_asterisk" = -256;
 "@MMK_R_backslash" = -144;
 "@MMK_R_backslash.case" = -152;
-"@MMK_R_f" = -120;
+"@MMK_R_f" = -136;
 "@MMK_R_hyphen.case" = -56;
 "@MMK_R_less.case" = -80;
 "@MMK_R_lslash" = -32;
@@ -3920,15 +4809,16 @@ periodcentered.loclCAT.case = -536;
 t.cv02 = -80;
 };
 "@MMK_L_L.tag" = {
-"@MMK_R_O.tag" = -7;
-"@MMK_R_S.tag" = -7;
-"@MMK_R_T.tag" = -104;
-"@MMK_R_U.tag" = -18;
-"@MMK_R_V.tag" = -85;
-"@MMK_R_nine.cv11.tag" = -61;
-"@MMK_R_nine.tag" = -36;
-"@MMK_R_one.tag" = -65;
-"@MMK_R_seven.tag" = -61;
+"@MMK_R_O.tag" = -9;
+"@MMK_R_S.tag" = -9;
+"@MMK_R_T.tag" = -128;
+"@MMK_R_U.tag" = -22;
+"@MMK_R_V.tag" = -121;
+"@MMK_R_Y.tag" = -110;
+"@MMK_R_nine.cv11.tag" = -75;
+"@MMK_R_nine.tag" = -44;
+"@MMK_R_one.tag" = -79;
+"@MMK_R_seven.tag" = -75;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -88;
@@ -3936,6 +4826,7 @@ t.cv02 = -80;
 "@MMK_R_T" = -16;
 "@MMK_R_V" = -80;
 "@MMK_R_X" = -80;
+"@MMK_R_Y" = -120;
 "@MMK_R_Z" = -8;
 "@MMK_R_backslash.case" = -32;
 "@MMK_R_emdash" = 24;
@@ -3956,13 +4847,14 @@ t.cv02 = -80;
 "@MMK_R_zero.dnom" = -22;
 };
 "@MMK_L_O.tag" = {
-"@MMK_R_A.tag" = -44;
+"@MMK_R_A.tag" = -48;
 "@MMK_R_S.tag" = -4;
-"@MMK_R_T.tag" = -7;
-"@MMK_R_V.tag" = -36;
-"@MMK_R_X.tag" = -36;
+"@MMK_R_T.tag" = -9;
+"@MMK_R_V.tag" = -66;
+"@MMK_R_X.tag" = -44;
+"@MMK_R_Y.tag" = -60;
 "@MMK_R_Z.tag" = -4;
-"@MMK_R_seven.tag" = -18;
+"@MMK_R_seven.tag" = -22;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -160;
@@ -3970,6 +4862,7 @@ t.cv02 = -80;
 "@MMK_R_T" = -16;
 "@MMK_R_V" = -24;
 "@MMK_R_X" = -72;
+"@MMK_R_Y" = -24;
 "@MMK_R_ampersand" = -16;
 "@MMK_R_asciicircum" = -32;
 "@MMK_R_asterisk" = -32;
@@ -3987,13 +4880,14 @@ t.cv02 = -80;
 "@MMK_R_zero.subs" = -192;
 };
 "@MMK_L_P.tag" = {
-"@MMK_R_A.tag" = -80;
-"@MMK_R_J.tag" = -58;
-"@MMK_R_T.tag" = -7;
-"@MMK_R_V.tag" = -11;
-"@MMK_R_X.tag" = -32;
-"@MMK_R_four.tag" = -14;
-"@MMK_R_three.tag" = -36;
+"@MMK_R_A.tag" = -88;
+"@MMK_R_J.tag" = -70;
+"@MMK_R_T.tag" = -9;
+"@MMK_R_V.tag" = -13;
+"@MMK_R_X.tag" = -40;
+"@MMK_R_Y.tag" = -12;
+"@MMK_R_four.tag" = -18;
+"@MMK_R_three.tag" = -44;
 };
 "@MMK_L_Q" = {
 "@MMK_R_O" = -32;
@@ -4001,6 +4895,7 @@ t.cv02 = -80;
 "@MMK_R_T" = -96;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -144;
+"@MMK_R_Y" = -144;
 "@MMK_R_asciicircum" = -56;
 "@MMK_R_asterisk" = -56;
 "@MMK_R_backslash.case" = -136;
@@ -4034,6 +4929,7 @@ t.cv02 = -80;
 "@MMK_R_S" = -16;
 "@MMK_R_T" = -16;
 "@MMK_R_V" = -48;
+"@MMK_R_Y" = -48;
 "@MMK_R_asciicircum" = -32;
 "@MMK_R_asterisk" = -32;
 "@MMK_R_eight" = -16;
@@ -4049,17 +4945,18 @@ t.cv02 = -80;
 "@MMK_R_u" = -8;
 };
 "@MMK_L_R.tag" = {
-"@MMK_R_H.tag" = 7;
-"@MMK_R_J.tag" = -14;
-"@MMK_R_S.tag" = -7;
-"@MMK_R_T.tag" = -7;
-"@MMK_R_V.tag" = -22;
-"@MMK_R_eight.tag" = -7;
-"@MMK_R_five.tag" = -11;
-"@MMK_R_four.tag" = -22;
-"@MMK_R_seven.tag" = -29;
-"@MMK_R_six.cv11.tag" = -11;
-"@MMK_R_three.tag" = -29;
+"@MMK_R_H.tag" = 9;
+"@MMK_R_J.tag" = -18;
+"@MMK_R_S.tag" = -9;
+"@MMK_R_T.tag" = -9;
+"@MMK_R_V.tag" = -26;
+"@MMK_R_Y.tag" = -24;
+"@MMK_R_eight.tag" = -9;
+"@MMK_R_five.tag" = -13;
+"@MMK_R_four.tag" = -26;
+"@MMK_R_seven.tag" = -35;
+"@MMK_R_six.cv11.tag" = -13;
+"@MMK_R_three.tag" = -35;
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -24;
@@ -4073,7 +4970,7 @@ t.cv02 = -80;
 "@MMK_R_x" = -16;
 };
 "@MMK_L_S.tag" = {
-"@MMK_R_A.tag" = -12;
+"@MMK_R_A.tag" = -13;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -176;
@@ -4086,7 +4983,7 @@ t.cv02 = -80;
 "@MMK_R_asterisk" = 0;
 "@MMK_R_colon" = -64;
 "@MMK_R_eight" = -16;
-"@MMK_R_f" = -32;
+"@MMK_R_f" = -48;
 "@MMK_R_four" = -64;
 "@MMK_R_g" = -192;
 "@MMK_R_hyphen" = -224;
@@ -4114,15 +5011,15 @@ t.cv02 = -80;
 "@MMK_R_zero.subs" = -240;
 };
 "@MMK_L_T.tag" = {
-"@MMK_R_A.tag" = -88;
-"@MMK_R_J.tag" = -86;
-"@MMK_R_O.tag" = -7;
-"@MMK_R_S.tag" = -7;
-"@MMK_R_eight.tag" = -7;
-"@MMK_R_four.tag" = -29;
-"@MMK_R_nine.cv11.tag" = -7;
-"@MMK_R_nine.tag" = -7;
-"@MMK_R_six.cv11.tag" = -29;
+"@MMK_R_A.tag" = -97;
+"@MMK_R_J.tag" = -106;
+"@MMK_R_O.tag" = -9;
+"@MMK_R_S.tag" = -9;
+"@MMK_R_eight.tag" = -9;
+"@MMK_R_four.tag" = -35;
+"@MMK_R_nine.cv11.tag" = -9;
+"@MMK_R_nine.tag" = -9;
+"@MMK_R_six.cv11.tag" = -35;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -88;
@@ -4133,8 +5030,8 @@ t.cv02 = -80;
 "@MMK_R_zero.subs" = -40;
 };
 "@MMK_L_U.tag" = {
-"@MMK_R_A.tag" = -44;
-"@MMK_R_J.tag" = -11;
+"@MMK_R_A.tag" = -48;
+"@MMK_R_J.tag" = -13;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -232;
@@ -4150,7 +5047,7 @@ t.cv02 = -80;
 "@MMK_R_eight" = -32;
 "@MMK_R_emdash" = -80;
 "@MMK_R_emdash.case" = -80;
-"@MMK_R_f" = -48;
+"@MMK_R_f" = -72;
 "@MMK_R_five" = -48;
 "@MMK_R_four" = -128;
 "@MMK_R_g" = -96;
@@ -4164,7 +5061,7 @@ t.cv02 = -80;
 "@MMK_R_nine" = -40;
 "@MMK_R_nine.cv11" = -48;
 "@MMK_R_numbersign" = -88;
-"@MMK_R_o" = -144;
+"@MMK_R_o" = -168;
 "@MMK_R_p" = -88;
 "@MMK_R_period" = -240;
 "@MMK_R_periodcentered" = -152;
@@ -4182,16 +5079,19 @@ t.cv02 = -80;
 j.cv01 = 0;
 };
 "@MMK_L_V.tag" = {
-"@MMK_R_A.tag" = -116;
-"@MMK_R_J.tag" = -90;
-"@MMK_R_O.tag" = -36;
-"@MMK_R_S.tag" = -14;
-"@MMK_R_eight.tag" = -14;
-"@MMK_R_five.tag" = -22;
-"@MMK_R_four.tag" = -58;
-"@MMK_R_nine.cv11.tag" = -22;
-"@MMK_R_nine.tag" = -18;
-"@MMK_R_six.cv11.tag" = -43;
+"@MMK_R_A.tag" = -141;
+"@MMK_R_J.tag" = -128;
+"@MMK_R_O.tag" = -66;
+"@MMK_R_S.tag" = -62;
+"@MMK_R_eight.tag" = -44;
+"@MMK_R_five.tag" = -26;
+"@MMK_R_four.tag" = -79;
+"@MMK_R_nine.cv11.tag" = -48;
+"@MMK_R_nine.tag" = -40;
+"@MMK_R_one.tag" = -18;
+"@MMK_R_six.cv11.tag" = -88;
+"@MMK_R_three.tag" = -18;
+"@MMK_R_two.tag" = -18;
 };
 "@MMK_L_X" = {
 "@MMK_R_J" = -40;
@@ -4206,7 +5106,7 @@ j.cv01 = 0;
 "@MMK_R_eight" = -40;
 "@MMK_R_emdash" = -48;
 "@MMK_R_emdash.case" = -80;
-"@MMK_R_f" = -96;
+"@MMK_R_f" = -104;
 "@MMK_R_five" = -32;
 "@MMK_R_four" = -32;
 "@MMK_R_hyphen" = -72;
@@ -4228,15 +5128,78 @@ j.cv01 = 0;
 "@MMK_R_zero.numr" = -64;
 };
 "@MMK_L_X.tag" = {
-"@MMK_R_J.tag" = -18;
-"@MMK_R_O.tag" = -40;
+"@MMK_R_J.tag" = -22;
+"@MMK_R_O.tag" = -48;
 "@MMK_R_S.tag" = -4;
-"@MMK_R_eight.tag" = -18;
-"@MMK_R_five.tag" = -14;
-"@MMK_R_four.tag" = -14;
-"@MMK_R_nine.cv11.tag" = -29;
-"@MMK_R_nine.tag" = -11;
-"@MMK_R_six.cv11.tag" = -40;
+"@MMK_R_eight.tag" = -22;
+"@MMK_R_five.tag" = -18;
+"@MMK_R_four.tag" = -18;
+"@MMK_R_nine.cv11.tag" = -35;
+"@MMK_R_nine.tag" = -13;
+"@MMK_R_six.cv11.tag" = -48;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -256;
+"@MMK_R_J" = -232;
+"@MMK_R_Lslash" = -40;
+"@MMK_R_O" = -120;
+"@MMK_R_S" = -112;
+"@MMK_R_ampersand" = -80;
+"@MMK_R_asciicircum" = -144;
+"@MMK_R_backslash" = 72;
+"@MMK_R_colon" = -160;
+"@MMK_R_colon.case" = -48;
+"@MMK_R_eight" = -80;
+"@MMK_R_emdash" = -80;
+"@MMK_R_emdash.case" = -80;
+"@MMK_R_f" = -120;
+"@MMK_R_five" = -48;
+"@MMK_R_four" = -144;
+"@MMK_R_g" = -248;
+"@MMK_R_hyphen" = -144;
+"@MMK_R_hyphen.case" = -96;
+"@MMK_R_jdotless" = -224;
+"@MMK_R_less" = -80;
+"@MMK_R_less.case" = -80;
+"@MMK_R_lslash" = -32;
+"@MMK_R_n" = -192;
+"@MMK_R_nine" = -72;
+"@MMK_R_nine.cv11" = -88;
+"@MMK_R_numbersign" = -88;
+"@MMK_R_o" = -248;
+"@MMK_R_one" = -32;
+"@MMK_R_p" = -160;
+"@MMK_R_period" = -264;
+"@MMK_R_periodcentered" = -264;
+"@MMK_R_question" = -32;
+"@MMK_R_questiondown" = -304;
+"@MMK_R_s" = -152;
+"@MMK_R_six.cv11" = -160;
+"@MMK_R_slash" = -224;
+"@MMK_R_slash.case" = -168;
+"@MMK_R_three" = -32;
+"@MMK_R_two" = -32;
+"@MMK_R_u" = -176;
+"@MMK_R_v" = -120;
+"@MMK_R_x" = -120;
+"@MMK_R_z" = -160;
+"@MMK_R_zero.dnom" = -240;
+"@MMK_R_zero.subs" = -312;
+j.cv01 = 0;
+};
+"@MMK_L_Y.tag" = {
+"@MMK_R_J.tag" = -116;
+"@MMK_R_O.tag" = -60;
+"@MMK_R_S.tag" = -56;
+"@MMK_R_eight.tag" = -40;
+"@MMK_R_five.tag" = -24;
+"@MMK_R_four.tag" = -72;
+"@MMK_R_nine.cv11.tag" = -44;
+"@MMK_R_nine.tag" = -36;
+"@MMK_R_one.tag" = -16;
+"@MMK_R_six.cv11.tag" = -80;
+"@MMK_R_three.tag" = -16;
+"@MMK_R_two.tag" = -16;
 };
 "@MMK_L_Z" = {
 "@MMK_R_J" = -24;
@@ -4254,13 +5217,14 @@ j.cv01 = 0;
 "@MMK_R_v" = -24;
 };
 "@MMK_L_Z.tag" = {
-"@MMK_R_J.tag" = -11;
-"@MMK_R_O.tag" = -7;
-"@MMK_R_six.cv11.tag" = -7;
+"@MMK_R_J.tag" = -13;
+"@MMK_R_O.tag" = -9;
+"@MMK_R_six.cv11.tag" = -9;
 };
 "@MMK_L_a" = {
 "@MMK_R_T" = -128;
 "@MMK_R_V" = -88;
+"@MMK_R_Y" = -192;
 "@MMK_R_backslash" = -24;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_seven" = -48;
@@ -4274,6 +5238,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -208;
 "@MMK_R_U" = -72;
 "@MMK_R_V" = -200;
+"@MMK_R_Y" = -200;
 "@MMK_R_asciicircum" = -48;
 "@MMK_R_asterisk" = -136;
 "@MMK_R_backslash" = -88;
@@ -4308,6 +5273,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -96;
 "@MMK_R_V" = -144;
 "@MMK_R_X" = -144;
+"@MMK_R_Y" = -144;
 "@MMK_R_Z" = -64;
 "@MMK_R_ampersand" = -64;
 "@MMK_R_asterisk" = -56;
@@ -4355,6 +5321,7 @@ j.cv01 = 0;
 "@MMK_R_U" = -96;
 "@MMK_R_V" = -224;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -224;
 "@MMK_R_asciicircum" = -128;
 "@MMK_R_asterisk" = -128;
 "@MMK_R_eight" = -64;
@@ -4383,6 +5350,7 @@ j.cv01 = 0;
 "@MMK_R_O" = -32;
 "@MMK_R_T" = -120;
 "@MMK_R_V" = -168;
+"@MMK_R_Y" = -168;
 "@MMK_R_asciicircum" = -72;
 "@MMK_R_asterisk" = -72;
 "@MMK_R_backslash" = 64;
@@ -4411,15 +5379,22 @@ j.cv01 = 0;
 "@MMK_R_T" = -156;
 "@MMK_R_V" = -128;
 "@MMK_R_X" = -16;
+"@MMK_R_Y" = -256;
+"@MMK_R_f" = -24;
 "@MMK_R_parenright" = -64;
 "@MMK_R_question" = -24;
 "@MMK_R_seven" = -32;
 "@MMK_R_zero.numr" = -32;
 };
+"@MMK_L_c.dnom" = {
+"@MMK_R_f.dnom" = -16;
+"@MMK_R_zero.dnom" = -16;
+};
 "@MMK_L_colon" = {
 "@MMK_R_S" = -24;
 "@MMK_R_T" = -64;
 "@MMK_R_V" = -80;
+"@MMK_R_Y" = -160;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_seven" = -72;
 "@MMK_R_slash.case" = 40;
@@ -4427,25 +5402,29 @@ j.cv01 = 0;
 "@MMK_L_colon.case" = {
 "@MMK_R_V" = -48;
 "@MMK_R_X" = -64;
+"@MMK_R_Y" = -48;
 };
 "@MMK_L_eight" = {
 "@MMK_R_A" = -32;
 "@MMK_R_T" = -16;
 "@MMK_R_V" = -32;
 "@MMK_R_X" = -64;
+"@MMK_R_Y" = -80;
 "@MMK_R_asciicircum" = -64;
 "@MMK_R_asterisk" = -64;
 "@MMK_R_backslash.case" = -32;
-"@MMK_R_f" = -8;
+"@MMK_R_f" = -16;
 "@MMK_R_parenright" = -32;
 "@MMK_R_parenright.case" = -32;
 "@MMK_R_questiondown" = -48;
 "@MMK_R_slash" = -64;
 };
 "@MMK_L_eight.tag" = {
-"@MMK_R_T.tag" = -7;
-"@MMK_R_V.tag" = -14;
-"@MMK_R_X.tag" = -29;
+"@MMK_R_A.tag" = -18;
+"@MMK_R_T.tag" = -9;
+"@MMK_R_V.tag" = -44;
+"@MMK_R_X.tag" = -35;
+"@MMK_R_Y.tag" = -40;
 };
 "@MMK_L_emdash" = {
 "@MMK_R_A" = -48;
@@ -4453,6 +5432,7 @@ j.cv01 = 0;
 "@MMK_R_O" = 24;
 "@MMK_R_S" = -48;
 "@MMK_R_V" = -80;
+"@MMK_R_Y" = -80;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_g" = 32;
 "@MMK_R_lslash" = 80;
@@ -4473,6 +5453,7 @@ j.cv01 = 0;
 "@MMK_R_S" = -24;
 "@MMK_R_V" = -80;
 "@MMK_R_X" = -80;
+"@MMK_R_Y" = -80;
 "@MMK_R_g" = 32;
 "@MMK_R_lslash" = 80;
 "@MMK_R_n" = 16;
@@ -4502,11 +5483,13 @@ j.cv01 = 0;
 "@MMK_L_f.dnom" = {
 "@MMK_R_g.dnom" = -16;
 "@MMK_R_o.dnom" = -16;
+"@MMK_R_zero.dnom" = -16;
 };
 "@MMK_L_five" = {
 "@MMK_R_A" = -40;
 "@MMK_R_V" = -24;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -24;
 "@MMK_R_parenright" = -24;
 "@MMK_R_parenright.case" = -24;
 "@MMK_R_period" = -64;
@@ -4517,17 +5500,21 @@ j.cv01 = 0;
 "@MMK_R_x" = -40;
 };
 "@MMK_L_five.tag" = {
-"@MMK_R_V.tag" = -11;
-"@MMK_R_X.tag" = -11;
+"@MMK_R_A.tag" = -22;
+"@MMK_R_V.tag" = -13;
+"@MMK_R_X.tag" = -13;
+"@MMK_R_Y.tag" = -12;
 };
 "@MMK_L_four" = {
 "@MMK_R_V" = -128;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -144;
 "@MMK_R_asciicircum" = -80;
 "@MMK_R_asterisk" = -80;
 "@MMK_R_backslash" = -16;
 "@MMK_R_backslash.case" = -88;
 "@MMK_R_emdash" = 32;
+"@MMK_R_f" = -48;
 "@MMK_R_parenright" = -64;
 "@MMK_R_parenright.case" = -32;
 "@MMK_R_quoteleft" = -16;
@@ -4539,8 +5526,9 @@ j.cv01 = 0;
 "@MMK_R_zero.sups" = -152;
 };
 "@MMK_L_four.tag" = {
-"@MMK_R_V.tag" = -58;
-"@MMK_R_X.tag" = -14;
+"@MMK_R_V.tag" = -79;
+"@MMK_R_X.tag" = -18;
+"@MMK_R_Y.tag" = -72;
 };
 "@MMK_L_fraction" = {
 "@MMK_R_zero.numr" = 416;
@@ -4549,6 +5537,7 @@ j.cv01 = 0;
 "@MMK_L_g" = {
 "@MMK_R_T" = -128;
 "@MMK_R_V" = -88;
+"@MMK_R_Y" = -192;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_j" = 56;
 "@MMK_R_jdotless" = 56;
@@ -4562,6 +5551,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -104;
 "@MMK_R_V" = -80;
 "@MMK_R_X" = -104;
+"@MMK_R_Y" = -80;
 "@MMK_R_Z" = -24;
 "@MMK_R_f" = -24;
 "@MMK_R_seven" = -72;
@@ -4571,6 +5561,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -104;
 "@MMK_R_V" = -80;
 "@MMK_R_X" = -104;
+"@MMK_R_Y" = -80;
 "@MMK_R_Z" = -24;
 "@MMK_R_f" = -24;
 "@MMK_R_seven" = -72;
@@ -4581,6 +5572,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -224;
 "@MMK_R_V" = -144;
 "@MMK_R_X" = -72;
+"@MMK_R_Y" = -144;
 "@MMK_R_backslash.case" = -48;
 "@MMK_R_f" = -32;
 "@MMK_R_nine" = -54;
@@ -4602,6 +5594,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -120;
 "@MMK_R_V" = -96;
 "@MMK_R_X" = -136;
+"@MMK_R_Y" = -96;
 "@MMK_R_jdotless" = -24;
 "@MMK_R_parenright" = -80;
 "@MMK_R_parenright.case" = -80;
@@ -4625,16 +5618,17 @@ j.cv01 = 0;
 "@MMK_R_slash.case" = 16;
 periodcentered.loclCAT = -64;
 };
-"@MMK_L_l.cv17" = {
+"@MMK_L_l.cv16" = {
 "@MMK_R_A" = 48;
 "@MMK_R_O" = -16;
 "@MMK_R_T" = -88;
 "@MMK_R_U" = -16;
 "@MMK_R_V" = -88;
+"@MMK_R_Y" = -88;
 "@MMK_R_asciicircum" = -88;
 "@MMK_R_asterisk" = -48;
 "@MMK_R_emdash" = 40;
-"@MMK_R_f" = -40;
+"@MMK_R_f" = -56;
 "@MMK_R_j" = 64;
 "@MMK_R_question" = -40;
 "@MMK_R_questiondown" = 40;
@@ -4650,6 +5644,7 @@ periodcentered.loclCAT = -64;
 "@MMK_R_T" = -32;
 "@MMK_R_V" = -32;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -32;
 "@MMK_R_Z" = -32;
 "@MMK_R_emdash" = 80;
 "@MMK_R_emdash.case" = 80;
@@ -4670,11 +5665,12 @@ periodcentered.loclCAT = -64;
 "@MMK_L_n" = {
 "@MMK_R_T" = -128;
 "@MMK_R_V" = -152;
+"@MMK_R_Y" = -240;
 "@MMK_R_asciicircum" = -16;
 "@MMK_R_asterisk" = -16;
 "@MMK_R_backslash" = -40;
 "@MMK_R_backslash.case" = -104;
-"@MMK_R_f" = -16;
+"@MMK_R_f" = -48;
 "@MMK_R_parenright" = -40;
 "@MMK_R_parenright.case" = -24;
 "@MMK_R_question" = -64;
@@ -4687,8 +5683,9 @@ periodcentered.loclCAT = -64;
 "@MMK_R_zero.sups" = -136;
 };
 "@MMK_L_n.dnom" = {
-"@MMK_R_f.dnom" = -11;
+"@MMK_R_f.dnom" = -32;
 "@MMK_R_v.dnom" = -38;
+"@MMK_R_zero.dnom" = -32;
 };
 "@MMK_L_nine.cv11" = {
 "@MMK_R_A" = -112;
@@ -4697,6 +5694,7 @@ periodcentered.loclCAT = -64;
 "@MMK_R_T" = -16;
 "@MMK_R_V" = -56;
 "@MMK_R_X" = -80;
+"@MMK_R_Y" = -104;
 "@MMK_R_ampersand" = -48;
 "@MMK_R_parenright" = -48;
 "@MMK_R_parenright.case" = -40;
@@ -4705,11 +5703,13 @@ periodcentered.loclCAT = -64;
 "@MMK_R_slash.case" = -40;
 };
 "@MMK_L_nine.cv11.tag" = {
-"@MMK_R_J.tag" = -22;
-"@MMK_R_S.tag" = -7;
-"@MMK_R_T.tag" = -7;
-"@MMK_R_V.tag" = -25;
-"@MMK_R_X.tag" = -36;
+"@MMK_R_A.tag" = -62;
+"@MMK_R_J.tag" = -26;
+"@MMK_R_S.tag" = -9;
+"@MMK_R_T.tag" = -9;
+"@MMK_R_V.tag" = -57;
+"@MMK_R_X.tag" = -44;
+"@MMK_R_Y.tag" = -52;
 };
 "@MMK_L_numbersign" = {
 "@MMK_R_A" = -128;
@@ -4726,13 +5726,14 @@ periodcentered.loclCAT = -64;
 "@MMK_R_A" = -40;
 "@MMK_R_S" = -32;
 "@MMK_R_T" = -168;
-"@MMK_R_V" = -144;
+"@MMK_R_V" = -168;
 "@MMK_R_X" = -64;
+"@MMK_R_Y" = -248;
 "@MMK_R_backslash" = -24;
 "@MMK_R_backslash.case" = -72;
 "@MMK_R_emdash" = 32;
 "@MMK_R_emdash.case" = 32;
-"@MMK_R_f" = -16;
+"@MMK_R_f" = -32;
 "@MMK_R_parenright" = -48;
 "@MMK_R_parenright.case" = -48;
 "@MMK_R_period" = -16;
@@ -4742,15 +5743,16 @@ periodcentered.loclCAT = -64;
 "@MMK_R_quotesingle" = -56;
 "@MMK_R_seven" = -32;
 "@MMK_R_slash" = -24;
-"@MMK_R_v" = -72;
+"@MMK_R_v" = -56;
 "@MMK_R_x" = -48;
 "@MMK_R_zero.numr" = -64;
 "@MMK_R_zero.sups" = -144;
 };
 "@MMK_L_o.dnom" = {
-"@MMK_R_f.dnom" = -11;
-"@MMK_R_v.dnom" = -48;
+"@MMK_R_f.dnom" = -21;
+"@MMK_R_v.dnom" = -38;
 "@MMK_R_x.dnom" = -32;
+"@MMK_R_zero.dnom" = -21;
 };
 "@MMK_L_one" = {
 "@MMK_R_slash" = -24;
@@ -4812,6 +5814,7 @@ A = 0;
 "@MMK_R_T" = -240;
 "@MMK_R_U" = -88;
 "@MMK_R_V" = -240;
+"@MMK_R_Y" = -264;
 "@MMK_R_asciicircum" = -160;
 "@MMK_R_asterisk" = -160;
 "@MMK_R_backslash" = -96;
@@ -4837,6 +5840,7 @@ A = 0;
 "@MMK_R_T" = -240;
 "@MMK_R_V" = -152;
 "@MMK_R_X" = -104;
+"@MMK_R_Y" = -264;
 "@MMK_R_backslash.case" = -64;
 "@MMK_R_f" = -8;
 "@MMK_R_nine" = -32;
@@ -4851,6 +5855,7 @@ A = 0;
 };
 "@MMK_L_q" = {
 "@MMK_R_V" = -88;
+"@MMK_R_Y" = -160;
 "@MMK_R_backslash" = -24;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_j" = 112;
@@ -4863,6 +5868,7 @@ A = 0;
 "@MMK_L_question" = {
 "@MMK_R_A" = -160;
 "@MMK_R_J" = -168;
+"@MMK_R_Y" = -32;
 "@MMK_R_ampersand" = -56;
 "@MMK_R_asciicircum" = -32;
 "@MMK_R_asterisk" = -32;
@@ -4885,12 +5891,14 @@ A = 0;
 "@MMK_R_T" = -168;
 "@MMK_R_U" = -128;
 "@MMK_R_V" = -304;
+"@MMK_R_Y" = -304;
 "@MMK_R_ampersand" = -88;
 "@MMK_R_asciicircum" = -320;
 "@MMK_R_asterisk" = -320;
 "@MMK_R_backslash" = -176;
 "@MMK_R_backslash.case" = -240;
 "@MMK_R_eight" = -48;
+"@MMK_R_f" = -160;
 "@MMK_R_five" = -48;
 "@MMK_R_four" = -72;
 "@MMK_R_hyphen" = -184;
@@ -4961,7 +5969,6 @@ A = 0;
 "@MMK_R_x" = -64;
 "@MMK_R_z" = -64;
 bracketleft = 0;
-j.cv01 = 0;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_A" = -192;
@@ -4985,6 +5992,7 @@ j.cv01 = 0;
 "@MMK_R_J" = -120;
 "@MMK_R_V" = -64;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -112;
 "@MMK_R_Z" = -16;
 "@MMK_R_ampersand" = -40;
 "@MMK_R_f" = 32;
@@ -5009,6 +6017,7 @@ j.cv01 = 0;
 "@MMK_R_g.dnom" = -5;
 "@MMK_R_o.dnom" = -5;
 "@MMK_R_v.dnom" = 21;
+"@MMK_R_zero.dnom" = -5;
 };
 "@MMK_L_s" = {
 "@MMK_R_A" = -16;
@@ -5016,6 +6025,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -112;
 "@MMK_R_V" = -88;
 "@MMK_R_X" = -24;
+"@MMK_R_Y" = -152;
 "@MMK_R_Z" = -8;
 "@MMK_R_emdash" = 24;
 "@MMK_R_parenright" = -48;
@@ -5056,13 +6066,15 @@ j.cv01 = 0;
 "@MMK_R_zero.subs" = -304;
 };
 "@MMK_L_seven.tag" = {
-"@MMK_R_J.tag" = -65;
+"@MMK_R_A.tag" = -84;
+"@MMK_R_J.tag" = -79;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -72;
 "@MMK_R_T" = -48;
 "@MMK_R_V" = -40;
 "@MMK_R_X" = -32;
+"@MMK_R_Y" = -40;
 "@MMK_R_asciicircum" = -16;
 "@MMK_R_asterisk" = -16;
 "@MMK_R_f" = -16;
@@ -5080,9 +6092,10 @@ j.cv01 = 0;
 "@MMK_R_T" = -104;
 "@MMK_R_V" = -144;
 "@MMK_R_X" = -104;
+"@MMK_R_Y" = -152;
 "@MMK_R_Z" = -16;
 "@MMK_R_backslash.case" = -80;
-"@MMK_R_f" = -16;
+"@MMK_R_f" = -40;
 "@MMK_R_parenright" = -40;
 "@MMK_R_parenright.case" = -24;
 "@MMK_R_period" = -64;
@@ -5095,21 +6108,26 @@ j.cv01 = 0;
 "@MMK_R_x" = -40;
 };
 "@MMK_L_six.cv11.tag" = {
-"@MMK_R_T.tag" = -47;
-"@MMK_R_V.tag" = -65;
-"@MMK_R_X.tag" = -47;
-"@MMK_R_Z.tag" = -7;
+"@MMK_R_A.tag" = -31;
+"@MMK_R_T.tag" = -57;
+"@MMK_R_V.tag" = -84;
+"@MMK_R_X.tag" = -57;
+"@MMK_R_Y.tag" = -76;
+"@MMK_R_Z.tag" = -9;
 };
 "@MMK_L_six.tag" = {
-"@MMK_R_T.tag" = -22;
-"@MMK_R_V.tag" = -18;
-"@MMK_R_X.tag" = -14;
+"@MMK_R_A.tag" = -40;
+"@MMK_R_T.tag" = -26;
+"@MMK_R_V.tag" = -22;
+"@MMK_R_X.tag" = -18;
+"@MMK_R_Y.tag" = -20;
 };
 "@MMK_L_slash" = {
 "@MMK_R_A" = -104;
 "@MMK_R_J" = -32;
 "@MMK_R_V" = 72;
 "@MMK_R_X" = 56;
+"@MMK_R_Y" = 72;
 "@MMK_R_eight" = -8;
 "@MMK_R_four" = -16;
 "@MMK_R_g" = -24;
@@ -5156,6 +6174,7 @@ j.cv01 = 0;
 "@MMK_L_t" = {
 "@MMK_R_T" = -32;
 "@MMK_R_V" = -64;
+"@MMK_R_Y" = -120;
 "@MMK_R_period" = 16;
 "@MMK_R_s" = 24;
 };
@@ -5165,15 +6184,16 @@ j.cv01 = 0;
 "@MMK_R_O" = -16;
 "@MMK_R_S" = -24;
 "@MMK_R_T" = -16;
-"@MMK_R_V" = -48;
+"@MMK_R_V" = -72;
 "@MMK_R_X" = -64;
+"@MMK_R_Y" = -120;
 "@MMK_R_Z" = -32;
 "@MMK_R_eight" = -8;
 "@MMK_R_five" = -16;
 "@MMK_R_four" = -8;
 "@MMK_R_g" = -48;
 "@MMK_R_hyphen" = -48;
-"@MMK_R_o" = -40;
+"@MMK_R_o" = -16;
 "@MMK_R_parenright" = -40;
 "@MMK_R_period" = -144;
 "@MMK_R_periodcentered" = -8;
@@ -5197,6 +6217,7 @@ j.cv01 = 0;
 "@MMK_L_three" = {
 "@MMK_R_A" = -24;
 "@MMK_R_X" = -40;
+"@MMK_R_Y" = -32;
 "@MMK_R_asciicircum" = -16;
 "@MMK_R_asterisk" = -16;
 "@MMK_R_f" = -32;
@@ -5205,17 +6226,22 @@ j.cv01 = 0;
 "@MMK_R_slash" = -56;
 };
 "@MMK_L_three.tag" = {
-"@MMK_R_X.tag" = -18;
+"@MMK_R_A.tag" = -13;
+"@MMK_R_V.tag" = -18;
+"@MMK_R_X.tag" = -22;
+"@MMK_R_Y.tag" = -16;
 };
 "@MMK_L_two" = {
 "@MMK_R_V" = -24;
+"@MMK_R_Y" = -32;
 "@MMK_R_asciicircum" = -64;
 "@MMK_R_asterisk" = -64;
 "@MMK_R_backslash.case" = -64;
 "@MMK_R_parenright" = -56;
 };
 "@MMK_L_two.tag" = {
-"@MMK_R_V.tag" = -11;
+"@MMK_R_V.tag" = -18;
+"@MMK_R_Y.tag" = -16;
 };
 "@MMK_L_u.cv04" = {
 "@MMK_R_A" = -32;
@@ -5223,6 +6249,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -104;
 "@MMK_R_V" = -96;
 "@MMK_R_X" = -56;
+"@MMK_R_Y" = -176;
 "@MMK_R_Z" = -16;
 "@MMK_R_backslash.case" = -40;
 "@MMK_R_hyphen" = -16;
@@ -5239,7 +6266,7 @@ j.cv01 = 0;
 "@MMK_R_ampersand" = -72;
 "@MMK_R_backslash" = -160;
 "@MMK_R_backslash.case" = -224;
-"@MMK_R_f" = -160;
+"@MMK_R_f" = -184;
 "@MMK_R_j" = 224;
 "@MMK_R_jdotless" = 224;
 "@MMK_R_lslash" = -32;
@@ -5254,6 +6281,7 @@ j.cv01 = 0;
 "@MMK_R_T" = -72;
 "@MMK_R_V" = -32;
 "@MMK_R_X" = -72;
+"@MMK_R_Y" = -120;
 "@MMK_R_Z" = -24;
 "@MMK_R_ampersand" = -48;
 "@MMK_R_asciicircum" = -32;
@@ -5262,7 +6290,7 @@ j.cv01 = 0;
 "@MMK_R_four" = -56;
 "@MMK_R_g" = -48;
 "@MMK_R_hyphen" = -80;
-"@MMK_R_o" = -48;
+"@MMK_R_o" = -56;
 "@MMK_R_parenright" = -40;
 "@MMK_R_parenright.case" = -64;
 "@MMK_R_period" = -200;
@@ -5279,19 +6307,20 @@ j.cv01 = 0;
 };
 "@MMK_L_v.dnom" = {
 "@MMK_R_g.dnom" = -32;
-"@MMK_R_o.dnom" = -32;
+"@MMK_R_o.dnom" = -38;
 "@MMK_R_s.dnom" = -27;
+"@MMK_R_zero.dnom" = -38;
 };
 "@MMK_L_x" = {
 "@MMK_R_J" = -56;
 "@MMK_R_Lslash" = -40;
 "@MMK_R_T" = -72;
 "@MMK_R_V" = -32;
+"@MMK_R_Y" = -120;
 "@MMK_R_asciicircum" = -64;
 "@MMK_R_asterisk" = -64;
 "@MMK_R_backslash.case" = -40;
 "@MMK_R_emdash" = -48;
-"@MMK_R_f" = 24;
 "@MMK_R_four" = -40;
 "@MMK_R_g" = -48;
 "@MMK_R_hyphen" = -112;
@@ -5310,24 +6339,33 @@ j.cv01 = 0;
 "@MMK_R_g.dnom" = -32;
 "@MMK_R_o.dnom" = -32;
 "@MMK_R_s.dnom" = -11;
+"@MMK_R_zero.dnom" = -32;
 };
 "@MMK_L_z" = {
 "@MMK_R_A" = -8;
 "@MMK_R_T" = -72;
 "@MMK_R_V" = -80;
+"@MMK_R_Y" = -160;
 "@MMK_R_backslash.case" = -56;
 "@MMK_R_seven" = -32;
 };
 "@MMK_L_zero.dnom" = {
 "@MMK_R_T" = -240;
 "@MMK_R_V" = -240;
+"@MMK_R_Y" = -240;
 "@MMK_R_f" = -64;
+"@MMK_R_f.dnom" = 21;
 "@MMK_R_fraction" = 392;
+"@MMK_R_g.dnom" = -32;
+"@MMK_R_j.dnom" = 75;
 "@MMK_R_nine" = -40;
+"@MMK_R_o.dnom" = -11;
 "@MMK_R_seven" = -160;
 "@MMK_R_seven.dnom" = -22;
 "@MMK_R_v" = -128;
+"@MMK_R_v.dnom" = 21;
 "@MMK_R_x" = -80;
+"@MMK_R_x.dnom" = -32;
 "@MMK_R_zero.dnom" = -22;
 _part.percentzero = -64;
 };
@@ -5347,6 +6385,7 @@ _part.percentzero = -64;
 "@MMK_R_T" = -240;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -312;
+"@MMK_R_Y" = -312;
 "@MMK_R_f" = -72;
 "@MMK_R_fraction" = 504;
 "@MMK_R_lslash" = -32;
@@ -5385,6 +6424,7 @@ bracketright.case = {
 };
 j.cv01 = {
 "@MMK_R_V" = 0;
+"@MMK_R_Y" = 0;
 };
 nine = {
 "@MMK_R_seven" = 0;
@@ -5410,6 +6450,7 @@ zero = {
 };
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
+"@MMK_R_zero.dnom" = 0;
 };
 zero.tag = {
 "@MMK_R_seven.tag" = 0;
@@ -5462,7 +6503,7 @@ Thickness:
 - Heavy: 416
 
 Family tree:
-- Avenir + Twentieth Century + San Francisco
+- Avenir + San Francisco
 
 Insight:
 - Erbar Grotesk(1926)는 특징이 없고 읽기 쉬우며, 순수한 타이포그래피를 지향했다.
@@ -5491,7 +6532,7 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Wantedlab, Inc.";
+value = "Wanted Lab, Inc.";
 }
 );
 },
@@ -5504,7 +6545,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2023 Wantedlab, Inc.";
+value = "Copyright © 2023 Wanted Lab, Inc.";
 }
 );
 },
@@ -5522,7 +6563,8 @@ key = trademarks;
 values = (
 {
 language = dflt;
-value = "Wanted Sans Std is a trademark of Wantedlab, Inc. Wanted Logo is a trademark of Wantedlab, Inc.";
+value = "Wanted Sans Std is a trademark of Wanted Lab, Inc.
+Wanted Logo is a trademark of Wanted Lab, Inc.";
 }
 );
 },
@@ -5565,6 +6607,6 @@ tH = "140";
 };
 };
 };
-versionMajor = 0;
-versionMinor = 800;
+versionMajor = 1;
+versionMinor = 0;
 }

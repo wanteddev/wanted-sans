@@ -1,0 +1,75 @@
+{
+color = 1;
+glyphname = d.ss04;
+kernLeft = o;
+kernRight = l;
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (1088,0);
+},
+{
+name = bottom;
+pos = (610,0);
+},
+{
+name = center;
+pos = (956,1236);
+},
+{
+name = top;
+pos = (610,1512);
+},
+{
+name = topright;
+pos = (1088,1512);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (1220,0);
+ref = b.ss04;
+scale = (-1,1);
+}
+);
+width = 1220;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (1208,0);
+},
+{
+name = bottom;
+pos = (658,0);
+},
+{
+name = center;
+pos = (960,1248);
+},
+{
+name = top;
+pos = (658,1512);
+},
+{
+name = topright;
+pos = (1208,1512);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+pos = (1316,0);
+ref = b.ss04;
+scale = (-1,1);
+}
+);
+width = 1316;
+}
+);
+note = $EXTRA_STEM_LOWERCASE;
+}

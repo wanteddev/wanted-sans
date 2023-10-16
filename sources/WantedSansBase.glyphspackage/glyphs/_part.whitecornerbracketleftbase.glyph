@@ -1,0 +1,107 @@
+{
+color = 3;
+export = 0;
+glyphname = _part.whitecornerbracketleftbase;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (158,0);
+},
+{
+name = "#exit";
+pos = (454,0);
+}
+);
+background = {
+shapes = (
+{
+pos = (10,0);
+ref = cornerbracketleft;
+}
+);
+};
+layerId = m01;
+metricLeft = "=cornerbracketleft";
+metricRight = "=cornerbracketleft";
+shapes = (
+{
+attr = {
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(308,716,l),
+(308,1488,l),
+(548,1488,l),
+(548,1648,l),
+(158,1648,l),
+(158,716,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -32;
+width = 85;
+};
+};
+width = 584;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (166,0);
+},
+{
+name = "#exit";
+pos = (554,0);
+}
+);
+background = {
+shapes = (
+{
+pos = (-68,0);
+ref = cornerbracketleft;
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=cornerbracketleft";
+metricRight = "=cornerbracketleft";
+shapes = (
+{
+attr = {
+strokePos = "1";
+};
+closed = 1;
+nodes = (
+(460,716,l),
+(460,1264,l),
+(666,1264,l),
+(666,1648,l),
+(166,1648,l),
+(166,716,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+weight = -272;
+width = 75;
+};
+};
+width = 702;
+}
+);
+note = "# Required RMX Scaler
+
+# Required adjustment top weight";
+userData = {
+RMXScaler = {
+source = cornerbracketleft;
+};
+};
+}

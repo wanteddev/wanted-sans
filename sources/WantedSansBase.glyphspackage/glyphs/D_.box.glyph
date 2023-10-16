@@ -12,11 +12,11 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (532,0);
+pos = (594,0);
 ref = D.tag;
 }
 );
-width = 1712;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -27,13 +27,15 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (586,0);
+pos = (644,0);
 ref = D.tag;
 }
 );
-width = 1784;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE $SYMBOL_SQUARE";
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
+$SYMBOL_SQUARE";
 unicode = 127283;
 }

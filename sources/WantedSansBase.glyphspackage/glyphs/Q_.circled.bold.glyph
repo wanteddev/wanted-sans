@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = Q.circled.bold;
 kernLeft = O;
 kernRight = O;
@@ -13,11 +12,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (462,0);
+pos = (492,0);
 ref = Q.tag.bold;
 }
 );
-width = 1764;
+width = 1874;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -28,12 +27,16 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (528,0);
+pos = (564,0);
 ref = Q.tag.bold;
 }
 );
-width = 1812;
+width = 1974;
 }
 );
-note = "$SYMBOL_OUTLINE $SYMBOL_CIRCLE\012\012# Detached each alternates for .bold glyph";
+note = "$SYMBOL_LETTER
+$SYMBOL_OUTLINE
+$SYMBOL_CIRCLE
+
+# Detached each alternates for .bold glyph";
 }

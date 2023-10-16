@@ -1,7 +1,7 @@
 {
 glyphname = brokenbar;
-kernLeft = I;
-kernRight = I;
+kernLeft = p;
+kernRight = q;
 layers = (
 {
 background = {
@@ -19,12 +19,12 @@ attr = {
 identifier = ID0x127ce93b0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 168;
+strokeWidth = 160;
 };
 closed = 0;
 nodes = (
-(224,1664,l),
-(224,864,l)
+(220,1448,l),
+(220,648,l)
 );
 },
 {
@@ -32,16 +32,16 @@ attr = {
 identifier = ID0x127ce93b0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 168;
+strokeWidth = 160;
 };
 closed = 0;
 nodes = (
-(224,584,l),
-(224,-216,l)
+(220,368,l),
+(220,-432,l)
 );
 }
 );
-width = 448;
+width = 440;
 },
 {
 background = {
@@ -58,12 +58,12 @@ attr = {
 identifier = ID0x4161dedd0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 384;
+strokeWidth = 360;
 };
 closed = 0;
 nodes = (
-(308,1664,l),
-(308,824,l)
+(296,1448,l),
+(296,608,l)
 );
 },
 {
@@ -71,16 +71,16 @@ attr = {
 identifier = ID0x4161dedd0;
 lineCapEnd = "4";
 lineCapStart = "4";
-strokeWidth = 384;
+strokeWidth = 360;
 };
 closed = 0;
 nodes = (
-(308,624,l),
-(308,-216,l)
+(296,408,l),
+(296,-432,l)
 );
 }
 );
-width = 616;
+width = 592;
 }
 );
 metricLeft = I;

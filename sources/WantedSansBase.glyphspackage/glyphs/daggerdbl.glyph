@@ -22,6 +22,7 @@ width = 800;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+alignment = 1;
 ref = dagger;
 },
 {
@@ -36,5 +37,7 @@ ref = _part.daggerbar;
 width = 960;
 }
 );
+metricLeft = dagger;
+metricRight = dagger;
 unicode = 8225;
 }

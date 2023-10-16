@@ -18,7 +18,7 @@ width = 800;
 background = {
 shapes = (
 {
-pos = (172,0);
+pos = (180,0);
 ref = bar;
 },
 {
@@ -32,10 +32,10 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Condensed = 0;
+Condensed = 16;
 Height = 1072;
 };
-pos = (172,592);
+pos = (180,592);
 ref = _smart.upperstem;
 },
 {
@@ -75,7 +75,7 @@ width = 960;
 background = {
 shapes = (
 {
-pos = (188,0);
+pos = (184,0);
 ref = bar;
 },
 {
@@ -89,10 +89,10 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Condensed = 64;
+Condensed = 56;
 Height = 1248;
 };
-pos = (188,416);
+pos = (184,416);
 ref = _smart.upperstem;
 },
 {

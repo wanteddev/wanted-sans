@@ -1,2 +1,1 @@
-# wanted-sans
-Wanted internal typeface
+/packages/wanted-sans/README.md

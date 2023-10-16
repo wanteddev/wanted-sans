@@ -1,0 +1,14 @@
+{
+  "name": "wanted-sans-repo",
+  "version": "1.0.0",
+  "repository": "https://github.com/wanteddev/wanted-sans",
+  "author": "Wanted Lab, Inc. <wanted@wantedlab.com>",
+  "license": "OFL-1.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.3.1"
+}

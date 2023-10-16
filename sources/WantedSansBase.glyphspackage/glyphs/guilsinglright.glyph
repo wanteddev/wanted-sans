@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = guilsinglright;
 kernLeft = x;
 kernRight = greater;
@@ -29,6 +28,5 @@ scale = (-1,1);
 width = 936;
 }
 );
-note = $CASE;
 unicode = 8250;
 }

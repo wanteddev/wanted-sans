@@ -1,0 +1,50 @@
+{
+color = 0;
+glyphname = threeemdash;
+kernLeft = emdash;
+kernRight = emdash;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = emdash;
+},
+{
+alignment = 1;
+pos = (1664,0);
+ref = emdash;
+},
+{
+alignment = 1;
+pos = (3328,0);
+ref = emdash;
+}
+);
+width = 4992;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+alignment = 1;
+ref = emdash;
+},
+{
+alignment = 1;
+pos = (1664,0);
+ref = emdash;
+},
+{
+alignment = 1;
+pos = (3328,0);
+ref = emdash;
+}
+);
+width = 4992;
+}
+);
+note = $CASE;
+unicode = 11835;
+}
