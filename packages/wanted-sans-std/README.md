@@ -5,8 +5,8 @@
 ## 미리보기
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/5703f718-d393-40e9-8bc3-4d4e4625da7d">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/3f4ef3d1-5867-4fbb-b5e1-83e2ec225978">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/307dca1f-455f-4860-ae49-491113cf9749">
+    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1003275e-d874-4bf3-9113-f8b4ab6b073d">
 </picture>
 
 ## 웹폰트

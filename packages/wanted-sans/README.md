@@ -16,8 +16,8 @@ Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드
 ## 미리보기
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/042cdb2a-e359-4358-9cca-20cda43b668a">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/58dc5ecb-245a-400d-85e8-3e2461c77a11">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b30af92b-5f42-4e5c-bcea-510bf6c4d0f3">
+    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/3a8fba13-5f54-4817-a7a7-d0fb9743d1ab">
 </picture>
 
 ## 기능
