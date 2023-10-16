@@ -53,6 +53,7 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 ## 기여자
 
 [black7375](https://github.com/black7375): 웹폰트 자동화 패키지를 만들어주셨습니다.
+
 [jsryudev](https://github.com/jsryudev): 웹폰트 자동화 패키지를 개선해주셨습니다.
 
 ## 라이선스
