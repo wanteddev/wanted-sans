@@ -422,6 +422,84 @@ sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
 } LOOKUP_SS05_2;
 ";
 name = LOOKUP_SS05;
+},
+{
+code = "lookup LOOKUP_CCMP_1 {
+sub enclosingsquarecomb zero by zero.box;
+sub enclosingsquarecomb one by one.box;
+sub enclosingsquarecomb two by two.box;
+sub enclosingsquarecomb three by three.box;
+sub enclosingsquarecomb four by four.box;
+sub enclosingsquarecomb five by five.box;
+sub enclosingsquarecomb six by six.box;
+sub enclosingsquarecomb seven by seven.box;
+sub enclosingsquarecomb eight by eight.box;
+sub enclosingsquarecomb nine by nine.box;
+sub enclosingsquarecomb A by A.box;
+sub enclosingsquarecomb B by B.box;
+sub enclosingsquarecomb C by C.box;
+sub enclosingsquarecomb D by D.box;
+sub enclosingsquarecomb E by E.box;
+sub enclosingsquarecomb F by F.box;
+sub enclosingsquarecomb G by G.box;
+sub enclosingsquarecomb H by H.box;
+sub enclosingsquarecomb I by I.box;
+sub enclosingsquarecomb J by J.box;
+sub enclosingsquarecomb K by K.box;
+sub enclosingsquarecomb L by L.box;
+sub enclosingsquarecomb M by M.box;
+sub enclosingsquarecomb N by N.box;
+sub enclosingsquarecomb O by O.box;
+sub enclosingsquarecomb P by P.box;
+sub enclosingsquarecomb Q by Q.box;
+sub enclosingsquarecomb R by R.box;
+sub enclosingsquarecomb S by S.box;
+sub enclosingsquarecomb T by T.box;
+sub enclosingsquarecomb U by U.box;
+sub enclosingsquarecomb V by V.box;
+sub enclosingsquarecomb W by W.box;
+sub enclosingsquarecomb X by X.box;
+sub enclosingsquarecomb Y by Y.box;
+sub enclosingsquarecomb Z by Z.box;
+sub enclosingcirclecomb zero by zero.circled;
+sub enclosingcirclecomb one by one.circled;
+sub enclosingcirclecomb two by two.circled;
+sub enclosingcirclecomb three by three.circled;
+sub enclosingcirclecomb four by four.circled;
+sub enclosingcirclecomb five by five.circled;
+sub enclosingcirclecomb six by six.circled;
+sub enclosingcirclecomb seven by seven.circled;
+sub enclosingcirclecomb eight by eight.circled;
+sub enclosingcirclecomb nine by nine.circled;
+sub enclosingcirclecomb A by A.circled;
+sub enclosingcirclecomb B by B.circled;
+sub enclosingcirclecomb C by C.circled;
+sub enclosingcirclecomb D by D.circled;
+sub enclosingcirclecomb E by E.circled;
+sub enclosingcirclecomb F by F.circled;
+sub enclosingcirclecomb G by G.circled;
+sub enclosingcirclecomb H by H.circled;
+sub enclosingcirclecomb I by I.circled;
+sub enclosingcirclecomb J by J.circled;
+sub enclosingcirclecomb K by K.circled;
+sub enclosingcirclecomb L by L.circled;
+sub enclosingcirclecomb M by M.circled;
+sub enclosingcirclecomb N by N.circled;
+sub enclosingcirclecomb O by O.circled;
+sub enclosingcirclecomb P by P.circled;
+sub enclosingcirclecomb Q by Q.circled;
+sub enclosingcirclecomb R by R.circled;
+sub enclosingcirclecomb S by S.circled;
+sub enclosingcirclecomb T by T.circled;
+sub enclosingcirclecomb U by U.circled;
+sub enclosingcirclecomb V by V.circled;
+sub enclosingcirclecomb W by W.circled;
+sub enclosingcirclecomb X by X.circled;
+sub enclosingcirclecomb Y by Y.circled;
+sub enclosingcirclecomb Z by Z.circled;
+} LOOKUP_CCMP_1;
+";
+name = LOOKUP_CCMP;
 }
 );
 features = (
@@ -475,37 +553,6 @@ feature cv21;
 feature cv22;
 ";
 tag = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	@Markscomb = [ogonekcomb];
-	@MarkscombCase = [ogonekcomb.case];
-	sub @Markscomb @Markscomb' by @MarkscombCase;
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
-
-lookup ccmp_Other_3 {
-	sub @Markscomb' @MarkscombCase by @MarkscombCase;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
-
-lookup ccmp_latn_1 {
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
-";
-tag = ccmp;
 },
 {
 automatic = 1;
@@ -929,6 +976,40 @@ sub zeroinferior by zeroinferior.zero;
 sub zerosuperior by zerosuperior.zero;
 ";
 tag = zero;
+},
+{
+code = "# Manually added code
+lookup LOOKUP_CCMP_1;
+
+# Copy and paste codes below automatically generated feature
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	@Markscomb = [ogonekcomb];
+	@MarkscombCase = [ogonekcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_Other_3 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
 },
 {
 code = "lookup LOOKUP_CALT_1;
