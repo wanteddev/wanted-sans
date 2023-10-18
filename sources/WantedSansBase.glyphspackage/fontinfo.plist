@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3222";
 .formatVersion = 3;
 axes = (
 {
@@ -2266,7 +2266,6 @@ pos = -432;
 pos = -494;
 },
 {
-over = -16;
 },
 {
 pos = 760;
@@ -2364,7 +2363,6 @@ pos = -432;
 pos = -494;
 },
 {
-over = -16;
 },
 {
 pos = 760;
@@ -6519,6 +6517,15 @@ Reference:
 - Twentieth Century";
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2023 Wanted Lab, Inc.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -6526,6 +6533,19 @@ language = dflt;
 value = "Kil Hyung-jin, Kang Hanbin";
 }
 );
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -6541,24 +6561,6 @@ key = manufacturerURL;
 value = "https://wantedlab.com";
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright © 2023 Wanted Lab, Inc.";
-}
-);
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
-},
-{
 key = trademarks;
 values = (
 {
@@ -6571,10 +6573,6 @@ Wanted Logo is a trademark of Wanted Lab, Inc.";
 {
 key = vendorID;
 value = WNTD;
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {
