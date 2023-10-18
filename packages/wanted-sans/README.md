@@ -1,7 +1,7 @@
 # Wanted Sans
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d727837c-cd9f-4f99-a27e-35246d7c3c7f">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0d1f73ec-47c2-4230-b145-a63bd6b7efec">
     <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6e5f922f-96e5-4ac3-a45f-2aacc18f02d7">
 </picture>
 
@@ -28,7 +28,7 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 ## 미리보기
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/042cdb2a-e359-4358-9cca-20cda43b668a">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d727837c-cd9f-4f99-a27e-35246d7c3c7f">
     <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0cce41cd-8361-4b27-ac38-027d240c3af0">
 </picture>
 
