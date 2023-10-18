@@ -929,6 +929,7 @@ tag = calt;
 {
 code = "# Duplicated calt due to the web's inability to support Hangeul characters in calt
 lookup LOOKUP_CALT_1;
+lookup LOOKUP_CALT_2;
 lookup LOOKUP_CALT_3;
 ";
 tag = clig;
