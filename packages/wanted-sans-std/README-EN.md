@@ -13,19 +13,19 @@ You can use Latin-only version of Wanted Sans.
 
 ## Concept
 
-For a detailed story about Wanted Sans, visit [**here**](/documentation/concept/README.md).
+For a detailed story about Wanted Sans, visit [**here**](/documentation/concept/README-EN.md).
 
 ## Features
 
-To explore all OpenType features, visit [**here**](/documentation/features/README.md).
+To explore all OpenType features, visit [**here**](/documentation/features/README-EN.md).
 
 ## Webfonts
 
-To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/README.md).
+To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/README-EN.md).
 
 ## Family
 
--   [**Wanted Sans Std**](/packages/wanted-sans/README.md): Hangeul-supported version of Wanted Sans.
+-   [**Wanted Sans Std**](/packages/wanted-sans/README-EN.md): Hangeul-supported version of Wanted Sans.
 
 ## Credits
 
