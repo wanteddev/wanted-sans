@@ -36,7 +36,7 @@ The Hangeul characters are a variant of the [Source Han Sans](https://github.com
     <img width="100%" alt="Intelligent context recognition in Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1f523399-d6f8-4cb6-9211-6d1f8279cb41">
 </picture>
 
-Wanted Sans possesses the ability to intelligently recognize context. Hence, when displaying Hangul alongside appropriate symbols or when differentiating shapes within words, it automatically adjusts to the most suitable form.
+Wanted Sans intelligently discerns context. Thus, when it needs to display suitable characters with Hangeul, or when distinguishing character shapes within words, it automatically presents them in the most appropriate form.
 
 ## OpenType Features
 

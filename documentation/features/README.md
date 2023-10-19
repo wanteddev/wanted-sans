@@ -37,7 +37,7 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 	<img width="100%" alt="calt, clig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/5470a927-4abf-4c90-902c-8e5b04cdf07d">
 </picture>
 
-문맥을 자동으로 인식해 특정한 문자를 자연스럽게 나타냅니다.
+문맥을 지능적으로 인식해 특정한 문자를 자연스럽게 나타냅니다.
 
 ### `locl`: 현지화
 
