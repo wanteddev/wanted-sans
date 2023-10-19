@@ -18,7 +18,7 @@ To naturally convey the voice embodied by Wanted, Wanted Sans is primarily desig
     <img width="100%" alt="Humanist shapes in Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/a6ee5469-2072-4c80-8335-77596b520033">
 </picture>
 
-However, typical geometric sans-serifs can sometimes convey a somewhat heavy and rigid atmosphere due to their strict adherence to form. In Wanted Sans, while the geometric structure remains foundational, the shapes are slightly opened up, aiming for a balance of readability and a humane appearance. Thus, Wanted Sans manages to exude a sense of humanity from its refined structure, oscillating between solemnity and liveliness, sometimes even with a playful twist. This characteristic is especially pronounced in letters and numbers like s, t, 2, and 8.
+However, typical geometric sans-serifs can sometimes convey a somewhat heavy and rigid atmosphere due to their strict adherence to form. In Wanted Sans, while the geometric structure remains foundational, the shapes are slightly opened up, aiming for a balance of readability and a fresh appearance. Thus, Wanted Sans manages to exude a sense of humanity from its refined structure, oscillating between solemnity and liveliness, sometimes even with a playful twist. This characteristic is especially pronounced in letters and numbers like s, t, 2, and 8.
 
 ## Hangeul
 
