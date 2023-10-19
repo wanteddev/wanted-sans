@@ -25,7 +25,7 @@ To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/READ
 
 ## Family
 
--   [**Wanted Sans Std**](/packages/wanted-sans-std/README.md): Hangeul-supported version of Wanted Sans.
+-   [**Wanted Sans Std**](/packages/wanted-sans/README.md): Hangeul-supported version of Wanted Sans.
 
 ## Credits
 
