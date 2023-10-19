@@ -59,7 +59,7 @@ Adjusts character shapes based on the language and region.
 	<img width="100%" alt="liga" src="https://github.com/wanteddev/wanted-sans/assets/7247848/074cb819-12fa-4d13-b01a-e4ac9aa30877">
 </picture>
 
-Adjusts character forms in specific words.
+Adjusts character forms in specific compositions.
 
 ### `rlig`: Required Ligatures
 
@@ -71,6 +71,17 @@ Adjusts character forms in specific words.
 </picture>
 
 Activates common ligatures in Latin.
+
+### `ccmp`: Composite Characters
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f901c92b-1948-4b32-beb4-94582abfc8aa">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a29c13a3-f1d3-4635-8019-702ddda14e9f">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0da34086-f01b-4ede-9c01-a259b3bb38d7">
+	<img width="100%" alt="ccmp" src="https://github.com/wanteddev/wanted-sans/assets/7247848/e0880571-3f49-4a6f-b31e-2270c436573d">
+</picture>
+
+Combines shapes into a single form in specific combinations.
 
 ### `frac` `numr` `dnom` `sinf` `sups` `subs`: Fractions and Subscripts/Superscripts
 

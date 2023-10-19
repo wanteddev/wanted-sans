@@ -59,7 +59,7 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 	<img width="100%" alt="liga" src="https://github.com/wanteddev/wanted-sans/assets/7247848/074cb819-12fa-4d13-b01a-e4ac9aa30877">
 </picture>
 
-특정 단어에서 모양을 맞춥니다.
+특정 조합에서 모양을 맞춥니다.
 
 ### `rlig`: 특수 합자
 
@@ -71,6 +71,17 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 </picture>
 
 라틴에서 일반적인 합자를 활성화합니다.
+
+### `ccmp`: 결합 문자
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f901c92b-1948-4b32-beb4-94582abfc8aa">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a29c13a3-f1d3-4635-8019-702ddda14e9f">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0da34086-f01b-4ede-9c01-a259b3bb38d7">
+	<img width="100%" alt="ccmp" src="https://github.com/wanteddev/wanted-sans/assets/7247848/e0880571-3f49-4a6f-b31e-2270c436573d">
+</picture>
+
+특정 조합에서 모양을 하나로 결합합니다.
 
 ### `frac` `numr` `dnom` `sinf` `sups` `subs`: 분수 및 첨자
 
