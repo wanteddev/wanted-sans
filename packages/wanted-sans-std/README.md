@@ -4,6 +4,14 @@
 
 라틴 전용 Wanted Sans를 쓸 수 있습니다.
 
+## 다운로드
+
+### [최신 버전 다운로드](https://github.com/wanteddev/wanted-sans/releases/latest)
+
+## 패밀리
+
+-   [**Wanted Sans**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans/README.md): 한글을 지원하는 Wanted Sans입니다.
+
 ## 미리보기
 
 <picture>
@@ -22,10 +30,6 @@ Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https:
 ## 웹폰트
 
 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/documentation/webfonts/README.md)에서 웹폰트 문서를 확인하실 수 있습니다.
-
-## 패밀리
-
--   [**Wanted Sans**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans/README.md): 한글을 지원하는 Wanted Sans입니다.
 
 ## 크레딧
 

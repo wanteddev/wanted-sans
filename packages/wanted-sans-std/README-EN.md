@@ -4,6 +4,14 @@
 
 You can use Latin-only version of Wanted Sans.
 
+## Download
+
+### [Download Latest Version](https://github.com/wanteddev/wanted-sans/releases/latest)
+
+## Family
+
+-   [**Wanted Sans Std**](/packages/wanted-sans/README-EN.md): Hangeul-supported version of Wanted Sans.
+
 ## Preview
 
 <picture>

@@ -15,6 +15,10 @@ Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드
 
 ### [최신 버전 다운로드](https://github.com/wanteddev/wanted-sans/releases/latest)
 
+## 패밀리
+
+-   [**Wanted Sans Std**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/README.md): 라틴 전용 Wanted Sans입니다.
+
 ## 미리보기
 
 <picture>
@@ -33,10 +37,6 @@ Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https:
 ## 웹폰트
 
 Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans/documentation/webfonts/README.md)으로 이동하세요.
-
-## 패밀리
-
--   [**Wanted Sans Std**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/README.md): 라틴 전용 Wanted Sans입니다.
 
 ## 크레딧
 

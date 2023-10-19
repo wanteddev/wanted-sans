@@ -15,6 +15,10 @@ Wanted Sans can consistently convey potential in various environments. It suppor
 
 ### [Download Latest Version](https://github.com/wanteddev/wanted-sans/releases/latest)
 
+## Family
+
+-   [**Wanted Sans Std**](/packages/wanted-sans-std/README-EN.md): Latin-only version of Wanted Sans.
+
 ## Preview
 
 <picture>
