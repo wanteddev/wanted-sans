@@ -31,10 +31,10 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `calt` `clig`: 문맥 대체
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/add6f9ee-9b3d-45c4-bc75-d962d8417b80">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/be9aea12-479f-4dd4-aa78-9e990930df5a">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bbd51d37-4c61-4fe1-ba39-ae8de5b64474">
-	<img width="100%" alt="calt, clig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/5470a927-4abf-4c90-902c-8e5b04cdf07d">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/51d855b9-f8ed-4f28-a143-ba3b5deb0808">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/22e8e3bd-1412-4ade-aac6-6d6444e8a50e">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/813c565b-483e-460a-bbcb-85da1e0eecf1">
+	<img width="100%" alt="calt, clig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/050d11aa-1c0c-486c-be62-754b99ae7514">
 </picture>
 
 문맥을 지능적으로 인식해 특정한 문자를 자연스럽게 나타냅니다.
@@ -53,10 +53,10 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `liga`: 합자
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/98b74ad4-6b43-43eb-b604-35d825c77895">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/aa534866-9e77-4fc4-8e7f-3e9317662801">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c07c3f66-2346-481a-885a-4561e76580af">
-	<img width="100%" alt="liga" src="https://github.com/wanteddev/wanted-sans/assets/7247848/f02d79aa-0efd-4156-af9a-9dc1b8f2ac48">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/651faf16-a793-426b-a6e3-fa07ce0e23c4">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ec69c4de-547a-4386-a555-6dd453fa735b">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/8cdc9cd9-2af6-4e3a-8faa-f5068424eb05">
+	<img width="100%" alt="liga" src="https://github.com/wanteddev/wanted-sans/assets/7247848/074cb819-12fa-4d13-b01a-e4ac9aa30877">
 </picture>
 
 특정 단어에서 모양을 맞춥니다.
@@ -108,10 +108,10 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `ss01`: 지오메트릭 모양
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/29a0df69-c49b-4fc0-92e0-85b7a98595b5">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3bf55524-08ca-4650-b2fb-02e04da0827b">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0c90362b-4af4-4257-9b5f-8d3c7569d7df">
-	<img width="100%" alt="ss01" src="https://github.com/wanteddev/wanted-sans/assets/7247848/156a427f-aae9-49de-9656-8a4b7f78f7ea">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/4f9db7c8-0bbf-4776-95ba-4e6b4fb20bbf">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a7a0609d-b33e-4c45-b278-3c1757e09056">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/81204d03-615e-495b-a38f-a5d72a677c48">
+	<img width="100%" alt="ss01" src="https://github.com/wanteddev/wanted-sans/assets/7247848/125a17d2-4a12-430e-aae7-6e4f51df6073">
 </picture>
 
 문자를 지오메트릭 모양으로 나타냅니다.
@@ -130,10 +130,10 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `ss03`: 꾸밈 문자
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7596e1d6-4f5e-4bef-8821-e0acdbb9b694">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/5e02cc22-c418-4b82-bb6f-77249f2e5543">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b292dcbe-aab0-4696-b8b4-14c6ef2a47d7">
-	<img width="100%" alt="ss03" src="https://github.com/wanteddev/wanted-sans/assets/7247848/749c56a1-4595-4523-a2c5-87e3dedf7b4c">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c86cb481-c476-463a-b0fd-a3770f0bee24">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/fea30c1e-4461-4825-a831-eeec93b76e9c">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f39ba5dd-2f11-41f6-b7e2-66e47f87c9c8">
+	<img width="100%" alt="ss03" src="https://github.com/wanteddev/wanted-sans/assets/7247848/53acf58f-bf34-4830-8563-ad728b6fbe01">
 </picture>
 
 문자를 재치있는 형태로 나타냅니다.
@@ -240,10 +240,10 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 ### `cvxx`: 모양 대체
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3b9f6305-d099-43b2-ac33-f97b5f01be5a">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/430fc6ec-5891-492f-b861-f306f4668984">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ce3c8d92-2477-4f55-bcd8-4ed5661eacdb">
-	<img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/19821192-06e7-4379-9065-6b4baf96488c">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/641ad02d-d1e5-4e2c-9240-963bbd2efe79">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/8ce17612-e6ae-442d-951c-bee6f80207e9">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/dea4e4af-70ee-4728-85a9-fb6086af6870">
+	<img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/90b67380-9976-4cd4-b376-ceb476103c8f">
 </picture>
 
 문자 모양을 바꿔 나타냅니다.
