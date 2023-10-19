@@ -9,7 +9,7 @@ You can use Wanted Sans via jsDelivr, a widely-used public CDN.
 For a consistent experience across platforms, the following font-family are recommended:
 
 ```css
-font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 ```
 
 ## Variable Dynamic Subset
