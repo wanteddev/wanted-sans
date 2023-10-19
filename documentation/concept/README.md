@@ -33,7 +33,7 @@
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/10ac8e79-118b-4c48-9127-9114f490cf64">
-    <img width="100%" alt="San Francisco와 같은 Wanted Sans 메트릭" src=https://github.com/wanteddev/wanted-sans/assets/7247848/0fb267fa-469e-4f0f-a79e-caeb57fda48b">
+    <img width="100%" alt="San Francisco와 같은 Wanted Sans 메트릭" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0fb267fa-469e-4f0f-a79e-caeb57fda48b">
 </picture>
 
 Wanted Sans는 다양한 플랫폼에서 적용하기 쉽도록 Apple 시스템 글꼴인 San Francisco 및 Pretendard와 동일한 글꼴 높이를 가집니다. 따라서 개발 환경에서 보다 빠르고 쾌적하게 글꼴을 적용할 수 있습니다.
