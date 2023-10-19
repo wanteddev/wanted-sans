@@ -32,8 +32,8 @@ The Hangeul characters are a variant of the [Source Han Sans](https://github.com
 ## Metrics
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/650b04cd-8979-483b-9d60-eeed8255095f">
-    <img width="100%" alt="Metrics of Wanted Sans match those of San Francisco" src="https://github.com/wanteddev/wanted-sans/assets/7247848/336c7ff2-c58e-407f-8c9d-d79631b7761e">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/5174b22a-a174-43fb-931e-25d44c64d5ce">
+    <img width="100%" alt="Metrics of Wanted Sans match those of San Francisco" src="https://github.com/wanteddev/wanted-sans/assets/7247848/8e330be4-392f-4a22-b4bc-11ce21622e95">
 </picture>
 
 Wanted Sans is designed with a font height consistent with Apple’s system font, San Francisco, as well as Pretendard. This ensures a quicker and smoother font integration in various development environments.
