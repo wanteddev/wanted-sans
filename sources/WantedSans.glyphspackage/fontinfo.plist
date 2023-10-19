@@ -1386,7 +1386,7 @@ sub e.sups by e.sups.cv22;
 labels = (
 {
 language = dflt;
-value = "Stylistic forms";
+value = "Unique forms";
 }
 );
 tag = ss03;
