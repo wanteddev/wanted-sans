@@ -27,7 +27,7 @@ However, typical geometric sans-serifs can sometimes convey a somewhat heavy and
     <img width="100%" alt="Hangeul shapes in Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/a9236e8b-a78e-418f-9814-d1e45ddd99c0">
 </picture>
 
-The Hangeul characters are a variant of the Gothic typeface, resembling [Pretendard](https://github.com/orioncactus/pretendard). However, in the ExtraBlack weight, a more experimental boldness is showcased.
+The Hangeul characters are a variant of the [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), resembling [Pretendard](https://github.com/orioncactus/pretendard). However, in the ExtraBlack weight, a more experimental boldness is showcased.
 
 ## Intelligent Context Recognition
 

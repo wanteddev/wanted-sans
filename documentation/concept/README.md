@@ -27,7 +27,7 @@
     <img width="100%" alt="Wanted Sans에서 한글 형태" src="https://github.com/wanteddev/wanted-sans/assets/7247848/a9236e8b-a78e-418f-9814-d1e45ddd99c0">
 </picture>
 
-한글은 본고딕 변형으로, [Pretendard](https://github.com/orioncactus/pretendard)와 같은 모양을 가집니다. 단, ExtraBlack에서는 그보다는 더 실험적인 굵기를 보여줍니다.
+한글은 [본고딕](https://github.com/adobe-fonts/source-han-sans) 변형으로, [Pretendard](https://github.com/orioncactus/pretendard)와 같은 모양을 가집니다. 단, ExtraBlack에서는 그보다는 더 실험적인 굵기를 보여줍니다.
 
 ## 지능적 문맥 인식
 
