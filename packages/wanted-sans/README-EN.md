@@ -24,19 +24,19 @@ Wanted Sans can consistently convey potential in various environments. It suppor
 
 ## Concept
 
-For a detailed story about Wanted Sans, visit [**here**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md).
+For a detailed story about Wanted Sans, visit [**here**](/documentation/concept/README.md).
 
 ## Features
 
-To explore all OpenType features, visit [**here**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/features/README.md).
+To explore all OpenType features, visit [**here**](/documentation/features/README.md).
 
 ## Webfonts
 
-To use Wanted Sans as a web font, visit [**here**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans/documentation/webfonts/README.md).
+To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/README.md).
 
 ## Family
 
--   [**Wanted Sans Std**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/README.md): Latin-only version of Wanted Sans.
+-   [**Wanted Sans Std**](/packages/wanted-sans-std/README.md): Latin-only version of Wanted Sans.
 
 ## Credits
 

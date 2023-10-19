@@ -1,4 +1,4 @@
-[**한국어**](./README.md) | [English](./README-EN.md)
+[**한국어**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/README.md) | [English](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/README-EN.md)
 
 # Wanted Sans Std
 
@@ -13,19 +13,19 @@
 
 ## 특징
 
-Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md)으로 이동하세요.
-
-## 웹폰트
-
-[**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/documentation/webfonts/README.md)에서 웹폰트 문서를 확인하실 수 있습니다.
+Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/concept/README.md)으로 이동하세요.
 
 ## 기능
 
-[**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/features/README.md)에서 OpenType 기능 문서를 확인할 수 있습니다.
+[**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/features/README.md)에서 OpenType 기능 문서를 확인할 수 있습니다.
+
+## 웹폰트
+
+[**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/documentation/webfonts/README.md)에서 웹폰트 문서를 확인하실 수 있습니다.
 
 ## 패밀리
 
--   [**Wanted Sans**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/README.md): 한글을 지원하는 Wanted Sans입니다.
+-   [**Wanted Sans**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/README.md): 한글을 지원하는 Wanted Sans입니다.
 
 ## 크레딧
 
