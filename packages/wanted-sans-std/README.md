@@ -2,6 +2,17 @@
 
 라틴 전용 Wanted Sans를 쓸 수 있습니다.
 
+## 미리보기
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/307dca1f-455f-4860-ae49-491113cf9749">
+    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1003275e-d874-4bf3-9113-f8b4ab6b073d">
+</picture>
+
+## 특징
+
+Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md)으로 이동하세요.
+
 ## 웹폰트
 
 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/documentation/webfonts/README.md)에서 웹폰트 문서를 확인하실 수 있습니다.
@@ -13,17 +24,6 @@
 ## 패밀리
 
 -   [**Wanted Sans**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/README.md): 한글을 지원하는 Wanted Sans입니다.
-
-## 미리보기
-
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/307dca1f-455f-4860-ae49-491113cf9749">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1003275e-d874-4bf3-9113-f8b4ab6b073d">
-</picture>
-
-## 특징
-
-Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md)으로 이동하세요.
 
 ## 크레딧
 

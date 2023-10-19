@@ -13,6 +13,17 @@ Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드
 
 ### [최신 버전 다운로드](https://github.com/wanteddev/wanted-sans/releases/latest)
 
+## 미리보기
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d727837c-cd9f-4f99-a27e-35246d7c3c7f">
+    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0cce41cd-8361-4b27-ac38-027d240c3af0">
+</picture>
+
+## 특징
+
+Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md)으로 이동하세요.
+
 ## 기능
 
 모든 OpenType 기능을 둘러보려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/features/README.md)으로 이동하세요.
@@ -24,17 +35,6 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 ## 패밀리
 
 -   [**Wanted Sans Std**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/README.md): 라틴 전용 Wanted Sans입니다.
-
-## 미리보기
-
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d727837c-cd9f-4f99-a27e-35246d7c3c7f">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0cce41cd-8361-4b27-ac38-027d240c3af0">
-</picture>
-
-## 특징
-
-Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md)으로 이동하세요.
 
 ## 크레딧
 
