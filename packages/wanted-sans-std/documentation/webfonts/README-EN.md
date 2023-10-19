@@ -4,9 +4,7 @@
 
 You can use Wanted Sans via jsDelivr, a widely-used public CDN.
 
----
-
-### font-family
+## font-family
 
 For a consistent experience across platforms, the following font-family are recommended:
 
@@ -14,9 +12,7 @@ For a consistent experience across platforms, the following font-family are reco
 font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 ```
 
----
-
-### Variable Dynamic Subset
+## Variable Dynamic Subset
 
 To swiftly and efficiently use Wanted Sans Std with varying weights while only downloading characters present on the page, use the code below. The font-family to use is "Wanted Sans Std Variable".
 
@@ -34,9 +30,7 @@ To swiftly and efficiently use Wanted Sans Std with varying weights while only d
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.css");
 ```
 
----
-
-### Standard Dynamic Subset
+## Standard Dynamic Subset
 
 For compatibility with older browsers while maintaining a fast and smooth experience with Wanted Sans Std, use the code below. The font-family to use is "Wanted Sans Std".
 
@@ -54,9 +48,7 @@ For compatibility with older browsers while maintaining a fast and smooth experi
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.css");
 ```
 
----
-
-### Standard Webfonts
+## Standard Webfonts
 
 To use Wanted Sans Std with all its features, use the code below. The font-family to use is "Wanted Sans Std".
 
@@ -74,9 +66,7 @@ To use Wanted Sans Std with all its features, use the code below. The font-famil
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.css");
 ```
 
----
-
-### Variable Webfonts
+## Variable Webfonts
 
 To use Wanted Sans Std with all its features, including variable weight properties, use the code below. The font-family to use is "Wanted Sans Std Variable".
 

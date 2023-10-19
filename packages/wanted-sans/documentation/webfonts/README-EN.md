@@ -4,9 +4,7 @@
 
 You can use Wanted Sans via jsDelivr, a widely-used public CDN.
 
----
-
-### font-family
+## font-family
 
 For a consistent experience across platforms, the following font-family are recommended:
 
@@ -14,9 +12,7 @@ For a consistent experience across platforms, the following font-family are reco
 font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 ```
 
----
-
-### Variable Dynamic Subset
+## Variable Dynamic Subset
 
 To swiftly and efficiently use Wanted Sans with varying weights while only downloading characters present on the page, use the code below. The font-family to use is "Wanted Sans Variable".
 
@@ -34,9 +30,7 @@ To swiftly and efficiently use Wanted Sans with varying weights while only downl
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.css");
 ```
 
----
-
-### Standard Dynamic Subset
+## Standard Dynamic Subset
 
 For compatibility with older browsers while maintaining a fast and smooth experience with Wanted Sans, use the code below. The font-family to use is "Wanted Sans".
 
@@ -54,9 +48,7 @@ For compatibility with older browsers while maintaining a fast and smooth experi
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans/fonts/webfonts/static/split/WantedSans.css");
 ```
 
----
-
-### Standard Webfonts
+## Standard Webfonts
 
 To use Wanted Sans with all its features, use the code below. The font-family to use is "Wanted Sans".
 
@@ -74,9 +66,7 @@ To use Wanted Sans with all its features, use the code below. The font-family to
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans/fonts/webfonts/static/complete/WantedSans.css");
 ```
 
----
-
-### Variable Webfonts
+## Variable Webfonts
 
 To use Wanted Sans with all its features, including variable weight properties, use the code below. The font-family to use is "Wanted Sans Variable".
 
