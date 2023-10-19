@@ -29,7 +29,7 @@ Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https:
 
 #### 바탕 및 제작
 
-[길형진](https://www.instagram.com/orioncactus/), [강한빈](https://www.instagram.com/phaelkang/)
+원티드랩; [길형진](https://www.instagram.com/orioncactus/), [강한빈](https://www.instagram.com/phaelkang/)
 
 #### 지원 스크립트
 

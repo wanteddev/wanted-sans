@@ -40,7 +40,7 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 
 #### 바탕 및 제작
 
-[길형진](https://www.instagram.com/orioncactus/), [강한빈](https://www.instagram.com/phaelkang/)
+원티드랩; [길형진](https://www.instagram.com/orioncactus/), [강한빈](https://www.instagram.com/phaelkang/)
 
 #### 한글 바탕
 
