@@ -2,7 +2,7 @@
 
 # 특징
 
-## 구조
+## 원칙
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/af1bb06a-8918-4f45-b1ad-facc9119143d">
@@ -41,8 +41,8 @@ Wanted Sans는 다양한 플랫폼에서 적용하기 쉽도록 Apple 시스템 
 ## 가독성
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/878a97ce-fe11-4fd3-9a4e-65e0134b1c5c">
-    <img width="100%" alt="본문 읽기에 맞춰진 Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/fe828968-9e29-4ea9-af92-af951144804a">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/19441fbb-a766-4c29-87f8-0b9f0057ef76">
+    <img width="100%" alt="본문 읽기에 맞춰진 Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/de8dc1e6-2c06-4b73-8a2f-72da5301b920">
 </picture>
 
 Wanted Sans가 가지는 글자 여백은 일반적인 본문 환경에서 자연스럽게 읽을 수 있도록 맞춰져 있습니다. 따라서 추가적인 자간 조정을 하지 않아도 됩니다.

@@ -2,7 +2,7 @@
 
 # Features
 
-## Structure
+## Principles
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/af1bb06a-8918-4f45-b1ad-facc9119143d">
@@ -41,8 +41,8 @@ Wanted Sans is designed with a font height consistent with Apple's system font, 
 ## Readability
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/878a97ce-fe11-4fd3-9a4e-65e0134b1c5c">
-    <img width="100%" alt="Optimized for reading in Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/fe828968-9e29-4ea9-af92-af951144804a">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/19441fbb-a766-4c29-87f8-0b9f0057ef76">
+    <img width="100%" alt="Optimized for reading in Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/de8dc1e6-2c06-4b73-8a2f-72da5301b920">
 </picture>
 
 The character spacing of Wanted Sans is calibrated for a natural reading experience in typical body text settings, eliminating the need for additional letter-spacing adjustments.
