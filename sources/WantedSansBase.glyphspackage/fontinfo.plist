@@ -200,6 +200,14 @@ code = "lookup LOOKUP_CALT_1 {
 ignore sub @CASE_L' @Lowercase;
 ignore sub @Lowercase @CASE_L';
 
+# Ignore colon alignment with Parenthesis
+@Paren = [
+$[subCategory == \"Parenthesis\"]
+];
+
+ignore sub colon' @Paren;
+ignore sub @Paren colon';
+
 # Cut two more uppercase based glyphs
 ignore sub @CASE_L' @CASE_L;
 ignore sub @CASE_L @CASE_L';
