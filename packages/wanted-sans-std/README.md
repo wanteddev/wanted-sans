@@ -1,3 +1,5 @@
+[**한국어**](./README.md) | [English](./README-EN.md)
+
 # Wanted Sans Std
 
 라틴 전용 Wanted Sans를 쓸 수 있습니다.

@@ -1,3 +1,5 @@
+[**한국어**](./README.md) | [English](./README-EN.md)
+
 # OpenType 기능
 
 Wanted Sans에서 사용할 수 있는 기능을 안내합니다.

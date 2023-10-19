@@ -1,14 +1,14 @@
-[**한국어**](./README.md) | [English](./README-EN.md)
+[한국어](./README.md) | [**English**](./README-EN.md)
 
-# 웹폰트
+# Webfonts
 
-대표적인 공개 CDN인 jsDelivr를 이용해 Wanted Sans를 사용할 수 있습니다.
+You can use Wanted Sans via jsDelivr, a widely-used public CDN.
 
 ---
 
 ### font-family
 
-어디서든 동일한 환경을 가지고자 한다면 아래와 같은 font-family 구성을 추천합니다.
+For a consistent experience across platforms, the following font-family are recommended:
 
 ```css
 font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -16,9 +16,9 @@ font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSyste
 
 ---
 
-### 가변 동적 서브셋
+### Variable Dynamic Subset
 
-가장 적은 용량으로 가변 굵기와 함께 페이지에 포함된 문자만 선택적으로 다운로드해 보다 빠르고 쾌적하게 Wanted Sans를 사용하려면 아래 코드를 사용하세요. 사용하는 font-family 이름은 `"Wanted Sans Variable"` 입니다.
+To swiftly and efficiently use Wanted Sans with varying weights while only downloading characters present on the page, use the code below. The font-family to use is "Wanted Sans Variable".
 
 #### HTML
 
@@ -36,9 +36,9 @@ font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSyste
 
 ---
 
-### 일반 동적 서브셋
+### Standard Dynamic Subset
 
-오래된 브라우저에도 호환성을 유지하며, 빠르고 쾌적하게 Wanted Sans를 사용하려면 아래 코드를 사용하세요. 사용하는 font-family 이름은 `"Wanted Sans"` 입니다.
+For compatibility with older browsers while maintaining a fast and smooth experience with Wanted Sans, use the code below. The font-family to use is "Wanted Sans".
 
 #### HTML
 
@@ -56,9 +56,9 @@ font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSyste
 
 ---
 
-### 일반 웹폰트
+### Standard Webfonts
 
-모든 기능을 포함한 Wanted Sans를 사용하려면 아래 코드를 사용하세요. 사용하는 font-family 이름은 `"Wanted Sans"` 입니다.
+To use Wanted Sans with all its features, use the code below. The font-family to use is "Wanted Sans".
 
 #### HTML
 
@@ -76,9 +76,9 @@ font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSyste
 
 ---
 
-### 가변 웹폰트
+### Variable Webfonts
 
-가변 weight 속성과 함께 모든 기능을 포함한 Wanted Sans를 사용하려면 아래 코드를 사용하세요. 사용하는 font-family 이름은 `"Wanted Sans Variable"` 입니다.
+To use Wanted Sans with all its features, including variable weight properties, use the code below. The font-family to use is "Wanted Sans Variable".
 
 #### HTML
 

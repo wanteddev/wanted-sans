@@ -1,3 +1,5 @@
+[**한국어**](./README.md) | [English](./README-EN.md)
+
 # Wanted Sans
 
 <picture>

@@ -1,0 +1,50 @@
+[한국어](./README.md) | [**English**](./README-EN.md)
+
+# Wanted Sans Std
+
+You can use Latin-only version of Wanted Sans.
+
+## Preview
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/307dca1f-455f-4860-ae49-491113cf9749">
+    <img width="100%" alt="Wanted Sans Preview" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1003275e-d874-4bf3-9113-f8b4ab6b073d">
+</picture>
+
+## Concept
+
+For a detailed story about Wanted Sans, visit [**here**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/concept/README.md).
+
+## Webfonts
+
+To use Wanted Sans as a web font, visit [**here**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/documentation/webfonts/README.md).
+
+## Features
+
+To explore all OpenType features, visit [**here**](https://github.com/wanteddev/wanted-sans/blob/main/documentation/features/README.md).
+
+## Family
+
+-   [**Wanted Sans Std**](https://github.com/wanteddev/wanted-sans/blob/main/packages/wanted-sans-std/README.md): Hangeul-supported version of Wanted Sans.
+
+## Credits
+
+#### Original Design
+
+Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus/), [Kang Hanbin](https://www.instagram.com/phaelkang/)
+
+#### Supported Scripts
+
+Latin
+
+#### Supported Languages
+
+Afrikaans, Albanian, Asturian, Asu, Basque, Bemba, Bena, Bosnian, Catalan, Cebuano, Chiga, Colognian, Cornish, Corsican, Croatian, Czech, Danish, Dutch, Embu, English, Esperanto, Estonian, Faroese, Filipino, Finnish, French, Friulian, Galician, German, Gusii, Hungarian, Icelandic, Ido, Igbo, Indonesian, Interlingua, Irish, Italian, Javanese, Jju, Kabuverdianu, Kaingang, Kalaallisut, Kalenjin, Kamba, Kikuyu, Kinyarwanda, Kurdish, Latvian, Lithuanian, Lojban, Low German, Lower Sorbian, Luo, Luxembourgish, Luyia, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Manx, Māori, Mapuche, Meru, Morisyen, Nheengatu, Nigerian Pidgin, North Ndebele, Northern Sotho, Norwegian Bokmål, Norwegian Nynorsk, Nyanja, Nyankole, Occitan, Oromo, Polish, Portuguese, Rejang, Romanian, Romansh, Rombo, Rundi, Rwa, Samburu, Sango, Sangu, Sardinian, Scottish Gaelic, Sena, Shambala, Shona, Sicilian, Slovak, Slovenian, Soga, Somali, South Ndebele, Southern Sotho, Spanish, Sundanese, Swahili, Swati, Swedish, Swiss German, Taita, Taroko, Teso, Tsonga, Tswana, Turkish, Turkmen, Tyap, Upper Sorbian, Venda, Vunjo, Walloon, Walser, Welsh, Western Frisian, Wolastoqey, Xhosa, Zulu
+
+## License
+
+Wanted Sans is distributed under the [SIL Open Font License](https://scripts.sil.org/OFL), which allows for commercial use, modifications, and redistribution, but excludes individual font sales and changes to the license.
+
+## Feedback
+
+If you have a problem, please open an issue on [Issues](https://github.com/wanteddev/wanted-sans/issues).
