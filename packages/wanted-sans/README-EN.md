@@ -3,8 +3,8 @@
 # Wanted Sans
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0d1f73ec-47c2-4230-b145-a63bd6b7efec">
-    <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6e5f922f-96e5-4ac3-a45f-2aacc18f02d7">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/1925de4d-907a-4bb3-85aa-cbe4c4b234fa">
+    <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/25efb221-d4f0-4856-ac13-15d1f3cb2f40">
 </picture>
 
 Wanted Sans is a sans-serif font closely aligned with the [Wanted(Korean)](https://wanted.co.kr) spirit of ‘all possibilities with working people.’ With its geometric design and humanist impression, Wanted Sans is easy to read. Suitable for both display and body text, it boasts beautiful and witty character designs, intelligent context recognition, and other useful features.

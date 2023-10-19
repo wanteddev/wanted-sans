@@ -3,8 +3,8 @@
 # Wanted Sans
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0d1f73ec-47c2-4230-b145-a63bd6b7efec">
-    <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6e5f922f-96e5-4ac3-a45f-2aacc18f02d7">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/1925de4d-907a-4bb3-85aa-cbe4c4b234fa">
+    <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/25efb221-d4f0-4856-ac13-15d1f3cb2f40">
 </picture>
 
 Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 [원티드](https://wanted.co.kr) 정신과 가까이 맞닿은 글꼴입니다. 기하학적인 모양으로 곧은 인상과 함께 읽기 쉬운 형태를 지닌 Wanted Sans는 제목과 본문에서 두루 쓸 수 있으며, 아름답고 재치있는 다양한 문자 모양과 함께, 지능적 문맥 인식 등 유용한 여러 기능을 지원합니다.
