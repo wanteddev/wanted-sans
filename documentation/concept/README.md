@@ -45,7 +45,7 @@ Wanted Sans는 다양한 플랫폼에서 적용하기 쉽도록 Apple 시스템 
     <img width="100%" alt="본문 읽기에 맞춰진 Wanted Sans" src="https://github.com/wanteddev/wanted-sans/assets/7247848/af7a296d-1e2d-42ef-b41a-d55d7d6693de">
 </picture>
 
-Wanted Sans가 가지는 글자 여백은 일반적인 본문 환경에서 자연스럽게 읽을 수 있도록 맞춰져 있습니다. 따라서 추가적인 자간 조정을 하지 않아도 됩니다.
+Wanted Sans가 가지는 글자 여백은 일반적인 본문 환경에서 자연스럽게 읽을 수 있도록 맞춰져 있습니다. 따라서 본문 가독성을 위해 추가적인 자간 조정을 하지 않아도 됩니다.
 
 ## 지능적 문맥 인식
 
