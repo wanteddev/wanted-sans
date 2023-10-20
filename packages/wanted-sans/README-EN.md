@@ -22,8 +22,8 @@ Wanted Sans can consistently convey potential in various environments. It suppor
 ## Preview
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0bd37ee0-732f-48fb-94df-f7ae3f3786ed">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/df5c5d98-259b-4f1e-a30d-4c91c207ffa3">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/57cf0068-cbbf-4cd5-9ce0-37ad1be5fbb2">
+    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/assets/7247848/96b9db32-b8a9-4871-9617-cfc22e0dc2f3">
 </picture>
 
 ## Concept
