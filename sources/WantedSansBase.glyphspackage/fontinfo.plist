@@ -6616,11 +6616,28 @@ value = "Copyright © 2023 Wanted Lab, Inc.";
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Wanted Sans is a sans-serif font closely aligned with the Wanted spirit of ‘All possibilities with working people’. With its geometric design and humanist impression, Wanted Sans is easy to read. Suitable for both display and body text, it boasts beautiful and witty character designs, intelligent context recognition, and other useful features.";
+},
+{
+language = KOR;
+value = "Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 원티드 정신과 가까이 맞닿은 글꼴입니다. 기하학적인 모양으로 곧은 인상과 함께 읽기 쉬운 형태를 지닌 Wanted Sans는 제목과 본문에서 두루 쓸 수 있으며, 아름답고 재치있는 다양한 문자 모양과 함께, 지능적 문맥 인식 등 유용한 여러 기능을 지원합니다.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
 language = dflt;
 value = "Kil Hyung-jin, Kang Hanbin";
+},
+{
+language = KOR;
+value = "길형진, 강한빈";
 }
 );
 },
@@ -6630,6 +6647,10 @@ values = (
 {
 language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+language = KOR;
+value = "이 글꼴은 SIL Open Font License 1.1로 배포하고 있습니다. 라이선스에 대한 자세한 내용은 이곳에서 확인할 수 있습니다(영문): https://scripts.sil.org/OFL";
 }
 );
 },
@@ -6643,6 +6664,10 @@ values = (
 {
 language = dflt;
 value = "Wanted Lab, Inc.";
+},
+{
+language = KOR;
+value = "(주)원티드랩";
 }
 );
 },
