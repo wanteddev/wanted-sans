@@ -7,7 +7,7 @@
     <img width="100%" alt="Wanted Sans Thumbnail" src="https://github.com/wanteddev/wanted-sans/assets/7247848/25efb221-d4f0-4856-ac13-15d1f3cb2f40">
 </picture>
 
-Wanted Sans is a sans-serif font closely aligned with the [Wanted(Korean)](https://wanted.co.kr) spirit of ‘all possibilities with working people.’ With its geometric design and humanist impression, Wanted Sans is easy to read. Suitable for both display and body text, it boasts beautiful and witty character designs, intelligent context recognition, and other useful features.
+Wanted Sans is a sans-serif font closely aligned with the [Wanted(Korean)](https://wanted.co.kr) spirit of ‘all possibilities with working people’. With its geometric design and humanist impression, Wanted Sans is easy to read. Suitable for both display and body text, it boasts beautiful and witty character designs, intelligent context recognition, and other useful features.
 
 Wanted Sans can consistently convey potential in various environments. It supports 7 default weights and is also available as a variable font.
 
