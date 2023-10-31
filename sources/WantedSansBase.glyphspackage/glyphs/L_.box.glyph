@@ -12,7 +12,7 @@ ref = whiteSquare;
 },
 {
 alignment = 1;
-pos = (634,0);
+pos = (632,0);
 ref = L.tag;
 }
 );

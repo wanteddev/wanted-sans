@@ -76,7 +76,7 @@ weight = -72;
 width = 52.5;
 };
 };
-width = 910;
+width = 906;
 },
 {
 anchors = (
@@ -151,7 +151,7 @@ weight = -480;
 width = 55;
 };
 };
-width = 940;
+width = 938;
 }
 );
 note = "# Required RMX Scaler";
