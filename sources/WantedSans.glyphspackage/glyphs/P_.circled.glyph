@@ -12,7 +12,7 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (636,0);
+pos = (634,0);
 ref = P.tag;
 }
 );

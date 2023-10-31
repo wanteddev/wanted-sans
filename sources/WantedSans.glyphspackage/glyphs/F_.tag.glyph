@@ -9,19 +9,19 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (68,344);
+pos = (70,344);
 },
 {
 name = _symbol;
-pos = (308,724);
+pos = (310,724);
 },
 {
 name = bottom;
-pos = (308,344);
+pos = (310,344);
 },
 {
 name = top;
-pos = (308,1104);
+pos = (310,1104);
 }
 );
 layerId = m01;
@@ -29,32 +29,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(208,344,l),
-(208,1104,l),
-(68,1104,l),
-(68,344,l)
+(210,344,l),
+(210,1104,l),
+(70,1104,l),
+(70,344,l)
 );
 },
 {
 attr = {
-identifier = ID0x14ebede90;
+identifier = ID0x1577d3930;
 strokePos = "0";
 };
 closed = 1;
 nodes = (
-(546,974,l),
-(546,1104,l),
-(206,1104,l),
-(206,974,l)
+(548,974,l),
+(548,1104,l),
+(208,1104,l),
+(208,974,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(512,656,l),
-(512,780,l),
-(206,780,l),
-(206,656,l)
+(514,656,l),
+(514,780,l),
+(208,780,l),
+(208,656,l)
 );
 }
 );
@@ -66,7 +66,7 @@ weight = -72;
 width = 52.5;
 };
 };
-width = 600;
+width = 598;
 },
 {
 anchors = (
@@ -100,7 +100,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x15c351e30;
+identifier = ID0x15774f9b0;
 strokePos = "0";
 };
 closed = 1;

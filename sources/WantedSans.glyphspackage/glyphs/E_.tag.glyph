@@ -9,27 +9,27 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (68,344);
+pos = (70,344);
 },
 {
 name = _symbol;
-pos = (314,724);
+pos = (316,724);
 },
 {
 name = bottom;
-pos = (314,344);
+pos = (316,344);
 },
 {
 name = ogonek;
-pos = (422,344);
+pos = (424,344);
 },
 {
 name = top;
-pos = (314,1104);
+pos = (316,1104);
 },
 {
 name = topleft;
-pos = (68,1104);
+pos = (70,1104);
 }
 );
 layerId = m01;
@@ -37,45 +37,45 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(208,344,l),
-(208,1104,l),
-(68,1104,l),
-(68,344,l)
+(210,344,l),
+(210,1104,l),
+(70,1104,l),
+(70,344,l)
 );
 },
 {
 attr = {
-identifier = ID0x15f0c6930;
+identifier = ID0x1577905b0;
 strokePos = "1";
 };
 closed = 1;
 nodes = (
-(562,344,l),
-(562,474,l),
-(206,474,l),
-(206,344,l)
+(564,344,l),
+(564,474,l),
+(208,474,l),
+(208,344,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(524,676,l),
-(524,796,l),
-(206,796,l),
-(206,676,l)
+(526,676,l),
+(526,796,l),
+(208,796,l),
+(208,676,l)
 );
 },
 {
 attr = {
-identifier = ID0x15f0c6930;
+identifier = ID0x1577905b0;
 strokePos = 0;
 };
 closed = 1;
 nodes = (
-(554,974,l),
-(554,1104,l),
-(206,1104,l),
-(206,974,l)
+(556,974,l),
+(556,1104,l),
+(208,1104,l),
+(208,974,l)
 );
 }
 );
@@ -87,7 +87,7 @@ weight = -72;
 width = 52.5;
 };
 };
-width = 616;
+width = 614;
 },
 {
 anchors = (
@@ -129,7 +129,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x15f0c4810;
+identifier = ID0x15774ad20;
 strokePos = "1";
 };
 closed = 1;
@@ -151,7 +151,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x15f0c4810;
+identifier = ID0x15774ad20;
 strokePos = "0";
 };
 closed = 1;

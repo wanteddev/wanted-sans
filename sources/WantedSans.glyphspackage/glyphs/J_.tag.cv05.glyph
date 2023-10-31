@@ -47,7 +47,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x13d6f50c0;
+identifier = ID0x15f6ffe10;
 strokePos = "0";
 };
 closed = 1;
@@ -67,7 +67,7 @@ weight = -72;
 width = 52.5;
 };
 };
-width = 620;
+width = 622;
 },
 {
 anchors = (
@@ -113,7 +113,7 @@ nodes = (
 },
 {
 attr = {
-identifier = ID0x13d6fad40;
+identifier = ID0x15f6fb440;
 strokePos = "0";
 };
 closed = 1;
