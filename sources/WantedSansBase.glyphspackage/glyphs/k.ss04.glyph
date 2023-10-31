@@ -25,11 +25,11 @@ Straight = 1;
 ref = _smart.lowerstem;
 },
 {
-pos = (300,0);
+pos = (302,0);
 ref = _part.kbase;
 }
 );
-width = 990;
+width = 994;
 },
 {
 anchors = (

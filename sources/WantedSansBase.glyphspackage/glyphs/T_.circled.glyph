@@ -12,11 +12,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (588,0);
+pos = (590,0);
 ref = T.tag;
 }
 );
-width = 1874;
+width = 1878;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

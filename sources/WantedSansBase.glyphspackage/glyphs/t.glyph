@@ -7,19 +7,19 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (460,0);
+pos = (462,0);
 },
 {
 name = center;
-pos = (392,516);
+pos = (394,516);
 },
 {
 name = top;
-pos = (328,1288);
+pos = (330,1288);
 },
 {
 name = topright;
-pos = (668,1032);
+pos = (670,1032);
 }
 );
 layerId = m01;
@@ -39,7 +39,7 @@ pos = (112,0);
 ref = _smart.terminal;
 }
 );
-width = 752;
+width = 756;
 },
 {
 associatedMasterId = m01;
@@ -105,7 +105,7 @@ pos = (112,0);
 ref = _smart.terminal;
 }
 );
-width = 752;
+width = 756;
 },
 {
 anchors = (
@@ -476,7 +476,7 @@ pos = (112,0);
 ref = _smart.terminal;
 }
 );
-width = 752;
+width = 756;
 },
 {
 anchors = (

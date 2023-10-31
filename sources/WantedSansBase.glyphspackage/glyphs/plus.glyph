@@ -19,7 +19,7 @@ piece = {
 Condensed = 0;
 Height = 1040;
 };
-pos = (412,20);
+pos = (410,20);
 ref = _smart.upperstem;
 }
 );

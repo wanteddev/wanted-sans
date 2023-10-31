@@ -6,27 +6,27 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (300,0);
+pos = (302,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 },
 {
 name = bottom;
-pos = (216,0);
+pos = (218,0);
 },
 {
 name = ogonek;
-pos = (132,0);
+pos = (134,0);
 },
 {
 name = top;
-pos = (216,1032);
+pos = (218,1032);
 }
 );
 layerId = m01;
-metricLeft = "=132";
+metricLeft = "=134";
 metricRight = "=|";
 partSelection = {
 Cap = 1;
@@ -39,17 +39,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,0,l),
-(300,208,l),
-(300,516,l),
-(300,790,l),
-(300,1032,l),
-(132,1032,l),
-(132,0,l)
+(302,0,l),
+(302,208,l),
+(302,516,l),
+(302,790,l),
+(302,1032,l),
+(134,1032,l),
+(134,0,l)
 );
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (
@@ -104,28 +104,28 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (300,0);
+pos = (302,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 },
 {
 name = bottom;
-pos = (216,0);
+pos = (218,0);
 },
 {
 name = ogonek;
-pos = (132,0);
+pos = (134,0);
 },
 {
 name = top;
-pos = (216,1448);
+pos = (218,1448);
 }
 );
 associatedMasterId = m01;
 layerId = "CB21D970-D491-409F-B895-463B441D1567";
-metricLeft = "=132";
+metricLeft = "=134";
 metricRight = "=|";
 name = Cap;
 partSelection = {
@@ -139,17 +139,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,0,l),
-(300,208,l),
-(300,516,l),
-(300,790,l),
-(300,1448,l),
-(132,1448,l),
-(132,0,l)
+(302,0,l),
+(302,208,l),
+(302,516,l),
+(302,790,l),
+(302,1448,l),
+(134,1448,l),
+(134,0,l)
 );
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (
@@ -206,28 +206,28 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (300,0);
+pos = (302,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 },
 {
 name = bottom;
-pos = (216,-432);
+pos = (218,-432);
 },
 {
 name = ogonek;
-pos = (132,-432);
+pos = (134,-432);
 },
 {
 name = top;
-pos = (216,1032);
+pos = (218,1032);
 }
 );
 associatedMasterId = m01;
 layerId = "C1A1B17D-C3C8-4C28-B76D-31C5E7F8062A";
-metricLeft = "=132";
+metricLeft = "=134";
 metricRight = "=|";
 name = Descender;
 partSelection = {
@@ -241,17 +241,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,-432,l),
-(300,208,l),
-(300,516,l),
-(300,790,l),
-(300,1032,l),
-(132,1032,l),
-(132,-432,l)
+(302,-432,l),
+(302,208,l),
+(302,516,l),
+(302,790,l),
+(302,1032,l),
+(134,1032,l),
+(134,-432,l)
 );
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (
@@ -308,28 +308,28 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (300,0);
+pos = (302,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 },
 {
 name = bottom;
-pos = (216,0);
+pos = (218,0);
 },
 {
 name = ogonek;
-pos = (132,0);
+pos = (134,0);
 },
 {
 name = top;
-pos = (216,1032);
+pos = (218,1032);
 }
 );
 associatedMasterId = m01;
 layerId = "89039904-891F-48B9-BBE6-3208CB39C3CF";
-metricLeft = "=132";
+metricLeft = "=134";
 metricRight = "=|";
 name = Cross;
 partSelection = {
@@ -343,17 +343,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,0,l),
-(300,208,l),
-(256,516,l),
-(300,790,l),
-(300,1032,l),
-(132,1032,l),
-(132,0,l)
+(302,0,l),
+(302,208,l),
+(258,516,l),
+(302,790,l),
+(302,1032,l),
+(134,1032,l),
+(134,0,l)
 );
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (
@@ -461,28 +461,28 @@ width = 632;
 anchors = (
 {
 name = "#exit";
-pos = (300,0);
+pos = (302,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 },
 {
 name = bottom;
-pos = (216,0);
+pos = (218,0);
 },
 {
 name = ogonek;
-pos = (132,0);
+pos = (134,0);
 },
 {
 name = top;
-pos = (216,1032);
+pos = (218,1032);
 }
 );
 associatedMasterId = m01;
 layerId = "51C86700-EBC8-4193-AD82-362F886D2B67";
-metricLeft = "=132";
+metricLeft = "=134";
 metricRight = "=|";
 name = Straight;
 partSelection = {
@@ -496,17 +496,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,0,l),
-(300,0,l),
-(300,0,l),
-(300,0,l),
-(300,1032,l),
-(132,1032,l),
-(132,0,l)
+(302,0,l),
+(302,0,l),
+(302,0,l),
+(302,0,l),
+(302,1032,l),
+(134,1032,l),
+(134,0,l)
 );
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (
@@ -563,28 +563,28 @@ width = 616;
 anchors = (
 {
 name = "#exit";
-pos = (300,0);
+pos = (302,0);
 },
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 },
 {
 name = bottom;
-pos = (216,-432);
+pos = (218,-432);
 },
 {
 name = ogonek;
-pos = (132,-432);
+pos = (134,-432);
 },
 {
 name = top;
-pos = (216,1032);
+pos = (218,1032);
 }
 );
 associatedMasterId = m01;
 layerId = "D1A79999-4896-4FBF-9ADB-F3F88AE20847";
-metricLeft = "=132";
+metricLeft = "=134";
 metricRight = "=|";
 name = "Straight Descender";
 partSelection = {
@@ -598,17 +598,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,-432,l),
-(300,-432,l),
-(300,-432,l),
-(300,-432,l),
-(300,1032,l),
-(132,1032,l),
-(132,-432,l)
+(302,-432,l),
+(302,-432,l),
+(302,-432,l),
+(302,-432,l),
+(302,1032,l),
+(134,1032,l),
+(134,-432,l)
 );
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (

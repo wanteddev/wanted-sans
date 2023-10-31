@@ -14,11 +14,11 @@ piece = {
 Lowercase = 1;
 Open = 0;
 };
-pos = (602,-8);
+pos = (604,-8);
 ref = _smart.currencystem;
 }
 );
-width = 1132;
+width = 1136;
 },
 {
 attr = {
@@ -65,7 +65,7 @@ piece = {
 Lowercase = 1;
 Open = 100;
 };
-pos = (602,-8);
+pos = (604,-8);
 ref = _smart.currencystem;
 }
 );

@@ -51,7 +51,7 @@ weight = -77;
 width = 61;
 };
 };
-width = 484;
+width = 482;
 },
 {
 guides = (
@@ -101,11 +101,11 @@ weight = -402;
 width = 67;
 };
 };
-width = 582;
+width = 592;
 }
 );
 metricLeft = t.dnom;
-metricRight = t.cv02;
+metricRight = t.dnom;
 note = "# Required RMX Scaler
 
 # Required adjustment non-overshoot height";

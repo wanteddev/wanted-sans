@@ -40,7 +40,7 @@ nodes = (
 );
 };
 layerId = m01;
-metricLeft = "=O*1.13";
+metricLeft = "=O*1.11";
 metricRight = "=|";
 name = Regular;
 shapes = (

@@ -3,7 +3,6 @@ glyphname = softhyphen;
 layers = (
 {
 layerId = m01;
-metricWidth = "=0";
 width = 0;
 },
 {
@@ -12,5 +11,6 @@ metricWidth = "=0";
 width = 0;
 }
 );
+metricWidth = zerowidthspace;
 unicode = 173;
 }

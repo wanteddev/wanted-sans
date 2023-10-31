@@ -40,7 +40,7 @@ pos = (120,0);
 ref = _smart.lowerstem;
 }
 );
-width = 720;
+width = 724;
 },
 {
 anchors = (
@@ -120,7 +120,7 @@ pos = (120,0);
 ref = _smart.lowerstem;
 }
 );
-width = 720;
+width = 724;
 },
 {
 anchors = (

@@ -20,11 +20,11 @@ shapes = (
 ref = h;
 },
 {
-pos = (264,480);
+pos = (266,480);
 ref = strokeshortcomb;
 }
 );
-width = 1104;
+width = 1108;
 },
 {
 background = {

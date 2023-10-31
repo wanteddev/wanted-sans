@@ -27,7 +27,7 @@ nodes = (
 );
 }
 );
-width = 648;
+width = 640;
 },
 {
 background = {
@@ -57,6 +57,6 @@ width = 880;
 }
 );
 metricLeft = bracketleft;
-metricRight = parenleft;
+metricWidth = parenleft;
 unicode = 12308;
 }

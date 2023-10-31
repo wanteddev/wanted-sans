@@ -33,7 +33,7 @@ Straight = 1;
 ref = _smart.lowerstem;
 }
 );
-width = 432;
+width = 436;
 },
 {
 anchors = (

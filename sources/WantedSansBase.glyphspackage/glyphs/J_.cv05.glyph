@@ -24,11 +24,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (340,0);
+pos = (342,0);
 ref = _part.Jserif;
 }
 );
-width = 1140;
+width = 1144;
 },
 {
 anchors = (

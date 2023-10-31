@@ -7,23 +7,23 @@ layers = (
 anchors = (
 {
 name = _symbol;
-pos = (700,724);
+pos = (702,724);
 },
 {
 name = bottom;
-pos = (700,0);
+pos = (702,0);
 },
 {
 name = center;
-pos = (700,724);
+pos = (702,724);
 },
 {
 name = top;
-pos = (700,1448);
+pos = (702,1448);
 },
 {
 name = topleft;
-pos = (140,1448);
+pos = (142,1448);
 }
 );
 background = {
@@ -46,15 +46,15 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (316,0);
+pos = (318,0);
 ref = _part.Hbase;
 },
 {
-pos = (942,0);
+pos = (944,0);
 ref = _smart.upperstem;
 }
 );
-width = 1398;
+width = 1404;
 },
 {
 anchors = (
