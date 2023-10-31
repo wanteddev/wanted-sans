@@ -18,11 +18,11 @@ pos = (44,0);
 ref = l;
 },
 {
-pos = (260,220);
+pos = (262,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 520;
+width = 524;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

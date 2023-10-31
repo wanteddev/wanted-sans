@@ -23,11 +23,11 @@ ref = O;
 piece = {
 Uppercase = 1;
 };
-pos = (844,184);
+pos = (846,184);
 ref = _smart.diacriticslashlarge;
 }
 );
-width = 1688;
+width = 1692;
 },
 {
 anchors = (

@@ -6,7 +6,7 @@ layers = (
 {
 layerId = m01;
 metricLeft = "=|F";
-metricRight = "=O*1.5";
+metricRight = "=O*1.49";
 shapes = (
 {
 alignment = -1;
@@ -17,11 +17,11 @@ ref = _part.eurobase;
 piece = {
 Width = 976;
 };
-pos = (30,0);
+pos = (32,0);
 ref = _smart.currencybardouble;
 }
 );
-width = 1276;
+width = 1280;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

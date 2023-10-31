@@ -7,11 +7,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (596,0);
+pos = (598,0);
 },
 {
 name = top;
-pos = (596,1448);
+pos = (598,1448);
 }
 );
 background = {
@@ -28,11 +28,11 @@ ref = _smart.upperstem;
 },
 {
 alignment = -1;
-pos = (316,-284);
+pos = (318,-284);
 ref = _smart.Pbase;
 }
 );
-width = 1192;
+width = 1196;
 },
 {
 anchors = (
@@ -67,6 +67,7 @@ width = 1320;
 }
 );
 metricLeft = P;
+metricRight = O;
 metricWidth = P;
 unicode = 222;
 }

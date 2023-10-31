@@ -8,19 +8,19 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (292,0);
+pos = (294,0);
 },
 {
 name = center;
-pos = (216,760);
+pos = (218,760);
 },
 {
 name = top;
-pos = (216,1512);
+pos = (218,1512);
 },
 {
 name = topright;
-pos = (300,1512);
+pos = (302,1512);
 }
 );
 layerId = m01;
@@ -32,7 +32,7 @@ Cap = 115.5;
 ref = _smart.lowerstem.curve;
 }
 );
-width = 532;
+width = 536;
 },
 {
 anchors = (

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (252,0);
+pos = (256,0);
 },
 {
 name = bottom;
@@ -36,7 +36,7 @@ pos = (120,0);
 ref = _part.fbase;
 }
 );
-width = 776;
+width = 780;
 },
 {
 anchors = (
@@ -78,7 +78,7 @@ width = 952;
 anchors = (
 {
 name = "#entry";
-pos = (252,0);
+pos = (254,0);
 },
 {
 name = bottom;

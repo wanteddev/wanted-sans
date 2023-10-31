@@ -8,11 +8,11 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (696,1032);
+pos = (700,1032);
 ref = r.cv15;
 }
 );
-width = 696;
+width = 700;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

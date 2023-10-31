@@ -7,15 +7,15 @@ layers = (
 anchors = (
 {
 name = _symbol;
-pos = (838,724);
+pos = (840,724);
 },
 {
 name = bottom;
-pos = (838,0);
+pos = (840,0);
 },
 {
 name = top;
-pos = (838,1448);
+pos = (840,1448);
 }
 );
 layerId = m01;
@@ -27,11 +27,11 @@ Condensed = 0;
 ref = _smart.upperstem;
 },
 {
-pos = (316,0);
+pos = (318,0);
 ref = _part.Mbase;
 },
 {
-pos = (1360,0);
+pos = (1362,0);
 ref = _part.Mbase;
 scale = (-1,1);
 },
@@ -43,7 +43,7 @@ pos = (1220,0);
 ref = _smart.upperstem;
 }
 );
-width = 1676;
+width = 1680;
 },
 {
 anchors = (

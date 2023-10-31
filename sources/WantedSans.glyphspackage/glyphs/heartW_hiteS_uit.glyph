@@ -3,16 +3,16 @@ glyphname = heartWhiteSuit;
 layers = (
 {
 layerId = m01;
-metricLeft = "=O*2";
+metricLeft = "=O*1.98";
 metricRight = "=|";
 shapes = (
 {
 alignment = -1;
-pos = (4,0);
+pos = (6,0);
 ref = iconHeart.small;
 }
 );
-width = 2058;
+width = 2062;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

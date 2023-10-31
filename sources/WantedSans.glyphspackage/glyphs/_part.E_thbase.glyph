@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (184,0);
+pos = (186,0);
 }
 );
 layerId = m01;
@@ -21,12 +21,12 @@ strokeWidth = 116;
 };
 closed = 0;
 nodes = (
-(32,724,l),
-(768,724,l)
+(34,724,l),
+(770,724,l)
 );
 }
 );
-width = 800;
+width = 804;
 },
 {
 anchors = (
