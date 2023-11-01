@@ -348,10 +348,23 @@ sub fl.ss04 by fl.dlig.ss04;
 name = LOOKUP_DLIG;
 },
 {
-code = "lookup LOOKUP_LIGA_1 {
-# Wanted Logo
+code = "lookup LOOKUP_LIGA_CNTXT_1 {
+sub space [multiply bar X] space by wantedLogoCombinationMark;
+} LOOKUP_LIGA_CNTXT_1;
+
+
+lookup LOOKUP_LIGA_1 {
+# Wanted logo
 sub w a n t e d underscore l o g o by wantedLogo;
-} LOOKUP_LIGA_1;";
+} LOOKUP_LIGA_1;
+
+lookup LOOKUP_LIGA_2 {
+# Wanted logo combination
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 multiply' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 bar' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 X' space';
+} LOOKUP_LIGA_2;
+";
 name = LOOKUP_LIGA;
 },
 {
@@ -1032,6 +1045,7 @@ tag = dlig;
 code = "lookupflag IgnoreMarks;
 
 lookup LOOKUP_LIGA_1;
+lookup LOOKUP_LIGA_2;
 ";
 tag = liga;
 },
@@ -1063,6 +1077,7 @@ tag = rlig;
 {
 code = "# Automatic Code
 
+# Localize forms
 @L = [
 $[name beginswith 'L' and rightKerningGroup == 'L']
 ];
@@ -1082,8 +1097,12 @@ $[name beginswith 'A' and leftKerningGroup == 'A']
 $[name beginswith 'J' and leftKerningGroup == 'J']
 ];
 
-pos @L @Quote' 144 (wght:900) 40 @A;
-pos @L @Quote' 96 (wght:900) 40 @J;";
+pos @L @Quote' 144 (wght:1000) 40 @A;
+pos @L @Quote' 96 (wght:1000) 40 @J;
+
+# Fit Wanted logo combination mark space with letters
+pos wantedLogoCombinationMark -90 @Letter;
+";
 tag = kern;
 },
 {
@@ -4702,6 +4721,9 @@ nine.tag.black = {
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
 };
+wantedLogo = {
+wantedLogoCombinationMark = -90;
+};
 zero = {
 "@MMK_R_seven" = 0;
 };
@@ -6548,6 +6570,9 @@ periodcentered.loclCAT = {
 };
 periodcentered.loclCAT.case = {
 "@MMK_R_H" = -16;
+};
+wantedLogo = {
+wantedLogoCombinationMark = -90;
 };
 zero = {
 "@MMK_R_seven" = 0;
