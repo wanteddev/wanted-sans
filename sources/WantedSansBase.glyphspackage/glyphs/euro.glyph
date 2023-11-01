@@ -21,7 +21,7 @@ pos = (32,0);
 ref = _smart.currencybardouble;
 }
 );
-width = 1280;
+width = 1278;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -30,14 +30,14 @@ metricRight = "=O*1.8";
 shapes = (
 {
 alignment = -1;
-pos = (172,0);
+pos = (170,0);
 ref = _part.eurobase;
 },
 {
 piece = {
 Width = 976;
 };
-pos = (34,0);
+pos = (32,0);
 ref = _smart.currencybardouble;
 }
 );
@@ -52,7 +52,7 @@ de.kutilek.scrawl.rect = (
 de.kutilek.scrawl.size = 2;
 de.kutilek.scrawl.unit = 2;
 };
-width = 1252;
+width = 1256;
 },
 {
 associatedMasterId = m01;
