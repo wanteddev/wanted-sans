@@ -9,10 +9,10 @@ This guide showcases features available in Wanted Sans.
 ### `tnum`: Tabular Figures
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c5954a0b-d9b4-41ae-9de4-e374795ae965">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/42c42e5c-b5d4-438c-82c6-76c93151bd1f">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/37591508-9809-40cc-80c8-c1dc6e640fc3">
-	<img width="100%" alt="tnum" src="https://github.com/wanteddev/wanted-sans/assets/7247848/3efae6eb-db65-4687-b547-6b928441c5bb">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bc924f1e-8283-4bdf-9d5d-648e34475a57">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/61d7a5af-00f9-4b8d-b007-d91704b55fe3">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f49312c8-3f43-4060-944e-3644e3212e68">
+	<img width="100%" alt="tnum" src="https://github.com/wanteddev/wanted-sans/assets/7247848/23c0717e-193c-46cc-8de3-252473ccb283">
 </picture>
 
 Displays numbers with uniform width.
@@ -20,10 +20,10 @@ Displays numbers with uniform width.
 ### `case`: Case-sensitive Forms
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/61c0fa46-af9f-42b0-a41e-c8f4e58d53c3">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a1f57e10-3f34-42b8-bd22-830a94f329a9">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f302a4f7-93c4-4113-9b3c-aa2fd26dfd53">
-	<img width="100%" alt="case" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6e65b46e-7fb5-4397-87d1-a2c2d59e10a6">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d84e3d11-3619-417d-9bef-c8bc6ba8872f">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/94f57748-76c8-46a1-b237-0343043447e1">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/53b24808-ca16-4664-b73f-686d698ee647">
+	<img width="100%" alt="case" src="https://github.com/wanteddev/wanted-sans/assets/7247848/2f2b41ec-9347-4317-b9bc-66b551d3f80e">
 </picture>
 
 Displays forms optimized for use with capital letters.
@@ -31,10 +31,10 @@ Displays forms optimized for use with capital letters.
 ### `calt` `clig`: Contextual Alternates
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/51d855b9-f8ed-4f28-a143-ba3b5deb0808">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/22e8e3bd-1412-4ade-aac6-6d6444e8a50e">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/813c565b-483e-460a-bbcb-85da1e0eecf1">
-	<img width="100%" alt="calt, clig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/050d11aa-1c0c-486c-be62-754b99ae7514">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/1622f276-b0c5-45f9-9c39-f934a1eb1493">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b6758a4a-f3be-4738-a4a3-854ad9727cfe">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/6f5c373a-f31f-43a9-a3ea-b450c93da938">
+	<img width="100%" alt="calt, clig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/61b80c80-60b4-45d4-b15a-104db7809751">
 </picture>
 
 Intelligently recognizes and displays particular characters more naturally based on context.
@@ -42,10 +42,10 @@ Intelligently recognizes and displays particular characters more naturally based
 ### `locl`: Localized Forms
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/030e2e4d-d5fc-4747-a297-6548c1b517de">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a07e4242-64f6-4435-921c-4b19d8ccbe0f">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ecea7ad1-11bf-4026-9f3e-e1d8ca52a51b">
-	<img width="100%" alt="locl" src="https://github.com/wanteddev/wanted-sans/assets/7247848/c208e5f5-e0c5-4bcf-a51f-fd0941e44d6b">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a4ad1aed-ee25-425d-88ad-b4b90cabdb95">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/6c3cedae-d653-4762-9aa1-a6963eaa8710">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/fd2200ed-4186-4c00-a53a-270868dc82dd">
+	<img width="100%" alt="locl" src="https://github.com/wanteddev/wanted-sans/assets/7247848/e0ee1ef5-5fe1-4c15-9545-340de39cf708">
 </picture>
 
 Adjusts character shapes based on the language and region.
@@ -53,10 +53,10 @@ Adjusts character shapes based on the language and region.
 ### `liga`: Ligatures
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/651faf16-a793-426b-a6e3-fa07ce0e23c4">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ec69c4de-547a-4386-a555-6dd453fa735b">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/8cdc9cd9-2af6-4e3a-8faa-f5068424eb05">
-	<img width="100%" alt="liga" src="https://github.com/wanteddev/wanted-sans/assets/7247848/074cb819-12fa-4d13-b01a-e4ac9aa30877">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/eeab5a47-a23d-45d1-a5e5-4faa7868257b">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bf458d22-27e9-4340-9d64-12010361a3d2">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3755156f-f243-44ac-860e-478af27364cd">
+	<img width="100%" alt="liga" src="https://github.com/wanteddev/wanted-sans/assets/7247848/df164457-27d1-4806-b75a-c2e482a38378">
 </picture>
 
 Adjusts character forms in specific compositions.
@@ -64,10 +64,10 @@ Adjusts character forms in specific compositions.
 ### `rlig`: Required Ligatures
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/2ebd40ad-5da1-4898-ab40-e954f91f02a0">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/e89cc1cd-0ca0-4e23-8b6d-1d5f0af5434e">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ae121e92-b08d-430f-b40a-baf6ad597d66">
-	<img width="100%" alt="rlig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/b17a59ee-9aac-4ad7-b1cf-57696dab4dd5">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/2d2a3198-5e9d-4801-9ca9-91d730ae82fa">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/49f7ff6d-8ed4-464c-86b7-ac9c267bcc62">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a40cc4b7-e3c5-4d86-8318-5fd0dfeca29c">
+	<img width="100%" alt="rlig" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0157b947-8f14-4b04-870b-c393b82f9359">
 </picture>
 
 Activates common ligatures in Latin.
@@ -75,10 +75,10 @@ Activates common ligatures in Latin.
 ### `ccmp`: Composite Characters
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f901c92b-1948-4b32-beb4-94582abfc8aa">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a29c13a3-f1d3-4635-8019-702ddda14e9f">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0da34086-f01b-4ede-9c01-a259b3bb38d7">
-	<img width="100%" alt="ccmp" src="https://github.com/wanteddev/wanted-sans/assets/7247848/e0880571-3f49-4a6f-b31e-2270c436573d">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/59f94e11-0f63-4359-95c5-0d02f5d2bef3">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/1f2f17cf-49ef-4307-a57f-1b2f3fa3fb25">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/dc607530-9b58-4c2a-b70b-c531ce502941">
+	<img width="100%" alt="ccmp" src="https://github.com/wanteddev/wanted-sans/assets/7247848/dde6c018-04cb-4038-9e92-2bdb92e24119">
 </picture>
 
 Combines shapes into a single form in specific combinations.
@@ -86,10 +86,10 @@ Combines shapes into a single form in specific combinations.
 ### `frac` `numr` `dnom` `sinf` `sups` `subs`: Fractions and Subscripts/Superscripts
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/08f2ee51-534c-467d-8076-349aa7e44dc2">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/25e87184-438e-4b80-9ce8-d2ee59e1c977">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/aa699557-bd80-44dc-bf5d-a69c2a1d8960">
-	<img width="100%" alt="frac, numr, dnom, sinf, sups, subs" src="https://github.com/wanteddev/wanted-sans/assets/7247848/056c9163-a6d9-4744-8b4d-eb68c19b87f3">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ae1fc188-5173-495b-9c37-c9edd0e8a8f3">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bede3e99-5822-4304-99f6-80d8947eba4d">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c4f732c9-773a-4929-8127-861b20d27e1f">
+	<img width="100%" alt="frac, numr, dnom, sinf, sups, subs" src="https://github.com/wanteddev/wanted-sans/assets/7247848/7d352430-29d3-4d59-920a-943e45558d54">
 </picture>
 
 Displays characters as fractions or as subscript/superscript.
@@ -97,10 +97,10 @@ Displays characters as fractions or as subscript/superscript.
 ### `ordn`: Ordinals
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/00fd4e27-c973-49eb-94fc-f0aa5743a971">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/69dcb8de-93d3-4919-b979-2943cfde4d0a">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f47b653e-dacf-4a94-98e1-5c1eccf6494e">
-	<img width="100%" alt="ordn" src="https://github.com/wanteddev/wanted-sans/assets/7247848/c0613add-0472-49ac-bc18-711a2815b65f">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/afde9e01-50ab-40bf-b171-97988c102908">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a0c42d4d-52af-4514-96ec-390de7e9700f">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bff99e97-41fe-492f-976e-546148393d1e">
+	<img width="100%" alt="ordn" src="https://github.com/wanteddev/wanted-sans/assets/7247848/2c2e70ab-03c4-434e-96bc-632b2b7a22ed">
 </picture>
 
 Displays certain characters as ordinals.
@@ -108,10 +108,10 @@ Displays certain characters as ordinals.
 ### `zero`: Slashed Zero
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/8a5145fe-a348-43f5-ae34-310128da3765">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/62853533-0596-4675-94a4-316d8ce156e6">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/9ba8d1c1-0317-4d77-a919-48fb833304e7">
-	<img width="100%" alt="zero" src="https://github.com/wanteddev/wanted-sans/assets/7247848/2b018989-33bc-4c9d-a8ec-9549925cd404">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/6c193ba5-0c0c-4a67-a771-5e004a5f1804">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bfadb90f-04b9-4401-8a6f-a4872d6a23f9">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/940c374c-c0c8-4d23-94a7-58819fee58e2">
+	<img width="100%" alt="zero" src="https://github.com/wanteddev/wanted-sans/assets/7247848/93431266-038e-4cfd-9a65-96c4b77e6cf9">
 </picture>
 
 Enhances readability of the number 0.
@@ -119,10 +119,10 @@ Enhances readability of the number 0.
 ### `ss01`: Geometric forms
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/4f9db7c8-0bbf-4776-95ba-4e6b4fb20bbf">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a7a0609d-b33e-4c45-b278-3c1757e09056">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/81204d03-615e-495b-a38f-a5d72a677c48">
-	<img width="100%" alt="ss01" src="https://github.com/wanteddev/wanted-sans/assets/7247848/125a17d2-4a12-430e-aae7-6e4f51df6073">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/faf35bc8-f7de-46c7-9ecc-4d120b9cb083">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0fdd2ffa-96da-4ed4-b748-04157aa96f50">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ee4bad81-37e7-4771-abf5-7b9cf3807494">
+	<img width="100%" alt="ss01" src="https://github.com/wanteddev/wanted-sans/assets/7247848/4e4f2a29-0806-4d8d-8e89-512ea44f42c4">
 </picture>
 
 Displays characters in geometric forms.
@@ -130,10 +130,10 @@ Displays characters in geometric forms.
 ### `ss02`: Common numerics
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b7e19afc-5f03-4826-9d86-ea1d9e5573fa">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/98539fa6-5f2f-4e90-9e89-4a39fe504680">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/652172c8-5564-406a-ba0a-8e90f26a9c51">
-	<img width="100%" alt="ss02" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6f5c3df4-337c-4235-b16e-10475e63708e">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/9666ef09-88e0-4d6e-8641-d07ac22ccb0e">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bed77ab5-6f1b-4f4b-8a6d-891f27bb0783">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/db102caa-c596-45ba-ae59-74aba59a3562">
+	<img width="100%" alt="ss02" src="https://github.com/wanteddev/wanted-sans/assets/7247848/6f250e77-61d0-4e44-8474-b075b3797d00">
 </picture>
 
 Displays numbers in their standard forms.
@@ -141,10 +141,10 @@ Displays numbers in their standard forms.
 ### `ss03`: Unique forms
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c86cb481-c476-463a-b0fd-a3770f0bee24">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/fea30c1e-4461-4825-a831-eeec93b76e9c">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f39ba5dd-2f11-41f6-b7e2-66e47f87c9c8">
-	<img width="100%" alt="ss03" src="https://github.com/wanteddev/wanted-sans/assets/7247848/53acf58f-bf34-4830-8563-ad728b6fbe01">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/e9801478-7c6a-4556-b006-e4c8ea70284c">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/40501ef0-0946-4890-a639-6369ce351375">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7aee1439-64de-419e-bfd9-c22be07d707e">
+	<img width="100%" alt="ss03" src="https://github.com/wanteddev/wanted-sans/assets/7247848/f54dfe4d-2e86-44db-94c1-6e3107cdb735">
 </picture>
 
 Presents characters in a playful manner.
@@ -152,10 +152,10 @@ Presents characters in a playful manner.
 ### `ss04`: Legible ascender
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/256d5e19-9ebe-4f50-9a49-f85ad25c4b6d">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/9d4b2014-2249-4257-9b08-4e972a3c41d4">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/e4123422-5be5-4469-a908-f10aea36a9c7">
-	<img width="100%" alt="ss04" src="https://github.com/wanteddev/wanted-sans/assets/7247848/2a46598c-bb78-4b9d-9f84-0b96b9bd583c">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/37446bfc-f03b-40a7-a7ef-64fd05e4d2b3">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ad4d48e2-5ead-40ba-85a9-a88960c6d619">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/69d2f929-e87f-41e5-95c4-7b1c7be8ba5f">
+	<img width="100%" alt="ss04" src="https://github.com/wanteddev/wanted-sans/assets/7247848/fece08ab-37a3-4383-a1ef-12a579ba4ac4">
 </picture>
 
 Improves the readability of ascenders.
@@ -163,10 +163,10 @@ Improves the readability of ascenders.
 ### `ss05`: Korea localization
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c27dd1a9-1350-4678-8bd0-b515cbf59b58">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/090987fc-22bc-477b-8b7b-f0056908b549">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/5ac66d76-be1d-46bf-99c4-de01cfecfdf7">
-	<img width="100%" alt="ss05" src="https://github.com/wanteddev/wanted-sans/assets/7247848/2bc6b51b-6ec8-4444-83f1-ea313036ecc2">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c350bdcb-e3ff-48e1-b86f-9f5bd37382ae">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f6aaac08-8abe-49eb-b64d-7bcf6fda30ce">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bd2c7bcd-6496-4f25-8641-6fc44d1f0888">
+	<img width="100%" alt="ss05" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1acb76c8-f0dd-4f4d-b24f-023290893d73">
 </picture>
 
 Adjusts characters to fit Korean aesthetics.
@@ -174,10 +174,10 @@ Adjusts characters to fit Korean aesthetics.
 ### `ss06`: High legibility
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/6c70ac3a-b33b-4cc1-bf77-bb3077366a18">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a1f55a37-5510-40d9-9f85-882ff85c4dc5">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7fabaf28-8cf2-4a5d-ba45-d3b221a75959">
-	<img width="100%" alt="ss06" src="https://github.com/wanteddev/wanted-sans/assets/7247848/b42477c1-1e87-4d47-b472-0cbd2daed5b5">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/97428e7a-f3f4-4c68-8f70-0f63ba041295">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/23846fad-af0c-4ee3-9ede-60624bf7cd69">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/debf5f4c-a45d-41d9-97b3-a5ed14d9e6f7">
+	<img width="100%" alt="ss06" src="https://github.com/wanteddev/wanted-sans/assets/7247848/14b1d473-eb8d-416d-b946-a7b38fb75e08">
 </picture>
 
 Enhances legibility by presenting characters in forms that provide clearer distinctions between them.
@@ -185,10 +185,10 @@ Enhances legibility by presenting characters in forms that provide clearer disti
 ### `ss11`: Outlined symbol
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/6b072497-b6fe-4e78-b5a7-cf510cfd10f6">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/21ce321f-13a7-425f-9005-0a036d2fee94">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/9c76a2e8-07ce-46ed-9125-681b0caf09b1">
-	<img width="100%" alt="ss11" src="https://github.com/wanteddev/wanted-sans/assets/7247848/79729996-195a-49a9-9afd-452a5952b81a">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d7669ed4-eb9c-4c8e-ba79-967f6a3bf5dc">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/a0f9abde-3d4e-40a0-b8e5-718e9543bec9">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/cae35a50-5774-4b81-a335-c5fbe8aab866">
+	<img width="100%" alt="ss11" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0998ec0c-de25-43a1-8dbf-46e0fad867c5">
 </picture>
 
 Displays filled symbols in outline form.
@@ -196,10 +196,10 @@ Displays filled symbols in outline form.
 ### `ss12`: Circle symbols
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bc06e966-f962-4c7c-8855-537642921355">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/be19ae2d-3ee7-400e-aa0f-c4ca2f806f6e">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/d8753a1f-9de3-465d-9516-f5dc1150c905">
-	<img width="100%" alt="ss12" src="https://github.com/wanteddev/wanted-sans/assets/7247848/f53c794f-d9df-4fde-9228-d3aff8958243">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/0458f9be-beb1-4fe9-91f4-2ca5673f4123">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/dbc590cc-2966-44a3-b86c-6d5b2e5caf87">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/e2d7925a-076e-45ce-90ac-c9f27bd3abb6">
+	<img width="100%" alt="ss12" src="https://github.com/wanteddev/wanted-sans/assets/7247848/531cd036-cf4a-4f64-b517-0fafe88f609f">
 </picture>
 
 Displays square symbols as circular.
@@ -207,10 +207,10 @@ Displays square symbols as circular.
 ### `ss13`: Square symbols
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b346ab3b-4c89-4d20-bc8c-c3d9171d47f1">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/37bcb798-a94b-420d-aaec-04f01b07a854">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/df4f84aa-9012-423c-83dc-229dac00b055">
-	<img width="100%" alt="ss13" src="https://github.com/wanteddev/wanted-sans/assets/7247848/d3e354d3-d2b7-4d08-9a05-85793b1368a6">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/4b0aa799-253b-4f97-8dd2-b31c0d2fd503">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3c3b13b6-59e3-4b44-9bf1-e4b47504c003">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/74ffe1a5-b63c-45e3-80d6-93978be3136c">
+	<img width="100%" alt="ss13" src="https://github.com/wanteddev/wanted-sans/assets/7247848/b898984d-8be1-4f73-a5e0-013a95774776">
 </picture>
 
 Displays circular symbols as square.
@@ -218,10 +218,10 @@ Displays circular symbols as square.
 ### `ss14`: Filled symbols
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/46b1302b-67cc-40fa-b610-c9a5892a7632">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3bf19a64-d836-4088-a1b5-0593798c1d14">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/55c8a08b-071a-4fa8-8bc0-48b178a70047">
-	<img width="100%" alt="ss14" src="https://github.com/wanteddev/wanted-sans/assets/7247848/7230c7e3-a322-472a-bc21-8adcff323d58">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/2318a076-eb4e-4cbd-9d99-05fea4309dca">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3a6c9b49-4655-4ad5-a732-ba3e00f214b2">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/78396a67-3351-4a34-a889-4fa75dd0dbb6">
+	<img width="100%" alt="ss14" src="https://github.com/wanteddev/wanted-sans/assets/7247848/99ee816d-204e-486a-8495-6184c94e64b7">
 </picture>
 
 Presents outlined symbols in filled form.
@@ -229,10 +229,10 @@ Presents outlined symbols in filled form.
 ### `ss15`: Small symbols
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/17b0e543-210b-499f-b8cd-fa2cc66a5bca">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b4c78034-529a-481a-b586-adf555f544af">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/c8957207-3d68-44dd-b9f6-d2e21680bf99">
-	<img width="100%" alt="ss15" src="https://github.com/wanteddev/wanted-sans/assets/7247848/44242dcf-38de-4ab1-b4c9-42539c99e363">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/9d6cde05-d665-4838-ab45-aedf50564757">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/fe2a48f2-5680-4923-bcb7-1995047ef321">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/ea57a12d-bb37-4976-be89-4f298c6eb873">
+	<img width="100%" alt="ss15" src="https://github.com/wanteddev/wanted-sans/assets/7247848/3286bfbf-af33-4d95-815f-91305fefa1ed">
 </picture>
 
 Displays symbols in a smaller form.
@@ -240,10 +240,10 @@ Displays symbols in a smaller form.
 ### `ss16`: Large symbols
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/bc2612e1-845b-49dd-a945-e8975c258907">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/71727ef6-f869-4d3e-b6c3-b77bea59ec75">
-    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/3ff6ab19-59bf-4ab4-b600-8653de7f9d47">
-	<img width="100%" alt="ss16" src="https://github.com/wanteddev/wanted-sans/assets/7247848/1619b676-a9c8-471d-b419-b21bd83545c9">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/69eab0de-4c0f-4cc7-b1a6-d8b480de2bfa">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/f5b7d2fe-4693-4531-8d26-54c56d489439">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/12e45ad2-76f7-4ab1-9649-2c0db6ee181d">
+	<img width="100%" alt="ss16" src="https://github.com/wanteddev/wanted-sans/assets/7247848/669bcc35-379a-44e6-bde1-2ed696441cfc">
 </picture>
 
 Displays symbols in a larger form.
@@ -251,10 +251,10 @@ Displays symbols in a larger form.
 ### `cvxx`: Character Variants
 
 <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/641ad02d-d1e5-4e2c-9240-963bbd2efe79">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/8ce17612-e6ae-442d-951c-bee6f80207e9">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/25e73306-046d-4ef8-a1b5-7d5ba27959eb">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/034e8607-07c1-44d2-a3d4-2208d30fd3fe">
     <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/dea4e4af-70ee-4728-85a9-fb6086af6870">
-	<img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/90b67380-9976-4cd4-b376-ceb476103c8f">
+	<img width="100%" alt="cvxx" src="https://github.com/wanteddev/wanted-sans/assets/7247848/17ad20d3-7dd8-4cae-a5ea-28abea2c3dcf">
 </picture>
 
 Changes the appearance of character shapes.
