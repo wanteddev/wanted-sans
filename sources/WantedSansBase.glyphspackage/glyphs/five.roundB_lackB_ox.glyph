@@ -16,7 +16,7 @@ attr = {
 reversePaths = "1";
 };
 pos = (602,0);
-ref = _part.five.symbol.black;
+ref = _part.symbol.five.black;
 }
 );
 width = 1878;
@@ -34,7 +34,7 @@ attr = {
 reversePaths = "1";
 };
 pos = (622,0);
-ref = _part.five.symbol.black;
+ref = _part.symbol.five.black;
 }
 );
 width = 1974;

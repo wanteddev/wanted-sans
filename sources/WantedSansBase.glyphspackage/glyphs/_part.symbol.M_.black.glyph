@@ -1,0 +1,193 @@
+{
+color = 4;
+export = 0;
+glyphname = _part.symbol.M.black;
+kernLeft = H.tag;
+kernRight = H.tag;
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (448,344);
+},
+{
+name = "#exit";
+pos = (830,344);
+},
+{
+name = _symbol;
+pos = (448,724);
+},
+{
+name = bottom;
+pos = (448,344);
+},
+{
+name = top;
+pos = (448,1104);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,344,l),
+(202,1104,l),
+(66,1104,l),
+(66,344,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,344,l),
+(450,550,l),
+(450,560,l),
+(438,560,l),
+(450,550,l),
+(242,1104,l),
+(200,1104,l),
+(200,852,l),
+(200,838,l),
+(214,838,l),
+(200,852,l),
+(390,344,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(696,852,l),
+(682,838,l),
+(696,838,l),
+(696,852,l),
+(696,1104,l),
+(656,1104,l),
+(446,550,l),
+(458,560,l),
+(446,560,l),
+(446,550,l),
+(446,344,l),
+(506,344,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(830,344,l),
+(830,1104,l),
+(694,1104,l),
+(694,344,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 50;
+};
+};
+width = 896;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (490,326);
+},
+{
+name = "#exit";
+pos = (922,326);
+},
+{
+name = _symbol;
+pos = (490,724);
+},
+{
+name = bottom;
+pos = (490,326);
+},
+{
+name = top;
+pos = (490,1122);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(268,326,l),
+(268,1122,l),
+(58,1122,l),
+(58,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(492,326,l),
+(492,648,l),
+(492,658,l),
+(476,658,l),
+(492,648,l),
+(330,1122,l),
+(266,1122,l),
+(266,756,l),
+(266,738,l),
+(280,738,l),
+(266,756,l),
+(404,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(714,756,l),
+(700,738,l),
+(714,738,l),
+(714,756,l),
+(714,1122,l),
+(652,1122,l),
+(488,648,l),
+(504,658,l),
+(488,658,l),
+(488,648,l),
+(488,326,l),
+(576,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(922,326,l),
+(922,1122,l),
+(712,1122,l),
+(712,326,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 55;
+verticalShift = 326;
+weight = -480;
+width = 50;
+};
+};
+width = 980;
+}
+);
+note = "# Required RMX Scaler
+
+# Required Adjustment overlap from Black";
+userData = {
+RMXScaler = {
+source = M;
+};
+};
+}

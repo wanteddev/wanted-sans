@@ -4316,10 +4316,10 @@ zero.dnom = 0;
 "@MMK_R_A.tag" = -80;
 "@MMK_R_J.tag" = -82;
 "@MMK_R_O.tag" = -21;
-_part.six.symbol = 0;
-_part.six.symbol.black = 0;
-_part.zero.symbol = 0;
-_part.zero.symbol.black = 0;
+_part.symbol.six = 0;
+_part.symbol.six.black = 0;
+_part.symbol.zero = 0;
+_part.symbol.zero.black = 0;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -48;
@@ -4687,6 +4687,18 @@ zero.dnom = 0;
 "@MMK_R_o" = -136;
 "@MMK_R_s" = -88;
 };
+_part.symbol.nine = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.nine.black = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero.black = {
+"@MMK_R_seven.tag" = 0;
+};
 asterisk = {
 "@MMK_R_asterisk" = 0;
 };
@@ -4712,12 +4724,6 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-_part.nine.symbol = {
-"@MMK_R_seven.tag" = 0;
-};
-_part.nine.symbol.black = {
-"@MMK_R_seven.tag" = 0;
-};
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
 };
@@ -4730,12 +4736,6 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
-};
-_part.zero.symbol = {
-"@MMK_R_seven.tag" = 0;
-};
-_part.zero.symbol.black = {
-"@MMK_R_seven.tag" = 0;
 };
 };
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = {
@@ -6533,6 +6533,18 @@ _part.percentzero = -64;
 "@MMK_R_o" = -128;
 "@MMK_R_s" = -80;
 };
+_part.symbol.nine = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.nine.black = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero.black = {
+"@MMK_R_seven.tag" = 0;
+};
 braceleft = {
 "@MMK_R_A" = 0;
 };
@@ -6559,12 +6571,6 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-_part.nine.symbol = {
-"@MMK_R_seven.tag" = 0;
-};
-_part.nine.symbol.black = {
-"@MMK_R_seven.tag" = 0;
-};
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
 };
@@ -6580,12 +6586,6 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
-};
-_part.zero.symbol = {
-"@MMK_R_seven.tag" = 0;
-};
-_part.zero.symbol.black = {
-"@MMK_R_seven.tag" = 0;
 };
 };
 };

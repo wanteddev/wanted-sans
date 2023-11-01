@@ -13,7 +13,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (628,0);
-ref = _part.F.symbol;
+ref = _part.symbol.F;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (686,0);
-ref = _part.F.symbol;
+ref = _part.symbol.F;
 }
 );
 width = 1974;

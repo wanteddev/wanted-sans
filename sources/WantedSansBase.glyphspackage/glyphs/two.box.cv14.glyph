@@ -13,7 +13,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (612,0);
-ref = _part.two.symbol.cv14;
+ref = _part.symbol.two.cv14;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (654,0);
-ref = _part.two.symbol.cv14;
+ref = _part.symbol.two.cv14;
 }
 );
 width = 1974;
