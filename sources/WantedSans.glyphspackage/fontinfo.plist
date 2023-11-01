@@ -360,7 +360,7 @@ name = LOOKUP_DLIG;
 },
 {
 code = "lookup LOOKUP_LIGA_CNTXT_1 {
-sub space [multiply bar X] space by wantedLogoCombinationMark;
+sub space [multiply multiply.case bar X] space by wantedLogoCombinationMark;
 } LOOKUP_LIGA_CNTXT_1;
 
 
@@ -371,7 +371,7 @@ sub w a n t e d underscore l o g o by wantedLogo;
 
 lookup LOOKUP_LIGA_2 {
 # Wanted logo combination
-sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 multiply' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 [multiply multiply.case]' space';
 sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 bar' space';
 sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 X' space';
 } LOOKUP_LIGA_2;
