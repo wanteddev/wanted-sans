@@ -16,7 +16,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (626,0);
-ref = one.tag.black.cv17;
+ref = _part.symbol.one.black.cv17;
 }
 );
 width = 1878;
@@ -34,7 +34,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (636,0);
-ref = one.tag.black.cv17;
+ref = _part.symbol.one.black.cv17;
 }
 );
 width = 1974;

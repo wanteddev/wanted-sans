@@ -359,10 +359,23 @@ sub fl.ss04 by fl.dlig.ss04;
 name = LOOKUP_DLIG;
 },
 {
-code = "lookup LOOKUP_LIGA_1 {
-# Wanted Logo
+code = "lookup LOOKUP_LIGA_CNTXT_1 {
+sub space [multiply bar X] space by wantedLogoCombinationMark;
+} LOOKUP_LIGA_CNTXT_1;
+
+
+lookup LOOKUP_LIGA_1 {
+# Wanted logo
 sub w a n t e d underscore l o g o by wantedLogo;
-} LOOKUP_LIGA_1;";
+} LOOKUP_LIGA_1;
+
+lookup LOOKUP_LIGA_2 {
+# Wanted logo combination
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 multiply' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 bar' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 X' space';
+} LOOKUP_LIGA_2;
+";
 name = LOOKUP_LIGA;
 },
 {
@@ -1043,6 +1056,7 @@ tag = dlig;
 code = "lookupflag IgnoreMarks;
 
 lookup LOOKUP_LIGA_1;
+lookup LOOKUP_LIGA_2;
 ";
 tag = liga;
 },
@@ -1074,6 +1088,7 @@ tag = rlig;
 {
 code = "# Automatic Code
 
+# Localize forms
 @L = [
 $[name beginswith 'L' and rightKerningGroup == 'L']
 ];
@@ -1093,8 +1108,12 @@ $[name beginswith 'A' and leftKerningGroup == 'A']
 $[name beginswith 'J' and leftKerningGroup == 'J']
 ];
 
-pos @L @Quote' 144 (wght:900) 40 @A;
-pos @L @Quote' 96 (wght:900) 40 @J;";
+pos @L @Quote' 144 (wght:1000) 40 @A;
+pos @L @Quote' 96 (wght:1000) 40 @J;
+
+# Fit Wanted logo combination mark space with letters
+pos wantedLogoCombinationMark -90 @Letter;
+";
 tag = kern;
 },
 {
@@ -4308,10 +4327,10 @@ zero.dnom = 0;
 "@MMK_R_A.tag" = -80;
 "@MMK_R_J.tag" = -82;
 "@MMK_R_O.tag" = -21;
-six.tag = 0;
-six.tag.black = 0;
-zero.tag = 0;
-zero.tag.black = 0;
+_part.symbol.six = 0;
+_part.symbol.six.black = 0;
+_part.symbol.zero = 0;
+_part.symbol.zero.black = 0;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -48;
@@ -4679,6 +4698,18 @@ zero.dnom = 0;
 "@MMK_R_o" = -136;
 "@MMK_R_s" = -88;
 };
+_part.symbol.nine = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.nine.black = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero.black = {
+"@MMK_R_seven.tag" = 0;
+};
 asterisk = {
 "@MMK_R_asterisk" = 0;
 };
@@ -4704,14 +4735,11 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-nine.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-nine.tag.black = {
-"@MMK_R_seven.tag" = 0;
-};
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
+};
+wantedLogo = {
+wantedLogoCombinationMark = -90;
 };
 zero = {
 "@MMK_R_seven" = 0;
@@ -4719,12 +4747,6 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
-};
-zero.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-zero.tag.black = {
-"@MMK_R_seven.tag" = 0;
 };
 };
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = {
@@ -6522,6 +6544,18 @@ _part.percentzero = -64;
 "@MMK_R_o" = -128;
 "@MMK_R_s" = -80;
 };
+_part.symbol.nine = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.nine.black = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero.black = {
+"@MMK_R_seven.tag" = 0;
+};
 braceleft = {
 "@MMK_R_A" = 0;
 };
@@ -6548,17 +6582,14 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-nine.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-nine.tag.black = {
-"@MMK_R_seven.tag" = 0;
-};
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
 };
 periodcentered.loclCAT.case = {
 "@MMK_R_H" = -16;
+};
+wantedLogo = {
+wantedLogoCombinationMark = -90;
 };
 zero = {
 "@MMK_R_seven" = 0;
@@ -6566,12 +6597,6 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
-};
-zero.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-zero.tag.black = {
-"@MMK_R_seven.tag" = 0;
 };
 };
 };

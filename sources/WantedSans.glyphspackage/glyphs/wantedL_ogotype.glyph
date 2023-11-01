@@ -1,5 +1,5 @@
 {
-category = Icon;
+category = "SF-Symbol";
 glyphname = wantedLogotype;
 kernLeft = w;
 kernRight = l;
@@ -901,5 +901,6 @@ nodes = (
 width = 6632;
 }
 );
+subCategory = "";
 unicode = 983042;
 }

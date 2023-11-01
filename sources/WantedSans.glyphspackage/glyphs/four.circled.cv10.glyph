@@ -13,7 +13,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (586,0);
-ref = four.tag.cv10;
+ref = _part.symbol.four.cv10;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (624,0);
-ref = four.tag.cv10;
+ref = _part.symbol.four.cv10;
 }
 );
 width = 1974;

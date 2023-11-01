@@ -13,7 +13,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (590,0);
-ref = K.tag;
+ref = _part.symbol.K;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (612,0);
-ref = K.tag;
+ref = _part.symbol.K;
 }
 );
 width = 1974;
