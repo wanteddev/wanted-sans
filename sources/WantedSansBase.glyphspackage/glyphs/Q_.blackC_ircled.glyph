@@ -19,7 +19,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (522,0);
-ref = Q.tag.black;
+ref = _part.Q.symbol.black;
 }
 );
 width = 1974;
@@ -39,7 +39,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (494,0);
-ref = Q.tag.black;
+ref = _part.Q.symbol.black;
 }
 );
 width = 1878;

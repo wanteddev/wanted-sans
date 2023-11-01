@@ -13,7 +13,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (626,0);
-ref = one.tag.cv17;
+ref = _part.one.symbol.cv17;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (664,0);
-ref = one.tag.cv17;
+ref = _part.one.symbol.cv17;
 }
 );
 width = 1974;

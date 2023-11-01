@@ -13,7 +13,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (602,0);
-ref = three.tag.cv09;
+ref = _part.three.symbol.cv09;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (644,0);
-ref = three.tag.cv09;
+ref = _part.three.symbol.cv09;
 }
 );
 width = 1974;

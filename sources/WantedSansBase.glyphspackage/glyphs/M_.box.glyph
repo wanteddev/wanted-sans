@@ -13,7 +13,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (490,0);
-ref = M.tag;
+ref = _part.M.symbol;
 }
 );
 width = 1878;
@@ -28,7 +28,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (534,0);
-ref = M.tag;
+ref = _part.M.symbol;
 }
 );
 width = 1974;

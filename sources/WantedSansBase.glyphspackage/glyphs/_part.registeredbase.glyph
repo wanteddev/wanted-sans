@@ -10,7 +10,7 @@ ref = _part.registeredcircle;
 },
 {
 pos = (474,0);
-ref = R.tag;
+ref = _part.R.symbol;
 }
 );
 width = 1606;
@@ -23,7 +23,7 @@ ref = _part.registeredcircle;
 },
 {
 pos = (498,0);
-ref = R.tag;
+ref = _part.R.symbol;
 }
 );
 width = 1672;

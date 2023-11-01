@@ -16,7 +16,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (798,0);
-ref = I.tag.black;
+ref = _part.I.symbol.black;
 }
 );
 width = 1878;
@@ -34,7 +34,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (820,0);
-ref = I.tag.black;
+ref = _part.I.symbol.black;
 }
 );
 width = 1974;

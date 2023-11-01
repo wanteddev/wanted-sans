@@ -1,0 +1,175 @@
+{
+color = 4;
+export = 0;
+glyphname = _part.W.symbol.black;
+kernLeft = V.tag;
+kernRight = V.tag;
+layers = (
+{
+anchors = (
+{
+name = _symbol;
+pos = (500,724);
+},
+{
+name = bottom;
+pos = (500,344);
+},
+{
+name = center;
+pos = (500,724);
+},
+{
+name = top;
+pos = (500,1104);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,344,l),
+(360,526,l),
+(258,526,l),
+(360,344,l),
+(170,1104,l),
+(22,1104,l),
+(230,344,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(380,344,l),
+(544,1030,l),
+(456,858,l),
+(544,858,l),
+(544,1030,l),
+(534,1104,l),
+(436,1104,l),
+(258,344,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(742,344,l),
+(742,526,l),
+(640,526,l),
+(742,344,l),
+(564,1104,l),
+(466,1104,l),
+(456,1030,l),
+(620,344,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(770,344,l),
+(978,1104,l),
+(830,1104,l),
+(640,344,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 45;
+};
+};
+width = 1000;
+},
+{
+anchors = (
+{
+name = _symbol;
+pos = (550,724);
+},
+{
+name = bottom;
+pos = (550,326);
+},
+{
+name = center;
+pos = (550,724);
+},
+{
+name = top;
+pos = (550,1122);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(434,326,l),
+(434,634,l),
+(266,634,l),
+(434,326,l),
+(250,1122,l),
+(18,1122,l),
+(238,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(448,326,l),
+(610,1004,l),
+(488,774,l),
+(610,774,l),
+(610,1004,l),
+(598,1122,l),
+(458,1122,l),
+(266,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(832,326,l),
+(832,634,l),
+(664,634,l),
+(832,326,l),
+(642,1122,l),
+(500,1122,l),
+(488,1004,l),
+(652,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(860,326,l),
+(1080,1122,l),
+(848,1122,l),
+(664,326,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 55;
+verticalShift = 326;
+weight = -480;
+width = 47.5;
+};
+};
+width = 1098;
+}
+);
+metricLeft = V.tag;
+metricRight = V.tag;
+note = "# Required RMX Scaler";
+userData = {
+RMXScaler = {
+source = W;
+};
+};
+}

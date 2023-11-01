@@ -4316,10 +4316,10 @@ zero.dnom = 0;
 "@MMK_R_A.tag" = -80;
 "@MMK_R_J.tag" = -82;
 "@MMK_R_O.tag" = -21;
-six.tag = 0;
-six.tag.black = 0;
-zero.tag = 0;
-zero.tag.black = 0;
+_part.six.symbol = 0;
+_part.six.symbol.black = 0;
+_part.zero.symbol = 0;
+_part.zero.symbol.black = 0;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -48;
@@ -4712,10 +4712,10 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-nine.tag = {
+_part.nine.symbol = {
 "@MMK_R_seven.tag" = 0;
 };
-nine.tag.black = {
+_part.nine.symbol.black = {
 "@MMK_R_seven.tag" = 0;
 };
 periodcentered.loclCAT = {
@@ -4731,10 +4731,10 @@ zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-zero.tag = {
+_part.zero.symbol = {
 "@MMK_R_seven.tag" = 0;
 };
-zero.tag.black = {
+_part.zero.symbol.black = {
 "@MMK_R_seven.tag" = 0;
 };
 };
@@ -6559,10 +6559,10 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-nine.tag = {
+_part.nine.symbol = {
 "@MMK_R_seven.tag" = 0;
 };
-nine.tag.black = {
+_part.nine.symbol.black = {
 "@MMK_R_seven.tag" = 0;
 };
 periodcentered.loclCAT = {
@@ -6581,10 +6581,10 @@ zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-zero.tag = {
+_part.zero.symbol = {
 "@MMK_R_seven.tag" = 0;
 };
-zero.tag.black = {
+_part.zero.symbol.black = {
 "@MMK_R_seven.tag" = 0;
 };
 };
