@@ -2026,7 +2026,7 @@ tag = cv13;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic 2\";
+	name \"Unique 2\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2047,7 +2047,7 @@ tag = cv14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic r\";
+	name \"Unique r\";
 }; };
 
 # Copy and paste codes below automatically generated feature
