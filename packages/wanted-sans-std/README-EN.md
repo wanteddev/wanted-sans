@@ -15,8 +15,8 @@ You can use Latin-only version of Wanted Sans.
 ## Preview
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/40cb5e8c-233f-42df-b995-dd357e50017c">
-    <img width="100%" alt="Wanted Sans Preview" src="https://github.com/wanteddev/wanted-sans/assets/7247848/828dad2a-3d7a-4fd9-87a9-4f5796a9aa73">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/752b1f10-cced-432c-8793-95d14c364f80">
+    <img width="100%" alt="Wanted Sans Preview" src="https://github.com/wanteddev/wanted-sans/assets/7247848/4e006c1d-954b-4530-b95d-1ae52d117ff5">
 </picture>
 
 ## Concept
