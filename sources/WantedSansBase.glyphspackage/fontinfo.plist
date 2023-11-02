@@ -273,7 +273,6 @@ sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Le
 
 lookup LOOKUP_CALT_3 {
 # Align ellipsis with Hangeul
-
 @ELLIPSIS_L = [
 $[colorIndex == 0 and note contains \"$3_CALT\"]
 ];
@@ -289,8 +288,6 @@ $[name beginswith \"parenleft\"]
 @Parenright = [
 $[name beginswith \"parenright\"]
 ];
-
-# Cut ellipsis insides paren
 
 # Cut three more ellipsis glyphs
 ignore sub period @ELLIPSIS_L';
@@ -319,7 +316,6 @@ sub @ELLIPSIS_L' period @Hangeul by @ELLIPSIS_R;
 sub @ELLIPSIS_L' period @Separator @Hangeul by @ELLIPSIS_R;
 sub @ELLIPSIS_L' @ELLIPSIS_L period @Hangeul by @ELLIPSIS_R;
 sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Hangeul by @ELLIPSIS_R;
-
 } LOOKUP_CALT_3;
 ";
 name = LOOKUP_CALT;
@@ -2175,7 +2171,7 @@ tag = cv18;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic f\";
+	name \"Unique f\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2211,7 +2207,7 @@ tag = cv19;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic g\";
+	name \"Unique g\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2232,7 +2228,7 @@ tag = cv20;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic a\";
+	name \"Unique a\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2264,7 +2260,7 @@ tag = cv21;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic e\";
+	name \"Unique e\";
 }; };
 
 # Copy and paste codes below automatically generated feature
