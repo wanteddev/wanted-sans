@@ -48,6 +48,10 @@ To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/READ
 
 Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus), [Kang Hanbin](https://www.instagram.com/phaelkang)
 
+#### Hangeul base
+
+[Source Han Sans](https://github.com/adobe-fonts/source-han-sans): Adobe, Google, Sandoll Communications; Jang Soo-young and Kang Joo-yeon
+
 #### Manufacture
 
 Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus)
@@ -55,10 +59,6 @@ Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus)
 #### Plan
 
 Wanted Lab, Inc.; [Kim Dong-hwi](https://www.instagram.com/donghuui.kim)
-
-#### Hangeul base
-
-[Source Han Sans](https://github.com/adobe-fonts/source-han-sans): Adobe, Google, Sandoll Communications; Jang Soo-young and Kang Joo-yeon
 
 #### Supported Scripts
 

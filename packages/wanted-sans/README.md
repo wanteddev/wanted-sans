@@ -44,6 +44,10 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 
 원티드랩; [길형진](https://www.instagram.com/orioncactus), [강한빈](https://www.instagram.com/phaelkang)
 
+#### 한글 바탕
+
+[본고딕](https://github.com/adobe-fonts/source-han-sans): Adobe, Google, 산돌커뮤니케이션; 장수영, 강주연
+
 #### 제작
 
 원티드랩; [길형진](https://www.instagram.com/orioncactus)
@@ -51,10 +55,6 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 #### 기획
 
 원티드랩; [김동휘](https://www.instagram.com/donghuui.kim)
-
-#### 한글 바탕
-
-[본고딕](https://github.com/adobe-fonts/source-han-sans): Adobe, Google, 산돌커뮤니케이션; 장수영, 강주연
 
 #### 지원 스크립트
 
