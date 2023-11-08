@@ -523,6 +523,7 @@ feature pnum;
 feature tnum;
 feature case;
 feature zero;
+feature salt;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -1100,6 +1101,43 @@ pos @L @Quote' 96 (wght:1000) 40 @J;
 pos wantedLogoCombinationMark -90 @Letter;
 ";
 tag = kern;
+},
+{
+code = "# Bring cv03 cv06
+sub a by a.cv03;
+sub aacute by aacute.cv03;
+sub abreve by abreve.cv03;
+sub abrevedotbelow by abrevedotbelow.cv03;
+sub acaron by acaron.cv03;
+sub acircumflex by acircumflex.cv03;
+sub acircumflexdotbelow by acircumflexdotbelow.cv03;
+sub adblgrave by adblgrave.cv03;
+sub adieresis by adieresis.cv03;
+sub adotaccent by adotaccent.cv03;
+sub adotbelow by adotbelow.cv03;
+sub agrave by agrave.cv03;
+sub amacron by amacron.cv03;
+sub aogonek by aogonek.cv03;
+sub aring by aring.cv03;
+sub atilde by atilde.cv03;
+sub aturned by aturned.cv03;
+sub aacute.loclPLK by aacute.loclPLK.cv03;
+sub a.dnom by a.dnom.cv03;
+sub a.numr by a.numr.cv03;
+sub a.subs by a.subs.cv03;
+sub a.sups by a.sups.cv03;
+sub ordfeminine by ordfeminine.cv03;
+sub Q by Q.cv06;
+sub Q.blackCircled by Q.blackCircled.cv06;
+sub Q.box by Q.box.cv06;
+sub Q.roundBlackBox by Q.roundBlackBox.cv06;
+sub Q.blackCircled.bold by Q.blackCircled.bold.cv06;
+sub Q.box.bold by Q.box.bold.cv06;
+sub Q.circled by Q.circled.cv06;
+sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
+sub Q.circled.bold by Q.circled.bold.cv06;
+";
+tag = salt;
 },
 {
 code = "# Bring cv01 cv02 cv04 cv06 cv07 cv08 cv11 cv12 cv13
