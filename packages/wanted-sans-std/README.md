@@ -33,9 +33,17 @@ Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https:
 
 ## 크레딧
 
-#### 바탕 및 제작
+#### 디자인
 
-원티드랩; [길형진](https://www.instagram.com/orioncactus/), [강한빈](https://www.instagram.com/phaelkang/)
+원티드랩; [길형진](https://www.instagram.com/orioncactus), [강한빈](https://www.instagram.com/phaelkang)
+
+#### 제작
+
+원티드랩; [길형진](https://www.instagram.com/orioncactus)
+
+#### 기획
+
+원티드랩; [김동휘](https://www.instagram.com/donghuui.kim)
 
 #### 지원 스크립트
 

@@ -37,9 +37,17 @@ To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/READ
 
 ## Credits
 
-#### Original Design
+#### Design
 
-Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus/), [Kang Hanbin](https://www.instagram.com/phaelkang/)
+Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus), [Kang Hanbin](https://www.instagram.com/phaelkang)
+
+#### Manufacture
+
+Wanted Lab, Inc.; [Kil Hyung-jin](https://www.instagram.com/orioncactus)
+
+#### Plan
+
+Wanted Lab, Inc.; [Kim Dong-hwi](https://www.instagram.com/donghuui.kim)
 
 #### Supported Scripts
 
