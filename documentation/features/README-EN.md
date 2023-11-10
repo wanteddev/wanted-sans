@@ -116,6 +116,17 @@ Displays certain characters as ordinals.
 
 Enhances readability of the number 0.
 
+### `salt`: Stylistic Alternates
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7b536082-379b-41f2-a258-5f742eb1e8e8">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/751fe574-5cbb-4f70-ab53-1b95f59a02e4">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b6ee0b2f-74f3-4a04-9dda-607111c84f60">
+	<img width="100%" alt="zero" src="https://github.com/wanteddev/wanted-sans/assets/7247848/5cc87d98-7f8d-480e-88ee-fe475be01c17">
+</picture>
+
+Displays characters in alternates forms.
+
 ### `ss01`: Geometric forms
 
 <picture>

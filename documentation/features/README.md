@@ -116,6 +116,17 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 
 숫자 0에서 판독성을 향상합니다.
 
+### `salt`: 모양 대체
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7b536082-379b-41f2-a258-5f742eb1e8e8">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/751fe574-5cbb-4f70-ab53-1b95f59a02e4">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b6ee0b2f-74f3-4a04-9dda-607111c84f60">
+	<img width="100%" alt="zero" src="https://github.com/wanteddev/wanted-sans/assets/7247848/5cc87d98-7f8d-480e-88ee-fe475be01c17">
+</picture>
+
+문자를 대체 모양으로 나타냅니다.
+
 ### `ss01`: 지오메트릭 모양
 
 <picture>
