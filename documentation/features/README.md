@@ -120,9 +120,9 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 
 <picture>
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/7b536082-379b-41f2-a258-5f742eb1e8e8">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/751fe574-5cbb-4f70-ab53-1b95f59a02e4">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/93e99a01-b354-4431-ac27-07304ae8a92a">
     <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/assets/7247848/b6ee0b2f-74f3-4a04-9dda-607111c84f60">
-	<img width="100%" alt="zero" src="https://github.com/wanteddev/wanted-sans/assets/7247848/5cc87d98-7f8d-480e-88ee-fe475be01c17">
+	<img width="100%" alt="salt" src="https://github.com/wanteddev/wanted-sans/assets/7247848/0767a32c-fbdf-4bb9-a60a-ac1540f7335e">
 </picture>
 
 문자를 대체 모양으로 나타냅니다.
