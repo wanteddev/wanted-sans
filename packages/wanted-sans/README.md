@@ -58,7 +58,7 @@ Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/
 
 #### 지원 스크립트
 
-로마자, 한국 문자
+로마자, 한글
 
 #### 지원 언어
 

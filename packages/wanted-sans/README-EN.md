@@ -62,7 +62,7 @@ Wanted Lab, Inc.; [Kim Dong-hwi](https://www.instagram.com/donghuui.kim)
 
 #### Supported Scripts
 
-Latin, Korean
+Latin, Hangeul
 
 #### Supported Languages
 
