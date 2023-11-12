@@ -6711,11 +6711,11 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Kil Hyung-jin, Kang Hanbin";
+value = "Original Design by Kil Hyung-jin and Kang Hanbin, Wanted Lab, Inc;";
 },
 {
 language = KOR;
-value = "길형진, 강한빈";
+value = "디자인: 길형진 및 강한빈, 원티드랩;";
 }
 );
 },
