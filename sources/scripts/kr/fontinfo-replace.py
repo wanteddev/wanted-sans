@@ -80,7 +80,11 @@ value = "Adobe-Identity-0";
 name = codePageRanges;
 value = (
 "1252",
-"949"
+"1250",
+"1254",
+"1257",
+"949",
+"bit 29"
 );
 '''
 
