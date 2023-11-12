@@ -1008,6 +1008,7 @@ lookup ccmp_Other_1 {
 } ccmp_Other_1;
 
 lookup ccmp_Other_2 {
+	lookupflag 0;
 	@Markscomb = [ogonekcomb];
 	@MarkscombCase = [ogonekcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
@@ -1015,11 +1016,13 @@ lookup ccmp_Other_2 {
 } ccmp_Other_2;
 
 lookup ccmp_Other_3 {
+	lookupflag 0;
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_3;
 
 lookup ccmp_latn_1 {
+	lookupflag 0;
 	sub fi by f i;
 	sub fl by f l;
 } ccmp_latn_1;
