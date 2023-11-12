@@ -182,7 +182,7 @@ value = (
 );
 }
 );
-date = "2023-11-12 15:00:21 +0000";
+date = "2023-11-12 15:00:00 +0000";
 familyName = "Wanted Sans";
 featurePrefixes = (
 {
