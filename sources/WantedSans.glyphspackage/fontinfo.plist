@@ -6722,11 +6722,11 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Kil Hyung-jin, Kang Hanbin";
+value = "Original Design by Kil Hyung-jin and Kang Hanbin, Wanted Lab, Inc; Hangeul from Source Han Sans by Jang Soo-young and Kang Joo-yeon, Sandoll Communications;";
 },
 {
 language = KOR;
-value = "길형진, 강한빈";
+value = "디자인: 길형진 및 강한빈, 원티드랩; 한글: 본고딕, 장수영 및 강주연, 산돌커뮤니케이션;";
 }
 );
 },
@@ -6770,7 +6770,8 @@ values = (
 {
 language = dflt;
 value = "Wanted Sans is a trademark of Wanted Lab, Inc.
-Wanted Logo is a trademark of Wanted Lab, Inc.";
+Wanted Logo is a trademark of Wanted Lab, Inc.
+Source is a trademark of Adobe in the United States and/or other countries.";
 }
 );
 },
