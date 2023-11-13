@@ -15,8 +15,8 @@
 ## 미리보기
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans/dark/preview.svg">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans/light/preview.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans-std/dark/preview.svg">
+    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans-std/light/preview.svg">
 </picture>
 
 ## 특징
