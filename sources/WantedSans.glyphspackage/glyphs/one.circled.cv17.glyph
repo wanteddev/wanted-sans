@@ -12,11 +12,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (624,0);
-ref = one.tag.cv17;
+pos = (626,0);
+ref = _part.symbol.one.cv17;
 }
 );
-width = 1874;
+width = 1878;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -28,7 +28,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (664,0);
-ref = one.tag.cv17;
+ref = _part.symbol.one.cv17;
 }
 );
 width = 1974;

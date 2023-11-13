@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (164,0);
+pos = (166,0);
 }
 );
 background = {
@@ -26,12 +26,12 @@ Bottom = 100;
 Terminal = 100;
 Top = 4;
 };
-pos = (464,-16);
+pos = (468,-16);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 408;
+width = 412;
 },
 {
 anchors = (

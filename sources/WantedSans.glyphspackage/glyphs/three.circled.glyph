@@ -12,11 +12,11 @@ ref = whiteCircle;
 },
 {
 alignment = 1;
-pos = (598,0);
-ref = three.tag;
+pos = (600,0);
+ref = _part.symbol.three;
 }
 );
-width = 1874;
+width = 1878;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -28,7 +28,7 @@ ref = whiteCircle;
 {
 alignment = 1;
 pos = (640,0);
-ref = three.tag;
+ref = _part.symbol.three;
 }
 );
 width = 1974;

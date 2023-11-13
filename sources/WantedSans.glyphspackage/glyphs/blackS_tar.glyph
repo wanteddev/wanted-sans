@@ -6,10 +6,11 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+pos = (2,0);
 ref = iconStarFill.small;
 }
 );
-width = 2050;
+width = 2054;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

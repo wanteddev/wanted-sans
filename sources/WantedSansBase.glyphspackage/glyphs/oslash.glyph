@@ -16,11 +16,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (614,-24);
+pos = (616,-24);
 ref = _smart.diacriticslashlarge;
 }
 );
-width = 1228;
+width = 1232;
 },
 {
 anchors = (

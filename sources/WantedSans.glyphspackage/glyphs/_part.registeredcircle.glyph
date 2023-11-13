@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 export = 0;
 glyphname = _part.registeredcircle;
 layers = (
@@ -113,7 +113,9 @@ width = 85;
 width = 1672;
 }
 );
-note = "# Required RMX Scaler";
+note = "# Required RMX Scaler
+
+# Required adjustment paths";
 userData = {
 RMXScaler = {
 source = whiteCircle;

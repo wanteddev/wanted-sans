@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3227";
 .formatVersion = 3;
 axes = (
 {
@@ -171,7 +171,7 @@ value = (
 );
 }
 );
-date = "2023-10-24 15:00:21 +0000";
+date = "2023-11-12 15:00:00 +0000";
 familyName = "Wanted Sans Std";
 featurePrefixes = (
 {
@@ -199,6 +199,14 @@ code = "lookup LOOKUP_CALT_1 {
 # Ignore aligning lowercase-based glyphs: l_l
 ignore sub @CASE_L' @Lowercase;
 ignore sub @Lowercase @CASE_L';
+
+# Ignore colon alignment with Parenthesis
+@Paren = [
+$[subCategory == \"Parenthesis\"]
+];
+
+ignore sub colon' @Paren;
+ignore sub @Paren colon';
 
 # Cut two more uppercase based glyphs
 ignore sub @CASE_L' @CASE_L;
@@ -265,7 +273,6 @@ sub @EXTRA_STEM_LOWERCASE_L' @Letter @Letter @Letter @Letter @Letter @Letter @Le
 
 lookup LOOKUP_CALT_3 {
 # Align ellipsis with Hangeul
-
 @ELLIPSIS_L = [
 $[colorIndex == 0 and note contains \"$3_CALT\"]
 ];
@@ -281,8 +288,6 @@ $[name beginswith \"parenleft\"]
 @Parenright = [
 $[name beginswith \"parenright\"]
 ];
-
-# Cut ellipsis insides paren
 
 # Cut three more ellipsis glyphs
 ignore sub period @ELLIPSIS_L';
@@ -311,7 +316,6 @@ sub @ELLIPSIS_L' period @Hangeul by @ELLIPSIS_R;
 sub @ELLIPSIS_L' period @Separator @Hangeul by @ELLIPSIS_R;
 sub @ELLIPSIS_L' @ELLIPSIS_L period @Hangeul by @ELLIPSIS_R;
 sub @ELLIPSIS_L' @ELLIPSIS_L period @Separator @Hangeul by @ELLIPSIS_R;
-
 } LOOKUP_CALT_3;
 ";
 name = LOOKUP_CALT;
@@ -340,10 +344,23 @@ sub fl.ss04 by fl.dlig.ss04;
 name = LOOKUP_DLIG;
 },
 {
-code = "lookup LOOKUP_LIGA_1 {
-# Wanted Logo
+code = "lookup LOOKUP_LIGA_CNTXT_1 {
+sub space [multiply multiply.case bar X] space by wantedLogoCombinationMark;
+} LOOKUP_LIGA_CNTXT_1;
+
+
+lookup LOOKUP_LIGA_1 {
+# Wanted logo
 sub w a n t e d underscore l o g o by wantedLogo;
-} LOOKUP_LIGA_1;";
+} LOOKUP_LIGA_1;
+
+lookup LOOKUP_LIGA_2 {
+# Wanted logo combination
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 [multiply multiply.case]' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 bar' space';
+sub wantedLogo space' lookup LOOKUP_LIGA_CNTXT_1 X' space';
+} LOOKUP_LIGA_2;
+";
 name = LOOKUP_LIGA;
 },
 {
@@ -411,6 +428,84 @@ sub @ELLIPSIS_L' @ELLIPSIS_L period by @ELLIPSIS_R;
 } LOOKUP_SS05_2;
 ";
 name = LOOKUP_SS05;
+},
+{
+code = "lookup LOOKUP_CCMP_1 {
+sub enclosingsquarecomb zero by zero.box;
+sub enclosingsquarecomb one by one.box;
+sub enclosingsquarecomb two by two.box;
+sub enclosingsquarecomb three by three.box;
+sub enclosingsquarecomb four by four.box;
+sub enclosingsquarecomb five by five.box;
+sub enclosingsquarecomb six by six.box;
+sub enclosingsquarecomb seven by seven.box;
+sub enclosingsquarecomb eight by eight.box;
+sub enclosingsquarecomb nine by nine.box;
+sub enclosingsquarecomb A by A.box;
+sub enclosingsquarecomb B by B.box;
+sub enclosingsquarecomb C by C.box;
+sub enclosingsquarecomb D by D.box;
+sub enclosingsquarecomb E by E.box;
+sub enclosingsquarecomb F by F.box;
+sub enclosingsquarecomb G by G.box;
+sub enclosingsquarecomb H by H.box;
+sub enclosingsquarecomb I by I.box;
+sub enclosingsquarecomb J by J.box;
+sub enclosingsquarecomb K by K.box;
+sub enclosingsquarecomb L by L.box;
+sub enclosingsquarecomb M by M.box;
+sub enclosingsquarecomb N by N.box;
+sub enclosingsquarecomb O by O.box;
+sub enclosingsquarecomb P by P.box;
+sub enclosingsquarecomb Q by Q.box;
+sub enclosingsquarecomb R by R.box;
+sub enclosingsquarecomb S by S.box;
+sub enclosingsquarecomb T by T.box;
+sub enclosingsquarecomb U by U.box;
+sub enclosingsquarecomb V by V.box;
+sub enclosingsquarecomb W by W.box;
+sub enclosingsquarecomb X by X.box;
+sub enclosingsquarecomb Y by Y.box;
+sub enclosingsquarecomb Z by Z.box;
+sub enclosingcirclecomb zero by zero.circled;
+sub enclosingcirclecomb one by one.circled;
+sub enclosingcirclecomb two by two.circled;
+sub enclosingcirclecomb three by three.circled;
+sub enclosingcirclecomb four by four.circled;
+sub enclosingcirclecomb five by five.circled;
+sub enclosingcirclecomb six by six.circled;
+sub enclosingcirclecomb seven by seven.circled;
+sub enclosingcirclecomb eight by eight.circled;
+sub enclosingcirclecomb nine by nine.circled;
+sub enclosingcirclecomb A by A.circled;
+sub enclosingcirclecomb B by B.circled;
+sub enclosingcirclecomb C by C.circled;
+sub enclosingcirclecomb D by D.circled;
+sub enclosingcirclecomb E by E.circled;
+sub enclosingcirclecomb F by F.circled;
+sub enclosingcirclecomb G by G.circled;
+sub enclosingcirclecomb H by H.circled;
+sub enclosingcirclecomb I by I.circled;
+sub enclosingcirclecomb J by J.circled;
+sub enclosingcirclecomb K by K.circled;
+sub enclosingcirclecomb L by L.circled;
+sub enclosingcirclecomb M by M.circled;
+sub enclosingcirclecomb N by N.circled;
+sub enclosingcirclecomb O by O.circled;
+sub enclosingcirclecomb P by P.circled;
+sub enclosingcirclecomb Q by Q.circled;
+sub enclosingcirclecomb R by R.circled;
+sub enclosingcirclecomb S by S.circled;
+sub enclosingcirclecomb T by T.circled;
+sub enclosingcirclecomb U by U.circled;
+sub enclosingcirclecomb V by V.circled;
+sub enclosingcirclecomb W by W.circled;
+sub enclosingcirclecomb X by X.circled;
+sub enclosingcirclecomb Y by Y.circled;
+sub enclosingcirclecomb Z by Z.circled;
+} LOOKUP_CCMP_1;
+";
+name = LOOKUP_CCMP;
 }
 );
 features = (
@@ -428,6 +523,7 @@ feature pnum;
 feature tnum;
 feature case;
 feature zero;
+feature salt;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -464,37 +560,6 @@ feature cv21;
 feature cv22;
 ";
 tag = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	@Markscomb = [ogonekcomb];
-	@MarkscombCase = [ogonekcomb.case];
-	sub @Markscomb @Markscomb' by @MarkscombCase;
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
-
-lookup ccmp_Other_3 {
-	sub @Markscomb' @MarkscombCase by @MarkscombCase;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
-
-lookup ccmp_latn_1 {
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
-";
-tag = ccmp;
 },
 {
 automatic = 1;
@@ -920,6 +985,43 @@ sub zerosuperior by zerosuperior.zero;
 tag = zero;
 },
 {
+code = "# Manually added code
+lookup LOOKUP_CCMP_1;
+
+# Copy and paste codes below automatically generated feature
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commareversedabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	@Markscomb = [ogonekcomb];
+	@MarkscombCase = [ogonekcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_Other_3 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
 code = "lookup LOOKUP_CALT_1;
 lookup LOOKUP_CALT_2;
 lookup LOOKUP_CALT_3;
@@ -929,6 +1031,7 @@ tag = calt;
 {
 code = "# Duplicated calt due to the web's inability to support Hangeul characters in calt
 lookup LOOKUP_CALT_1;
+lookup LOOKUP_CALT_2;
 lookup LOOKUP_CALT_3;
 ";
 tag = clig;
@@ -942,6 +1045,7 @@ tag = dlig;
 code = "lookupflag IgnoreMarks;
 
 lookup LOOKUP_LIGA_1;
+lookup LOOKUP_LIGA_2;
 ";
 tag = liga;
 },
@@ -973,6 +1077,7 @@ tag = rlig;
 {
 code = "# Automatic Code
 
+# Localize forms
 @L = [
 $[name beginswith 'L' and rightKerningGroup == 'L']
 ];
@@ -992,9 +1097,50 @@ $[name beginswith 'A' and leftKerningGroup == 'A']
 $[name beginswith 'J' and leftKerningGroup == 'J']
 ];
 
-pos @L @Quote' 144 (wght:900) 40 @A;
-pos @L @Quote' 96 (wght:900) 40 @J;";
+pos @L @Quote' 144 (wght:1000) 40 @A;
+pos @L @Quote' 96 (wght:1000) 40 @J;
+
+# Fit Wanted logo combination mark space with letters
+pos wantedLogoCombinationMark -90 @Letter;
+";
 tag = kern;
+},
+{
+code = "# Bring cv03 cv06
+sub a by a.cv03;
+sub aacute by aacute.cv03;
+sub abreve by abreve.cv03;
+sub abrevedotbelow by abrevedotbelow.cv03;
+sub acaron by acaron.cv03;
+sub acircumflex by acircumflex.cv03;
+sub acircumflexdotbelow by acircumflexdotbelow.cv03;
+sub adblgrave by adblgrave.cv03;
+sub adieresis by adieresis.cv03;
+sub adotaccent by adotaccent.cv03;
+sub adotbelow by adotbelow.cv03;
+sub agrave by agrave.cv03;
+sub amacron by amacron.cv03;
+sub aogonek by aogonek.cv03;
+sub aring by aring.cv03;
+sub atilde by atilde.cv03;
+sub aturned by aturned.cv03;
+sub aacute.loclPLK by aacute.loclPLK.cv03;
+sub a.dnom by a.dnom.cv03;
+sub a.numr by a.numr.cv03;
+sub a.subs by a.subs.cv03;
+sub a.sups by a.sups.cv03;
+sub ordfeminine by ordfeminine.cv03;
+sub Q by Q.cv06;
+sub Q.blackCircled by Q.blackCircled.cv06;
+sub Q.box by Q.box.cv06;
+sub Q.roundBlackBox by Q.roundBlackBox.cv06;
+sub Q.blackCircled.bold by Q.blackCircled.bold.cv06;
+sub Q.box.bold by Q.box.bold.cv06;
+sub Q.circled by Q.circled.cv06;
+sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
+sub Q.circled.bold by Q.circled.bold.cv06;
+";
+tag = salt;
 },
 {
 code = "# Bring cv01 cv02 cv04 cv06 cv07 cv08 cv11 cv12 cv13
@@ -1293,7 +1439,7 @@ sub e.sups by e.sups.cv22;
 labels = (
 {
 language = dflt;
-value = "Stylistic forms";
+value = "Unique forms";
 }
 );
 tag = ss03;
@@ -1910,7 +2056,7 @@ tag = cv13;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic 2\";
+	name \"Unique 2\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -1931,7 +2077,7 @@ tag = cv14;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic r\";
+	name \"Unique r\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2066,7 +2212,7 @@ tag = cv18;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic f\";
+	name \"Unique f\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2102,7 +2248,7 @@ tag = cv19;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic g\";
+	name \"Unique g\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2123,7 +2269,7 @@ tag = cv20;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic a\";
+	name \"Unique a\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2155,7 +2301,7 @@ tag = cv21;
 },
 {
 code = "cvParameters { FeatUILabelNameID { 
-	name \"Stylistic e\";
+	name \"Unique e\";
 }; };
 
 # Copy and paste codes below automatically generated feature
@@ -2266,7 +2412,6 @@ pos = -432;
 pos = -494;
 },
 {
-over = -16;
 },
 {
 pos = 760;
@@ -2364,7 +2509,6 @@ pos = -432;
 pos = -494;
 },
 {
-over = -16;
 },
 {
 pos = 760;
@@ -2783,6 +2927,12 @@ m01 = {
 "@MMK_R_jdotless" = 40;
 "@MMK_R_slash" = -64;
 };
+"@MMK_L_H.tag" = {
+"@MMK_R_J.tag" = -13;
+"@MMK_R_O.tag" = -13;
+"@MMK_R_four.tag" = -34;
+"@MMK_R_six.cv11.tag" = -17;
+};
 "@MMK_L_I" = {
 "@MMK_R_slash" = -48;
 };
@@ -2885,6 +3035,7 @@ t.cv02 = -80;
 };
 "@MMK_L_O.tag" = {
 "@MMK_R_A.tag" = -46;
+"@MMK_R_H.tag" = -13;
 "@MMK_R_J.tag" = -13;
 "@MMK_R_T.tag" = -34;
 "@MMK_R_V.tag" = -55;
@@ -2924,6 +3075,7 @@ t.cv02 = -80;
 };
 "@MMK_L_P.tag" = {
 "@MMK_R_A.tag" = -84;
+"@MMK_R_H.tag" = -8;
 "@MMK_R_J.tag" = -76;
 "@MMK_R_T.tag" = -13;
 "@MMK_R_V.tag" = -8;
@@ -4201,10 +4353,10 @@ zero.dnom = 0;
 "@MMK_R_A.tag" = -80;
 "@MMK_R_J.tag" = -82;
 "@MMK_R_O.tag" = -21;
-six.tag = 0;
-six.tag.black = 0;
-zero.tag = 0;
-zero.tag.black = 0;
+_part.symbol.six = 0;
+_part.symbol.six.black = 0;
+_part.symbol.zero = 0;
+_part.symbol.zero.black = 0;
 };
 "@MMK_L_six" = {
 "@MMK_R_A" = -48;
@@ -4246,6 +4398,7 @@ zero.tag.black = 0;
 };
 "@MMK_L_six.cv11.tag" = {
 "@MMK_R_A.tag" = -21;
+"@MMK_R_H.tag" = -13;
 "@MMK_R_T.tag" = -50;
 "@MMK_R_V.tag" = -76;
 "@MMK_R_X.tag" = -38;
@@ -4571,6 +4724,18 @@ zero.dnom = 0;
 "@MMK_R_o" = -136;
 "@MMK_R_s" = -88;
 };
+_part.symbol.nine = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.nine.black = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero.black = {
+"@MMK_R_seven.tag" = 0;
+};
 asterisk = {
 "@MMK_R_asterisk" = 0;
 };
@@ -4596,14 +4761,11 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-nine.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-nine.tag.black = {
-"@MMK_R_seven.tag" = 0;
-};
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
+};
+wantedLogo = {
+wantedLogoCombinationMark = -90;
 };
 zero = {
 "@MMK_R_seven" = 0;
@@ -4611,12 +4773,6 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
-};
-zero.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-zero.tag.black = {
-"@MMK_R_seven.tag" = 0;
 };
 };
 "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61" = {
@@ -4767,6 +4923,11 @@ bracketright = 0;
 "@MMK_R_jdotless" = 48;
 "@MMK_R_slash" = -40;
 };
+"@MMK_L_H.tag" = {
+"@MMK_R_J.tag" = -13;
+"@MMK_R_O.tag" = -9;
+"@MMK_R_six.cv11.tag" = -9;
+};
 "@MMK_L_I" = {
 "@MMK_R_slash" = -80;
 };
@@ -4848,6 +5009,7 @@ t.cv02 = -80;
 };
 "@MMK_L_O.tag" = {
 "@MMK_R_A.tag" = -48;
+"@MMK_R_H.tag" = -4;
 "@MMK_R_S.tag" = -4;
 "@MMK_R_T.tag" = -9;
 "@MMK_R_V.tag" = -66;
@@ -6109,6 +6271,7 @@ bracketleft = 0;
 };
 "@MMK_L_six.cv11.tag" = {
 "@MMK_R_A.tag" = -31;
+"@MMK_R_H.tag" = -9;
 "@MMK_R_T.tag" = -57;
 "@MMK_R_V.tag" = -84;
 "@MMK_R_X.tag" = -57;
@@ -6407,6 +6570,18 @@ _part.percentzero = -64;
 "@MMK_R_o" = -128;
 "@MMK_R_s" = -80;
 };
+_part.symbol.nine = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.nine.black = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero = {
+"@MMK_R_seven.tag" = 0;
+};
+_part.symbol.zero.black = {
+"@MMK_R_seven.tag" = 0;
+};
 braceleft = {
 "@MMK_R_A" = 0;
 };
@@ -6433,17 +6608,14 @@ nine.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
 };
-nine.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-nine.tag.black = {
-"@MMK_R_seven.tag" = 0;
-};
 periodcentered.loclCAT = {
 "@MMK_R_l" = -64;
 };
 periodcentered.loclCAT.case = {
 "@MMK_R_H" = -16;
+};
+wantedLogo = {
+wantedLogoCombinationMark = -90;
 };
 zero = {
 "@MMK_R_seven" = 0;
@@ -6451,12 +6623,6 @@ zero = {
 zero.dnom = {
 "@MMK_R_seven.dnom" = 0;
 "@MMK_R_zero.dnom" = 0;
-};
-zero.tag = {
-"@MMK_R_seven.tag" = 0;
-};
-zero.tag.black = {
-"@MMK_R_seven.tag" = 0;
 };
 };
 };
@@ -6519,28 +6685,6 @@ Reference:
 - Twentieth Century";
 properties = (
 {
-key = designers;
-values = (
-{
-language = dflt;
-value = "Kil Hyung-jin, Kang Hanbin";
-}
-);
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Wanted Lab, Inc.";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "https://wantedlab.com";
-},
-{
 key = copyrights;
 values = (
 {
@@ -6550,13 +6694,64 @@ value = "Copyright © 2023 Wanted Lab, Inc.";
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Wanted Sans is a sans-serif font closely aligned with the Wanted spirit of ‘All possibilities with working people’. With its geometric design and humanist impression, Wanted Sans is easy to read. Suitable for both display and body text, it boasts beautiful and witty character designs, intelligent context recognition, and other useful features.";
+},
+{
+language = KOR;
+value = "Wanted Sans는 ‘일하는 사람들의 모든 가능성’이라는 원티드 정신과 가까이 맞닿은 글꼴입니다. 기하학적인 모양으로 곧은 인상과 함께 읽기 쉬운 형태를 지닌 Wanted Sans는 제목과 본문에서 두루 쓸 수 있으며, 아름답고 재치있는 다양한 문자 모양과 함께, 지능적 문맥 인식 등 유용한 여러 기능을 지원합니다.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Original Design by Kil Hyung-jin and Kang Hanbin, Wanted Lab, Inc;";
+},
+{
+language = KOR;
+value = "디자인: 길형진 및 강한빈, 원티드랩;";
+}
+);
+},
+{
 key = licenses;
 values = (
 {
 language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+language = KOR;
+value = "이 글꼴은 SIL Open Font License 1.1로 배포하고 있습니다. 라이선스에 대한 자세한 내용은 이곳에서 확인할 수 있습니다(영문): https://scripts.sil.org/OFL";
 }
 );
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Wanted Lab, Inc.";
+},
+{
+language = KOR;
+value = "(주)원티드랩";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://wantedlab.com";
 },
 {
 key = trademarks;
@@ -6571,10 +6766,6 @@ Wanted Logo is a trademark of Wanted Lab, Inc.";
 {
 key = vendorID;
 value = WNTD;
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {

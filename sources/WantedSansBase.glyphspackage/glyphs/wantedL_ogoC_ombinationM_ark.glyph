@@ -1,0 +1,49 @@
+{
+category = "SF-Symbol";
+glyphname = wantedLogoCombinationMark;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(932,724,l),
+(0,724,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1028,96,l),
+(1028,1342,l),
+(932,1342,l),
+(932,96,l)
+);
+}
+);
+width = 1960;
+},
+{
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1028,96,l),
+(1028,1342,l),
+(932,1342,l),
+(932,96,l)
+);
+}
+);
+width = 1960;
+}
+);
+subCategory = "";
+unicode = 983043;
+}

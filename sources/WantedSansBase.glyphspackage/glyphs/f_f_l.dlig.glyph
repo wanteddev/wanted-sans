@@ -32,11 +32,11 @@ ref = _smart.fligature;
 piece = {
 Group = 1;
 };
-pos = (1400,0);
+pos = (1404,0);
 ref = l;
 }
 );
-width = 1832;
+width = 1840;
 },
 {
 background = {
@@ -88,11 +88,11 @@ shapes = (
 ref = f_f.dlig;
 },
 {
-pos = (1400,0);
+pos = (1404,0);
 ref = l;
 }
 );
-width = 1832;
+width = 1840;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

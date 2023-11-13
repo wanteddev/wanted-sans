@@ -13,10 +13,10 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (634,0);
-ref = P.tag;
+ref = _part.symbol.P;
 }
 );
-width = 1874;
+width = 1878;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -28,7 +28,7 @@ ref = whiteSquare;
 {
 alignment = 1;
 pos = (678,0);
-ref = P.tag;
+ref = _part.symbol.P;
 }
 );
 width = 1974;

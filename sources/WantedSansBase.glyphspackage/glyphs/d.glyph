@@ -8,23 +8,23 @@ layers = (
 anchors = (
 {
 name = "#exit";
-pos = (1088,0);
+pos = (1090,0);
 },
 {
 name = bottom;
-pos = (610,0);
+pos = (612,0);
 },
 {
 name = center;
-pos = (956,1204);
+pos = (958,1204);
 },
 {
 name = top;
-pos = (610,1448);
+pos = (612,1448);
 },
 {
 name = topright;
-pos = (1088,1448);
+pos = (1090,1448);
 }
 );
 background = {
@@ -62,12 +62,12 @@ nodes = (
 layerId = m01;
 shapes = (
 {
-pos = (1220,0);
+pos = (1224,0);
 ref = b;
 scale = (-1,1);
 }
 );
-width = 1220;
+width = 1224;
 },
 {
 anchors = (

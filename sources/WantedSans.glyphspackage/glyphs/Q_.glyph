@@ -7,15 +7,15 @@ layers = (
 anchors = (
 {
 name = _symbol;
-pos = (844,724);
+pos = (846,724);
 },
 {
 name = bottom;
-pos = (844,0);
+pos = (846,0);
 },
 {
 name = top;
-pos = (844,1448);
+pos = (846,1448);
 }
 );
 background = {
@@ -36,11 +36,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (844,0);
+pos = (846,0);
 ref = _part.Qbase;
 }
 );
-width = 1688;
+width = 1692;
 },
 {
 anchors = (

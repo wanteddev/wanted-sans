@@ -23,17 +23,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1370,0,l),
-(140,0,l),
-(140,1448,l),
-(1370,1448,l)
+(1372,0,l),
+(142,0,l),
+(142,1448,l),
+(1372,1448,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(360,1468,l),
-(140,1468,l)
+(362,1468,l),
+(142,1468,l)
 );
 }
 );
@@ -44,15 +44,15 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (316,0);
+pos = (318,0);
 ref = _part.Nbase;
 },
 {
-pos = (1010,0);
+pos = (1008,0);
 ref = _smart.upperstem;
 }
 );
-width = 1466;
+width = 1468;
 },
 {
 associatedMasterId = m01;

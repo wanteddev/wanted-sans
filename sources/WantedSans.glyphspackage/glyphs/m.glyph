@@ -7,11 +7,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (842,0);
+pos = (844,0);
 },
 {
 name = top;
-pos = (842,1032);
+pos = (844,1032);
 }
 );
 layerId = m01;
@@ -26,7 +26,7 @@ ref = _smart.lowerstem;
 piece = {
 Narrow = 70;
 };
-pos = (300,0);
+pos = (302,0);
 ref = _smart.shoulder;
 },
 {
@@ -34,11 +34,11 @@ piece = {
 Intermediate = 1;
 Narrow = 70;
 };
-pos = (926,0);
+pos = (928,0);
 ref = _smart.shoulder;
 }
 );
-width = 1684;
+width = 1688;
 },
 {
 anchors = (
@@ -89,18 +89,18 @@ ref = _smart.lowerstem;
 piece = {
 Narrow = 50;
 };
-pos = (300,0);
+pos = (302,0);
 ref = _smart.shoulder;
 },
 {
 piece = {
 Narrow = 50;
 };
-pos = (940,0);
+pos = (942,0);
 ref = _smart.shoulder;
 }
 );
-width = 1710;
+width = 1714;
 },
 {
 associatedMasterId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

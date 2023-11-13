@@ -7,17 +7,23 @@ package_path="$script_dir/../../packages"
 wanted_sans_path="$package_path/wanted-sans/fonts"
 wanted_sans_std_path="$package_path/wanted-sans-std/fonts"
 
-echo "Converting Variable to ttx..."
-for fonts_file in "$temp_path"/*VF.ttf; do
+echo "Converting fonts to ttx..."
+for fonts_file in "$temp_path"/*.(ttf|otf); do
     ttx "$fonts_file"
     rm "$fonts_file"
 done
 
+echo "Adding Macintosh Name Table..."
+python3 "$script_dir/namerecord.py"
+
+echo "Fixing Font Creation Date..."
+python3 "$script_dir/date.py"
+
 echo "Adding Suffix from Variable..."
 python3 "$script_dir/rename.py"
 
-echo "Converting Variable to ttf..."
-for fonts_file in "$temp_path"/*VF.ttx; do
+echo "Converting fonts to ttf..."
+for fonts_file in "$temp_path"/*.ttx; do
     ttx "$fonts_file"
     rm "$fonts_file"
 done

@@ -101,7 +101,7 @@ nodes = (
 );
 }
 );
-width = 920;
+width = 922;
 },
 {
 anchors = (
@@ -204,7 +204,7 @@ nodes = (
 );
 }
 );
-width = 920;
+width = 922;
 },
 {
 associatedMasterId = m01;

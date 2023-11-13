@@ -6,15 +6,15 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (252,0);
+pos = (254,0);
 },
 {
 name = bottom;
-pos = (400,0);
+pos = (402,0);
 },
 {
 name = top;
-pos = (400,1950);
+pos = (402,1950);
 }
 );
 layerId = m01;
@@ -36,7 +36,7 @@ pos = (120,0);
 ref = _part.fbase.cv19;
 }
 );
-width = 776;
+width = 780;
 },
 {
 anchors = (
@@ -78,15 +78,15 @@ width = 952;
 anchors = (
 {
 name = "#entry";
-pos = (252,0);
+pos = (254,0);
 },
 {
 name = bottom;
-pos = (400,0);
+pos = (402,0);
 },
 {
 name = top;
-pos = (400,1950);
+pos = (402,1950);
 }
 );
 associatedMasterId = m01;

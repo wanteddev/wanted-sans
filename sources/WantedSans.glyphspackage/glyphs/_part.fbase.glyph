@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = _crossbar;
-pos = (132,1032);
+pos = (134,1032);
 }
 );
 layerId = m01;
@@ -23,7 +23,7 @@ ref = _smart.terminal;
 scale = (1,-1);
 }
 );
-width = 464;
+width = 468;
 },
 {
 anchors = (

@@ -11,15 +11,15 @@ shapes = (
 ref = l.ss04.cv16;
 },
 {
-pos = (292,0);
+pos = (294,0);
 ref = dotbelowcomb;
 },
 {
-pos = (216,480);
+pos = (218,480);
 ref = macroncomb;
 }
 );
-width = 532;
+width = 536;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

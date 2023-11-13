@@ -16,10 +16,10 @@ attr = {
 reversePaths = 1;
 };
 pos = (558,0);
-ref = U.tag.black;
+ref = _part.symbol.U.black;
 }
 );
-width = 1874;
+width = 1878;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
@@ -34,7 +34,7 @@ attr = {
 reversePaths = 1;
 };
 pos = (576,0);
-ref = U.tag.black;
+ref = _part.symbol.U.black;
 }
 );
 width = 1974;

@@ -8,6 +8,7 @@ background = {
 shapes = (
 {
 alignment = 1;
+pos = (2,0);
 ref = bar;
 }
 );
@@ -23,8 +24,8 @@ strokeWidth = 160;
 };
 closed = 0;
 nodes = (
-(220,1448,l),
-(220,648,l)
+(222,1448,l),
+(222,648,l)
 );
 },
 {
@@ -36,12 +37,12 @@ strokeWidth = 160;
 };
 closed = 0;
 nodes = (
-(220,368,l),
-(220,-432,l)
+(222,368,l),
+(222,-432,l)
 );
 }
 );
-width = 440;
+width = 444;
 },
 {
 background = {

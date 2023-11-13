@@ -7,11 +7,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (248,-432);
+pos = (250,-432);
 },
 {
 name = top;
-pos = (248,1032);
+pos = (250,1032);
 }
 );
 layerId = m01;
@@ -21,12 +21,12 @@ piece = {
 Bottom = 103.9;
 Terminal = 100;
 };
-pos = (464,0);
+pos = (468,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 464;
+width = 468;
 },
 {
 associatedMasterId = m01;
@@ -66,12 +66,12 @@ shapes = (
 piece = {
 Bottom = 104;
 };
-pos = (400,0);
+pos = (404,0);
 ref = _smart.terminal;
 scale = (-1,1);
 }
 );
-width = 400;
+width = 404;
 },
 {
 anchors = (

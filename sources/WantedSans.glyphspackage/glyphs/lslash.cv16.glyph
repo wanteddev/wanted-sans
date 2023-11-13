@@ -5,6 +5,15 @@ kernLeft = lslash;
 kernRight = lslash;
 layers = (
 {
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (44,0);
+ref = l;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -13,11 +22,11 @@ pos = (44,0);
 ref = l.cv16;
 },
 {
-pos = (260,220);
+pos = (262,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 536;
+width = 540;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

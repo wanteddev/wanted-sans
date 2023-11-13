@@ -1,5 +1,5 @@
 {
-category = Icon;
+category = "SF-Symbol";
 glyphname = wantedSymbol;
 layers = (
 {
@@ -167,5 +167,6 @@ nodes = (
 width = 2606;
 }
 );
+subCategory = "";
 unicode = 983041;
 }

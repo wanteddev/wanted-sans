@@ -724,7 +724,7 @@ http://scripts.sil.org/OFL
     font-display: swap;
     font-weight: 900;
     src: url("./woff2/WantedSans-Black.split.79.woff2") format("woff2");
-    unicode-range: U+2606, U+300c-300d, U+3131, U+3134, U+3139, U+3141-3142, U+3148, U+3161, U+3163, U+321c, U+4eba, U+5317, U+ac31, U+ac77, U+ac9f, U+acb9, U+acf0-acf1, U+acfd, U+ad73, U+af3d, U+b00c, U+b04a, U+b057, U+b0c4, U+b188, U+b1cc, U+b214, U+b2db, U+b2ee, U+b304, U+b4ed, U+b518, U+b5bc, U+b625, U+b69c-b69d, U+b7ac, U+b801, U+b86c, U+b959, U+b95c, U+b985, U+ba48, U+bb58, U+bc0c, U+bc38, U+bc85, U+bc9a, U+bf40, U+c068, U+c0bd, U+c0cc, U+c12f, U+c149, U+c1e0, U+c22b, U+c22d, U+c250, U+c2fc, U+c300, U+c313, U+c370, U+c3d8, U+c557, U+c580, U+c5e3, U+c62e, U+c634, U+c6f0, U+c74d, U+c783, U+c78e, U+c796, U+c7bc, U+c92c, U+ca4c, U+cc1c, U+cc54, U+cc59, U+ce04, U+cf30, U+cfc4, U+d140, U+d321, U+d38c, U+d399, U+d54f, U+d587, U+d5d0, U+d6e8, U+d770;
+    unicode-range: U+300c-300d, U+3131, U+3134, U+3139, U+3141-3142, U+3148, U+3161, U+3163, U+321c, U+4eba, U+5317, U+ac31, U+ac77, U+ac9f, U+acb9, U+acf0-acf1, U+acfd, U+ad73, U+af3d, U+b00c, U+b04a, U+b057, U+b0c4, U+b188, U+b1cc, U+b214, U+b2db, U+b2ee, U+b304, U+b4ed, U+b518, U+b5bc, U+b625, U+b69c-b69d, U+b7ac, U+b801, U+b86c, U+b959, U+b95c, U+b985, U+ba48, U+bb58, U+bc0c, U+bc38, U+bc85, U+bc9a, U+bf40, U+c068, U+c0bd, U+c0cc, U+c12f, U+c149, U+c1e0, U+c22b, U+c22d, U+c250, U+c2fc, U+c300, U+c313, U+c370, U+c3d8, U+c557, U+c580, U+c5e3, U+c62e, U+c634, U+c6f0, U+c74d, U+c783, U+c78e, U+c796, U+c7bc, U+c92c, U+ca4c, U+cc1c, U+cc54, U+cc59, U+ce04, U+cf30, U+cfc4, U+d140, U+d321, U+d38c, U+d399, U+d54f, U+d587, U+d5d0, U+d6e8, U+d770;
 }
 /* [80] */
 @font-face {
@@ -742,7 +742,7 @@ http://scripts.sil.org/OFL
     font-display: swap;
     font-weight: 900;
     src: url("./woff2/WantedSans-Black.split.81.woff2") format("woff2");
-    unicode-range: U+25c0, U+2605, U+2661, U+3147, U+318d, U+672c, U+8a9e, U+acaa, U+acbc, U+ad1c, U+ae4a, U+ae5c, U+b044, U+b054, U+b0c8-b0c9, U+b2a6, U+b2d0, U+b35c, U+b364, U+b428, U+b454, U+b465, U+b4b7, U+b4e3, U+b51c, U+b5a1, U+b784, U+b790, U+b7ab, U+b7f4, U+b82c, U+b835, U+b8e9, U+b8f8, U+b9d8, U+b9f9, U+ba5c, U+ba64, U+babd, U+bb18, U+bb3b, U+bbff, U+bc0d, U+bc45, U+bc97, U+bcbc, U+be45, U+be75, U+be7c, U+bfcc, U+c0b6, U+c0f7, U+c14b, U+c2b4, U+c30d, U+c4f8, U+c5bb, U+c5d1, U+c5e0, U+c5ee, U+c5fd, U+c606, U+c6c5, U+c6e0, U+c708, U+c81d, U+c820, U+c824, U+c878, U+c918, U+c96c, U+c9e4, U+c9f1, U+cc2e, U+cd09, U+cea1, U+cef5, U+cef7, U+cf64, U+cf69, U+cfe8, U+d035, U+d0ac, U+d230, U+d234, U+d2f4, U+d31d, U+d575, U+d578, U+d608, U+d614, U+d718, U+d751, U+d761, U+d78c, U+d790;
+    unicode-range: U+25c0, U+3147, U+318d, U+672c, U+8a9e, U+acaa, U+acbc, U+ad1c, U+ae4a, U+ae5c, U+b044, U+b054, U+b0c8-b0c9, U+b2a6, U+b2d0, U+b35c, U+b364, U+b428, U+b454, U+b465, U+b4b7, U+b4e3, U+b51c, U+b5a1, U+b784, U+b790, U+b7ab, U+b7f4, U+b82c, U+b835, U+b8e9, U+b8f8, U+b9d8, U+b9f9, U+ba5c, U+ba64, U+babd, U+bb18, U+bb3b, U+bbff, U+bc0d, U+bc45, U+bc97, U+bcbc, U+be45, U+be75, U+be7c, U+bfcc, U+c0b6, U+c0f7, U+c14b, U+c2b4, U+c30d, U+c4f8, U+c5bb, U+c5d1, U+c5e0, U+c5ee, U+c5fd, U+c606, U+c6c5, U+c6e0, U+c708, U+c81d, U+c820, U+c824, U+c878, U+c918, U+c96c, U+c9e4, U+c9f1, U+cc2e, U+cd09, U+cea1, U+cef5, U+cef7, U+cf64, U+cf69, U+cfe8, U+d035, U+d0ac, U+d230, U+d234, U+d2f4, U+d31d, U+d575, U+d578, U+d608, U+d614, U+d718, U+d751, U+d761, U+d78c, U+d790;
 }
 /* [82] */
 @font-face {
@@ -751,7 +751,7 @@ http://scripts.sil.org/OFL
     font-display: swap;
     font-weight: 900;
     src: url("./woff2/WantedSans-Black.split.82.woff2") format("woff2");
-    unicode-range: U+2665, U+3160, U+4e2d, U+6587, U+65e5, U+ac12, U+ac14, U+ac16, U+ac81, U+ad34, U+ade0, U+ae54, U+aebc, U+af2c, U+afc0, U+afc8, U+b04c, U+b08c, U+b099, U+b0a9, U+b0ac, U+b0ae, U+b0b8, U+b123, U+b179, U+b2e5, U+b2f7, U+b4c0, U+b531, U+b538, U+b545, U+b550, U+b5a8, U+b6f0, U+b728, U+b73b, U+b7ad, U+b7ed, U+b809, U+b864, U+b86d, U+b871, U+b9bf, U+b9f5, U+ba40, U+ba4b, U+ba58, U+ba87, U+baac, U+bbc0, U+bc16, U+bc34, U+bd07, U+bd99, U+be59, U+bfd0, U+c058, U+c0e4, U+c0f5, U+c12d, U+c139, U+c228, U+c529, U+c5c7, U+c635, U+c637, U+c735, U+c77d, U+c787, U+c789, U+c8c4, U+c989, U+c98c, U+c9d0, U+c9d3, U+cc0c, U+cc99, U+cd0c, U+cd2c, U+cd98, U+cda4, U+ce59, U+ce60, U+ce6d, U+cea0, U+d0d0-d0d1, U+d0d5, U+d14d, U+d1a4, U+d29c, U+d2f1, U+d301, U+d39c, U+d3bc, U+d4e8, U+d540, U+d5ec, U+d640, U+d750;
+    unicode-range: U+3160, U+4e2d, U+6587, U+65e5, U+ac12, U+ac14, U+ac16, U+ac81, U+ad34, U+ade0, U+ae54, U+aebc, U+af2c, U+afc0, U+afc8, U+b04c, U+b08c, U+b099, U+b0a9, U+b0ac, U+b0ae, U+b0b8, U+b123, U+b179, U+b2e5, U+b2f7, U+b4c0, U+b531, U+b538, U+b545, U+b550, U+b5a8, U+b6f0, U+b728, U+b73b, U+b7ad, U+b7ed, U+b809, U+b864, U+b86d, U+b871, U+b9bf, U+b9f5, U+ba40, U+ba4b, U+ba58, U+ba87, U+baac, U+bbc0, U+bc16, U+bc34, U+bd07, U+bd99, U+be59, U+bfd0, U+c058, U+c0e4, U+c0f5, U+c12d, U+c139, U+c228, U+c529, U+c5c7, U+c635, U+c637, U+c735, U+c77d, U+c787, U+c789, U+c8c4, U+c989, U+c98c, U+c9d0, U+c9d3, U+cc0c, U+cc99, U+cd0c, U+cd2c, U+cd98, U+cda4, U+ce59, U+ce60, U+ce6d, U+cea0, U+d0d0-d0d1, U+d0d5, U+d14d, U+d1a4, U+d29c, U+d2f1, U+d301, U+d39c, U+d3bc, U+d4e8, U+d540, U+d5ec, U+d640, U+d750;
 }
 /* [83] */
 @font-face {

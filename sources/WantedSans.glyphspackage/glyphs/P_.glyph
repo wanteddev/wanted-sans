@@ -7,15 +7,15 @@ layers = (
 anchors = (
 {
 name = _symbol;
-pos = (556,724);
+pos = (558,724);
 },
 {
 name = bottom;
-pos = (596,0);
+pos = (598,0);
 },
 {
 name = top;
-pos = (596,1448);
+pos = (598,1448);
 }
 );
 layerId = m01;
@@ -24,11 +24,11 @@ shapes = (
 ref = _smart.upperstem;
 },
 {
-pos = (316,0);
+pos = (318,0);
 ref = _smart.Pbase;
 }
 );
-width = 1192;
+width = 1196;
 },
 {
 anchors = (

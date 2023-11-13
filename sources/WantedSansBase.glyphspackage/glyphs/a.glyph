@@ -7,21 +7,21 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (632,0);
+pos = (634,0);
 },
 {
 name = ogonek;
-pos = (920,0);
+pos = (922,0);
 },
 {
 name = top;
-pos = (632,1032);
+pos = (634,1032);
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (920,0);
+pos = (922,0);
 ref = _smart.bowl;
 scale = (-1,1);
 },
@@ -29,12 +29,12 @@ scale = (-1,1);
 piece = {
 Cross = 1;
 };
-pos = (1220,0);
+pos = (1224,0);
 ref = _smart.lowerstem;
 scale = (-1,1);
 }
 );
-width = 1220;
+width = 1224;
 },
 {
 anchors = (

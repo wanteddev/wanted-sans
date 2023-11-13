@@ -10,11 +10,11 @@ shapes = (
 ref = _part.questionbase.cv13;
 },
 {
-pos = (504,0);
+pos = (506,0);
 ref = _smart.dot;
 }
 );
-width = 1072;
+width = 1076;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

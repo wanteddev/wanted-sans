@@ -4,14 +4,12 @@ kernLeft = slash;
 kernRight = slash;
 layers = (
 {
-layerId = m01;
-metricLeft = "=0";
-metricRight = "=|";
+background = {
 shapes = (
 {
 attr = {
-lineCapEnd = 4;
-lineCapStart = 4;
+lineCapEnd = "4";
+lineCapStart = "4";
 strokeWidth = 164;
 };
 closed = 0;
@@ -21,12 +19,25 @@ nodes = (
 );
 }
 );
-width = 602;
-},
-{
-layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+};
+layerId = m01;
 metricLeft = "=0";
 metricRight = "=|";
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,-432,l),
+(600,1448,l),
+(432,1448,l),
+(0,-432,l)
+);
+}
+);
+width = 600;
+},
+{
+background = {
 shapes = (
 {
 attr = {
@@ -38,6 +49,21 @@ closed = 0;
 nodes = (
 (570,1448,l),
 (180,-432,l)
+);
+}
+);
+};
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+metricLeft = "=0";
+metricRight = "=|";
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,-432,l),
+(750,1448,l),
+(390,1448,l),
+(0,-432,l)
 );
 }
 );

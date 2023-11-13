@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (644,1448);
+pos = (646,1448);
 }
 );
 background = {
@@ -18,14 +18,14 @@ strokeWidth = 164;
 };
 closed = 0;
 nodes = (
-(84,1448,l),
-(1204,1448,l)
+(86,1448,l),
+(1206,1448,l)
 );
 }
 );
 };
 layerId = m01;
-metricLeft = "=I*.6";
+metricLeft = "=I*.605";
 metricRight = "=|";
 shapes = (
 {
@@ -34,14 +34,14 @@ strokePos = "0";
 };
 closed = 1;
 nodes = (
-(1204,1284,l),
-(1204,1448,l),
-(84,1448,l),
-(84,1284,l)
+(1206,1284,l),
+(1206,1448,l),
+(86,1448,l),
+(86,1284,l)
 );
 }
 );
-width = 1288;
+width = 1292;
 },
 {
 anchors = (

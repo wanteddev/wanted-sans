@@ -61,12 +61,12 @@ Cap = 0;
 Cross = 1;
 Descender = 100;
 };
-pos = (1062,0);
+pos = (1064,0);
 ref = _smart.lowerstem;
 scale = (-1,1);
 }
 );
-width = 1062;
+width = 1064;
 },
 {
 anchors = (

@@ -13,11 +13,11 @@ ref = U;
 piece = {
 Width = 32;
 };
-pos = (700,0);
+pos = (702,0);
 ref = _smart.ogonek;
 }
 );
-width = 1384;
+width = 1388;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";

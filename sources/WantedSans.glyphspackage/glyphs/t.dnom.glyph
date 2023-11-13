@@ -7,16 +7,17 @@ layers = (
 {
 guides = (
 {
+pos = (4,0);
 },
 {
-pos = (0,632);
+pos = (4,632);
 }
 );
 layerId = m01;
 shapes = (
 {
 attr = {
-identifier = ID0x1664b6880;
+identifier = ID0x295ba2760;
 strokePos = "0";
 };
 closed = 1;
@@ -40,8 +41,8 @@ nodes = (
 (312,112,o),
 (284,142,o),
 (284,206,cs),
-(284,776,l),
-(150,776,l),
+(284,788,l),
+(150,788,l),
 (150,200,ls),
 (150,66,o),
 (224,-16,o),
@@ -62,16 +63,17 @@ width = 494;
 {
 guides = (
 {
+pos = (4,0);
 },
 {
-pos = (0,696);
+pos = (4,696);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
 attr = {
-identifier = ID0x1664b7670;
+identifier = ID0x290250560;
 strokePos = "0";
 };
 closed = 1;
@@ -95,8 +97,8 @@ nodes = (
 (420,210,o),
 (396,234,o),
 (396,294,cs),
-(396,858,l),
-(156,858,l),
+(396,864,l),
+(156,864,l),
 (156,280,ls),
 (156,86,o),
 (250,-16,o),

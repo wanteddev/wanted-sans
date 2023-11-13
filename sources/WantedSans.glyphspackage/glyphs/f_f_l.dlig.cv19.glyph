@@ -36,11 +36,11 @@ ref = _smart.fligature.cv19;
 piece = {
 Group = 1;
 };
-pos = (1400,0);
+pos = (1404,0);
 ref = l;
 }
 );
-width = 1832;
+width = 1840;
 },
 {
 background = {

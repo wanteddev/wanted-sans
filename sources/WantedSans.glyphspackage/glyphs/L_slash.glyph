@@ -13,8 +13,8 @@ ref = lslash;
 {
 closed = 0;
 nodes = (
-(706,0,l),
-(706,1448,l)
+(708,0,l),
+(708,1448,l)
 );
 }
 );
@@ -31,11 +31,11 @@ ref = L;
 piece = {
 L = 1;
 };
-pos = (272,220);
+pos = (274,220);
 ref = _smart.diacriticslashsmall;
 }
 );
-width = 1140;
+width = 1144;
 },
 {
 background = {

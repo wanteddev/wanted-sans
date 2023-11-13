@@ -1,0 +1,131 @@
+{
+color = 3;
+export = 0;
+glyphname = _part.symbol.T.black;
+kernLeft = T.tag;
+kernRight = T.tag;
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (418,344);
+},
+{
+name = _symbol;
+pos = (348,724);
+},
+{
+name = bottom;
+pos = (348,344);
+},
+{
+name = center;
+pos = (348,724);
+},
+{
+name = top;
+pos = (348,1104);
+}
+);
+layerId = m01;
+shapes = (
+{
+attr = {
+identifier = ID0x15f67d670;
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(650,974,l),
+(650,1104,l),
+(46,1104,l),
+(46,974,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(418,344,l),
+(418,1104,l),
+(278,1104,l),
+(278,344,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 52.5;
+verticalShift = 344;
+weight = -72;
+width = 52.5;
+};
+};
+width = 696;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (488,326);
+},
+{
+name = _symbol;
+pos = (380,724);
+},
+{
+name = bottom;
+pos = (380,326);
+},
+{
+name = center;
+pos = (380,724);
+},
+{
+name = top;
+pos = (380,1122);
+}
+);
+layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
+shapes = (
+{
+attr = {
+identifier = ID0x15f6cba40;
+strokePos = "0";
+};
+closed = 1;
+nodes = (
+(708,918,l),
+(708,1122,l),
+(52,1122,l),
+(52,918,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(488,326,l),
+(488,1122,l),
+(272,1122,l),
+(272,326,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 55;
+verticalShift = 326;
+weight = -480;
+width = 55;
+};
+};
+width = 760;
+}
+);
+note = "# Required RMX Scaler";
+userData = {
+RMXScaler = {
+source = T;
+};
+};
+}

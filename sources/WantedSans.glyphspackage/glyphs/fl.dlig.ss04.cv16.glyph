@@ -11,11 +11,11 @@ shapes = (
 ref = _smart.fligature;
 },
 {
-pos = (776,0);
+pos = (780,0);
 ref = l.ss04.cv16;
 }
 );
-width = 1308;
+width = 1316;
 },
 {
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
