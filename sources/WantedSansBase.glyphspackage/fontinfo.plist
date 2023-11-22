@@ -2345,7 +2345,7 @@ value = R;
 },
 {
 name = typoAscender;
-value = 1950;
+value = 1752;
 },
 {
 name = hheaAscender;
@@ -2357,7 +2357,7 @@ value = 1950;
 },
 {
 name = typoDescender;
-value = -494;
+value = -296;
 },
 {
 name = hheaDescender;
@@ -2442,7 +2442,7 @@ value = B;
 },
 {
 name = typoAscender;
-value = 1950;
+value = 1752;
 },
 {
 name = hheaAscender;
@@ -2454,7 +2454,7 @@ value = 1950;
 },
 {
 name = typoDescender;
-value = -494;
+value = -296;
 },
 {
 name = hheaDescender;
