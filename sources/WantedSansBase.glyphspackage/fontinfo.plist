@@ -2392,6 +2392,18 @@ name = hheaLineGap;
 value = 0;
 }
 );
+guides = (
+{
+locked = 1;
+name = "Low Center";
+pos = (0,516);
+},
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,724);
+}
+);
 id = m01;
 metricValues = (
 {
@@ -2416,12 +2428,6 @@ pos = -432;
 pos = -494;
 },
 {
-},
-{
-pos = 760;
-},
-{
-pos = 540;
 }
 );
 name = Regular;
@@ -2489,6 +2495,18 @@ name = hheaLineGap;
 value = 0;
 }
 );
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,724);
+},
+{
+locked = 1;
+name = "Low Center";
+pos = (0,516);
+}
+);
 id = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricValues = (
 {
@@ -2513,12 +2531,6 @@ pos = -432;
 pos = -494;
 },
 {
-},
-{
-pos = 760;
-},
-{
-pos = 540;
 }
 );
 name = ExtraBlack;
@@ -6651,12 +6663,6 @@ name = Bottom;
 },
 {
 type = "italic angle";
-},
-{
-name = "Cap Center";
-},
-{
-name = "Low Center";
 }
 );
 note = "About:
