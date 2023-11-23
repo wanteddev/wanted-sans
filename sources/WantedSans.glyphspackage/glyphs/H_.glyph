@@ -39,6 +39,12 @@ nodes = (
 }
 );
 };
+guides = (
+{
+name = "Cap Optical Center";
+pos = (0,760);
+}
+);
 layerId = m01;
 metricRight = "=|H";
 shapes = (
@@ -92,6 +98,12 @@ nodes = (
 }
 );
 };
+guides = (
+{
+name = "Cap Optical Center";
+pos = (0,760);
+}
+);
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricRight = "=|H";
 shapes = (

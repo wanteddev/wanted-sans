@@ -22,6 +22,12 @@ name = top;
 pos = (604,1448);
 }
 );
+guides = (
+{
+name = "Cap Optical Center";
+pos = (0,760);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -54,6 +60,12 @@ pos = (364,476);
 {
 name = top;
 pos = (664,1448);
+}
+);
+guides = (
+{
+name = "Cap Optical Center";
+pos = (0,760);
 }
 );
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
