@@ -34,4 +34,4 @@ for suffix, file_replacements in zip(file_suffixes, file_name_list):
     for file_name in file_names:
         full_path = os.path.join(folder_path, file_name)
         process_file(full_path, file_replacements)
-        print(f"Fixed: {full_path}")
+        print(f"Fixed: {file_name}")
