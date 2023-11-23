@@ -1159,6 +1159,7 @@ sub Q.box.bold by Q.box.bold.cv06;
 sub Q.circled by Q.circled.cv06;
 sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
 sub Q.circled.bold by Q.circled.bold.cv06;
+# End Bring
 ";
 tag = salt;
 },
