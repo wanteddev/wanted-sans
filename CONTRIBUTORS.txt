@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+Yoon Minseok <alstjr7375@daum.net>
+Ryu Junsang <email@jsryu.dev>
