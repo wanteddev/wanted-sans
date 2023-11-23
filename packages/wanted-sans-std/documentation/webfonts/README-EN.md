@@ -20,14 +20,14 @@ To swiftly and efficiently use Wanted Sans Std with varying weights while only d
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css");
 ```
 
 ## Standard Dynamic Subset
@@ -38,14 +38,14 @@ For compatibility with older browsers while maintaining a fast and smooth experi
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preolad" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
+<link rel="preolad" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css");
 ```
 
 ## Standard Webfonts
@@ -56,14 +56,14 @@ To use Wanted Sans Std with all its features, use the code below. The font-famil
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css");
 ```
 
 ## Variable Webfonts
@@ -74,12 +74,12 @@ To use Wanted Sans Std with all its features, including variable weight properti
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.0/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css");
 ```
