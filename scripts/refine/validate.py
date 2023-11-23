@@ -16,7 +16,7 @@ def process_file(file_path, replacements):
 
 
 file_suffixes = [
-    '-', 'Std-', 'VF', 'StdVF'
+    '-', 'Std-'
 ]
 
 file_name_list = [
@@ -25,12 +25,6 @@ file_name_list = [
     },
     {
         'Â©': '\(c\)'
-    },
-    {
-        '<maxComponentDepth value="4"/>': '<maxComponentDepth value="5"/>'
-    },
-    {
-        '<maxComponentDepth value="4"/>': '<maxComponentDepth value="5"/>'
     }
 ]
 
