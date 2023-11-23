@@ -76,7 +76,7 @@ def process_all_ttx_files(folder_path):
         if file_name.startswith('WantedSans') and file_name.endswith('.ttx'):
             file_path = os.path.join(folder_path, file_name)
             modify_and_insert_namerecords(file_path)
-            print(f"Processed: {file_name}")
+            print(f"Nametable Updated: {file_name}")
 
 
 # Set script path and target file path

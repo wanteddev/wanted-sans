@@ -19,7 +19,7 @@ file_suffixes = [
     'VF', 'StdVF'
 ]
 
-file_replacements_list = [
+file_name_list = [
     {
         'WantedSans': 'WantedSansVariable',
         'Wanted Sans': 'Wanted Sans Variable'
@@ -30,6 +30,7 @@ file_replacements_list = [
     }
 ]
 
-for suffix, file_replacements in zip(file_suffixes, file_replacements_list):
+for suffix, file_name in zip(file_suffixes, file_name_list):
     file_path = os.path.join(folder_path, f'WantedSans{suffix}.ttx')
-    process_file(file_path, file_replacements)
+    process_file(file_path, file_name)
+    print(f"Renamed: {file_name}")
