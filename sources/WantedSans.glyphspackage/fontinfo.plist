@@ -184,9 +184,13 @@ value = (
 "949",
 "bit 29"
 );
+},
+{
+name = "Use Typo Metrics";
+value = 0;
 }
 );
-date = "2023-11-12 15:00:00 +0000";
+date = "2023-11-26 15:00:00 +0000";
 familyName = "Wanted Sans";
 featurePrefixes = (
 {
@@ -521,6 +525,46 @@ sub enclosingcirclecomb Z by Z.circled;
 } LOOKUP_CCMP_1;
 ";
 name = LOOKUP_CCMP;
+},
+{
+code = "lookup LOOKUP_KERN_1_1 {
+# Localize forms
+@L = [
+$[name beginswith 'L' and rightKerningGroup == 'L']
+];
+
+@Quote = [
+quotedblleft
+quotedblright
+quoteleft
+quoteright
+];
+
+@A = [
+$[name beginswith 'A' and leftKerningGroup == 'A']
+];
+
+@J = [
+$[name beginswith 'J' and leftKerningGroup == 'J']
+];
+} LOOKUP_KERN_1_1;
+
+lookup LOOKUP_KERN_2 {
+# Fit Wanted logo combination mark space with letters
+pos wantedLogoCombinationMark -90 @Letter;
+} LOOKUP_KERN_2;
+";
+name = LOOKUP_KERN;
+},
+{
+code = "lookup LOOKUP_KERN_1_2 {
+#ifdef VARIABLE
+pos @L @Quote' 140 (wght:1000) 24 @A;
+pos @L @Quote' 92 (wght:1000) 24 @J;
+#endif
+} LOOKUP_KERN_1_2;
+";
+name = LOOKUP_KERN_INSTANCE;
 }
 );
 features = (
@@ -1066,7 +1110,6 @@ tag = liga;
 },
 {
 code = "#ifdef VARIABLE
-
 # Fix overlap and swap alternates issue from filled glyphs
 @RLIG_L = [
 Q.roundBlackBox
@@ -1084,7 +1127,6 @@ Q.circled.bold
 
 condition 650 < wght;
 sub @RLIG_L by @RLIG_R;
-
 #endif
 ";
 tag = rlig;
@@ -1092,31 +1134,9 @@ tag = rlig;
 {
 code = "# Automatic Code
 
-# Localize forms
-@L = [
-$[name beginswith 'L' and rightKerningGroup == 'L']
-];
-
-@Quote = [
-quotedblleft
-quotedblright
-quoteleft
-quoteright
-];
-
-@A = [
-$[name beginswith 'A' and leftKerningGroup == 'A']
-];
-
-@J = [
-$[name beginswith 'J' and leftKerningGroup == 'J']
-];
-
-pos @L @Quote' 144 (wght:1000) 40 @A;
-pos @L @Quote' 96 (wght:1000) 40 @J;
-
-# Fit Wanted logo combination mark space with letters
-pos wantedLogoCombinationMark -90 @Letter;
+lookup LOOKUP_KERN_1_1;
+lookup LOOKUP_KERN_1_2;
+lookup LOOKUP_KERN_2;
 ";
 tag = kern;
 },
@@ -1154,6 +1174,7 @@ sub Q.box.bold by Q.box.bold.cv06;
 sub Q.circled by Q.circled.cv06;
 sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
 sub Q.circled.bold by Q.circled.bold.cv06;
+# End Bring
 ";
 tag = salt;
 },
@@ -2356,7 +2377,7 @@ value = R;
 },
 {
 name = typoAscender;
-value = 1950;
+value = 1752;
 },
 {
 name = hheaAscender;
@@ -2368,7 +2389,7 @@ value = 1950;
 },
 {
 name = typoDescender;
-value = -494;
+value = -296;
 },
 {
 name = hheaDescender;
@@ -2403,6 +2424,18 @@ name = hheaLineGap;
 value = 0;
 }
 );
+guides = (
+{
+locked = 1;
+name = "Low Center";
+pos = (0,516);
+},
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,724);
+}
+);
 id = m01;
 metricValues = (
 {
@@ -2427,12 +2460,6 @@ pos = -432;
 pos = -494;
 },
 {
-},
-{
-pos = 760;
-},
-{
-pos = 540;
 }
 );
 name = Regular;
@@ -2453,7 +2480,7 @@ value = B;
 },
 {
 name = typoAscender;
-value = 1950;
+value = 1752;
 },
 {
 name = hheaAscender;
@@ -2465,7 +2492,7 @@ value = 1950;
 },
 {
 name = typoDescender;
-value = -494;
+value = -296;
 },
 {
 name = hheaDescender;
@@ -2500,6 +2527,18 @@ name = hheaLineGap;
 value = 0;
 }
 );
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,724);
+},
+{
+locked = 1;
+name = "Low Center";
+pos = (0,516);
+}
+);
 id = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 metricValues = (
 {
@@ -2524,12 +2563,6 @@ pos = -432;
 pos = -494;
 },
 {
-},
-{
-pos = 760;
-},
-{
-pos = 540;
 }
 );
 name = ExtraBlack;
@@ -2559,6 +2592,10 @@ value = (
 0,
 0
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 140 @A;\012pos @L @Quote' 92 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -2585,6 +2622,10 @@ value = (
 0,
 0
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 120 @A;\012pos @L @Quote' 80 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -2613,6 +2654,10 @@ value = (
 0,
 0
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 100 @A;\012pos @L @Quote' 68 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -2650,6 +2695,10 @@ value = (
 "Q.box=Q.box.bold",
 "Q.circled=Q.circled.bold"
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 82 @A;\012pos @L @Quote' 58 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -2688,6 +2737,10 @@ value = (
 "Q.box=Q.box.bold",
 "Q.circled=Q.circled.bold"
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 62 @A;\012pos @L @Quote' 46 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -2725,6 +2778,10 @@ value = (
 "Q.box=Q.box.bold",
 "Q.circled=Q.circled.bold"
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 42 @A;\012pos @L @Quote' 34 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -2762,6 +2819,10 @@ value = (
 "Q.box=Q.box.bold",
 "Q.circled=Q.circled.bold"
 );
+},
+{
+name = "Replace Prefix";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 24 @A;\012pos @L @Quote' 24 @J;\012} LOOKUP_KERN_1_2;\012";
 }
 );
 instanceInterpolations = {
@@ -6662,12 +6723,6 @@ name = Bottom;
 },
 {
 type = "italic angle";
-},
-{
-name = "Cap Center";
-},
-{
-name = "Low Center";
 }
 );
 note = "About:
@@ -6815,5 +6870,5 @@ tH = "140";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }

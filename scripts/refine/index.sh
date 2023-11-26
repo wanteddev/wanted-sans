@@ -19,6 +19,9 @@ python3 "$script_dir/namerecord.py"
 echo "Fixing Font Creation Date..."
 python3 "$script_dir/date.py"
 
+echo "Fixing Unintended strings..."
+python3 "$script_dir/validate.py"
+
 echo "Adding Suffix from Variable..."
 python3 "$script_dir/rename.py"
 
