@@ -175,7 +175,7 @@ name = "Use Typo Metrics";
 value = 0;
 }
 );
-date = "2023-11-26 15:00:00 +0000";
+date = "2024-02-04 15:00:00 +0000";
 familyName = "Wanted Sans Std";
 featurePrefixes = (
 {
@@ -6744,7 +6744,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2023 Wanted Lab, Inc.";
+value = "Copyright © 2024 Wanted Lab, Inc.";
 }
 );
 },
@@ -6854,5 +6854,5 @@ tH = "140";
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
