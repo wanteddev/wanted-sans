@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.eight.black;
-kernLeft = eight.tag;
-kernRight = eight.tag;
+kernLeft = _part.symbol.eight;
+kernRight = _part.symbol.eight;
 layers = (
 {
 anchors = (
@@ -17,6 +17,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(502,330,o),
+(626,424,o),
+(626,554,cs),
+(626,674,o),
+(520,764,o),
+(336,764,c),
+(470,726,l),
+(470,764,l),
+(336,726,l),
 (494,726,o),
 (590,798,o),
 (590,912,cs),
@@ -37,16 +46,7 @@ nodes = (
 (48,554,cs),
 (48,424,o),
 (172,330,o),
-(336,330,cs),
-(502,330,o),
-(626,424,o),
-(626,554,cs),
-(626,674,o),
-(520,764,o),
-(336,764,c),
-(470,726,l),
-(470,764,l),
-(336,726,l)
+(336,330,cs)
 );
 },
 {
@@ -106,6 +106,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(556,310,o),
+(694,404,o),
+(694,544,cs),
+(694,678,o),
+(568,768,o),
+(364,768,c),
+(534,718,l),
+(534,768,l),
+(364,718,l),
 (552,718,o),
 (670,798,o),
 (670,922,cs),
@@ -126,16 +135,7 @@ nodes = (
 (34,544,cs),
 (34,404,o),
 (172,310,o),
-(364,310,cs),
-(556,310,o),
-(694,404,o),
-(694,544,cs),
-(694,678,o),
-(568,768,o),
-(364,768,c),
-(534,718,l),
-(534,768,l),
-(364,718,l)
+(364,310,cs)
 );
 },
 {
@@ -184,8 +184,8 @@ width = 55;
 width = 728;
 }
 );
-metricLeft = zero.tag;
-metricRight = zero.tag;
+metricLeft = _part.symbol.zero;
+metricRight = _part.symbol.zero;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

@@ -24,9 +24,9 @@ ref = u.cv04;
 },
 {
 piece = {
-Width = -16;
+Width = -24;
 };
-pos = (464,0);
+pos = (466,0);
 ref = _smart.ogonek;
 }
 );

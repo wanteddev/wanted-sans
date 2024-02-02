@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.I;
-kernLeft = H.tag;
-kernRight = H.tag;
+kernLeft = _part.symbol.H;
+kernRight = _part.symbol.H;
 layers = (
 {
 anchors = (
@@ -120,8 +120,8 @@ width = 50;
 width = 332;
 }
 );
-metricLeft = H.tag;
-metricRight = H.tag;
+metricLeft = _part.symbol.H;
+metricRight = _part.symbol.H;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
