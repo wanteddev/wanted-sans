@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.six.black.cv11;
-kernLeft = six.cv11.tag;
-kernRight = six.cv11.tag;
+kernLeft = _part.symbol.six.cv11;
+kernRight = _part.symbol.six.cv11;
 layers = (
 {
 anchors = (

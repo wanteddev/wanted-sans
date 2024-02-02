@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.four.black;
-kernLeft = four.tag;
-kernRight = four.tag;
+kernLeft = _part.symbol.four;
+kernRight = _part.symbol.four;
 layers = (
 {
 anchors = (

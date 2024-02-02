@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.V.black;
-kernLeft = V.tag;
-kernRight = V.tag;
+kernLeft = _part.symbol.V;
+kernRight = _part.symbol.V;
 layers = (
 {
 anchors = (
@@ -104,8 +104,8 @@ width = 55;
 width = 866;
 }
 );
-metricLeft = A.tag;
-metricRight = A.tag;
+metricLeft = _part.symbol.A;
+metricRight = _part.symbol.A;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.four.cv10;
-kernLeft = four.tag;
-kernRight = four.tag;
+kernLeft = _part.symbol.four;
+kernRight = _part.symbol.four;
 layers = (
 {
 anchors = (
@@ -96,8 +96,8 @@ width = 50;
 width = 726;
 }
 );
-metricLeft = four.tag;
-metricRight = four.tag;
+metricLeft = _part.symbol.four;
+metricRight = _part.symbol.four;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

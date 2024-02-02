@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.eight.black;
-kernLeft = eight.tag;
-kernRight = eight.tag;
+kernLeft = _part.symbol.eight;
+kernRight = _part.symbol.eight;
 layers = (
 {
 anchors = (
@@ -184,8 +184,8 @@ width = 55;
 width = 744;
 }
 );
-metricLeft = zero.tag;
-metricRight = zero.tag;
+metricLeft = _part.symbol.zero;
+metricRight = _part.symbol.zero;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {
