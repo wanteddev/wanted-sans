@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.one.black.cv07.cv17;
-kernLeft = two.tag;
-kernRight = two.tag;
+kernLeft = _part.symbol.two;
+kernRight = _part.symbol.two;
 layers = (
 {
 anchors = (

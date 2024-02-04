@@ -6,7 +6,7 @@ runs:
   steps:
     - name: node cache
       id: node-cache
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           .yarn/cache

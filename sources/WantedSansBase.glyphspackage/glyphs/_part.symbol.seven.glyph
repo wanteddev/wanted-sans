@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.seven;
-kernLeft = seven.tag;
-kernRight = seven.tag;
+kernLeft = _part.symbol.seven;
+kernRight = _part.symbol.seven;
 layers = (
 {
 anchors = (

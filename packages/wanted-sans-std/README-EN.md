@@ -10,7 +10,7 @@ You can use Latin-only version of Wanted Sans.
 
 ## Family
 
--   [**Wanted Sans Std**](/packages/wanted-sans/README-EN.md): Hangeul-supported version of Wanted Sans.
+-   [**Wanted Sans**](/packages/wanted-sans/README-EN.md): Hangeul-supported version of Wanted Sans.
 
 ## Preview
 
@@ -30,10 +30,6 @@ To explore all OpenType features, visit [**here**](/documentation/features/READM
 ## Webfonts
 
 To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/README-EN.md).
-
-## Family
-
--   [**Wanted Sans Std**](/packages/wanted-sans/README-EN.md): Hangeul-supported version of Wanted Sans.
 
 ## Credits
 

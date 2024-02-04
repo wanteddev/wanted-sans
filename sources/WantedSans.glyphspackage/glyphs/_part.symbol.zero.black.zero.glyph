@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.zero.black.zero;
-kernLeft = O.tag;
-kernRight = O.tag;
+kernLeft = _part.symbol.O;
+kernRight = _part.symbol.O;
 layers = (
 {
 anchors = (

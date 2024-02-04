@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.six.black;
-kernLeft = O.tag;
-kernRight = six.tag;
+kernLeft = _part.symbol.O;
+kernRight = _part.symbol.six;
 layers = (
 {
 anchors = (
@@ -146,8 +146,8 @@ width = 55;
 width = 728;
 }
 );
-metricLeft = zero.tag;
-metricRight = zero.tag;
+metricLeft = _part.symbol.zero;
+metricRight = _part.symbol.zero;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

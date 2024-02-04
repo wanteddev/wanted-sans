@@ -12,6 +12,11 @@ ref = plus;
 }
 );
 };
+guides = (
+{
+pos = (0,20);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -27,7 +32,7 @@ piece = {
 Condensed = 0;
 Height = 520;
 };
-pos = (844,20);
+pos = (842,20);
 ref = _smart.upperstem;
 }
 );

@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.five;
-kernLeft = five.tag;
-kernRight = five.tag;
+kernLeft = _part.symbol.five;
+kernRight = _part.symbol.five;
 layers = (
 {
 anchors = (
@@ -140,8 +140,8 @@ width = 50;
 width = 682;
 }
 );
-metricLeft = zero.tag;
-metricRight = zero.tag;
+metricLeft = _part.symbol.zero;
+metricRight = _part.symbol.zero;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

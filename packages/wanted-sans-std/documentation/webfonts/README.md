@@ -20,14 +20,14 @@ font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, Blink
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css");
 ```
 
 ## 일반 동적 서브셋
@@ -38,14 +38,14 @@ font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, Blink
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preolad" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
+<link rel="preolad" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/static/split/WantedSansStd.min.css");
 ```
 
 ## 일반 웹폰트
@@ -56,14 +56,14 @@ font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, Blink
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/static/complete/WantedSansStd.min.css");
 ```
 
 ## 가변 웹폰트
@@ -74,12 +74,12 @@ font-family: "Wanted Sans Std Variable", "Wanted Sans Std", -apple-system, Blink
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css" />
 ```
 
 #### CSS
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans-std/fonts/webfonts/variable/complete/WantedSansStdVariable.min.css");
 ```

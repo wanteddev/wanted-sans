@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.seven.black.cv12;
-kernLeft = seven.tag;
-kernRight = seven.tag;
+kernLeft = _part.symbol.seven;
+kernRight = _part.symbol.seven;
 layers = (
 {
 anchors = (
@@ -93,8 +93,8 @@ width = 55;
 width = 688;
 }
 );
-metricLeft = seven.tag;
-metricRight = seven.tag;
+metricLeft = _part.symbol.seven;
+metricRight = _part.symbol.seven;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

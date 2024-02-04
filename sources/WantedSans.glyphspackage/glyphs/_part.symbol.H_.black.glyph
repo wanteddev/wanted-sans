@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.H.black;
-kernLeft = H.tag;
-kernRight = H.tag;
+kernLeft = _part.symbol.H;
+kernRight = _part.symbol.H;
 layers = (
 {
 anchors = (

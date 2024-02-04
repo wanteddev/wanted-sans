@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.two.black.cv08;
-kernLeft = two.tag;
-kernRight = two.tag;
+kernLeft = _part.symbol.two;
+kernRight = _part.symbol.two;
 layers = (
 {
 anchors = (
@@ -110,8 +110,8 @@ width = 55;
 width = 704;
 }
 );
-metricLeft = two.tag;
-metricRight = two.tag;
+metricLeft = _part.symbol.two;
+metricRight = _part.symbol.two;
 note = "# Required RMX Scaler";
 userData = {
 RMXScaler = {

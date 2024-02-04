@@ -2,8 +2,8 @@
 color = 3;
 export = 0;
 glyphname = _part.symbol.nine.cv11;
-kernLeft = nine.cv11.tag;
-kernRight = nine.cv11.tag;
+kernLeft = _part.symbol.nine.cv11;
+kernRight = _part.symbol.nine.cv11;
 layers = (
 {
 anchors = (
