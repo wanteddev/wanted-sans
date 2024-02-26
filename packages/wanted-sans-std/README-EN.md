@@ -29,7 +29,7 @@ To explore all OpenType features, visit [**here**](/documentation/features/READM
 
 ## Webfonts
 
-To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/README-EN.md).
+To use Wanted Sans as a web font, visit [**here**](/documentation/webfonts/wanted-sans-std/README-EN.md).
 
 ## Credits
 

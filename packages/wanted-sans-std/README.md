@@ -29,7 +29,7 @@ Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https:
 
 ## 웹폰트
 
-[**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans-std/documentation/webfonts/README.md)에서 웹폰트 문서를 확인하실 수 있습니다.
+[**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/webfonts/wanted-sans-std/README.md)에서 웹폰트 문서를 확인하실 수 있습니다.
 
 ## 크레딧
 
