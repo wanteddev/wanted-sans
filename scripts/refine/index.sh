@@ -22,8 +22,10 @@ python3 "$script_dir/date.py"
 echo "Fixing Unintended strings..."
 python3 "$script_dir/validate.py"
 
-echo "Adding Suffix from Variable..."
-python3 "$script_dir/rename.py"
+if find "$temp_path" -type f -name '*VF.ttx' -print -quit | grep -q '.'; then
+    echo "Adding Suffix from Variable..."
+    python3 "$script_dir/rename.py"
+fi
 
 echo "Converting fonts to ttf..."
 for fonts_file in "$temp_path"/*.ttx; do
@@ -31,10 +33,11 @@ for fonts_file in "$temp_path"/*.ttx; do
     rm "$fonts_file"
 done
 
-echo "Fixing Variable file name..."
-for fonts_file in "$temp_path"/*VF.ttf; do
+find "$temp_path" -type f -name '*VF.ttf' -print0 | while IFS= read -r -d '' fonts_file; do
+    echo "Fixing Variable file name..."
     mv "$fonts_file" "${fonts_file/VF/Variable}"
 done
+
 
 echo "Moving files to appropriate directories..."
 for fonts_file in "$temp_path"/*; do
