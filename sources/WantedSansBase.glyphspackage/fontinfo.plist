@@ -1709,8 +1709,8 @@ value = "High legibility";
 tag = ss06;
 },
 {
-code = "# Duplicate salt for application lacking support for specific OpenType feature
-# Bring cv03 cv06
+code = "# Duplicate cv03 for application lacking support for specific OpenType feature
+# Bring cv03
 sub a by a.cv03;
 sub aacute by aacute.cv03;
 sub abreve by abreve.cv03;
@@ -1734,21 +1734,12 @@ sub a.numr by a.numr.cv03;
 sub a.subs by a.subs.cv03;
 sub a.sups by a.sups.cv03;
 sub ordfeminine by ordfeminine.cv03;
-sub Q by Q.cv06;
-sub Q.blackCircled by Q.blackCircled.cv06;
-sub Q.box by Q.box.cv06;
-sub Q.roundBlackBox by Q.roundBlackBox.cv06;
-sub Q.blackCircled.bold by Q.blackCircled.bold.cv06;
-sub Q.box.bold by Q.box.bold.cv06;
-sub Q.circled by Q.circled.cv06;
-sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
-sub Q.circled.bold by Q.circled.bold.cv06;
 # End Bring
 ";
 labels = (
 {
 language = dflt;
-value = "Stylistic alternates";
+value = "Double-storey a";
 }
 );
 tag = ss07;
@@ -1777,6 +1768,28 @@ value = "Double-storey 3";
 }
 );
 tag = ss08;
+},
+{
+code = "# Duplicate cv06 for application lacking support for specific OpenType feature
+# Bring cv06
+sub Q by Q.cv06;
+sub Q.blackCircled by Q.blackCircled.cv06;
+sub Q.box by Q.box.cv06;
+sub Q.roundBlackBox by Q.roundBlackBox.cv06;
+sub Q.blackCircled.bold by Q.blackCircled.bold.cv06;
+sub Q.box.bold by Q.box.bold.cv06;
+sub Q.circled by Q.circled.cv06;
+sub Q.roundBlackBox.bold by Q.roundBlackBox.bold.cv06;
+sub Q.circled.bold by Q.circled.bold.cv06;
+# End Bring
+";
+labels = (
+{
+language = dflt;
+value = "Geometric Q";
+}
+);
+tag = ss09;
 },
 {
 code = "sub @SYMBOL_SMALL by @SYMBOL_MEDIUM;
