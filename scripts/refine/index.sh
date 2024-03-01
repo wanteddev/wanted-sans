@@ -27,7 +27,7 @@ if find "$temp_path" -type f -name '*VF.ttx' -print -quit | grep -q '.'; then
     python3 "$script_dir/rename.py"
 fi
 
-echo "Converting fonts to ttf..."
+echo "Converting fonts..."
 for fonts_file in "$temp_path"/*.ttx; do
     ttx "$fonts_file"
     rm "$fonts_file"
