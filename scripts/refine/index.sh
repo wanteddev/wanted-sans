@@ -33,11 +33,12 @@ for fonts_file in "$temp_path"/*.ttx; do
     rm "$fonts_file"
 done
 
-find "$temp_path" -type f -name '*VF.ttf' -print0 | while IFS= read -r -d '' fonts_file; do
+if find "$temp_path" -type f -name '*VF.ttf' | read; then
     echo "Fixing Variable file name..."
-    mv "$fonts_file" "${fonts_file/VF/Variable}"
-done
-
+    find "$temp_path" -type f -name '*VF.ttf' -print0 | while IFS= read -r -d '' fonts_file; do
+        mv "$fonts_file" "${fonts_file/VF/Variable}"
+    done
+fi
 
 echo "Moving files to appropriate directories..."
 for fonts_file in "$temp_path"/*; do
