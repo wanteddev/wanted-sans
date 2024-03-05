@@ -36,7 +36,7 @@ Wanted Sans에 대한 자세한 이야기를 확인하려면 [**이곳**](https:
 
 ## 웹폰트
 
-Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/webfonts/wanted-sans/README.md)으로 이동하세요.
+Wanted Sans를 웹폰트로 쓰려면 [**이곳**](https://github.com/wanteddev/wanted-sans/blob/HEAD/packages/wanted-sans/documentation/webfonts/README.md)으로 이동하세요.
 
 ## 크레딧
 
