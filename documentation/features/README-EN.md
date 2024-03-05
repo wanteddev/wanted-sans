@@ -193,6 +193,39 @@ Adjusts characters to fit Korean aesthetics.
 
 Enhances legibility by presenting characters in forms that provide clearer distinctions between them.
 
+### `ss07`: Double storey a
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss07.svg">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/dark/ss07.svg">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/light/ss07.svg">
+	<img width="100%" alt="ss07" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/ss07.svg">
+</picture>
+
+Displays a in a two storey form for readability.
+
+### `ss08`: Double storey three
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss08.svg">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/dark/ss08.svg">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/light/ss08.svg">
+	<img width="100%" alt="ss08" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/ss08.svg">
+</picture>
+
+Displays 3 in a two storey form for legibility.
+
+### `ss09`: Geometric Q
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss09.svg">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/dark/ss09.svg">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/light/ss09.svg">
+	<img width="100%" alt="ss09" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/ss09.svg">
+</picture>
+
+Displays Q in geometric form.
+
 ### `ss11`: Outlined symbol
 
 <picture>

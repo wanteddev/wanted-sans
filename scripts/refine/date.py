@@ -30,4 +30,4 @@ def modify_created_and_modified_values_in_directory(relative_directory, new_valu
 
 # 사용 예시
 modify_created_and_modified_values_in_directory(
-    'temp', 'Sun Feb  4 15:00:00 2024')
+    'temp', 'Sun Mar  3 15:00:00 2024')

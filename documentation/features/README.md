@@ -193,6 +193,39 @@ Wanted Sans에서 사용할 수 있는 기능을 안내합니다.
 
 문자를 서로 확실히 구분하는 모양으로 나타냅니다.
 
+### `ss07`: 이층 구조 a
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss07.svg">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/dark/ss07.svg">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/light/ss07.svg">
+	<img width="100%" alt="ss07" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/ss07.svg">
+</picture>
+
+본문 상황에 적합하도록 a 모양을 이층 구조로 나타냅니다.
+
+### `ss08`: 이층 구조 3
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss08.svg">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/dark/ss08.svg">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/light/ss08.svg">
+	<img width="100%" alt="ss08" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/ss08.svg">
+</picture>
+
+모양 구분이 명확하도록 3 모양을 이층 구조로 나타냅니다.
+
+### `ss09`: 기하학적인 Q
+
+<picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss09.svg">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/dark/ss09.svg">
+    <source media="(max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/light/ss09.svg">
+	<img width="100%" alt="ss09" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/ss09.svg">
+</picture>
+
+Q 모양을 기하학적으로 나타냅니다.
+
 ### `ss11`: 외곽선 심벌
 
 <picture>
