@@ -38,7 +38,7 @@ font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSyste
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-<link rel="preolad" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/split/WantedSans.min.css" />
+<link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/split/WantedSans.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/split/WantedSans.min.css" />
 ```
 
