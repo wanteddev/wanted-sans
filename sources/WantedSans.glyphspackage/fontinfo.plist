@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3307";
 .formatVersion = 3;
 axes = (
 {
@@ -2678,7 +2678,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 140 @A;\012pos @L @Quote' 92 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 140 @A;
+pos @L @Quote' 92 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {
@@ -2708,7 +2712,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 120 @A;\012pos @L @Quote' 80 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 120 @A;
+pos @L @Quote' 80 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {
@@ -2740,7 +2748,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 100 @A;\012pos @L @Quote' 68 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 100 @A;
+pos @L @Quote' 68 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {
@@ -2781,7 +2793,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 82 @A;\012pos @L @Quote' 58 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 82 @A;
+pos @L @Quote' 58 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {
@@ -2823,7 +2839,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 62 @A;\012pos @L @Quote' 46 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 62 @A;
+pos @L @Quote' 46 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {
@@ -2864,7 +2884,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 42 @A;\012pos @L @Quote' 34 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 42 @A;
+pos @L @Quote' 34 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {
@@ -2905,7 +2929,11 @@ value = (
 },
 {
 name = "Replace Prefix";
-value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {\012pos @L @Quote' 24 @A;\012pos @L @Quote' 24 @J;\012} LOOKUP_KERN_1_2;\012";
+value = "LOOKUP_KERN_INSTANCE;lookup LOOKUP_KERN_1_2 {
+pos @L @Quote' 24 @A;
+pos @L @Quote' 24 @J;
+} LOOKUP_KERN_1_2;
+";
 }
 );
 instanceInterpolations = {

@@ -75,7 +75,7 @@ name = _baseline;
 annotations = (
 {
 pos = (34.382,305.633);
-text = /1.1;
+text = "/1.1";
 type = Text;
 }
 );
@@ -116,7 +116,7 @@ name = _baseline;
 annotations = (
 {
 pos = (105.575,492.62);
-text = /1.05;
+text = "/1.05";
 type = Text;
 }
 );
