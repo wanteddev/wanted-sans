@@ -19,16 +19,19 @@ ref = l;
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 piece = {
 ff = 1;
 };
 ref = _smart.fligature;
 },
 {
+alignment = -1;
 pos = (624,0);
 ref = _smart.fligature;
 },
 {
+alignment = -1;
 piece = {
 Group = 1;
 };
@@ -57,12 +60,14 @@ ref = l;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+alignment = -1;
 piece = {
 ff = 1;
 };
 ref = _smart.fligature;
 },
 {
+alignment = -1;
 piece = {
 Group = 1;
 };
@@ -70,6 +75,7 @@ pos = (808,0);
 ref = _smart.fligature;
 },
 {
+alignment = -1;
 piece = {
 Group = 1;
 };

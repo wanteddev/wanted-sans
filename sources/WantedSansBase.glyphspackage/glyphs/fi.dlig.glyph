@@ -14,9 +14,11 @@ ref = fi;
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = _smart.fligature;
 },
 {
+alignment = -1;
 pos = (780,0);
 ref = i;
 }
@@ -34,9 +36,11 @@ ref = fi;
 layerId = "94F54C43-8AEE-4ED6-B3C2-2A9D33534E61";
 shapes = (
 {
+alignment = -1;
 ref = _smart.fligature;
 },
 {
+alignment = -1;
 pos = (952,0);
 ref = i;
 }
@@ -49,6 +53,7 @@ layerId = "31680968-A770-4C62-9ED3-A4389A9BB17B";
 name = Original;
 shapes = (
 {
+alignment = -1;
 ref = fi;
 }
 );
@@ -60,6 +65,7 @@ layerId = "092C578A-FE2C-4788-926B-A723B257DDA2";
 name = Original;
 shapes = (
 {
+alignment = -1;
 ref = fi;
 }
 );
