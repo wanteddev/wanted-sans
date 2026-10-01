@@ -125,7 +125,7 @@ Enhances readability of the number 0.
 	<img width="100%" alt="salt" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/desktop/light/salt.svg">
 </picture>
 
-Displays characters in alternates forms.
+Displays characters in alternate forms.
 
 ### `ss01`: Geometric forms
 
@@ -171,7 +171,7 @@ Presents characters in a playful manner.
 
 Improves the readability of ascenders.
 
-### `ss05`: Korea localization
+### `ss05`: Korean localization
 
 <picture>
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/features/mobile/dark/ss05.svg">

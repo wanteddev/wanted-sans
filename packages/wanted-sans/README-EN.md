@@ -23,7 +23,7 @@ Wanted Sans can consistently convey potential in various environments. It suppor
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans/dark/preview.svg">
-    <img width="100%" alt="Wanted Sans 미리보기" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans/light/preview.svg">
+    <img width="100%" alt="Wanted Sans Preview" src="https://github.com/wanteddev/wanted-sans/blob/HEAD/documentation/images/wanted-sans/light/preview.svg">
 </picture>
 
 ## Concept
@@ -37,10 +37,6 @@ To explore all OpenType features, visit [**here**](/documentation/features/READM
 ## Webfonts
 
 To use Wanted Sans as a web font, visit [**here**](./documentation/webfonts/README-EN.md).
-
-## Family
-
--   [**Wanted Sans Std**](/packages/wanted-sans-std/README-EN.md): Latin-only version of Wanted Sans.
 
 ## Credits
 
